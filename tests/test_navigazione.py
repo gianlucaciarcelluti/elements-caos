@@ -142,3 +142,123 @@ def test_attribuzioni_elenca_le_licenze() -> None:
     assert "Joseph Wright of Derby" in risultato
     assert "PD-old-100-expired" in risultato
     assert "commons.wikimedia.org" in risultato
+
+
+def test_cronologia_collega_tavola_e_attribuzioni() -> None:
+    """La cronologia, spina dorsale del vault, irradia verso le altre pagine indice.
+
+    Senza questi collegamenti, ``Tavola periodica`` e ``Attribuzioni`` non
+    sarebbero raggiungibili da nessun'altra pagina di navigazione generata da
+    questo modulo: isole nel grafo, trovabili solo nel file-explorer.
+    """
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+
+    risultato = rendi_cronologia(_elementi(), epoche, [], _scopritori())
+
+    assert "[[Tavola periodica]]" in risultato
+    assert "[[Attribuzioni]]" in risultato
+
+
+def test_cronologia_collega_l_epoca_con_un_wikilink() -> None:
+    """L'intestazione dell'epoca nella cronologia è un wikilink, non solo testo.
+
+    Senza il wikilink la pagina dell'epoca sarebbe raggiungibile solo "in
+    discesa" dalle note dei singoli elementi, mai dagli indici: esattamente
+    la percorribilità che questo task deve creare.
+    """
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+
+    risultato = rendi_cronologia(_elementi(), epoche, [], _scopritori())
+
+    assert "[[Alchimia e primo moderno]]" in risultato
+
+
+def test_cronologia_collega_lo_scopritore_con_un_wikilink() -> None:
+    """La colonna scopritore della cronologia contiene un wikilink al suo nome."""
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+
+    risultato = rendi_cronologia(_elementi(), epoche, [], _scopritori())
+
+    assert "[[Hennig Brand]]" in risultato
+
+
+def test_epoca_collega_lo_scopritore_con_un_wikilink() -> None:
+    """La colonna scopritore della tabella di un'epoca contiene un wikilink."""
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+
+    risultato = rendi_epoca(epoche["alchimia"], _elementi(), _scopritori())
+
+    assert "[[Hennig Brand]]" in risultato
+
+
+def test_scopritore_non_produce_un_autowikilink_verso_se_stesso() -> None:
+    """La pagina di uno scopritore non deve linkare se stessa nella sua tabella.
+
+    ``_voci`` è condivisa con ``rendi_cronologia``/``rendi_epoca``, dove il
+    nome dello scopritore va wikilinkato: qui invece il nome coincide con il
+    titolo della pagina corrente, e un wikilink sarebbe un auto-riferimento.
+    """
+    scopritori = _scopritori()
+
+    risultato = rendi_scopritore(scopritori["hennig-brand"], _elementi(), scopritori)
+
+    assert "[[Hennig Brand]]" not in risultato
+
+
+def test_voci_elemento_senza_scopritori_non_produce_wikilink_ignoto() -> None:
+    """Un elemento senza scopritori mostra 'ignoto' come testo, non come wikilink.
+
+    Un wikilink verso una nota inesistente (``[[ignoto]]``) sarebbe un
+    collegamento rotto: il caso va distinto da quello con scopritori noti.
+    """
+    from elements_caos.models import Categoria, Elemento, Proprieta, Scoperta
+    from elements_caos.render.navigazione import _voci
+
+    elemento_senza_scopritori = Elemento(
+        numero_atomico=26,
+        simbolo="Fe",
+        nome="Ferro",
+        nome_en="Iron",
+        scoperta=Scoperta(
+            anno=-3000,
+            anno_stimato=True,
+            scopritori=[],
+            epoca="antichita",
+        ),
+        proprieta=Proprieta(
+            gruppo=8,
+            periodo=4,
+            blocco="d",
+            categoria=Categoria.METALLO_DI_TRANSIZIONE,
+            massa_atomica=55.845,
+            configurazione_elettronica="[Ar] 3d6 4s2",
+            gusci=[2, 8, 14, 2],
+            stati_ossidazione=[2, 3],
+        ),
+        approfondimento=False,
+        fonti=[],
+    )
+
+    voci = _voci([elemento_senza_scopritori], _scopritori())
+
+    assert voci[0].scopritori == "ignoto"
+    assert "[[ignoto]]" not in voci[0].scopritori
+
+
+def test_attribuzioni_senza_ritratti_mostra_messaggio_esplicito() -> None:
+    """Se nessuno scopritore ha un ritratto, la pagina mostra un messaggio.
+
+    Coerente con lo stile di ``epoca.md.j2`` e ``scopritore.md.j2``, che in
+    casi analoghi (nessun elemento/nessuna scoperta) mostrano un messaggio
+    esplicito invece di una tabella vuota con la sola intestazione.
+    """
+    from elements_caos.models import Scopritore
+
+    scopritori_senza_ritratto = {
+        "senza-ritratto": Scopritore(id="senza-ritratto", nome="Anonimo"),
+    }
+
+    risultato = rendi_attribuzioni(scopritori_senza_ritratto)
+
+    assert "Nessuna immagine" in risultato
+    assert "| Anonimo |" not in risultato

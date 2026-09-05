@@ -31,30 +31,56 @@ class GruppoEpoca:
     voci: list[VoceElemento]
 
 
+def _wikilink_scopritori(
+    elemento: Elemento,
+    scopritori: dict[str, Scopritore],
+    escludi: str | None,
+) -> str:
+    """Risolve gli id degli scopritori di un elemento in wikilink ai loro nomi.
+
+    È l'unico punto del modulo che risolve ``elemento.scoperta.scopritori`` in
+    testo per una cella di tabella: nessun'altra funzione duplica questa
+    logica. Due eccezioni deliberate non producono un wikilink:
+
+    - l'id in ``escludi`` (il titolo della pagina corrente in
+      ``rendi_scopritore``: linkarlo sarebbe un auto-riferimento a se stessa);
+    - il caso senza scopritori noti, dove il testo resta "ignoto" anziché
+      diventare ``[[ignoto]]``, un wikilink verso una nota inesistente.
+    """
+    nomi = [
+        f"[[{scopritori[identificativo].nome}]]"
+        if identificativo != escludi
+        else scopritori[identificativo].nome
+        for identificativo in elemento.scoperta.scopritori
+        if identificativo in scopritori
+    ]
+    return ", ".join(nomi) or "ignoto"
+
+
 def _voci(
     elementi: list[Elemento],
     scopritori: dict[str, Scopritore],
-    scostamento: int = 0,
+    posizioni: dict[int, int] | None = None,
+    escludi: str | None = None,
 ) -> list[VoceElemento]:
     """Costruisce le righe di tabella per gli elementi indicati.
 
-    Risolve gli id di ``elemento.scoperta.scopritori`` nei nomi propri tramite
-    il dizionario ``scopritori`` (Task 3): è l'unico punto che fa questa
-    risoluzione, per non doverla ripetere in ogni funzione che compone una
-    tabella di navigazione.
+    ``posizioni`` mappa il numero atomico alla posizione nell'ordine
+    cronologico globale (usata da ``rendi_cronologia``, dove la numerazione
+    deve restare quella dell'intero vault anche dentro il raggruppamento per
+    epoca); se assente, la posizione è l'indice locale nella lista ricevuta
+    (adeguato per le tabelle di un'epoca o di uno scopritore, che non
+    dichiarano una posizione globale). ``escludi`` è propagato a
+    ``_wikilink_scopritori`` per evitare l'auto-wikilink di uno scopritore
+    verso la propria pagina.
     """
     return [
         VoceElemento(
-            posizione=indice + scostamento,
+            posizione=(posizioni[elemento.numero_atomico] if posizioni is not None else indice),
             anno=formatta_anno(elemento.scoperta.anno),
             nome=elemento.nome,
             simbolo=elemento.simbolo,
-            scopritori=", ".join(
-                scopritori[identificativo].nome
-                for identificativo in elemento.scoperta.scopritori
-                if identificativo in scopritori
-            )
-            or "ignoto",
+            scopritori=_wikilink_scopritori(elemento, scopritori, escludi),
         )
         for indice, elemento in enumerate(elementi, start=1)
     ]
@@ -79,22 +105,9 @@ def rendi_cronologia(
         della_epoca = [e for e in cronologia if e.scoperta.epoca == identificativo]
         if not della_epoca:
             continue
-        voci = [
-            VoceElemento(
-                posizione=posizioni[elemento.numero_atomico],
-                anno=formatta_anno(elemento.scoperta.anno),
-                nome=elemento.nome,
-                simbolo=elemento.simbolo,
-                scopritori=", ".join(
-                    scopritori[identificativo].nome
-                    for identificativo in elemento.scoperta.scopritori
-                    if identificativo in scopritori
-                )
-                or "ignoto",
-            )
-            for elemento in della_epoca
-        ]
-        gruppi.append(GruppoEpoca(epoca=epoca, voci=voci))
+        gruppi.append(
+            GruppoEpoca(epoca=epoca, voci=_voci(della_epoca, scopritori, posizioni=posizioni))
+        )
 
     modello = ambiente_template().get_template("cronologia.md.j2")
     return modello.render(totale=len(elementi), tappe=tappe, gruppi=gruppi)
@@ -113,7 +126,9 @@ def rendi_scopritore(
     """Genera la nota di uno scopritore, con i suoi elementi e il suo ritratto."""
     suoi = ordina_per_scoperta([e for e in elementi if scopritore.id in e.scoperta.scopritori])
     modello = ambiente_template().get_template("scopritore.md.j2")
-    return modello.render(scopritore=scopritore, voci=_voci(suoi, scopritori))
+    return modello.render(
+        scopritore=scopritore, voci=_voci(suoi, scopritori, escludi=scopritore.id)
+    )
 
 
 def rendi_tavola(elementi: list[Elemento], scopritori: dict[str, Scopritore]) -> str:
@@ -154,6 +169,16 @@ def rendi_attribuzioni(scopritori: dict[str, Scopritore]) -> str:
     Le immagini sono tutte in pubblico dominio o CC0 e non richiederebbero
     attribuzione: la si fornisce comunque come buona pratica verso chi riusa.
     """
+    righe_tabella = []
+    for scopritore in sorted(scopritori.values(), key=lambda s: s.nome):
+        if scopritore.ritratto is None:
+            continue
+        ritratto = scopritore.ritratto
+        righe_tabella.append(
+            f"| {scopritore.nome} | {ritratto.autore} | {ritratto.licenza} "
+            f"| [{ritratto.file}]({ritratto.fonte}) |"
+        )
+
     righe = [
         "---",
         "titolo: Attribuzioni",
@@ -167,17 +192,13 @@ def rendi_attribuzioni(scopritori: dict[str, Scopritore]) -> str:
         "L'attribuzione qui riportata non è dovuta per licenza: è una cortesia",
         "verso gli autori e verso chi vorrà riusare questo materiale.",
         "",
-        "| Immagine | Autore | Licenza | Fonte |",
-        "|---|---|---|---|",
     ]
 
-    for scopritore in sorted(scopritori.values(), key=lambda s: s.nome):
-        if scopritore.ritratto is None:
-            continue
-        ritratto = scopritore.ritratto
-        righe.append(
-            f"| {scopritore.nome} | {ritratto.autore} | {ritratto.licenza} "
-            f"| [{ritratto.file}]({ritratto.fonte}) |"
-        )
+    if righe_tabella:
+        righe.append("| Immagine | Autore | Licenza | Fonte |")
+        righe.append("|---|---|---|---|")
+        righe.extend(righe_tabella)
+    else:
+        righe.append("*Nessuna immagine con attribuzione registrata.*")
 
     return "\n".join(righe) + "\n"
