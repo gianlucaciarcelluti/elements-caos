@@ -89,13 +89,22 @@ def test_carica_scopritori_file_vuoto_solleva_errore(tmp_path: Path) -> None:
         carica_scopritori(file_vuoto)
 
 
-def test_carica_scopritori_struttura_sbagliata_solleva_errore(tmp_path: Path) -> None:
+def test_carica_scopritori_mapping_solleva_errore_struttura(tmp_path: Path) -> None:
     """Un file YAML con mapping invece di lista deve produrre un ErroreCaricamento."""
     file_mapping = tmp_path / "scopritori-mapping.yaml"
     file_mapping.write_text("id: test\nnome: Test\n", encoding="utf-8")
 
-    with pytest.raises(ErroreCaricamento, match="scopritori-mapping.yaml"):
+    with pytest.raises(ErroreCaricamento, match="atteso un elenco.*scopritori-mapping.yaml.*dict"):
         carica_scopritori(file_mapping)
+
+
+def test_carica_scopritori_lista_scalari_solleva_errore_validazione(tmp_path: Path) -> None:
+    """Una lista di scalari deve fallire nella validazione Pydantic."""
+    file_scalari = tmp_path / "scopritori-scalari.yaml"
+    file_scalari.write_text("- 1\n- 2\n", encoding="utf-8")
+
+    with pytest.raises(ErroreCaricamento, match="dati non validi.*scopritori-scalari.yaml"):
+        carica_scopritori(file_scalari)
 
 
 def test_carica_epoche_file_vuoto_solleva_errore(tmp_path: Path) -> None:
@@ -107,13 +116,22 @@ def test_carica_epoche_file_vuoto_solleva_errore(tmp_path: Path) -> None:
         carica_epoche(file_vuoto)
 
 
-def test_carica_epoche_struttura_sbagliata_solleva_errore(tmp_path: Path) -> None:
+def test_carica_epoche_mapping_solleva_errore_struttura(tmp_path: Path) -> None:
     """Un file YAML con mapping invece di lista deve produrre un ErroreCaricamento."""
     file_mapping = tmp_path / "epoche-mapping.yaml"
     file_mapping.write_text("id: test\nnome: Test\n", encoding="utf-8")
 
-    with pytest.raises(ErroreCaricamento, match="epoche-mapping.yaml"):
+    with pytest.raises(ErroreCaricamento, match="atteso un elenco.*epoche-mapping.yaml.*dict"):
         carica_epoche(file_mapping)
+
+
+def test_carica_epoche_lista_scalari_solleva_errore_validazione(tmp_path: Path) -> None:
+    """Una lista di scalari deve fallire nella validazione Pydantic."""
+    file_scalari = tmp_path / "epoche-scalari.yaml"
+    file_scalari.write_text("- 1\n- 2\n", encoding="utf-8")
+
+    with pytest.raises(ErroreCaricamento, match="dati non validi.*epoche-scalari.yaml"):
+        carica_epoche(file_scalari)
 
 
 def test_ordina_per_scoperta_usa_anno_poi_numero_atomico() -> None:

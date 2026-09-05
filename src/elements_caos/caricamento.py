@@ -49,9 +49,12 @@ def carica_elementi(cartella: Path) -> list[Elemento]:
 def carica_scopritori(percorso: Path) -> dict[str, Scopritore]:
     """Carica l'anagrafica degli scopritori, indicizzata per identificativo."""
     dati = _leggi_yaml(percorso)
+    if not isinstance(dati, list):
+        tipo = "vuoto" if dati is None else type(dati).__name__
+        raise ErroreCaricamento(f"atteso un elenco in {percorso.name}, trovato {tipo}")
     try:
         scopritori = [Scopritore.model_validate(voce) for voce in dati]
-    except (ValidationError, TypeError) as errore:
+    except ValidationError as errore:
         raise ErroreCaricamento(f"dati non validi in {percorso.name}: {errore}") from errore
     return {scopritore.id: scopritore for scopritore in scopritori}
 
@@ -59,9 +62,12 @@ def carica_scopritori(percorso: Path) -> dict[str, Scopritore]:
 def carica_epoche(percorso: Path) -> dict[str, Epoca]:
     """Carica la definizione delle epoche storiche, indicizzata per identificativo."""
     dati = _leggi_yaml(percorso)
+    if not isinstance(dati, list):
+        tipo = "vuoto" if dati is None else type(dati).__name__
+        raise ErroreCaricamento(f"atteso un elenco in {percorso.name}, trovato {tipo}")
     try:
         epoche = [Epoca.model_validate(voce) for voce in dati]
-    except (ValidationError, TypeError) as errore:
+    except ValidationError as errore:
         raise ErroreCaricamento(f"dati non validi in {percorso.name}: {errore}") from errore
     return {epoca.id: epoca for epoca in epoche}
 
