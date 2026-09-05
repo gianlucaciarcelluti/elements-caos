@@ -7,6 +7,8 @@ import yaml
 from elements_caos.caricamento import carica_elementi, carica_epoche, carica_scopritori
 from elements_caos.render.note import (
     costruisci_contesto,
+    formatta_configurazione_elettronica,
+    formatta_decimale,
     kelvin_in_celsius,
     nome_file_nota,
     rendi_nota,
@@ -151,6 +153,41 @@ def test_kelvin_in_celsius_gestisce_temperature_negative() -> None:
 def test_kelvin_in_celsius_dato_assente() -> None:
     """L'assenza del dato deve produrre un messaggio esplicito, non un errore."""
     assert kelvin_in_celsius(None) == "dato non disponibile"
+
+
+def test_nota_mostra_i_numeri_decimali_con_la_virgola() -> None:
+    """Massa atomica e densità devono usare la virgola come separatore decimale.
+
+    In italiano il separatore decimale è la virgola, e la stessa tabella dei
+    dati fisico-chimici mostra già le temperature in questo formato: un altro
+    separatore per massa atomica o densità sarebbe un'incoerenza visibile a
+    poche righe di distanza, nella stessa tabella.
+    """
+    nota = _nota_fosforo()
+
+    assert "| Massa atomica | 30,974 u |" in nota
+    assert "| Densità | 1,823 g/cm³ |" in nota
+    assert "30.974" not in nota
+    assert "1.823" not in nota
+
+
+def test_formatta_decimale_non_altera_un_numero_intero() -> None:
+    """Un numero senza parte decimale non deve acquisire una virgola spuria."""
+    assert formatta_decimale(15) == "15"
+
+
+def test_formatta_configurazione_elettronica_esponente_singola_cifra() -> None:
+    """Un esponente a una cifra diventa il corrispondente apice Unicode."""
+    assert formatta_configurazione_elettronica("[Ne] 3s2 3p3") == "[Ne] 3s² 3p³"
+
+
+def test_formatta_configurazione_elettronica_esponente_doppia_cifra() -> None:
+    """Un esponente a due cifre (es. 14 elettroni in un sottolivello f).
+
+    La configurazione del dubnio, [Rn] 5f14 6d3 7s2, verifica che la regex
+    catturi l'intero numero di elettroni e non solo la prima cifra.
+    """
+    assert formatta_configurazione_elettronica("[Rn] 5f14 6d3 7s2") == "[Rn] 5f¹⁴ 6d³ 7s²"
 
 
 def test_nota_riporta_le_fonti() -> None:

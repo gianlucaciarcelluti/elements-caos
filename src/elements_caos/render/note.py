@@ -1,5 +1,6 @@
 """Composizione della nota Markdown di un singolo elemento."""
 
+import re
 from dataclasses import dataclass
 from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
@@ -53,6 +54,15 @@ _NUMERI_ROMANI = [
     (1, "I"),
 ]
 
+# Traduce le cifre in apici Unicode, per rendere leggibili gli esponenti
+# della configurazione elettronica (es. "3s2" -> "3s²").
+_CIFRE_IN_APICI = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+# Intercetta un blocco/sottolivello (s, p, d, f) seguito dal numero di
+# elettroni che vi risiedono, per convertire solo quella cifra in apice e
+# lasciare inalterato il resto della configurazione (es. "[Ne] 3s2 3p3").
+_ESPONENTE_CONFIGURAZIONE = re.compile(r"([spdf])(\d+)")
+
 
 @dataclass(frozen=True)
 class ContestoNota:
@@ -104,6 +114,37 @@ def kelvin_in_celsius(kelvin: float | None) -> str:
     celsius = Decimal(str(kelvin)) - Decimal(str(ZERO_ASSOLUTO_CELSIUS))
     arrotondato = celsius.quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
     return f"{arrotondato} °C".replace(".", ",")
+
+
+def formatta_decimale(numero: float) -> str:
+    """Formatta un numero decimale con la virgola, la convenzione italiana.
+
+    Riceve sempre un valore dichiaratamente decimale (massa atomica,
+    densità): un intero passato per errore a questa funzione produrrebbe
+    comunque un risultato sensato (nessun punto da sostituire), ma la firma
+    resta ``float`` perché i campi a cui si applica lo sono nel modello dati.
+    Numero atomico, gruppo, periodo e stati di ossidazione sono ``int`` nel
+    modello e non passano da qui: non hanno mai un separatore decimale da
+    localizzare.
+    """
+    return str(numero).replace(".", ",")
+
+
+def formatta_configurazione_elettronica(configurazione: str) -> str:
+    """Converte in apici Unicode gli esponenti di una configurazione elettronica.
+
+    Il dataset la fornisce in notazione piatta (``3s2``), che si legge "tre
+    esse due" anziché "tre esse al quadrato": su un vault didattico la
+    differenza conta. La conversione si applica solo qui, in fase di
+    rendering — negli YAML la configurazione resta piatta, leggibile da
+    qualsiasi consumatore dei dati.
+    """
+
+    def _converti(corrispondenza: re.Match[str]) -> str:
+        sottolivello, elettroni = corrispondenza.groups()
+        return sottolivello + elettroni.translate(_CIFRE_IN_APICI)
+
+    return _ESPONENTE_CONFIGURAZIONE.sub(_converti, configurazione)
 
 
 def costruisci_contesto(
@@ -190,10 +231,14 @@ def rendi_nota(contesto: ContestoNota) -> str:
         wikilink_scopritori=[f"[[{nome}]]" for nome in nomi_scopritori],
         anno_leggibile=formatta_anno(elemento.scoperta.anno),
         categoria_leggibile=ETICHETTE_CATEGORIA[proprieta.categoria],
+        massa_atomica=formatta_decimale(proprieta.massa_atomica),
+        configurazione_elettronica=formatta_configurazione_elettronica(
+            proprieta.configurazione_elettronica
+        ),
         fusione=kelvin_in_celsius(proprieta.punto_fusione_k),
         ebollizione=kelvin_in_celsius(proprieta.punto_ebollizione_k),
         densita=(
-            f"{proprieta.densita} g/cm³"
+            f"{formatta_decimale(proprieta.densita)} g/cm³"
             if proprieta.densita is not None
             else "dato non disponibile"
         ),

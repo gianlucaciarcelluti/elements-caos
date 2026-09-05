@@ -49,12 +49,12 @@ aliases: [{{ elemento.simbolo }}, {{ elemento.nome_en }}]
 | Proprietà | Valore |
 |---|---|
 | Numero atomico | {{ elemento.numero_atomico }} |
-| Massa atomica | {{ elemento.proprieta.massa_atomica }} u |
+| Massa atomica | {{ massa_atomica }} u |
 | Categoria | {{ categoria_leggibile }} |
 | Gruppo | {{ elemento.proprieta.gruppo if elemento.proprieta.gruppo is not none else '—' }} |
 | Periodo | {{ elemento.proprieta.periodo }} |
 | Blocco | {{ elemento.proprieta.blocco }} |
-| Configurazione elettronica | {{ elemento.proprieta.configurazione_elettronica }} |
+| Configurazione elettronica | {{ configurazione_elettronica }} |
 | Punto di fusione | {{ fusione }} |
 | Punto di ebollizione | {{ ebollizione }} |
 | Densità | {{ densita }} |
