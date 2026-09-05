@@ -1,0 +1,58 @@
+numero_atomico: 15
+simbolo: P
+nome: Fosforo
+nome_en: Phosphorus
+
+scoperta:
+  anno: 1669
+  anno_stimato: false
+  scopritori: [hennig-brand]
+  luogo: Amburgo
+  epoca: alchimia
+  isolamento_anno: 1669
+  note_cronologia: Primo elemento con una scoperta documentata.
+
+proprieta:
+  gruppo: 15
+  periodo: 3
+  blocco: p
+  categoria: non_metallo
+  massa_atomica: 30.974
+  configurazione_elettronica: "[Ne] 3s2 3p3"
+  gusci: [2, 8, 5]
+  punto_fusione_k: 317.3
+  punto_ebollizione_k: 553.7
+  densita: 1.823
+  stati_ossidazione: [-3, 3, 5]
+
+approfondimento: true
+
+contenuti:
+  hook: Un alchimista bollì millecinquecento litri di urina cercando l'oro.
+  beats:
+    - id: contesto
+      sezione: storia
+      testo: Ad Amburgo, nel 1669, Hennig Brand insegue la pietra filosofale.
+      visual: Ritratto di Brand
+      attendibilita: documentato
+    - id: segreto
+      sezione: curiosita
+      testo: Brand tenne segreto il procedimento per anni.
+      attendibilita: tradizionale
+  pronuncia:
+    - termine: Hennig Brand
+      ipa: "ˈhɛnɪç bʁant"
+      nota: Alla tedesca, non all'inglese.
+
+composti_principali:
+  - nome: Acido fosforico
+    formula: H3PO4
+    usi: [fertilizzanti, bevande]
+
+fonti:
+  - url: https://esempio.it/fosforo
+    titolo: Storia del fosforo
+    consultata: 2026-09-05
+  - url: https://esempio.it/brand
+    titolo: Hennig Brand
+    consultata: 2026-09-05

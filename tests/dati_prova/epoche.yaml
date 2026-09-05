@@ -1,0 +1,11 @@
+- id: antichita
+  nome: Antichità
+  anno_inizio: -40000
+  anno_fine: 1500
+  descrizione: Gli elementi noti fin dalla preistoria, riconosciuti per l'uso e non per l'analisi.
+
+- id: alchimia
+  nome: Alchimia e primo moderno
+  anno_inizio: 1500
+  anno_fine: 1750
+  descrizione: Dalla ricerca della pietra filosofale alle prime scoperte documentate.
