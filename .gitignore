@@ -9,3 +9,5 @@ node_modules/
 .DS_Store
 public/
 .superpowers/
+# Dataset esterni scaricati dall'ingest: rigenerabili, non vanno versionati.
+.cache/
