@@ -4,3 +4,38 @@
   morto: 1710
   nazionalita: tedesca
   elementi: [15]
+
+- id: humphry-davy
+  nome: Humphry Davy
+  nato: 1778
+  morto: 1829
+  nazionalita: britannica
+  elementi: [11, 19, 20, 38, 56, 12]
+
+- id: glenn-seaborg
+  nome: Glenn Seaborg
+  nato: 1912
+  morto: 1999
+  nazionalita: statunitense
+  elementi: [94]
+
+- id: edwin-mcmillan
+  nome: Edwin McMillan
+  nato: 1907
+  morto: 1991
+  nazionalita: statunitense
+  elementi: [94]
+
+- id: joseph-kennedy
+  nome: Joseph Kennedy
+  nato: 1916
+  morto: 1957
+  nazionalita: statunitense
+  elementi: [94]
+
+- id: arthur-wahl
+  nome: Arthur Wahl
+  nato: 1917
+  morto: 2006
+  nazionalita: statunitense
+  elementi: [94]

@@ -1,0 +1,247 @@
+numero_atomico: 15
+simbolo: P
+nome: Fosforo
+nome_en: Phosphorus
+
+scoperta:
+  anno: 1669
+  anno_stimato: false
+  scopritori: [hennig-brand]
+  luogo: Amburgo
+  epoca: alchimia
+  isolamento_anno: 1669
+  note_cronologia: >-
+    Primo elemento della storia con una scoperta documentata, luogo e data
+    precisi: tutto ciò che viene prima è arrivato all'uomo senza che nessuno
+    ne registrasse l'istante.
+
+proprieta:
+  gruppo: 15
+  periodo: 3
+  blocco: p
+  categoria: non_metallo
+  massa_atomica: 30.974
+  configurazione_elettronica: "[Ne] 3s2 3p3"
+  gusci: [2, 8, 5]
+  punto_fusione_k: 317.3
+  punto_ebollizione_k: 553.7
+  densita: 1.823
+  stati_ossidazione: [-3, -2, -1, 1, 3, 4, 5]
+
+approfondimento: true
+
+contenuti:
+  hook: Un alchimista bollì cinquemila litri di urina cercando l'oro, e trovò una luce che non si spegneva.
+  beats:
+    - id: contesto
+      sezione: incipit
+      testo: >-
+        Il fosforo è l'elemento che brilla senza bruciare: il primo mai
+        scoperto con una data, un luogo e un nome d'autore certi, in un'epoca
+        in cui gli altri elementi erano ancora materiali senza teoria.
+      visual: Bagliore verde pallido nel buio di un laboratorio del Seicento
+      attendibilita: documentato
+
+    - id: alchimista
+      sezione: storia
+      testo: >-
+        Hennig Brand è un mercante di vetro caduto in disgrazia, ad Amburgo,
+        che nella seconda metà del Seicento decide di reinventarsi alchimista.
+        Come tanti nel suo secolo insegue la pietra filosofale, la sostanza
+        leggendaria capace di trasformare i metalli comuni in oro. Non ha
+        formazione scientifica, ma ha un'idea che ai chimici di professione
+        non era venuta: se il corpo umano produce sostanze dal colore
+        dell'oro, forse l'oro si nasconde proprio lì.
+      visual: Ritratto immaginario di Brand nel suo laboratorio ad Amburgo
+      attendibilita: documentato
+
+    - id: urina
+      sezione: storia
+      testo: >-
+        Brand si procura quantità enormi di urina umana, raccolta da soldati
+        e conoscenti, e la lascia fermentare per giorni prima di farla bollire
+        in grandi caldaie fino a ridurla a una pasta densa e scura. Le stime
+        più citate parlano di circa cinquemila litri di liquido di
+        partenza per ogni ciclo di distillazione: un'operazione lunga,
+        puzzolente e costosa, condotta senza alcuna garanzia di successo.
+      visual: Caldaie fumanti in un laboratorio alchemico, odore denso nell'aria
+      attendibilita: documentato
+
+    - id: scoperta
+      sezione: storia
+      testo: >-
+        Nel 1669 Brand scalda il residuo nero fino all'incandescenza e nel
+        collo della storta vede condensare vapori bianchi che, raffreddandosi,
+        lasciano una sostanza cerosa. Al buio, quella sostanza emette una luce
+        verde pallida e continua, senza fiamma né calore percepibile. Non ha
+        trovato l'oro: ha trovato qualcosa che nessuno aveva mai visto prima,
+        un materiale che sembra portare la luce dentro di sé.
+      visual: Storta di vetro con vapori bianchi che condensano in una sostanza cerosa e luminosa
+      attendibilita: documentato
+
+    - id: nome
+      sezione: storia
+      testo: >-
+        Brand chiama la sostanza "phosphorus mirabilis", dal greco antico che
+        significa "portatore di luce": lo stesso nome con cui i greci
+        indicavano Venere quando compare all'alba. È il primo elemento della
+        storia a ricevere un nome scelto apposta per descrivere una sua
+        proprietà osservata, invece di ereditarlo da un minerale o da un dio.
+      visual: La stella del mattino sopra l'orizzonte, accostata al bagliore del fosforo
+      attendibilita: documentato
+
+    - id: segreto
+      sezione: storia
+      testo: >-
+        Come molti alchimisti del suo tempo, Brand tiene il procedimento
+        segreto per anni, sperando di venderlo o di usarlo per attirare un
+        mecenate. Il segreto dura poco: nel giro di qualche anno il chimico
+        tedesco Johann Kunckel e il chimico e fisico inglese Robert Boyle
+        indipendentemente riescono a riprodurre la preparazione, e la notizia
+        della sostanza luminosa si diffonde nelle corti e nelle accademie
+        scientifiche d'Europa.
+      visual: Lettere e manoscritti che circolano tra le corti scientifiche europee
+      attendibilita: documentato
+
+    - id: caratteristiche_generali
+      sezione: caratteristiche
+      testo: >-
+        Il fosforo appena preparato da Brand, quello che oggi si chiama
+        fosforo bianco, è un solido ceroso e traslucido che si scioglie a poco
+        più di quarantaquattro gradi e prende fuoco da solo a contatto con
+        l'aria a temperature di poco superiori. Per questo va conservato
+        sott'acqua: esposto all'atmosfera si accende spontaneamente, un
+        comportamento che nel Seicento appariva a metà tra il prodigio e il
+        pericolo.
+      visual: Un frammento di fosforo bianco conservato sott'acqua in un contenitore di vetro
+      attendibilita: documentato
+
+    - id: allotropi
+      sezione: caratteristiche
+      testo: >-
+        Con il tempo si scoprì che il fosforo esiste in forme diverse, dette
+        allotropi, con proprietà quasi opposte. Il fosforo rosso, ottenuto
+        scaldando quello bianco al riparo dall'aria, è stabile, non tossico e
+        non si accende spontaneamente: è quello usato oggi nei fiammiferi. Il
+        fosforo nero, la forma più stabile in assoluto, ha una struttura a
+        strati che ricorda la grafite e conduce persino l'elettricità.
+      visual: Tre campioni affiancati — bianco ceroso, rosso polveroso, nero lucido
+      attendibilita: documentato
+
+    - id: chimica
+      sezione: caratteristiche
+      testo: >-
+        Nella tavola periodica il fosforo occupa il gruppo dell'azoto, di cui
+        condivide alcuni comportamenti chimici pur essendo molto più reattivo.
+        Non si trova mai libero in natura: si lega quasi sempre all'ossigeno
+        formando fosfati, i sali dell'acido fosforico, che sono la forma in
+        cui questo elemento circola nelle rocce, nel suolo e negli organismi
+        viventi.
+      visual: Formula di struttura di un fosfato accanto a un campione di roccia fosfatica
+      attendibilita: documentato
+
+    - id: reattivita_bianco
+      sezione: caratteristiche
+      testo: >-
+        La particolare instabilità del fosforo bianco dipende dalla sua
+        struttura molecolare: è composto da unità tetraedriche di quattro
+        atomi, P4, tenute insieme da legami tesi e facilmente rompibili, che
+        reagiscono con l'ossigeno dell'aria liberando energia sotto forma di
+        luce e calore. È questo stesso meccanismo, ossidazione lenta a bassa
+        temperatura, a produrre il bagliore verde osservato per la prima
+        volta da Brand, un fenomeno oggi chiamato chemiluminescenza.
+      visual: Modello molecolare tetraedrico P4 che si ossida emettendo luce verde
+      attendibilita: documentato
+
+    - id: usi_biologia
+      sezione: usi
+      testo: >-
+        Il fosforo è indispensabile alla vita: entra nella struttura del DNA
+        e dell'RNA, nelle membrane cellulari e nell'ATP, la molecola che le
+        cellule usano per immagazzinare e trasportare energia. Senza fosforo
+        nella dieta, animali e piante non potrebbero sostenere il metabolismo
+        che le tiene in vita.
+      visual: Doppia elica del DNA con i gruppi fosfato evidenziati nello scheletro
+      attendibilita: documentato
+
+    - id: usi_agricoltura
+      sezione: usi
+      testo: >-
+        L'uso industriale più massiccio del fosforo riguarda l'agricoltura:
+        la roccia fosfatica estratta dalle miniere viene trasformata in acido
+        fosforico e quindi in fertilizzanti, che restituiscono ai campi il
+        fosforo asportato dai raccolti. Senza questo apporto costante, i
+        terreni intensamente coltivati si impoverirebbero nel giro di poche
+        stagioni.
+      visual: Campi coltivati con un trattore che distribuisce fertilizzante
+      attendibilita: documentato
+
+    - id: usi_quotidiani
+      sezione: usi
+      testo: >-
+        Il fosforo rosso accende la testa dei fiammiferi di sicurezza, mentre
+        i suoi composti compaiono in detersivi, bevande gassate come
+        acidificante e persino nei fuochi d'artificio, dove alcuni composti
+        fosforati contribuiscono agli effetti di scia luminosa.
+      visual: Fiammifero acceso accanto a una lattina di bevanda gassata
+      attendibilita: documentato
+
+    - id: usi_estrazione
+      sezione: usi
+      testo: >-
+        Il fosforo elementare per uso industriale si ottiene oggi non più
+        dall'urina ma dalla roccia fosfatica, scaldata in forni elettrici
+        insieme a sabbia silicea e coke fino a liberare vapori di fosforo che
+        vengono poi condensati sott'acqua: lo stesso principio di
+        conservazione che già gli alchimisti del Seicento avevano intuito
+        empiricamente.
+      visual: Forno elettrico industriale per la produzione di fosforo dalla roccia fosfatica
+      attendibilita: documentato
+
+    - id: aneddoto_urina
+      sezione: curiosita
+      testo: >-
+        Per un certo periodo il prezzo dell'urina salì alle stelle nelle città
+        tedesche, perché altri sperimentatori, saputo del segreto di Brand,
+        cercarono di procurarsene quantità industriali per riprodurre
+        l'esperimento senza conoscerne esattamente il procedimento.
+      attendibilita: tradizionale
+
+    - id: aneddoto_venduto
+      sezione: curiosita
+      testo: >-
+        Brand finì per vendere la sua formula, ormai non più tanto segreta,
+        al chimico tedesco Daniel Kraft, che la portò in tournée per le corti
+        europee mostrando il fosforo luminoso come un fenomeno da meraviglia,
+        prima ancora che ne fosse compresa la natura chimica.
+      attendibilita: tradizionale
+
+  pronuncia:
+    - termine: Hennig Brand
+      ipa: "ˈhɛnɪç bʁant"
+      nota: Alla tedesca, non all'inglese.
+    - termine: phosphorus mirabilis
+      ipa: "ˈpʰɔːs.pʰo.rus miˈra.bi.lis"
+      nota: Latino scientifico, pronuncia restituta.
+
+composti_principali:
+  - nome: Acido fosforico
+    formula: H3PO4
+    usi: [fertilizzanti, bevande gassate, detergenti]
+  - nome: Fosfato di calcio
+    formula: Ca3(PO4)2
+    usi: [ossa e denti, roccia fosfatica per fertilizzanti]
+  - nome: Trisolfuro di tetrafosforo
+    formula: P4S3
+    usi: [capocchia dei fiammiferi]
+
+fonti:
+  - url: https://en.wikipedia.org/wiki/Hennig_Brand
+    titolo: "Hennig Brand"
+    consultata: 2026-09-05
+  - url: https://en.wikipedia.org/wiki/Phosphorus
+    titolo: "Phosphorus"
+    consultata: 2026-09-05
+  - url: https://scuole.federchimica.it/elementi/lo-strano-modo-di-scoprire-il-fosforo
+    titolo: "Lo strano modo di scoprire il fosforo"
+    consultata: 2026-09-05
