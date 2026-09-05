@@ -188,8 +188,12 @@ def test_gusci_devono_sommare_al_numero_atomico() -> None:
         )
 
 
-def test_approfondimento_richiede_contenuti_estesi() -> None:
-    """Se approfondimento è True, contenuti_estesi non può restare vuoto in fase di render."""
+def test_approfondimento_non_impone_contenuti_estesi_al_modello() -> None:
+    """Il modello accetta approfondimento=True con contenuti_estesi ancora assente.
+
+    Il vincolo di presenza vale in fase di rendering, non di validazione: gli
+    approfondimenti si scrivono in un secondo momento, dopo le note base.
+    """
     elemento = Elemento(
         numero_atomico=15,
         simbolo="P",
