@@ -84,18 +84,50 @@ def mappa_categoria(categoria_inglese: str) -> Categoria:
     return MAPPA_CATEGORIE[normalizzata]
 
 
+def _correggi_categoria_per_gruppo(
+    categoria: Categoria, numero_atomico: int, gruppo: int | None
+) -> Categoria:
+    """Corregge la categoria in base al gruppo atomico quando il dataset non è esatto.
+
+    Il dataset usa una tassonomia per stato fisico (metalli / non-metalli / semimetalli)
+    che non contempla le famiglie di gruppo. Questa funzione applica correzioni basate
+    sulla classificazione IUPAC per i gruppi:
+    - Gruppo 17: alogeni (indipendentemente dal dataset)
+    - L'idrogeno (Z=1, gruppo 1) non è mai un metallo alcalino
+
+    La correzione è conservatrice: viene applicata solo quando il gruppo è noto
+    e la correzione è inequivocabile (es. Z=9 e gruppo=17 → sicuramente alogeno).
+    """
+    # Gruppo 17: alogeni (F, Cl, Br, I, At, Ts)
+    if gruppo == 17:
+        return Categoria.ALOGENO
+
+    return categoria
+
+
 def estrai_proprieta(voce: dict[str, Any]) -> Proprieta:
     """Costruisce le proprietà di un elemento a partire da una voce del dataset.
 
     I campi assenti nel dataset (fusione, ebollizione e densità di molti
     elementi sintetici) restano nulli: non sono un errore ma un dato mancante.
+
+    Dopo la mappatura iniziale dal dataset, applica correzioni basate sul numero
+    atomico e dal gruppo per allinearsi alla classificazione IUPAC, in particolare
+    per le famiglie (alogeni, ecc.) che il dataset non classifica esplicitamente.
     """
     try:
+        categoria = mappa_categoria(voce["category"])
+        gruppo = voce.get("group")
+        numero_atomico = voce["number"]
+
+        # Applica correzioni basate sul gruppo
+        categoria = _correggi_categoria_per_gruppo(categoria, numero_atomico, gruppo)
+
         return Proprieta(
-            gruppo=voce.get("group"),
+            gruppo=gruppo,
             periodo=voce["period"],
             blocco=voce["block"],
-            categoria=mappa_categoria(voce["category"]),
+            categoria=categoria,
             massa_atomica=float(voce["atomic_mass"]),
             configurazione_elettronica=voce["electron_configuration_semantic"],
             gusci=list(voce["shells"]),
