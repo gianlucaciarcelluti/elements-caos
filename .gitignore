@@ -1,3 +1,6 @@
+# Stato di sessione di Obsidian: layout dei pannelli, file aperti, cursore.
+# E' personale di chi apre il vault e cambierebbe a ogni sessione.
+.obsidian/
 vault/.obsidian/workspace*
 __pycache__/
 *.pyc
