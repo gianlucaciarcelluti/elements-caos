@@ -206,7 +206,9 @@ def verifica_licenze_immagini(cartella: Path) -> list[Problema]:
             continue
 
         dati = yaml.safe_load(file_licenza.read_text(encoding="utf-8")) or {}
-        licenza = str(dati.get("licenza", ""))
+        # Un campo "licenza:" senza valore diventa None in YAML: str(None) darebbe
+        # la stringa "None", che sfuggirebbe al controllo di campo vuoto.
+        licenza = str(dati.get("licenza") or "")
         if not licenza:
             problemi.append(
                 Problema(
