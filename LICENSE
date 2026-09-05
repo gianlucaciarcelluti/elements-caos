@@ -1,0 +1,63 @@
+# Licenza dei contenuti
+
+I contenuti di questo repository — le note del vault in `vault/`, i dati
+redazionali in `data/` e la documentazione — sono rilasciati con licenza
+
+**Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale
+(CC BY-SA 4.0)**
+
+Copyright © 2026 Gianluca Ciarcelluti
+
+Testo completo della licenza: https://creativecommons.org/licenses/by-sa/4.0/deed.it
+
+## Sei libero di
+
+- **Condividere** — riprodurre, distribuire, comunicare al pubblico, esporre in
+  pubblico, rappresentare, eseguire e recitare questo materiale con qualsiasi
+  mezzo e formato.
+- **Modificare** — remixare, trasformare il materiale e basarti su di esso per
+  le tue opere, per qualsiasi fine, anche commerciale.
+
+## Alle seguenti condizioni
+
+- **Attribuzione** — devi riconoscere una menzione di paternità adeguata,
+  fornire un link alla licenza e indicare se sono state effettuate delle
+  modifiche.
+- **Condividi allo stesso modo** — se remixi, trasformi il materiale o ti basi
+  su di esso, devi distribuire i tuoi contributi con la stessa licenza del
+  materiale originario.
+
+## Perché questa licenza
+
+La scelta non è arbitraria: è imposta dalle fonti da cui il progetto attinge.
+
+Il dataset delle proprietà fisico-chimiche è distribuito con licenza CC BY-SA
+3.0, e i dati cronologici derivano da Wikipedia, rilasciata con CC BY-SA 4.0.
+Entrambe sono licenze *share-alike*, che obbligano a rilasciare qualunque opera
+derivata con una licenza compatibile.
+
+## Attribuzioni dovute
+
+Questo progetto incorpora e rielabora materiale di terzi.
+
+**Dati fisico-chimici** — [Bowserinator/Periodic-Table-JSON](https://github.com/Bowserinator/Periodic-Table-JSON),
+licenza CC BY-SA 3.0. Massa atomica, configurazione elettronica, gusci
+elettronici, punti di fusione ed ebollizione, densità e categorie chimiche
+derivano da questo dataset, con adattamenti documentati nel codice di
+acquisizione.
+
+**Cronologia delle scoperte** — [Wikipedia, *Timeline of chemical element
+discoveries*](https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries),
+licenza CC BY-SA 4.0. Anni di scoperta, scopritori e note cronologiche
+derivano da questa voce, verificati su fonti indipendenti dove possibile.
+
+**Ritratti degli scopritori** — [Wikimedia Commons](https://commons.wikimedia.org/).
+Sono inclusi soltanto ritratti di pubblico dominio o rilasciati in CC0. Ogni
+immagine porta accanto un file `.license.yaml` con autore, licenza e origine,
+e l'elenco completo è nella pagina *Attribuzioni* del vault.
+
+## Codice sorgente
+
+Il codice che genera il vault — `src/`, `tests/`, `scripts/` — non è coperto da
+questa licenza: è rilasciato con licenza MIT, che ne consente il riuso senza
+vincoli di condivisione allo stesso modo. Vedi il file `LICENSE-CODE`.
