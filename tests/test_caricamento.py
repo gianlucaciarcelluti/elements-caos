@@ -80,6 +80,42 @@ def test_carica_epoche_indicizzate_per_id() -> None:
     assert epoche["alchimia"].anno_inizio == 1500
 
 
+def test_carica_scopritori_file_vuoto_solleva_errore(tmp_path: Path) -> None:
+    """Un file YAML vuoto (None) deve produrre un ErroreCaricamento che cita il file."""
+    file_vuoto = tmp_path / "scopritori-vuoto.yaml"
+    file_vuoto.write_text("", encoding="utf-8")
+
+    with pytest.raises(ErroreCaricamento, match="scopritori-vuoto.yaml"):
+        carica_scopritori(file_vuoto)
+
+
+def test_carica_scopritori_struttura_sbagliata_solleva_errore(tmp_path: Path) -> None:
+    """Un file YAML con mapping invece di lista deve produrre un ErroreCaricamento."""
+    file_mapping = tmp_path / "scopritori-mapping.yaml"
+    file_mapping.write_text("id: test\nnome: Test\n", encoding="utf-8")
+
+    with pytest.raises(ErroreCaricamento, match="scopritori-mapping.yaml"):
+        carica_scopritori(file_mapping)
+
+
+def test_carica_epoche_file_vuoto_solleva_errore(tmp_path: Path) -> None:
+    """Un file YAML vuoto (None) deve produrre un ErroreCaricamento che cita il file."""
+    file_vuoto = tmp_path / "epoche-vuoto.yaml"
+    file_vuoto.write_text("", encoding="utf-8")
+
+    with pytest.raises(ErroreCaricamento, match="epoche-vuoto.yaml"):
+        carica_epoche(file_vuoto)
+
+
+def test_carica_epoche_struttura_sbagliata_solleva_errore(tmp_path: Path) -> None:
+    """Un file YAML con mapping invece di lista deve produrre un ErroreCaricamento."""
+    file_mapping = tmp_path / "epoche-mapping.yaml"
+    file_mapping.write_text("id: test\nnome: Test\n", encoding="utf-8")
+
+    with pytest.raises(ErroreCaricamento, match="epoche-mapping.yaml"):
+        carica_epoche(file_mapping)
+
+
 def test_ordina_per_scoperta_usa_anno_poi_numero_atomico() -> None:
     """L'ordinamento cronologico usa l'anno; a parità di anno, il numero atomico."""
     from elements_caos.models import Elemento, Proprieta, Scoperta

@@ -51,7 +51,7 @@ def carica_scopritori(percorso: Path) -> dict[str, Scopritore]:
     dati = _leggi_yaml(percorso)
     try:
         scopritori = [Scopritore.model_validate(voce) for voce in dati]
-    except ValidationError as errore:
+    except (ValidationError, TypeError) as errore:
         raise ErroreCaricamento(f"dati non validi in {percorso.name}: {errore}") from errore
     return {scopritore.id: scopritore for scopritore in scopritori}
 
@@ -61,7 +61,7 @@ def carica_epoche(percorso: Path) -> dict[str, Epoca]:
     dati = _leggi_yaml(percorso)
     try:
         epoche = [Epoca.model_validate(voce) for voce in dati]
-    except ValidationError as errore:
+    except (ValidationError, TypeError) as errore:
         raise ErroreCaricamento(f"dati non validi in {percorso.name}: {errore}") from errore
     return {epoca.id: epoca for epoca in epoche}
 
