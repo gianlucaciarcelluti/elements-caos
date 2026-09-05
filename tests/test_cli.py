@@ -102,3 +102,96 @@ def test_dati_inesistenti_restituisce_due(tmp_path: Path) -> None:
     codice = main(["genera", "--dati", str(tmp_path / "assente"), "--vault", str(tmp_path / "v")])
 
     assert codice == 2
+
+
+def test_immagine_senza_licenza_non_viene_copiata(
+    ambiente: tuple[Path, Path], capsys: pytest.CaptureFixture[str]
+) -> None:
+    """Un'immagine priva del file di licenza affiancato non entra nel vault.
+
+    Il presidio sulla licenza deve stare nel punto in cui il file entra nel
+    vault, non solo nella validazione successiva: chi esegue genera a mano e
+    pubblica senza validare non deve poter portare nel repository pubblico
+    un'immagine di provenienza ignota.
+    """
+    dati, vault = ambiente
+    (dati / "images" / "hennig-brand.jpg.license.yaml").unlink()
+
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert not (vault / "Immagini" / "hennig-brand.jpg").exists()
+    assert "hennig-brand.jpg" in capsys.readouterr().out
+
+
+def test_immagine_con_licenza_non_ammessa_non_viene_copiata(
+    ambiente: tuple[Path, Path], capsys: pytest.CaptureFixture[str]
+) -> None:
+    """Un'immagine con licenza fuori allowlist non entra nel vault."""
+    dati, vault = ambiente
+    (dati / "images" / "hennig-brand.jpg.license.yaml").write_text(
+        "file: hennig-brand.jpg\nlicenza: CC BY-SA 4.0\nautore: Tizio\nfonte: https://x.it\n",
+        encoding="utf-8",
+    )
+
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert not (vault / "Immagini" / "hennig-brand.jpg").exists()
+    assert "hennig-brand.jpg" in capsys.readouterr().out
+
+
+def test_immagine_con_licenza_ammessa_viene_copiata(ambiente: tuple[Path, Path]) -> None:
+    """Un'immagine di pubblico dominio, con licenza registrata, entra nel vault
+    insieme al proprio file di licenza."""
+    dati, vault = ambiente
+
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert (vault / "Immagini" / "hennig-brand.jpg").exists()
+    assert (vault / "Immagini" / "hennig-brand.jpg.license.yaml").exists()
+
+
+def test_sottocartella_in_immagini_non_viene_rimossa(ambiente: tuple[Path, Path]) -> None:
+    """Una sottocartella creata a mano dentro Immagini/ non è un file orfano.
+
+    Il generatore possiede solo i file che ha scritto lui al primo livello:
+    una sottocartella (es. per organizzare varianti di un ritratto) non gli
+    appartiene e la rigenerazione non deve né rimuoverla né fallire nel
+    tentativo.
+    """
+    dati, vault = ambiente
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    sottocartella = vault / "Immagini" / "varianti"
+    sottocartella.mkdir(parents=True)
+    (sottocartella / "nota.txt").write_text("appunto personale", encoding="utf-8")
+
+    codice = main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert codice == 0
+    assert sottocartella.is_dir()
+    assert (sottocartella / "nota.txt").exists()
+
+
+def test_errore_di_scrittura_produce_messaggio_e_codice_dedicato(
+    ambiente: tuple[Path, Path], capsys: pytest.CaptureFixture[str]
+) -> None:
+    """Un errore di sistema durante la scrittura produce un messaggio in
+    italiano e un codice di uscita dedicato, non un traceback.
+
+    È un comando che l'utente esegue a mano: un traceback grezzo non gli dice
+    dove intervenire, un messaggio in italiano sì.
+    """
+    dati, vault = ambiente
+    vault.mkdir(parents=True)
+    cartella_bloccata = vault / "Elementi"
+    cartella_bloccata.mkdir()
+    cartella_bloccata.chmod(0o444)
+
+    try:
+        codice = main(["genera", "--dati", str(dati), "--vault", str(vault)])
+    finally:
+        cartella_bloccata.chmod(0o755)
+
+    assert codice == 3
+    errore = capsys.readouterr().err
+    assert "Elementi" in errore

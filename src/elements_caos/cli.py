@@ -4,6 +4,8 @@ import argparse
 import sys
 from pathlib import Path
 
+import yaml
+
 from elements_caos.caricamento import (
     ErroreCaricamento,
     carica_elementi,
@@ -11,6 +13,7 @@ from elements_caos.caricamento import (
     carica_scopritori,
     ordina_per_scoperta,
 )
+from elements_caos.ingest.ritratti import licenza_ammessa
 from elements_caos.models import Sezione
 from elements_caos.render.navigazione import (
     rendi_attribuzioni,
@@ -37,6 +40,7 @@ from elements_caos.validazione import (
 CODICE_SUCCESSO = 0
 CODICE_PROBLEMI = 1
 CODICE_ERRORE_DATI = 2
+CODICE_ERRORE_SISTEMA = 3
 
 
 def _scrivi(percorso: Path, contenuto: str) -> None:
@@ -49,17 +53,42 @@ def _rimuovi_orfane(cartella: Path, attesi: set[str], pattern: str = "*.md") -> 
     """Elimina dalla cartella i file che nessun dato genera più.
 
     Senza questa pulizia, rinominare un elemento (o un'immagine) lascerebbe
-    nel vault un file fantasma privo di corrispondenza nei dati.
+    nel vault un file fantasma privo di corrispondenza nei dati. Le
+    sottocartelle vengono sempre ignorate, anche quando corrispondono al
+    pattern: il generatore possiede solo i file che scrive lui al primo
+    livello, non le cartelle che un utente crea a mano (ad esempio per
+    organizzare varianti di un'immagine) — rimuoverle, oltre a eccedere ciò
+    che il comando possiede, solleverebbe comunque un errore, perché
+    ``Path.unlink()`` non è pensato per le directory.
     """
     if not cartella.is_dir():
         return
     for percorso in cartella.glob(pattern):
+        if percorso.is_dir():
+            continue
         if percorso.name not in attesi:
             percorso.unlink()
 
 
+def _licenza_di(immagine: Path) -> str | None:
+    """Legge la licenza dichiarata nel file affiancato a un'immagine.
+
+    Restituisce ``None`` se il file di licenza manca o se il campo licenza è
+    assente o vuoto: in entrambi i casi l'immagine non ha una provenienza
+    verificabile e non deve entrare nel vault.
+    """
+    file_licenza = immagine.with_name(f"{immagine.name}.license.yaml")
+    if not file_licenza.exists():
+        return None
+    dati = yaml.safe_load(file_licenza.read_text(encoding="utf-8")) or {}
+    # Un campo "licenza:" senza valore diventa None in YAML: str(None) darebbe
+    # la stringa "None", che sfuggirebbe al controllo di campo vuoto.
+    licenza = str(dati.get("licenza") or "")
+    return licenza or None
+
+
 def _sincronizza_immagini(cartella_immagini_dati: Path, cartella_vault: Path) -> None:
-    """Copia nel vault i ritratti e i relativi file di licenza.
+    """Copia nel vault i soli ritratti con licenza nota e ammessa.
 
     Le note degli scopritori incorporano i ritratti con un wikilink
     ``![[file.jpg]]``: perché Obsidian risolva l'incorporamento — e perché la
@@ -68,6 +97,14 @@ def _sincronizza_immagini(cartella_immagini_dati: Path, cartella_vault: Path) ->
     ha originato. La copia avviene in ``Immagini/``, sotto lo stesso nome:
     Obsidian risolve un embed per nome file ovunque si trovi nel vault, quindi
     non è necessario replicare alcuna struttura di sottocartelle.
+
+    Il controllo sulla licenza avviene qui, non solo nella validazione
+    successiva: un'immagine senza licenza nota o con licenza fuori allowlist
+    non deve mai toccare il disco del vault, perché chi esegue ``genera`` a
+    mano e pubblica senza eseguire ``valida`` si porterebbe altrimenti
+    un'immagine di provenienza incerta in un repository pubblico. La
+    validazione (Task 10) resta comunque attiva come rete di sicurezza per le
+    immagini aggiunte a mano nel vault, che non passano da questa funzione.
     """
     cartella_destinazione = cartella_vault / "Immagini"
     if not cartella_immagini_dati.is_dir():
@@ -76,12 +113,25 @@ def _sincronizza_immagini(cartella_immagini_dati: Path, cartella_vault: Path) ->
 
     attesi: set[str] = set()
     for origine in sorted(cartella_immagini_dati.iterdir()):
-        if not origine.is_file():
+        if not origine.is_file() or origine.suffix == ".yaml":
             continue
+
+        licenza = _licenza_di(origine)
+        if licenza is None:
+            print(f"Immagine saltata: {origine.name} — licenza assente o non registrata")
+            continue
+        if not licenza_ammessa(licenza):
+            print(f"Immagine saltata: {origine.name} — licenza non ammessa: {licenza}")
+            continue
+
         attesi.add(origine.name)
         destinazione = cartella_destinazione / origine.name
         destinazione.parent.mkdir(parents=True, exist_ok=True)
         destinazione.write_bytes(origine.read_bytes())
+
+        file_licenza = origine.with_name(f"{origine.name}.license.yaml")
+        attesi.add(file_licenza.name)
+        _scrivi(cartella_destinazione / file_licenza.name, file_licenza.read_text(encoding="utf-8"))
     _rimuovi_orfane(cartella_destinazione, attesi, pattern="*")
 
 
@@ -218,6 +268,14 @@ def main(argv: list[str] | None = None) -> int:
     except ErroreCaricamento as errore:
         print(f"Errore nei dati: {errore}", file=sys.stderr)
         return CODICE_ERRORE_DATI
+    except OSError as errore:
+        # Permessi negati, disco pieno, percorso non scrivibile: sono errori
+        # di sistema, non di dati. È un comando eseguito a mano dall'utente:
+        # un traceback grezzo non gli direbbe dove intervenire, un messaggio
+        # che nomina il percorso coinvolto sì.
+        percorso = errore.filename or "percorso non specificato"
+        print(f"Errore di sistema su {percorso}: {errore.strerror}", file=sys.stderr)
+        return CODICE_ERRORE_SISTEMA
 
 
 if __name__ == "__main__":
