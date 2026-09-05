@@ -1,0 +1,29 @@
+---
+titolo: {{ scopritore.nome }}
+tipo: scopritore
+{% if scopritore.nato %}nato: {{ scopritore.nato }}
+{% endif %}{% if scopritore.morto %}morto: {{ scopritore.morto }}
+{% endif %}tags: [scopritore]
+---
+
+# {{ scopritore.nome }}
+
+{% if scopritore.ritratto %}
+![[{{ scopritore.ritratto.file }}]]
+*{{ scopritore.ritratto.autore }} — {{ scopritore.ritratto.licenza }} — [fonte]({{ scopritore.ritratto.fonte }})*
+{% endif %}
+{% if scopritore.nato or scopritore.morto %}
+{{ scopritore.nazionalita | default('', true) | capitalize }}{% if scopritore.nato %}, {{ scopritore.nato }}{% if scopritore.morto %}–{{ scopritore.morto }}{% endif %}{% endif %}.
+{% endif %}
+
+## Elementi scoperti
+
+{% if voci %}
+{% for voce in voci %}
+- [[{{ voce.nome }}]] ({{ voce.simbolo }}) — {{ voce.anno }}
+{% endfor %}
+{% else %}
+*Nessun elemento associato.*
+{% endif %}
+
+← Torna a [[Cronologia degli elementi]]

@@ -1,0 +1,26 @@
+---
+titolo: Tavola periodica
+tipo: indice
+tags: [indice, tavola]
+---
+
+# Tavola periodica
+
+Ogni casella rimanda alla nota dell'elemento. Per la storia in ordine di scoperta,
+vedi [[Cronologia degli elementi]].
+
+| Periodo | {% for gruppo in range(1, 19) %}{{ gruppo }} | {% endfor %}
+
+|---|{% for gruppo in range(1, 19) %}---|{% endfor %}
+
+{% for riga in righe %}
+| **{{ riga.periodo }}** | {% for cella in riga.celle %}{{ cella }} | {% endfor %}
+
+{% endfor %}
+
+## Lantanidi e attinidi
+
+{% for blocco in blocchi_f %}
+**{{ blocco.nome }}**: {% for voce in blocco.voci %}[[{{ voce.nome }}\|{{ voce.simbolo }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+
+{% endfor %}

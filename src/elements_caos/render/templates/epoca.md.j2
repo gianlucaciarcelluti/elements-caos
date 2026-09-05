@@ -1,0 +1,25 @@
+---
+titolo: {{ epoca.nome }}
+tipo: epoca
+anno_inizio: {{ epoca.anno_inizio }}
+anno_fine: {{ epoca.anno_fine }}
+tags: [epoca]
+---
+
+# {{ epoca.nome }}
+
+{{ epoca.descrizione }}
+
+## Elementi scoperti in questo periodo
+
+{% if voci %}
+| Anno | Elemento | Scopritore |
+|---|---|---|
+{% for voce in voci %}
+| {{ voce.anno }} | [[{{ voce.nome }}]] ({{ voce.simbolo }}) | {{ voce.scopritori }} |
+{% endfor %}
+{% else %}
+*Nessun elemento registrato per questo periodo.*
+{% endif %}
+
+← Torna a [[Cronologia degli elementi]]

@@ -178,8 +178,8 @@ def costruisci_contesto(
     )
 
 
-def _ambiente() -> Environment:
-    """Costruisce l'ambiente Jinja2 usato per il rendering delle note."""
+def ambiente_template() -> Environment:
+    """Costruisce l'ambiente Jinja2 condiviso da tutti i renderer del vault."""
     return Environment(
         loader=FileSystemLoader(CARTELLA_TEMPLATE),
         undefined=StrictUndefined,
@@ -220,7 +220,7 @@ def rendi_nota(contesto: ContestoNota) -> str:
         f"secolo/{_secolo(elemento.scoperta.anno)}",
     ]
 
-    modello = _ambiente().get_template("elemento.md.j2")
+    modello = ambiente_template().get_template("elemento.md.j2")
     return modello.render(
         elemento=elemento,
         epoca=contesto.epoca,

@@ -1,0 +1,37 @@
+---
+titolo: Cronologia degli elementi
+tipo: indice
+tags: [indice, cronologia]
+---
+
+# La scoperta degli elementi, in ordine di tempo
+
+Questo vault racconta i {{ totale }} elementi chimici **nell'ordine in cui l'umanità
+li ha incontrati**, non in quello del numero atomico. È una storia che parte dal
+metallo raccolto in una grotta e arriva agli atomi vissuti per un millesimo di secondo.
+
+{% if tappe %}
+## Itinerario guidato
+
+Un percorso di lettura in {{ tappe | length }} tappe, circa un'ora in tutto, per
+seguire il filo della storia senza leggere tutte le note.
+
+{% for tappa in tappe %}
+{{ loop.index }}. **{{ tappa.titolo }}** — [[{{ tappa.elemento }}]]
+   {{ tappa.descrizione }}
+{% endfor %}
+{% endif %}
+## Tutti gli elementi in ordine di scoperta
+
+{% for gruppo in gruppi %}
+### {{ gruppo.epoca.nome }}
+
+{{ gruppo.epoca.descrizione }}
+
+| # | Anno | Elemento | Scopritore |
+|---|---|---|---|
+{% for voce in gruppo.voci %}
+| {{ voce.posizione }} | {{ voce.anno }} | [[{{ voce.nome }}]] ({{ voce.simbolo }}) | {{ voce.scopritori }} |
+{% endfor %}
+
+{% endfor %}
