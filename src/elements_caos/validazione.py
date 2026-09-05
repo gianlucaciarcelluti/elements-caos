@@ -108,6 +108,15 @@ def verifica_catena_cronologica(posizioni: list[int]) -> list[Problema]:
 
     La catena è ciò che rende il vault percorribile come racconto: un buco
     interromperebbe la navigazione fra un elemento e il successivo.
+
+    Un caso particolare di buco merita una diagnosi diversa: se le posizioni,
+    una volta ordinate, sono già contigue fra loro (nessun buco interno) ma
+    non iniziano da 1, il problema non è un elemento mancante ma un offset
+    sistematico nella numerazione (es. l'indice parte da 0 anziché da 1). Su
+    118 elementi, segnalare "manca la posizione 118" manderebbe il redattore
+    a cercare un elemento inesistente invece di correggere la numerazione:
+    per questo il caso viene riconosciuto ed espresso con un unico messaggio
+    che ne indica la causa, non il sintomo.
     """
     problemi: list[Problema] = []
 
@@ -120,6 +129,26 @@ def verifica_catena_cronologica(posizioni: list[int]) -> list[Problema]:
                 messaggio=f"posizione cronologica duplicata: {posizione}",
             )
         )
+
+    distinte = sorted(set(posizioni))
+    e_contigua_con_offset = (
+        not duplicate
+        and len(distinte) == len(posizioni)
+        and distinte == list(range(distinte[0], distinte[0] + len(distinte)))
+        and distinte[0] != 1
+    )
+    if e_contigua_con_offset:
+        problemi.append(
+            Problema(
+                gravita=Gravita.ERRORE,
+                contesto="cronologia",
+                messaggio=(
+                    f"le posizioni vanno da {distinte[0]} a {distinte[-1]} anziché da 1 "
+                    f"a {len(posizioni)}: la numerazione parte dall'indice sbagliato"
+                ),
+            )
+        )
+        return problemi
 
     attese = set(range(1, len(posizioni) + 1))
     for mancante in sorted(attese - set(posizioni)):
@@ -178,7 +207,15 @@ def verifica_licenze_immagini(cartella: Path) -> list[Problema]:
 
         dati = yaml.safe_load(file_licenza.read_text(encoding="utf-8")) or {}
         licenza = str(dati.get("licenza", ""))
-        if not licenza_ammessa(licenza):
+        if not licenza:
+            problemi.append(
+                Problema(
+                    gravita=Gravita.ERRORE,
+                    contesto=immagine.name,
+                    messaggio="campo licenza assente o vuoto nel file di licenza",
+                )
+            )
+        elif not licenza_ammessa(licenza):
             problemi.append(
                 Problema(
                     gravita=Gravita.ERRORE,

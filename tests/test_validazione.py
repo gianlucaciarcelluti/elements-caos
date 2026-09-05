@@ -144,6 +144,26 @@ def test_catena_cronologica_con_duplicato_produce_errore() -> None:
     assert any("duplicat" in p.messaggio.lower() for p in problemi)
 
 
+def test_catena_cronologica_con_offset_da_zero_diagnostica_la_causa() -> None:
+    """Una sequenza contigua che parte da 0 anziché da 1 è un offset, non un buco.
+
+    Il messaggio deve indicare la causa (numerazione partita dall'indice
+    sbagliato), non elencare l'ultima posizione come se mancasse un elemento:
+    su un vault di 118 elementi "manca la posizione 118" manderebbe il
+    redattore a cercare un elemento inesistente.
+    """
+    problemi = verifica_catena_cronologica([0, 1, 2])
+
+    assert len(problemi) == 1
+    messaggio = problemi[0].messaggio.lower()
+    assert "0" in messaggio
+    assert "1" in messaggio
+    assert "indice" in messaggio
+    # Non deve presentarsi come un "buco": il numero totale di elementi (3)
+    # non va confuso con una posizione mancante.
+    assert "mancante" not in messaggio
+
+
 def test_immagine_senza_file_licenza_produce_errore(tmp_path: Path) -> None:
     """Un'immagine priva del file di licenza affiancato genera un errore."""
     (tmp_path / "brand.jpg").write_bytes(b"x")
@@ -152,6 +172,25 @@ def test_immagine_senza_file_licenza_produce_errore(tmp_path: Path) -> None:
 
     assert len(problemi) == 1
     assert "licenza" in problemi[0].messaggio.lower()
+
+
+def test_immagine_con_campo_licenza_assente_distingue_il_messaggio(tmp_path: Path) -> None:
+    """Un file di licenza privo del campo ``licenza`` non va confuso con una
+    licenza fuori allowlist: chi legge il referto deve capire se deve
+    aggiungere un campo o correggerne uno.
+    """
+    (tmp_path / "brand.jpg").write_bytes(b"x")
+    (tmp_path / "brand.jpg.license.yaml").write_text(
+        "file: brand.jpg\nautore: Tizio\nfonte: https://x.it\n",
+        encoding="utf-8",
+    )
+
+    problemi = verifica_licenze_immagini(tmp_path)
+
+    assert len(problemi) == 1
+    messaggio = problemi[0].messaggio.lower()
+    assert "assente" in messaggio or "vuoto" in messaggio
+    assert "non ammessa" not in messaggio
 
 
 def test_immagine_con_licenza_non_ammessa_produce_errore(tmp_path: Path) -> None:
