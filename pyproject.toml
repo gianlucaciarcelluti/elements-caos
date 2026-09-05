@@ -31,7 +31,10 @@ packages = ["src/elements_caos"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-markers = ["integration: test che scaricano il dataset reale e verificano i dati in produzione"]
+addopts = ["-m", "not integration"]
+markers = [
+    "integration: test che scaricano il dataset reale e richiedono la rete (esclusi dalla CI di default)",
+]
 
 [tool.ruff]
 line-length = 100

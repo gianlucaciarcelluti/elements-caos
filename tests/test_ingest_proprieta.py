@@ -159,15 +159,23 @@ def test_leggi_dataset_contiene_alogeno_e_idrogeno() -> None:
 
 
 @pytest.mark.integration
-def test_tutte_le_categorie_sono_assegnate_nei_118_elementi_reali() -> None:
+def test_tutte_le_categorie_sono_assegnate_nei_118_elementi_reali(tmp_path: Path) -> None:
     """Verifica che nessuna categoria italiana resti orfana sul dataset reale.
 
-    Questo test scarica il dataset vero e verifica che tutte e 10 le categorie
-    italiane siano assegnate ad almeno un elemento dei 118. È un test di
-    integrazione che intercetta regressioni come il bug degli alogeni.
+    Questo test scarica il dataset vero da GitHub e verifica che tutte e 10 le
+    categorie italiane siano assegnate ad almeno un elemento dei 118. È un test
+    di integrazione che intercetta regressioni come il bug degli alogeni (orfani).
+
+    **Esecuzione:** Per default, `pytest` **non esegue** questo test perché richiede
+    la rete. Eseguirlo esplicitamente con:
+
+        uv run pytest -m integration tests/test_ingest_proprieta.py -v
+
+    Se il test fallisce per errore di rete (dataset non disponibile), è un problema
+    esterno, non un bug del codice. La CI lo esclude di default.
     """
-    # Scarica il dataset reale
-    dataset_reale = Path("/tmp/periodic_table_verifica.json")
+    # Scarica il dataset reale in una directory temporanea isolata
+    dataset_reale = tmp_path / "periodic_table_reale.json"
     scarica_dataset(dataset_reale)
 
     voci = leggi_dataset(dataset_reale)
@@ -179,10 +187,9 @@ def test_tutte_le_categorie_sono_assegnate_nei_118_elementi_reali() -> None:
         proprieta = estrai_proprieta(voce)
         categorie_assegnate[proprieta.categoria] += 1
 
-    # Verifica che tutte le 10 categorie siano assegnate
+    # Verifica che tutte le 10 categorie siano assegnate (nessuna orfana)
     orfane = [cat for cat, count in categorie_assegnate.items() if count == 0]
     assert not orfane, f"Categorie orfane (senza elementi): {[c.name for c in orfane]}"
 
-    # Verifica che i conteggi siano plausibili
-    # Esempio: ALOGENO deve avere almeno i comuni (F, Cl, Br, I) + transuranici
+    # Verifica che i conteggi siano plausibili: ALOGENO deve avere almeno i comuni
     assert categorie_assegnate[Categoria.ALOGENO] >= 4, "Alogeni: attesi almeno 4 elementi comuni"

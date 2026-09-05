@@ -90,13 +90,16 @@ def _correggi_categoria_per_gruppo(
     """Corregge la categoria in base al gruppo atomico quando il dataset non è esatto.
 
     Il dataset usa una tassonomia per stato fisico (metalli / non-metalli / semimetalli)
-    che non contempla le famiglie di gruppo. Questa funzione applica correzioni basate
-    sulla classificazione IUPAC per i gruppi:
-    - Gruppo 17: alogeni (indipendentemente dal dataset)
-    - L'idrogeno (Z=1, gruppo 1) non è mai un metallo alcalino
+    che non contempla tutte le famiglie di gruppo. In particolare:
 
-    La correzione è conservatrice: viene applicata solo quando il gruppo è noto
-    e la correzione è inequivocabile (es. Z=9 e gruppo=17 → sicuramente alogeno).
+    - **Gruppo 17 (alogeni):** Il dataset classifica i comuni (F, Cl, Br, I) come
+      "diatomic nonmetal" (→ NON_METALLO) e i sintetici (At, Ts) come "metalloid"
+      (→ SEMIMETALLO). Questa correzione assegna ALOGENO a tutti gli elementi del
+      gruppo 17, che è la classificazione IUPAC corretta e inequivocabile.
+
+    La correzione è conservatrice: viene applicata solo al gruppo 17, dove la
+    classification IUPAC (gruppo atomico) è più affidabile della tassonomia del dataset.
+    Gli altri gruppi (1, 2, 18) sono già correttamente mappati dal dataset.
     """
     # Gruppo 17: alogeni (F, Cl, Br, I, At, Ts)
     if gruppo == 17:
@@ -114,6 +117,12 @@ def estrai_proprieta(voce: dict[str, Any]) -> Proprieta:
     Dopo la mappatura iniziale dal dataset, applica correzioni basate sul numero
     atomico e dal gruppo per allinearsi alla classificazione IUPAC, in particolare
     per le famiglie (alogeni, ecc.) che il dataset non classifica esplicitamente.
+
+    **Nota su `stati_ossidazione`:** Il campo è inizializzato a lista vuota `[]` perché
+    il dataset non fornisce questo dato. Gli stati di ossidazione sono dati redazionali
+    che verranno compilati manualmente negli YAML di ogni elemento durante la fase
+    di contenuti (Task 14-19). Questa scelta evita una dipendenza esterna e allo stesso
+    tempo rende trasparente dove il dato manca.
     """
     try:
         categoria = mappa_categoria(voce["category"])
