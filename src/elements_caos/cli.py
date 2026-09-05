@@ -15,6 +15,7 @@ from elements_caos.caricamento import (
 )
 from elements_caos.ingest.ritratti import licenza_ammessa
 from elements_caos.models import Sezione
+from elements_caos.render.atomo_svg import nome_file_atomo, rendi_atomo_svg
 from elements_caos.render.navigazione import (
     rendi_attribuzioni,
     rendi_cronologia,
@@ -174,6 +175,18 @@ def genera_vault(cartella_dati: Path, cartella_vault: Path) -> int:
     _scrivi(cartella_vault / "Attribuzioni.md", rendi_attribuzioni(scopritori))
 
     _sincronizza_immagini(cartella_dati / "images", cartella_vault)
+
+    # Diagrammi atomici: scritti dopo _sincronizza_immagini, che ripulisce
+    # l'intera cartella Immagini dai ritratti orfani con pattern "*" — se gli
+    # SVG venissero scritti prima, quella chiamata li cancellerebbe subito
+    # dopo, non essendo nel suo set di attesi. La rimozione delle orfane qui
+    # usa un pattern ristretto ("atomo-*.svg") per non toccare i ritratti.
+    svg_attesi: set[str] = set()
+    for elemento in elementi:
+        nome_svg = nome_file_atomo(elemento)
+        svg_attesi.add(nome_svg)
+        _scrivi(cartella_vault / "Immagini" / nome_svg, rendi_atomo_svg(elemento))
+    _rimuovi_orfane(cartella_vault / "Immagini", svg_attesi, pattern="atomo-*.svg")
 
     print(f"Generate {len(elementi)} note di elementi in {cartella_vault}")
     return CODICE_SUCCESSO

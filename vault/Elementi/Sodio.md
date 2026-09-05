@@ -81,17 +81,7 @@ Proprio a causa della sua reattività, il sodio metallico non può essere lascia
 
 ## Struttura atomica
 
-```mermaid
-flowchart LR
-    N(("Nucleo<br/>Z=11"))
-    G1["Guscio 1<br/>2 e-"]
-    N --> G1
-    G2["Guscio 2<br/>8 e-"]
-    G1 --> G2
-    G3["Guscio 3<br/>1 e-<br/>(valenza)"]
-    G2 --> G3
-    style G3 fill:#4caf50,stroke:#333,stroke-width:2px
-```
+![[atomo-Sodio.svg]]
 
 ## Usi e presenza in natura
 

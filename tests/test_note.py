@@ -126,11 +126,19 @@ def test_frontmatter_include_alias() -> None:
     assert "Phosphorus" in dati["aliases"]
 
 
-def test_nota_contiene_i_quattro_diagrammi() -> None:
-    """La nota include i diagrammi previsti, tutti come blocchi Mermaid."""
+def test_nota_contiene_tre_diagrammi_mermaid_e_lo_svg_atomico() -> None:
+    """Tre diagrammi restano Mermaid; la struttura atomica è un embed SVG.
+
+    Il diagramma atomico è stato sostituito da un SVG generato (Task 12b):
+    Mermaid non ha un tipo di diagramma a cerchi concentrici, necessario per
+    rappresentare i gusci elettronici. L'SVG va referenziato come file
+    (``![[...]]``), mai incorporato inline: GitHub ignora l'SVG inline nel
+    Markdown.
+    """
     nota = _nota_fosforo()
 
-    assert nota.count("```mermaid") == 4
+    assert nota.count("```mermaid") == 3
+    assert "![[atomo-Fosforo.svg]]" in nota
 
 
 def test_nota_contiene_le_sezioni_previste() -> None:

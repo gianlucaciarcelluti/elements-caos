@@ -9,6 +9,7 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
 from elements_caos.caricamento import ordina_per_scoperta
 from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Sezione
+from elements_caos.render.atomo_svg import nome_file_atomo
 from elements_caos.render.diagrammi import (
     Vicini,
     calcola_vicini,
@@ -274,6 +275,7 @@ def rendi_nota(contesto: ContestoNota) -> str:
         diagramma_timeline=diagramma_timeline(elemento, nomi_scopritori),
         diagramma_posizione=diagramma_posizione(elemento, contesto.vicini),
         diagramma_atomo=diagramma_atomo(elemento),
+        nome_file_atomo=nome_file_atomo(elemento),
         diagramma_composti=diagramma_composti(elemento),
         precedente=contesto.precedente_cronologico,
         successivo=contesto.successivo_cronologico,

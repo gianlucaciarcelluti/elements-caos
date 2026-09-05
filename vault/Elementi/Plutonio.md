@@ -85,25 +85,7 @@ Tutti gli isotopi del plutonio sono radioattivi, e alcuni emettono calore in mod
 
 ## Struttura atomica
 
-```mermaid
-flowchart LR
-    N(("Nucleo<br/>Z=94"))
-    G1["Guscio 1<br/>2 e-"]
-    N --> G1
-    G2["Guscio 2<br/>8 e-"]
-    G1 --> G2
-    G3["Guscio 3<br/>18 e-"]
-    G2 --> G3
-    G4["Guscio 4<br/>32 e-"]
-    G3 --> G4
-    G5["Guscio 5<br/>24 e-"]
-    G4 --> G5
-    G6["Guscio 6<br/>8 e-"]
-    G5 --> G6
-    G7["Guscio 7<br/>2 e-<br/>(valenza)"]
-    G6 --> G7
-    style G7 fill:#4caf50,stroke:#333,stroke-width:2px
-```
+![[atomo-Plutonio.svg]]
 
 ## Usi e presenza in natura
 

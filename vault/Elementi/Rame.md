@@ -80,19 +80,7 @@ Chimicamente il rame appartiene al gruppo dei metalli di transizione e mostra so
 
 ## Struttura atomica
 
-```mermaid
-flowchart LR
-    N(("Nucleo<br/>Z=29"))
-    G1["Guscio 1<br/>2 e-"]
-    N --> G1
-    G2["Guscio 2<br/>8 e-"]
-    G1 --> G2
-    G3["Guscio 3<br/>18 e-"]
-    G2 --> G3
-    G4["Guscio 4<br/>1 e-<br/>(valenza)"]
-    G3 --> G4
-    style G4 fill:#4caf50,stroke:#333,stroke-width:2px
-```
+![[atomo-Rame.svg]]
 
 ## Usi e presenza in natura
 
