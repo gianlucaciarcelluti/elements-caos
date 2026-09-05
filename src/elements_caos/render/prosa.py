@@ -21,7 +21,7 @@ FORMULE_CAUTELA = {
 }
 
 _SPAZI_MULTIPLI = re.compile(r"\s+")
-_MARKUP_MARKDOWN = re.compile(r"[*_`#\[\]()]")
+_MARKUP_MARKDOWN = re.compile(r"[*`#\[\]()]")
 
 
 def _normalizza(testo: str) -> str:
@@ -46,11 +46,14 @@ def componi_sezione(contenuti: Contenuti, sezione: Sezione) -> str:
 def conta_parole(testo: str) -> int:
     """Conta le parole di un testo, escludendo il markup Markdown.
 
-    Il markup viene rimosso perché non è testo che il lettore legge: contarlo
-    falserebbe la verifica del budget di lettura.
+    Il markup viene rimosso e sostituito con spazi per evitare la fusione di parole
+    separate da link o wikilink. I caratteri `_` non vengono rimossi perché usati
+    nelle formule chimiche (es. H_2O). Il conteggio esclude il markup perché non è
+    testo che il lettore legge: contarlo falserebbe la verifica del budget di lettura.
     """
-    ripulito = _MARKUP_MARKDOWN.sub("", testo)
-    return len(ripulito.split())
+    ripulito = _MARKUP_MARKDOWN.sub(" ", testo)
+    normalizzato = _SPAZI_MULTIPLI.sub(" ", ripulito).strip()
+    return len(normalizzato.split())
 
 
 def tempo_lettura_minuti(parole: int) -> int:

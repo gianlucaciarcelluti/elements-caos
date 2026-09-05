@@ -134,3 +134,47 @@ def test_tempo_lettura_arrotonda_per_eccesso() -> None:
     assert tempo_lettura_minuti(231) == 2
     assert tempo_lettura_minuti(1000) == 5
     assert tempo_lettura_minuti(0) == 1
+
+
+def test_conta_parole_con_link_markdown() -> None:
+    """Il conteggio deve separare correttamente il testo da un URL in link.
+
+    Senza la sostituzione con spazi anziché stringa vuota, il testo visibile
+    "[Storia del fosforo]" e l'URL "(https://...)" verrebbero fusi in un'unica parola.
+    Con la sostituzione, rimangono separati.
+    """
+    testo = "Fonte: [Storia del fosforo](https://esempio.it/fosforo)."
+    # Parole: Fonte, :, Storia, del, fosforo, https://esempio.it/fosforo, .
+    assert conta_parole(testo) == 6
+
+
+def test_conta_parole_con_wikilink_semplice() -> None:
+    """Il conteggio deve separare il testo da un wikilink semplice.
+
+    A parità di contesto, `[[Fosforo]]` introduce una separazione fra il testo
+    antecedente e il successivo.
+    """
+    testo = "Vedi [[Fosforo]] per la storia."
+    # Parole visibili: Vedi Fosforo per la storia
+    assert conta_parole(testo) == 5
+
+
+def test_conta_parole_con_wikilink_alias() -> None:
+    """Il conteggio deve contare solo il testo visibile del wikilink, non il collegamento.
+
+    Nel formato [[collegamento|testo visibile]], il conteggio coglie solo il testo.
+    """
+    testo = "[[Fosforo|P]] brilla al buio."
+    # Parole visibili: P brilla al buio (il "Fosforo" non appare al lettore)
+    assert conta_parole(testo) == 4
+
+
+def test_conta_parole_preserva_formule_chimiche_con_underscore() -> None:
+    """Le formule chimiche con underscore (es. H_2O) non devono essere alterate.
+
+    L'underscore non viene rimosso dal markup, quindi rimane intatto e il
+    conteggio lo preserva: H_2O conta come una parola.
+    """
+    testo = "La molecola H_2O è composta di idrogeno e ossigeno."
+    # Parole: La, molecola, H_2O, è, composta, di, idrogeno, e, ossigeno
+    assert conta_parole(testo) == 9
