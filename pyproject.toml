@@ -38,6 +38,9 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "UP", "B", "SIM"]
+# N818 pretende il suffisso "Error" sulle eccezioni. Le nostre sono nominate in
+# italiano e portano "Errore" come prefisso (ErroreCaricamento, ErroreIngest):
+# la regola non riconosce il pattern e segnalerebbe un falso positivo.
 ignore = ["N818"]
 
 [tool.mypy]
