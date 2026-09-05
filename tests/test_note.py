@@ -5,7 +5,12 @@ from pathlib import Path
 import yaml
 
 from elements_caos.caricamento import carica_elementi, carica_epoche, carica_scopritori
-from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi_nota
+from elements_caos.render.note import (
+    costruisci_contesto,
+    kelvin_in_celsius,
+    nome_file_nota,
+    rendi_nota,
+)
 
 DATI_PROVA = Path(__file__).parent / "dati_prova"
 
@@ -105,10 +110,47 @@ def test_nota_marca_i_beat_tradizionali() -> None:
 
 
 def test_nota_converte_le_temperature_in_celsius() -> None:
-    """Le temperature, in Kelvin nei dati, sono mostrate anche in gradi Celsius."""
+    """Le temperature, in Kelvin nei dati, sono mostrate anche in gradi Celsius.
+
+    Il punto di fusione del fosforo nei dati di prova è 317.3 K, che
+    corrisponde esattamente a 44.15 °C: un valore a metà fra due decimi, che
+    con arrotondamento corretto (ROUND_HALF_UP) diventa 44,2 °C, non 44,1.
+    Il valore atteso è verificato per intero, unità compresa, e non come
+    sottostringa: "44,1" o "44.1" sarebbero passati anche per un valore come
+    "144,1" comparso altrove nella nota, senza verificare davvero la
+    conversione.
+    """
     nota = _nota_fosforo()
 
-    assert "44,1" in nota or "44.1" in nota
+    assert "| Punto di fusione | 44,2 °C |" in nota
+
+
+def test_kelvin_in_celsius_arrotonda_un_valore_esatto_a_meta() -> None:
+    """Un valore Kelvin la cui differenza è esattamente a metà fra due decimi.
+
+    317.3 K vale esattamente 44.15 °C. Sottraendo in virgola mobile puro,
+    l'errore di rappresentazione (317.3 - 273.15 = 44.150000000000034 in
+    float) sposta il valore oltre la soglia nella direzione sbagliata e lo fa
+    arrotondare a 44,1 anziché 44,2. Il calcolo su ``Decimal`` costruito dalla
+    rappresentazione testuale del dato sorgente, con ROUND_HALF_UP, deve dare
+    la cifra corretta.
+    """
+    assert kelvin_in_celsius(317.3) == "44,2 °C"
+
+
+def test_kelvin_in_celsius_gestisce_temperature_negative() -> None:
+    """Una temperatura sotto lo zero Celsius (punto di ebollizione dell'azoto).
+
+    77.36 K corrisponde a -195.79 °C, che arrotondato con ROUND_HALF_UP deve
+    dare -195,8 °C: verifica che l'arrotondamento funzioni correttamente
+    anche quando il valore Celsius è negativo, non solo per i positivi.
+    """
+    assert kelvin_in_celsius(77.36) == "-195,8 °C"
+
+
+def test_kelvin_in_celsius_dato_assente() -> None:
+    """L'assenza del dato deve produrre un messaggio esplicito, non un errore."""
+    assert kelvin_in_celsius(None) == "dato non disponibile"
 
 
 def test_nota_riporta_le_fonti() -> None:

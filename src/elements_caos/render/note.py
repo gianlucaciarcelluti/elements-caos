@@ -1,7 +1,7 @@
 """Composizione della nota Markdown di un singolo elemento."""
 
 from dataclasses import dataclass
-from decimal import ROUND_DOWN, Decimal
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
@@ -85,22 +85,25 @@ def _secolo(anno: int) -> str:
     return _in_numeri_romani((anno - 1) // 100 + 1)
 
 
-def _kelvin_in_celsius(kelvin: float | None) -> str:
+def kelvin_in_celsius(kelvin: float | None) -> str:
     """Converte una temperatura da Kelvin a gradi Celsius per la lettura.
 
     Il calcolo passa da ``Decimal`` costruito sulla rappresentazione testuale
     del valore originale: sottraendo direttamente in virgola mobile, errori di
     rappresentazione dell'ordine di 1e-14 spingono valori esatti a metà (come
-    317.3 K, cioè 44.15 °C) oltre la soglia di arrotondamento, restituendo una
-    cifra diversa da quella attesa a partire dal dato sorgente. Il troncamento
-    (anziché l'arrotondamento) rende il risultato indipendente da quale lato
-    della soglia capiti il valore esatto a metà.
+    317.3 K, cioè 44.15 °C) oltre la soglia di arrotondamento nella direzione
+    sbagliata, restituendo una cifra diversa da quella corretta a partire dal
+    dato sorgente. L'arrotondamento avviene con ``ROUND_HALF_UP``, la
+    convenzione della divulgazione scientifica italiana (317.3 K diventa
+    44,2 °C, non 44,1): scartato ``ROUND_HALF_EVEN`` (banker's rounding),
+    corretto in contabilità ma inatteso in un testo divulgativo, dove
+    mostrerebbe ad esempio 1537,8 °C per un valore esatto di 1537,85.
     """
     if kelvin is None:
         return "dato non disponibile"
     celsius = Decimal(str(kelvin)) - Decimal(str(ZERO_ASSOLUTO_CELSIUS))
-    troncato = celsius.quantize(Decimal("0.1"), rounding=ROUND_DOWN)
-    return f"{troncato} °C".replace(".", ",")
+    arrotondato = celsius.quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
+    return f"{arrotondato} °C".replace(".", ",")
 
 
 def costruisci_contesto(
@@ -187,8 +190,8 @@ def rendi_nota(contesto: ContestoNota) -> str:
         wikilink_scopritori=[f"[[{nome}]]" for nome in nomi_scopritori],
         anno_leggibile=formatta_anno(elemento.scoperta.anno),
         categoria_leggibile=ETICHETTE_CATEGORIA[proprieta.categoria],
-        fusione=_kelvin_in_celsius(proprieta.punto_fusione_k),
-        ebollizione=_kelvin_in_celsius(proprieta.punto_ebollizione_k),
+        fusione=kelvin_in_celsius(proprieta.punto_fusione_k),
+        ebollizione=kelvin_in_celsius(proprieta.punto_ebollizione_k),
         densita=(
             f"{proprieta.densita} g/cm³"
             if proprieta.densita is not None
