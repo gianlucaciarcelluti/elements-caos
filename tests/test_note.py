@@ -1,0 +1,150 @@
+"""Test della composizione della nota Markdown di un elemento."""
+
+from pathlib import Path
+
+import yaml
+
+from elements_caos.caricamento import carica_elementi, carica_epoche, carica_scopritori
+from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi_nota
+
+DATI_PROVA = Path(__file__).parent / "dati_prova"
+
+
+def _nota_fosforo() -> str:
+    """Genera la nota del fosforo a partire dai dati di prova."""
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+    contesto = costruisci_contesto(elementi[0], elementi, scopritori, epoche)
+    return rendi_nota(contesto)
+
+
+def _frontmatter(nota: str) -> dict[str, object]:
+    """Estrae e deserializza il frontmatter YAML della nota."""
+    assert nota.startswith("---\n")
+    chiusura = nota.index("\n---\n", 4)
+    return yaml.safe_load(nota[4:chiusura])
+
+
+def test_nota_inizia_con_frontmatter() -> None:
+    """La nota deve aprirsi con un frontmatter YAML delimitato da tre trattini."""
+    nota = _nota_fosforo()
+
+    assert nota.startswith("---\n")
+    assert "\n---\n" in nota
+
+
+def test_frontmatter_contiene_i_campi_previsti() -> None:
+    """Il frontmatter espone i campi piatti richiesti da Dataview."""
+    dati = _frontmatter(_nota_fosforo())
+
+    assert dati["titolo"] == "Fosforo"
+    assert dati["simbolo"] == "P"
+    assert dati["numero_atomico"] == 15
+    assert dati["anno_scoperta"] == 1669
+    assert dati["anno_stimato"] is False
+    assert dati["scopritori"] == ["Hennig Brand"]
+    assert dati["epoca"] == "Alchimia e primo moderno"
+    assert dati["categoria"] == "non_metallo"
+    assert dati["gruppo"] == 15
+    assert dati["periodo"] == 3
+    assert dati["ha_approfondimento"] is True
+
+
+def test_frontmatter_calcola_tempo_lettura() -> None:
+    """Il tempo di lettura è calcolato dalle parole reali, non stimato a priori."""
+    dati = _frontmatter(_nota_fosforo())
+
+    assert isinstance(dati["tempo_lettura"], int)
+    assert dati["tempo_lettura"] >= 1
+
+
+def test_frontmatter_contiene_tag_di_epoca_e_secolo() -> None:
+    """I tag includono la categoria, l'epoca e il secolo di scoperta."""
+    dati = _frontmatter(_nota_fosforo())
+    tags = dati["tags"]
+
+    assert "elemento" in tags
+    assert "epoca/alchimia" in tags
+    assert "secolo/XVII" in tags
+
+
+def test_frontmatter_include_alias() -> None:
+    """Gli alias permettono di raggiungere la nota dal simbolo e dal nome inglese."""
+    dati = _frontmatter(_nota_fosforo())
+
+    assert "P" in dati["aliases"]
+    assert "Phosphorus" in dati["aliases"]
+
+
+def test_nota_contiene_i_quattro_diagrammi() -> None:
+    """La nota include i diagrammi previsti, tutti come blocchi Mermaid."""
+    nota = _nota_fosforo()
+
+    assert nota.count("```mermaid") == 4
+
+
+def test_nota_contiene_le_sezioni_previste() -> None:
+    """La nota espone le intestazioni delle sezioni narrative."""
+    nota = _nota_fosforo()
+
+    for intestazione in ("## Storia della scoperta", "## Curiosità"):
+        assert intestazione in nota
+
+
+def test_nota_riporta_il_testo_dei_beat() -> None:
+    """Il testo dei beat compare nel corpo della nota."""
+    nota = _nota_fosforo()
+
+    assert "Ad Amburgo, nel 1669" in nota
+
+
+def test_nota_marca_i_beat_tradizionali() -> None:
+    """Un beat tradizionale è introdotto dalla formula di cautela."""
+    assert "*Per tradizione:*" in _nota_fosforo()
+
+
+def test_nota_converte_le_temperature_in_celsius() -> None:
+    """Le temperature, in Kelvin nei dati, sono mostrate anche in gradi Celsius."""
+    nota = _nota_fosforo()
+
+    assert "44,1" in nota or "44.1" in nota
+
+
+def test_nota_riporta_le_fonti() -> None:
+    """Le fonti consultate sono elencate in fondo alla nota."""
+    nota = _nota_fosforo()
+
+    assert "## Fonti" in nota
+    assert "https://esempio.it/fosforo" in nota
+
+
+def test_nota_collega_l_approfondimento() -> None:
+    """Se l'elemento ha un approfondimento, la nota base vi rimanda."""
+    assert "[[Fosforo — storia estesa]]" in _nota_fosforo()
+
+
+def test_nota_collega_lo_scopritore() -> None:
+    """La nota rimanda alla pagina dello scopritore tramite wikilink."""
+    assert "[[Hennig Brand]]" in _nota_fosforo()
+
+
+def test_nota_collega_l_epoca() -> None:
+    """La nota rimanda alla pagina dell'epoca storica."""
+    assert "[[Alchimia e primo moderno]]" in _nota_fosforo()
+
+
+def test_nome_file_nota() -> None:
+    """Il nome del file della nota corrisponde al nome italiano dell'elemento."""
+    elementi = carica_elementi(DATI_PROVA / "elements")
+
+    assert nome_file_nota(elementi[0]) == "Fosforo.md"
+
+
+def test_nota_e_deterministica() -> None:
+    """Due generazioni consecutive devono produrre esattamente lo stesso testo.
+
+    È la proprietà su cui si regge il controllo di CI che impedisce le
+    modifiche a mano alle note generate.
+    """
+    assert _nota_fosforo() == _nota_fosforo()

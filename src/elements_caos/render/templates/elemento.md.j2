@@ -1,0 +1,106 @@
+---
+titolo: {{ elemento.nome }}
+simbolo: {{ elemento.simbolo }}
+numero_atomico: {{ elemento.numero_atomico }}
+anno_scoperta: {{ elemento.scoperta.anno }}
+anno_stimato: {{ elemento.scoperta.anno_stimato | lower }}
+scopritori: [{{ nomi_scopritori | join(', ') }}]
+epoca: {{ epoca.nome }}
+categoria: {{ elemento.proprieta.categoria.value }}
+gruppo: {{ elemento.proprieta.gruppo if elemento.proprieta.gruppo is not none else 'null' }}
+periodo: {{ elemento.proprieta.periodo }}
+posizione_cronologica: {{ posizione_cronologica }}
+tempo_lettura: {{ tempo_lettura }}
+ha_approfondimento: {{ elemento.approfondimento | lower }}
+tags: [{{ tags | join(', ') }}]
+aliases: [{{ elemento.simbolo }}, {{ elemento.nome_en }}]
+---
+
+# {{ elemento.nome }} ({{ elemento.simbolo }})
+
+> [!abstract] {{ posizione_cronologica }}° elemento scoperto — {{ anno_leggibile }}
+> {{ elemento.contenuti.hook if elemento.contenuti else '' }}
+
+{{ incipit }}
+
+## Cronologia della scoperta
+
+{{ diagramma_timeline }}
+
+## Storia della scoperta
+
+{{ storia }}
+
+{% if elemento.scoperta.controversia %}
+> [!warning] Paternità contesa
+> {{ elemento.scoperta.controversia }}
+
+{% endif %}
+## Posizione nella tavola periodica
+
+{{ diagramma_posizione }}
+
+## Caratteristiche
+
+{{ caratteristiche }}
+
+### Dati fisico-chimici
+
+| Proprietà | Valore |
+|---|---|
+| Numero atomico | {{ elemento.numero_atomico }} |
+| Massa atomica | {{ elemento.proprieta.massa_atomica }} u |
+| Categoria | {{ categoria_leggibile }} |
+| Gruppo | {{ elemento.proprieta.gruppo if elemento.proprieta.gruppo is not none else '—' }} |
+| Periodo | {{ elemento.proprieta.periodo }} |
+| Blocco | {{ elemento.proprieta.blocco }} |
+| Configurazione elettronica | {{ elemento.proprieta.configurazione_elettronica }} |
+| Punto di fusione | {{ fusione }} |
+| Punto di ebollizione | {{ ebollizione }} |
+| Densità | {{ densita }} |
+| Stati di ossidazione | {{ stati_ossidazione }} |
+
+## Struttura atomica
+
+{{ diagramma_atomo }}
+
+## Usi e presenza in natura
+
+{{ usi }}
+
+{% if diagramma_composti %}
+{{ diagramma_composti }}
+
+{% endif %}
+{% if curiosita %}
+## Curiosità
+
+{{ curiosita }}
+
+{% endif %}
+{% if elemento.approfondimento %}
+> [!tip] Approfondimento
+> La vicenda completa in [[{{ elemento.nome }} — storia estesa]].
+
+{% endif %}
+## Nella cronologia
+
+{% if precedente %}
+← Precedente: [[{{ precedente.nome }}]] ({{ anno_precedente }})
+{% else %}
+← *Primo elemento della cronologia*
+{% endif %}
+{% if successivo %}
+→ Successivo: [[{{ successivo.nome }}]] ({{ anno_successivo }})
+{% else %}
+→ *Ultimo elemento della cronologia*
+{% endif %}
+
+Epoca: [[{{ epoca.nome }}]]{% if wikilink_scopritori %} · Scopritore: {{ wikilink_scopritori | join(', ') }}{% endif %}
+
+
+## Fonti
+
+{% for fonte in elemento.fonti %}
+- [{{ fonte.titolo }}]({{ fonte.url }}) — consultata il {{ fonte.consultata.strftime('%d/%m/%Y') }}
+{% endfor %}
