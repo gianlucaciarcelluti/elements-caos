@@ -1,0 +1,53 @@
+- id: antichita
+  nome: Antichità
+  anno_inizio: -40000
+  anno_fine: 1500
+  descrizione: >-
+    Gli elementi che l'umanità ha incontrato senza sapere di averlo fatto:
+    metalli raccolti allo stato nativo, fusi per caso, lavorati per necessità.
+    Nessuno li chiamava elementi, perché il concetto non esisteva ancora.
+
+- id: alchimia
+  nome: Alchimia e primo moderno
+  anno_inizio: 1500
+  anno_fine: 1750
+  descrizione: >-
+    Dalla ricerca della pietra filosofale alla prima scoperta documentata.
+    Gli alchimisti cercavano l'oro e trovavano altro: è in questo scarto fra
+    l'atteso e il trovato che nasce la chimica.
+
+- id: pneumatica
+  nome: Chimica pneumatica
+  anno_inizio: 1750
+  anno_fine: 1800
+  descrizione: >-
+    Il secolo in cui l'aria smette di essere una sostanza sola. Isolando i gas,
+    i chimici scoprono che l'invisibile ha una composizione, e Lavoisier dà
+    all'elemento la definizione che ancora usiamo.
+
+- id: elettrolisi
+  nome: L'età dell'elettrolisi
+  anno_inizio: 1800
+  anno_fine: 1850
+  descrizione: >-
+    La pila di Volta mette in mano ai chimici uno strumento nuovo: la corrente
+    elettrica scinde ciò che il fuoco non separava. Davy da solo isola sei
+    elementi in due anni.
+
+- id: spettroscopia
+  nome: Spettroscopia e radioattività
+  anno_inizio: 1850
+  anno_fine: 1940
+  descrizione: >-
+    Ogni elemento ha una firma luminosa, e leggerla significa trovarlo anche
+    dove non lo si può toccare — perfino nel Sole. Poi la radioattività rivela
+    che gli elementi possono trasformarsi l'uno nell'altro.
+
+- id: nucleare
+  nome: Era nucleare
+  anno_inizio: 1940
+  anno_fine: 2030
+  descrizione: >-
+    Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley,
+    Dubna e Darmstadt escono atomi che vivono millisecondi e che nessuno vedrà
+    mai a occhio nudo.
