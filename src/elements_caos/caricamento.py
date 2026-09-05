@@ -50,7 +50,7 @@ def carica_scopritori(percorso: Path) -> dict[str, Scopritore]:
     """Carica l'anagrafica degli scopritori, indicizzata per identificativo."""
     dati = _leggi_yaml(percorso)
     if not isinstance(dati, list):
-        tipo = "vuoto" if dati is None else type(dati).__name__
+        tipo = "nessun contenuto (file vuoto)" if dati is None else type(dati).__name__
         raise ErroreCaricamento(f"atteso un elenco in {percorso.name}, trovato {tipo}")
     try:
         scopritori = [Scopritore.model_validate(voce) for voce in dati]
@@ -63,7 +63,7 @@ def carica_epoche(percorso: Path) -> dict[str, Epoca]:
     """Carica la definizione delle epoche storiche, indicizzata per identificativo."""
     dati = _leggi_yaml(percorso)
     if not isinstance(dati, list):
-        tipo = "vuoto" if dati is None else type(dati).__name__
+        tipo = "nessun contenuto (file vuoto)" if dati is None else type(dati).__name__
         raise ErroreCaricamento(f"atteso un elenco in {percorso.name}, trovato {tipo}")
     try:
         epoche = [Epoca.model_validate(voce) for voce in dati]

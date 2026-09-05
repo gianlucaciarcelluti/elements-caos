@@ -173,3 +173,24 @@ def test_ordina_per_scoperta_usa_anno_poi_numero_atomico() -> None:
     ordinati = ordina_per_scoperta(elementi)
 
     assert [e.numero_atomico for e in ordinati] == [1, 2, 3]
+
+
+def test_carica_scopritori_lista_vuota_e_accettata(tmp_path: Path) -> None:
+    """Un elenco vuoto e' un dato legittimo, non un errore.
+
+    Distingue il file malformato (che va rifiutato) dal file che dichiara
+    esplicitamente di non contenere voci: il secondo e' valido e produce un
+    dizionario vuoto.
+    """
+    percorso = tmp_path / "scopritori.yaml"
+    percorso.write_text("[]\n", encoding="utf-8")
+
+    assert carica_scopritori(percorso) == {}
+
+
+def test_carica_epoche_lista_vuota_e_accettata(tmp_path: Path) -> None:
+    """Un elenco vuoto di epoche e' un dato legittimo, non un errore."""
+    percorso = tmp_path / "epoche.yaml"
+    percorso.write_text("[]\n", encoding="utf-8")
+
+    assert carica_epoche(percorso) == {}
