@@ -35,6 +35,9 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+# I documenti di progetto contengono blocchi di codice illustrativi: sono
+# documentazione, non sorgenti, e ruff non deve riformattarli.
+exclude = ["docs"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "UP", "B", "SIM"]
