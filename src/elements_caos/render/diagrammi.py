@@ -40,11 +40,16 @@ def _recinta(corpo: str) -> str:
     return f"```mermaid\n{corpo.strip()}\n```"
 
 
-def diagramma_timeline(elemento: Elemento) -> str:
+def diagramma_timeline(elemento: Elemento, nomi_scopritori: list[str]) -> str:
     """Genera la cronologia della scoperta dell'elemento.
 
     La scala temporale varia da millenni per gli elementi antichi a pochi mesi
     per i transuranici: è il diagramma stesso a comunicare il ritmo dell'epoca.
+
+    ``nomi_scopritori`` va passato già risolto dal chiamante: questa funzione
+    resta pura sui dati che riceve e non conosce ``scopritori.yaml``.
+    ``elemento.scoperta.scopritori`` contiene id (kebab-case), non nomi propri,
+    e non va mai mostrato direttamente nel diagramma.
     """
     scoperta = elemento.scoperta
     righe = [
@@ -55,7 +60,7 @@ def diagramma_timeline(elemento: Elemento) -> str:
     if scoperta.anno_stimato:
         righe.append(f"    {formatta_anno(scoperta.anno)} : Primo uso documentato (data stimata)")
     else:
-        scopritori = ", ".join(_etichetta(s) for s in scoperta.scopritori) or "ignoto"
+        scopritori = ", ".join(_etichetta(nome) for nome in nomi_scopritori) or "ignoto"
         righe.append(f"    {formatta_anno(scoperta.anno)} : Scoperta : {scopritori}")
 
     if scoperta.isolamento_anno is not None and scoperta.isolamento_anno != scoperta.anno:

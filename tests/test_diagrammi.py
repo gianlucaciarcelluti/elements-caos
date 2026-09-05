@@ -78,19 +78,19 @@ def _blocco_mermaid_valido(testo: str) -> bool:
 
 def test_timeline_e_blocco_mermaid_valido() -> None:
     """Il diagramma della scoperta è un blocco Mermaid recintato di tipo ammesso."""
-    assert _blocco_mermaid_valido(diagramma_timeline(_fosforo()))
+    assert _blocco_mermaid_valido(diagramma_timeline(_fosforo(), ["Tizio"]))
 
 
 def test_timeline_contiene_anno_di_scoperta() -> None:
     """La timeline riporta l'anno di scoperta dell'elemento."""
-    assert "1669" in diagramma_timeline(_fosforo())
+    assert "1669" in diagramma_timeline(_fosforo(), ["Tizio"])
 
 
 def test_timeline_di_elemento_antico_usa_avanti_cristo() -> None:
     """Per gli elementi antichi la timeline mostra gli anni in forma 'a.C.'."""
     rame = _elemento(29, "Rame", "Cu", 11, 4, [2, 8, 18, 1], anno=-9000)
 
-    risultato = diagramma_timeline(rame)
+    risultato = diagramma_timeline(rame, ["Tizio"])
 
     assert "9000 a.C." in risultato
 
@@ -99,10 +99,28 @@ def test_timeline_distingue_scoperta_e_isolamento() -> None:
     """Se isolamento e scoperta differiscono, la timeline mostra due tappe distinte."""
     berillio = _elemento(4, "Berillio", "Be", 2, 2, [2, 2], anno=1798, isolamento=1828)
 
-    risultato = diagramma_timeline(berillio)
+    risultato = diagramma_timeline(berillio, ["Tizio"])
 
     assert "1798" in risultato
     assert "1828" in risultato
+
+
+def test_timeline_usa_i_nomi_degli_scopritori_non_gli_id() -> None:
+    """La timeline mostra i nomi propri passati esplicitamente, non gli id kebab-case.
+
+    ``scoperta.scopritori`` contiene identificativi (es. ``hennig-brand``), che
+    rimandano a ``scopritori.yaml``: il diagramma non deve mai stamparli, deve
+    ricevere e mostrare i nomi già risolti dal chiamante. È il test che avrebbe
+    intercettato il difetto: con ``scopritori=["tizio"]`` id e nome sono
+    indistinguibili, qui invece divergono esplicitamente.
+    """
+    fosforo = _elemento(15, "Fosforo", "P", 15, 3, [2, 8, 5], anno=1669, isolamento=1669)
+    fosforo.scoperta.scopritori = ["hennig-brand"]
+
+    risultato = diagramma_timeline(fosforo, ["Hennig Brand"])
+
+    assert "Hennig Brand" in risultato
+    assert "hennig-brand" not in risultato
 
 
 def test_formatta_anno() -> None:
