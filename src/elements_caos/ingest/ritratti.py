@@ -63,19 +63,31 @@ def licenza_ammessa(licenza: str) -> bool:
     """Stabilisce se una licenza consente l'inclusione dell'immagine nel vault.
 
     Sono ammessi soltanto il pubblico dominio — sia nella forma dei codici di
-    template (``PD-*``) sia nella forma testuale restituita dall'API di
-    Commons (``"Public domain"``) — e il CC0. La lista è volutamente chiusa:
-    ogni altra licenza, comprese le varianti Creative Commons con obbligo di
-    attribuzione o share-alike (CC BY, CC BY-SA, CC BY-NC), GFDL, fair use o
-    licenze non dichiarate, viene scartata senza eccezioni. Non esiste un
-    fallback permissivo per stringhe non riconosciute: un errore di prudenza
-    costa un ritratto in meno, un errore di permissività pubblica un'immagine
+    template (``pd`` esatto o con prefisso ``pd-``, es. ``PD-old-100-expired``)
+    sia nella forma testuale restituita dall'API di Commons (``"Public
+    domain"``) — e il CC0. La lista è volutamente chiusa: ogni altra licenza,
+    comprese le varianti Creative Commons con obbligo di attribuzione o
+    share-alike (CC BY, CC BY-SA, CC BY-NC), GFDL, fair use o licenze non
+    dichiarate, viene scartata senza eccezioni. Non esiste un fallback
+    permissivo per stringhe non riconosciute: un errore di prudenza costa un
+    ritratto in meno, un errore di permissività pubblica un'immagine
     vincolata insieme al vault.
+
+    Il prefisso ``pd`` richiede il separatore ``-`` (oppure l'uguaglianza
+    esatta con ``pd``): un semplice ``startswith("pd")`` ammetterebbe per
+    errore stringhe come ``"PDF"``, ``"PD but restricted"`` o
+    ``"pdm-owner"``, che iniziano per quelle due lettere ma non sono affatto
+    pubblico dominio libero. Allo stesso modo il confronto sulla forma
+    testuale è per uguaglianza esatta, non per sottostringa: scarta
+    correttamente frasi come ``"Not in the public domain"`` o
+    ``"CC BY-SA (public domain in some countries)"``, che contengono le
+    parole "public domain" ma le negano o le condizionano a una licenza
+    share-alike.
     """
     normalizzata = licenza.strip().lower()
     if not normalizzata:
         return False
-    if normalizzata.startswith("pd") or normalizzata == "cc0":
+    if normalizzata == "pd" or normalizzata.startswith("pd-") or normalizzata == "cc0":
         return True
     return normalizzata in _FORME_TESTUALI_PD_AMMESSE
 
@@ -159,7 +171,15 @@ def scarica_ritratto(info: InfoLicenza, destinazione: Path) -> Ritratto:
     """Scarica un ritratto e ne registra la licenza in un file affiancato.
 
     Il file di licenza è obbligatorio: la validazione del vault rifiuta ogni
-    immagine che non lo possieda.
+    immagine che non lo possieda. Per questo la licenza viene scritta
+    **prima** dell'immagine: se la scrittura dell'immagine fallisce (disco
+    pieno, permessi, processo interrotto), l'unico stato transitorio
+    possibile è "licenza senza immagine", innocuo per la validazione — che
+    controlla che ogni immagine abbia la sua licenza, non il contrario. Lo
+    stato opposto, "immagine senza licenza", farebbe invece fallire la
+    validazione senza che sia chiaro il perché. Se la scrittura
+    dell'immagine fallisce, il file di licenza appena creato viene rimosso
+    per non lasciare residui orfani.
     """
     if not licenza_ammessa(info.licenza):
         raise ValueError(f"licenza non ammessa per {destinazione.name}: {info.licenza!r}")
@@ -168,7 +188,6 @@ def scarica_ritratto(info: InfoLicenza, destinazione: Path) -> Ritratto:
     risposta.raise_for_status()
 
     destinazione.parent.mkdir(parents=True, exist_ok=True)
-    destinazione.write_bytes(risposta.content)
 
     ritratto = Ritratto(
         file=destinazione.name,
@@ -182,5 +201,11 @@ def scarica_ritratto(info: InfoLicenza, destinazione: Path) -> Ritratto:
         yaml.safe_dump(ritratto.model_dump(), allow_unicode=True, sort_keys=True),
         encoding="utf-8",
     )
+
+    try:
+        destinazione.write_bytes(risposta.content)
+    except OSError:
+        file_licenza.unlink(missing_ok=True)
+        raise
 
     return ritratto

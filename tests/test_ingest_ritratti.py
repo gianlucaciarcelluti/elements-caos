@@ -30,6 +30,10 @@ from elements_caos.ingest.ritratti import (
         "PD-US",
         "PD-old-70",
         "pd-art",
+        # Template Commons per opere sotto la soglia di originalità (loghi
+        # semplici, forme geometriche): pubblico dominio a tutti gli
+        # effetti, non un falso positivo del prefisso.
+        "PD-ineligible",
         "CC0",
         "cc0",
     ],
@@ -55,6 +59,25 @@ def test_licenze_ammesse(licenza: str) -> None:
         "All rights reserved",
         "CC BY-NC",
         "",
+        # Stringhe insidiose: iniziano per "pd" ma non sono affatto pubblico
+        # dominio. Un prefisso "pd" senza separatore le ammetterebbe per
+        # errore: il filtro deve restare chiuso su "pd-" o "pd" esatto.
+        #
+        # NOTA: "PD-ineligible" non è in questo elenco nonostante sia stato
+        # proposto come stringa insidiosa in revisione. È un template Commons
+        # reale (opere sotto la soglia di originalità, es. loghi semplici o
+        # forme geometriche): ha il prefisso "pd-" legittimo ed è pubblico
+        # dominio a tutti gli effetti, non un falso positivo del prefisso
+        # generico. Con "pd-" come separatore obbligatorio resta AMMESSA, ed
+        # è la decisione corretta: va nel test delle licenze ammesse (sotto).
+        "PDF",
+        "PD but restricted",
+        "pdm-owner",
+        # Contengono la sottostringa "public domain" ma la negano o la
+        # condizionano: il confronto sulle forme testuali è per uguaglianza
+        # esatta, non per sottostringa, e deve scartarle.
+        "Not in the public domain",
+        "CC BY-SA (public domain in some countries)",
     ],
 )
 def test_licenze_rifiutate(licenza: str) -> None:
@@ -222,6 +245,78 @@ def test_scarica_ritratto_salva_file_e_licenza(tmp_path: Path) -> None:
     assert (tmp_path / "hennig-brand.jpg.license.yaml").exists()
     assert ritratto.licenza == "Public domain"
     assert ritratto.file == "hennig-brand.jpg"
+
+
+def test_scarica_ritratto_scrive_prima_la_licenza_poi_immagine(tmp_path: Path) -> None:
+    """La licenza va scritta prima dell'immagine, non dopo.
+
+    Se qualcosa fallisce fra le due scritture, l'unico stato transitorio
+    possibile deve essere "licenza senza immagine": innocuo, perché la
+    validazione del vault controlla che ogni immagine abbia la sua licenza,
+    non il contrario. Il contrario ("immagine senza licenza") farebbe
+    fallire la validazione senza che sia chiaro il perché.
+    """
+    info = InfoLicenza(
+        licenza="Public domain",
+        autore="Joseph Wright of Derby",
+        url_file="https://esempio.it/brand.jpg",
+        url_pagina="https://commons.wikimedia.org/wiki/File:Brand.jpg",
+    )
+    risposta = MagicMock()
+    risposta.content = b"contenuto-immagine"
+    risposta.raise_for_status.return_value = None
+
+    ordine_scritture: list[str] = []
+    write_text_originale = Path.write_text
+    write_bytes_originale = Path.write_bytes
+
+    def _registra_write_text(self: Path, *args: object, **kwargs: object) -> int:
+        ordine_scritture.append("licenza")
+        return write_text_originale(self, *args, **kwargs)  # type: ignore[arg-type]
+
+    def _registra_write_bytes(self: Path, *args: object, **kwargs: object) -> int:
+        ordine_scritture.append("immagine")
+        return write_bytes_originale(self, *args, **kwargs)  # type: ignore[arg-type]
+
+    destinazione = tmp_path / "hennig-brand.jpg"
+    with (
+        patch("elements_caos.ingest.ritratti.requests.get", return_value=risposta),
+        patch.object(Path, "write_text", _registra_write_text),
+        patch.object(Path, "write_bytes", _registra_write_bytes),
+    ):
+        scarica_ritratto(info, destinazione)
+
+    assert ordine_scritture == ["licenza", "immagine"]
+
+
+def test_scarica_ritratto_rimuove_licenza_orfana_se_immagine_fallisce(
+    tmp_path: Path,
+) -> None:
+    """Se la scrittura dell'immagine fallisce non deve restare alcun file orfano.
+
+    Simula il fallimento della scrittura dell'immagine (la seconda, nel nuovo
+    ordine): il file di licenza, scritto per primo, deve essere rimosso.
+    """
+    info = InfoLicenza(
+        licenza="Public domain",
+        autore="Joseph Wright of Derby",
+        url_file="https://esempio.it/brand.jpg",
+        url_pagina="https://commons.wikimedia.org/wiki/File:Brand.jpg",
+    )
+    risposta = MagicMock()
+    risposta.content = b"contenuto-immagine"
+    risposta.raise_for_status.return_value = None
+
+    destinazione = tmp_path / "hennig-brand.jpg"
+    with (
+        patch("elements_caos.ingest.ritratti.requests.get", return_value=risposta),
+        patch.object(Path, "write_bytes", side_effect=OSError("disco pieno")),
+        pytest.raises(OSError, match="disco pieno"),
+    ):
+        scarica_ritratto(info, destinazione)
+
+    assert not destinazione.exists()
+    assert not (tmp_path / "hennig-brand.jpg.license.yaml").exists()
 
 
 def test_file_licenza_contiene_i_metadati(tmp_path: Path) -> None:
