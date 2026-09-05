@@ -5,6 +5,19 @@ immagini di pubblico dominio o rilasciate in CC0. Le licenze share-alike
 vincolerebbero qualsiasi riuso del vault in altri formati, e per la quasi
 totalità degli scopritori — morti da oltre un secolo — il pubblico dominio è
 comunque disponibile.
+
+**Nota sulle forme testuali della licenza**: il campo ``LicenseShortName``
+restituito dall'API di Commons (``prop=imageinfo&iiprop=extmetadata``) non
+riporta il nome del template di licenza (es. ``PD-old-100-expired``, visibile
+solo nell'HTML della pagina di descrizione), ma un'etichetta leggibile.
+Un'interrogazione reale su un campione di 19 scopritori (incluse figure del
+Novecento, più a rischio di copyright ancora attivo) ha restituito nel campo
+``LicenseShortName`` soltanto tre valori distinti: ``"Public domain"`` (16
+casi su 18 con esito), ``"CC BY-SA 3.0 nl"`` e ``"CC BY-SA 4.0"`` (1 caso
+ciascuno, entrambi scartati). Il filtro riconosce quindi ``"public domain"``
+come forma di pubblico dominio a pieno titolo, oltre ai codici ``PD-*`` (mai
+osservati dall'API in questo campione, ma mantenuti per compatibilità con
+altre fonti o con interfacce che li espongono) e ``CC0``.
 """
 
 import re
@@ -38,15 +51,33 @@ class InfoLicenza:
     url_pagina: str
 
 
+# Forme testuali esatte del pubblico dominio restituite da Commons in
+# ``LicenseShortName`` (non codici di template): "Public domain" è di gran
+# lunga la più frequente nel campione osservato. È una lista chiusa e va
+# ampliata solo dopo aver verificato una nuova forma sull'API reale, non per
+# somiglianza testuale con "pubblico dominio".
+_FORME_TESTUALI_PD_AMMESSE = {"public domain"}
+
+
 def licenza_ammessa(licenza: str) -> bool:
     """Stabilisce se una licenza consente l'inclusione dell'immagine nel vault.
 
-    Sono ammessi soltanto il pubblico dominio, in tutte le sue forme, e il CC0.
+    Sono ammessi soltanto il pubblico dominio — sia nella forma dei codici di
+    template (``PD-*``) sia nella forma testuale restituita dall'API di
+    Commons (``"Public domain"``) — e il CC0. La lista è volutamente chiusa:
+    ogni altra licenza, comprese le varianti Creative Commons con obbligo di
+    attribuzione o share-alike (CC BY, CC BY-SA, CC BY-NC), GFDL, fair use o
+    licenze non dichiarate, viene scartata senza eccezioni. Non esiste un
+    fallback permissivo per stringhe non riconosciute: un errore di prudenza
+    costa un ritratto in meno, un errore di permissività pubblica un'immagine
+    vincolata insieme al vault.
     """
     normalizzata = licenza.strip().lower()
     if not normalizzata:
         return False
-    return normalizzata.startswith("pd") or normalizzata == "cc0"
+    if normalizzata.startswith("pd") or normalizzata == "cc0":
+        return True
+    return normalizzata in _FORME_TESTUALI_PD_AMMESSE
 
 
 def _ripulisci_html(testo: str) -> str:
