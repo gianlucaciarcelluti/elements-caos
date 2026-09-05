@@ -271,3 +271,23 @@ def test_composti_neutralizza_i_caratteri_speciali(nome_pericoloso: str) -> None
 
     corpo = risultato.split("```mermaid")[1].split("```")[0]
     assert '"' not in corpo.replace('["', "").replace('"]', "")
+
+
+def test_composti_preserva_il_tag_br_nell_etichetta() -> None:
+    """Il tag <br/> inserito dal generatore resta intatto anche con nomi ambigui.
+
+    ``_etichetta()`` deve neutralizzare solo i dati esterni (nome e formula),
+    non il markup Mermaid che il generatore stesso concatena dopo: se venisse
+    applicata all'intera etichetta già concatenata, il carattere ``<`` di
+    ``<br/>`` sarebbe rimosso insieme a quello proveniente dal nome, e l'a-capo
+    sparirebbe dal diagramma.
+    """
+    fosforo = _fosforo()
+    fosforo.composti_principali = [
+        Composto(nome="Piombo (II) solfuro", formula="PbS", usi=["pigmenti"]),
+    ]
+
+    risultato = diagramma_composti(fosforo)
+
+    assert "<br/>" in risultato
+    assert "Piombo (II) solfuro<br/>PbS" in risultato

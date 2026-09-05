@@ -183,7 +183,9 @@ def diagramma_composti(elemento: Elemento) -> str:
 
     for indice, composto in enumerate(elemento.composti_principali, start=1):
         nodo_composto = f"C{indice}"
-        etichetta = _etichetta(f"{composto.nome}<br/>{composto.formula}")
+        nome_composto = _etichetta(composto.nome)
+        formula_composto = _etichetta(composto.formula)
+        etichetta = f"{nome_composto}<br/>{formula_composto}"
         righe.append(f'    {nodo_composto}["{etichetta}"]')
         righe.append(f"    E --> {nodo_composto}")
 
