@@ -5,6 +5,7 @@ from pathlib import Path
 import yaml
 
 from elements_caos.caricamento import carica_elementi, carica_epoche, carica_scopritori
+from elements_caos.models import Contenuti, Elemento
 from elements_caos.render.note import (
     costruisci_contesto,
     formatta_configurazione_elettronica,
@@ -17,13 +18,18 @@ from elements_caos.render.note import (
 DATI_PROVA = Path(__file__).parent / "dati_prova"
 
 
+def _nota_di(elemento: Elemento, elementi: list[Elemento]) -> str:
+    """Genera la nota di un elemento nel contesto dell'intero elenco fornito."""
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+    contesto = costruisci_contesto(elemento, elementi, scopritori, epoche)
+    return rendi_nota(contesto)
+
+
 def _nota_fosforo() -> str:
     """Genera la nota del fosforo a partire dai dati di prova."""
     elementi = carica_elementi(DATI_PROVA / "elements")
-    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
-    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
-    contesto = costruisci_contesto(elementi[0], elementi, scopritori, epoche)
-    return rendi_nota(contesto)
+    return _nota_di(elementi[0], elementi)
 
 
 def _frontmatter(nota: str) -> dict[str, object]:
@@ -198,9 +204,35 @@ def test_nota_riporta_le_fonti() -> None:
     assert "https://esempio.it/fosforo" in nota
 
 
-def test_nota_collega_l_approfondimento() -> None:
-    """Se l'elemento ha un approfondimento, la nota base vi rimanda."""
-    assert "[[Fosforo — storia estesa]]" in _nota_fosforo()
+def test_nota_non_collega_approfondimento_senza_contenuti_estesi() -> None:
+    """``approfondimento=True`` da solo non basta: senza ``contenuti_estesi``
+    scritti la nota non deve linkare una pagina che non esiste ancora.
+
+    Il fosforo dei dati di prova ha ``approfondimento: true`` ma nessun
+    ``contenuti_estesi``: è esattamente il caso che, prima di questa
+    correzione, produceva un wikilink rotto in ogni vault generato prima che
+    l'approfondimento venisse effettivamente scritto.
+    """
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    assert elementi[0].approfondimento is True
+    assert elementi[0].contenuti_estesi is None
+
+    assert "[[Fosforo — storia estesa]]" not in _nota_fosforo()
+
+
+def test_nota_collega_l_approfondimento_quando_scritto() -> None:
+    """Quando ``contenuti_estesi`` è valorizzato, la nota base vi rimanda.
+
+    Il link segue il fatto (l'approfondimento è stato scritto), non
+    l'intenzione dichiarata da ``approfondimento``.
+    """
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    con_estesi = elementi[0].model_copy(
+        update={"contenuti_estesi": Contenuti(hook="Un approfondimento più lungo.")}
+    )
+    elementi_aggiornati = [con_estesi, *elementi[1:]]
+
+    assert "[[Fosforo — storia estesa]]" in _nota_di(con_estesi, elementi_aggiornati)
 
 
 def test_nota_collega_lo_scopritore() -> None:
