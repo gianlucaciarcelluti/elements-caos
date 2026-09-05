@@ -2,11 +2,13 @@
 
 from pathlib import Path
 
+import pytest
 import yaml
 
 from elements_caos.caricamento import carica_elementi, carica_epoche, carica_scopritori
 from elements_caos.models import Contenuti, Elemento
 from elements_caos.render.note import (
+    _tag_periodo_storico,
     costruisci_contesto,
     formatta_configurazione_elettronica,
     formatta_decimale,
@@ -80,6 +82,40 @@ def test_frontmatter_contiene_tag_di_epoca_e_secolo() -> None:
     assert "elemento" in tags
     assert "epoca/alchimia" in tags
     assert "secolo/XVII" in tags
+
+
+@pytest.mark.parametrize(
+    ("nome", "anno", "atteso"),
+    [
+        ("Oro", -40000, "millennio/40aC"),
+        ("Rame", -9000, "millennio/9aC"),
+        ("Stagno", -3500, "millennio/4aC"),
+        ("Mercurio", -1500, "secolo/XVaC"),
+        ("Platino", -600, "secolo/VIaC"),
+        ("Arsenico", 300, "secolo/III"),
+        ("Fosforo", 1669, "secolo/XVII"),
+    ],
+)
+def test_tag_periodo_storico_sui_casi_reali(nome: str, anno: int, atteso: str) -> None:
+    """Il tag cronologico usa i millenni per la preistoria, i secoli altrimenti.
+
+    Gli anni scelti coprono elementi realmente presenti nel vault, dall'oro
+    dell'antichità più remota (-40000) al fosforo del 1669: la soglia dei
+    3000 a.C. separa le date preistoriche, dove il secolo in cifre romane
+    produce numerali illeggibili, da quelle storiche, dove il secolo resta
+    la convenzione naturale.
+    """
+    assert _tag_periodo_storico(anno) == atteso, nome
+
+
+def test_tag_periodo_storico_soglia_millennio() -> None:
+    """La soglia dei 3000 a.C. si comporta correttamente sui due lati.
+
+    Esattamente 3000 a.C. non è "anteriore" al 3000 a.C.: resta nel ramo dei
+    secoli. Un anno di poco più antico (3001 a.C.) passa invece ai millenni.
+    """
+    assert _tag_periodo_storico(-3000) == "secolo/XXXaC"
+    assert _tag_periodo_storico(-3001) == "millennio/4aC"
 
 
 def test_frontmatter_include_alias() -> None:

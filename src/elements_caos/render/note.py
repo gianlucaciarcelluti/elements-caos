@@ -88,11 +88,35 @@ def _in_numeri_romani(numero: int) -> str:
     return risultato
 
 
-def _secolo(anno: int) -> str:
-    """Restituisce il secolo di un anno in cifre romane, con suffisso per le date a.C."""
+# Soglia, in anni avanti Cristo, sotto la quale il tag cronologico passa da
+# secoli a millenni. Non è arbitraria: è dove la storiografia stessa smette
+# di parlare di secoli per la preistoria, perché le datazioni non sono
+# abbastanza precise da giustificarli. "IX millennio a.C." è un'espressione
+# che si usa; "novantesimo secolo a.C." no, anche se matematicamente
+# equivalente: nessuno la userebbe per descrivere quell'epoca.
+_SOGLIA_MILLENNIO_AC = 3000
+
+
+def _tag_periodo_storico(anno: int) -> str:
+    """Restituisce il tag cronologico di un anno, pronto per il frontmatter.
+
+    Per le date dal 3000 a.C. in poi (comprese quelle dopo Cristo) il tag
+    esprime il secolo in cifre romane, come richiede la convenzione
+    divulgativa consueta: ``secolo/XVII``. Per le date preistoriche,
+    anteriori al 3000 a.C., il secolo in cifre romane produce numerali enormi
+    e illeggibili (il rame, con la sua data convenzionale di -9000, darebbe
+    "XCaC", il novantesimo secolo avanti Cristo: corretto ma innaturale). La
+    storiografia stessa, per queste epoche, ragiona in millenni: il tag
+    diventa allora ``millennio/9aC``, con il numero in cifre arabe — le cifre
+    romane non aggiungerebbero leggibilità a un millennio, che resta un
+    numero piccolo anche per le date più remote del vault.
+    """
+    if anno < 0 and abs(anno) > _SOGLIA_MILLENNIO_AC:
+        millennio = (abs(anno) - 1) // 1000 + 1
+        return f"millennio/{millennio}aC"
     if anno < 0:
-        return f"{_in_numeri_romani((abs(anno) - 1) // 100 + 1)}aC"
-    return _in_numeri_romani((anno - 1) // 100 + 1)
+        return f"secolo/{_in_numeri_romani((abs(anno) - 1) // 100 + 1)}aC"
+    return f"secolo/{_in_numeri_romani((anno - 1) // 100 + 1)}"
 
 
 def kelvin_in_celsius(kelvin: float | None) -> str:
@@ -217,7 +241,7 @@ def rendi_nota(contesto: ContestoNota) -> str:
         "elemento",
         proprieta.categoria.value.replace("_", "-"),
         f"epoca/{elemento.scoperta.epoca}",
-        f"secolo/{_secolo(elemento.scoperta.anno)}",
+        _tag_periodo_storico(elemento.scoperta.anno),
     ]
 
     modello = ambiente_template().get_template("elemento.md.j2")
