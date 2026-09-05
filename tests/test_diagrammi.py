@@ -105,6 +105,30 @@ def test_timeline_distingue_scoperta_e_isolamento() -> None:
     assert "1828" in risultato
 
 
+def test_timeline_titolo_con_nome_consonantico_non_elide() -> None:
+    """Un nome che inizia per consonante mantiene 'del' non elisa."""
+    fosforo = _fosforo()
+
+    risultato = diagramma_timeline(fosforo, ["Tizio"])
+
+    assert "Scoperta del Fosforo" in risultato
+
+
+def test_timeline_titolo_con_nome_vocalico_elide() -> None:
+    """Un nome che inizia per vocale richiede l'elisione: 'dell'', non 'del'.
+
+    L'italiano vuole "dell'Idrogeno", non "del Idrogeno": è un errore
+    grammaticale che il lettore di un vault divulgativo nota subito. 26 degli
+    118 elementi hanno nome italiano a iniziale vocalica.
+    """
+    idrogeno = _elemento(1, "Idrogeno", "H", 1, 1, [1])
+
+    risultato = diagramma_timeline(idrogeno, ["Tizio"])
+
+    assert "Scoperta dell'Idrogeno" in risultato
+    assert "Scoperta del Idrogeno" not in risultato
+
+
 def test_timeline_usa_i_nomi_degli_scopritori_non_gli_id() -> None:
     """La timeline mostra i nomi propri passati esplicitamente, non gli id kebab-case.
 

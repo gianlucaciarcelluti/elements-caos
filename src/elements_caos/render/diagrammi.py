@@ -14,6 +14,11 @@ from elements_caos.models import Elemento
 # Caratteri che romperebbero la sintassi Mermaid all'interno di un'etichetta.
 _CARATTERI_PROBLEMATICI = re.compile(r'["\';{}|<>]')
 
+# Vocali (maiuscole e minuscole) davanti alle quali la preposizione articolata
+# "del" elide in "dell'". Nessun elemento italiano inizia per "h" (l'idrogeno
+# è "Idrogeno", non "Hidrogeno"), quindi la h muta non va gestita qui.
+_VOCALI_ELISIONE = "aeiouAEIOU"
+
 
 @dataclass(frozen=True)
 class Vicini:
@@ -40,6 +45,21 @@ def _recinta(corpo: str) -> str:
     return f"```mermaid\n{corpo.strip()}\n```"
 
 
+def _del_elidibile(nome: str) -> str:
+    """Restituisce "del " o "dell'" secondo l'iniziale del nome che segue.
+
+    L'italiano richiede l'elisione della preposizione articolata "del" in
+    "dell'" davanti a un nome che inizia per vocale (a, e, i, o, u): "del
+    Fosforo" ma "dell'Idrogeno". Nessun elemento ha nome italiano che inizia
+    per "h", quindi la h muta non è un caso da gestire qui. Il valore
+    restituito include già lo spazio o l'apostrofo necessario: il chiamante
+    lo concatena direttamente davanti al nome, senza separatori aggiuntivi.
+    """
+    if nome and nome[0] in _VOCALI_ELISIONE:
+        return "dell'"
+    return "del "
+
+
 def diagramma_timeline(elemento: Elemento, nomi_scopritori: list[str]) -> str:
     """Genera la cronologia della scoperta dell'elemento.
 
@@ -52,9 +72,10 @@ def diagramma_timeline(elemento: Elemento, nomi_scopritori: list[str]) -> str:
     e non va mai mostrato direttamente nel diagramma.
     """
     scoperta = elemento.scoperta
+    nome_elemento = _etichetta(elemento.nome)
     righe = [
         "timeline",
-        f"    title Scoperta del {_etichetta(elemento.nome)}",
+        f"    title Scoperta {_del_elidibile(elemento.nome)}{nome_elemento}",
     ]
 
     if scoperta.anno_stimato:
