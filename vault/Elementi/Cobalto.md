@@ -61,7 +61,7 @@ flowchart TB
 
 ## Caratteristiche
 
-Il cobalto è uno dei tre soli elementi ferromagnetici a temperatura ambiente, insieme al ferro e al nichel, e fra i tre è quello che tiene meglio: conserva le proprietà magnetiche fino a 1115 gradi, la temperatura più alta fra tutti gli elementi ferromagnetici, mentre il ferro cede a 770 gradi e il nichel già a 358. È questa resistenza al calore a renderlo indispensabile nei magneti permanenti che devono lavorare in condizioni severe.
+Gli elementi ferromagnetici sono soltanto quattro in tutta la tavola periodica, e fra loro il cobalto è quello che resiste meglio al calore. Ogni materiale magnetico ha una soglia oltre la quale l'agitazione termica scompiglia l'ordine degli atomi e il magnetismo svanisce: il gadolinio la raggiunge appena sopra i venti gradi, tanto che basta stringerlo in mano per smagnetizzarlo, il nichel cede a 354 gradi e il ferro a 770, mentre il cobalto tiene fino a circa 1130. È questa tenuta a renderlo indispensabile nei magneti permanenti che devono lavorare in condizioni severe.
 
 La chimica del cobalto è una chimica di colori. I composti comuni lo contengono allo stato più due o più tre, anche se la letteratura ne registra un ventaglio molto più ampio, e i suoi ioni cambiano tinta a seconda di ciò che li circonda: in acqua danno un rosa tenue, ma bastano ioni cloruro a trasformarli in un blu intenso. La reazione è così vistosa e reversibile che si usa come indicatore di umidità.
 
