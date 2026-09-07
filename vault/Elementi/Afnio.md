@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Protoattinio]] (1913)
 → Successivo: [[Renio]] (1925)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Dirk Coster]], [[Georg von Hevesy]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Dirk Coster]], [[Georg von Hevesy]]
 
 ## Fonti
 

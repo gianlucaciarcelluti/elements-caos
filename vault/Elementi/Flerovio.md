@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Nihonio]] (2004)
 → Successivo: [[Oganesson]] (2006)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Yuri Oganessian]], [[Kenton Moody]]
+Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 
 ## Fonti
 

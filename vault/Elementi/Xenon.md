@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Cripton]] (1898)
 → Successivo: [[Polonio]] (1898)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[William Ramsay]], [[Morris Travers]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[William Ramsay]], [[Morris Travers]]
 
 ## Fonti
 

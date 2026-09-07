@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Francio]] (1939)
 → Successivo: [[Nettunio]] (1940)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Dale Corson]], [[Kenneth MacKenzie]], [[Emilio Segrè]]
+Epoca: [[Era nucleare]] · Scopritori: [[Dale Corson]], [[Kenneth MacKenzie]], [[Emilio Segrè]]
 
 ## Fonti
 

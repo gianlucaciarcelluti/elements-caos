@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Afnio]] (1923)
 → Successivo: [[Tecnezio]] (1937)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Ida Noddack]], [[Walter Noddack]], [[Otto Berg]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Ida Noddack]], [[Walter Noddack]], [[Otto Berg]]
 
 ## Fonti
 

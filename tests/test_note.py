@@ -337,3 +337,30 @@ def test_riquadro_della_controversia_si_intitola_questione_aperta() -> None:
 
     assert "> [!warning] Questione aperta" in nota
     assert "Paternità contesa" not in nota
+
+
+def test_nota_accorda_l_etichetta_degli_scopritori_al_numero() -> None:
+    """L'etichetta segue il numero dei nomi: "Scopritore" con uno, "Scopritori" con più.
+
+    Trentatré elementi su 118 hanno più di uno scopritore, e il numero cresce
+    man mano che si espandono le attribuzioni compresse in «et al.»: il boro
+    ne elenca quattro, e "Scopritore: A, B, C, D" è un errore grammaticale
+    nella riga di chiusura di ogni nota a paternità multipla.
+    """
+    from elements_caos.models import Scopritore
+
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    fosforo = elementi[0]
+    assert len(fosforo.scoperta.scopritori) == 1
+    assert "· Scopritore: " in _nota_di(fosforo, elementi)
+
+    condiviso = fosforo.model_copy(deep=True)
+    condiviso.scoperta.scopritori = ["hennig-brand", "seconda-persona"]
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    scopritori["seconda-persona"] = Scopritore(id="seconda-persona", nome="Seconda Persona")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+
+    nota = rendi_nota(costruisci_contesto(condiviso, elementi, scopritori, epoche))
+
+    assert "· Scopritori: " in nota
+    assert "· Scopritore: " not in nota

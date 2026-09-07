@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Copernicio]] (1996)
 → Successivo: [[Moscovio]] (2003)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Yuri Oganessian]], [[Kenton Moody]]
+Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 
 ## Fonti
 

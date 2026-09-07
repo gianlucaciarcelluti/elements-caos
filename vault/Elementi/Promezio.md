@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Curio]] (1944)
 → Successivo: [[Berkelio]] (1949)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Jacob Marinsky]], [[Lawrence Glendenin]], [[Charles Coryell]]
+Epoca: [[Era nucleare]] · Scopritori: [[Jacob Marinsky]], [[Lawrence Glendenin]], [[Charles Coryell]]
 
 ## Fonti
 

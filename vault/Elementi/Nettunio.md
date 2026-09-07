@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Astato]] (1940)
 → Successivo: [[Plutonio]] (1940)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Edwin McMillan]], [[Philip Abelson]]
+Epoca: [[Era nucleare]] · Scopritori: [[Edwin McMillan]], [[Philip Abelson]]
 
 ## Fonti
 

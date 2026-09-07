@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Lutezio]] (1907)
 → Successivo: [[Afnio]] (1923)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Kasimir Fajans]], [[Oswald Helmuth Göhring]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Kasimir Fajans]], [[Oswald Helmuth Göhring]]
 
 ## Fonti
 

@@ -136,7 +136,7 @@ La stessa avidità di neutroni che spegne i reattori è stata trasformata in una
 ← Precedente: [[Tellurio]] (1782)
 → Successivo: [[Zirconio]] (1789)
 
-Epoca: [[Chimica pneumatica]] · Scopritore: [[Louis-Bernard Guyton de Morveau]], [[Antoine-Laurent Lavoisier]], [[Claude Louis Berthollet]], [[Antoine François de Fourcroy]]
+Epoca: [[Chimica pneumatica]] · Scopritori: [[Louis-Bernard Guyton de Morveau]], [[Antoine-Laurent Lavoisier]], [[Claude Louis Berthollet]], [[Antoine François de Fourcroy]]
 
 ## Fonti
 

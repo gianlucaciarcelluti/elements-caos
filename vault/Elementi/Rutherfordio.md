@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Laurenzio]] (1961)
 → Successivo: [[Dubnio]] (1970)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Georgy Flerov]], [[Albert Ghiorso]]
+Epoca: [[Era nucleare]] · Scopritori: [[Georgy Flerov]], [[Albert Ghiorso]]
 
 ## Fonti
 

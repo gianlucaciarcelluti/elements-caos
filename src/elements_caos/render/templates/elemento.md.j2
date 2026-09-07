@@ -96,7 +96,7 @@ aliases: [{{ elemento.simbolo }}, {{ elemento.nome_en }}]
 → *Ultimo elemento della cronologia*
 {% endif %}
 
-Epoca: [[{{ epoca.nome }}]]{% if wikilink_scopritori %} · Scopritore: {{ wikilink_scopritori | join(', ') }}{% endif %}
+Epoca: [[{{ epoca.nome }}]]{% if wikilink_scopritori %} · {{ "Scopritori" if wikilink_scopritori | length > 1 else "Scopritore" }}: {{ wikilink_scopritori | join(', ') }}{% endif %}
 
 
 ## Fonti

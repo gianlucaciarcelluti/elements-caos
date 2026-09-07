@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Rutherfordio]] (1969)
 → Successivo: [[Seaborgio]] (1974)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Georgy Flerov]], [[Albert Ghiorso]]
+Epoca: [[Era nucleare]] · Scopritori: [[Georgy Flerov]], [[Albert Ghiorso]]
 
 ## Fonti
 

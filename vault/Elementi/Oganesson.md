@@ -80,7 +80,7 @@ flowchart TB
 ← Precedente: [[Flerovio]] (2006)
 → Successivo: [[Tennesso]] (2010)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Yuri Oganessian]], [[Kenton Moody]]
+Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 
 ## Fonti
 

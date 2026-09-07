@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Selenio]] (1817)
 → Successivo: [[Bromo]] (1825)
 
-Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Karl Samuel Leberecht Hermann]], [[Friedrich Stromeyer]], [[Johann Carl Heinrich Roloff]]
+Epoca: [[L'età dell'elettrolisi]] · Scopritori: [[Karl Samuel Leberecht Hermann]], [[Friedrich Stromeyer]], [[Johann Carl Heinrich Roloff]]
 
 ## Fonti
 

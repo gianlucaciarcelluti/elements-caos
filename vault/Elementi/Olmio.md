@@ -85,7 +85,7 @@ flowchart TB
 ← Precedente: [[Gallio]] (1875)
 → Successivo: [[Itterbio]] (1878)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Jacques-Louis Soret]], [[Marc Delafontaine]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Jacques-Louis Soret]], [[Marc Delafontaine]]
 
 ## Fonti
 

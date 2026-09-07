@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Xenon]] (1898)
 → Successivo: [[Radio]] (1898)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Pierre Curie]], [[Marie Curie]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Pierre Curie]], [[Marie Curie]]
 
 ## Fonti
 

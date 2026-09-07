@@ -81,7 +81,7 @@ flowchart TB
 ← Precedente: [[Indio]] (1863)
 → Successivo: [[Gallio]] (1875)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Pierre Janssen]], [[Norman Lockyer]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Pierre Janssen]], [[Norman Lockyer]]
 
 ## Fonti
 

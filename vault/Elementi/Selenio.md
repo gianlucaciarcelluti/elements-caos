@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Litio]] (1817)
 → Successivo: [[Cadmio]] (1817)
 
-Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Jöns Jacob Berzelius]], [[Johan Gottlieb Gahn]]
+Epoca: [[L'età dell'elettrolisi]] · Scopritori: [[Jöns Jacob Berzelius]], [[Johan Gottlieb Gahn]]
 
 ## Fonti
 

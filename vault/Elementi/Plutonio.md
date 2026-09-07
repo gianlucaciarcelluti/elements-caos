@@ -128,7 +128,7 @@ Glenn Seaborg ricevette il premio Nobel per la chimica nel 1951 per la scoperta 
 ← Precedente: [[Nettunio]] (1940)
 → Successivo: [[Americio]] (1944)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Glenn Seaborg]], [[Edwin McMillan]], [[Joseph Kennedy]], [[Arthur Wahl]]
+Epoca: [[Era nucleare]] · Scopritori: [[Glenn Seaborg]], [[Edwin McMillan]], [[Joseph Kennedy]], [[Arthur Wahl]]
 
 ## Fonti
 

@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Polonio]] (1898)
 → Successivo: [[Attinio]] (1899)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Pierre Curie]], [[Marie Curie]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Pierre Curie]], [[Marie Curie]]
 
 ## Fonti
 

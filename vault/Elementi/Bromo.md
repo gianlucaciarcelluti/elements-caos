@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Cadmio]] (1817)
 → Successivo: [[Torio]] (1829)
 
-Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Antoine Jérôme Balard]], [[Carl Löwig]]
+Epoca: [[L'età dell'elettrolisi]] · Scopritori: [[Antoine Jérôme Balard]], [[Carl Löwig]]
 
 ## Fonti
 

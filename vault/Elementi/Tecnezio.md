@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Renio]] (1925)
 → Successivo: [[Francio]] (1939)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Carlo Perrier]], [[Emilio Segrè]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Carlo Perrier]], [[Emilio Segrè]]
 
 ## Fonti
 

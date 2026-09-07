@@ -83,7 +83,7 @@ flowchart TB
 ← Precedente: [[Cesio]] (1860)
 → Successivo: [[Tallio]] (1861)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Gustav Kirchhoff]], [[Robert Bunsen]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Gustav Kirchhoff]], [[Robert Bunsen]]
 
 ## Fonti
 

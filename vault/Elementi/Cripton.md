@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Neon]] (1898)
 → Successivo: [[Xenon]] (1898)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[William Ramsay]], [[Morris Travers]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[William Ramsay]], [[Morris Travers]]
 
 ## Fonti
 

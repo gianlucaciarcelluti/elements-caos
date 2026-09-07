@@ -84,7 +84,7 @@ flowchart TB
 ← Precedente: [[Europio]] (1901)
 → Successivo: [[Protoattinio]] (1913)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Georges Urbain]], [[Carl Auer von Welsbach]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Georges Urbain]], [[Carl Auer von Welsbach]]
 
 ## Fonti
 

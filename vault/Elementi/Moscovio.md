@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Livermorio]] (2000)
 → Successivo: [[Nihonio]] (2004)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Yuri Oganessian]], [[Kenton Moody]]
+Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 
 ## Fonti
 

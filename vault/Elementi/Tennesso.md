@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Oganesson]] (2006)
 → *Ultimo elemento della cronologia*
 
-Epoca: [[Era nucleare]] · Scopritore: [[Yuri Oganessian]], [[Kenton Moody]]
+Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 
 ## Fonti
 

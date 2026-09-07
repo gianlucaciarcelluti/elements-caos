@@ -85,7 +85,7 @@ flowchart TB
 ← Precedente: [[Tallio]] (1861)
 → Successivo: [[Elio]] (1868)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Ferdinand Reich]], [[Hieronymus Theodor Richter]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Ferdinand Reich]], [[Hieronymus Theodor Richter]]
 
 ## Fonti
 

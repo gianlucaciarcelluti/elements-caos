@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Disprosio]] (1886)
 → Successivo: [[Neon]] (1898)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[William Ramsay]], [[Lord Rayleigh]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[William Ramsay]], [[Lord Rayleigh]]
 
 ## Fonti
 

@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Bohrio]] (1981)
 → Successivo: [[Hassio]] (1984)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Peter Armbruster]], [[Gottfried Münzenberg]]
+Epoca: [[Era nucleare]] · Scopritori: [[Peter Armbruster]], [[Gottfried Münzenberg]]
 
 ## Fonti
 
