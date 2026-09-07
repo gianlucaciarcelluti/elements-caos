@@ -141,10 +141,11 @@ contenuti:
   - id: usi_catalizzatori
     sezione: usi
     testo: 'Oggi la destinazione principale del platino è la marmitta catalitica delle automobili,
-      che ne assorbe da sola circa il quarantacinque per cento: sulla superficie del metallo
-      gli idrocarburi incombusti e il monossido di carbonio degli scarichi finiscono di bruciare
-      in anidride carbonica e acqua. Un terzo abbondante va invece in gioielleria, e un ulteriore
-      dieci per cento circa alla raffinazione del petrolio e all''industria chimica.'
+      che da sola vale poco meno di due quinti della domanda mondiale: sulla superficie del
+      metallo gli idrocarburi incombusti e il monossido di carbonio degli scarichi finiscono
+      di bruciare in anidride carbonica e acqua. Circa un quarto va invece in gioielleria, e
+      il resto si divide fra raffinazione del petrolio, industria chimica, vetro ed elettronica.
+      Sono quote di mercato volatili, che oscillano di parecchi punti da un anno all''altro.'
     visual: Nido d'ape ceramico di una marmitta catalitica con il rivestimento di platino
     attendibilita: documentato
   - id: usi_medicina
@@ -199,6 +200,7 @@ fonti:
 - url: https://www.academia.edu/6698631/THE_LA_TOLITA_TUMACO_CULTURE_MASTER_METALSMITHS_IN_GOLD_AND_PLATINUM
   titolo: 'The La Tolita-Tumaco Culture: Master Metalsmiths in Gold and Platinum (D. A. Scott)'
   consultata: '2026-09-07'
-- url: https://krislane.tulane.edu/wp-content/uploads/sites/5/2015/06/Gone-Platinum.pdf
-  titolo: 'Gone Platinum: Contraband and Chemistry in Eighteenth-Century Colombia (K. Lane)'
+- url: https://doi.org/10.1080/10609164.2011.552549
+  titolo: 'K. Lane, Gone Platinum: Contraband and Chemistry in Eighteenth-Century Colombia
+    (Colonial Latin American Review 20:1, 2011, pp. 61-79)'
   consultata: '2026-09-07'

@@ -10,7 +10,7 @@ categoria: metallo_di_transizione
 gruppo: 10
 periodo: 6
 posizione_cronologica: 12
-tempo_lettura: 4
+tempo_lettura: 5
 ha_approfondimento: false
 tags: [elemento, metallo-di-transizione, epoca/antichita, secolo/VIaC]
 aliases: [Pt, Platinum]
@@ -91,7 +91,7 @@ L'inerzia chimica del platino convive con una proprietà che sembra contraddirla
 
 ## Usi e presenza in natura
 
-Oggi la destinazione principale del platino è la marmitta catalitica delle automobili, che ne assorbe da sola circa il quarantacinque per cento: sulla superficie del metallo gli idrocarburi incombusti e il monossido di carbonio degli scarichi finiscono di bruciare in anidride carbonica e acqua. Un terzo abbondante va invece in gioielleria, e un ulteriore dieci per cento circa alla raffinazione del petrolio e all'industria chimica.
+Oggi la destinazione principale del platino è la marmitta catalitica delle automobili, che da sola vale poco meno di due quinti della domanda mondiale: sulla superficie del metallo gli idrocarburi incombusti e il monossido di carbonio degli scarichi finiscono di bruciare in anidride carbonica e acqua. Circa un quarto va invece in gioielleria, e il resto si divide fra raffinazione del petrolio, industria chimica, vetro ed elettronica. Sono quote di mercato volatili, che oscillano di parecchi punti da un anno all'altro.
 
 C'è poi un impiego che nasce da una scoperta inattesa: il cisplatino, un composto di platino piano quadrato, è stato il capostipite di un'intera famiglia di chemioterapici antitumorali, seguito da carboplatino e oxaliplatino. Il meccanismo è di una violenza elegante, perché il farmaco crea legami trasversali fra i due filamenti del DNA e impedisce alla cellula di duplicarsi.
 
@@ -134,4 +134,4 @@ Epoca: [[Antichità]]
 
 - [Platinum](https://en.wikipedia.org/wiki/Platinum) — consultata il 07/09/2026
 - [The La Tolita-Tumaco Culture: Master Metalsmiths in Gold and Platinum (D. A. Scott)](https://www.academia.edu/6698631/THE_LA_TOLITA_TUMACO_CULTURE_MASTER_METALSMITHS_IN_GOLD_AND_PLATINUM) — consultata il 07/09/2026
-- [Gone Platinum: Contraband and Chemistry in Eighteenth-Century Colombia (K. Lane)](https://krislane.tulane.edu/wp-content/uploads/sites/5/2015/06/Gone-Platinum.pdf) — consultata il 07/09/2026
+- [K. Lane, Gone Platinum: Contraband and Chemistry in Eighteenth-Century Colombia (Colonial Latin American Review 20:1, 2011, pp. 61-79)](https://doi.org/10.1080/10609164.2011.552549) — consultata il 07/09/2026

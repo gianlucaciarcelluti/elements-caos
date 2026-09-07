@@ -52,10 +52,10 @@ contenuti:
   - id: cinabro
     sezione: storia
     testo: 'La storia del mercurio comincia dal suo minerale. Il cinabro, solfuro di mercurio,
-      è una pietra rosso acceso, macinata come pigmento fin dal Neolitico molto prima che qualcuno
-      pensi a scaldarla: quel rosso è il vermiglione, il colore più prezioso della pittura antica.
-      Riscaldandolo, però, il minerale si decompone e il metallo se ne stacca come vapore che
-      ricondensa in gocce: un passaggio semplicissimo da eseguire e difficilissimo da immaginare.'
+      è una pietra rosso acceso, macinata come pigmento fin dal Neolitico: quel rosso è il vermiglione,
+      il colore più prezioso della pittura antica. Riscaldandolo, però, il minerale si decompone
+      e il metallo se ne stacca come vapore che ricondensa in gocce: un passaggio semplicissimo
+      da eseguire e difficilissimo da immaginare.'
     visual: Frammento di cinabro rosso acceso accanto alla polvere di vermiglione macinata
     attendibilita: documentato
   - id: egitto
@@ -83,11 +83,10 @@ contenuti:
     testo: 'Lo stesso imperatore che si fece seppellire fra i fiumi di mercurio lo assumeva
       da vivo. L''alchimia cinese contava il cinabro fra gli ingredienti dell''elisir di lunga
       vita, sul ragionamento che una sostanza incorruttibile trasmettesse la propria incorruttibilità
-      a chi la beveva. Le storie ufficiali cinesi registrano una lunga sequenza di imperatori
-      e funzionari morti per questi preparati, almeno cinque nella sola dinastia Tang, quando
-      la pratica è al culmine. Del caso meglio ricostruito, Xianzong morto nell''820, le cronache
-      descrivono la collera incontrollabile e la paranoia crescente: sintomi che oggi si leggono
-      come intossicazione da mercurio.'
+      a chi la beveva. Le storie ufficiali registrano una lunga sequenza di imperatori e funzionari
+      morti per questi preparati, almeno cinque nella sola dinastia Tang. Del caso meglio ricostruito,
+      Xianzong morto nell''820, le cronache descrivono collera incontrollabile e paranoia crescente:
+      sintomi che oggi si leggono come intossicazione.'
     visual: Coppa cerimoniale cinese accanto a un mortaio di cinabro in un laboratorio alchemico
     attendibilita: documentato
   - id: alchimia_occidentale
@@ -104,10 +103,10 @@ contenuti:
     sezione: storia
     testo: 'C''è un motivo pratico per cui il mercurio conta tanto: scioglie l''oro e l''argento
       in amalgami, leghe pastose da cui il metallo prezioso si recupera per evaporazione. Il
-      processo del patio, del 1558, applica il principio su scala industriale all''argento americano
-      e rende il mercurio una materia prima strategica dell''impero spagnolo. La miniera peruviana
-      di Huancavelica ne produrrà oltre centomila tonnellate in tre secoli, in condizioni di
-      lavoro che uccidevano gli operai indigeni con regolarità.'
+      processo del patio, del 1558, applica il principio all''argento americano e rende il mercurio
+      una materia prima strategica dell''impero spagnolo: la sola miniera peruviana di Huancavelica
+      ne produrrà oltre centomila tonnellate in tre secoli, in condizioni di lavoro che uccidevano
+      gli operai indigeni con regolarità.'
     visual: Cortile del processo patio con i mucchi di minerale d'argento impastati di mercurio
     attendibilita: documentato
   - id: caratteristiche_liquido
@@ -123,10 +122,12 @@ contenuti:
     attendibilita: documentato
   - id: caratteristiche_chimica
     sezione: caratteristiche
-    testo: 'Chimicamente il mercurio è avaro. Tutti i suoi composti noti stanno in due soli
+    testo: 'Chimicamente il mercurio è avaro. Tutti i suoi composti comuni stanno in due soli
       stati di ossidazione, più uno e più due, e il primo ha una particolarità: nello ione mercuroso
       gli atomi restano attaccati fra loro a coppie, cosa che nessun altro metallo comune fa.
-      Le pretese di valenze superiori, riproposte fino al 2007, restano contestate.'
+      La letteratura elenca anche un meno due, che il mercurio raggiunge nei mercuriuri, composti
+      esotici in cui è un metallo ancora più elettropositivo, il cesio, a cedere elettroni a lui;
+      le pretese di valenze superiori, riproposte fino al 2007, restano contestate.'
     visual: Modello dello ione mercuroso con i due atomi legati fra loro
     attendibilita: documentato
   - id: caratteristiche_tossicita
@@ -141,26 +142,33 @@ contenuti:
     attendibilita: documentato
   - id: usi_storici
     sezione: usi
-    testo: 'Per due secoli il mercurio è stato lo strumento di misura per eccellenza: termometri,
-      barometri, manometri e sfigmomanometri sfruttavano tutti la stessa combinazione di densità
-      elevata e dilatazione regolare, e la pressione si misura ancora oggi in millimetri di
-      mercurio.'
+    testo: 'Per due secoli il mercurio è stato lo strumento di misura per eccellenza. Termometri,
+      barometri e sfigmomanometri sfruttavano la stessa combinazione di doti: una densità che
+      tiene corta la colonna, una dilatazione regolare su un intervallo ampio e la proprietà di
+      non bagnare il vetro, che lascia il menisco netto e la lettura ripetibile. Nessun altro
+      liquido le aveva tutte insieme, ed è per questo che la pressione del sangue si misura
+      ancora oggi in millimetri di mercurio.'
     visual: Barometro a mercurio con la colonna e la scala graduata in millimetri
     attendibilita: documentato
   - id: usi_ritirata
     sezione: usi
-    testo: 'Quasi tutti questi usi sono stati smantellati. La Convenzione di Minamata, in vigore
-      dal 2017, vieta la fabbricazione della gran parte dei prodotti che lo contengono, e le
-      miniere occidentali hanno chiuso. Il grosso del mercurio che finisce oggi nell''ambiente
+    testo: 'Poi si è smesso, e in fretta. Il mercurio è uscito prima dagli ospedali, poi dalle
+      case, infine dai processi industriali che lo usavano a tonnellate, sostituito da sensori
+      elettronici che costano meno e non versano nulla se cadono. La Convenzione di Minamata,
+      in vigore dal 2017, ha reso il ritiro un obbligo di legge, e le miniere occidentali hanno
+      chiuso, l''ultima statunitense nel 1992. Il grosso del mercurio che finisce oggi nell''ambiente
       non viene però dagli oggetti, ma dalla combustione del carbone e dall''estrazione artigianale
-      dell''oro.'
+      dell''oro, dove i cercatori lo maneggiano a mani nude come quattro secoli fa.'
     visual: Cassoni sigillati di mercurio recuperato da uno stabilimento in smantellamento
     attendibilita: documentato
   - id: curiosita_nome
     sezione: curiosita
     testo: 'Il simbolo Hg non c''entra nulla con il nome italiano: viene da hydrargyrum, latinizzazione
       del greco hydrargyros, argento liquido. Il nome che usiamo è invece quello del pianeta,
-      e prima ancora del dio messaggero, per la rapidità con cui il metallo sfugge di mano.'
+      e prima ancora del dio messaggero, per la rapidità con cui il metallo sfugge di mano. Delle
+      due promesse affidategli non ne ha mantenuta nessuna: non ha fatto oro, e ha accorciato la
+      vita a chi contava di allungarla. Ha però dato alla scienza lo strumento con cui, alla
+      lettera, si è misurata per tre secoli.'
     visual: Simbolo alchemico del mercurio, identico a quello astronomico del pianeta
     attendibilita: documentato
   - id: curiosita_cappellai
