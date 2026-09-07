@@ -7,10 +7,12 @@ scoperta:
   anno_stimato: false
   scopritori:
   - axel-cronstedt
-  luogo: null
+  luogo: Stoccolma
   epoca: pneumatica
   isolamento_anno: 1751
-  note_cronologia: null
+  note_cronologia: 'Cronstedt ricava il metallo dal kupfernickel della miniera di cobalto
+    di Los, in Hälsingland, e presenta i risultati all''Accademia reale svedese delle
+    scienze nel 1751, tornandoci sopra con una seconda memoria nel 1754.'
   controversia: null
 proprieta:
   gruppo: 10
@@ -27,5 +29,198 @@ proprieta:
   punto_fusione_k: 1728.0
   punto_ebollizione_k: 3003.0
   densita: 8.908
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -2
+  - -1
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
 approfondimento: false
+contenuti:
+  hook: 'I minatori sassoni davano la colpa al diavolo. Il minerale sembrava rame, si
+    lasciava lavorare come rame e alla fine non ne dava un grammo: qualcuno, sottoterra,
+    li stava prendendo in giro.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il nichel è un metallo bianco-argenteo dal riflesso appena dorato, duro,
+      magnetico e straordinariamente restio ad arrugginire. È il metallo che tiene
+      insieme il mondo moderno senza mai comparire in scena: due oggetti di acciaio
+      inossidabile su tre lo contengono, e quasi nessuno che li usi saprebbe dire che
+      c''è. La sua identificazione nasce da un equivoco durato secoli, e da un minerale
+      che i minatori consideravano stregato.'
+    visual: Un tondello di nichel lucido accanto a un frammento grezzo di niccolite
+      rossastra
+    attendibilita: documentato
+  - id: rame_falso
+    sezione: storia
+    testo: 'Nelle miniere fra la Sassonia e la Boemia circolava da tempo un minerale
+      irritante. Aveva il colore caldo e il luccichio del minerale di rame, prometteva
+      un buon carico, e per quanto lo si arrostisse non restituiva rame: soltanto scorie
+      e, spesso, fumi che facevano ammalare chi ci stava sopra. Oggi sappiamo che era
+      niccolite, un arseniuro, e che i fumi erano ossido di arsenico. Allora era
+      semplicemente un tradimento senza spiegazione.'
+    visual: Cumulo di minerale arrostito in una miniera sassone, con il fumo che sale
+      dal forno
+    attendibilita: documentato
+  - id: nome_diavoletto
+    sezione: storia
+    testo: 'Al minerale toccò il nome di Kupfernickel, che si traduce grosso modo come
+      il rame di Nickel. Che quel Nickel indicasse una creatura dispettosa del sottosuolo
+      è quanto di più solido offra la linguistica storica: i dizionari etimologici lo
+      registrano come folletto o demone minore. Da lì in avanti, però, la catena si
+      assottiglia. La derivazione dal nome proprio Nikolaus, usato in Germania orientale
+      come termine d''insulto, è la ricostruzione più accreditata; il legame diretto con
+      il santo, o con l''Old Nick che in inglese è uno dei nomi del diavolo, resta una
+      congettura che nessuno ha dimostrato.'
+    visual: Pagine di un dizionario etimologico tedesco aperte sulla voce Nickel
+    attendibilita: discusso
+  - id: cronstedt
+    sezione: storia
+    testo: 'A occuparsene sul serio è Axel Fredrik Cronstedt, che nel 1751 lavora sul
+      minerale proveniente dalla miniera di cobalto di Los, in Hälsingland. Cronstedt
+      non è un cercatore di fortuna ma un funzionario del Collegio delle miniere
+      svedese, e affronta il kupfernickel con il metodo: lo scompone, ne riduce il
+      residuo e ottiene un metallo bianco che non è rame, non è cobalto e non è ferro.
+      Lo chiama nichel, accorciando il nome dell''insulto che i minatori avevano rivolto
+      al minerale.'
+    visual: Cronstedt al banco con il crogiolo e il regolo di metallo bianco appena
+      ottenuto
+    attendibilita: documentato
+  - id: il_cannello
+    sezione: storia
+    testo: 'La cosa più importante che Cronstedt lascia alla chimica non è però il
+      nichel. È il cannello ferruminatorio, un semplice tubo con cui soffiare aria dentro
+      la fiamma di una candela per concentrarne il calore su un frammento di minerale
+      grosso come un chicco. Era un attrezzo da orefici; Cronstedt ne fa lo strumento
+      analitico standard della mineralogia, capace di dire in pochi minuti che cosa
+      contiene una pietra. Nel secolo successivo quel tubo di ottone porterà
+      all''identificazione di una dozzina di elementi nuovi.'
+    visual: Cannello ferruminatorio puntato sulla fiamma, con la perla di minerale sul
+      carbone
+    attendibilita: documentato
+  - id: classificazione
+    sezione: storia
+    testo: 'Nel 1758 Cronstedt pubblica un tentativo di mineralogia in cui propone una
+      cosa che oggi sembra ovvia e allora era eretica: classificare i minerali per quel
+      che contengono invece che per come appaiono. Fino a quel momento le pietre si
+      ordinavano per colore, durezza e lucentezza, cioè per i caratteri che il
+      kupfernickel aveva usato per ingannare tutti. Il nichel è insieme la vittima e la
+      prova del vecchio sistema: un minerale che sembrava una cosa ed era un''altra.'
+    visual: Frontespizio del Försök til mineralogie accanto a una collezione di campioni
+      etichettati
+    attendibilita: documentato
+  - id: caratteristiche_ferromagnetismo
+    sezione: caratteristiche
+    testo: 'Il nichel appartiene al ristrettissimo club dei metalli che si magnetizzano
+      da soli e restano magnetizzati. Sono quattro in tutta la tavola periodica intorno
+      alla temperatura ambiente — ferro, cobalto, nichel e gadolinio — e il nichel è
+      quello che cede per primo: sopra i 355 gradi perde ogni proprietà magnetica di
+      colpo. Il gadolinio, all''altro estremo, smette di essere magnetico appena sopra i
+      venti gradi, cioè in una giornata tiepida.'
+    visual: Barretta di nichel che si stacca dal magnete non appena la fiamma la
+      arroventa
+    attendibilita: documentato
+  - id: caratteristiche_resistenza
+    sezione: caratteristiche
+    testo: 'La virtù industriale del nichel è la pigrizia. Reagisce con l''ossigeno molto
+      più lentamente del ferro e si copre di uno strato di ossido sottile e aderente che
+      protegge il metallo sottostante invece di sfaldarsi. Aggiunto all''acciaio insieme
+      al cromo, trasforma un materiale che marcisce in uno che dura, e in più ne cambia
+      la struttura cristallina rendendolo tenace anche a temperature molto basse. È per
+      questo che sta nelle turbine, nei serbatoi criogenici e nelle posate.'
+    visual: Sezione lucidata di acciaio inossidabile austenitico al microscopio
+    attendibilita: documentato
+  - id: caratteristiche_chimica
+    sezione: caratteristiche
+    testo: 'In soluzione il nichel è quasi sempre allo stato più due, e i suoi sali danno
+      un verde smeraldo inconfondibile, anche se la letteratura gli riconosce un
+      ventaglio di stati molto più ampio, fino a quelli negativi ottenuti solo in
+      condizioni speciali. Il composto più notevole è il tetracarbonile, un liquido
+      volatile e velenosissimo scoperto per caso alla fine dell''Ottocento: si forma a
+      bassa temperatura e si riscompone a temperatura più alta, e questa reversibilità è
+      diventata il metodo industriale per purificare il metallo.'
+    visual: Beuta con soluzione di solfato di nichel dal verde intenso
+    attendibilita: documentato
+  - id: usi_acciaio
+    sezione: usi
+    testo: 'La destinazione dominante del nichel è una sola: l''acciaio inossidabile e le
+      leghe speciali, che negli Stati Uniti assorbono oltre l''ottantacinque per cento
+      del metallo primario. Il resto si divide fra galvanica, superleghe per turbine e,
+      quota in rapida crescita, catodi per batterie. Il baricentro produttivo si è
+      spostato in modo brusco: nel 2024 l''Indonesia da sola ha fornito circa il
+      cinquantaquattro per cento di una produzione mineraria mondiale stimata in tre
+      milioni e settecentomila tonnellate.'
+    visual: Rotolo di lamiera inox in uscita dal laminatoio
+    attendibilita: documentato
+  - id: usi_monete
+    sezione: usi
+    testo: 'Il nichel è anche il metallo delle monete, al punto che negli Stati Uniti dà
+      il nome al pezzo da cinque centesimi. La ragione è pratica: resiste all''usura,
+      non annerisce nelle tasche e ha una firma elettromagnetica che i distributori
+      automatici riconoscono con facilità. Il prezzo di questa ubiquità è una delle
+      allergie da contatto più diffuse al mondo, tanto che l''Unione Europea regola da
+      anni quanto nichel possa rilasciare un oggetto destinato a toccare la pelle.'
+    visual: Manciata di monete di cupronichel accanto a un orecchino
+    attendibilita: documentato
+  - id: curiosita_nucleo
+    sezione: curiosita
+    testo: 'Quasi tutto il nichel della Terra è irraggiungibile. Si trova nel nucleo, in
+      lega con il ferro, e le riserve che estraiamo in superficie sono in buona parte
+      arrivate dopo la formazione del pianeta, portate dagli asteroidi. Il ferro
+      meteorico che le civiltà antiche lavoravano prima di saper fondere il ferro è
+      riconoscibile proprio dal nichel che contiene: è la firma chimica che distingue un
+      pugnale caduto dal cielo da uno uscito da una fornace.'
+    visual: Sezione lucidata di meteorite ferrosa con le figure di Widmanstätten
+    attendibilita: documentato
+  - id: curiosita_fratelli
+    sezione: curiosita
+    testo: 'Nella tavola periodica il nichel sta immediatamente accanto al cobalto, e i
+      due portano incisa nel nome la stessa scena. Il cobalto deve il proprio ai Kobold,
+      gli spiriti che si diceva sostituissero il metallo buono con una contraffazione
+      avvelenata; il nichel al folletto che nascondeva il rame. Sono minerali simili,
+      trovati negli stessi giacimenti, che hanno prodotto la stessa delusione e generato
+      due leggende gemelle: due elementi vicini di casa anche nel folklore.'
+    visual: Campioni di cobaltite e niccolite affiancati sotto la stessa etichetta di
+      miniera
+    attendibilita: documentato
+  pronuncia:
+  - termine: Axel Fredrik Cronstedt
+    ipa: ˈaksɛl ˈfreːdrɪk ˈkruːnstɛt
+    nota: Alla svedese.
+  - termine: Kupfernickel
+    ipa: ˈkʊpfɐˌnɪkl̩
+    nota: Alla tedesca.
+composti_principali:
+- nome: Solfato di nichel
+  formula: NiSO4
+  usi:
+  - bagni galvanici per la nichelatura
+  - precursore dei catodi per batterie
+- nome: Tetracarbonile di nichel
+  formula: Ni(CO)4
+  usi:
+  - raffinazione del metallo con il processo Mond
+- nome: Ossido-idrossido di nichel
+  formula: NiO(OH)
+  usi:
+  - elettrodo positivo delle batterie nichel-metallo idruro
+- nome: Niccolite
+  formula: NiAs
+  usi:
+  - minerale storico da cui fu ricavato il primo nichel
+fonti:
+- url: https://en.wikipedia.org/wiki/Nickel
+  titolo: Nickel
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Axel_Fredrik_Cronstedt
+  titolo: Axel Fredrik Cronstedt
+  consultata: '2026-09-07'
+- url: https://blog.oup.com/2013/06/pumpernickel-etymology-word-origin/
+  titolo: 'Multifarious devils, part 3. "Pumpernickel", "Nickel", and "Old Nick"'
+  consultata: '2026-09-07'
+- url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-nickel.pdf
+  titolo: 'USGS Mineral Commodity Summaries 2025: Nickel'
+  consultata: '2026-09-07'

@@ -57,6 +57,13 @@
     file: andres-manuel-del-rio.png
     fonte: https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Manuel_del_R%C3%ADo_(Rafael_Ximeno_y_Planes_1825)_retrato.png
     licenza: Public domain
+- id: antoine-francois-de-fourcroy
+  nome: Antoine François de Fourcroy
+  nato: 1755
+  morto: 1809
+  nazionalita: francese
+  elementi:
+  - 5
 - id: antoine-jerome-balard
   nome: Antoine Jérôme Balard
   nato: 1802
@@ -69,6 +76,13 @@
     file: antoine-jerome-balard.jpg
     fonte: https://commons.wikimedia.org/wiki/File:Antoine-Jerome_Balard.jpg
     licenza: Public domain
+- id: antoine-laurent-lavoisier
+  nome: Antoine-Laurent Lavoisier
+  nato: 1743
+  morto: 1794
+  nazionalita: francese
+  elementi:
+  - 5
 - id: arthur-wahl
   nome: Arthur Wahl
   nato: 1917
@@ -148,6 +162,13 @@
   nazionalita: britannica
   elementi:
   - 41
+- id: claude-louis-berthollet
+  nome: Claude Louis Berthollet
+  nato: 1748
+  morto: 1822
+  nazionalita: francese
+  elementi:
+  - 5
 - id: clemens-winkler
   nome: Clemens Winkler
   nato: 1838
