@@ -11,6 +11,10 @@ from dataclasses import dataclass
 
 from elements_caos.models import Elemento
 
+# Anno a partire dal quale una data positiva si legge senza ambiguità e non
+# richiede il qualificatore "d.C.".
+ANNO_SENZA_QUALIFICATORE = 1000
+
 # Caratteri che romperebbero la sintassi Mermaid all'interno di un'etichetta.
 # L'apostrofo NON è fra questi: verificato con mermaid-cli che compila e viene
 # reso correttamente sia dentro le etichette fra virgolette sia nei titoli di
@@ -36,8 +40,19 @@ class Vicini:
 
 
 def formatta_anno(anno: int) -> str:
-    """Formatta un anno per la lettura, esplicitando le date avanti Cristo."""
-    return f"{abs(anno)} a.C." if anno < 0 else str(anno)
+    """Formatta un anno per la lettura, esplicitando le date ambigue.
+
+    Gli anni negativi portano sempre "a.C."; quelli positivi anteriori al
+    1000 portano "d.C.", perché in una cronologia che parte da millenni
+    avanti Cristo una data a tre cifre non si colloca da sola (l'arsenico,
+    300, segue il platino, 600 a.C.). Dal 1000 in poi il qualificatore
+    sarebbe pedanteria: nessun testo storico scrive "1669 d.C.".
+    """
+    if anno < 0:
+        return f"{abs(anno)} a.C."
+    if anno < ANNO_SENZA_QUALIFICATORE:
+        return f"{anno} d.C."
+    return str(anno)
 
 
 def _etichetta(testo: str) -> str:

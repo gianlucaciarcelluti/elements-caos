@@ -26,7 +26,7 @@ Gli elementi che l'umanità ha incontrato senza sapere di averlo fatto: metalli 
 | 1500 a.C. | [[Mercurio]] (Hg) | ignoto |
 | 1000 a.C. | [[Zinco]] (Zn) | ignoto |
 | 600 a.C. | [[Platino]] (Pt) | ignoto |
-| 300 | [[Arsenico]] (As) | ignoto |
+| 300 d.C. | [[Arsenico]] (As) | ignoto |
 | 1500 | [[Bismuto]] (Bi) | ignoto |
 
 ← Torna a [[Cronologia degli elementi]]

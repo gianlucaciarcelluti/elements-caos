@@ -125,7 +125,7 @@ L'origine del nome resta incerta e le ipotesi si accavallano: dal tedesco weisse
 
 ## Nella cronologia
 
-← Precedente: [[Arsenico]] (300)
+← Precedente: [[Arsenico]] (300 d.C.)
 → Successivo: [[Fosforo]] (1669)
 
 Epoca: [[Antichità]]

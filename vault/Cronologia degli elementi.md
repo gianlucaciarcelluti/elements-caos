@@ -33,7 +33,7 @@ Gli elementi che l'umanità ha incontrato senza sapere di averlo fatto: metalli 
 | 10 | 1500 a.C. | [[Mercurio]] (Hg) | ignoto |
 | 11 | 1000 a.C. | [[Zinco]] (Zn) | ignoto |
 | 12 | 600 a.C. | [[Platino]] (Pt) | ignoto |
-| 13 | 300 | [[Arsenico]] (As) | ignoto |
+| 13 | 300 d.C. | [[Arsenico]] (As) | ignoto |
 | 14 | 1500 | [[Bismuto]] (Bi) | ignoto |
 
 ### [[Alchimia e primo moderno]]

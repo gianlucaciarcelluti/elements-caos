@@ -175,10 +175,23 @@ def test_timeline_usa_i_nomi_degli_scopritori_non_gli_id() -> None:
 
 
 def test_formatta_anno() -> None:
-    """Gli anni negativi diventano 'a.C.', i positivi restano nudi."""
+    """Gli anni negativi diventano 'a.C.', i positivi a quattro cifre restano nudi."""
     assert formatta_anno(1669) == "1669"
     assert formatta_anno(-9000) == "9000 a.C."
-    assert formatta_anno(300) == "300"
+
+
+def test_formatta_anno_qualifica_le_date_antiche_positive() -> None:
+    """Una data positiva a tre cifre va qualificata con 'd.C.'.
+
+    Nella cronologia l'arsenico (300) segue il platino (600 a.C.): senza
+    qualificatore il lettore non ha modo di capire da che parte dell'era
+    cada, e l'abstract direbbe "13° elemento scoperto — 300". Dal 1000 in
+    poi l'ambiguità non esiste più e il qualificatore sarebbe pedanteria.
+    """
+    assert formatta_anno(300) == "300 d.C."
+    assert formatta_anno(999) == "999 d.C."
+    assert formatta_anno(1000) == "1000"
+    assert formatta_anno(1500) == "1500"
 
 
 def test_posizione_e_blocco_mermaid_valido() -> None:

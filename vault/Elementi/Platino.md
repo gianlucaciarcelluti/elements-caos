@@ -126,7 +126,7 @@ Il metallo che gli spagnoli buttavano nei fiumi perché intralciava la raccolta 
 ## Nella cronologia
 
 ← Precedente: [[Zinco]] (1000 a.C.)
-→ Successivo: [[Arsenico]] (300)
+→ Successivo: [[Arsenico]] (300 d.C.)
 
 Epoca: [[Antichità]]
 

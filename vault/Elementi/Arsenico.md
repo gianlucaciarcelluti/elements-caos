@@ -18,7 +18,7 @@ aliases: [As, Arsenic]
 
 # Arsenico (As)
 
-> [!abstract] 13° elemento scoperto — 300
+> [!abstract] 13° elemento scoperto — 300 d.C.
 > L'arsenico è entrato nella storia umana tre volte: come indurente involontario del primo bronzo, come pigmento giallo e rosso di straordinaria bellezza, e come il veleno per antonomasia. Solo la terza carriera è quella per cui lo ricordiamo.
 
 L'arsenico è un semimetallo grigio e lucente che a pressione ordinaria non fonde affatto: scaldato, sublima direttamente da solido a vapore. Sta al confine fra i metalli e i non metalli, e questa ambiguità si riflette nella sua chimica, che assomiglia in parti uguali a quella del fosforo e a quella di un metallo.
@@ -28,7 +28,7 @@ L'arsenico è un semimetallo grigio e lucente che a pressione ordinaria non fond
 ```mermaid
 timeline
     title Scoperta dell'Arsenico
-    300 : Primo uso documentato (data stimata)
+    300 d.C. : Primo uso documentato (data stimata)
     1250 : Isolamento allo stato puro
 ```
 
