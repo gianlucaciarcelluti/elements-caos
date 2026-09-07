@@ -59,7 +59,7 @@ flowchart TB
 
 ## Caratteristiche
 
-Tutta la chimica dell'azoto discende da un solo numero. I due atomi della molecola sono tenuti insieme da un triplo legame la cui rottura costa novecentoquaranta chilojoule per mole, il più tenace fra tutti i legami fra due atomi uguali: è per questo che l'azoto attraversa i nostri polmoni senza reagire e che si può conservare la frutta in atmosfera di azoto. L'inerzia dell'aria non è assenza di chimica, è una barriera energetica.
+Tutta la chimica dell'azoto discende da un solo numero. I due atomi della molecola sono tenuti insieme da un triplo legame la cui rottura costa novecentoquarantacinque chilojoule per mole, il più tenace fra tutti i legami fra due atomi uguali: è per questo che l'azoto attraversa i nostri polmoni senza reagire e che si può conservare la frutta in atmosfera di azoto. L'inerzia dell'aria non è assenza di chimica, è una barriera energetica.
 
 Ne segue il paradosso biologico più grande del pianeta: gli organismi vivono immersi in un oceano di azoto e quasi nessuno riesce a usarlo. Le piante non lo prendono dall'aria ma dal suolo, sotto forma di nitrati e ammonio, e a produrli sono pochi batteri specializzati, alcuni liberi e altri ospitati nei noduli delle radici delle leguminose, che dispongono dell'unico enzima capace di spezzare quel triplo legame a temperatura ambiente.
 

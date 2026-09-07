@@ -38,9 +38,9 @@ La storia comincia con una pietra che fa una cosa impossibile. Nel 1602 Vincenzo
 
 Era il primo materiale fosforescente artificiale della storia, e nessuno poteva capire perché funzionasse. Oggi sappiamo che la calcinazione trasforma il solfato di bario del minerale in solfuro di bario, e che il bagliore persistente dipende da tracce di rame presenti per caso nella baritina di quella collina, mentre il ferro lo spegne: la stessa pietra raccolta altrove non brilla. La luminescenza dei quadranti, dei cartelli di emergenza e degli schermi discende da questa curiosità bolognese.
 
-Il minerale intanto restava un enigma per i chimici, perché somigliava alla calce ma si comportava diversamente. Nel 1772 Carl Wilhelm Scheele lo analizza e stabilisce che contiene una terra nuova, distinta dalla calce viva, che verrà chiamata barite; Johan Gottlieb Gahn ripete l'analisi due anni dopo e conferma. È il modo di procedere che gli è consueto: Scheele arriva fino al confine, stabilisce che l'elemento c'è e si ferma lì, perché quella terra non si lascia ridurre da nessun fuoco.
+Il minerale intanto restava un enigma per i chimici, perché somigliava alla calce ma si comportava diversamente. Nel 1772 Carl Wilhelm Scheele lo analizza e stabilisce che contiene una terra nuova, distinta dalla calce viva, che verrà chiamata barite; Johan Gottlieb Gahn ripete l'analisi due anni dopo e conferma. Scheele arriva fino al confine e non oltre: stabilisce che l'elemento c'è, ma quella terra non si lascia ridurre da nessun fuoco, e per estrarne il metallo non esiste ancora lo strumento adatto.
 
-A sbloccare la situazione è uno strumento che nel 1772 non esisteva. Con la pila di Volta in mano, Humphry Davy sottopone i sali fusi a corrente elettrica e nel 1808 strappa il bario metallico alla sua terra, dopo aver fatto la stessa cosa con sodio, potassio, calcio, magnesio e stronzio nel giro di due anni. La chimica aveva atteso trentasei anni non per mancanza di idee ma per mancanza di energia: nessuna fiamma è abbastanza forte, una corrente sì.
+A sbloccare la situazione è uno strumento che nel 1772 non esisteva. Con la pila di Volta in mano, Humphry Davy sottopone i sali fusi a corrente elettrica e nel 1808 strappa il bario metallico alla sua terra, dopo aver fatto la stessa cosa con sodio, potassio, calcio, magnesio e stronzio nel giro di due anni. Dal 1772 al 1808 la chimica aveva atteso non per mancanza di idee ma per mancanza di energia: nessuna fiamma è abbastanza forte, una corrente sì.
 
 ## Posizione nella tavola periodica
 
@@ -90,7 +90,7 @@ Eppure c'è un composto di bario che si beve. Il solfato di bario è così poco 
 
 Su questa insolubilità si regge il pasto baritato. Il bario è pesante e assorbe i raggi X molto più dei tessuti molli, così una sospensione di solfato bevuta o somministrata per clistere disegna sulla lastra il profilo interno dell'esofago, dello stomaco e dell'intestino, che altrimenti sarebbero invisibili. È un esame di radiologia tradizionale in parte soppiantato dall'endoscopia e dalla tomografia, ma ancora in uso per lo studio della deglutizione e del transito.
 
-Il consumo maggiore di baritina non è però in ospedale ma nei pozzi petroliferi, dove il minerale macinato viene aggiunto ai fanghi di perforazione. Serve la sua densità: il fango appesantito esercita sul fondo del pozzo una pressione sufficiente a contrastare quella del giacimento e a impedire l'eruzione incontrollata. Altri impieghi minori sfruttano il colore verde che i sali di bario danno alla fiamma, sfruttato nei fuochi d'artificio.
+Il consumo maggiore di baritina non è però in ospedale ma nei pozzi petroliferi, dove il minerale macinato viene aggiunto ai fanghi di perforazione. Serve la sua densità: il fango appesantito esercita sul fondo del pozzo una pressione sufficiente a contrastare quella del giacimento e a impedire l'eruzione incontrollata. Altri impieghi minori sfruttano il colore verde che i sali di bario danno alla fiamma: è il verde dei fuochi d'artificio.
 
 ```mermaid
 flowchart LR

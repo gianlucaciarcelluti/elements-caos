@@ -34,7 +34,7 @@ timeline
 
 ## Storia della scoperta
 
-Il biossido di manganese è uno dei più antichi materiali con cui l'uomo abbia lasciato un segno. I neri delle pitture rupestri sono in buona parte ossidi di manganese: nella grotta di Gargas, nei Pirenei, li si trova in opere datate fra i trentamila e i ventiquattromila anni fa, e lo stesso pigmento compare a Lascaux. I Neanderthal ne raccoglievano blocchi che si possono strofinare come pastelli, e sulla destinazione di quei blocchi gli archeologi discutono ancora.
+Il biossido di manganese è uno dei più antichi materiali con cui l'uomo abbia lasciato un segno. I neri delle pitture rupestri sono in buona parte ossidi di manganese: nella grotta di Gargas, nei Pirenei, li si trova in opere datate fra i trentamila e i ventiquattromila anni fa, e lo stesso pigmento compare a Lascaux. I Neanderthal ne raccoglievano piccoli blocchi, alcuni dei quali portano segni di abrasione, e sulla destinazione di quei blocchi gli archeologi discutono ancora: la spiegazione tradizionale è la decorazione del corpo, ma è stato proposto che servissero ridotti in polvere per accendere il fuoco, perché il biossido di manganese abbassa la temperatura di accensione del legno.
 
 Il secondo mestiere del minerale è l'opposto del primo: invece di annerire, schiarisce. Il ferro presente come impurità nella sabbia colora il vetro di un verde bottiglia che i vetrai egizi e romani volevano eliminare, e una piccola aggiunta di pirolusite lo neutralizza otticamente, restituendo un vetro incolore. La tecnica attraversò il Medioevo e arrivò intatta all'età moderna con un nome che dice tutto, sapone dei vetrai.
 
@@ -139,3 +139,4 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Torbern Bergman]]
 - [USGS, Manganese — It Turns Iron Into Steel (Fact Sheet 2014-3087)](https://pubs.usgs.gov/fs/2014/3087/pdf/fs2014-3087.pdf) — consultata il 07/09/2026
 - [USGS, Mineral Commodity Summaries 2025 — Manganese](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-manganese.pdf) — consultata il 07/09/2026
 - [Manganese (Los Alamos National Laboratory, Periodic Table of Elements)](https://periodic.lanl.gov/25.shtml) — consultata il 07/09/2026
+- [P. J. Heyes et al., Selection and Use of Manganese Dioxide by Neanderthals, Scientific Reports 6 (2016), 22159](https://doi.org/10.1038/srep22159) — consultata il 07/09/2026
