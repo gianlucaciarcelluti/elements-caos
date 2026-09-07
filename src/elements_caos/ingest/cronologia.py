@@ -122,11 +122,37 @@ CRONOLOGIA: list[VoceCronologia] = [
     VoceCronologia(51, -3000, True, [], "antichita", nome="Antimonio"),
     VoceCronologia(16, -2000, True, [], "antichita", nome="Zolfo"),
     VoceCronologia(80, -1500, True, [], "antichita", nome="Mercurio"),
-    VoceCronologia(30, -1000, True, [], "antichita", note="Metallurgisti indiani.", nome="Zinco"),
     VoceCronologia(
-        78, -600, True, [], "antichita", note="Sud America precolombiana.", nome="Platino"
+        30,
+        -1000,
+        True,
+        [],
+        "antichita",
+        isolamento_anno=1746,
+        note="Metallurgisti indiani. Isolato in Europa nel 1746 da Andreas Sigismund Marggraf.",
+        nome="Zinco",
     ),
-    VoceCronologia(33, 300, True, [], "antichita", nome="Arsenico"),
+    VoceCronologia(
+        78,
+        -600,
+        True,
+        [],
+        "antichita",
+        isolamento_anno=1752,
+        note="Sud America precolombiana. Riconosciuto come metallo distinto nel 1752 da "
+        "Henrik Teofilus Scheffer.",
+        nome="Platino",
+    ),
+    VoceCronologia(
+        33,
+        300,
+        True,
+        [],
+        "antichita",
+        isolamento_anno=1250,
+        note="Isolamento tradizionalmente attribuito ad Alberto Magno, intorno al 1250.",
+        nome="Arsenico",
+    ),
     VoceCronologia(
         83,
         1500,
@@ -137,9 +163,10 @@ CRONOLOGIA: list[VoceCronologia] = [
         # la collocazione storicamente giusta, perché il bismuto è materia
         # d'alchimia europea, non un metallo incontrato nella preistoria.
         "alchimia",
+        isolamento_anno=1753,
         note="Data convenzionale degli alchimisti europei: il bismuto fu a lungo confuso "
-        "con piombo, stagno e antimonio, e riconosciuto come elemento distinto solo nel "
-        "Settecento.",
+        "con piombo, stagno e antimonio. La dimostrazione sperimentale che non è né "
+        "piombo né stagno è di Claude François Geoffroy, nel 1753.",
         nome="Bismuto",
     ),
     # --- Scoperte moderne, 1669-1879 ---
@@ -272,8 +299,10 @@ CRONOLOGIA: list[VoceCronologia] = [
         False,
         ["carl-wilhelm-scheele"],
         "pneumatica",
-        isolamento_anno=1788,
-        note="Isolato nel 1788 da Peter Jacob Hjelm.",
+        isolamento_anno=1781,
+        # La trascrizione originale riportava 1788, anno che non compare in
+        # nessuna delle fonti consultate durante la stesura della nota.
+        note="Isolato nel 1781 da Peter Jacob Hjelm.",
         nome="Molibdeno",
     ),
     VoceCronologia(
@@ -300,10 +329,21 @@ CRONOLOGIA: list[VoceCronologia] = [
         5,
         1787,
         False,
-        ["louis-bernard-guyton-de-morveau"],
+        # Primo dei 22 casi in cui la fonte comprimeva più scopritori in un
+        # nome solo seguito da «et al.» (Ruling 42): i quattro sono i
+        # firmatari della «Méthode de nomenclature chimique» del 1787, che
+        # applicando la teoria di Lavoisier all'acido borico dedussero un
+        # «radicale borico» mai visto e gli diedero un nome.
+        [
+            "louis-bernard-guyton-de-morveau",
+            "antoine-laurent-lavoisier",
+            "claude-louis-berthollet",
+            "antoine-francois-de-fourcroy",
+        ],
         "pneumatica",
         isolamento_anno=1809,
-        note="Isolato nel 1809 da Humphry Davy.",
+        note="Battezzato su previsione teorica nel 1787, ventun anni prima di essere "
+        "ottenuto: isolato nel 1809 da Humphry Davy.",
         nome="Boro",
     ),
     VoceCronologia(
@@ -352,8 +392,11 @@ CRONOLOGIA: list[VoceCronologia] = [
         False,
         ["johan-gadolin"],
         "pneumatica",
-        isolamento_anno=1843,
-        note="Isolato nel 1843 da Heinrich Rose.",
+        isolamento_anno=1828,
+        # La trascrizione originale dava 1843 e Heinrich Rose, fondendo due
+        # vicende distinte: il 1843 è l'anno in cui Mosander separa erbio e
+        # terbio dall'ittria, non quello dell'isolamento dell'ittrio.
+        note="Isolato nel 1828 da Friedrich Wöhler.",
         nome="Ittrio",
     ),
     VoceCronologia(
