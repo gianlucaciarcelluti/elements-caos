@@ -27,7 +27,7 @@ aliases: [Sc, Scandium]
 
 ```mermaid
 timeline
-    title Scoperta del Scandio
+    title Scoperta dello Scandio
     1879 : Scoperta : Lars Fredrik Nilson
     1937 : Isolamento allo stato puro
 ```

@@ -27,7 +27,7 @@ aliases: [Sr, Strontium]
 
 ```mermaid
 timeline
-    title Scoperta del Stronzio
+    title Scoperta dello Stronzio
     1790 : Scoperta : Adair Crawford
     1808 : Isolamento allo stato puro
 ```

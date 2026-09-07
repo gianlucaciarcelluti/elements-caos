@@ -27,7 +27,7 @@ aliases: [Xe, Xenon]
 
 ```mermaid
 timeline
-    title Scoperta del Xenon
+    title Scoperta dello Xenon
     1898 : Scoperta : William Ramsay, Morris Travers
 ```
 

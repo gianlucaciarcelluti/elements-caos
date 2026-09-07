@@ -27,7 +27,7 @@ aliases: [Zr, Zirconium]
 
 ```mermaid
 timeline
-    title Scoperta del Zirconio
+    title Scoperta dello Zirconio
     1789 : Scoperta : Martin Heinrich Klaproth
     1824 : Isolamento allo stato puro
 ```
