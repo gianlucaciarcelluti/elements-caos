@@ -129,6 +129,33 @@ def test_timeline_titolo_con_nome_vocalico_elide() -> None:
     assert "Scoperta del Idrogeno" not in risultato
 
 
+@pytest.mark.parametrize(
+    ("nome", "atteso"),
+    [
+        ("Stagno", "Scoperta dello Stagno"),
+        ("Zolfo", "Scoperta dello Zolfo"),
+        ("Zinco", "Scoperta dello Zinco"),
+        ("Scandio", "Scoperta dello Scandio"),
+        ("Stronzio", "Scoperta dello Stronzio"),
+        ("Zirconio", "Scoperta dello Zirconio"),
+        ("Xenon", "Scoperta dello Xenon"),
+    ],
+)
+def test_timeline_titolo_con_s_impura_o_z_usa_dello(nome: str, atteso: str) -> None:
+    """Davanti a s impura, z e x l'italiano vuole "dello", non "del".
+
+    Sono sette gli elementi che ricadono in questa regola, e su ciascuno
+    "del Stagno" o "del Zolfo" è un errore che il lettore nota alla prima
+    riga del diagramma.
+    """
+    elemento = _elemento(50, nome, "X", 14, 5, [2, 8, 18, 18, 4])
+
+    risultato = diagramma_timeline(elemento, ["Tizio"])
+
+    assert atteso in risultato
+    assert f"Scoperta del {nome}" not in risultato
+
+
 def test_timeline_usa_i_nomi_degli_scopritori_non_gli_id() -> None:
     """La timeline mostra i nomi propri passati esplicitamente, non gli id kebab-case.
 

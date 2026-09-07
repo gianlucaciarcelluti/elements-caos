@@ -50,18 +50,40 @@ def _recinta(corpo: str) -> str:
     return f"```mermaid\n{corpo.strip()}\n```"
 
 
+def _richiede_dello(nome: str) -> bool:
+    """Indica se il nome richiede l'articolo "lo" invece di "il".
+
+    Vale per s impura (s seguita da consonante), z, x, gn, pn, ps e per il
+    digramma "sc" seguito da vocale palatale. Fra i 118 elementi ricadono
+    qui stagno, stronzio, scandio, zolfo, zinco, zirconio e xenon.
+    """
+    if not nome:
+        return False
+
+    iniziale = nome[0].lower()
+    if iniziale in "zx":
+        return True
+    if iniziale == "s" and len(nome) > 1 and nome[1].lower() not in _VOCALI_ELISIONE:
+        return True
+    return nome[:2].lower() in {"gn", "pn", "ps"}
+
+
 def _del_elidibile(nome: str) -> str:
-    """Restituisce "del " o "dell'" secondo l'iniziale del nome che segue.
+    """Restituisce "del ", "dello " o "dell'" secondo l'iniziale del nome.
 
     L'italiano richiede l'elisione della preposizione articolata "del" in
-    "dell'" davanti a un nome che inizia per vocale (a, e, i, o, u): "del
-    Fosforo" ma "dell'Idrogeno". Nessun elemento ha nome italiano che inizia
-    per "h", quindi la h muta non è un caso da gestire qui. Il valore
-    restituito include già lo spazio o l'apostrofo necessario: il chiamante
-    lo concatena direttamente davanti al nome, senza separatori aggiuntivi.
+    "dell'" davanti a un nome che inizia per vocale ("dell'Idrogeno"), e la
+    forma "dello" davanti a s impura, z, x e ai digrammi gn, pn, ps ("dello
+    Stagno", "dello Zolfo"). Restano con "del" tutti gli altri ("del
+    Fosforo"). Nessun elemento ha nome italiano che inizia per "h", quindi
+    la h muta non è un caso da gestire qui. Il valore restituito include già
+    lo spazio o l'apostrofo necessario: il chiamante lo concatena
+    direttamente davanti al nome, senza separatori aggiuntivi.
     """
     if nome and nome[0] in _VOCALI_ELISIONE:
         return "dell'"
+    if _richiede_dello(nome):
+        return "dello "
     return "del "
 
 
