@@ -6,11 +6,22 @@ scoperta:
   anno: -1000
   anno_stimato: true
   scopritori: []
-  luogo: null
+  luogo: Zawar, Rajasthan, India
   epoca: antichita
-  isolamento_anno: null
-  note_cronologia: Metallurgisti indiani.
-  controversia: null
+  isolamento_anno: 1746
+  note_cronologia: 'La data convenzionale colloca lo zinco nell''area mineraria indiana del
+    Rajasthan, dove l''attività estrattiva è documentata dalla metà del I millennio a.C.
+    La distillazione dello zinco metallico è però più tarda; in Europa Andreas Marggraf
+    ne pubblica l''isolamento nel 1746, quattro anni dopo la distillazione di Anton von
+    Swab.'
+  controversia: 'La data del 1000 a.C. non regge come data del metallo, e va letta per quello
+    che è: una convenzione che segnala l''antichità dell''ottone e del distretto minerario
+    indiano, non la produzione di zinco puro. L''archeologia di Zawar, in Rajasthan, documenta
+    estrazione mineraria almeno dal VI secolo a.C., ma quello che se ne ricavava allora erano
+    argento e piombo. Lo zinco metallico più antico prodotto dall''uomo che si conosca viene
+    dallo stesso sito e risale al IX secolo d.C., mentre la fusione dello zinco su scala industriale,
+    con le batterie di storte in argilla, sembra cominciare intorno al XII secolo. L''ottone,
+    invece, precede tutto questo di millenni: ma l''ottone si fa senza mai vedere lo zinco.'
 proprieta:
   gruppo: 12
   periodo: 4
@@ -26,5 +37,165 @@ proprieta:
   punto_fusione_k: 692.68
   punto_ebollizione_k: 1180.0
   densita: 7.14
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -2
+  - 0
+  - 1
+  - 2
 approfondimento: false
+contenuti:
+  hook: 'Per tremila anni l''Europa ha fabbricato ottone senza mai vedere lo zinco. Non era
+    ignoranza: era che lo zinco, se provi a fonderlo come gli altri metalli, evapora e sparisce
+    prima ancora di formarsi.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Lo zinco è un metallo bianco-azzurrino di uso quotidiano, e la sua storia è dominata
+      da un paradosso: se ne conoscevano e sfruttavano le leghe molto prima che qualcuno avesse
+      mai tenuto in mano il metallo puro. La ragione non è culturale ma fisica, e sta in un
+      numero.'
+    visual: Lingotto di zinco appena colato accanto a un oggetto d'ottone dorato
+    attendibilita: documentato
+  - id: problema_fisico
+    sezione: storia
+    testo: 'Il numero è novecentosette, i gradi a cui lo zinco bolle. Per estrarlo dal minerale
+      bisogna scaldarlo con il carbone oltre i novecentocinquanta, cioè oltre il suo punto
+      di ebollizione: nel momento stesso in cui il metallo si forma è già vapore, esce dal
+      forno e a contatto con l''aria si riossida in fumo bianco. Ogni fornace normale, applicata
+      allo zinco, produce fumo e niente altro. Per averlo bisogna condensarne il vapore al
+      riparo dall''aria, un''idea che non viene in mente a nessuno finché non serve.'
+    visual: Fornace aperta con il denso fumo bianco di ossido di zinco che si disperde
+    attendibilita: documentato
+  - id: ottone
+    sezione: storia
+    testo: 'L''antichità aggira l''ostacolo senza saperlo. Nella cementazione si scaldano in
+      un crogiolo chiuso il rame e la calamina, un minerale di zinco, insieme al carbone: il
+      vapore di zinco che si sviluppa non ha modo di scappare e viene assorbito direttamente
+      dal rame ancora solido. Ne esce l''ottone, giallo e lucente, senza che lo zinco metallico
+      compaia mai. È una tecnica che i Romani padroneggiano dal I secolo a.C. e che resterà
+      dominante fino a metà Ottocento.'
+    visual: Crogiolo di cementazione sigillato con dentro dischi di rame e calamina in polvere
+    attendibilita: documentato
+  - id: ottone_antichissimo
+    sezione: storia
+    testo: 'Oggetti in lega di rame e zinco compaiono già nel III millennio a.C. in Asia occidentale
+      e nel Mediterraneo orientale, e leghe con un contenuto altissimo di zinco, fra l''ottanta
+      e il novanta per cento, sono state datate a circa duemilacinquecento anni fa. Molti dei
+      pezzi più antichi però contengono poco zinco e nascono probabilmente dalla fusione casuale
+      di minerali di rame naturalmente zincati: distinguere il caso dall''intenzione, in archeometallurgia,
+      è la questione difficile.'
+    visual: Serie di reperti in lega di rame e zinco con le rispettive analisi di composizione
+    attendibilita: documentato
+  - id: zawar
+    sezione: storia
+    testo: 'Il metallo vero nasce in India. A Zawar, in Rajasthan, i metallurgisti risolvono
+      il problema della condensazione con la distillazione discendente: il minerale carica
+      piccole storte di argilla disposte a rovescio su una piastra forata, il vapore di zinco
+      scende invece di salire e si raccoglie in recipienti sottostanti, dove condensa fuori
+      dal contatto con l''aria. I forni koshthi, descritti anche nel trattato Rasaratna Samuccaya,
+      operavano in batterie che ne contenevano decine ciascuna. Lo zinco puro più antico prodotto
+      dall''uomo che si conosca viene da qui e risale al IX secolo d.C.'
+    visual: Batteria di storte d'argilla capovolte su una piastra forata in un forno koshthi
+    attendibilita: documentato
+  - id: arrivo_europa
+    sezione: storia
+    testo: 'In Europa lo zinco arriva prima come merce che come conoscenza. Lingotti di zinco
+      metallico indiano e cinese sbarcano a Londra già nel 1513, e nei secoli successivi il
+      metallo orientale resta un articolo costoso da importare. Solo nel 1738 William Champion
+      brevetta in Inghilterra un procedimento a storte, e nel 1746 Andreas Marggraf pubblica
+      a Berlino l''isolamento dello zinco puro; lo svedese Anton von Swab lo aveva ottenuto
+      quattro anni prima. Fra la tecnica indiana e quella europea corrono, a essere generosi,
+      otto secoli.'
+    visual: Lingotti di zinco orientale accanto ai registri di dogana di un porto europeo
+    attendibilita: documentato
+  - id: caratteristiche_chimica
+    sezione: caratteristiche
+    testo: 'La chimica dello zinco è di una monotonia sorprendente per un metallo di transizione:
+      praticamente tutti i suoi composti lo contengono nello stato di ossidazione più due,
+      senza le alternative colorate tipiche dei metalli di transizione vicini. Il guscio d
+      è completamente pieno, e questo spiega insieme la scarsa varietà di valenze e il fatto
+      che i suoi composti siano quasi sempre bianchi o incolori invece che accesi come quelli
+      del rame o del cobalto.'
+    visual: Confronto fra sali di rame azzurri e sali di zinco perfettamente bianchi
+    attendibilita: documentato
+  - id: caratteristiche_reattivita
+    sezione: caratteristiche
+    testo: 'Lo zinco è un metallo moderatamente reattivo e un riducente energico: cede volentieri
+      i suoi due elettroni esterni. È esattamente ciò che lo rende utile, perché in coppia
+      con un metallo meno reattivo diventa il pezzo che si sacrifica. Immerso in acido reagisce
+      con vivacità liberando idrogeno, e questa reazione da manuale è stata per due secoli
+      il modo più semplice di produrre idrogeno in laboratorio.'
+    visual: Granuli di zinco in acido diluito con il vigoroso sviluppo di bollicine
+    attendibilita: documentato
+  - id: usi_zincatura
+    sezione: usi
+    testo: 'Circa metà dello zinco prodotto al mondo va a proteggere il ferro. Nella zincatura
+      l''acciaio riceve un rivestimento di zinco che lo difende in due modi: fa da barriera
+      fisica, e quando la barriera si graffia il sacrificio continua per via elettrochimica,
+      perché lo zinco si corrode al posto del ferro sottostante finché ce n''è. Un graffio
+      su una lamiera zincata non arrugginisce, ed è la ragione per cui esistono guardrail,
+      tralicci e carrozzerie che durano decenni all''aperto.'
+    visual: Lamiera zincata graffiata, intatta, accanto a una lamiera nuda già arrugginita
+    attendibilita: documentato
+  - id: usi_leghe_pile
+    sezione: usi
+    testo: 'Il resto si divide fra le leghe e l''elettrochimica. L''ottone resta il grande classico
+      per rubinetteria, strumenti musicali e minuteria, mentre le leghe da pressofusione a
+      base di zinco producono in serie componenti di forma complicata a costo bassissimo. Lo
+      zinco è inoltre l''anodo delle pile a secco tradizionali, dove il contenitore stesso
+      della pila è il reagente che si consuma, e l''ossido di zinco entra in creme solari,
+      pomate dermatologiche e gomma vulcanizzata.'
+    visual: Pila a secco sezionata con il contenitore di zinco che fa da anodo
+    attendibilita: documentato
+  - id: curiosita_biologia
+    sezione: curiosita
+    testo: 'Dopo il ferro, lo zinco è il metallo in traccia più abbondante nel corpo umano,
+      e compare come cofattore in tutte le classi di enzimi conosciute: sono migliaia le proteine
+      che senza un atomo di zinco al posto giusto non funzionano. La carenza, che nel mondo
+      in via di sviluppo riguarda una popolazione stimata in miliardi di persone, produce nei
+      bambini ritardo della crescita e maggiore vulnerabilità alle infezioni.'
+    visual: Modello di enzima con l'atomo di zinco evidenziato nel sito attivo
+    attendibilita: documentato
+  - id: curiosita_galvani
+    sezione: curiosita
+    testo: 'La parola zincatura in inglese si dice galvanization, dal bolognese Luigi Galvani,
+      che con lo zinco non c''entra quasi nulla: i suoi esperimenti furono sulle rane e sulla
+      contrazione muscolare. Il collegamento passa da Alessandro Volta, che spiegò quei fenomeni
+      con il contatto fra metalli diversi e costruì la pila proprio impilando dischi di zinco
+      e di rame. Il nome del fisiologo è finito sul processo industriale per una catena di
+      malintesi produttivi.'
+    visual: Pila di Volta con i dischi alternati di zinco e rame separati da panni umidi
+    attendibilita: documentato
+  pronuncia: []
+composti_principali:
+- nome: Ossido di zinco
+  formula: ZnO
+  usi:
+  - filtro fisico nelle creme solari
+  - attivatore nella vulcanizzazione della gomma
+  - pomate dermatologiche
+- nome: Solfuro di zinco
+  formula: ZnS
+  usi:
+  - schermi fluorescenti
+  - pigmenti bianchi
+  - rivelatori di scintillazione
+- nome: Cloruro di zinco
+  formula: ZnCl2
+  usi:
+  - flussante per saldature
+  - preservante del legno
+  - elettrolita nelle pile a secco
+fonti:
+- url: https://en.wikipedia.org/wiki/Zinc
+  titolo: Zinc
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Brass
+  titolo: Brass (storia della cementazione e dell'ottone antico)
+  consultata: '2026-09-07'
+- url: https://geographyandyou.com/geoheritage-sites/zawar-worlds-oldest-zinc-mining-and-metallurgy-site
+  titolo: 'Zawar: World''s Oldest Zinc Mining and Metallurgy Site'
+  consultata: '2026-09-07'
+- url: https://infinityfoundation.com/zinc-production-in-ancient-india/
+  titolo: Zinc Production in Ancient India (Infinity Foundation)
+  consultata: '2026-09-07'
