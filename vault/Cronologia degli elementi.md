@@ -34,7 +34,6 @@ Gli elementi che l'umanità ha incontrato senza sapere di averlo fatto: metalli 
 | 11 | 1000 a.C. | [[Zinco]] (Zn) | ignoto |
 | 12 | 600 a.C. | [[Platino]] (Pt) | ignoto |
 | 13 | 300 d.C. | [[Arsenico]] (As) | ignoto |
-| 14 | 1500 | [[Bismuto]] (Bi) | ignoto |
 
 ### [[Alchimia e primo moderno]]
 
@@ -42,6 +41,7 @@ Dalla ricerca della pietra filosofale alla prima scoperta documentata. Gli alchi
 
 | # | Anno | Elemento | Scopritore |
 |---|---|---|---|
+| 14 | 1500 | [[Bismuto]] (Bi) | ignoto |
 | 15 | 1669 | [[Fosforo]] (P) | [[Hennig Brand]] |
 | 16 | 1671 | [[Idrogeno]] (H) | [[Robert Boyle]] |
 | 17 | 1735 | [[Cobalto]] (Co) | [[Georg Brandt]] |

@@ -132,8 +132,14 @@ CRONOLOGIA: list[VoceCronologia] = [
         1500,
         True,
         [],
-        "antichita",
-        note="Data convenzionale degli alchimisti europei, come le altre dell'antichità.",
+        # Cade in `alchimia` e non in `antichita`: i confini delle epoche sono
+        # `inizio <= anno < fine` e alchimia parte proprio dal 1500. È anche
+        # la collocazione storicamente giusta, perché il bismuto è materia
+        # d'alchimia europea, non un metallo incontrato nella preistoria.
+        "alchimia",
+        note="Data convenzionale degli alchimisti europei: il bismuto fu a lungo confuso "
+        "con piombo, stagno e antimonio, e riconosciuto come elemento distinto solo nel "
+        "Settecento.",
         nome="Bismuto",
     ),
     # --- Scoperte moderne, 1669-1879 ---

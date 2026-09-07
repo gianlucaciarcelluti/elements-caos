@@ -5,14 +5,14 @@ numero_atomico: 83
 anno_scoperta: 1500
 anno_stimato: true
 scopritori: []
-epoca: Antichità
+epoca: Alchimia e primo moderno
 categoria: metallo_post_transizione
 gruppo: 15
 periodo: 6
 posizione_cronologica: 14
 tempo_lettura: 4
 ha_approfondimento: false
-tags: [elemento, metallo-post-transizione, epoca/antichita, secolo/XV]
+tags: [elemento, metallo-post-transizione, epoca/alchimia, secolo/XV]
 aliases: [Bi, Bismuth]
 ---
 
@@ -128,7 +128,7 @@ L'origine del nome resta incerta e le ipotesi si accavallano: dal tedesco weisse
 ← Precedente: [[Arsenico]] (300 d.C.)
 → Successivo: [[Fosforo]] (1669)
 
-Epoca: [[Antichità]]
+Epoca: [[Alchimia e primo moderno]]
 
 ## Fonti
 

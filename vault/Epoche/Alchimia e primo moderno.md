@@ -14,6 +14,7 @@ Dalla ricerca della pietra filosofale alla prima scoperta documentata. Gli alchi
 
 | Anno | Elemento | Scopritore |
 |---|---|---|
+| 1500 | [[Bismuto]] (Bi) | ignoto |
 | 1669 | [[Fosforo]] (P) | [[Hennig Brand]] |
 | 1671 | [[Idrogeno]] (H) | [[Robert Boyle]] |
 | 1735 | [[Cobalto]] (Co) | [[Georg Brandt]] |
