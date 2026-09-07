@@ -10,8 +10,10 @@ scoperta:
   luogo: null
   epoca: pneumatica
   isolamento_anno: 1808
-  note_cronologia: Isolato come elemento puro solo nel 1808, per elettrolisi, da Humphry
-    Davy.
+  note_cronologia: 'Scheele riconosce nel 1772 che la baritina contiene una terra nuova,
+    distinta dalla calce, ma ottiene soltanto l''ossido; Johan Gottlieb Gahn ne ripete
+    l''analisi due anni dopo. Il metallo è isolato nel 1808 da Humphry Davy per elettrolisi
+    dei sali fusi.'
   controversia: null
 proprieta:
   gruppo: 2
@@ -30,5 +32,156 @@ proprieta:
   punto_fusione_k: 1000.0
   punto_ebollizione_k: 2118.0
   densita: 3.51
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
 approfondimento: false
+contenuti:
+  hook: Nel 1602 un ciabattino bolognese trovò dei sassi che, scaldati, brillavano al buio.
+    Ci vollero due secoli per capire che dentro c'era un metallo mai visto.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il bario è un metallo alcalino terroso talmente reattivo da non esistere libero
+      in natura e talmente pesante da portarne il nome, che viene dal greco barys. È un
+      elemento che il pubblico incontra quasi sempre in un''unica occasione, sdraiato su un
+      lettino radiologico con un bicchiere di sospensione biancastra in mano, e la ragione
+      per cui quel bicchiere non è letale è una delle lezioni di chimica più eleganti che si
+      possano raccontare.'
+    visual: Bacchetta di bario metallico conservata sotto olio minerale
+    attendibilita: documentato
+  - id: pietra_di_bologna
+    sezione: storia
+    testo: 'La storia comincia con una pietra che fa una cosa impossibile. Nel 1602 Vincenzo
+      Casciarolo, ciabattino e alchimista dilettante, raccoglie sul monte Paderno presso
+      Bologna dei ciottoli pesanti e li calcina sperando di cavarne oro; ottiene invece un
+      materiale che, dopo essere stato esposto alla luce, continua a brillare nel buio per
+      ore. La chiamarono pietra di Bologna o lapis solaris, e fu la sensazione scientifica del secolo: intorno al 1612 un gesuita annota di averne visto la luminescenza dimostrata da Galileo in persona.'
+    visual: Frammento di pietra di Bologna che emette un tenue bagliore nell'oscurità
+    attendibilita: documentato
+  - id: primo_fosforo
+    sezione: storia
+    testo: 'Era il primo materiale fosforescente artificiale della storia, e nessuno poteva
+      capire perché funzionasse. Oggi sappiamo che la calcinazione trasforma il solfato di bario del minerale in solfuro di bario, e che il bagliore persistente dipende da tracce di rame presenti per caso nella baritina di quella collina, mentre il ferro lo spegne: la stessa pietra raccolta altrove non brilla. La luminescenza dei quadranti,
+      dei cartelli di emergenza e degli schermi discende da questa curiosità bolognese.'
+    visual: Reticolo del solfuro di bario con l'impurezza di rame che intrappola l'energia
+    attendibilita: documentato
+  - id: scheele_baritina
+    sezione: storia
+    testo: 'Il minerale intanto restava un enigma per i chimici, perché somigliava alla calce
+      ma si comportava diversamente. Nel 1772 Carl Wilhelm Scheele lo analizza e stabilisce
+      che contiene una terra nuova, distinta dalla calce viva, che verrà chiamata barite;
+      Johan Gottlieb Gahn ripete l''analisi due anni dopo e conferma. È il modo di procedere che gli è consueto: Scheele arriva fino al confine, stabilisce che l''elemento c''è e si ferma lì, perché quella terra non si lascia ridurre da nessun fuoco.'
+    visual: Cristalli tabulari di baritina sorprendentemente pesanti in mano
+    attendibilita: documentato
+  - id: davy_pila
+    sezione: storia
+    testo: 'A sbloccare la situazione è uno strumento che nel 1772 non esisteva. Con la pila
+      di Volta in mano, Humphry Davy sottopone i sali fusi a corrente elettrica e nel 1808
+      strappa il bario metallico alla sua terra, dopo aver fatto la stessa cosa con sodio,
+      potassio, calcio, magnesio e stronzio nel giro di due anni. La chimica aveva atteso
+      trentasei anni non per mancanza di idee ma per mancanza di energia: nessuna fiamma è
+      abbastanza forte, una corrente sì.'
+    visual: La grande pila voltaica della Royal Institution collegata al crogiolo
+    attendibilita: documentato
+  - id: caratteristiche_reattivita
+    sezione: caratteristiche
+    testo: 'Il bario ha due elettroni esterni che cede con estrema facilità e non ne cede mai
+      un numero diverso: nei suoi composti si presenta sempre e soltanto allo stato più due.
+      Il metallo si ossida all''istante all''aria, reagisce vigorosamente con l''acqua
+      liberando idrogeno e va conservato sotto olio, il che ne fa un materiale da laboratorio
+      scomodo e spiega perché lo si incontri quasi esclusivamente sotto forma di sali.'
+    visual: Frammento di bario che reagisce vivacemente a contatto con l'acqua
+    attendibilita: documentato
+  - id: caratteristiche_tossicita
+    sezione: caratteristiche
+    testo: 'I sali solubili di bario sono violentemente tossici perché lo ione bario ha
+      dimensioni simili a quelle dello ione potassio e ne blocca i canali nelle membrane
+      cellulari: ne seguono debolezza muscolare, crampi, aritmie e, a dosi sufficienti, la
+      paralisi del cuore. Il cloruro di bario è stato a lungo un veleno da romanzo giallo e un
+      rodenticida, e resta una delle intossicazioni da metallo più rapide che la tossicologia
+      conosca.'
+    visual: Barattolo da farmacia ottocentesca con l'etichetta del cloruro di bario
+    attendibilita: documentato
+  - id: caratteristiche_solfato
+    sezione: caratteristiche
+    testo: 'Eppure c''è un composto di bario che si beve. Il solfato di bario è così poco
+      solubile in acqua che praticamente nessuno ione bario si libera nell''organismo:
+      attraversa il tubo digerente e ne esce com''è entrato. È il caso da manuale in cui la
+      tossicità non appartiene all''elemento ma alla sua disponibilità chimica, e la distanza
+      fra un veleno fulminante e un mezzo diagnostico sta tutta nella costante di solubilità.'
+    visual: Bicchiere della sospensione bianca di solfato di bario per l'esame radiologico
+    attendibilita: documentato
+  - id: usi_radiologia
+    sezione: usi
+    testo: 'Su questa insolubilità si regge il pasto baritato. Il bario è pesante e assorbe i
+      raggi X molto più dei tessuti molli, così una sospensione di solfato bevuta o
+      somministrata per clistere disegna sulla lastra il profilo interno dell''esofago, dello
+      stomaco e dell''intestino, che altrimenti sarebbero invisibili. È un esame di
+      radiologia tradizionale in parte soppiantato dall''endoscopia e dalla tomografia, ma
+      ancora in uso per lo studio della deglutizione e del transito.'
+    visual: Radiografia del transito esofageo con il profilo disegnato dal bario
+    attendibilita: documentato
+  - id: usi_perforazione
+    sezione: usi
+    testo: 'Il consumo maggiore di baritina non è però in ospedale ma nei pozzi petroliferi,
+      dove il minerale macinato viene aggiunto ai fanghi di perforazione. Serve la sua densità:
+      il fango appesantito esercita sul fondo del pozzo una pressione sufficiente a
+      contrastare quella del giacimento e a impedire l''eruzione incontrollata. Altri impieghi
+      minori sfruttano il colore verde che i sali di bario danno alla fiamma, sfruttato nei
+      fuochi d''artificio.'
+    visual: Sacchi di baritina macinata accanto alla vasca dei fanghi di perforazione
+    attendibilita: documentato
+  - id: curiosita_superconduttori
+    sezione: curiosita
+    testo: 'Nel 1987 il bario si trovò al centro della fisica mondiale. L''ossido di ittrio,
+      bario e rame fu il primo superconduttore a funzionare sopra i settantasette kelvin, cioè
+      a una temperatura raggiungibile con il semplice azoto liquido invece che con l''elio
+      costosissimo: da laboratorio d''élite la superconduttività divenne un esperimento da
+      corso universitario, e la scoperta del filone valse il Nobel nel giro di un anno.'
+    visual: Pastiglia di YBCO che levita su un magnete nel vapore dell'azoto liquido
+    attendibilita: documentato
+  - id: curiosita_mortaio
+    sezione: curiosita
+    testo: 'La fosforescenza persistente che la pietra di Bologna inaugurò ha impiegato quattro secoli a essere capita fino in fondo. Già nel Seicento il chimico Wilhelm Homberg si accorse per caso che la pietra brillava soltanto se macinata in un mortaio di bronzo e non in uno di ferro, senza poter sapere perché: era il rame del bronzo a fare la differenza, e la spiegazione completa è arrivata soltanto in tempi recenti.'
+    visual: Campione museale della pietra di Bologna con il cartellino storico
+    attendibilita: documentato
+  pronuncia:
+  - termine: Vincenzo Casciarolo
+    ipa: vinˈtʃɛntso kaʃʃaˈrɔlo
+    nota: All'italiana.
+  - termine: Baritina
+    ipa: bariˈtina
+    nota: Il minerale si chiama anche barite.
+composti_principali:
+- nome: Solfato di bario (baritina)
+  formula: BaSO4
+  usi:
+  - mezzo di contrasto radiologico
+  - appesantente dei fanghi di perforazione
+- nome: Carbonato di bario
+  formula: BaCO3
+  usi:
+  - vetri ottici e ceramiche
+  - rodenticida
+- nome: Nitrato di bario
+  formula: Ba(NO3)2
+  usi:
+  - fuochi d'artificio verdi
+  - segnalatori luminosi
+- nome: Ossido di ittrio, bario e rame
+  formula: YBa2Cu3O7
+  usi:
+  - superconduttore ad alta temperatura
+fonti:
+- url: https://en.wikipedia.org/wiki/Barium
+  titolo: Barium
+  consultata: '2026-09-07'
+- url: https://www.chemistryworld.com/opinion/solving-the-riddle-of-the-glowing-stones/1017596.article
+  titolo: Solving the riddle of the glowing stones (Chemistry World)
+  consultata: '2026-09-07'
+- url: https://www.uu.se/en/about-uu/history/prominent-people/carl-scheele
+  titolo: Carl Wilhelm Scheele — the Uppsala chemist who discovered oxygen and chlorine
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Humphry_Davy
+  titolo: Humphry Davy
+  consultata: '2026-09-07'

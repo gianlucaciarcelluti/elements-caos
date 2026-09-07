@@ -66,7 +66,7 @@ Il secolo in cui l'aria smette di essere una sostanza sola. Isolando i gas, i ch
 | 29 | 1778 | [[Molibdeno]] (Mo) | [[Carl Wilhelm Scheele]] |
 | 30 | 1781 | [[Tungsteno]] (W) | [[Carl Wilhelm Scheele]] |
 | 31 | 1782 | [[Tellurio]] (Te) | [[Franz-Joseph Müller von Reichenstein]] |
-| 32 | 1787 | [[Boro]] (B) | [[Louis-Bernard Guyton de Morveau]] |
+| 32 | 1787 | [[Boro]] (B) | [[Louis-Bernard Guyton de Morveau]], [[Antoine-Laurent Lavoisier]], [[Claude Louis Berthollet]], [[Antoine François de Fourcroy]] |
 | 33 | 1789 | [[Zirconio]] (Zr) | [[Martin Heinrich Klaproth]] |
 | 34 | 1789 | [[Uranio]] (U) | [[Martin Heinrich Klaproth]] |
 | 35 | 1790 | [[Stronzio]] (Sr) | [[Adair Crawford]] |
