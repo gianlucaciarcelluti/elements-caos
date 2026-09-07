@@ -6,11 +6,15 @@ scoperta:
   anno: 1794
   anno_stimato: false
   scopritori:
-  - johan-gadolin
-  luogo: null
+    - johan-gadolin
+  luogo: Åbo (Turku)
   epoca: pneumatica
-  isolamento_anno: 1843
-  note_cronologia: Isolato nel 1843 da Heinrich Rose.
+  isolamento_anno: 1828
+  note_cronologia: Carl Axel Arrhenius rinviene nel 1787 il minerale nero nella cava di Ytterby;
+    Johan Gadolin ne pubblica nel 1794 l'analisi, riconoscendovi una terra nuova, che Anders
+    Gustaf Ekeberg chiama ittria nel 1797. Il metallo è isolato nel 1828 da Friedrich Wöhler,
+    riducendo il cloruro con il potassio. Nel 1843 Carl Gustaf Mosander dimostra che l'ittria
+    di Gadolin conteneva in realtà tre ossidi distinti.
   controversia: null
 proprieta:
   gruppo: 3
@@ -20,13 +24,189 @@ proprieta:
   massa_atomica: 88.905842
   configurazione_elettronica: '[Kr] 4d1 5s2'
   gusci:
-  - 2
-  - 8
-  - 18
-  - 9
-  - 2
+    - 2
+    - 8
+    - 18
+    - 9
+    - 2
   punto_fusione_k: 1799.0
   punto_ebollizione_k: 3203.0
   densita: 4.472
-  stati_ossidazione: []
+  stati_ossidazione:
+    - 1
+    - 2
+    - 3
 approfondimento: false
+contenuti:
+  hook: Una cava abbandonata a poche miglia da Stoccolma ha dato il nome a quattro elementi
+    della tavola periodica, e in tutto ne ha visti nascere nove. Tutto è cominciato da una pietra
+    nera che sembrava carbone.
+  beats:
+    - id: incipit_generale
+      sezione: incipit
+      testo: L'ittrio è un metallo grigio argenteo, leggero, che la chimica classifica fra i
+        metalli di transizione ma che si comporta in tutto e per tutto come una terra rara,
+        e con le terre rare si trova, si estrae e si separa. La sua scoperta è il punto in cui
+        si apre la vicenda più lunga e più intricata della tavola periodica, quella che occuperà
+        i chimici per tutto l'Ottocento.
+      visual: Frammento di ittrio metallico sotto una campana di vetro
+      attendibilita: documentato
+    - id: la_cava
+      sezione: storia
+      testo: 'Il luogo è una cava di feldspato e quarzo su un''isola dell''arcipelago di Stoccolma,
+        presso il villaggio di Ytterby, da cui si cavava quarzo per le ferriere e più tardi
+        feldspato per le manifatture di porcellana. Nel 1787 un tenente d''artiglieria appassionato
+        di minerali, Carl Axel Arrhenius, vi raccoglie una pietra insolitamente nera e pesante:
+        la prende per un minerale di tungsteno, appena diventato di moda fra i chimici svedesi,
+        e la chiama ytterbite dal nome del posto.'
+      visual: La cava di Ytterby fra le rocce e l'acqua dell'arcipelago
+      attendibilita: documentato
+    - id: gadolin
+      sezione: storia
+      testo: 'Il campione circola fra i chimici del nord e finisce nelle mani di Johan Gadolin,
+        professore all''accademia di Åbo, in Finlandia, allora parte del regno di Svezia. Gadolin
+        lo smonta con l''analisi per via umida e nel 1794 pubblica il risultato: dentro c''è
+        silice, c''è ossido di ferro, c''è allumina, e poi c''è un buon terzo del campione fatto
+        di una terra che non corrisponde a nessuna di quelle conosciute.'
+      visual: Il minerale nero e lucente della gadolinite spezzato in due
+      attendibilita: documentato
+    - id: ittria
+      sezione: storia
+      testo: 'Tre anni dopo Anders Gustaf Ekeberg conferma l''analisi e battezza la terra nuova
+        ittria, ancora una volta dal nome del villaggio. Il minerale, per contro, prenderà il
+        nome dello scopritore e si chiamerà gadolinite: uno scambio di intitolazioni che è anche
+        una piccola giustizia, perché ognuno dei due riceve la cosa che l''altro ha trovato.'
+      visual: Etichetta di collezione con i due nomi, ittria e gadolinite
+      attendibilita: documentato
+    - id: metallo
+      sezione: storia
+      testo: 'Come quasi tutte le terre di quell''epoca, l''ittria resiste a lungo a chi vuole
+        vedere il metallo che contiene: il legame con l''ossigeno è troppo saldo per i mezzi
+        disponibili. Ci arriva nel 1828 Friedrich Wöhler, scaldando con il potassio il cloruro
+        che riteneva di ittrio, e ottenendo una polvere grigia impura. È lo stesso anno in cui
+        Wöhler sintetizza l''urea e manda in pezzi l''idea che le sostanze dei viventi richiedano
+        una forza vitale.'
+      visual: Polvere grigia di ittrio impuro sul fondo di un tubo di vetro
+      attendibilita: documentato
+    - id: non_era_una
+      sezione: storia
+      testo: 'Il colpo di scena arriva nel 1843, quando Carl Gustaf Mosander riprende l''ittria
+        e scopre che non è affatto una sostanza sola: cristallizzandone i sali a più riprese
+        la separa in tre ossidi, uno bianco, uno giallo e uno rosato. Al primo resta il nome
+        di ittria; gli altri due diventano erbio e terbio, e i loro nomi escono ancora una volta
+        dalle lettere di Ytterby. Ciò che sembrava un elemento era una famiglia.'
+      visual: Tre ossidi affiancati in capsule, bianco, giallo e rosa
+      attendibilita: documentato
+    - id: ytterby
+      sezione: storia
+      testo: Da quella cava, nel corso di un secolo, sarebbero usciti elementi a ripetizione,
+        perché ogni terra che sembrava pura si rivelava una miscela di terre ancora più simili
+        fra loro. Quattro elementi portano oggi nel nome pezzi della parola Ytterby — ittrio,
+        itterbio, terbio ed erbio — e altri cinque — scandio, olmio, tulio, gadolinio e tantalio
+        — furono individuati per la prima volta in minerali di quel giacimento. Nessun altro
+        luogo al mondo ha lasciato un'impronta simile sulla tavola periodica.
+      visual: Targa commemorativa all'ingresso della cava di Ytterby
+      attendibilita: documentato
+    - id: caratteristiche_terra_rara
+      sezione: caratteristiche
+      testo: 'L''ittrio spiega bene perché le terre rare siano state tanto difficili da separare.
+        In soluzione esiste praticamente solo allo stato più tre, e il suo ione ha dimensioni
+        quasi identiche a quelle di parecchi lantanidi: due specie chimiche così simili si comportano
+        allo stesso modo in ogni reazione, e per distinguerle non resta che ripetere centinaia
+        di volte una separazione che ogni volta le arricchisce di pochissimo. È per questo che
+        l''Ottocento ci ha messo cent''anni.'
+      visual: File di cristallizzatori allineati per una separazione frazionata
+      attendibilita: documentato
+    - id: caratteristiche_rarita
+      sezione: caratteristiche
+      testo: 'Il nome collettivo di terre rare, del resto, è ingannevole quanto quello di molti
+        elementi. L''ittrio nella crosta terrestre è più abbondante del piombo, e diverse terre
+        rare sono più comuni dell''argento o del mercurio: rara non è la loro quantità, ma la
+        loro concentrazione. Stanno sparpagliate ovunque in tracce, quasi mai in giacimenti
+        ricchi, e vanno strappate a minerali che le contengono tutte insieme e mescolate.'
+      visual: Campione di minerale di terre rare accanto al suo certificato d'analisi
+      attendibilita: documentato
+    - id: caratteristiche_luna
+      sezione: caratteristiche
+      testo: Un dettaglio curioso riguarda dove si trova. I campioni di roccia riportati dalle
+        missioni lunari contengono ittrio in proporzione sensibilmente maggiore rispetto alle
+        rocce terrestri comuni, il che dice qualcosa su come i due corpi si sono differenziati.
+        Sulla Terra, l'ittrio si accompagna sempre ai lantanidi e si estrae dagli stessi minerali,
+        in particolare dalle argille e dalla monazite.
+      visual: Campione di roccia lunare esposto sotto vetro
+      attendibilita: documentato
+    - id: usi_fosfori
+      sezione: usi
+      testo: L'impiego che ha toccato più case è quello nei fosfori. Gli ossidi di ittrio drogati
+        con l'europio danno un rosso vivo e stabile che per decenni ha prodotto il rosso di
+        tutti i televisori a tubo catodico, e composti analoghi stanno oggi nei diodi a luce
+        bianca, dove convertono in luce calda parte dell'azzurro emesso dal semiconduttore.
+        Buona parte della luce artificiale che vediamo passa da un composto di ittrio.
+      visual: Polvere fosforescente rossa che brilla sotto la lampada ultravioletta
+      attendibilita: documentato
+    - id: usi_laser
+      sezione: usi
+      testo: L'altro grande impiego è cristallino. Il granato di ittrio e alluminio, drogato
+        con neodimio, è il cristallo attivo del laser da lavoro più diffuso del mondo, quello
+        che taglia e salda i metalli in officina e che in chirurgia coagula e incide i tessuti.
+        L'ittrio compare inoltre nel più noto dei superconduttori ad alta temperatura, che perde
+        ogni resistenza già sotto azoto liquido invece che sotto elio.
+      visual: Barretta cilindrica di cristallo laser montata nella sua cavità
+      attendibilita: documentato
+    - id: curiosita_gadolinio
+      sezione: curiosita
+      testo: 'Johan Gadolin è finito sulla tavola periodica per una via traversa. Il gadolinio,
+        separato quasi un secolo dopo il suo lavoro, non porta il suo nome direttamente ma quello
+        della gadolinite, il minerale che gli era stato intitolato: l''elemento è dedicato a
+        una pietra, e la pietra a un uomo. È uno dei pochissimi chimici ad avere insieme un
+        minerale e un elemento, e li deve entrambi a quella stessa cava.'
+      visual: Ritratto settecentesco di Gadolin accanto a un campione di gadolinite
+      attendibilita: documentato
+    - id: curiosita_ossa
+      sezione: curiosita
+      testo: 'L''ittrio ha anche un uso medico che sfrutta un suo isotopo instabile. L''ittrio-90
+        emette elettroni molto energetici che percorrono nei tessuti pochi millimetri e poi
+        si fermano: caricato su microsfere di vetro o di resina e iniettato nell''arteria che
+        alimenta un tumore del fegato, si deposita nei capillari della massa e la irradia dall''interno
+        risparmiando quel che sta intorno. È una radioterapia che si porta la sorgente sul posto.'
+      visual: Microsfere radioattive viste al microscopio elettronico
+      attendibilita: documentato
+  pronuncia:
+    - termine: Ytterby
+      ipa: ˈʏtːɛrbyː
+      nota: Alla svedese.
+    - termine: Johan Gadolin
+      ipa: ˈjuːan ˈɡɑːdolin
+      nota: Alla svedese di Finlandia.
+composti_principali:
+  - nome: Ossido di ittrio (ittria)
+    formula: Y2O3
+    usi:
+      - fosfori rossi per schermi e lampade
+      - ceramiche e rivestimenti refrattari
+  - nome: Granato di ittrio e alluminio
+    formula: Y3Al5O12
+    usi:
+      - cristallo attivo dei laser Nd:YAG
+      - gemme sintetiche
+  - nome: Ossido di ittrio, bario e rame
+    formula: YBa2Cu3O7
+    usi:
+      - superconduttore ad alta temperatura critica
+  - nome: Gadolinite
+    formula: Y2FeBe2Si2O10
+    usi:
+      - minerale storico di partenza delle terre rare
+fonti:
+  - url: https://en.wikipedia.org/wiki/Yttrium
+    titolo: Yttrium
+    consultata: '2026-09-07'
+  - url: https://periodic-table.rsc.org/element/39/yttrium
+    titolo: Yttrium — Element information, properties and uses (Royal Society of Chemistry)
+    consultata: '2026-09-07'
+  - url: https://en.wikipedia.org/wiki/Ytterby
+    titolo: Ytterby
+    consultata: '2026-09-07'
+  - url: https://en.wikipedia.org/wiki/Carl_Gustaf_Mosander
+    titolo: Carl Gustaf Mosander
+    consultata: '2026-09-07'

@@ -6,11 +6,15 @@ scoperta:
   anno: 1782
   anno_stimato: false
   scopritori:
-  - franz-joseph-muller-von-reichenstein
+    - franz-joseph-muller-von-reichenstein
   luogo: null
   epoca: pneumatica
   isolamento_anno: 1798
-  note_cronologia: Isolato e nominato nel 1798 da Martin Heinrich Klaproth.
+  note_cronologia: Müller von Reichenstein individua l'elemento nel 1782 in un minerale aurifero
+    della Transilvania e lo chiama aurum paradoxum; Martin Heinrich Klaproth ne conferma la
+    natura e lo battezza tellurio nella conferenza tenuta all'Accademia delle scienze di Berlino
+    il 25 gennaio 1798, attribuendo pubblicamente la scoperta a Müller. Pál Kitaibel vi era
+    arrivato indipendentemente nel 1789.
   controversia: null
 proprieta:
   gruppo: 16
@@ -20,13 +24,200 @@ proprieta:
   massa_atomica: 127.603
   configurazione_elettronica: '[Kr] 4d10 5s2 5p4'
   gusci:
-  - 2
-  - 8
-  - 18
-  - 18
-  - 6
+    - 2
+    - 8
+    - 18
+    - 18
+    - 6
   punto_fusione_k: 722.66
   punto_ebollizione_k: 1261.0
   densita: 6.24
-  stati_ossidazione: []
+  stati_ossidazione:
+    - -2
+    - -1
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
 approfondimento: false
+contenuti:
+  hook: Un ispettore delle miniere trovò un metallo che si comportava come oro senza esserlo,
+    e non seppe che nome dargli. Sedici anni dopo un altro chimico lo battezzò e, cosa più rara,
+    disse pubblicamente di chi era il merito.
+  beats:
+    - id: incipit_generale
+      sezione: incipit
+      testo: Il tellurio è uno dei solidi più rari della crosta terrestre, tanto raro quanto
+        il platino, e uno dei pochi elementi il cui nome viene dalla Terra e non da un mito
+        o da un colore. È un semimetallo fragile, bianco argenteo, che oggi sta dentro i pannelli
+        solari a film sottile e che ha alle spalle la vicenda di attribuzione più corretta e
+        più insolita del Settecento chimico.
+      visual: Un frammento di tellurio metallico dal lucido argenteo e sfaldato
+      attendibilita: documentato
+    - id: transilvania
+      sezione: storia
+      testo: 'La storia comincia nelle miniere d''oro della Transilvania, che nel Settecento
+        appartengono agli Asburgo e sono fra le più ricche d''Europa. In quei giacimenti si
+        trovava un minerale biancastro e metallico che i minatori chiamavano oro bianco: si
+        accompagnava all''oro, aveva il peso e l''aspetto giusti, ma alla lavorazione si comportava
+        in modo che nessuno riusciva a prevedere.'
+      visual: Vena di minerale chiaro e lucente nella roccia di una miniera aurifera
+      attendibilita: documentato
+    - id: muller
+      sezione: storia
+      testo: 'A occuparsene è Franz-Joseph Müller von Reichenstein, ispettore capo delle miniere
+        di Transilvania per conto dell''imperatore. Nel 1782 sottopone il minerale a un esame
+        che dura tre anni e più di cinquanta prove distinte, e ne cava una sostanza che non
+        riesce a far coincidere con nulla: assomiglia all''antimonio, si comporta in parte come
+        l''oro, e non è né l''uno né l''altro. È un lavoro paziente e onesto che si conclude
+        con un punto interrogativo.'
+      visual: Müller nel suo ufficio di ispettore, fra campioni etichettati e registri
+      attendibilita: documentato
+    - id: aurum_paradoxum
+      sezione: storia
+      testo: 'I nomi che gli dà sono la confessione della sua incertezza, ed è per questo che
+        restano memorabili: aurum paradoxum, oro paradossale, e metallum problematicum, metallo
+        problematico. Nessuno dei due è un battesimo: sono etichette provvisorie che dicono
+        al lettore quel che l''autore non sa. Müller pubblica i risultati in una rivista locale,
+        chiede lumi ai chimici più autorevoli che conosce, e il suo lavoro passa quasi inosservato.'
+      visual: Etichetta manoscritta con le parole aurum paradoxum su un campione
+      attendibilita: documentato
+    - id: kitaibel
+      sezione: storia
+      testo: Nel frattempo qualcun altro ci arriva per conto proprio. Nel 1789 il naturalista
+        ungherese Pál Kitaibel individua lo stesso elemento in un minerale proveniente da un'altra
+        località, senza sapere nulla del lavoro transilvano; quando lo verrà a sapere, riconoscerà
+        a Müller la precedenza. È il genere di sovrapposizione che in quegli anni finisce quasi
+        sempre in una disputa di priorità, e che questa volta non ci finisce.
+      visual: Erbario e campioni minerali sul tavolo di lavoro di un naturalista
+      attendibilita: documentato
+    - id: klaproth_conferma
+      sezione: storia
+      testo: 'La questione si sblocca quando Müller manda un campione del minerale a Berlino,
+        all''uomo più attrezzato d''Europa per rispondergli. Martin Heinrich Klaproth aveva
+        fatto della farmacia di cui era titolare il laboratorio analitico più produttivo del
+        continente, e aveva una regola che lo distingueva dai contemporanei: riportare i risultati
+        esattamente come venivano, discordanze comprese, invece di aggiustarli sull''attesa.
+        Rifà l''analisi e conferma che il metallo è nuovo.'
+      visual: Il banco analitico di Klaproth, con storte, filtri e quaderni di pesate
+      attendibilita: documentato
+    - id: klaproth_credito
+      sezione: storia
+      testo: 'Il 25 gennaio 1798, davanti all''Accademia delle scienze di Berlino, Klaproth
+        presenta il metallo, gli dà finalmente un nome — tellurio, dal latino tellus, la Terra
+        — e dichiara che la scoperta appartiene a Müller von Reichenstein. Poteva tenersi tutto:
+        aveva il campione, il laboratorio, il pubblico e il diritto di battesimo, e l''altro
+        era un funzionario minerario di una provincia periferica. In un secolo di dispute di
+        priorità velenose, il tellurio è l''elemento che qualcuno ha regalato a qualcun altro.'
+      visual: L'aula dell'Accademia di Berlino durante la lettura di una memoria
+      attendibilita: documentato
+    - id: caratteristiche_semimetallo
+      sezione: caratteristiche
+      testo: 'Il tellurio sta nella colonna dell''ossigeno e dello zolfo, ma scendendo lungo
+        quel gruppo il carattere non metallico si consuma: è un semimetallo fragile e cristallino,
+        di lucentezza argentea, che conduce l''elettricità poco e meglio quando lo si illumina.
+        In natura si trova quasi solo combinato, e a differenza dei suoi parenti leggeri forma
+        con l''oro e con l''argento composti veri e propri, i tellururi, che sono l''unico modo
+        in cui l''oro accetta di legarsi in un minerale.'
+      visual: Cristalli aciculari di calaverite, il tellururo d'oro
+      attendibilita: documentato
+    - id: caratteristiche_rarita
+      sezione: caratteristiche
+      testo: La sua rarità terrestre è un'anomalia che si spiega guardando altrove. Nel cosmo
+        il tellurio non è affatto scarso, ed è più abbondante di elementi che sulla Terra si
+        trovano con facilità; la spiegazione accreditata è che, durante la formazione del pianeta,
+        abbia formato composti con l'idrogeno abbastanza volatili da andarsene con i gas. Quel
+        che ne resta si recupera quasi tutto dai fanghi che si depositano sul fondo delle celle
+        di raffinazione elettrolitica del rame.
+      visual: Fanghi anodici raccolti sul fondo di una cella elettrolitica del rame
+      attendibilita: documentato
+    - id: caratteristiche_odore
+      sezione: caratteristiche
+      testo: 'Ha inoltre una proprietà che chiunque lo maneggi impara a temere. L''organismo
+        trasforma anche quantità minime di tellurio in dimetiltellururo, un composto volatile
+        che si elimina con il respiro e con la pelle e che ha un odore aggressivo di aglio:
+        bastano concentrazioni bassissime nell''aria per acquisirlo, e chi lo acquisisce se
+        lo porta addosso per settimane o per mesi. Non è un veleno particolarmente potente,
+        ma è socialmente devastante.'
+      visual: Cartello di avvertenza su un armadio di reagenti al tellurio
+      attendibilita: documentato
+    - id: usi_solare
+      sezione: usi
+      testo: 'L''impiego oggi prevalente è fotovoltaico. Il tellururo di cadmio è il materiale
+        su cui si basa la principale tecnologia solare a film sottile, alternativa al silicio
+        cristallino: assorbe la luce in uno strato di pochi micrometri, costa poco da depositare
+        su grandi superfici e raggiunge rendimenti competitivi. Una frazione altrettanto importante
+        va ai materiali termoelettrici, che convertono direttamente una differenza di temperatura
+        in corrente.'
+      visual: Moduli solari a film sottile allineati in un impianto
+      attendibilita: documentato
+    - id: usi_metallurgia
+      sezione: usi
+      testo: Il resto si divide fra metallurgia e gomma. Aggiunto in piccola dose al rame e
+        all'acciaio inossidabile il tellurio li rende molto più facili da lavorare al tornio,
+        perché frammenta il truciolo, e nel caso del rame lo fa senza sacrificarne la conducibilità
+        elettrica; nella vulcanizzazione sostituisce in parte lo zolfo dando gomme più resistenti
+        al calore.
+      visual: Truciolo corto e ricciolato all'uscita di un tornio automatico
+      attendibilita: documentato
+    - id: curiosita_anomalia
+      sezione: curiosita
+      testo: 'Il tellurio ha causato uno dei grattacapi più istruttivi della tavola periodica.
+        Pesa più dello iodio, che pure lo segue nell''ordine, e quando Mendeleev costruì la
+        sua tavola sulle masse atomiche dovette invertire i due per non separarli dalle rispettive
+        famiglie chimiche, sospettando che la massa del tellurio fosse stata misurata male.
+        Non lo era: l''ordine giusto è quello del numero atomico, cioè della carica del nucleo,
+        che sarebbe stato compreso solo mezzo secolo dopo.'
+      visual: Le caselle 52 e 53 di una tavola periodica ottocentesca annotata a mano
+      attendibilita: documentato
+    - id: curiosita_benzina
+      sezione: curiosita
+      testo: Negli anni Venti il tellurio fu a un passo dal finire nei serbatoi di tutto il
+        mondo. Thomas Midgley, cercando un additivo che eliminasse la detonazione nei motori
+        a benzina, trovò che i composti di tellurio funzionavano bene; li abbandonò perché chi
+        li maneggiava puzzava d'aglio in modo insopportabile, e scelse invece il piombo tetraetile.
+        Fu la peggiore alternativa possibile, e il mondo respirò piombo per mezzo secolo.
+      visual: Vecchia pompa di benzina con la scritta ethyl sulla livrea
+      attendibilita: documentato
+  pronuncia:
+    - termine: Franz-Joseph Müller von Reichenstein
+      ipa: fʁants ˈjoːzɛf ˈmʏlɐ fɔn ˈʁaɪçənʃtaɪn
+      nota: Alla tedesca.
+    - termine: Pál Kitaibel
+      ipa: paːl ˈkitɒibɛl
+      nota: All'ungherese.
+composti_principali:
+  - nome: Tellururo di cadmio
+    formula: CdTe
+    usi:
+      - celle fotovoltaiche a film sottile
+      - rivelatori di raggi X e gamma
+  - nome: Tellururo di bismuto
+    formula: Bi2Te3
+    usi:
+      - moduli termoelettrici
+      - refrigerazione a effetto Peltier
+  - nome: Calaverite (tellururo d'oro)
+    formula: AuTe2
+    usi:
+      - minerale d'oro nei giacimenti telluriferi
+  - nome: Biossido di tellurio
+    formula: TeO2
+    usi:
+      - vetri ottici a elevato indice di rifrazione
+      - componenti acusto-ottici
+fonti:
+  - url: https://en.wikipedia.org/wiki/Tellurium
+    titolo: Tellurium
+    consultata: '2026-09-07'
+  - url: https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/franz-joseph-muller-von-reichenstein
+    titolo: Franz Joseph Müller von Reichenstein (Encyclopedia.com)
+    consultata: '2026-09-07'
+  - url: https://www.chemistryviews.org/franz-joseph-muller-von-reichenstein-discoverer-of-tellurium/
+    titolo: Franz Joseph Müller von Reichenstein — Discoverer of Tellurium (ChemistryViews)
+    consultata: '2026-09-07'
+  - url: https://en.wikipedia.org/wiki/Martin_Heinrich_Klaproth
+    titolo: Martin Heinrich Klaproth
+    consultata: '2026-09-07'

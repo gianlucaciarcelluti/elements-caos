@@ -6,11 +6,14 @@ scoperta:
   anno: 1789
   anno_stimato: false
   scopritori:
-  - martin-heinrich-klaproth
+    - martin-heinrich-klaproth
   luogo: null
   epoca: pneumatica
   isolamento_anno: 1824
-  note_cronologia: Isolato nel 1824 da Jöns Jacob Berzelius.
+  note_cronologia: Klaproth riconosce nel 1789 una terra nuova, la zirconia, analizzando uno
+    zircone proveniente da Ceylon; Berzelius ne ottiene nel 1824 il metallo impuro riducendo
+    il fluorozirconato di potassio con il potassio. Il metallo puro e duttile arriva solo nel
+    1925 con il processo alla barra di iodio di van Arkel e de Boer.
   controversia: null
 proprieta:
   gruppo: 4
@@ -20,13 +23,185 @@ proprieta:
   massa_atomica: 91.2242
   configurazione_elettronica: '[Kr] 4d2 5s2'
   gusci:
-  - 2
-  - 8
-  - 18
-  - 10
-  - 2
+    - 2
+    - 8
+    - 18
+    - 10
+    - 2
   punto_fusione_k: 2128.0
   punto_ebollizione_k: 4650.0
   densita: 6.52
-  stati_ossidazione: []
+  stati_ossidazione:
+    - -2
+    - 1
+    - 2
+    - 3
+    - 4
 approfondimento: false
+contenuti:
+  hook: 'Sta dentro una gemma che imita il diamante e dentro le barre di combustibile dei reattori
+    nucleari, per la stessa ragione: lascia passare indisturbato tutto quello che altri materiali
+    fermerebbero.'
+  beats:
+    - id: incipit_generale
+      sezione: incipit
+      testo: 'Lo zirconio è un metallo grigio chiaro, duro e straordinariamente resistente alla
+        corrosione, che il pubblico conosce sotto due travestimenti in cui non compare mai come
+        metallo: la zirconia delle finte pietre preziose e delle corone dentali, e lo zircone,
+        la gemma da cui viene il nome. È anche il materiale che tiene insieme, dentro i reattori,
+        il combustibile nucleare.'
+      visual: Barretta di zirconio metallico accanto a un cristallo di zircone
+      attendibilita: documentato
+    - id: gemma_antica
+      sezione: storia
+      testo: La gemma viene prima dell'elemento di parecchi millenni. Lo zircone è un minerale
+        duro, brillante e fortemente rifrangente, noto ai gioiellieri dell'Oriente in tutte
+        le sue tinte, dal bruno al giallo dorato al rosso; arrivava in Europa da Ceylon, l'attuale
+        Sri Lanka, ed era chiamato con nomi che ne descrivevano il colore, fra cui il persiano
+        zargun, colore d'oro, da cui la parola giargone e infine zircone.
+      visual: Zirconi sfaccettati di colore miele e bruno su un panno scuro
+      attendibilita: documentato
+    - id: klaproth_analisi
+      sezione: storia
+      testo: 'Nel 1789, a Berlino, Martin Heinrich Klaproth prende uno di quei giargoni cingalesi
+        e lo tratta come si tratta un problema, non come si tratta un gioiello. Lo fonde con
+        alcali, ne scioglie il prodotto, precipita e pesa: la terra che ottiene non corrisponde
+        né all''allumina né alla calce né a nessuna delle terre in catalogo. La chiama Zirkonerde,
+        terra di zircone, e con essa mette in tabella un elemento che nessuno ha visto.'
+      visual: Il crogiolo con la massa fusa dello zircone e degli alcali
+      attendibilita: documentato
+    - id: klaproth_metodo
+      sezione: storia
+      testo: 'È il modo di lavorare che in quegli anni sta cambiando la chimica. Il metodo che
+        Klaproth pratica e diffonde consiste nel separare per via umida i componenti di un minerale,
+        farli precipitare uno alla volta in forma definita e pesarli: l''analisi diventa una
+        contabilità, e ogni residuo che non torna nei conti è la traccia di qualcosa di ignoto.
+        In questo stesso 1789 il metodo gli fa trovare due elementi, e la zirconia è il primo.'
+      visual: Serie di precipitati bianchi su filtri numerati, pronti per la pesata
+      attendibilita: documentato
+    - id: riduzione_difficile
+      sezione: storia
+      testo: 'Dalla terra al metallo, però, la strada è lunga quanto quella di tutti gli elementi
+        che si legano all''ossigeno con troppa forza. Humphry Davy ci prova con l''elettricità
+        nel 1808, come aveva fatto con gli alcalini, e non ne cava nulla. Ci riesce nel 1824
+        Jöns Jacob Berzelius, scaldando il fluorozirconato di potassio con il potassio metallico:
+        ottiene una polvere nera che è zirconio, ma impuro e fragile, buona a dimostrare l''esistenza
+        dell''elemento e a nient''altro.'
+      visual: Polvere nera di zirconio impuro raccolta sul fondo di un tubo
+      attendibilita: documentato
+    - id: metallo_puro
+      sezione: storia
+      testo: 'Lo zirconio lucente e malleabile che si vede oggi è una conquista del Novecento.
+        Nel 1925 gli olandesi Anton van Arkel e Jan de Boer misero a punto un procedimento elegante:
+        far reagire il metallo sporco con iodio, lasciare che il vapore del composto si depositi
+        su un filamento incandescente e vi si decomponga, abbandonando lì lo zirconio puro.
+        Tutte le impurità restano indietro, e sul filo cresce una barra cristallina. Il metallo
+        era rimasto irriconoscibile per un secolo perché nessuno lo aveva mai visto pulito.'
+      visual: Barra cristallina di zirconio cresciuta su un filamento
+      attendibilita: documentato
+    - id: caratteristiche_corrosione
+      sezione: caratteristiche
+      testo: 'La proprietà che ne fa la fortuna industriale è la stessa che rende il titanio
+        prezioso, portata all''estremo: appena esposto all''aria lo zirconio si copre di un
+        velo di ossido sottile, compatto e tenacissimo, che lo protegge da acidi e alcali dove
+        quasi ogni altro metallo si sfalda. Gli impianti chimici che devono resistere agli acidi
+        bollenti si costruiscono in zirconio quando l''acciaio inossidabile non basta più.'
+      visual: Serpentino di tubo in zirconio dentro un reattore chimico
+      attendibilita: documentato
+    - id: caratteristiche_neutroni
+      sezione: caratteristiche
+      testo: 'La proprietà che gli ha dato un mestiere unico, invece, non si vede e non si tocca.
+        Lo zirconio cattura i neutroni con una riluttanza rarissima fra i metalli: li lascia
+        passare quasi tutti invece di assorbirli, e in un reattore questo significa non rubare
+        alla reazione a catena le particelle che la tengono in vita. Un metallo che resiste
+        all''acqua bollente, alle radiazioni e al calore, e per giunta è trasparente ai neutroni,
+        è esattamente ciò che serve per rivestire il combustibile.'
+      visual: Fascio di barrette di combustibile rivestite in lega di zirconio
+      attendibilita: documentato
+    - id: caratteristiche_afnio
+      sezione: caratteristiche
+      testo: 'C''è però un dettaglio che rende quella virtù laboriosa da ottenere. Lo zirconio
+        in natura è sempre accompagnato dall''afnio, che gli somiglia chimicamente al punto
+        da essere quasi inseparabile, e che si comporta in modo opposto verso i neutroni: li
+        assorbe avidamente. Per l''uso nucleare bisogna dunque separare due gemelli chimici
+        fino a lasciarne uno quasi puro, e l''afnio scartato trova impiego proprio dove serve
+        il contrario, nelle barre di controllo che la reazione la spengono.'
+      visual: Colonne di estrazione per la separazione di zirconio e afnio
+      attendibilita: documentato
+    - id: usi_zirconia
+      sezione: usi
+      testo: In termini di quantità, la parte del leone la fanno i composti e non il metallo.
+        La sabbia di zircone va nelle forme e nei rivestimenti delle fonderie, dove regge il
+        metallo fuso senza reagire, e nella ceramica; la zirconia stabilizzata è una ceramica
+        tenace che resiste al calore e all'abrasione, e in odontoiatria ha soppiantato le corone
+        metalliche perché è resistente, biocompatibile e del colore giusto.
+      visual: Corone dentali in zirconia bianca sul modello in gesso
+      attendibilita: documentato
+    - id: usi_diamante_finto
+      sezione: usi
+      testo: 'La stessa zirconia, fatta crescere in cristalli cubici, è il più convincente sostituto
+        del diamante mai messo in commercio: rifrange la luce quasi quanto il diamante e la
+        disperde in colori anche di più, costa una frazione infinitesima e a occhio nudo inganna
+        quasi chiunque. La differenza si vede col peso, con la conducibilità termica e con gli
+        spigoli, che nella zirconia si arrotondano prima.'
+      visual: Zirconia cubica incastonata accanto a un diamante di pari misura
+      attendibilita: documentato
+    - id: curiosita_zircone_datazione
+      sezione: curiosita
+      testo: 'Lo zircone è l''orologio più antico che il pianeta possieda. Quando cristallizza
+        accoglie volentieri atomi di uranio al posto dello zirconio e rifiuta invece il piombo:
+        ogni atomo di piombo che vi si trova dentro è dunque uranio decaduto, e il rapporto
+        fra i due dice quanti anni ha il cristallo. Poiché lo zircone sopravvive a erosioni,
+        sepolture e rifusioni, i granelli dei Jack Hills, in Australia occidentale, hanno restituito
+        l''età di circa 4,4 miliardi di anni: sono i più antichi frammenti di Terra che si conoscano.'
+      visual: Granello di zircone dei Jack Hills al microscopio, con le zonature di crescita
+      attendibilita: documentato
+    - id: curiosita_idrogeno
+      sezione: curiosita
+      testo: La virtù nucleare dello zirconio ha un rovescio che si è visto in incidente. Se
+        il rivestimento si surriscalda oltre il migliaio di gradi, il metallo strappa l'ossigeno
+        al vapore acqueo che dovrebbe raffreddarlo e libera idrogeno; l'idrogeno si accumula
+        e, incontrando aria, esplode. Sono le esplosioni che nel marzo 2011 scoperchiarono gli
+        edifici dei reattori di Fukushima, e non erano esplosioni nucleari ma chimiche, prodotte
+        dallo stesso metallo scelto per la sua trasparenza ai neutroni.
+      visual: Edificio reattore con la struttura superiore scoperchiata
+      attendibilita: documentato
+  pronuncia:
+    - termine: Jöns Jacob Berzelius
+      ipa: jœns ˈjɑːkɔb bæˈseːlɪɵs
+      nota: Alla svedese.
+composti_principali:
+  - nome: Silicato di zirconio (zircone)
+    formula: ZrSiO4
+    usi:
+      - sabbie per fonderia
+      - gemma
+      - opacizzante per ceramiche
+  - nome: Ossido di zirconio (zirconia)
+    formula: ZrO2
+    usi:
+      - ceramiche tecniche e corone dentali
+      - zirconia cubica come simulante del diamante
+      - sensori di ossigeno
+  - nome: Zircaloy (lega di zirconio)
+    formula: Zr-Sn-Fe-Cr
+    usi:
+      - guaine per il combustibile nucleare
+  - nome: Tetracloruro di zirconio
+    formula: ZrCl4
+    usi:
+      - intermedio per la produzione del metallo
+      - catalizzatore
+fonti:
+  - url: https://en.wikipedia.org/wiki/Zirconium
+    titolo: Zirconium
+    consultata: '2026-09-07'
+  - url: https://en.wikipedia.org/wiki/Zircon
+    titolo: Zircon
+    consultata: '2026-09-07'
+  - url: https://en.wikipedia.org/wiki/Jack_Hills
+    titolo: Jack Hills
+    consultata: '2026-09-07'
+  - url: https://en.wikipedia.org/wiki/Martin_Heinrich_Klaproth
+    titolo: Martin Heinrich Klaproth
+    consultata: '2026-09-07'
