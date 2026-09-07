@@ -11,7 +11,7 @@ gruppo: 12
 periodo: 6
 posizione_cronologica: 10
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-di-transizione, epoca/antichita, secolo/XVaC]
 aliases: [Hg, Mercury]
 ---

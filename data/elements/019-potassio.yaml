@@ -30,4 +30,4 @@ proprieta:
   punto_ebollizione_k: 1032.0
   densita: 0.862
   stati_ossidazione: []
-approfondimento: false
+approfondimento: true

@@ -11,7 +11,7 @@ gruppo: 11
 periodo: 6
 posizione_cronologica: 1
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-di-transizione, epoca/antichita, millennio/40aC]
 aliases: [Au, Gold]
 ---

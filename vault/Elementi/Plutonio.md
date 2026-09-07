@@ -11,7 +11,7 @@ gruppo: 3
 periodo: 7
 posizione_cronologica: 93
 tempo_lettura: 4
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, attinide, epoca/nucleare, secolo/XX]
 aliases: [Pu, Plutonium]
 ---

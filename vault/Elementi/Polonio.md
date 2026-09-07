@@ -11,7 +11,7 @@ gruppo: 16
 periodo: 6
 posizione_cronologica: 80
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-post-transizione, epoca/spettroscopia, secolo/XIX]
 aliases: [Po, Polonium]
 ---

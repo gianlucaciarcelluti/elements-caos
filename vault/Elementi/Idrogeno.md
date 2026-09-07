@@ -11,7 +11,7 @@ gruppo: 1
 periodo: 1
 posizione_cronologica: 16
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, non-metallo, epoca/alchimia, secolo/XVII]
 aliases: [H, Hydrogen]
 ---

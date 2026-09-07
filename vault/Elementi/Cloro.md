@@ -11,7 +11,7 @@ gruppo: 17
 periodo: 3
 posizione_cronologica: 28
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, alogeno, epoca/pneumatica, secolo/XVIII]
 aliases: [Cl, Chlorine]
 ---

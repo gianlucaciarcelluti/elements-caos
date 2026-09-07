@@ -11,7 +11,7 @@ gruppo: 1
 periodo: 3
 posizione_cronologica: 48
 tempo_lettura: 4
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-alcalino, epoca/elettrolisi, secolo/XIX]
 aliases: [Na, Sodium]
 ---

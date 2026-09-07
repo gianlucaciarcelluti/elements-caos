@@ -11,7 +11,7 @@ gruppo: 13
 periodo: 3
 posizione_cronologica: 20
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-post-transizione, epoca/alchimia, secolo/XVIII]
 aliases: [Al, Aluminium]
 ---

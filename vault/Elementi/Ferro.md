@@ -11,7 +11,7 @@ gruppo: 8
 periodo: 4
 posizione_cronologica: 5
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-di-transizione, epoca/antichita, millennio/5aC]
 aliases: [Fe, Iron]
 ---

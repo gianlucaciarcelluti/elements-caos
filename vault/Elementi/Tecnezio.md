@@ -11,7 +11,7 @@ gruppo: 7
 periodo: 5
 posizione_cronologica: 89
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-di-transizione, epoca/spettroscopia, secolo/XX]
 aliases: [Tc, Technetium]
 ---

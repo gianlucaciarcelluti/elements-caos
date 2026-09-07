@@ -11,7 +11,7 @@ gruppo: 16
 periodo: 3
 posizione_cronologica: 9
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, non-metallo, epoca/antichita, secolo/XXaC]
 aliases: [S, Sulfur]
 ---

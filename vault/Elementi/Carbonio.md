@@ -11,7 +11,7 @@ gruppo: 14
 periodo: 2
 posizione_cronologica: 2
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, non-metallo, epoca/antichita, millennio/26aC]
 aliases: [C, Carbon]
 ---

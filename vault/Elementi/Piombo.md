@@ -11,7 +11,7 @@ gruppo: 14
 periodo: 6
 posizione_cronologica: 4
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-post-transizione, epoca/antichita, millennio/7aC]
 aliases: [Pb, Lead]
 ---

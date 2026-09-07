@@ -11,7 +11,7 @@ gruppo: 11
 periodo: 4
 posizione_cronologica: 3
 tempo_lettura: 4
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-di-transizione, epoca/antichita, millennio/9aC]
 aliases: [Cu, Copper]
 ---

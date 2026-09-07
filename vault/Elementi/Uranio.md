@@ -11,7 +11,7 @@ gruppo: 3
 periodo: 7
 posizione_cronologica: 34
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, attinide, epoca/pneumatica, secolo/XVIII]
 aliases: [U, Uranium]
 ---

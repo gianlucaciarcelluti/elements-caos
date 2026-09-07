@@ -30,7 +30,7 @@ proprieta:
   stati_ossidazione:
   - -1
   - 1
-approfondimento: false
+approfondimento: true
 contenuti:
   hook: Bastarono due giorni di novembre e una pila elettrica perché un chimico isolasse,
     uno via l'altro, due metalli che nessuno aveva mai visto.

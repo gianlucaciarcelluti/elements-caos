@@ -11,7 +11,7 @@ gruppo: 2
 periodo: 7
 posizione_cronologica: 81
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-alcalino-terroso, epoca/spettroscopia, secolo/XIX]
 aliases: [Ra, Radium]
 ---

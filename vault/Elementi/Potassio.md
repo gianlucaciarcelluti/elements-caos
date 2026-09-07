@@ -11,7 +11,7 @@ gruppo: 1
 periodo: 4
 posizione_cronologica: 49
 tempo_lettura: 1
-ha_approfondimento: false
+ha_approfondimento: true
 tags: [elemento, metallo-alcalino, epoca/elettrolisi, secolo/XIX]
 aliases: [K, Potassium]
 ---
