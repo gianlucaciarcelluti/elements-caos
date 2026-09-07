@@ -46,11 +46,13 @@ contenuti:
   beats:
     - id: incipit_generale
       sezione: incipit
-      testo: 'Il titanio è il metallo con il miglior rapporto fra resistenza e peso che si trovi
-        in natura: forte quanto molti acciai e poco più della metà pesante, praticamente incorruttibile
-        e tollerato dal corpo umano come nessun altro metallo. È il nono elemento della crosta
-        terrestre per abbondanza, il che rende curioso che per un secolo sia stato impossibile
-        procurarsene un frammento pulito.'
+      testo: 'Il titanio è il metallo che riunisce quattro pregi che altrove si trovano soltanto
+        separati: forte quanto molti acciai, poco più della metà pesante, praticamente incorruttibile
+        e tollerato dal corpo umano come nessun altro metallo. Preso singolarmente, ciascuno
+        di questi pregi ha altrove un campione migliore; è averli tutti e quattro insieme che
+        non riesce a nessun altro metallo. È il nono elemento
+        della crosta terrestre per abbondanza, il che rende curioso che per un secolo sia stato
+        impossibile procurarsene un frammento pulito.'
       visual: Placca di titanio lucidata con il suo riflesso freddo e grigio
       attendibilita: documentato
     - id: gregor
@@ -86,9 +88,10 @@ contenuti:
       testo: 'Nel 1797 Klaproth legge finalmente la memoria che il parroco aveva pubblicato
         sei anni prima, confronta le due sostanze e riconosce che sono la stessa cosa trovata
         in due minerali diversi: la priorità è di Gregor. Ne esce un''attribuzione a due voci
-        che regge ancora — a Gregor la scoperta, a Klaproth il nome — ed è la seconda volta
-        in pochi anni che il berlinese si trova nella posizione di poter incassare il lavoro
-        di un altro e sceglie invece di dichiararlo.'
+        che regge ancora — a Gregor la scoperta, a Klaproth il nome. È la prima di due volte
+        in pochi mesi in cui il berlinese si trova nella posizione di poter incassare il lavoro
+        di un altro e sceglie invece di dichiararlo: nel gennaio successivo farà lo stesso con
+        il tellurio.'
       visual: Due memorie a stampa affiancate, quella inglese e quella tedesca
       attendibilita: documentato
     - id: metallo_impossibile

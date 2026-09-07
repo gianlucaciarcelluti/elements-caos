@@ -21,7 +21,7 @@ aliases: [Ti, Titanium]
 > [!abstract] 36° elemento scoperto — 1791
 > Un parroco di campagna raccolse una sabbia nera in un ruscello della Cornovaglia e vi trovò un elemento sconosciuto. Ci vollero più di cent'anni per riuscire a farne un pezzo di metallo.
 
-Il titanio è il metallo con il miglior rapporto fra resistenza e peso che si trovi in natura: forte quanto molti acciai e poco più della metà pesante, praticamente incorruttibile e tollerato dal corpo umano come nessun altro metallo. È il nono elemento della crosta terrestre per abbondanza, il che rende curioso che per un secolo sia stato impossibile procurarsene un frammento pulito.
+Il titanio è il metallo che riunisce quattro pregi che altrove si trovano soltanto separati: forte quanto molti acciai, poco più della metà pesante, praticamente incorruttibile e tollerato dal corpo umano come nessun altro metallo. Preso singolarmente, ciascuno di questi pregi ha altrove un campione migliore; è averli tutti e quattro insieme che non riesce a nessun altro metallo. È il nono elemento della crosta terrestre per abbondanza, il che rende curioso che per un secolo sia stato impossibile procurarsene un frammento pulito.
 
 ## Cronologia della scoperta
 
@@ -40,7 +40,7 @@ L'analisi gli restituisce ferro, come previsto, e poi un residuo che non ha prev
 
 Quattro anni dopo, senza sapere nulla del parroco, Martin Heinrich Klaproth analizza a Berlino un minerale rosso ungherese, il rutilo, e vi trova lo stesso ossido sconosciuto. Il nome glielo dà lui, e lo prende dalla mitologia invece che dalla geografia: titanio, dai Titani, i figli della Terra anteriori agli dei dell'Olimpo.
 
-Nel 1797 Klaproth legge finalmente la memoria che il parroco aveva pubblicato sei anni prima, confronta le due sostanze e riconosce che sono la stessa cosa trovata in due minerali diversi: la priorità è di Gregor. Ne esce un'attribuzione a due voci che regge ancora — a Gregor la scoperta, a Klaproth il nome — ed è la seconda volta in pochi anni che il berlinese si trova nella posizione di poter incassare il lavoro di un altro e sceglie invece di dichiararlo.
+Nel 1797 Klaproth legge finalmente la memoria che il parroco aveva pubblicato sei anni prima, confronta le due sostanze e riconosce che sono la stessa cosa trovata in due minerali diversi: la priorità è di Gregor. Ne esce un'attribuzione a due voci che regge ancora — a Gregor la scoperta, a Klaproth il nome. È la prima di due volte in pochi mesi in cui il berlinese si trova nella posizione di poter incassare il lavoro di un altro e sceglie invece di dichiararlo: nel gennaio successivo farà lo stesso con il tellurio.
 
 Ottenere il metallo si rivela un problema di un ordine di difficoltà superiore, perché il titanio caldo si combina avidamente con l'ossigeno, l'azoto e il carbonio, cioè con tutto ciò che sta in un forno e nell'aria che lo circonda: quel che si otteneva era sempre un composto fragile travestito da metallo. Un campione quasi puro è ottenuto nel 1875 dal russo Dmitrij Kirillov, una purezza del 99,9 per cento solo nel 1910 da Matthew Hunter, che fece reagire il tetracloruro con il sodio in una bomba d'acciaio sigillata.
 

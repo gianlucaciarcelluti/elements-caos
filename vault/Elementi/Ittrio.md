@@ -36,7 +36,7 @@ timeline
 
 Il luogo è una cava di feldspato e quarzo su un'isola dell'arcipelago di Stoccolma, presso il villaggio di Ytterby, da cui si cavava quarzo per le ferriere e più tardi feldspato per le manifatture di porcellana. Nel 1787 un tenente d'artiglieria appassionato di minerali, Carl Axel Arrhenius, vi raccoglie una pietra insolitamente nera e pesante: la prende per un minerale di tungsteno, appena diventato di moda fra i chimici svedesi, e la chiama ytterbite dal nome del posto.
 
-Il campione circola fra i chimici del nord e finisce nelle mani di Johan Gadolin, professore all'accademia di Åbo, in Finlandia, allora parte del regno di Svezia. Gadolin lo smonta con l'analisi per via umida e nel 1794 pubblica il risultato: dentro c'è silice, c'è ossido di ferro, c'è allumina, e poi c'è un buon terzo del campione fatto di una terra che non corrisponde a nessuna di quelle conosciute.
+Il campione circola fra i chimici del nord e finisce nelle mani di Johan Gadolin, professore all'accademia di Åbo, in Finlandia, allora parte del regno di Svezia. Gadolin lo smonta con l'analisi per via umida e nel 1794 pubblica il risultato: dentro c'è silice, c'è ossido di ferro, c'è allumina, e poi c'è un buon terzo del campione fatto di una terra che nessun catalogo europeo sa nominare.
 
 Tre anni dopo Anders Gustaf Ekeberg conferma l'analisi e battezza la terra nuova ittria, ancora una volta dal nome del villaggio. Il minerale, per contro, prenderà il nome dello scopritore e si chiamerà gadolinite: uno scambio di intitolazioni che è anche una piccola giustizia, perché ognuno dei due riceve la cosa che l'altro ha trovato.
 
