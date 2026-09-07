@@ -40,7 +40,7 @@ Nel 1754 Joseph Black discute a Edimburgo una tesi di laurea in medicina che di 
 
 Scaldando la magnesia alba, Black osserva che perde quasi metà del proprio peso e diventa una sostanza diversa; e che, trattando quella sostanza con un alcali, riottiene esattamente la magnesia di partenza. La conclusione è rivoluzionaria nella sua semplicità: quel peso mancante non è svanito, è un'aria che era imprigionata nel solido ed è uscita. La chiama aria fissa. È l'anidride carbonica, ed è la prima volta che qualcuno dimostra che esiste un gas distinto dall'aria comune.
 
-La conseguenza è più grande dell'elemento. Fino a quel momento l'aria era una sostanza sola, e i gas erano esalazioni indistinte; dopo Black sono materia pesabile, che entra e esce dalle reazioni obbedendo alla bilancia. Nel giro di trent'anni Priestley, Scheele, Cavendish e Lavoisier smontano l'aria nei suoi componenti e riscrivono la chimica da zero. In mezzo a tutto questo, la magnesia alba resta soltanto il campione da cui era partita la domanda.
+La conseguenza è più grande dell'elemento. Fino a quel momento l'aria era una sostanza sola, e i gas erano esalazioni indistinte; dopo Black sono materia pesabile, che entra ed esce dalle reazioni obbedendo alla bilancia. Nel giro di trent'anni Priestley, Scheele, Cavendish e Lavoisier smontano l'aria nei suoi componenti e riscrivono la chimica da zero. In mezzo a tutto questo, la magnesia alba resta soltanto il campione da cui era partita la domanda.
 
 Black aveva identificato una terra distinta, non un metallo: dentro la magnesia c'era qualcosa, ma nessuno sapeva tirarlo fuori. Ci riesce Humphry Davy nel 1808, con la pila elettrica, lo stesso strumento con cui in quegli anni sta spezzando una dopo l'altra le terre considerate elementari. Ottiene però solo tracce impure; per avere magnesio metallico in quantità maneggiabile bisogna aspettare Antoine Bussy nel 1831, e la produzione industriale arriverà solo alla fine dell'Ottocento.
 
@@ -66,7 +66,7 @@ La densità del magnesio è di poco superiore a una volta e tre quarti quella de
 
 Acceso, il magnesio brucia con una luce bianca accecante a temperature vicine ai tremila gradi, e non si lascia spegnere facilmente: continua a bruciare nell'anidride carbonica e reagisce con l'acqua, così che estintori e secchiate peggiorano la situazione invece di risolverla. Questa fiamma è stata per mezzo secolo la sorgente luminosa della fotografia, e il lampo al magnesio che immobilizzava i soggetti dell'Ottocento non era una metafora ma una vera combustione.
 
-In chimica il magnesio è un elemento monotono — praticamente sempre allo stato più due, con gli stati zero e più uno confinati a composti di laboratorio — e proprio questa affidabilità lo rende prezioso per la vita. Un adulto ne contiene poco più di venti grammi, e quel poco fa da cofattore a oltre trecento enzimi e accompagna ogni molecola di ATP che entra in una reazione. Al centro della clorofilla c'è un atomo di magnesio: senza di esso nessuna pianta catturerebbe la luce.
+In chimica il magnesio è un elemento monotono — praticamente sempre allo stato più due, con gli stati zero e più uno confinati a composti di laboratorio — e proprio questa affidabilità lo rende prezioso per la vita. Un adulto ne contiene fra i venti e i venticinque grammi, e quel poco fa da cofattore a oltre trecento enzimi e accompagna ogni molecola di ATP che entra in una reazione. Al centro della clorofilla c'è un atomo di magnesio: senza di esso nessuna pianta catturerebbe la luce.
 
 ### Dati fisico-chimici
 
@@ -124,9 +124,9 @@ flowchart LR
 
 ## Curiosità
 
-Il magnesio è uno dei pochi metalli che si estraggono dall'acqua di mare. Ce ne sono più di mille tonnellate in ogni chilometro cubo di oceano, e il procedimento — precipitare l'idrossido con calce ricavata da conchiglie, poi riportarlo a metallo — fu messo a punto su scala industriale durante la seconda guerra mondiale, quando servivano scocche leggere per gli aerei. Per un periodo, buona parte del magnesio americano è letteralmente uscita dal mare.
+Il magnesio è uno dei pochi metalli che si estraggono dall'acqua di mare. Ce ne sono più di un milione di tonnellate in ogni chilometro cubo di oceano, e il procedimento — precipitare l'idrossido con calce ricavata da conchiglie, poi riportarlo a metallo — fu messo a punto su scala industriale durante la seconda guerra mondiale, quando servivano scocche leggere per gli aerei. Per un periodo, buona parte del magnesio americano è letteralmente uscita dal mare.
 
-Joseph Black non pubblicò quasi nulla dopo i trent'anni, e la sua fama poggia su due sole idee: l'aria fissa e il calore latente, cioè il fatto che sciogliere il ghiaccio consuma calore senza alzarne la temperatura. La seconda gli arrivò guardando lo stesso fenomeno da un'altra angolazione. A Glasgow, dove Black insegnava, aveva bottega un giovane costruttore di strumenti di nome James Watt, che sperimentando per conto proprio sul vapore si imbatté nello stesso effetto e andò a chiedere spiegazioni: fu Black a dargli il nome e la teoria. Il condensatore separato nacque da quella conversazione.
+Joseph Black non pubblicò quasi nulla dopo i trent'anni, e la sua fama poggia su due sole idee: l'aria fissa e il calore latente, cioè il fatto che sciogliere il ghiaccio consuma calore senza alzarne la temperatura. La seconda gli arrivò guardando lo stesso fenomeno da un'altra angolazione. A Glasgow, dove Black insegnava, aveva bottega un giovane costruttore di strumenti di nome James Watt, che sperimentando per conto proprio sul vapore si imbatté nello stesso effetto e andò a chiedere spiegazioni: fu Black a dargli il nome e la teoria. La macchina a vapore Watt se la costruì da sé, in sei anni di lavoro; il calore latente gli spiegava che cosa stesse sprecando.
 
 ## Nella cronologia
 

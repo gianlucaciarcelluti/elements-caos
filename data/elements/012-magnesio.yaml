@@ -86,7 +86,7 @@ contenuti:
     sezione: storia
     testo: 'La conseguenza è più grande dell''elemento. Fino a quel momento l''aria era
       una sostanza sola, e i gas erano esalazioni indistinte; dopo Black sono materia
-      pesabile, che entra e esce dalle reazioni obbedendo alla bilancia. Nel giro di
+      pesabile, che entra ed esce dalle reazioni obbedendo alla bilancia. Nel giro di
       trent''anni Priestley, Scheele, Cavendish e Lavoisier smontano l''aria nei suoi
       componenti e riscrivono la chimica da zero. In mezzo a tutto questo, la magnesia
       alba resta soltanto il campione da cui era partita la domanda.'
@@ -129,7 +129,8 @@ contenuti:
     testo: 'In chimica il magnesio è un elemento monotono — praticamente sempre allo
       stato più due, con gli stati zero e più uno confinati a composti di laboratorio — e
       proprio questa affidabilità lo rende prezioso per la vita. Un adulto ne contiene
-      poco più di venti grammi, e quel poco fa da cofattore a oltre trecento enzimi e
+      fra i venti e i venticinque grammi, e quel poco fa da cofattore a oltre trecento
+      enzimi e
       accompagna ogni molecola di ATP che entra in una reazione. Al centro della
       clorofilla c''è un atomo di magnesio: senza di esso nessuna pianta catturerebbe la
       luce.'
@@ -158,7 +159,7 @@ contenuti:
   - id: curiosita_mare
     sezione: curiosita
     testo: 'Il magnesio è uno dei pochi metalli che si estraggono dall''acqua di mare. Ce
-      ne sono più di mille tonnellate in ogni chilometro cubo di oceano, e il
+      ne sono più di un milione di tonnellate in ogni chilometro cubo di oceano, e il
       procedimento — precipitare l''idrossido con calce ricavata da conchiglie, poi
       riportarlo a metallo — fu messo a punto su scala industriale durante la seconda
       guerra mondiale, quando servivano scocche leggere per gli aerei. Per un periodo,
@@ -173,8 +174,9 @@ contenuti:
       arrivò guardando lo stesso fenomeno da un''altra angolazione. A Glasgow, dove
       Black insegnava, aveva bottega un giovane costruttore di strumenti di nome James
       Watt, che sperimentando per conto proprio sul vapore si imbatté nello stesso
-      effetto e andò a chiedere spiegazioni: fu Black a dargli il nome e la teoria. Il
-      condensatore separato nacque da quella conversazione.'
+      effetto e andò a chiedere spiegazioni: fu Black a dargli il nome e la teoria. La
+      macchina a vapore Watt se la costruì da sé, in sei anni di lavoro; il calore
+      latente gli spiegava che cosa stesse sprecando.'
     visual: Watt e Black a colloquio in bottega, fra modelli di macchina a vapore
     attendibilita: documentato
   pronuncia:

@@ -152,12 +152,14 @@ contenuti:
     attendibilita: documentato
   - id: usi_vetro
     sezione: usi
-    testo: 'L''impiego che assorbe più boro è il vetro borosilicato, quello che non si
-      spacca passando dal forno al lavandino perché si dilata pochissimo col calore: è il
-      vetro della vetreria di laboratorio, delle pirofile da cucina e degli specchi dei
-      telescopi. Segue la lana di vetro isolante, poi le ceramiche tecniche. Nei
-      detersivi il perborato ha svolto a lungo il ruolo di sbiancante, liberando ossigeno
-      attivo nell''acqua di lavaggio.'
+    testo: 'Quasi metà del boro del mondo finisce in una cosa sola, e non è quella che
+      viene in mente: la fibra di vetro, cioè l''isolante che sta nelle pareti e nei tetti
+      di mezzo pianeta e il rinforzo dei materiali compositi. Seguono le ceramiche
+      tecniche e i fertilizzanti. Solo al quarto posto, con circa un decimo del totale,
+      arriva il vetro borosilicato, quello che non si spacca passando dal forno al
+      lavandino perché si dilata pochissimo col calore: è il vetro della vetreria di
+      laboratorio, delle pirofile e degli specchi dei telescopi. Nei detersivi il
+      perborato ha svolto a lungo il ruolo di sbiancante.'
     visual: Beute e provette di vetro borosilicato allineate su una griglia
     attendibilita: documentato
   - id: usi_magneti
@@ -234,4 +236,7 @@ fonti:
   consultata: '2026-09-07'
 - url: https://en.wikipedia.org/wiki/Twenty-mule_team
   titolo: Twenty-mule team
+  consultata: '2026-09-07'
+- url: https://www.borax.com/products/applications/insulation
+  titolo: Borates in insulation
   consultata: '2026-09-07'

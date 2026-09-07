@@ -91,7 +91,7 @@ La proprietà nucleare del boro è la sua ragione strategica. Uno dei suoi due i
 
 ## Usi e presenza in natura
 
-L'impiego che assorbe più boro è il vetro borosilicato, quello che non si spacca passando dal forno al lavandino perché si dilata pochissimo col calore: è il vetro della vetreria di laboratorio, delle pirofile da cucina e degli specchi dei telescopi. Segue la lana di vetro isolante, poi le ceramiche tecniche. Nei detersivi il perborato ha svolto a lungo il ruolo di sbiancante, liberando ossigeno attivo nell'acqua di lavaggio.
+Quasi metà del boro del mondo finisce in una cosa sola, e non è quella che viene in mente: la fibra di vetro, cioè l'isolante che sta nelle pareti e nei tetti di mezzo pianeta e il rinforzo dei materiali compositi. Seguono le ceramiche tecniche e i fertilizzanti. Solo al quarto posto, con circa un decimo del totale, arriva il vetro borosilicato, quello che non si spacca passando dal forno al lavandino perché si dilata pochissimo col calore: è il vetro della vetreria di laboratorio, delle pirofile e degli specchi dei telescopi. Nei detersivi il perborato ha svolto a lungo il ruolo di sbiancante.
 
 Una quota piccola ma decisiva finisce nei magneti al neodimio-ferro-boro, i più potenti che si sappiano produrre e i motori di ogni auricolare, hard disk, motore elettrico e turbina eolica. In agricoltura il boro è un micronutriente indispensabile alle piante, che senza di esso non costruiscono correttamente le pareti cellulari; la finestra fra la dose necessaria e quella tossica è però fra le più strette di tutta la fertilizzazione.
 
@@ -145,3 +145,4 @@ Epoca: [[Chimica pneumatica]] · Scopritori: [[Louis-Bernard Guyton de Morveau]]
 - [The Méthode de nomenclature chimique (1787): A Document of Transition](https://www.tandfonline.com/doi/full/10.1080/00026980.2017.1418233) — consultata il 07/09/2026
 - [Louis-Bernard Guyton de Morveau](https://en.wikipedia.org/wiki/Guyton_de_Morveau) — consultata il 07/09/2026
 - [Twenty-mule team](https://en.wikipedia.org/wiki/Twenty-mule_team) — consultata il 07/09/2026
+- [Borates in insulation](https://www.borax.com/products/applications/insulation) — consultata il 07/09/2026

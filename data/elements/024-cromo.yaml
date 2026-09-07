@@ -121,12 +121,12 @@ contenuti:
     attendibilita: documentato
   - id: caratteristiche_passivazione
     sezione: caratteristiche
-    testo: 'La virtù industriale del cromo è invece invisibile. Esposto all''aria si copre
-      istantaneamente di uno strato di ossido spesso pochi atomi, compatto e aderente, che
-      isola il metallo sottostante e si richiude da solo se viene graffiato. La ruggine del
-      ferro fa il contrario: è porosa, si sfalda e lascia procedere l''attacco verso
-      l''interno. Basta portare il cromo sopra l''undici per cento in una lega di ferro
-      perché quella pellicola si formi sull''intera superficie: è l''acciaio inossidabile.'
+    testo: 'Quel che rende il cromo indispensabile all''industria, invece, non si vede
+      affatto. Esposto all''aria il metallo si sigilla da sé sotto una pellicola di ossido
+      spessa pochi atomi, talmente compatta da fermare ogni ulteriore attacco e capace di
+      riformarsi all''istante dove viene graffiata. Basta superare l''undici per cento di
+      cromo in una lega di ferro perché quella corazza invisibile si estenda a tutta la
+      superficie, e il risultato porta un nome che tutti conoscono: acciaio inossidabile.'
     visual: Sezione ingrandita dello strato di passivazione su una lamiera inox
     attendibilita: documentato
   - id: usi_acciai
@@ -155,7 +155,7 @@ contenuti:
       oligoelemento innocuo e presente nella dieta, allo stato più sei è tossico e
       cancerogeno, e attraversa le membrane cellulari con facilità. Il cromo esavalente è
       la sostanza al centro del caso di Hinkley, in California, dove fra il 1952 e il 1966
-      una compagnia elettrica scaricò centinaia di milioni di litri di acque contaminate in
+      una compagnia elettrica scaricò oltre un miliardo di litri di acque contaminate in
       bacini non impermeabilizzati, avvelenando la falda del paese.'
     visual: Bacino di decantazione non impermeabilizzato nel deserto del Mojave
     attendibilita: documentato

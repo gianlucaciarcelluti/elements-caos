@@ -59,7 +59,7 @@ flowchart TB
 
 ## Caratteristiche
 
-Il nichel appartiene al ristrettissimo club dei metalli che si magnetizzano da soli e restano magnetizzati. Sono quattro in tutta la tavola periodica intorno alla temperatura ambiente — ferro, cobalto, nichel e gadolinio — e il nichel è quello che cede per primo: sopra i 355 gradi perde ogni proprietà magnetica di colpo. Il gadolinio, all'altro estremo, smette di essere magnetico appena sopra i venti gradi, cioè in una giornata tiepida.
+Il nichel appartiene al ristrettissimo club dei metalli che si magnetizzano da soli e restano magnetizzati. Sono quattro in tutta la tavola periodica intorno alla temperatura ambiente — ferro, cobalto, nichel e gadolinio — e il nichel è quello che cede per primo: sopra i 354 gradi perde ogni proprietà magnetica di colpo. Il gadolinio, all'altro estremo, smette di essere magnetico appena sopra i venti gradi, cioè in una giornata tiepida.
 
 La virtù industriale del nichel è la pigrizia. Reagisce con l'ossigeno molto più lentamente del ferro e si copre di uno strato di ossido sottile e aderente che protegge il metallo sottostante invece di sfaldarsi. Aggiunto all'acciaio insieme al cromo, trasforma un materiale che marcisce in uno che dura, e in più ne cambia la struttura cristallina rendendolo tenace anche a temperature molto basse. È per questo che sta nelle turbine, nei serbatoi criogenici e nelle posate.
 
@@ -87,7 +87,7 @@ In soluzione il nichel è quasi sempre allo stato più due, e i suoi sali danno 
 
 ## Usi e presenza in natura
 
-La destinazione dominante del nichel è una sola: l'acciaio inossidabile e le leghe speciali, che negli Stati Uniti assorbono oltre l'ottantacinque per cento del metallo primario. Il resto si divide fra galvanica, superleghe per turbine e, quota in rapida crescita, catodi per batterie. Il baricentro produttivo si è spostato in modo brusco: nel 2024 l'Indonesia da sola ha fornito circa il cinquantaquattro per cento di una produzione mineraria mondiale stimata in tre milioni e settecentomila tonnellate.
+La destinazione dominante del nichel è una sola: l'acciaio inossidabile e le leghe speciali, che negli Stati Uniti assorbono oltre l'ottantacinque per cento del metallo primario. Il resto si divide fra galvanica, superleghe per turbine e, quota in rapida crescita, catodi per batterie. Il baricentro produttivo si è spostato in modo brusco: nel 2024 l'Indonesia da sola ha estratto due milioni e duecentomila tonnellate su una produzione mineraria mondiale stimata in tre milioni e settecentomila, cioè quasi il sessanta per cento del totale.
 
 Il nichel è anche il metallo delle monete, al punto che negli Stati Uniti dà il nome al pezzo da cinque centesimi. La ragione è pratica: resiste all'usura, non annerisce nelle tasche e ha una firma elettromagnetica che i distributori automatici riconoscono con facilità. Il prezzo di questa ubiquità è una delle allergie da contatto più diffuse al mondo, tanto che l'Unione Europea regola da anni quanto nichel possa rilasciare un oggetto destinato a toccare la pelle.
 

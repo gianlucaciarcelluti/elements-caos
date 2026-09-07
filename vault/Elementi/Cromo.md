@@ -62,7 +62,7 @@ La tavolozza ha una spiegazione precisa. Il cromo è capace di reggere un numero
 
 La stessa chimica spiega due gemme che sembrano non avere nulla in comune. Il corindone puro è incolore; se qualche atomo di alluminio viene sostituito da cromo, diventa rosso e si chiama rubino, mentre altre impurezze lo fanno azzurro e lo chiamano zaffiro. Il berillo puro è anch'esso incolore; con tracce di cromo diventa verde e si chiama smeraldo. Il rosso più celebre e il verde più celebre della gioielleria escono dallo stesso elemento in due matrici diverse.
 
-La virtù industriale del cromo è invece invisibile. Esposto all'aria si copre istantaneamente di uno strato di ossido spesso pochi atomi, compatto e aderente, che isola il metallo sottostante e si richiude da solo se viene graffiato. La ruggine del ferro fa il contrario: è porosa, si sfalda e lascia procedere l'attacco verso l'interno. Basta portare il cromo sopra l'undici per cento in una lega di ferro perché quella pellicola si formi sull'intera superficie: è l'acciaio inossidabile.
+Quel che rende il cromo indispensabile all'industria, invece, non si vede affatto. Esposto all'aria il metallo si sigilla da sé sotto una pellicola di ossido spessa pochi atomi, talmente compatta da fermare ogni ulteriore attacco e capace di riformarsi all'istante dove viene graffiata. Basta superare l'undici per cento di cromo in una lega di ferro perché quella corazza invisibile si estenda a tutta la superficie, e il risultato porta un nome che tutti conoscono: acciaio inossidabile.
 
 ### Dati fisico-chimici
 
@@ -116,7 +116,7 @@ flowchart LR
 
 ## Curiosità
 
-Fra le forme del cromo corre una differenza enorme: allo stato più tre è un oligoelemento innocuo e presente nella dieta, allo stato più sei è tossico e cancerogeno, e attraversa le membrane cellulari con facilità. Il cromo esavalente è la sostanza al centro del caso di Hinkley, in California, dove fra il 1952 e il 1966 una compagnia elettrica scaricò centinaia di milioni di litri di acque contaminate in bacini non impermeabilizzati, avvelenando la falda del paese.
+Fra le forme del cromo corre una differenza enorme: allo stato più tre è un oligoelemento innocuo e presente nella dieta, allo stato più sei è tossico e cancerogeno, e attraversa le membrane cellulari con facilità. Il cromo esavalente è la sostanza al centro del caso di Hinkley, in California, dove fra il 1952 e il 1966 una compagnia elettrica scaricò oltre un miliardo di litri di acque contaminate in bacini non impermeabilizzati, avvelenando la falda del paese.
 
 La vicenda è finita al cinema. Un'impiegata di studio legale di nome Erin Brockovich, che nel 1993 stava riordinando pratiche immobiliari, notò che fra i documenti c'erano cartelle cliniche, tirò il filo e organizzò gli abitanti in una causa collettiva. Nel 1996 la compagnia accettò di pagare trecentotrentatré milioni di dollari a più di seicento ricorrenti, la transazione più alta della storia americana fino a quel momento. Il film del 2000 fece del cromo esavalente una questione di dominio pubblico.
 
