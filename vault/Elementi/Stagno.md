@@ -27,7 +27,7 @@ Lo stagno è un metallo modesto: tenero, di poco pregio, quasi inutile allo stat
 
 ```mermaid
 timeline
-    title Scoperta del Stagno
+    title Scoperta dello Stagno
     3500 a.C. : Primo uso documentato (data stimata)
 ```
 
@@ -39,7 +39,7 @@ I primissimi bronzi non sono il frutto di una ricetta. Gli oggetti più antichi 
 
 Qui nasce il problema che ha definito l'età del bronzo. Il rame è diffuso; i giacimenti di stagno sono pochi e mal distribuiti, e mancano quasi del tutto proprio nel Vicino Oriente, dove il bronzo serviva di più. Chi voleva bronzo doveva procurarsi stagno da lontano, e questo ha reso indispensabili rotte commerciali di ampiezza continentale in un'epoca che non aveva strade.
 
-Quanto lontano lo mostra il relitto di Uluburun, una nave affondata al largo della Turchia meridionale intorno al 1320 a.C. e recuperata a partire dal 1982: trasportava una tonnellata di lingotti di stagno, il più grande carico di metalli grezzi dell'età del bronzo mai ritrovato. Le analisi isotopiche indicano che parte di quel metallo veniva dai monti del Tauro e parte dall'Asia centrale, dagli attuali Uzbekistan e Tagikistan.
+Quanto lontano lo mostra il relitto di Uluburun, una nave affondata al largo della Turchia meridionale intorno al 1320 a.C., individuata nel 1982 da un pescatore di spugne e scavata dal 1984: trasportava una tonnellata di lingotti di stagno, il più grande carico di metalli grezzi dell'età del bronzo mai ritrovato. Le analisi isotopiche indicano che parte di quel metallo veniva dai monti del Tauro e parte dall'Asia centrale, dagli attuali Uzbekistan e Tagikistan.
 
 Anche l'estremo opposto del continente entra nel gioco. Studi isotopici recenti su lingotti recuperati in relitti al largo di Israele e della Francia hanno ricondotto quel metallo ai giacimenti della Cornovaglia, all'estremità sud-occidentale della Britannia. Significa che stagno estratto in Atlantico alimentava la produzione di bronzo del Mediterraneo orientale, lungo una catena di scambi che nessuno dei suoi partecipanti percorreva per intero.
 
@@ -93,7 +93,7 @@ Lo stagno esiste in due forme molto diverse. Quella metallica e argentea, stabil
 
 L'impiego principale oggi è la saldatura. Le leghe per brasatura dolce contengono stagno in percentuali che vanno dal cinque al settanta per cento, e sono ciò che tiene insieme elettricamente e meccanicamente ogni scheda elettronica e buona parte degli impianti idraulici. La normativa europea ha nel frattempo eliminato il piombo da queste leghe, e le saldature attuali sono a base di stagno con argento e rame.
 
-L'altro uso di massa è il rivestimento. La banda stagnata, cioè lamiera d'acciaio ricoperta da uno strato sottilissimo di stagno, unisce la robustezza del ferro alla resistenza alla corrosione del rivestimento: da qui la scatoletta per alimenti, brevettata a Londra nel 1810 e prodotta dall'anno successivo, che ha cambiato l'alimentazione e la logistica militare. Lo stagno compare inoltre nel peltro, nelle canne d'organo e nei composti che stabilizzano le materie plastiche.
+L'altro uso di massa è il rivestimento. La banda stagnata, cioè lamiera d'acciaio ricoperta da uno strato sottilissimo di stagno, unisce la robustezza del ferro alla resistenza alla corrosione del rivestimento: da qui la scatoletta per alimenti, brevettata a Londra nel 1810 da Peter Durand, che però non la produsse mai — il brevetto passò a Donkin e Hall, che aprirono la prima fabbrica a Bermondsey nel 1812. Lo stagno compare inoltre nel peltro, nelle canne d'organo e nei composti che stabilizzano le materie plastiche.
 
 ```mermaid
 flowchart LR
@@ -123,7 +123,7 @@ flowchart LR
 
 ## Curiosità
 
-*Secondo la leggenda:* Si racconta spesso che la ritirata di Napoleone dalla Russia nel 1812 sia stata aggravata dalla peste dello stagno, che avrebbe sbriciolato i bottoni delle uniformi lasciando i soldati esposti al gelo. È una storia bella e ricorrente, ma non è mai stata dimostrata: i bottoni recuperati dai reperti di quella campagna non sono tutti di stagno, e la trasformazione è troppo lenta per svolgersi in una sola stagione.
+Si racconta spesso che la ritirata di Napoleone dalla Russia nel 1812 sia stata aggravata dalla peste dello stagno, che avrebbe sbriciolato i bottoni delle uniformi lasciando i soldati esposti al gelo. È una storia bella e ricorrente, ma non è mai stata dimostrata: i bottoni recuperati dai reperti di quella campagna non sono tutti di stagno, e la trasformazione è troppo lenta per svolgersi in una sola stagione.
 
 ## Nella cronologia
 

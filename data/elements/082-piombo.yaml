@@ -89,18 +89,17 @@ contenuti:
     testo: 'Roma porta la produzione di piombo a livelli che il mondo antico non aveva mai
       visto e che non si rivedranno per oltre un millennio. Il metallo diventa il materiale
       generico dell''ingegneria idraulica: tubature, cisterne, giunti, sigilli. La parola
-      stessa che ancora usiamo per il mestiere lo ricorda, perché plumbum è il piombo e da
-      lì viene l''idraulico inglese, plumber. La conduttura urbana di una città romana era,
-      in gran parte, un oggetto di piombo.'
+      che ancora usiamo per il mestiere lo ricorda, perché plumbum è il piombo e da lì viene
+      l''inglese plumber.'
     visual: Sezione di una tubatura romana in piombo con la saldatura longitudinale visibile
     attendibilita: documentato
   - id: tossicita_antica
     sezione: storia
     testo: Che il piombo facesse male era già noto agli antichi. Autori greci e romani descrivono
-      i sintomi dell'intossicazione nei minatori e in chi lavorava il metallo, e l'architetto
-      Vitruvio raccomanda esplicitamente le tubature di terracotta al posto di quelle di piombo
-      per ragioni di salubrità. Il riconoscimento sistematico del problema, però, arriva solo
-      nel tardo Ottocento, quando la medicina del lavoro comincia a misurare invece di osservare.
+      i sintomi dell'intossicazione nei minatori e in chi lavorava il metallo, e Vitruvio
+      raccomanda esplicitamente le tubature di terracotta al posto di quelle di piombo per
+      ragioni di salubrità. Il riconoscimento sistematico del problema arriva però solo nel
+      tardo Ottocento, con la medicina del lavoro.
     visual: Pagina del trattato di Vitruvio aperta sul passo relativo alle condutture
     attendibilita: documentato
   - id: caratteristiche_fisiche
@@ -151,10 +150,10 @@ contenuti:
   - id: usi_rimossi
     sezione: usi
     testo: Molti impieghi storici sono invece stati smantellati per legge. Il piombo tetraetile,
-      aggiunto alla benzina dal 1923 per eliminare la detonazione nei motori, ha disperso
-      il metallo nell'aria di tutto il pianeta per oltre mezzo secolo prima di essere eliminato
-      progressivamente a partire dagli anni Settanta; le vernici al piombo e le saldature
-      per tubature di acqua potabile hanno seguito la stessa strada.
+      aggiunto alla benzina dal 1923 come antidetonante, ha disperso il metallo nell'aria
+      di tutto il pianeta per oltre mezzo secolo prima di essere eliminato a partire dagli
+      anni Settanta; le vernici al piombo e le saldature per tubature di acqua potabile hanno
+      seguito la stessa strada.
     visual: Vecchia pompa di benzina con la dicitura super e una vernice scrostata su un infisso
     attendibilita: documentato
   - id: curiosita_cosmesi
@@ -166,17 +165,25 @@ contenuti:
       e declino cognitivo, e più il danno avanzava più serviva biacca per coprirlo.'
     visual: Vasetto di biacca veneziana accanto a un ritratto di corte dal volto candido
     attendibilita: documentato
+  - id: curiosita_sapa
+    sezione: curiosita
+    testo: 'I Romani addolcivano il vino e la frutta conservata con il sapa, uno sciroppo
+      ottenuto facendo bollire a lungo il mosto. Le ricette arrivate fino a noi, da Catone
+      a Columella a Plinio, prescrivono di cuocerlo in recipienti di piombo, e le riproduzioni
+      di laboratorio mostrano che così il metallo passa nello sciroppo in quantità consistenti:
+      l''acido dell''uva lo attacca e forma acetato, che per giunta è dolce.'
+    visual: Recipiente di piombo sul fuoco con il mosto che si riduce a sciroppo
+    attendibilita: documentato
   - id: curiosita_roma_declino
     sezione: curiosita
-    testo: 'La tesi secondo cui l''avvelenamento da piombo avrebbe causato il declino dell''Impero
-      romano circola dall''Ottocento e va presa con cautela. I Romani effettivamente addolcivano
-      il vino con il sapa, uno sciroppo d''uva cotto in recipienti di piombo che ne assorbiva
-      quantità notevoli. Gli studi recenti, però, ridimensionano molto lo scenario: il vasellame
-      di piombo è raro negli scavi domestici e le analisi degli scheletri non mostrano l''intossicazione
-      diffusa che la tesi richiederebbe.'
-    visual: Recipiente per la cottura del mosto accanto a un'analisi di laboratorio su resti
-      ossei
-    attendibilita: tradizionale
+    testo: 'Da qui nasce la tesi, in circolazione dall''Ottocento, che l''avvelenamento da
+      piombo abbia causato il declino dell''Impero romano. Gli studi recenti la ridimensionano
+      parecchio: il vasellame di piombo compare di rado negli scavi domestici, e le analisi
+      degli scheletri non mostrano l''intossicazione diffusa e trasversale alle classi sociali
+      che la tesi richiederebbe. Che i Romani si avvelenassero un po'' è fuori discussione;
+      che sia stato quello a far cadere l''impero è tutt''altra affermazione.'
+    visual: Analisi di laboratorio su resti ossei accanto a un profilo di scavo domestico
+    attendibilita: discusso
   pronuncia: []
 composti_principali:
 - nome: Galena

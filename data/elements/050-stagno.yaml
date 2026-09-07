@@ -77,10 +77,11 @@ contenuti:
   - id: uluburun
     sezione: storia
     testo: 'Quanto lontano lo mostra il relitto di Uluburun, una nave affondata al largo della
-      Turchia meridionale intorno al 1320 a.C. e recuperata a partire dal 1982: trasportava
-      una tonnellata di lingotti di stagno, il più grande carico di metalli grezzi dell''età
-      del bronzo mai ritrovato. Le analisi isotopiche indicano che parte di quel metallo veniva
-      dai monti del Tauro e parte dall''Asia centrale, dagli attuali Uzbekistan e Tagikistan.'
+      Turchia meridionale intorno al 1320 a.C., individuata nel 1982 da un pescatore di spugne
+      e scavata dal 1984: trasportava una tonnellata di lingotti di stagno, il più grande
+      carico di metalli grezzi dell''età del bronzo mai ritrovato. Le analisi isotopiche indicano
+      che parte di quel metallo veniva dai monti del Tauro e parte dall''Asia centrale, dagli
+      attuali Uzbekistan e Tagikistan.'
     visual: Lingotti di stagno a pelle di bue disposti sul fondale del relitto di Uluburun
     attendibilita: documentato
   - id: cornovaglia
@@ -144,9 +145,10 @@ contenuti:
     testo: 'L''altro uso di massa è il rivestimento. La banda stagnata, cioè lamiera d''acciaio
       ricoperta da uno strato sottilissimo di stagno, unisce la robustezza del ferro alla
       resistenza alla corrosione del rivestimento: da qui la scatoletta per alimenti, brevettata
-      a Londra nel 1810 e prodotta dall''anno successivo, che ha cambiato l''alimentazione
-      e la logistica militare. Lo stagno compare inoltre nel peltro, nelle canne d''organo
-      e nei composti che stabilizzano le materie plastiche.'
+      a Londra nel 1810 da Peter Durand, che però non la produsse mai — il brevetto passò
+      a Donkin e Hall, che aprirono la prima fabbrica a Bermondsey nel 1812. Lo stagno compare
+      inoltre nel peltro, nelle canne d''organo e nei composti che stabilizzano le materie
+      plastiche.'
     visual: Linea di produzione di scatolame in banda stagnata
     attendibilita: documentato
   - id: curiosita_bottoni
@@ -158,7 +160,7 @@ contenuti:
       e la trasformazione è troppo lenta per svolgersi in una sola stagione.'
     visual: Bottone di stagno dell'epoca napoleonica, integro, accanto a un'immagine della
       ritirata
-    attendibilita: leggendario
+    attendibilita: discusso
   pronuncia: []
 composti_principali:
 - nome: Cassiterite

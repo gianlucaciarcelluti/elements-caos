@@ -15,6 +15,12 @@ PAROLE_AL_MINUTO = 230
 
 # Formule che introducono i beat non documentati, per non presentare come
 # certo ciò che è tradizione o leggenda.
+#
+# `Attendibilita.DISCUSSO` è assente di proposito: quei beat discutono una
+# tradizione invece di riportarla, e contengono già la cautela al proprio
+# interno ("va presa con cautela", "non è mai stato dimostrato"). Premettere
+# loro una formula li capovolgerebbe, presentando come sapere tramandato un
+# testo che quel sapere lo sta smontando.
 FORMULE_CAUTELA = {
     Attendibilita.TRADIZIONALE: "*Per tradizione:*",
     Attendibilita.LEGGENDARIO: "*Secondo la leggenda:*",

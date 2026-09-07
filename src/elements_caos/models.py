@@ -31,11 +31,20 @@ class Attendibilita(StrEnum):
 
     Serve a distinguere i fatti documentati dagli aneddoti tramandati, per non
     presentare come certo ciò che è tradizione o leggenda.
+
+    ``DISCUSSO`` copre i beat che *esaminano* una tradizione invece di
+    riportarla: non asseriscono un fatto, non tramandano e non raccontano la
+    leggenda come tale, ma ne discutono l'attendibilità. È l'unico grado non
+    documentato che non riceve una formula di cautela in prosa, perché la
+    cautela è già nel testo del beat: premettergli "Per tradizione:" lo
+    capovolgerebbe, annunciando come sapere tramandato un testo che dice il
+    contrario.
     """
 
     DOCUMENTATO = "documentato"
     TRADIZIONALE = "tradizionale"
     LEGGENDARIO = "leggendario"
+    DISCUSSO = "discusso"
 
 
 class Categoria(StrEnum):

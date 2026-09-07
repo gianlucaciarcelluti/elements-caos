@@ -37,7 +37,7 @@ Un po' di argento nativo esiste, e con ogni probabilità è così che il metallo
 
 La tecnica che apre la storia dell'argento si chiama coppellazione, e le sue prime tracce sono cumuli di scorie in Asia Minore nel IV millennio a.C. Il minerale argentifero, in genere galena, viene fuso e poi soffiato con aria in un recipiente poroso: il piombo si ossida e viene assorbito dalle pareti, mentre l'argento, che non si ossida, resta al centro come un bottone lucente. È una separazione chimica riuscita, ottenuta millenni prima che esistesse un'idea di reazione chimica.
 
-Su questa tecnica si è retta più di una potenza. Le miniere del Laurion, in Attica, producevano nel periodo fra il VI e il IV secolo a.C. circa trenta tonnellate d'argento l'anno, e furono la base materiale della flotta ateniese e della moneta che circolava in tutto l'Egeo. Non è retorica dire che Atene comprò le proprie triremi con il proprio sottosuolo.
+Su questa tecnica si è retta più di una potenza. Le miniere del Laurion, in Attica, producevano fra il VI e il IV secolo a.C. alcune decine di tonnellate d'argento l'anno, e furono la base materiale della flotta ateniese e della moneta che circolava in tutto l'Egeo. Non è retorica dire che Atene comprò le proprie triremi con il proprio sottosuolo.
 
 Roma spinge la produzione fino a circa duecento tonnellate l'anno, e nel II secolo d.C. si stima che circolassero nell'economia imperiale intorno a diecimila tonnellate di argento. Dopo il crollo dell'impero il baricentro si sposta in Europa centrale, alle miniere di Boemia, Sassonia e Ungheria, che alimentano la moneta medievale finché i giacimenti non si esauriscono.
 

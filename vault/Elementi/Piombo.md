@@ -39,9 +39,9 @@ Sui primissimi reperti conviene essere precisi, perché la letteratura divulgati
 
 Il destino del piombo è legato a quello dell'argento più di quanto sembri. I due metalli si trovano quasi sempre insieme nello stesso minerale, e la tecnica che li separa, la coppellazione, produce argento e lascia piombo come sottoprodotto abbondante. Ogni volta che una civiltà antica ha voluto argento per monetare, ha ottenuto piombo in quantità molto maggiori, e ha dovuto inventarsi come impiegarlo.
 
-Roma porta la produzione di piombo a livelli che il mondo antico non aveva mai visto e che non si rivedranno per oltre un millennio. Il metallo diventa il materiale generico dell'ingegneria idraulica: tubature, cisterne, giunti, sigilli. La parola stessa che ancora usiamo per il mestiere lo ricorda, perché plumbum è il piombo e da lì viene l'idraulico inglese, plumber. La conduttura urbana di una città romana era, in gran parte, un oggetto di piombo.
+Roma porta la produzione di piombo a livelli che il mondo antico non aveva mai visto e che non si rivedranno per oltre un millennio. Il metallo diventa il materiale generico dell'ingegneria idraulica: tubature, cisterne, giunti, sigilli. La parola che ancora usiamo per il mestiere lo ricorda, perché plumbum è il piombo e da lì viene l'inglese plumber.
 
-Che il piombo facesse male era già noto agli antichi. Autori greci e romani descrivono i sintomi dell'intossicazione nei minatori e in chi lavorava il metallo, e l'architetto Vitruvio raccomanda esplicitamente le tubature di terracotta al posto di quelle di piombo per ragioni di salubrità. Il riconoscimento sistematico del problema, però, arriva solo nel tardo Ottocento, quando la medicina del lavoro comincia a misurare invece di osservare.
+Che il piombo facesse male era già noto agli antichi. Autori greci e romani descrivono i sintomi dell'intossicazione nei minatori e in chi lavorava il metallo, e Vitruvio raccomanda esplicitamente le tubature di terracotta al posto di quelle di piombo per ragioni di salubrità. Il riconoscimento sistematico del problema arriva però solo nel tardo Ottocento, con la medicina del lavoro.
 
 > [!warning] Questione aperta
 > Sui primi oggetti di piombo la letteratura divulgativa ripete un dato ormai superato. Le perline dal livello IX di Çatalhöyük, in Anatolia, sono state pubblicate come piombo fuso del VII millennio a.C. e da lì citate ovunque, ma le analisi successive indicano che si tratta di minerale sagomato, galena e cerussite, e non di metallo ottenuto per fusione. Il più antico oggetto sicuramente in piombo metallico quasi puro è quello della grotta di Ashalim, in Israele, datato alla fine del V millennio a.C. e ricondotto per composizione a minerali del Tauro anatolico. Resta comunque solido che la fusione del piombo su piccola scala inizi nel VII millennio a.C., ed è a quella fase che si riferisce la data usata qui.
@@ -96,7 +96,7 @@ L'uso di gran lunga dominante oggi è la batteria al piombo-acido, inventata nel
 
 La densità del piombo lo rende efficace nello schermare le radiazioni ionizzanti, perché la probabilità che un raggio gamma venga assorbito cresce con la densità del materiale che attraversa. Da qui i grembiuli usati in radiologia, le pareti delle sale radiodiagnostiche e i contenitori per il materiale radioattivo.
 
-Molti impieghi storici sono invece stati smantellati per legge. Il piombo tetraetile, aggiunto alla benzina dal 1923 per eliminare la detonazione nei motori, ha disperso il metallo nell'aria di tutto il pianeta per oltre mezzo secolo prima di essere eliminato progressivamente a partire dagli anni Settanta; le vernici al piombo e le saldature per tubature di acqua potabile hanno seguito la stessa strada.
+Molti impieghi storici sono invece stati smantellati per legge. Il piombo tetraetile, aggiunto alla benzina dal 1923 come antidetonante, ha disperso il metallo nell'aria di tutto il pianeta per oltre mezzo secolo prima di essere eliminato a partire dagli anni Settanta; le vernici al piombo e le saldature per tubature di acqua potabile hanno seguito la stessa strada.
 
 ```mermaid
 flowchart LR
@@ -128,7 +128,9 @@ flowchart LR
 
 Il piombo è stato per secoli un cosmetico. La biacca, o cerussa, un carbonato basico di piombo di un bianco coprente e luminoso, si stendeva sul viso per ottenere il pallore di moda: la variante veneziana era la più costosa e la più ambita nell'Europa fra Cinquecento e Settecento. Provocava caduta dei capelli e dei denti, danni alla pelle e declino cognitivo, e più il danno avanzava più serviva biacca per coprirlo.
 
-*Per tradizione:* La tesi secondo cui l'avvelenamento da piombo avrebbe causato il declino dell'Impero romano circola dall'Ottocento e va presa con cautela. I Romani effettivamente addolcivano il vino con il sapa, uno sciroppo d'uva cotto in recipienti di piombo che ne assorbiva quantità notevoli. Gli studi recenti, però, ridimensionano molto lo scenario: il vasellame di piombo è raro negli scavi domestici e le analisi degli scheletri non mostrano l'intossicazione diffusa che la tesi richiederebbe.
+I Romani addolcivano il vino e la frutta conservata con il sapa, uno sciroppo ottenuto facendo bollire a lungo il mosto. Le ricette arrivate fino a noi, da Catone a Columella a Plinio, prescrivono di cuocerlo in recipienti di piombo, e le riproduzioni di laboratorio mostrano che così il metallo passa nello sciroppo in quantità consistenti: l'acido dell'uva lo attacca e forma acetato, che per giunta è dolce.
+
+Da qui nasce la tesi, in circolazione dall'Ottocento, che l'avvelenamento da piombo abbia causato il declino dell'Impero romano. Gli studi recenti la ridimensionano parecchio: il vasellame di piombo compare di rado negli scavi domestici, e le analisi degli scheletri non mostrano l'intossicazione diffusa e trasversale alle classi sociali che la tesi richiederebbe. Che i Romani si avvelenassero un po' è fuori discussione; che sia stato quello a far cadere l'impero è tutt'altra affermazione.
 
 ## Nella cronologia
 

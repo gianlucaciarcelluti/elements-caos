@@ -37,7 +37,7 @@ La sostanza che apre la vicenda è la stibnite, solfuro di antimonio, un mineral
 
 Su questo punto conviene una precisazione, perché la divulgazione tende a semplificare. Le analisi dei contenitori antichi mostrano che il kohl egizio era in prevalenza a base di galena, cioè solfuro di piombo, non di antimonio; la stibnite era comune in altre aree e in altre epoche, e il termine kohl indica una famiglia di preparati, non una ricetta unica. Antimonio e piombo si sono divisi lo stesso ruolo cosmetico per millenni.
 
-*Per tradizione:* Sul primo oggetto di antimonio metallico la questione è aperta. Viene spesso citato un frammento rinvenuto a Tello, nell'antica Caldea, datato intorno al 3000 a.C. e descritto come parte di un vaso di antimonio puro, il che implicherebbe una tecnica sofisticata per rendere lavorabile un materiale intrinsecamente fragile. L'archeologo Roger Moorey ha però contestato sia che si trattasse di un vaso sia che serva ipotizzare una metallurgia perduta: più probabilmente è un piccolo ornamento ricavato da antimonio nativo.
+Sul primo oggetto di antimonio metallico la questione è aperta. Viene spesso citato un frammento rinvenuto a Tello, nell'antica Caldea, datato intorno al 3000 a.C. e descritto come parte di un vaso di antimonio puro, il che implicherebbe una tecnica sofisticata per rendere lavorabile un materiale intrinsecamente fragile. L'archeologo Roger Moorey ha però contestato sia che si trattasse di un vaso sia che serva ipotizzare una metallurgia perduta: più probabilmente è un piccolo ornamento ricavato da antimonio nativo.
 
 Anche il nome porta i segni di una storia confusa. Il simbolo Sb viene dal latino stibium, che designa il minerale e non il metallo, ed è a sua volta imparentato con l'arabo al-ithmid, il nome della stessa polvere cosmetica. La parola antimonio deriva invece dal latino medievale antimonium, comparso negli scritti degli alchimisti, la cui origine resta tuttora non chiarita.
 
@@ -126,7 +126,7 @@ flowchart LR
 
 ## Curiosità
 
-*Secondo la leggenda:* Sull'origine della parola antimonio circolano da secoli spiegazioni pittoresche e mai dimostrate. La più diffusa la scioglie come anti-monaco, perché il metallo avrebbe ucciso i monaci che lo maneggiavano nei laboratori dei conventi; un'altra la fa risalire a un greco «contro la solitudine», perché in natura non si trova mai da solo. Sono etimologie senza alcun riscontro documentale, e sopravvivono perché sono più belle della risposta vera, che è: non lo sappiamo.
+Sull'origine della parola antimonio circolano da secoli spiegazioni pittoresche e mai dimostrate. La più diffusa la scioglie come anti-monaco, perché il metallo avrebbe ucciso i monaci che lo maneggiavano nei laboratori dei conventi; un'altra la fa risalire a un greco «contro la solitudine», perché in natura non si trova mai da solo. Sono etimologie senza alcun riscontro documentale, e sopravvivono perché sono più belle della risposta vera, che è: non lo sappiamo.
 
 Fra il Cinquecento e l'Ottocento circolavano le cosiddette pillole perpetue, palline di antimonio metallico che si ingerivano come purgante. L'antimonio reagisce quel tanto che basta a irritare l'intestino e provocare l'effetto, poi viene espulso pressoché intatto: si recuperava dal vaso da notte, si lavava e si riutilizzava, e ci sono famiglie che se le tramandavano di generazione in generazione. La facoltà di medicina di Parigi le mise al bando più volte nel corso del Seicento, senza riuscire a farle sparire.
 

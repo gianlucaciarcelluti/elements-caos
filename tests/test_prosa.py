@@ -116,6 +116,32 @@ def test_componi_sezione_marca_i_beat_tradizionali() -> None:
     assert risultato.startswith("*Per tradizione:*")
 
 
+def test_componi_sezione_non_premette_nulla_ai_beat_discussi() -> None:
+    """Un beat `discusso` non riceve formula di cautela: la contiene già nel testo.
+
+    I beat che *smontano* una tradizione non vanno introdotti da "Per
+    tradizione:", che li capovolgerebbe annunciando come sapere tramandato un
+    testo che dice il contrario. Un beat di confutazione non è documentato
+    (non asserisce un fatto), non è tradizionale (non tramanda) e non è
+    leggendario (non racconta la leggenda come tale): è discussione
+    storiografica, e la cautela sta già nella sua formulazione.
+    """
+    contenuti = _contenuti(
+        Beat(
+            id="confutazione",
+            sezione=Sezione.CURIOSITA,
+            testo="Si racconta spesso che sia andata così, ma non è mai stato dimostrato.",
+            attendibilita=Attendibilita.DISCUSSO,
+        ),
+    )
+
+    risultato = componi_sezione(contenuti, Sezione.CURIOSITA)
+
+    assert risultato.startswith("Si racconta spesso")
+    assert "*Per tradizione:*" not in risultato
+    assert "*Secondo la leggenda:*" not in risultato
+
+
 def test_conta_parole() -> None:
     """Il conteggio delle parole ignora la punteggiatura isolata e gli spazi multipli."""
     assert conta_parole("Una frase di cinque parole.") == 5
