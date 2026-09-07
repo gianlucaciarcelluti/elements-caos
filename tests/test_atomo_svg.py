@@ -309,9 +309,7 @@ class TestDimensioniProporzionate:
         centro_x, centro_y = larghezza / 2, altezza / 2
 
         raggio_massimo = max(
-            float(c.get("r", "0"))
-            for c in _cerchi(radice)
-            if c.get("stroke") == COLORI["orbite"]
+            float(c.get("r", "0")) for c in _cerchi(radice) if c.get("stroke") == COLORI["orbite"]
         )
         margine_testo = 20.0  # spazio per l'etichetta Z sopra il nucleo/orbite
         assert centro_x - raggio_massimo - margine_testo >= 0
