@@ -61,7 +61,7 @@ flowchart TB
 
 ## Caratteristiche
 
-Il cobalto è uno dei tre soli elementi ferromagnetici a temperatura ambiente, insieme al ferro e al nichel, e fra i tre è quello che tiene meglio: conserva le proprietà magnetiche fino a 1115 gradi, la temperatura più alta di qualsiasi altro materiale magnetico. È questa resistenza al calore a renderlo indispensabile nei magneti permanenti che devono lavorare in condizioni severe.
+Il cobalto è uno dei tre soli elementi ferromagnetici a temperatura ambiente, insieme al ferro e al nichel, e fra i tre è quello che tiene meglio: conserva le proprietà magnetiche fino a 1115 gradi, la temperatura più alta fra tutti gli elementi ferromagnetici, mentre il ferro cede a 770 gradi e il nichel già a 358. È questa resistenza al calore a renderlo indispensabile nei magneti permanenti che devono lavorare in condizioni severe.
 
 La chimica del cobalto è una chimica di colori. I composti comuni lo contengono allo stato più due o più tre, anche se la letteratura ne registra un ventaglio molto più ampio, e i suoi ioni cambiano tinta a seconda di ciò che li circonda: in acqua danno un rosa tenue, ma bastano ioni cloruro a trasformarli in un blu intenso. La reazione è così vistosa e reversibile che si usa come indicatore di umidità.
 
@@ -91,7 +91,7 @@ Il cobalto è l'unico metallo che sta al centro di una vitamina. Le cobalamine, 
 
 Oggi la destinazione principale del cobalto sono le batterie agli ioni di litio, dove entra negli ossidi del catodo e contribuisce a densità di energia e durata dei cicli di ricarica. Seguono le superleghe per turbine di aerei e centrali, che sfruttano la sua tenuta alle alte temperature, e i carburi cementati da taglio, dove fa da legante metallico alle particelle durissime di tungsteno.
 
-La domanda di batterie ha spostato il baricentro del cobalto su un solo paese: la Repubblica Democratica del Congo fornisce oltre l'ottanta per cento della produzione mondiale, e una quota di quel minerale esce da scavi artigianali condotti a mano, senza sicurezza e con impiego documentato di lavoro minorile. È il caso in cui la transizione energetica presenta un conto che non compare nel prezzo di listino.
+La domanda di batterie ha spostato il baricentro del cobalto su un solo paese: la Repubblica Democratica del Congo fornisce all'incirca tre quarti della produzione mondiale, e una quota di quel minerale esce da scavi artigianali condotti a mano, senza sicurezza e con impiego documentato di lavoro minorile. È il caso in cui la transizione energetica presenta un conto che non compare nel prezzo di listino.
 
 ```mermaid
 flowchart LR

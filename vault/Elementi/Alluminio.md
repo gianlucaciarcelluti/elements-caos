@@ -150,3 +150,5 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Johann Heinrich Pott]]
 - [Aluminium](https://en.wikipedia.org/wiki/Aluminium) — consultata il 07/09/2026
 - [The Point of the Matter: the aluminum cap of the Washington Monument (National Park Service)](https://www.nps.gov/articles/000/wamocap.htm) — consultata il 07/09/2026
 - [The Cast Aluminum Cap on the Washington Monument (Metallography, Microstructure, and Analysis)](https://doi.org/10.1007/s13632-012-0032-x) — consultata il 07/09/2026
+- [Timeline of chemical element discoveries](https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries) — consultata il 07/09/2026
+- [Topping Off the Tip: How Aluminum Found Its Way onto the Washington Monument (Prologue Magazine, National Archives)](https://www.archives.gov/publications/prologue/2014/summer/aluminum-tip-monument) — consultata il 07/09/2026

@@ -114,8 +114,8 @@ contenuti:
     sezione: caratteristiche
     testo: 'Il cobalto è uno dei tre soli elementi ferromagnetici a temperatura ambiente,
       insieme al ferro e al nichel, e fra i tre è quello che tiene meglio: conserva le
-      proprietà magnetiche fino a 1115 gradi, la temperatura più alta di qualsiasi altro
-      materiale magnetico. È questa resistenza al calore a renderlo indispensabile nei
+      proprietà magnetiche fino a 1115 gradi, la temperatura più alta fra tutti gli
+      elementi ferromagnetici, mentre il ferro cede a 770 gradi e il nichel già a 358. È questa resistenza al calore a renderlo indispensabile nei
       magneti permanenti che devono lavorare in condizioni severe.'
     visual: Magnete al cobalto che regge il carico mentre la fiamma lo arroventa
     attendibilita: documentato
@@ -149,7 +149,7 @@ contenuti:
   - id: usi_congo
     sezione: usi
     testo: 'La domanda di batterie ha spostato il baricentro del cobalto su un solo paese: la
-      Repubblica Democratica del Congo fornisce oltre l''ottanta per cento della produzione
+      Repubblica Democratica del Congo fornisce all''incirca tre quarti della produzione
       mondiale, e una quota di quel minerale esce da scavi artigianali condotti a mano, senza
       sicurezza e con impiego documentato di lavoro minorile. È il caso in cui la transizione
       energetica presenta un conto che non compare nel prezzo di listino.'

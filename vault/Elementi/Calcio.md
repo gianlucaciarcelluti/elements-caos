@@ -145,3 +145,4 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Johann Heinrich Pott]]
 - [Calcium](https://en.wikipedia.org/wiki/Calcium) — consultata il 07/09/2026
 - [Johann Heinrich Pott](https://en.wikipedia.org/wiki/Johann_Heinrich_Pott) — consultata il 07/09/2026
 - [Pott, Johann Heinrich (Dictionary of Scientific Biography)](https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/pott-johann-heinrich) — consultata il 07/09/2026
+- [Timeline of chemical element discoveries](https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries) — consultata il 07/09/2026
