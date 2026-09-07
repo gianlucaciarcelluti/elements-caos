@@ -1,0 +1,34 @@
+numero_atomico: 48
+simbolo: Cd
+nome: Cadmio
+nome_en: Cadmium
+scoperta:
+  anno: 1817
+  anno_stimato: false
+  scopritori:
+  - karl-samuel-hermann
+  - friedrich-stromeyer
+  - johann-carl-heinrich-roloff
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1817
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 12
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 112.4144
+  configurazione_elettronica: '[Kr] 4d10 5s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 2
+  punto_fusione_k: 594.22
+  punto_ebollizione_k: 1040.0
+  densita: 8.65
+  stati_ossidazione: []
+approfondimento: false

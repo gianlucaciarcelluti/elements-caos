@@ -1,0 +1,33 @@
+numero_atomico: 59
+simbolo: Pr
+nome: Praseodimio
+nome_en: Praseodymium
+scoperta:
+  anno: 1885
+  anno_stimato: false
+  scopritori:
+  - carl-auer-von-welsbach
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 140.907662
+  configurazione_elettronica: '[Xe] 4f3 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 21
+  - 8
+  - 2
+  punto_fusione_k: 1208.0
+  punto_ebollizione_k: 3403.0
+  densita: 6.77
+  stati_ossidazione: []
+approfondimento: false

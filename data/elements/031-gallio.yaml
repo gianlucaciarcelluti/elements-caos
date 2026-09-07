@@ -1,0 +1,31 @@
+numero_atomico: 31
+simbolo: Ga
+nome: Gallio
+nome_en: Gallium
+scoperta:
+  anno: 1875
+  anno_stimato: false
+  scopritori:
+  - paul-emile-lecoq-de-boisbaudran
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1878
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 13
+  periodo: 4
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 69.7231
+  configurazione_elettronica: '[Ar] 3d10 4s2 4p1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 3
+  punto_fusione_k: 302.9146
+  punto_ebollizione_k: 2673.0
+  densita: 5.91
+  stati_ossidazione: []
+approfondimento: false

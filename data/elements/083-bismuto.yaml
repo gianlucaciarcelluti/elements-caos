@@ -1,0 +1,32 @@
+numero_atomico: 83
+simbolo: Bi
+nome: Bismuto
+nome_en: Bismuth
+scoperta:
+  anno: 1500
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: Data convenzionale degli alchimisti europei, come le altre dell'antichità.
+  controversia: null
+proprieta:
+  gruppo: 15
+  periodo: 6
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 208.980401
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s2 6p3'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 5
+  punto_fusione_k: 544.7
+  punto_ebollizione_k: 1837.0
+  densita: 9.78
+  stati_ossidazione: []
+approfondimento: false

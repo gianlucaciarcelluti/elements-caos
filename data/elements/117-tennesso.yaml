@@ -1,0 +1,35 @@
+numero_atomico: 117
+simbolo: Ts
+nome: Tennesso
+nome_en: Tennessine
+scoperta:
+  anno: 2010
+  anno_stimato: false
+  scopritori:
+  - yuri-oganessian
+  - kenton-moody
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: Squadre congiunte russe (Dubna, Oak Ridge, Vanderbilt, Livermore).
+  controversia: null
+proprieta:
+  gruppo: 17
+  periodo: 7
+  blocco: p
+  categoria: alogeno
+  massa_atomica: 294.0
+  configurazione_elettronica: '*[Rn] 5f14 6d10 7s2 7p5'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 32
+  - 18
+  - 7
+  punto_fusione_k: 723.0
+  punto_ebollizione_k: 883.0
+  densita: 7.17
+  stati_ossidazione: []
+approfondimento: false

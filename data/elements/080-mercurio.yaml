@@ -1,0 +1,32 @@
+numero_atomico: 80
+simbolo: Hg
+nome: Mercurio
+nome_en: Mercury
+scoperta:
+  anno: -1500
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 12
+  periodo: 6
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 200.5923
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 2
+  punto_fusione_k: 234.321
+  punto_ebollizione_k: 629.88
+  densita: 13.534
+  stati_ossidazione: []
+approfondimento: false

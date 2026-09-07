@@ -2,250 +2,216 @@ numero_atomico: 11
 simbolo: Na
 nome: Sodio
 nome_en: Sodium
-
 scoperta:
   anno: 1807
   anno_stimato: false
-  scopritori: [humphry-davy]
+  scopritori:
+  - humphry-davy
   luogo: Londra
   epoca: elettrolisi
   isolamento_anno: 1807
-  note_cronologia: >-
-    Scoperta e isolamento coincidono nello stesso anno: il sodio non era mai
-    stato osservato prima come sostanza a sé, perché nessun metodo chimico
-    noto riusciva a separarlo dai suoi composti. Fu la corrente elettrica,
-    non il fuoco, a romperne per prima il legame.
-
+  note_cronologia: 'Scoperta e isolamento coincidono nello stesso anno: il sodio non
+    era mai stato osservato prima come sostanza a sé, perché nessun metodo chimico
+    noto riusciva a separarlo dai suoi composti. Fu la corrente elettrica, non il
+    fuoco, a romperne per prima il legame.'
+  controversia: null
 proprieta:
   gruppo: 1
   periodo: 3
   blocco: s
   categoria: metallo_alcalino
-  massa_atomica: 22.990
-  configurazione_elettronica: "[Ne] 3s1"
-  gusci: [2, 8, 1]
+  massa_atomica: 22.989769282
+  configurazione_elettronica: '[Ne] 3s1'
+  gusci:
+  - 2
+  - 8
+  - 1
   punto_fusione_k: 370.944
   punto_ebollizione_k: 1156.09
   densita: 0.968
-  stati_ossidazione: [-1, 1]
-
+  stati_ossidazione:
+  - -1
+  - 1
 approfondimento: false
-
 contenuti:
-  hook: Bastarono due giorni di novembre e una pila elettrica perché un chimico isolasse, uno via l'altro, due metalli che nessuno aveva mai visto.
+  hook: Bastarono due giorni di novembre e una pila elettrica perché un chimico isolasse,
+    uno via l'altro, due metalli che nessuno aveva mai visto.
   beats:
-    - id: incipit_generale
-      sezione: incipit
-      testo: >-
-        Il sodio è il metallo che reagisce con l'acqua producendo scintille e
-        una fiamma arancione: talmente reattivo che in natura non esiste mai
-        da solo, e per secoli i chimici non sospettarono nemmeno che dentro
-        il comune sale da cucina si nascondesse un metallo.
-      visual: Un pezzetto di sodio metallico che reagisce vivacemente sull'acqua
-      attendibilita: documentato
-
-    - id: contesto_pila
-      sezione: storia
-      testo: >-
-        All'inizio dell'Ottocento la chimica dispone di uno strumento nuovo,
-        la pila voltaica, inventata da Alessandro Volta pochi anni prima. Per
-        la prima volta è possibile far passare corrente elettrica continua
-        attraverso una sostanza e osservare cosa succede: la corrente scinde
-        legami che il fuoco e i reagenti chimici tradizionali non erano mai
-        riusciti a rompere.
-      visual: Una pila voltaica con dischi di metallo alternati, cavi collegati a elettrodi
-      attendibilita: documentato
-
-    - id: davy_royal_institution
-      sezione: storia
-      testo: >-
-        Alla Royal Institution di Londra lavora Humphry Davy, un chimico
-        cornico arrivato alla scienza da autodidatta e diventato in pochi anni
-        una delle figure più celebri della Londra scientifica, anche grazie
-        alle sue conferenze pubbliche affollate di curiosi. Davy costruisce
-        pile sempre più potenti e le usa per elettrolizzare, cioè scomporre
-        con la corrente, sostanze che si credevano elementari e indivisibili.
-      visual: Humphry Davy davanti a un pubblico londinese durante una conferenza scientifica
-      attendibilita: documentato
-
-    - id: soda_caustica
-      sezione: storia
-      testo: >-
-        Il bersaglio di Davy è la soda caustica, l'idrossido di sodio, uno
-        degli alcali più comuni e studiati dell'epoca. Fino ad allora i
-        chimici la consideravano una sostanza semplice: Davy sospetta invece
-        che contenga un metallo non ancora osservato, tenuto insieme
-        all'ossigeno da un legame troppo forte per essere spezzato con i
-        mezzi chimici tradizionali.
-      visual: Un blocco di soda caustica solida accanto agli elettrodi di un apparato elettrolitico
-      attendibilita: documentato
-
-    - id: elettrolisi_sodio
-      sezione: storia
-      testo: >-
-        Il 19 novembre 1807 Davy sottopone la soda caustica fusa alla corrente
-        della sua pila e osserva, all'elettrodo negativo, la comparsa di
-        globuli argentei che prendono fuoco a contatto con l'aria e
-        galleggiano sull'acqua reagendo con violenza. È un metallo nuovo, mai
-        isolato prima: Davy lo chiama sodium, dal nome inglese della soda da
-        cui l'ha estratto.
-      visual: Globuli metallici argentei che si formano su un elettrodo durante l'elettrolisi
-      attendibilita: documentato
-
-    - id: potassio_giorni_dopo
-      sezione: storia
-      testo: >-
-        Pochi giorni dopo, ripetendo l'esperimento sulla potassa invece che
-        sulla soda, Davy isola con lo stesso metodo un secondo metallo, il
-        potassio. Nell'arco di poche settimane annuncia entrambe le scoperte
-        alla Royal Society: è l'inizio di una serie che nel giro di due anni
-        lo porterà a isolare da solo anche calcio, stronzio, bario e magnesio,
-        sei elementi nuovi attribuiti a un'unica persona.
-      visual: Due campioni metallici, sodio e potassio, presentati fianco a fianco
-      attendibilita: documentato
-
-    - id: nome_natrium
-      sezione: storia
-      testo: >-
-        Il nome scelto da Davy, sodium, si diffonde nel mondo anglosassone,
-        ma sul continente europeo il chimico svedese Jöns Jacob Berzelius
-        propone in seguito il nome natrium, dal natron, il minerale a base di
-        carbonato di sodio usato fin dall'antichità egizia. Da questa
-        alternativa deriva il simbolo Na, che è rimasto quello ufficiale
-        anche nei paesi che oggi chiamano l'elemento sodium o sodio.
-      visual: Blocco di natron egizio accanto alla scritta del simbolo chimico Na
-      attendibilita: documentato
-
-    - id: caratteristiche_fisiche
-      sezione: caratteristiche
-      testo: >-
-        Il sodio metallico è talmente tenero da potersi tagliare con un
-        coltello da cucina, ha un colore argenteo che si opacizza in pochi
-        secondi a contatto con l'aria, e una densità così bassa da
-        galleggiare sull'acqua, con cui però reagisce in modo violento
-        producendo idrogeno e calore sufficiente a incendiarlo.
-      visual: Un blocco di sodio tagliato a metà, la superficie lucida che si opacizza
-      attendibilita: documentato
-
-    - id: reattivita
-      sezione: caratteristiche
-      testo: >-
-        Appartiene al gruppo dei metalli alcalini, i più reattivi della
-        tavola periodica: possiede un solo elettrone nel guscio più esterno,
-        che cede con estrema facilità per formare lo ione Na+. Proprio questa
-        prontezza a cedere l'elettrone spiega perché il sodio non si trovi mai
-        libero in natura e debba essere conservato sott'olio per evitare il
-        contatto con l'aria e l'umidità.
-      visual: Diagramma della configurazione elettronica del sodio con l'elettrone di valenza in evidenza
-      attendibilita: documentato
-
-    - id: fiamma_gialla
-      sezione: caratteristiche
-      testo: >-
-        Bruciato o semplicemente riscaldato, il sodio colora una fiamma di un
-        giallo intenso e caratteristico, tanto specifico da essere usato in
-        chimica per riconoscerne la presenza in un campione: è lo stesso
-        principio dietro il colore delle vecchie lampade stradali al sodio.
-      visual: Fiamma colorata di giallo intenso in un test alla fiamma da laboratorio
-      attendibilita: documentato
-
-    - id: conservazione
-      sezione: caratteristiche
-      testo: >-
-        Proprio a causa della sua reattività, il sodio metallico non può
-        essere lasciato all'aria né conservato in acqua: nei laboratori e
-        nell'industria viene tenuto immerso in oli minerali o in cherosene,
-        liquidi che non contengono ossigeno né umidità disciolti e che quindi
-        non innescano la reazione che lo consumerebbe in poco tempo.
-      visual: Blocchetti di sodio metallico immersi in un contenitore di olio minerale
-      attendibilita: documentato
-
-    - id: usi_sale
-      sezione: usi
-      testo: >-
-        Il composto di sodio più familiare è il cloruro di sodio, il comune
-        sale da cucina, indispensabile all'alimentazione umana per il
-        bilancio idrico e la trasmissione degli impulsi nervosi, oltre che
-        usato da millenni per conservare gli alimenti.
-      visual: Cristalli di sale da cucina su un cucchiaio
-      attendibilita: documentato
-
-    - id: usi_industria
-      sezione: usi
-      testo: >-
-        L'idrossido di sodio, la stessa soda caustica da cui Davy isolò
-        l'elemento, resta oggi una delle sostanze chimiche più prodotte al
-        mondo, impiegata nella fabbricazione di sapone, carta e tessuti; il
-        bicarbonato di sodio trova posto in cucina come lievitante e in
-        farmacia come antiacido.
-      visual: Sacchi industriali di soda caustica in un impianto chimico
-      attendibilita: documentato
-
-    - id: presenza_natura
-      sezione: usi
-      testo: >-
-        Il sodio è il sesto elemento più abbondante della crosta terrestre e
-        il principale soluto disciolto negli oceani: non si trova mai libero,
-        ma combinato in minerali come la salgemma (halite) e nei feldspati
-        sodici, da cui deriva gran parte del sodio estratto commercialmente.
-      visual: Miniera di salgemma con pareti di cristalli bianchi
-      attendibilita: documentato
-
-    - id: usi_biologia
-      sezione: usi
-      testo: >-
-        Nel corpo umano lo ione sodio regola il volume del sangue, la
-        pressione arteriosa e l'equilibrio dei liquidi fra le cellule e
-        l'ambiente esterno; insieme al potassio genera inoltre la differenza
-        di carica elettrica attraverso le membrane nervose che rende
-        possibile la trasmissione degli impulsi lungo i neuroni.
-      visual: Sezione di una membrana cellulare con il funzionamento della pompa sodio-potassio
-      attendibilita: documentato
-
-    - id: aneddoto_conferenze
-      sezione: curiosita
-      testo: >-
-        Davy divenne una celebrità a Londra anche grazie alle sue conferenze
-        pubbliche alla Royal Institution, che attiravano folle enormi e persino
-        ingorghi di carrozze in strada: la scienza, per un pubblico
-        dell'Ottocento, era anche spettacolo.
-      attendibilita: tradizionale
-
-    - id: aneddoto_faraday
-      sezione: curiosita
-      testo: >-
-        Fra gli assistenti che Davy assunse nel suo laboratorio ci fu un
-        giovane rilegatore di libri appassionato di scienza, Michael Faraday,
-        che sarebbe diventato uno dei più grandi fisici della storia,
-        superando per fama lo stesso Davy.
-      attendibilita: documentato
-
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il sodio è il metallo che reagisce con l''acqua producendo scintille e
+      una fiamma arancione: talmente reattivo che in natura non esiste mai da solo,
+      e per secoli i chimici non sospettarono nemmeno che dentro il comune sale da
+      cucina si nascondesse un metallo.'
+    visual: Un pezzetto di sodio metallico che reagisce vivacemente sull'acqua
+    attendibilita: documentato
+  - id: contesto_pila
+    sezione: storia
+    testo: 'All''inizio dell''Ottocento la chimica dispone di uno strumento nuovo,
+      la pila voltaica, inventata da Alessandro Volta pochi anni prima. Per la prima
+      volta è possibile far passare corrente elettrica continua attraverso una sostanza
+      e osservare cosa succede: la corrente scinde legami che il fuoco e i reagenti
+      chimici tradizionali non erano mai riusciti a rompere.'
+    visual: Una pila voltaica con dischi di metallo alternati, cavi collegati a elettrodi
+    attendibilita: documentato
+  - id: davy_royal_institution
+    sezione: storia
+    testo: Alla Royal Institution di Londra lavora Humphry Davy, un chimico cornico
+      arrivato alla scienza da autodidatta e diventato in pochi anni una delle figure
+      più celebri della Londra scientifica, anche grazie alle sue conferenze pubbliche
+      affollate di curiosi. Davy costruisce pile sempre più potenti e le usa per elettrolizzare,
+      cioè scomporre con la corrente, sostanze che si credevano elementari e indivisibili.
+    visual: Humphry Davy davanti a un pubblico londinese durante una conferenza scientifica
+    attendibilita: documentato
+  - id: soda_caustica
+    sezione: storia
+    testo: 'Il bersaglio di Davy è la soda caustica, l''idrossido di sodio, uno degli
+      alcali più comuni e studiati dell''epoca. Fino ad allora i chimici la consideravano
+      una sostanza semplice: Davy sospetta invece che contenga un metallo non ancora
+      osservato, tenuto insieme all''ossigeno da un legame troppo forte per essere
+      spezzato con i mezzi chimici tradizionali.'
+    visual: Un blocco di soda caustica solida accanto agli elettrodi di un apparato
+      elettrolitico
+    attendibilita: documentato
+  - id: elettrolisi_sodio
+    sezione: storia
+    testo: 'Il 19 novembre 1807 Davy sottopone la soda caustica fusa alla corrente
+      della sua pila e osserva, all''elettrodo negativo, la comparsa di globuli argentei
+      che prendono fuoco a contatto con l''aria e galleggiano sull''acqua reagendo
+      con violenza. È un metallo nuovo, mai isolato prima: Davy lo chiama sodium,
+      dal nome inglese della soda da cui l''ha estratto.'
+    visual: Globuli metallici argentei che si formano su un elettrodo durante l'elettrolisi
+    attendibilita: documentato
+  - id: potassio_giorni_dopo
+    sezione: storia
+    testo: 'Pochi giorni dopo, ripetendo l''esperimento sulla potassa invece che sulla
+      soda, Davy isola con lo stesso metodo un secondo metallo, il potassio. Nell''arco
+      di poche settimane annuncia entrambe le scoperte alla Royal Society: è l''inizio
+      di una serie che nel giro di due anni lo porterà a isolare da solo anche calcio,
+      stronzio, bario e magnesio, sei elementi nuovi attribuiti a un''unica persona.'
+    visual: Due campioni metallici, sodio e potassio, presentati fianco a fianco
+    attendibilita: documentato
+  - id: nome_natrium
+    sezione: storia
+    testo: Il nome scelto da Davy, sodium, si diffonde nel mondo anglosassone, ma
+      sul continente europeo il chimico svedese Jöns Jacob Berzelius propone in seguito
+      il nome natrium, dal natron, il minerale a base di carbonato di sodio usato
+      fin dall'antichità egizia. Da questa alternativa deriva il simbolo Na, che è
+      rimasto quello ufficiale anche nei paesi che oggi chiamano l'elemento sodium
+      o sodio.
+    visual: Blocco di natron egizio accanto alla scritta del simbolo chimico Na
+    attendibilita: documentato
+  - id: caratteristiche_fisiche
+    sezione: caratteristiche
+    testo: Il sodio metallico è talmente tenero da potersi tagliare con un coltello
+      da cucina, ha un colore argenteo che si opacizza in pochi secondi a contatto
+      con l'aria, e una densità così bassa da galleggiare sull'acqua, con cui però
+      reagisce in modo violento producendo idrogeno e calore sufficiente a incendiarlo.
+    visual: Un blocco di sodio tagliato a metà, la superficie lucida che si opacizza
+    attendibilita: documentato
+  - id: reattivita
+    sezione: caratteristiche
+    testo: 'Appartiene al gruppo dei metalli alcalini, i più reattivi della tavola
+      periodica: possiede un solo elettrone nel guscio più esterno, che cede con estrema
+      facilità per formare lo ione Na+. Proprio questa prontezza a cedere l''elettrone
+      spiega perché il sodio non si trovi mai libero in natura e debba essere conservato
+      sott''olio per evitare il contatto con l''aria e l''umidità.'
+    visual: Diagramma della configurazione elettronica del sodio con l'elettrone di
+      valenza in evidenza
+    attendibilita: documentato
+  - id: fiamma_gialla
+    sezione: caratteristiche
+    testo: 'Bruciato o semplicemente riscaldato, il sodio colora una fiamma di un
+      giallo intenso e caratteristico, tanto specifico da essere usato in chimica
+      per riconoscerne la presenza in un campione: è lo stesso principio dietro il
+      colore delle vecchie lampade stradali al sodio.'
+    visual: Fiamma colorata di giallo intenso in un test alla fiamma da laboratorio
+    attendibilita: documentato
+  - id: conservazione
+    sezione: caratteristiche
+    testo: 'Proprio a causa della sua reattività, il sodio metallico non può essere
+      lasciato all''aria né conservato in acqua: nei laboratori e nell''industria
+      viene tenuto immerso in oli minerali o in cherosene, liquidi che non contengono
+      ossigeno né umidità disciolti e che quindi non innescano la reazione che lo
+      consumerebbe in poco tempo.'
+    visual: Blocchetti di sodio metallico immersi in un contenitore di olio minerale
+    attendibilita: documentato
+  - id: usi_sale
+    sezione: usi
+    testo: Il composto di sodio più familiare è il cloruro di sodio, il comune sale
+      da cucina, indispensabile all'alimentazione umana per il bilancio idrico e la
+      trasmissione degli impulsi nervosi, oltre che usato da millenni per conservare
+      gli alimenti.
+    visual: Cristalli di sale da cucina su un cucchiaio
+    attendibilita: documentato
+  - id: usi_industria
+    sezione: usi
+    testo: L'idrossido di sodio, la stessa soda caustica da cui Davy isolò l'elemento,
+      resta oggi una delle sostanze chimiche più prodotte al mondo, impiegata nella
+      fabbricazione di sapone, carta e tessuti; il bicarbonato di sodio trova posto
+      in cucina come lievitante e in farmacia come antiacido.
+    visual: Sacchi industriali di soda caustica in un impianto chimico
+    attendibilita: documentato
+  - id: presenza_natura
+    sezione: usi
+    testo: 'Il sodio è il sesto elemento più abbondante della crosta terrestre e il
+      principale soluto disciolto negli oceani: non si trova mai libero, ma combinato
+      in minerali come la salgemma (halite) e nei feldspati sodici, da cui deriva
+      gran parte del sodio estratto commercialmente.'
+    visual: Miniera di salgemma con pareti di cristalli bianchi
+    attendibilita: documentato
+  - id: usi_biologia
+    sezione: usi
+    testo: Nel corpo umano lo ione sodio regola il volume del sangue, la pressione
+      arteriosa e l'equilibrio dei liquidi fra le cellule e l'ambiente esterno; insieme
+      al potassio genera inoltre la differenza di carica elettrica attraverso le membrane
+      nervose che rende possibile la trasmissione degli impulsi lungo i neuroni.
+    visual: Sezione di una membrana cellulare con il funzionamento della pompa sodio-potassio
+    attendibilita: documentato
+  - id: aneddoto_conferenze
+    sezione: curiosita
+    testo: 'Davy divenne una celebrità a Londra anche grazie alle sue conferenze pubbliche
+      alla Royal Institution, che attiravano folle enormi e persino ingorghi di carrozze
+      in strada: la scienza, per un pubblico dell''Ottocento, era anche spettacolo.'
+    attendibilita: tradizionale
+  - id: aneddoto_faraday
+    sezione: curiosita
+    testo: Fra gli assistenti che Davy assunse nel suo laboratorio ci fu un giovane
+      rilegatore di libri appassionato di scienza, Michael Faraday, che sarebbe diventato
+      uno dei più grandi fisici della storia, superando per fama lo stesso Davy.
+    attendibilita: documentato
   pronuncia:
-    - termine: Humphry Davy
-      ipa: "ˈhʌmfɹi ˈdeɪvi"
-      nota: Inglese britannico.
-    - termine: Jöns Jacob Berzelius
-      ipa: "jœns ˈjɑːkɔb bæˈseːliɵs"
-      nota: Svedese.
-
+  - termine: Humphry Davy
+    ipa: ˈhʌmfɹi ˈdeɪvi
+    nota: Inglese britannico.
+  - termine: Jöns Jacob Berzelius
+    ipa: jœns ˈjɑːkɔb bæˈseːliɵs
+    nota: Svedese.
 composti_principali:
-  - nome: Cloruro di sodio
-    formula: NaCl
-    usi: [alimentazione, conservazione degli alimenti, industria chimica]
-  - nome: Idrossido di sodio
-    formula: NaOH
-    usi: [produzione di sapone e carta, industria tessile]
-  - nome: Bicarbonato di sodio
-    formula: NaHCO3
-    usi: [lievitazione in cucina, antiacido, pulizia domestica]
-
+- nome: Cloruro di sodio
+  formula: NaCl
+  usi:
+  - alimentazione
+  - conservazione degli alimenti
+  - industria chimica
+- nome: Idrossido di sodio
+  formula: NaOH
+  usi:
+  - produzione di sapone e carta
+  - industria tessile
+- nome: Bicarbonato di sodio
+  formula: NaHCO3
+  usi:
+  - lievitazione in cucina
+  - antiacido
+  - pulizia domestica
 fonti:
-  - url: https://en.wikipedia.org/wiki/Sodium
-    titolo: "Sodium"
-    consultata: 2026-09-05
-  - url: https://en.wikipedia.org/wiki/Humphry_Davy
-    titolo: "Humphry Davy"
-    consultata: 2026-09-05
-  - url: https://uwaterloo.ca/chemistry/community-outreach/timeline-of-elements/davys-elements-1805-1824
-    titolo: "Davy's Elements (1805-1824)"
-    consultata: 2026-09-05
+- url: https://en.wikipedia.org/wiki/Sodium
+  titolo: Sodium
+  consultata: 2026-09-05
+- url: https://en.wikipedia.org/wiki/Humphry_Davy
+  titolo: Humphry Davy
+  consultata: 2026-09-05
+- url: https://uwaterloo.ca/chemistry/community-outreach/timeline-of-elements/davys-elements-1805-1824
+  titolo: Davy's Elements (1805-1824)
+  consultata: 2026-09-05

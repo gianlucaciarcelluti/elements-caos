@@ -1,0 +1,34 @@
+numero_atomico: 87
+simbolo: Fr
+nome: Francio
+nome_en: Francium
+scoperta:
+  anno: 1939
+  anno_stimato: false
+  scopritori:
+  - marguerite-perey
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 1
+  periodo: 7
+  blocco: s
+  categoria: metallo_alcalino
+  massa_atomica: 223.0
+  configurazione_elettronica: '[Rn] 7s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 8
+  - 1
+  punto_fusione_k: 300.0
+  punto_ebollizione_k: 950.0
+  densita: 1.87
+  stati_ossidazione: []
+approfondimento: false

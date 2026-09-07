@@ -2,7 +2,6 @@ numero_atomico: 29
 simbolo: Cu
 nome: Rame
 nome_en: Copper
-
 scoperta:
   anno: -9000
   anno_stimato: true
@@ -10,224 +9,194 @@ scoperta:
   luogo: Çayönü Tepesi, Anatolia sud-orientale
   epoca: antichita
   isolamento_anno: null
-  note_cronologia: >-
-    Non esiste un momento della scoperta: il rame entra nella storia umana
-    per accumulo di gesti ripetuti in luoghi diversi, non per un singolo
-    istante da datare.
-  controversia: >-
-    Le fonti divergono su cosa contare come "inizio", e la differenza non è
-    solo di data ma di tecnica. Il ciondolo di rame nativo della grotta di
-    Shanidar, in Kurdistan, risale a circa 12.000 anni fa, ma è un minerale
-    raccolto e appena sbozzato, non lavorato con metodo. La lavorazione vera
-    e propria del rame nativo per ricottura e forgiatura a freddo, quella
-    documentata al sito neolitico di Çayönü Tepesi in Anatolia sud-orientale,
-    si colloca alla fine del IX millennio a.C.: è la "premetallurgia", ed è
-    la fase a cui si riferisce la data convenzionale usata qui. La metallurgia
-    vera, cioè la fusione del minerale con il fuoco, è tutt'altra cosa e
-    arriva molto dopo: le prime tracce sicure risalgono al V millennio a.C.,
-    in Serbia e in Iran, con siti come Tell Magzaliya e Çatal Hüyük a
-    testimoniare la diffusione della fusione nel Vicino Oriente fra l'8000 e
-    il 6500 a.C. secondo alcune cronologie. Confondere premetallurgia e
-    metallurgia sarebbe un errore: qui si parla della prima.
-
+  note_cronologia: 'Non esiste un momento della scoperta: il rame entra nella storia
+    umana per accumulo di gesti ripetuti in luoghi diversi, non per un singolo istante
+    da datare.'
+  controversia: 'Le fonti divergono su cosa contare come "inizio", e la differenza
+    non è solo di data ma di tecnica. Il ciondolo di rame nativo della grotta di Shanidar,
+    in Kurdistan, risale a circa 12.000 anni fa, ma è un minerale raccolto e appena
+    sbozzato, non lavorato con metodo. La lavorazione vera e propria del rame nativo
+    per ricottura e forgiatura a freddo, quella documentata al sito neolitico di Çayönü
+    Tepesi in Anatolia sud-orientale, si colloca alla fine del IX millennio a.C.:
+    è la "premetallurgia", ed è la fase a cui si riferisce la data convenzionale usata
+    qui. La metallurgia vera, cioè la fusione del minerale con il fuoco, è tutt''altra
+    cosa e arriva molto dopo: le prime tracce sicure risalgono al V millennio a.C.,
+    in Serbia e in Iran, con siti come Tell Magzaliya e Çatal Hüyük a testimoniare
+    la diffusione della fusione nel Vicino Oriente fra l''8000 e il 6500 a.C. secondo
+    alcune cronologie. Confondere premetallurgia e metallurgia sarebbe un errore:
+    qui si parla della prima.'
 proprieta:
   gruppo: 11
   periodo: 4
   blocco: d
   categoria: metallo_di_transizione
-  massa_atomica: 63.546
-  configurazione_elettronica: "[Ar] 3d10 4s1"
-  gusci: [2, 8, 18, 1]
+  massa_atomica: 63.5463
+  configurazione_elettronica: '[Ar] 3d10 4s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 1
   punto_fusione_k: 1357.77
-  punto_ebollizione_k: 2835
-  densita: 8.935
-  stati_ossidazione: [1, 2, 3, 4]
-
+  punto_ebollizione_k: 2835.0
+  densita: 8.96
+  stati_ossidazione:
+  - 1
+  - 2
+  - 3
+  - 4
 approfondimento: false
-
 contenuti:
-  hook: Nessuno ha scoperto il rame; l'umanità ci è arrivata per tentativi, in continenti diversi, senza lasciare un nome da ricordare.
+  hook: Nessuno ha scoperto il rame; l'umanità ci è arrivata per tentativi, in continenti
+    diversi, senza lasciare un nome da ricordare.
   beats:
-    - id: incipit_generale
-      sezione: incipit
-      testo: >-
-        Il rame è il primo metallo che l'uomo ha imparato a riconoscere e a
-        lavorare, tanto presto che nessuna scoperta va attribuita a nessuno:
-        non c'era ancora la chimica per definirlo elemento, solo un metallo
-        rossastro più malleabile della pietra.
-      visual: Un ciottolo di rame nativo accanto a una scheggia di selce
-      attendibilita: documentato
-
-    - id: nativo
-      sezione: storia
-      testo: >-
-        Prima che qualcuno imparasse a estrarlo dal minerale, il rame si
-        trovava già pronto in natura, allo stato nativo: pepite e filoni di
-        metallo puro affiorano in superficie in alcune regioni del Vicino
-        Oriente, dell'Anatolia e più tardi delle Americhe. Un oggetto trovato
-        nella grotta di Shanidar, nel Kurdistan iracheno, un piccolo pendaglio
-        ricavato da un frammento di rame non lavorato, risale a circa 12.000
-        anni fa: è la prova più antica che l'uomo abbia raccolto e trattato
-        questo metallo, prima ancora di saperlo estrarre o fondere.
-      visual: Grotta di Shanidar, un pendaglio di rame grezzo tra resti preistorici
-      attendibilita: documentato
-
-    - id: martellamento
-      sezione: storia
-      testo: >-
-        Il passo successivo non richiede fuoco, solo pazienza: martellare a
-        freddo il metallo nativo, e talvolta ricuocerlo per renderlo di nuovo
-        malleabile dopo l'incrudimento, per dargli forma di punteruolo o di
-        piccolo oggetto da taglio. È la tecnica documentata al sito neolitico
-        di Çayönü Tepesi, nell'Anatolia sud-orientale, alla fine del IX
-        millennio a.C.: gli archeologi la chiamano "premetallurgia", perché
-        precede di millenni la vera fusione del minerale e lavora soltanto il
-        rame che si trova già puro in natura.
-      visual: Mani che martellano a freddo un frammento di rame su un'incudine di pietra, sito di Çayönü Tepesi
-      attendibilita: documentato
-
-    - id: fusione
-      sezione: storia
-      testo: >-
-        Il rame diventa davvero un metallo "prodotto", e non solo raccolto,
-        soltanto quando l'uomo impara a estrarlo dal minerale con il calore:
-        un salto tecnico enorme rispetto al semplice martellamento, perché
-        richiede di riconoscere un minerale, non un metallo già bello e
-        pronto, e di controllare un fuoco abbastanza caldo da farlo fondere.
-        Le prime tracce sicure di questa vera metallurgia si datano al V
-        millennio a.C., in siti della Serbia e dell'Iran, con la diffusione
-        della tecnica nel Vicino Oriente testimoniata anche a Tell Magzaliya,
-        in Mesopotamia, e a Çatal Hüyük, in Anatolia. Da lì la metallurgia del
-        rame si diffonde e innesca quella che gli archeologi chiamano età del
-        rame, il periodo di passaggio fra la pietra e il bronzo.
-      visual: Fornace primitiva con crogiolo di minerale di rame fuso
-      attendibilita: documentato
-
-    - id: bronzo
-      sezione: storia
-      testo: >-
-        La svolta successiva arriva quando qualcuno, forse per caso, mescola
-        il rame fuso con lo stagno: nasce il bronzo, più duro e più adatto
-        alle armi e agli attrezzi da taglio del rame puro. È una scoperta così
-        importante da dare il nome a un'intera epoca, l'età del bronzo, che
-        segna in gran parte del mondo antico il passaggio definitivo oltre la
-        sola lavorazione della pietra.
-      visual: Fusione di rame e stagno in un crogiolo, lingotti di bronzo pronti
-      attendibilita: documentato
-
-    - id: diffusione_italia
-      sezione: storia
-      testo: >-
-        In Italia le prime tracce dell'uso del rame arrivano più tardi rispetto
-        al Vicino Oriente, a partire da circa 6.000 anni fa, quando la
-        metallurgia si diffonde verso ovest lungo le rotte commerciali del
-        Mediterraneo e dei valichi alpini, portando con sé sia il metallo sia
-        le tecniche per lavorarlo.
-      visual: Rotte commerciali del Mediterraneo antico su una mappa stilizzata
-      attendibilita: documentato
-
-    - id: caratteristiche_fisiche
-      sezione: caratteristiche
-      testo: >-
-        Il rame è un metallo tenero, malleabile e duttile, capace di essere
-        battuto in fogli sottili o tirato in filo senza spezzarsi: proprio
-        questa lavorabilità, unita a un punto di fusione relativamente basso
-        per un metallo, ne fece il primo scelto dall'uomo. Appena esposta, la
-        sua superficie ha una tipica tonalità rosata-arancione, che si
-        opacizza in un bruno più scuro a contatto con l'aria e vira al verde
-        acqua quando si forma la patina di ossidazione nel tempo.
-      visual: Confronto tra superficie di rame lucido e patina verde ossidata
-      attendibilita: documentato
-
-    - id: conducibilita
-      sezione: caratteristiche
-      testo: >-
-        Fra i metalli comuni, il rame è uno dei migliori conduttori sia di
-        elettricità sia di calore, secondo solo all'argento. È questa
-        proprietà, più che l'estetica, a renderlo insostituibile in tutta
-        l'elettrotecnica moderna: fili, avvolgimenti di motori, circuiti
-        stampati.
-      visual: Bobina di filo di rame avvolta attorno a un nucleo metallico
-      attendibilita: documentato
-
-    - id: chimica
-      sezione: caratteristiche
-      testo: >-
-        Chimicamente il rame appartiene al gruppo dei metalli di transizione e
-        mostra soprattutto due stati di ossidazione, +1 e +2, che danno luogo
-        a composti di colori diversi: i sali rameici, i più comuni, tendono
-        all'azzurro e al verde, come nel solfato di rame o nella patina che
-        ricopre le statue e i tetti esposti alle intemperie per decenni.
-      visual: Cristalli di solfato di rame blu intenso accanto a un tetto patinato di verde
-      attendibilita: documentato
-
-    - id: usi_leghe
-      sezione: usi
-      testo: >-
-        Da millenni il rame si usa in lega più che puro: con lo stagno dà il
-        bronzo, con lo zinco l'ottone, entrambi più duri e resistenti del
-        metallo originario e da sempre impiegati in utensili, monete,
-        strumenti musicali e componenti meccaniche.
-      visual: Monete e strumenti musicali in ottone e bronzo affiancati
-      attendibilita: documentato
-
-    - id: usi_moderni
-      sezione: usi
-      testo: >-
-        Oggi la maggior parte del rame estratto nel mondo finisce in cavi
-        elettrici, impianti idraulici e componenti elettronici, dove la sua
-        conducibilità è insostituibile; una quota rilevante serve anche
-        all'edilizia, per tetti e grondaie che nel tempo si ricoprono della
-        caratteristica patina verde.
-      visual: Fasci di cavi elettrici di rame in un impianto industriale
-      attendibilita: documentato
-
-    - id: presenza_natura
-      sezione: usi
-      testo: >-
-        Il rame si trova in natura sia come metallo nativo sia, più spesso,
-        combinato in minerali come la calcopirite e la malachite; i più
-        grandi giacimenti sfruttati oggi si trovano in Cile, Perù e Stati
-        Uniti, dove enormi miniere a cielo aperto ne estraggono milioni di
-        tonnellate ogni anno.
-      visual: Miniera a cielo aperto di rame con terrazzamenti concentrici
-      attendibilita: documentato
-
-    - id: aneddoto_biologico
-      sezione: curiosita
-      testo: >-
-        Il rame è anche un oligoelemento essenziale per il corpo umano: entra
-        in enzimi legati al metabolismo dell'ossigeno, ed è per questo che il
-        sangue di alcuni molluschi e crostacei, che usano una proteina a base
-        di rame al posto dell'emoglobina, è azzurro invece che rosso.
-      attendibilita: documentato
-
-    - id: aneddoto_nome
-      sezione: curiosita
-      testo: >-
-        Il nome latino "cuprum", da cui deriva il simbolo Cu, viene da "aes
-        cyprium", cioè "metallo di Cipro": l'isola fu per secoli una delle
-        principali fonti di rame del mondo antico, tanto che il metallo stesso
-        prese il nome dal luogo.
-      attendibilita: tradizionale
-
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il rame è il primo metallo che l''uomo ha imparato a riconoscere e a lavorare,
+      tanto presto che nessuna scoperta va attribuita a nessuno: non c''era ancora
+      la chimica per definirlo elemento, solo un metallo rossastro più malleabile
+      della pietra.'
+    visual: Un ciottolo di rame nativo accanto a una scheggia di selce
+    attendibilita: documentato
+  - id: nativo
+    sezione: storia
+    testo: 'Prima che qualcuno imparasse a estrarlo dal minerale, il rame si trovava
+      già pronto in natura, allo stato nativo: pepite e filoni di metallo puro affiorano
+      in superficie in alcune regioni del Vicino Oriente, dell''Anatolia e più tardi
+      delle Americhe. Un oggetto trovato nella grotta di Shanidar, nel Kurdistan iracheno,
+      un piccolo pendaglio ricavato da un frammento di rame non lavorato, risale a
+      circa 12.000 anni fa: è la prova più antica che l''uomo abbia raccolto e trattato
+      questo metallo, prima ancora di saperlo estrarre o fondere.'
+    visual: Grotta di Shanidar, un pendaglio di rame grezzo tra resti preistorici
+    attendibilita: documentato
+  - id: martellamento
+    sezione: storia
+    testo: 'Il passo successivo non richiede fuoco, solo pazienza: martellare a freddo
+      il metallo nativo, e talvolta ricuocerlo per renderlo di nuovo malleabile dopo
+      l''incrudimento, per dargli forma di punteruolo o di piccolo oggetto da taglio.
+      È la tecnica documentata al sito neolitico di Çayönü Tepesi, nell''Anatolia
+      sud-orientale, alla fine del IX millennio a.C.: gli archeologi la chiamano "premetallurgia",
+      perché precede di millenni la vera fusione del minerale e lavora soltanto il
+      rame che si trova già puro in natura.'
+    visual: Mani che martellano a freddo un frammento di rame su un'incudine di pietra,
+      sito di Çayönü Tepesi
+    attendibilita: documentato
+  - id: fusione
+    sezione: storia
+    testo: 'Il rame diventa davvero un metallo "prodotto", e non solo raccolto, soltanto
+      quando l''uomo impara a estrarlo dal minerale con il calore: un salto tecnico
+      enorme rispetto al semplice martellamento, perché richiede di riconoscere un
+      minerale, non un metallo già bello e pronto, e di controllare un fuoco abbastanza
+      caldo da farlo fondere. Le prime tracce sicure di questa vera metallurgia si
+      datano al V millennio a.C., in siti della Serbia e dell''Iran, con la diffusione
+      della tecnica nel Vicino Oriente testimoniata anche a Tell Magzaliya, in Mesopotamia,
+      e a Çatal Hüyük, in Anatolia. Da lì la metallurgia del rame si diffonde e innesca
+      quella che gli archeologi chiamano età del rame, il periodo di passaggio fra
+      la pietra e il bronzo.'
+    visual: Fornace primitiva con crogiolo di minerale di rame fuso
+    attendibilita: documentato
+  - id: bronzo
+    sezione: storia
+    testo: 'La svolta successiva arriva quando qualcuno, forse per caso, mescola il
+      rame fuso con lo stagno: nasce il bronzo, più duro e più adatto alle armi e
+      agli attrezzi da taglio del rame puro. È una scoperta così importante da dare
+      il nome a un''intera epoca, l''età del bronzo, che segna in gran parte del mondo
+      antico il passaggio definitivo oltre la sola lavorazione della pietra.'
+    visual: Fusione di rame e stagno in un crogiolo, lingotti di bronzo pronti
+    attendibilita: documentato
+  - id: diffusione_italia
+    sezione: storia
+    testo: In Italia le prime tracce dell'uso del rame arrivano più tardi rispetto
+      al Vicino Oriente, a partire da circa 6.000 anni fa, quando la metallurgia si
+      diffonde verso ovest lungo le rotte commerciali del Mediterraneo e dei valichi
+      alpini, portando con sé sia il metallo sia le tecniche per lavorarlo.
+    visual: Rotte commerciali del Mediterraneo antico su una mappa stilizzata
+    attendibilita: documentato
+  - id: caratteristiche_fisiche
+    sezione: caratteristiche
+    testo: 'Il rame è un metallo tenero, malleabile e duttile, capace di essere battuto
+      in fogli sottili o tirato in filo senza spezzarsi: proprio questa lavorabilità,
+      unita a un punto di fusione relativamente basso per un metallo, ne fece il primo
+      scelto dall''uomo. Appena esposta, la sua superficie ha una tipica tonalità
+      rosata-arancione, che si opacizza in un bruno più scuro a contatto con l''aria
+      e vira al verde acqua quando si forma la patina di ossidazione nel tempo.'
+    visual: Confronto tra superficie di rame lucido e patina verde ossidata
+    attendibilita: documentato
+  - id: conducibilita
+    sezione: caratteristiche
+    testo: 'Fra i metalli comuni, il rame è uno dei migliori conduttori sia di elettricità
+      sia di calore, secondo solo all''argento. È questa proprietà, più che l''estetica,
+      a renderlo insostituibile in tutta l''elettrotecnica moderna: fili, avvolgimenti
+      di motori, circuiti stampati.'
+    visual: Bobina di filo di rame avvolta attorno a un nucleo metallico
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente il rame appartiene al gruppo dei metalli di transizione e
+      mostra soprattutto due stati di ossidazione, +1 e +2, che danno luogo a composti
+      di colori diversi: i sali rameici, i più comuni, tendono all''azzurro e al verde,
+      come nel solfato di rame o nella patina che ricopre le statue e i tetti esposti
+      alle intemperie per decenni.'
+    visual: Cristalli di solfato di rame blu intenso accanto a un tetto patinato di
+      verde
+    attendibilita: documentato
+  - id: usi_leghe
+    sezione: usi
+    testo: 'Da millenni il rame si usa in lega più che puro: con lo stagno dà il bronzo,
+      con lo zinco l''ottone, entrambi più duri e resistenti del metallo originario
+      e da sempre impiegati in utensili, monete, strumenti musicali e componenti meccaniche.'
+    visual: Monete e strumenti musicali in ottone e bronzo affiancati
+    attendibilita: documentato
+  - id: usi_moderni
+    sezione: usi
+    testo: Oggi la maggior parte del rame estratto nel mondo finisce in cavi elettrici,
+      impianti idraulici e componenti elettronici, dove la sua conducibilità è insostituibile;
+      una quota rilevante serve anche all'edilizia, per tetti e grondaie che nel tempo
+      si ricoprono della caratteristica patina verde.
+    visual: Fasci di cavi elettrici di rame in un impianto industriale
+    attendibilita: documentato
+  - id: presenza_natura
+    sezione: usi
+    testo: Il rame si trova in natura sia come metallo nativo sia, più spesso, combinato
+      in minerali come la calcopirite e la malachite; i più grandi giacimenti sfruttati
+      oggi si trovano in Cile, Perù e Stati Uniti, dove enormi miniere a cielo aperto
+      ne estraggono milioni di tonnellate ogni anno.
+    visual: Miniera a cielo aperto di rame con terrazzamenti concentrici
+    attendibilita: documentato
+  - id: aneddoto_biologico
+    sezione: curiosita
+    testo: 'Il rame è anche un oligoelemento essenziale per il corpo umano: entra
+      in enzimi legati al metabolismo dell''ossigeno, ed è per questo che il sangue
+      di alcuni molluschi e crostacei, che usano una proteina a base di rame al posto
+      dell''emoglobina, è azzurro invece che rosso.'
+    attendibilita: documentato
+  - id: aneddoto_nome
+    sezione: curiosita
+    testo: 'Il nome latino "cuprum", da cui deriva il simbolo Cu, viene da "aes cyprium",
+      cioè "metallo di Cipro": l''isola fu per secoli una delle principali fonti di
+      rame del mondo antico, tanto che il metallo stesso prese il nome dal luogo.'
+    attendibilita: tradizionale
   pronuncia: []
-
 composti_principali:
-  - nome: Solfato di rame
-    formula: CuSO4
-    usi: [fungicidi agricoli, elettrodeposizione, reagente da laboratorio]
-  - nome: Ossido di rame
-    formula: Cu2O
-    usi: [pigmenti, celle solari sperimentali, antivegetativi navali]
-
+- nome: Solfato di rame
+  formula: CuSO4
+  usi:
+  - fungicidi agricoli
+  - elettrodeposizione
+  - reagente da laboratorio
+- nome: Ossido di rame
+  formula: Cu2O
+  usi:
+  - pigmenti
+  - celle solari sperimentali
+  - antivegetativi navali
 fonti:
-  - url: https://en.wikipedia.org/wiki/Copper
-    titolo: "Copper"
-    consultata: 2026-09-05
-  - url: https://www.meccanicanews.com/2022/10/26/il-rame-diecimila-anni-di-utilizzi-diversi/
-    titolo: "Il rame, diecimila anni di utilizzi diversi"
-    consultata: 2026-09-05
-  - url: https://www.campanologia.it/contenuto/pagine/02-ARS/ARS-C01-Archeologia-Fusoria/ARS-C01-09-Archeometallurgia-Rame.htm
-    titolo: "Archeometallurgia del Rame"
-    consultata: 2026-09-05
+- url: https://en.wikipedia.org/wiki/Copper
+  titolo: Copper
+  consultata: 2026-09-05
+- url: https://www.meccanicanews.com/2022/10/26/il-rame-diecimila-anni-di-utilizzi-diversi/
+  titolo: Il rame, diecimila anni di utilizzi diversi
+  consultata: 2026-09-05
+- url: https://www.campanologia.it/contenuto/pagine/02-ARS/ARS-C01-Archeologia-Fusoria/ARS-C01-09-Archeometallurgia-Rame.htm
+  titolo: Archeometallurgia del Rame
+  consultata: 2026-09-05

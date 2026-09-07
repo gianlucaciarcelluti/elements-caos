@@ -1,0 +1,30 @@
+numero_atomico: 10
+simbolo: Ne
+nome: Neon
+nome_en: Neon
+scoperta:
+  anno: 1898
+  anno_stimato: false
+  scopritori:
+  - william-ramsay
+  - morris-travers
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 18
+  periodo: 2
+  blocco: p
+  categoria: gas_nobile
+  massa_atomica: 20.17976
+  configurazione_elettronica: '[He] 2s2 2p6'
+  gusci:
+  - 2
+  - 8
+  punto_fusione_k: 24.56
+  punto_ebollizione_k: 27.104
+  densita: 0.9002
+  stati_ossidazione: []
+approfondimento: false

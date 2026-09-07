@@ -1,0 +1,30 @@
+numero_atomico: 26
+simbolo: Fe
+nome: Ferro
+nome_en: Iron
+scoperta:
+  anno: -5000
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: Ferro meteoritico.
+  controversia: null
+proprieta:
+  gruppo: 8
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 55.8452
+  configurazione_elettronica: '[Ar] 3d6 4s2'
+  gusci:
+  - 2
+  - 8
+  - 14
+  - 2
+  punto_fusione_k: 1811.0
+  punto_ebollizione_k: 3134.0
+  densita: 7.874
+  stati_ossidazione: []
+approfondimento: false

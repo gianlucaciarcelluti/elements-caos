@@ -1,0 +1,35 @@
+numero_atomico: 90
+simbolo: Th
+nome: Torio
+nome_en: Thorium
+scoperta:
+  anno: 1829
+  anno_stimato: false
+  scopritori:
+  - jons-jacob-berzelius
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1914
+  note_cronologia: Isolato in forma pura al 99% nel 1914 da Dirk Lely Jr. e Lodewijk
+    Hamburger.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 7
+  blocco: f
+  categoria: attinide
+  massa_atomica: 232.03774
+  configurazione_elettronica: '[Rn] 6d2 7s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 10
+  - 2
+  punto_fusione_k: 2023.0
+  punto_ebollizione_k: 5061.0
+  densita: 11.724
+  stati_ossidazione: []
+approfondimento: false

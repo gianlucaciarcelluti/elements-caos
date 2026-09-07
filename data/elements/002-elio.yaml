@@ -1,0 +1,29 @@
+numero_atomico: 2
+simbolo: He
+nome: Elio
+nome_en: Helium
+scoperta:
+  anno: 1868
+  anno_stimato: false
+  scopritori:
+  - norman-lockyer
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1895
+  note_cronologia: Isolato sulla Terra nel 1895 da William Ramsay, che ne confermò
+    l'identità.
+  controversia: null
+proprieta:
+  gruppo: 18
+  periodo: 1
+  blocco: s
+  categoria: gas_nobile
+  massa_atomica: 4.0026022
+  configurazione_elettronica: 1s2
+  gusci:
+  - 2
+  punto_fusione_k: 0.95
+  punto_ebollizione_k: 4.222
+  densita: 0.1786
+  stati_ossidazione: []
+approfondimento: false

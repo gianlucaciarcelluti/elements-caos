@@ -1,0 +1,33 @@
+numero_atomico: 70
+simbolo: Yb
+nome: Itterbio
+nome_en: Ytterbium
+scoperta:
+  anno: 1878
+  anno_stimato: false
+  scopritori:
+  - jean-charles-galissard-de-marignac
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1936
+  note_cronologia: Isolato in forma pura nel 1936 da Wilhelm Klemm e Heinrich Bommer.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 173.0451
+  configurazione_elettronica: '[Xe] 4f14 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 8
+  - 2
+  punto_fusione_k: 1097.0
+  punto_ebollizione_k: 1469.0
+  densita: 6.9
+  stati_ossidazione: []
+approfondimento: false

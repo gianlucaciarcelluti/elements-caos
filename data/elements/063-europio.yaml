@@ -1,0 +1,33 @@
+numero_atomico: 63
+simbolo: Eu
+nome: Europio
+nome_en: Europium
+scoperta:
+  anno: 1901
+  anno_stimato: false
+  scopritori:
+  - eugene-anatole-demarcay
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 151.9641
+  configurazione_elettronica: '[Xe] 4f7 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 25
+  - 8
+  - 2
+  punto_fusione_k: 1099.0
+  punto_ebollizione_k: 1802.0
+  densita: 5.264
+  stati_ossidazione: []
+approfondimento: false

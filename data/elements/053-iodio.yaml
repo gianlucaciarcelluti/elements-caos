@@ -1,0 +1,32 @@
+numero_atomico: 53
+simbolo: I
+nome: Iodio
+nome_en: Iodine
+scoperta:
+  anno: 1811
+  anno_stimato: false
+  scopritori:
+  - bernard-courtois
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1811
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 17
+  periodo: 5
+  blocco: p
+  categoria: alogeno
+  massa_atomica: 126.904473
+  configurazione_elettronica: '[Kr] 4d10 5s2 5p5'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 7
+  punto_fusione_k: 386.85
+  punto_ebollizione_k: 457.4
+  densita: 4.933
+  stati_ossidazione: []
+approfondimento: false

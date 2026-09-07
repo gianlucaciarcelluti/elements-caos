@@ -1,0 +1,33 @@
+numero_atomico: 38
+simbolo: Sr
+nome: Stronzio
+nome_en: Strontium
+scoperta:
+  anno: 1790
+  anno_stimato: false
+  scopritori:
+  - adair-crawford
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1808
+  note_cronologia: Isolato come elemento puro solo nel 1808, per elettrolisi, da Humphry
+    Davy.
+  controversia: null
+proprieta:
+  gruppo: 2
+  periodo: 5
+  blocco: s
+  categoria: metallo_alcalino_terroso
+  massa_atomica: 87.621
+  configurazione_elettronica: '[Kr] 5s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 8
+  - 2
+  punto_fusione_k: 1050.0
+  punto_ebollizione_k: 1650.0
+  densita: 2.64
+  stati_ossidazione: []
+approfondimento: false

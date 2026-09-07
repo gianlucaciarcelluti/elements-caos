@@ -9,7 +9,7 @@ epoca: Antichità
 categoria: metallo_di_transizione
 gruppo: 11
 periodo: 4
-posizione_cronologica: 1
+posizione_cronologica: 3
 tempo_lettura: 4
 ha_approfondimento: false
 tags: [elemento, metallo-di-transizione, epoca/antichita, millennio/9aC]
@@ -18,7 +18,7 @@ aliases: [Cu, Copper]
 
 # Rame (Cu)
 
-> [!abstract] 1° elemento scoperto — 9000 a.C.
+> [!abstract] 3° elemento scoperto — 9000 a.C.
 > Nessuno ha scoperto il rame; l'umanità ci è arrivata per tentativi, in continenti diversi, senza lasciare un nome da ricordare.
 
 Il rame è il primo metallo che l'uomo ha imparato a riconoscere e a lavorare, tanto presto che nessuna scoperta va attribuita a nessuno: non c'era ancora la chimica per definirlo elemento, solo un metallo rossastro più malleabile della pietra.
@@ -51,6 +51,12 @@ In Italia le prime tracce dell'uso del rame arrivano più tardi rispetto al Vici
 ```mermaid
 flowchart TB
     C["Rame<br/>Cu · Z=29"]
+    L["Nichel<br/>Ni"]
+    L -->|stesso periodo| C
+    R["Zinco<br/>Zn"]
+    C -->|stesso periodo| R
+    G["Argento<br/>Ag"]
+    C -->|stesso gruppo| G
     style C fill:#f9a825,stroke:#333,stroke-width:2px
 ```
 
@@ -67,7 +73,7 @@ Chimicamente il rame appartiene al gruppo dei metalli di transizione e mostra so
 | Proprietà | Valore |
 |---|---|
 | Numero atomico | 29 |
-| Massa atomica | 63,546 u |
+| Massa atomica | 63,5463 u |
 | Categoria | Metallo di transizione |
 | Gruppo | 11 |
 | Periodo | 4 |
@@ -75,7 +81,7 @@ Chimicamente il rame appartiene al gruppo dei metalli di transizione e mostra so
 | Configurazione elettronica | [Ar] 3d¹⁰ 4s¹ |
 | Punto di fusione | 1084,6 °C |
 | Punto di ebollizione | 2561,9 °C |
-| Densità | 8,935 g/cm³ |
+| Densità | 8,96 g/cm³ |
 | Stati di ossidazione | +1, +2, +3, +4 |
 
 ## Struttura atomica
@@ -120,8 +126,8 @@ Il rame è anche un oligoelemento essenziale per il corpo umano: entra in enzimi
 
 ## Nella cronologia
 
-← *Primo elemento della cronologia*
-→ Successivo: [[Fosforo]] (1669)
+← Precedente: [[Carbonio]] (26000 a.C.)
+→ Successivo: [[Piombo]] (7000 a.C.)
 
 Epoca: [[Antichità]]
 

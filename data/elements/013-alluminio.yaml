@@ -1,0 +1,30 @@
+numero_atomico: 13
+simbolo: Al
+nome: Alluminio
+nome_en: Aluminium
+scoperta:
+  anno: 1746
+  anno_stimato: false
+  scopritori:
+  - johann-heinrich-pott
+  luogo: null
+  epoca: alchimia
+  isolamento_anno: 1825
+  note_cronologia: Isolato nel 1825 da Hans Christian Ørsted.
+  controversia: null
+proprieta:
+  gruppo: 13
+  periodo: 3
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 26.98153857
+  configurazione_elettronica: '[Ne] 3s2 3p1'
+  gusci:
+  - 2
+  - 8
+  - 3
+  punto_fusione_k: 933.47
+  punto_ebollizione_k: 2743.0
+  densita: 2.7
+  stati_ossidazione: []
+approfondimento: false

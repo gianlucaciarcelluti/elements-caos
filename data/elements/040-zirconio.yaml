@@ -1,0 +1,32 @@
+numero_atomico: 40
+simbolo: Zr
+nome: Zirconio
+nome_en: Zirconium
+scoperta:
+  anno: 1789
+  anno_stimato: false
+  scopritori:
+  - martin-heinrich-klaproth
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1824
+  note_cronologia: Isolato nel 1824 da Jöns Jacob Berzelius.
+  controversia: null
+proprieta:
+  gruppo: 4
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 91.2242
+  configurazione_elettronica: '[Kr] 4d2 5s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 10
+  - 2
+  punto_fusione_k: 2128.0
+  punto_ebollizione_k: 4650.0
+  densita: 6.52
+  stati_ossidazione: []
+approfondimento: false

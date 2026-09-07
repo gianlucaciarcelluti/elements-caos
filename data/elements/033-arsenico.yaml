@@ -1,0 +1,30 @@
+numero_atomico: 33
+simbolo: As
+nome: Arsenico
+nome_en: Arsenic
+scoperta:
+  anno: 300
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 15
+  periodo: 4
+  blocco: p
+  categoria: semimetallo
+  massa_atomica: 74.9215956
+  configurazione_elettronica: '[Ar] 3d10 4s2 4p3'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 5
+  punto_fusione_k: null
+  punto_ebollizione_k: null
+  densita: 5.727
+  stati_ossidazione: []
+approfondimento: false

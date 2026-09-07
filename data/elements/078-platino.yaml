@@ -1,0 +1,32 @@
+numero_atomico: 78
+simbolo: Pt
+nome: Platino
+nome_en: Platinum
+scoperta:
+  anno: -600
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: Sud America precolombiana.
+  controversia: null
+proprieta:
+  gruppo: 10
+  periodo: 6
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 195.0849
+  configurazione_elettronica: '[Xe] 4f14 5d9 6s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 17
+  - 1
+  punto_fusione_k: 2041.4
+  punto_ebollizione_k: 4098.0
+  densita: 21.45
+  stati_ossidazione: []
+approfondimento: false

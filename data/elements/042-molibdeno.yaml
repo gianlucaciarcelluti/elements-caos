@@ -1,0 +1,32 @@
+numero_atomico: 42
+simbolo: Mo
+nome: Molibdeno
+nome_en: Molybdenum
+scoperta:
+  anno: 1778
+  anno_stimato: false
+  scopritori:
+  - carl-wilhelm-scheele
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1788
+  note_cronologia: Isolato nel 1788 da Peter Jacob Hjelm.
+  controversia: null
+proprieta:
+  gruppo: 6
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 95.951
+  configurazione_elettronica: '[Kr] 4d5 5s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 13
+  - 1
+  punto_fusione_k: 2896.0
+  punto_ebollizione_k: 4912.0
+  densita: 10.28
+  stati_ossidazione: []
+approfondimento: false

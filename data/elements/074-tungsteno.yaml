@@ -1,0 +1,33 @@
+numero_atomico: 74
+simbolo: W
+nome: Tungsteno
+nome_en: Tungsten
+scoperta:
+  anno: 1781
+  anno_stimato: false
+  scopritori:
+  - carl-wilhelm-scheele
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1783
+  note_cronologia: Isolato nel 1783 dai fratelli Juan José e Fausto Elhuyar.
+  controversia: null
+proprieta:
+  gruppo: 6
+  periodo: 6
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 183.841
+  configurazione_elettronica: '[Xe] 4f14 5d4 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 12
+  - 2
+  punto_fusione_k: 3695.0
+  punto_ebollizione_k: 6203.0
+  densita: 19.25
+  stati_ossidazione: []
+approfondimento: false

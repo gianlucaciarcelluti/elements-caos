@@ -1,0 +1,29 @@
+numero_atomico: 9
+simbolo: F
+nome: Fluoro
+nome_en: Fluorine
+scoperta:
+  anno: 1771
+  anno_stimato: false
+  scopritori:
+  - carl-wilhelm-scheele
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1886
+  note_cronologia: Isolato oltre un secolo dopo, nel 1886, da Henri Moissan.
+  controversia: null
+proprieta:
+  gruppo: 17
+  periodo: 2
+  blocco: p
+  categoria: alogeno
+  massa_atomica: 18.9984031636
+  configurazione_elettronica: '[He] 2s2 2p5'
+  gusci:
+  - 2
+  - 7
+  punto_fusione_k: 53.48
+  punto_ebollizione_k: 85.03
+  densita: 1.696
+  stati_ossidazione: []
+approfondimento: false

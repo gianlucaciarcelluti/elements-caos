@@ -1,0 +1,33 @@
+numero_atomico: 60
+simbolo: Nd
+nome: Neodimio
+nome_en: Neodymium
+scoperta:
+  anno: 1841
+  anno_stimato: false
+  scopritori:
+  - carl-gustaf-mosander
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1901
+  note_cronologia: Isolato in forma pura nel 1901 da Wilhelm Muthmann.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 144.2423
+  configurazione_elettronica: '[Xe] 4f4 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 22
+  - 8
+  - 2
+  punto_fusione_k: 1297.0
+  punto_ebollizione_k: 3347.0
+  densita: 7.01
+  stati_ossidazione: []
+approfondimento: false

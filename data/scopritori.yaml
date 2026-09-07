@@ -1,41 +1,739 @@
-- id: hennig-brand
-  nome: Hennig Brand
-  nato: 1630
-  morto: 1710
-  nazionalita: tedesca
-  elementi: [15]
-
-- id: humphry-davy
-  nome: Humphry Davy
-  nato: 1778
-  morto: 1829
-  nazionalita: britannica
-  elementi: [11, 19, 20, 38, 56, 12]
-
-- id: glenn-seaborg
-  nome: Glenn Seaborg
-  nato: 1912
-  morto: 1999
+- id: adair-crawford
+  nome: Adair Crawford
+  nato: 1748
+  morto: 1795
+  nazionalita: irlandese
+  elementi:
+  - 38
+- id: albert-ghiorso
+  nome: Albert Ghiorso
+  nato: 1915
+  morto: 2010
   nazionalita: statunitense
-  elementi: [94]
-
-- id: edwin-mcmillan
-  nome: Edwin McMillan
-  nato: 1907
-  morto: 1991
-  nazionalita: statunitense
-  elementi: [94]
-
-- id: joseph-kennedy
-  nome: Joseph Kennedy
-  nato: 1916
-  morto: 1957
-  nazionalita: statunitense
-  elementi: [94]
-
+  elementi:
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  ritratto:
+    autore: Unknown authorUnknown author
+    file: albert-ghiorso.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Albert_Ghiorso_ca_1970.jpg
+    licenza: Public domain
+- id: anders-gustaf-ekeberg
+  nome: Anders Gustaf Ekeberg
+  nato: 1767
+  morto: 1813
+  nazionalita: svedese
+  elementi:
+  - 73
+  ritratto:
+    autore: Lithography by unknown artist
+    file: anders-gustaf-ekeberg.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Anders_Gustaf_Ekeberg.jpg
+    licenza: Public domain
+- id: andre-louis-debierne
+  nome: André-Louis Debierne
+  nato: 1874
+  morto: 1949
+  nazionalita: francese
+  elementi:
+  - 89
+  ritratto:
+    autore: Benjamin Couprie
+    file: andre-louis-debierne.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Debierne.jpg
+    licenza: Public domain
+- id: andres-manuel-del-rio
+  nome: Andrés Manuel del Río
+  nato: 1764
+  morto: 1849
+  nazionalita: spagnola
+  elementi:
+  - 23
+  ritratto:
+    autore: Rafael Ximeno y Planes
+    file: andres-manuel-del-rio.png
+    fonte: https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Manuel_del_R%C3%ADo_(Rafael_Ximeno_y_Planes_1825)_retrato.png
+    licenza: Public domain
+- id: antoine-jerome-balard
+  nome: Antoine Jérôme Balard
+  nato: 1802
+  morto: 1876
+  nazionalita: francese
+  elementi:
+  - 35
+  ritratto:
+    autore: ignoto
+    file: antoine-jerome-balard.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Antoine-Jerome_Balard.jpg
+    licenza: Public domain
 - id: arthur-wahl
   nome: Arthur Wahl
   nato: 1917
   morto: 2006
   nazionalita: statunitense
-  elementi: [94]
+  elementi:
+  - 94
+- id: axel-cronstedt
+  nome: Axel Fredrik Cronstedt
+  nato: 1722
+  morto: 1765
+  nazionalita: svedese
+  elementi:
+  - 28
+- id: bernard-courtois
+  nome: Bernard Courtois
+  nato: 1777
+  morto: 1838
+  nazionalita: francese
+  elementi:
+  - 53
+- id: carl-auer-von-welsbach
+  nome: Carl Auer von Welsbach
+  nato: 1858
+  morto: 1929
+  nazionalita: austriaca
+  elementi:
+  - 59
+  - 71
+- id: carl-gustaf-mosander
+  nome: Carl Gustaf Mosander
+  nato: 1797
+  morto: 1858
+  nazionalita: svedese
+  elementi:
+  - 57
+  - 60
+  - 65
+  - 68
+- id: carl-lowig
+  nome: Carl Löwig
+  nato: 1803
+  morto: 1890
+  nazionalita: tedesca
+  elementi:
+  - 35
+- id: carl-wilhelm-scheele
+  nome: Carl Wilhelm Scheele
+  nato: 1742
+  morto: 1786
+  nazionalita: tedesco-svedese
+  elementi:
+  - 8
+  - 9
+  - 17
+  - 42
+  - 56
+  - 74
+- id: carlo-perrier
+  nome: Carlo Perrier
+  nato: 1886
+  morto: 1948
+  nazionalita: italiana
+  elementi:
+  - 43
+- id: charles-coryell
+  nome: Charles Coryell
+  nato: 1912
+  morto: 1971
+  nazionalita: statunitense
+  elementi:
+  - 61
+- id: charles-hatchett
+  nome: Charles Hatchett
+  nato: 1765
+  morto: 1847
+  nazionalita: britannica
+  elementi:
+  - 41
+- id: clemens-winkler
+  nome: Clemens Winkler
+  nato: 1838
+  morto: 1904
+  nazionalita: tedesca
+  elementi:
+  - 32
+- id: dale-corson
+  nome: Dale Corson
+  nato: 1914
+  morto: 2012
+  nazionalita: statunitense
+  elementi:
+  - 85
+  ritratto:
+    autore: NASA
+    file: dale-corson.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Dale_R._Corson,_NACA%27s_Special_Committee_on_Space_Technology.jpg
+    licenza: Public domain
+- id: daniel-rutherford
+  nome: Daniel Rutherford
+  nato: 1749
+  morto: 1819
+  nazionalita: scozzese
+  elementi:
+  - 7
+- id: dirk-coster
+  nome: Dirk Coster
+  nato: 1889
+  morto: 1950
+  nazionalita: olandese
+  elementi:
+  - 72
+  ritratto:
+    autore: Unknown photographer
+    file: dirk-coster.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:DirkCoster1930s.jpg
+    licenza: Public domain
+- id: edwin-mcmillan
+  nome: Edwin McMillan
+  nato: 1907
+  morto: 1991
+  nazionalita: statunitense
+  elementi:
+  - 93
+  - 94
+  ritratto:
+    autore: Nobel Foundation
+    file: edwin-mcmillan.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Edwin_McMillan_Nobel.jpg
+    licenza: Public domain
+- id: emilio-segre
+  nome: Emilio Segrè
+  nato: 1905
+  morto: 1989
+  nazionalita: italo-statunitense
+  elementi:
+  - 43
+  - 85
+- id: eugene-anatole-demarcay
+  nome: Eugène-Anatole Demarçay
+  nato: 1852
+  morto: 1903
+  nazionalita: francese
+  elementi:
+  - 63
+- id: ferdinand-reich
+  nome: Ferdinand Reich
+  nato: 1799
+  morto: 1882
+  nazionalita: tedesca
+  elementi:
+  - 49
+- id: franz-joseph-muller-von-reichenstein
+  nome: Franz-Joseph Müller von Reichenstein
+  nato: 1740
+  morto: 1825
+  nazionalita: austriaca
+  elementi:
+  - 52
+- id: friedrich-ernst-dorn
+  nome: Friedrich Ernst Dorn
+  nato: 1848
+  morto: 1916
+  nazionalita: tedesca
+  elementi:
+  - 86
+- id: friedrich-stromeyer
+  nome: Friedrich Stromeyer
+  nato: 1776
+  morto: 1835
+  nazionalita: tedesca
+  elementi:
+  - 48
+- id: georg-brandt
+  nome: Georg Brandt
+  nato: 1694
+  morto: 1768
+  nazionalita: svedese
+  elementi:
+  - 27
+- id: georg-von-hevesy
+  nome: Georg von Hevesy
+  nato: 1885
+  morto: 1966
+  nazionalita: ungherese
+  elementi:
+  - 72
+- id: georges-urbain
+  nome: Georges Urbain
+  nato: 1872
+  morto: 1938
+  nazionalita: francese
+  elementi:
+  - 71
+- id: georgy-flerov
+  nome: Georgy Flerov
+  nato: 1913
+  morto: 1990
+  nazionalita: sovietica
+  elementi:
+  - 104
+  - 105
+  ritratto:
+    autore: 'Stamp issuing authority - MARKA Publishing &amp; Trading Centre.
+
+
+      Printer - Association GOZNAK of the Ministry of Finance of the Russian Federation'
+    file: georgy-flerov.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:RUSMARKA-1660.jpg
+    licenza: Public domain
+- id: glenn-seaborg
+  nome: Glenn Seaborg
+  nato: 1912
+  morto: 1999
+  nazionalita: statunitense
+  elementi:
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  ritratto:
+    autore: Atomic Energy Commission. (1946 - 01/19/1975)
+    file: glenn-seaborg.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Glenn_Seaborg_-_1964.jpg
+    licenza: Public domain
+- id: gottfried-munzenberg
+  nome: Gottfried Münzenberg
+  nato: 1940
+  morto: 2024
+  nazionalita: tedesca
+  elementi:
+  - 107
+  - 108
+  - 109
+- id: gustav-kirchhoff
+  nome: Gustav Kirchhoff
+  nato: 1824
+  morto: 1887
+  nazionalita: tedesca
+  elementi:
+  - 37
+  - 55
+  ritratto:
+    autore: Unknown authorUnknown author
+    file: gustav-kirchhoff.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Gustav_Robert_Kirchhoff.jpg
+    licenza: Public domain
+- id: hennig-brand
+  nome: Hennig Brand
+  nato: 1630
+  morto: 1710
+  nazionalita: tedesca
+  elementi:
+  - 15
+- id: hieronymus-theodor-richter
+  nome: Hieronymus Theodor Richter
+  nato: 1824
+  morto: 1898
+  nazionalita: tedesca
+  elementi:
+  - 49
+- id: humphry-davy
+  nome: Humphry Davy
+  nato: 1778
+  morto: 1829
+  nazionalita: britannica
+  elementi:
+  - 11
+  - 19
+- id: ida-noddack
+  nome: Ida Noddack
+  nato: 1896
+  morto: 1978
+  nazionalita: tedesca
+  elementi:
+  - 75
+- id: jacob-marinsky
+  nome: Jacob Marinsky
+  nato: 1918
+  morto: 2005
+  nazionalita: statunitense
+  elementi:
+  - 61
+- id: jacques-louis-soret
+  nome: Jacques-Louis Soret
+  nato: 1827
+  morto: 1890
+  nazionalita: svizzera
+  elementi:
+  - 67
+- id: jean-charles-galissard-de-marignac
+  nome: Jean Charles Galissard de Marignac
+  nato: 1817
+  morto: 1894
+  nazionalita: svizzera
+  elementi:
+  - 64
+  - 70
+  ritratto:
+    autore: Unknown authorUnknown author
+    file: jean-charles-galissard-de-marignac.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Galissard_de_Marignac.jpg
+    licenza: Public domain
+- id: johan-august-arfwedson
+  nome: Johan August Arfwedson
+  nato: 1792
+  morto: 1841
+  nazionalita: svedese
+  elementi:
+  - 3
+- id: johan-gadolin
+  nome: Johan Gadolin
+  nato: 1760
+  morto: 1852
+  nazionalita: finlandese
+  elementi:
+  - 39
+  ritratto:
+    autore: Lysippos
+    file: johan-gadolin.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Portrait_j_gadolin.jpg
+    licenza: Public domain
+- id: johan-gottlieb-gahn
+  nome: Johan Gottlieb Gahn
+  nato: 1745
+  morto: 1818
+  nazionalita: svedese
+  elementi:
+  - 34
+- id: johann-carl-heinrich-roloff
+  nome: Johann Carl Heinrich Roloff
+  nato: null
+  morto: null
+  nazionalita: tedesca
+  elementi:
+  - 48
+- id: johann-heinrich-pott
+  nome: Johann Heinrich Pott
+  nato: 1692
+  morto: 1777
+  nazionalita: prussiana
+  elementi:
+  - 13
+  - 14
+  - 20
+- id: jons-jacob-berzelius
+  nome: Jöns Jacob Berzelius
+  nato: 1779
+  morto: 1848
+  nazionalita: svedese
+  elementi:
+  - 34
+  - 90
+- id: joseph-black
+  nome: Joseph Black
+  nato: 1728
+  morto: 1799
+  nazionalita: scozzese
+  elementi:
+  - 12
+- id: joseph-kennedy
+  nome: Joseph Kennedy
+  nato: 1916
+  morto: 1957
+  nazionalita: statunitense
+  elementi:
+  - 94
+- id: karl-ernst-claus
+  nome: Karl Ernst Claus
+  nato: 1796
+  morto: 1864
+  nazionalita: russa
+  elementi:
+  - 44
+- id: karl-samuel-hermann
+  nome: Karl Samuel Leberecht Hermann
+  nato: 1765
+  morto: 1846
+  nazionalita: tedesca
+  elementi:
+  - 48
+- id: kasimir-fajans
+  nome: Kasimir Fajans
+  nato: 1887
+  morto: 1975
+  nazionalita: polacco-statunitense
+  elementi:
+  - 91
+- id: kenneth-mackenzie
+  nome: Kenneth MacKenzie
+  nato: 1912
+  morto: 2002
+  nazionalita: statunitense
+  elementi:
+  - 85
+- id: kenton-moody
+  nome: Kenton Moody
+  nato: null
+  morto: null
+  nazionalita: statunitense
+  elementi:
+  - 114
+  - 115
+  - 116
+  - 117
+  - 118
+- id: kosuke-morita
+  nome: Kosuke Morita
+  nato: 1957
+  morto: null
+  nazionalita: giapponese
+  elementi:
+  - 113
+- id: lars-fredrik-nilson
+  nome: Lars Fredrik Nilson
+  nato: 1840
+  morto: 1899
+  nazionalita: svedese
+  elementi:
+  - 21
+- id: lawrence-glendenin
+  nome: Lawrence Glendenin
+  nato: 1918
+  morto: 2008
+  nazionalita: statunitense
+  elementi:
+  - 61
+  ritratto:
+    autore: ORNL
+    file: lawrence-glendenin.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Larry_E_Glendenin.jpg
+    licenza: Public domain
+- id: lord-rayleigh
+  nome: Lord Rayleigh
+  nato: 1842
+  morto: 1919
+  nazionalita: britannica
+  elementi:
+  - 18
+- id: louis-bernard-guyton-de-morveau
+  nome: Louis-Bernard Guyton de Morveau
+  nato: 1737
+  morto: 1816
+  nazionalita: francese
+  elementi:
+  - 5
+- id: louis-nicolas-vauquelin
+  nome: Louis Nicolas Vauquelin
+  nato: 1763
+  morto: 1829
+  nazionalita: francese
+  elementi:
+  - 4
+  - 24
+- id: marc-delafontaine
+  nome: Marc Delafontaine
+  nato: 1837
+  morto: 1911
+  nazionalita: svizzera
+  elementi:
+  - 67
+- id: marguerite-perey
+  nome: Marguerite Perey
+  nato: 1909
+  morto: 1975
+  nazionalita: francese
+  elementi:
+  - 87
+- id: marie-curie
+  nome: Marie Curie
+  nato: 1867
+  morto: 1934
+  nazionalita: polacca-francese
+  elementi:
+  - 84
+  - 88
+  ritratto:
+    autore: Unknown authorUnknown author
+    file: marie-curie.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Marie_Curie_(1900)_(cropped).jpg
+    licenza: Public domain
+- id: martin-heinrich-klaproth
+  nome: Martin Heinrich Klaproth
+  nato: 1743
+  morto: 1817
+  nazionalita: tedesca
+  elementi:
+  - 40
+  - 58
+  - 92
+- id: morris-travers
+  nome: Morris Travers
+  nato: 1872
+  morto: 1961
+  nazionalita: britannica
+  elementi:
+  - 10
+  - 36
+  - 54
+- id: norman-lockyer
+  nome: Norman Lockyer
+  nato: 1836
+  morto: 1920
+  nazionalita: britannica
+  elementi:
+  - 2
+- id: oswald-helmuth-gohring
+  nome: Oswald Helmuth Göhring
+  nato: 1889
+  morto: 1915
+  nazionalita: tedesca
+  elementi:
+  - 91
+- id: otto-berg
+  nome: Otto Berg
+  nato: 1874
+  morto: 1939
+  nazionalita: tedesca
+  elementi:
+  - 75
+- id: paul-emile-lecoq-de-boisbaudran
+  nome: Paul-Émile Lecoq de Boisbaudran
+  nato: 1838
+  morto: 1912
+  nazionalita: francese
+  elementi:
+  - 31
+  - 62
+  - 66
+  ritratto:
+    autore: Unknown authorUnknown author
+    file: paul-emile-lecoq-de-boisbaudran.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Lecoq_de_Boisbaudran.jpg
+    licenza: Public domain
+- id: per-teodor-cleve
+  nome: Per Teodor Cleve
+  nato: 1840
+  morto: 1905
+  nazionalita: svedese
+  elementi:
+  - 69
+- id: peter-armbruster
+  nome: Peter Armbruster
+  nato: 1931
+  morto: null
+  nazionalita: tedesca
+  elementi:
+  - 107
+  - 108
+  - 109
+- id: philip-abelson
+  nome: Philip Abelson
+  nato: 1913
+  morto: 2004
+  nazionalita: statunitense
+  elementi:
+  - 93
+- id: pierre-curie
+  nome: Pierre Curie
+  nato: 1859
+  morto: 1906
+  nazionalita: francese
+  elementi:
+  - 84
+  - 88
+- id: robert-boyle
+  nome: Robert Boyle
+  nato: 1627
+  morto: 1691
+  nazionalita: anglo-irlandese
+  elementi:
+  - 1
+- id: robert-bunsen
+  nome: Robert Bunsen
+  nato: 1811
+  morto: 1899
+  nazionalita: tedesca
+  elementi:
+  - 37
+  - 55
+- id: sigurd-hofmann
+  nome: Sigurd Hofmann
+  nato: 1944
+  morto: 2022
+  nazionalita: tedesca
+  elementi:
+  - 110
+  - 111
+  - 112
+- id: smithson-tennant
+  nome: Smithson Tennant
+  nato: 1761
+  morto: 1815
+  nazionalita: britannica
+  elementi:
+  - 76
+  - 77
+- id: torbern-bergman
+  nome: Torbern Bergman
+  nato: 1735
+  morto: 1784
+  nazionalita: svedese
+  elementi:
+  - 25
+- id: walter-noddack
+  nome: Walter Noddack
+  nato: 1893
+  morto: 1960
+  nazionalita: tedesca
+  elementi:
+  - 75
+  ritratto:
+    autore: www.uni-bamberg.de
+    file: walter-noddack.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:,%D9%88%D8%A7%D9%84%D8%AA%D8%B1_%D9%86%D8%A7%D8%AF%D8%A7%D9%83_(cropped).jpg
+    licenza: Public domain
+- id: william-crookes
+  nome: William Crookes
+  nato: 1832
+  morto: 1919
+  nazionalita: britannica
+  elementi:
+  - 81
+  ritratto:
+    autore: George Charles Beresford (1864-1938)
+    file: william-crookes.jpg
+    fonte: https://commons.wikimedia.org/wiki/File:Sir_William_Crookes_1906.jpg
+    licenza: Public domain
+- id: william-gregor
+  nome: William Gregor
+  nato: 1761
+  morto: 1817
+  nazionalita: britannica
+  elementi:
+  - 22
+- id: william-hyde-wollaston
+  nome: William Hyde Wollaston
+  nato: 1766
+  morto: 1828
+  nazionalita: britannica
+  elementi:
+  - 45
+  - 46
+- id: william-ramsay
+  nome: William Ramsay
+  nato: 1852
+  morto: 1916
+  nazionalita: scozzese
+  elementi:
+  - 10
+  - 18
+  - 36
+  - 54
+- id: yuri-oganessian
+  nome: Yuri Oganessian
+  nato: 1933
+  morto: null
+  nazionalita: russo-armena
+  elementi:
+  - 114
+  - 115
+  - 116
+  - 117
+  - 118

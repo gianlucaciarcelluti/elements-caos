@@ -1,0 +1,30 @@
+numero_atomico: 17
+simbolo: Cl
+nome: Cloro
+nome_en: Chlorine
+scoperta:
+  anno: 1774
+  anno_stimato: false
+  scopritori:
+  - carl-wilhelm-scheele
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1774
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 17
+  periodo: 3
+  blocco: p
+  categoria: alogeno
+  massa_atomica: 35.45
+  configurazione_elettronica: '[Ne] 3s2 3p5'
+  gusci:
+  - 2
+  - 8
+  - 7
+  punto_fusione_k: 171.6
+  punto_ebollizione_k: 239.11
+  densita: 3.2
+  stati_ossidazione: []
+approfondimento: false

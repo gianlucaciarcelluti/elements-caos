@@ -1,0 +1,32 @@
+numero_atomico: 20
+simbolo: Ca
+nome: Calcio
+nome_en: Calcium
+scoperta:
+  anno: 1739
+  anno_stimato: false
+  scopritori:
+  - johann-heinrich-pott
+  luogo: null
+  epoca: alchimia
+  isolamento_anno: 1808
+  note_cronologia: Isolato come elemento puro solo nel 1808, per elettrolisi, da Humphry
+    Davy.
+  controversia: null
+proprieta:
+  gruppo: 2
+  periodo: 4
+  blocco: s
+  categoria: metallo_alcalino_terroso
+  massa_atomica: 40.0784
+  configurazione_elettronica: '[Ar] 4s2'
+  gusci:
+  - 2
+  - 8
+  - 8
+  - 2
+  punto_fusione_k: 1115.0
+  punto_ebollizione_k: 1757.0
+  densita: 1.55
+  stati_ossidazione: []
+approfondimento: false

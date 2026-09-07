@@ -9,7 +9,7 @@ epoca: L'età dell'elettrolisi
 categoria: metallo_alcalino
 gruppo: 1
 periodo: 3
-posizione_cronologica: 3
+posizione_cronologica: 48
 tempo_lettura: 4
 ha_approfondimento: false
 tags: [elemento, metallo-alcalino, epoca/elettrolisi, secolo/XIX]
@@ -18,7 +18,7 @@ aliases: [Na, Sodium]
 
 # Sodio (Na)
 
-> [!abstract] 3° elemento scoperto — 1807
+> [!abstract] 48° elemento scoperto — 1807
 > Bastarono due giorni di novembre e una pila elettrica perché un chimico isolasse, uno via l'altro, due metalli che nessuno aveva mai visto.
 
 Il sodio è il metallo che reagisce con l'acqua producendo scintille e una fiamma arancione: talmente reattivo che in natura non esiste mai da solo, e per secoli i chimici non sospettarono nemmeno che dentro il comune sale da cucina si nascondesse un metallo.
@@ -49,7 +49,13 @@ Il nome scelto da Davy, sodium, si diffonde nel mondo anglosassone, ma sul conti
 
 ```mermaid
 flowchart TB
+    S["Litio<br/>Li"]
+    S -->|stesso gruppo| C
     C["Sodio<br/>Na · Z=11"]
+    R["Magnesio<br/>Mg"]
+    C -->|stesso periodo| R
+    G["Potassio<br/>K"]
+    C -->|stesso gruppo| G
     style C fill:#f9a825,stroke:#333,stroke-width:2px
 ```
 
@@ -68,7 +74,7 @@ Proprio a causa della sua reattività, il sodio metallico non può essere lascia
 | Proprietà | Valore |
 |---|---|
 | Numero atomico | 11 |
-| Massa atomica | 22,99 u |
+| Massa atomica | 22,989769282 u |
 | Categoria | Metallo alcalino |
 | Gruppo | 1 |
 | Periodo | 3 |
@@ -129,8 +135,8 @@ Fra gli assistenti che Davy assunse nel suo laboratorio ci fu un giovane rilegat
 
 ## Nella cronologia
 
-← Precedente: [[Fosforo]] (1669)
-→ Successivo: [[Plutonio]] (1940)
+← Precedente: [[Rodio]] (1804)
+→ Successivo: [[Potassio]] (1807)
 
 Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Humphry Davy]]
 

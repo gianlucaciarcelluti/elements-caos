@@ -1,0 +1,30 @@
+numero_atomico: 30
+simbolo: Zn
+nome: Zinco
+nome_en: Zinc
+scoperta:
+  anno: -1000
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: Metallurgisti indiani.
+  controversia: null
+proprieta:
+  gruppo: 12
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 65.382
+  configurazione_elettronica: '[Ar] 3d10 4s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 2
+  punto_fusione_k: 692.68
+  punto_ebollizione_k: 1180.0
+  densita: 7.14
+  stati_ossidazione: []
+approfondimento: false

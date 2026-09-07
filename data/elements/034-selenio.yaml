@@ -1,0 +1,32 @@
+numero_atomico: 34
+simbolo: Se
+nome: Selenio
+nome_en: Selenium
+scoperta:
+  anno: 1817
+  anno_stimato: false
+  scopritori:
+  - jons-jacob-berzelius
+  - johan-gottlieb-gahn
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1817
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 16
+  periodo: 4
+  blocco: p
+  categoria: non_metallo
+  massa_atomica: 78.9718
+  configurazione_elettronica: '[Ar] 3d10 4s2 4p4'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 6
+  punto_fusione_k: 494.0
+  punto_ebollizione_k: 958.0
+  densita: 4.81
+  stati_ossidazione: []
+approfondimento: false

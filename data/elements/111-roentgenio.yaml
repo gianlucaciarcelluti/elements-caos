@@ -1,0 +1,34 @@
+numero_atomico: 111
+simbolo: Rg
+nome: Roentgenio
+nome_en: Roentgenium
+scoperta:
+  anno: 1994
+  anno_stimato: false
+  scopritori:
+  - sigurd-hofmann
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 11
+  periodo: 7
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 282.0
+  configurazione_elettronica: '*[Rn] 5f14 6d10 7s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 32
+  - 17
+  - 2
+  punto_fusione_k: null
+  punto_ebollizione_k: null
+  densita: 28.7
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,30 @@
+numero_atomico: 4
+simbolo: Be
+nome: Berillio
+nome_en: Beryllium
+scoperta:
+  anno: 1798
+  anno_stimato: false
+  scopritori:
+  - louis-nicolas-vauquelin
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1828
+  note_cronologia: Isolato nel 1828, indipendentemente, da Friedrich Wöhler e Antoine
+    Bussy.
+  controversia: null
+proprieta:
+  gruppo: 2
+  periodo: 2
+  blocco: s
+  categoria: metallo_alcalino_terroso
+  massa_atomica: 9.01218315
+  configurazione_elettronica: '[He] 2s2'
+  gusci:
+  - 2
+  - 2
+  punto_fusione_k: 1560.0
+  punto_ebollizione_k: 2742.0
+  densita: 1.85
+  stati_ossidazione: []
+approfondimento: false

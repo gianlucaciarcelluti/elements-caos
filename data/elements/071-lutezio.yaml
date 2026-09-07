@@ -1,0 +1,34 @@
+numero_atomico: 71
+simbolo: Lu
+nome: Lutezio
+nome_en: Lutetium
+scoperta:
+  anno: 1907
+  anno_stimato: false
+  scopritori:
+  - georges-urbain
+  - carl-auer-von-welsbach
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: d
+  categoria: lantanide
+  massa_atomica: 174.96681
+  configurazione_elettronica: '[Xe] 4f14 5d1 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 9
+  - 2
+  punto_fusione_k: 1925.0
+  punto_ebollizione_k: 3675.0
+  densita: 9.841
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,29 @@
+numero_atomico: 16
+simbolo: S
+nome: Zolfo
+nome_en: Sulfur
+scoperta:
+  anno: -2000
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 16
+  periodo: 3
+  blocco: p
+  categoria: non_metallo
+  massa_atomica: 32.06
+  configurazione_elettronica: '[Ne] 3s2 3p4'
+  gusci:
+  - 2
+  - 8
+  - 6
+  punto_fusione_k: 388.36
+  punto_ebollizione_k: 717.8
+  densita: 2.07
+  stati_ossidazione: []
+approfondimento: false

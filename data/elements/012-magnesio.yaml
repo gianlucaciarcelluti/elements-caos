@@ -1,0 +1,31 @@
+numero_atomico: 12
+simbolo: Mg
+nome: Magnesio
+nome_en: Magnesium
+scoperta:
+  anno: 1755
+  anno_stimato: false
+  scopritori:
+  - joseph-black
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1808
+  note_cronologia: Isolato come elemento puro solo nel 1808, per elettrolisi, da Humphry
+    Davy.
+  controversia: null
+proprieta:
+  gruppo: 2
+  periodo: 3
+  blocco: s
+  categoria: metallo_alcalino_terroso
+  massa_atomica: 24.305
+  configurazione_elettronica: '[Ne] 3s2'
+  gusci:
+  - 2
+  - 8
+  - 2
+  punto_fusione_k: 923.0
+  punto_ebollizione_k: 1363.0
+  densita: 1.738
+  stati_ossidazione: []
+approfondimento: false

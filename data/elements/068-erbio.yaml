@@ -1,0 +1,33 @@
+numero_atomico: 68
+simbolo: Er
+nome: Erbio
+nome_en: Erbium
+scoperta:
+  anno: 1843
+  anno_stimato: false
+  scopritori:
+  - carl-gustaf-mosander
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1934
+  note_cronologia: Isolato in forma pura nel 1934 da Wilhelm Klemm e Heinrich Bommer.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 167.2593
+  configurazione_elettronica: '[Xe] 4f12 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 30
+  - 8
+  - 2
+  punto_fusione_k: 1802.0
+  punto_ebollizione_k: 3141.0
+  densita: 9.066
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,35 @@
+numero_atomico: 61
+simbolo: Pm
+nome: Promezio
+nome_en: Promethium
+scoperta:
+  anno: 1945
+  anno_stimato: false
+  scopritori:
+  - jacob-marinsky
+  - lawrence-glendenin
+  - charles-coryell
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 145.0
+  configurazione_elettronica: '[Xe] 4f5 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 23
+  - 8
+  - 2
+  punto_fusione_k: 1315.0
+  punto_ebollizione_k: 3273.0
+  densita: 7.26
+  stati_ossidazione: []
+approfondimento: false

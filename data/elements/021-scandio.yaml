@@ -1,0 +1,32 @@
+numero_atomico: 21
+simbolo: Sc
+nome: Scandio
+nome_en: Scandium
+scoperta:
+  anno: 1879
+  anno_stimato: false
+  scopritori:
+  - lars-fredrik-nilson
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1937
+  note_cronologia: Isolato in forma metallica pura nel 1937 da Werner Fischer (non
+    'Willy Fischer').
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 44.9559085
+  configurazione_elettronica: '[Ar] 3d1 4s2'
+  gusci:
+  - 2
+  - 8
+  - 9
+  - 2
+  punto_fusione_k: 1814.0
+  punto_ebollizione_k: 3109.0
+  densita: 2.985
+  stati_ossidazione: []
+approfondimento: false

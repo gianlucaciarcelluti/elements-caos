@@ -15,5 +15,10 @@ Dalla ricerca della pietra filosofale alla prima scoperta documentata. Gli alchi
 | Anno | Elemento | Scopritore |
 |---|---|---|
 | 1669 | [[Fosforo]] (P) | [[Hennig Brand]] |
+| 1671 | [[Idrogeno]] (H) | [[Robert Boyle]] |
+| 1735 | [[Cobalto]] (Co) | [[Georg Brandt]] |
+| 1739 | [[Silicio]] (Si) | [[Johann Heinrich Pott]] |
+| 1739 | [[Calcio]] (Ca) | [[Johann Heinrich Pott]] |
+| 1746 | [[Alluminio]] (Al) | [[Johann Heinrich Pott]] |
 
 ← Torna a [[Cronologia degli elementi]]

@@ -14,6 +14,19 @@ Gli elementi che l'umanità ha incontrato senza sapere di averlo fatto: metalli 
 
 | Anno | Elemento | Scopritore |
 |---|---|---|
+| 40000 a.C. | [[Oro]] (Au) | ignoto |
+| 26000 a.C. | [[Carbonio]] (C) | ignoto |
 | 9000 a.C. | [[Rame]] (Cu) | ignoto |
+| 7000 a.C. | [[Piombo]] (Pb) | ignoto |
+| 5000 a.C. | [[Ferro]] (Fe) | ignoto |
+| 5000 a.C. | [[Argento]] (Ag) | ignoto |
+| 3500 a.C. | [[Stagno]] (Sn) | ignoto |
+| 3000 a.C. | [[Antimonio]] (Sb) | ignoto |
+| 2000 a.C. | [[Zolfo]] (S) | ignoto |
+| 1500 a.C. | [[Mercurio]] (Hg) | ignoto |
+| 1000 a.C. | [[Zinco]] (Zn) | ignoto |
+| 600 a.C. | [[Platino]] (Pt) | ignoto |
+| 300 | [[Arsenico]] (As) | ignoto |
+| 1500 | [[Bismuto]] (Bi) | ignoto |
 
 ← Torna a [[Cronologia degli elementi]]

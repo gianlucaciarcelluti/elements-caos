@@ -9,7 +9,7 @@ epoca: Alchimia e primo moderno
 categoria: non_metallo
 gruppo: 15
 periodo: 3
-posizione_cronologica: 2
+posizione_cronologica: 15
 tempo_lettura: 4
 ha_approfondimento: true
 tags: [elemento, non-metallo, epoca/alchimia, secolo/XVII]
@@ -18,7 +18,7 @@ aliases: [P, Phosphorus]
 
 # Fosforo (P)
 
-> [!abstract] 2° elemento scoperto — 1669
+> [!abstract] 15° elemento scoperto — 1669
 > Un alchimista bollì cinquemila litri di urina cercando l'oro, e trovò una luce che non si spegneva.
 
 Il fosforo è l'elemento che brilla senza bruciare: il primo mai scoperto con una data, un luogo e un nome d'autore certi, in un'epoca in cui gli altri elementi erano ancora materiali senza teoria.
@@ -47,7 +47,15 @@ Come molti alchimisti del suo tempo, Brand tiene il procedimento segreto per ann
 
 ```mermaid
 flowchart TB
+    S["Azoto<br/>N"]
+    S -->|stesso gruppo| C
     C["Fosforo<br/>P · Z=15"]
+    L["Silicio<br/>Si"]
+    L -->|stesso periodo| C
+    R["Zolfo<br/>S"]
+    C -->|stesso periodo| R
+    G["Arsenico<br/>As"]
+    C -->|stesso gruppo| G
     style C fill:#f9a825,stroke:#333,stroke-width:2px
 ```
 
@@ -66,14 +74,14 @@ La particolare instabilità del fosforo bianco dipende dalla sua struttura molec
 | Proprietà | Valore |
 |---|---|
 | Numero atomico | 15 |
-| Massa atomica | 30,974 u |
+| Massa atomica | 30,9737619985 u |
 | Categoria | Non metallo |
 | Gruppo | 15 |
 | Periodo | 3 |
 | Blocco | p |
 | Configurazione elettronica | [Ne] 3s² 3p³ |
-| Punto di fusione | 44,2 °C |
-| Punto di ebollizione | 280,6 °C |
+| Punto di fusione | dato non disponibile |
+| Punto di ebollizione | dato non disponibile |
 | Densità | 1,823 g/cm³ |
 | Stati di ossidazione | -3, -2, -1, +1, +3, +4, +5 |
 
@@ -123,8 +131,8 @@ flowchart LR
 
 ## Nella cronologia
 
-← Precedente: [[Rame]] (9000 a.C.)
-→ Successivo: [[Sodio]] (1807)
+← Precedente: [[Bismuto]] (1500)
+→ Successivo: [[Idrogeno]] (1671)
 
 Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Hennig Brand]]
 

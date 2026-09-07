@@ -1,0 +1,29 @@
+numero_atomico: 8
+simbolo: O
+nome: Ossigeno
+nome_en: Oxygen
+scoperta:
+  anno: 1771
+  anno_stimato: false
+  scopritori:
+  - carl-wilhelm-scheele
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1771
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 16
+  periodo: 2
+  blocco: p
+  categoria: non_metallo
+  massa_atomica: 15.999
+  configurazione_elettronica: '[He] 2s2 2p4'
+  gusci:
+  - 2
+  - 6
+  punto_fusione_k: 54.36
+  punto_ebollizione_k: 90.188
+  densita: 1.429
+  stati_ossidazione: []
+approfondimento: false

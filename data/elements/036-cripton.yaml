@@ -1,0 +1,32 @@
+numero_atomico: 36
+simbolo: Kr
+nome: Cripton
+nome_en: Krypton
+scoperta:
+  anno: 1898
+  anno_stimato: false
+  scopritori:
+  - william-ramsay
+  - morris-travers
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 18
+  periodo: 4
+  blocco: p
+  categoria: gas_nobile
+  massa_atomica: 83.7982
+  configurazione_elettronica: '[Ar] 3d10 4s2 4p6'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 8
+  punto_fusione_k: 115.78
+  punto_ebollizione_k: 119.93
+  densita: 3.749
+  stati_ossidazione: []
+approfondimento: false

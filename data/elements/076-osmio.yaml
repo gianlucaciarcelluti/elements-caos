@@ -1,0 +1,33 @@
+numero_atomico: 76
+simbolo: Os
+nome: Osmio
+nome_en: Osmium
+scoperta:
+  anno: 1803
+  anno_stimato: false
+  scopritori:
+  - smithson-tennant
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1803
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 8
+  periodo: 6
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 190.233
+  configurazione_elettronica: '[Xe] 4f14 5d6 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 14
+  - 2
+  punto_fusione_k: 3306.0
+  punto_ebollizione_k: 5285.0
+  densita: 22.59
+  stati_ossidazione: []
+approfondimento: false

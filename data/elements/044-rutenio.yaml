@@ -1,0 +1,32 @@
+numero_atomico: 44
+simbolo: Ru
+nome: Rutenio
+nome_en: Ruthenium
+scoperta:
+  anno: 1844
+  anno_stimato: false
+  scopritori:
+  - karl-ernst-claus
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1844
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 8
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 101.072
+  configurazione_elettronica: '[Kr] 4d7 5s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 15
+  - 1
+  punto_fusione_k: 2607.0
+  punto_ebollizione_k: 4423.0
+  densita: 12.45
+  stati_ossidazione: []
+approfondimento: false

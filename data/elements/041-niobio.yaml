@@ -1,0 +1,32 @@
+numero_atomico: 41
+simbolo: Nb
+nome: Niobio
+nome_en: Niobium
+scoperta:
+  anno: 1801
+  anno_stimato: false
+  scopritori:
+  - charles-hatchett
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1864
+  note_cronologia: Isolato nel 1864 da Christian Wilhelm Blomstrand.
+  controversia: null
+proprieta:
+  gruppo: 5
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 92.906372
+  configurazione_elettronica: '[Kr] 4d4 5s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 12
+  - 1
+  punto_fusione_k: 2750.0
+  punto_ebollizione_k: 5017.0
+  densita: 8.57
+  stati_ossidazione: []
+approfondimento: false

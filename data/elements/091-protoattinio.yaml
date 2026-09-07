@@ -1,0 +1,35 @@
+numero_atomico: 91
+simbolo: Pa
+nome: Protoattinio
+nome_en: Protactinium
+scoperta:
+  anno: 1913
+  anno_stimato: false
+  scopritori:
+  - kasimir-fajans
+  - oswald-helmuth-gohring
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 7
+  blocco: f
+  categoria: attinide
+  massa_atomica: 231.035882
+  configurazione_elettronica: '[Rn] 5f2 6d1 7s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 20
+  - 9
+  - 2
+  punto_fusione_k: 1841.0
+  punto_ebollizione_k: 4300.0
+  densita: 15.37
+  stati_ossidazione: []
+approfondimento: false

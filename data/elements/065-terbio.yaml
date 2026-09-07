@@ -1,0 +1,33 @@
+numero_atomico: 65
+simbolo: Tb
+nome: Terbio
+nome_en: Terbium
+scoperta:
+  anno: 1843
+  anno_stimato: false
+  scopritori:
+  - carl-gustaf-mosander
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1937
+  note_cronologia: Isolato in forma pura nel 1937 da Wilhelm Klemm e Heinrich Bommer.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 158.925352
+  configurazione_elettronica: '[Xe] 4f9 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 27
+  - 8
+  - 2
+  punto_fusione_k: 1629.0
+  punto_ebollizione_k: 3396.0
+  densita: 8.23
+  stati_ossidazione: []
+approfondimento: false

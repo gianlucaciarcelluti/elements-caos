@@ -1,0 +1,31 @@
+numero_atomico: 51
+simbolo: Sb
+nome: Antimonio
+nome_en: Antimony
+scoperta:
+  anno: -3000
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 15
+  periodo: 5
+  blocco: p
+  categoria: semimetallo
+  massa_atomica: 121.7601
+  configurazione_elettronica: '[Kr] 4d10 5s2 5p3'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 5
+  punto_fusione_k: 903.78
+  punto_ebollizione_k: 1908.0
+  densita: 6.697
+  stati_ossidazione: []
+approfondimento: false

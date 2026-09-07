@@ -1,0 +1,32 @@
+numero_atomico: 82
+simbolo: Pb
+nome: Piombo
+nome_en: Lead
+scoperta:
+  anno: -7000
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 14
+  periodo: 6
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 207.21
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s2 6p2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 4
+  punto_fusione_k: 600.61
+  punto_ebollizione_k: 2022.0
+  densita: 11.34
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,33 @@
+numero_atomico: 64
+simbolo: Gd
+nome: Gadolinio
+nome_en: Gadolinium
+scoperta:
+  anno: 1880
+  anno_stimato: false
+  scopritori:
+  - jean-charles-galissard-de-marignac
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 157.253
+  configurazione_elettronica: '[Xe] 4f7 5d1 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 25
+  - 9
+  - 2
+  punto_fusione_k: 1585.0
+  punto_ebollizione_k: 3273.0
+  densita: 7.9
+  stati_ossidazione: []
+approfondimento: false

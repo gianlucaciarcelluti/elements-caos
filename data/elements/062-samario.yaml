@@ -1,0 +1,33 @@
+numero_atomico: 62
+simbolo: Sm
+nome: Samario
+nome_en: Samarium
+scoperta:
+  anno: 1879
+  anno_stimato: false
+  scopritori:
+  - paul-emile-lecoq-de-boisbaudran
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 150.362
+  configurazione_elettronica: '[Xe] 4f6 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 24
+  - 8
+  - 2
+  punto_fusione_k: 1345.0
+  punto_ebollizione_k: 2173.0
+  densita: 7.52
+  stati_ossidazione: []
+approfondimento: false

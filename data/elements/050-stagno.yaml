@@ -1,0 +1,31 @@
+numero_atomico: 50
+simbolo: Sn
+nome: Stagno
+nome_en: Tin
+scoperta:
+  anno: -3500
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 14
+  periodo: 5
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 118.7107
+  configurazione_elettronica: '[Kr] 4d10 5s2 5p2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 4
+  punto_fusione_k: 505.08
+  punto_ebollizione_k: 2875.0
+  densita: 7.365
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,34 @@
+numero_atomico: 55
+simbolo: Cs
+nome: Cesio
+nome_en: Cesium
+scoperta:
+  anno: 1860
+  anno_stimato: false
+  scopritori:
+  - gustav-kirchhoff
+  - robert-bunsen
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1882
+  note_cronologia: Isolato in forma metallica pura nel 1882 da Carl Setterberg.
+  controversia: null
+proprieta:
+  gruppo: 1
+  periodo: 6
+  blocco: s
+  categoria: metallo_alcalino
+  massa_atomica: 132.905451966
+  configurazione_elettronica: '[Xe] 6s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 8
+  - 1
+  punto_fusione_k: 301.7
+  punto_ebollizione_k: 944.0
+  densita: 1.93
+  stati_ossidazione: []
+approfondimento: false

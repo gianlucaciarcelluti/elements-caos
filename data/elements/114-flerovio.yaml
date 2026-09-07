@@ -1,0 +1,35 @@
+numero_atomico: 114
+simbolo: Fl
+nome: Flerovio
+nome_en: Flerovium
+scoperta:
+  anno: 2006
+  anno_stimato: false
+  scopritori:
+  - yuri-oganessian
+  - kenton-moody
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: Squadre congiunte russe (Dubna) e americane (Livermore).
+  controversia: null
+proprieta:
+  gruppo: 14
+  periodo: 7
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 289.0
+  configurazione_elettronica: '*[Rn] 5f14 6d10 7s2 7p2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 32
+  - 18
+  - 4
+  punto_fusione_k: 340.0
+  punto_ebollizione_k: 420.0
+  densita: 14.0
+  stati_ossidazione: []
+approfondimento: false

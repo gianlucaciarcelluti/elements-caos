@@ -1,0 +1,31 @@
+numero_atomico: 28
+simbolo: Ni
+nome: Nichel
+nome_en: Nickel
+scoperta:
+  anno: 1751
+  anno_stimato: false
+  scopritori:
+  - axel-cronstedt
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1751
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 10
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 58.69344
+  configurazione_elettronica: '[Ar] 3d8 4s2'
+  gusci:
+  - 2
+  - 8
+  - 16
+  - 2
+  punto_fusione_k: 1728.0
+  punto_ebollizione_k: 3003.0
+  densita: 8.908
+  stati_ossidazione: []
+approfondimento: false

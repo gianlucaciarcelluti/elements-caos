@@ -1,0 +1,34 @@
+numero_atomico: 84
+simbolo: Po
+nome: Polonio
+nome_en: Polonium
+scoperta:
+  anno: 1898
+  anno_stimato: false
+  scopritori:
+  - pierre-curie
+  - marie-curie
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 16
+  periodo: 6
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 209.0
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s2 6p4'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 6
+  punto_fusione_k: 527.0
+  punto_ebollizione_k: 1235.0
+  densita: 9.196
+  stati_ossidazione: []
+approfondimento: false

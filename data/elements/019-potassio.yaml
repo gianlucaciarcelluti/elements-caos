@@ -1,0 +1,33 @@
+numero_atomico: 19
+simbolo: K
+nome: Potassio
+nome_en: Potassium
+scoperta:
+  anno: 1807
+  anno_stimato: false
+  scopritori:
+  - humphry-davy
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1807
+  note_cronologia: 'Georg Ernst Stahl distinse chimicamente il sale di potassio già
+    nel 1702, ma non isolò l''elemento: la scoperta riconosciuta è l''elettrolisi
+    di Davy.'
+  controversia: null
+proprieta:
+  gruppo: 1
+  periodo: 4
+  blocco: s
+  categoria: metallo_alcalino
+  massa_atomica: 39.09831
+  configurazione_elettronica: '[Ar] 4s1'
+  gusci:
+  - 2
+  - 8
+  - 8
+  - 1
+  punto_fusione_k: 336.7
+  punto_ebollizione_k: 1032.0
+  densita: 0.862
+  stati_ossidazione: []
+approfondimento: false

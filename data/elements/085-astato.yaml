@@ -1,0 +1,35 @@
+numero_atomico: 85
+simbolo: At
+nome: Astato
+nome_en: Astatine
+scoperta:
+  anno: 1940
+  anno_stimato: false
+  scopritori:
+  - dale-corson
+  - kenneth-mackenzie
+  - emilio-segre
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 17
+  periodo: 6
+  blocco: p
+  categoria: alogeno
+  massa_atomica: 210.0
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s2 6p5'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 7
+  punto_fusione_k: 575.0
+  punto_ebollizione_k: 610.0
+  densita: 6.35
+  stati_ossidazione: []
+approfondimento: false

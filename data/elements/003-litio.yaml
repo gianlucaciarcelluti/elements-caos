@@ -1,0 +1,29 @@
+numero_atomico: 3
+simbolo: Li
+nome: Litio
+nome_en: Lithium
+scoperta:
+  anno: 1817
+  anno_stimato: false
+  scopritori:
+  - johan-august-arfwedson
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1821
+  note_cronologia: Isolato in forma metallica nel 1821 da William Thomas Brande.
+  controversia: null
+proprieta:
+  gruppo: 1
+  periodo: 2
+  blocco: s
+  categoria: metallo_alcalino
+  massa_atomica: 6.94
+  configurazione_elettronica: '[He] 2s1'
+  gusci:
+  - 2
+  - 1
+  punto_fusione_k: 453.65
+  punto_ebollizione_k: 1603.0
+  densita: 0.534
+  stati_ossidazione: []
+approfondimento: false

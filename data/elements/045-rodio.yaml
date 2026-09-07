@@ -1,0 +1,32 @@
+numero_atomico: 45
+simbolo: Rh
+nome: Rodio
+nome_en: Rhodium
+scoperta:
+  anno: 1804
+  anno_stimato: false
+  scopritori:
+  - william-hyde-wollaston
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1804
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 9
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 102.905502
+  configurazione_elettronica: '[Kr] 4d8 5s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 16
+  - 1
+  punto_fusione_k: 2237.0
+  punto_ebollizione_k: 3968.0
+  densita: 12.41
+  stati_ossidazione: []
+approfondimento: false

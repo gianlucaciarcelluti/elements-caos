@@ -1,0 +1,34 @@
+numero_atomico: 89
+simbolo: Ac
+nome: Attinio
+nome_en: Actinium
+scoperta:
+  anno: 1899
+  anno_stimato: false
+  scopritori:
+  - andre-louis-debierne
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 7
+  blocco: f
+  categoria: attinide
+  massa_atomica: 227.0
+  configurazione_elettronica: '[Rn] 6d1 7s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 9
+  - 2
+  punto_fusione_k: 1500.0
+  punto_ebollizione_k: 3500.0
+  densita: 10.0
+  stati_ossidazione: []
+approfondimento: false

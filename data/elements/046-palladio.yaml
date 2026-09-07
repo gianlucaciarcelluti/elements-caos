@@ -1,0 +1,31 @@
+numero_atomico: 46
+simbolo: Pd
+nome: Palladio
+nome_en: Palladium
+scoperta:
+  anno: 1802
+  anno_stimato: false
+  scopritori:
+  - william-hyde-wollaston
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1802
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 10
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 106.421
+  configurazione_elettronica: '[Kr] 4d10'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  punto_fusione_k: 1828.05
+  punto_ebollizione_k: 3236.0
+  densita: 12.023
+  stati_ossidazione: []
+approfondimento: false

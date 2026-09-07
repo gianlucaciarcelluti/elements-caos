@@ -1,0 +1,33 @@
+numero_atomico: 37
+simbolo: Rb
+nome: Rubidio
+nome_en: Rubidium
+scoperta:
+  anno: 1861
+  anno_stimato: false
+  scopritori:
+  - gustav-kirchhoff
+  - robert-bunsen
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1863
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 1
+  periodo: 5
+  blocco: s
+  categoria: metallo_alcalino
+  massa_atomica: 85.46783
+  configurazione_elettronica: '[Kr] 5s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 8
+  - 1
+  punto_fusione_k: 312.45
+  punto_ebollizione_k: 961.0
+  densita: 1.532
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,32 @@
+numero_atomico: 39
+simbolo: Y
+nome: Ittrio
+nome_en: Yttrium
+scoperta:
+  anno: 1794
+  anno_stimato: false
+  scopritori:
+  - johan-gadolin
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1843
+  note_cronologia: Isolato nel 1843 da Heinrich Rose.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 88.905842
+  configurazione_elettronica: '[Kr] 4d1 5s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 9
+  - 2
+  punto_fusione_k: 1799.0
+  punto_ebollizione_k: 3203.0
+  densita: 4.472
+  stati_ossidazione: []
+approfondimento: false

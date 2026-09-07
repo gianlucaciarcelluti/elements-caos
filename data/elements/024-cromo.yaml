@@ -1,0 +1,31 @@
+numero_atomico: 24
+simbolo: Cr
+nome: Cromo
+nome_en: Chromium
+scoperta:
+  anno: 1797
+  anno_stimato: false
+  scopritori:
+  - louis-nicolas-vauquelin
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1798
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 6
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 51.99616
+  configurazione_elettronica: '[Ar] 3d5 4s1'
+  gusci:
+  - 2
+  - 8
+  - 13
+  - 1
+  punto_fusione_k: 2180.0
+  punto_ebollizione_k: 2944.0
+  densita: 7.19
+  stati_ossidazione: []
+approfondimento: false

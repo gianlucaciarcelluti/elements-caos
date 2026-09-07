@@ -1,0 +1,33 @@
+numero_atomico: 57
+simbolo: La
+nome: Lantanio
+nome_en: Lanthanum
+scoperta:
+  anno: 1838
+  anno_stimato: false
+  scopritori:
+  - carl-gustaf-mosander
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1904
+  note_cronologia: Isolato in forma pura nel 1904 da Wilhelm Muthmann e Leopold Weiss.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 138.905477
+  configurazione_elettronica: '[Xe] 5d16s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 9
+  - 2
+  punto_fusione_k: 1193.0
+  punto_ebollizione_k: 3737.0
+  densita: 6.162
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,35 @@
+numero_atomico: 69
+simbolo: Tm
+nome: Tulio
+nome_en: Thulium
+scoperta:
+  anno: 1879
+  anno_stimato: false
+  scopritori:
+  - per-teodor-cleve
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1911
+  note_cronologia: 'La fonte attribuiva l''isolamento del 1911 a ''H. Nilson'', ma
+    la verifica indica Charles James come primo isolatore del tulio puro: lo scopritore
+    riconosciuto qui è solo Cleve, autore dell''osservazione del 1879.'
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 168.934222
+  configurazione_elettronica: '[Xe] 4f13 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 31
+  - 8
+  - 2
+  punto_fusione_k: 1818.0
+  punto_ebollizione_k: 2223.0
+  densita: 9.32
+  stati_ossidazione: []
+approfondimento: false

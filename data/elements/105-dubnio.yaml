@@ -1,0 +1,35 @@
+numero_atomico: 105
+simbolo: Db
+nome: Dubnio
+nome_en: Dubnium
+scoperta:
+  anno: 1970
+  anno_stimato: false
+  scopritori:
+  - georgy-flerov
+  - albert-ghiorso
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 5
+  periodo: 7
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 268.0
+  configurazione_elettronica: '*[Rn] 5f14 6d3 7s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 32
+  - 11
+  - 2
+  punto_fusione_k: null
+  punto_ebollizione_k: null
+  densita: 29.3
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,32 @@
+numero_atomico: 79
+simbolo: Au
+nome: Oro
+nome_en: Gold
+scoperta:
+  anno: -40000
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: Oro nativo rinvenuto in grotte del Paleolitico superiore.
+  controversia: null
+proprieta:
+  gruppo: 11
+  periodo: 6
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 196.9665695
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 1
+  punto_fusione_k: 1337.33
+  punto_ebollizione_k: 3243.0
+  densita: 19.3
+  stati_ossidazione: []
+approfondimento: false

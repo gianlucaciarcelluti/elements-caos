@@ -1,0 +1,31 @@
+numero_atomico: 18
+simbolo: Ar
+nome: Argon
+nome_en: Argon
+scoperta:
+  anno: 1894
+  anno_stimato: false
+  scopritori:
+  - william-ramsay
+  - lord-rayleigh
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 18
+  periodo: 3
+  blocco: p
+  categoria: gas_nobile
+  massa_atomica: 39.9481
+  configurazione_elettronica: '[Ne] 3s2 3p6'
+  gusci:
+  - 2
+  - 8
+  - 8
+  punto_fusione_k: 83.81
+  punto_ebollizione_k: 87.302
+  densita: 1.784
+  stati_ossidazione: []
+approfondimento: false

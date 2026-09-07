@@ -1,0 +1,33 @@
+numero_atomico: 86
+simbolo: Rn
+nome: Radon
+nome_en: Radon
+scoperta:
+  anno: 1900
+  anno_stimato: false
+  scopritori:
+  - friedrich-ernst-dorn
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 18
+  periodo: 6
+  blocco: p
+  categoria: gas_nobile
+  massa_atomica: 222.0
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s2 6p6'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 8
+  punto_fusione_k: 202.0
+  punto_ebollizione_k: 211.5
+  densita: 9.73
+  stati_ossidazione: []
+approfondimento: false

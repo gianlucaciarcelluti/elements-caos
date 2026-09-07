@@ -1,0 +1,33 @@
+numero_atomico: 73
+simbolo: Ta
+nome: Tantalio
+nome_en: Tantalum
+scoperta:
+  anno: 1802
+  anno_stimato: false
+  scopritori:
+  - anders-gustaf-ekeberg
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1864
+  note_cronologia: Isolato nel 1864 da Jean Charles Galissard de Marignac.
+  controversia: null
+proprieta:
+  gruppo: 5
+  periodo: 6
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 180.947882
+  configurazione_elettronica: '[Xe] 4f14 5d3 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 11
+  - 2
+  punto_fusione_k: 3290.0
+  punto_ebollizione_k: 5731.0
+  densita: 16.69
+  stati_ossidazione: []
+approfondimento: false

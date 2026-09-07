@@ -1,0 +1,34 @@
+numero_atomico: 58
+simbolo: Ce
+nome: Cerio
+nome_en: Cerium
+scoperta:
+  anno: 1803
+  anno_stimato: false
+  scopritori:
+  - martin-heinrich-klaproth
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1875
+  note_cronologia: Isolato in forma pura nel 1875 da William Francis Hillebrand e
+    Thomas Norton.
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 6
+  blocco: f
+  categoria: lantanide
+  massa_atomica: 140.1161
+  configurazione_elettronica: '[Xe] 4f1 5d1 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 19
+  - 9
+  - 2
+  punto_fusione_k: 1068.0
+  punto_ebollizione_k: 3716.0
+  densita: 6.77
+  stati_ossidazione: []
+approfondimento: false

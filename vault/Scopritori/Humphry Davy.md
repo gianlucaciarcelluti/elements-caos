@@ -13,5 +13,6 @@ Britannica, 1778–1829.
 ## Elementi scoperti
 
 - [[Sodio]] (Na) — 1807
+- [[Potassio]] (K) — 1807
 
 ← Torna a [[Cronologia degli elementi]]

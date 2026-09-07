@@ -1,0 +1,31 @@
+numero_atomico: 23
+simbolo: V
+nome: Vanadio
+nome_en: Vanadium
+scoperta:
+  anno: 1801
+  anno_stimato: false
+  scopritori:
+  - andres-manuel-del-rio
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1867
+  note_cronologia: Isolato in forma pura nel 1867 da Henry Enfield Roscoe.
+  controversia: null
+proprieta:
+  gruppo: 5
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 50.94151
+  configurazione_elettronica: '[Ar] 3d3 4s2'
+  gusci:
+  - 2
+  - 8
+  - 11
+  - 2
+  punto_fusione_k: 2183.0
+  punto_ebollizione_k: 3680.0
+  densita: 6.0
+  stati_ossidazione: []
+approfondimento: false

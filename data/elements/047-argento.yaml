@@ -1,0 +1,31 @@
+numero_atomico: 47
+simbolo: Ag
+nome: Argento
+nome_en: Silver
+scoperta:
+  anno: -5000
+  anno_stimato: true
+  scopritori: []
+  luogo: null
+  epoca: antichita
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 11
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 107.86822
+  configurazione_elettronica: '[Kr] 4d10 5s1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 1
+  punto_fusione_k: 1234.93
+  punto_ebollizione_k: 2435.0
+  densita: 10.49
+  stati_ossidazione: []
+approfondimento: false

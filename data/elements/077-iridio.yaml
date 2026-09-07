@@ -1,0 +1,33 @@
+numero_atomico: 77
+simbolo: Ir
+nome: Iridio
+nome_en: Iridium
+scoperta:
+  anno: 1803
+  anno_stimato: false
+  scopritori:
+  - smithson-tennant
+  luogo: null
+  epoca: elettrolisi
+  isolamento_anno: 1803
+  note_cronologia: Osservato nello stesso anno anche da Hippolyte-Victor Collet-Descotils.
+  controversia: null
+proprieta:
+  gruppo: 9
+  periodo: 6
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 192.2173
+  configurazione_elettronica: '[Xe] 4f14 5d7 6s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 15
+  - 2
+  punto_fusione_k: 2719.0
+  punto_ebollizione_k: 4403.0
+  densita: 22.56
+  stati_ossidazione: []
+approfondimento: false

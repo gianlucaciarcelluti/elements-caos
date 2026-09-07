@@ -1,0 +1,31 @@
+numero_atomico: 27
+simbolo: Co
+nome: Cobalto
+nome_en: Cobalt
+scoperta:
+  anno: 1735
+  anno_stimato: false
+  scopritori:
+  - georg-brandt
+  luogo: null
+  epoca: alchimia
+  isolamento_anno: 1735
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 9
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 58.9331944
+  configurazione_elettronica: '[Ar] 3d7 4s2'
+  gusci:
+  - 2
+  - 8
+  - 15
+  - 2
+  punto_fusione_k: 1768.0
+  punto_ebollizione_k: 3200.0
+  densita: 8.9
+  stati_ossidazione: []
+approfondimento: false

@@ -1,0 +1,33 @@
+numero_atomico: 81
+simbolo: Tl
+nome: Tallio
+nome_en: Thallium
+scoperta:
+  anno: 1861
+  anno_stimato: false
+  scopritori:
+  - william-crookes
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1862
+  note_cronologia: Isolato indipendentemente nel 1862 anche da Claude-Auguste Lamy.
+  controversia: null
+proprieta:
+  gruppo: 13
+  periodo: 6
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 204.38
+  configurazione_elettronica: '[Xe] 4f14 5d10 6s2 6p1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 3
+  punto_fusione_k: 577.0
+  punto_ebollizione_k: 1746.0
+  densita: 11.85
+  stati_ossidazione: []
+approfondimento: false

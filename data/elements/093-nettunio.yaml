@@ -1,0 +1,35 @@
+numero_atomico: 93
+simbolo: Np
+nome: Nettunio
+nome_en: Neptunium
+scoperta:
+  anno: 1940
+  anno_stimato: false
+  scopritori:
+  - edwin-mcmillan
+  - philip-abelson
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 7
+  blocco: f
+  categoria: attinide
+  massa_atomica: 237.0
+  configurazione_elettronica: '[Rn] 5f4 6d1 7s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 22
+  - 9
+  - 2
+  punto_fusione_k: 912.0
+  punto_ebollizione_k: 4447.0
+  densita: 20.45
+  stati_ossidazione: []
+approfondimento: false

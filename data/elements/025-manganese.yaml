@@ -1,0 +1,31 @@
+numero_atomico: 25
+simbolo: Mn
+nome: Manganese
+nome_en: Manganese
+scoperta:
+  anno: 1770
+  anno_stimato: false
+  scopritori:
+  - torbern-bergman
+  luogo: null
+  epoca: pneumatica
+  isolamento_anno: 1774
+  note_cronologia: Isolato nel 1774 da Johan Gottlieb Gahn.
+  controversia: null
+proprieta:
+  gruppo: 7
+  periodo: 4
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 54.9380443
+  configurazione_elettronica: '[Ar] 3d5 4s2'
+  gusci:
+  - 2
+  - 8
+  - 13
+  - 2
+  punto_fusione_k: 1519.0
+  punto_ebollizione_k: 2334.0
+  densita: 7.21
+  stati_ossidazione: []
+approfondimento: false

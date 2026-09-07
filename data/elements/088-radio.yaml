@@ -1,0 +1,35 @@
+numero_atomico: 88
+simbolo: Ra
+nome: Radio
+nome_en: Radium
+scoperta:
+  anno: 1898
+  anno_stimato: false
+  scopritori:
+  - pierre-curie
+  - marie-curie
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 2
+  periodo: 7
+  blocco: s
+  categoria: metallo_alcalino_terroso
+  massa_atomica: 226.0
+  configurazione_elettronica: '[Rn] 7s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 18
+  - 8
+  - 2
+  punto_fusione_k: 1233.0
+  punto_ebollizione_k: 2010.0
+  densita: 5.5
+  stati_ossidazione: []
+approfondimento: false

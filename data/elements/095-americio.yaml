@@ -1,0 +1,34 @@
+numero_atomico: 95
+simbolo: Am
+nome: Americio
+nome_en: Americium
+scoperta:
+  anno: 1944
+  anno_stimato: false
+  scopritori:
+  - glenn-seaborg
+  luogo: null
+  epoca: nucleare
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 3
+  periodo: 7
+  blocco: f
+  categoria: attinide
+  massa_atomica: 243.0
+  configurazione_elettronica: '[Rn] 5f7 7s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 32
+  - 25
+  - 8
+  - 2
+  punto_fusione_k: 1449.0
+  punto_ebollizione_k: 2880.0
+  densita: 12.0
+  stati_ossidazione: []
+approfondimento: false

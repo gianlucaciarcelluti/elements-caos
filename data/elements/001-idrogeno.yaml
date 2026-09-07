@@ -1,0 +1,28 @@
+numero_atomico: 1
+simbolo: H
+nome: Idrogeno
+nome_en: Hydrogen
+scoperta:
+  anno: 1671
+  anno_stimato: false
+  scopritori:
+  - robert-boyle
+  luogo: null
+  epoca: alchimia
+  isolamento_anno: 1671
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 1
+  periodo: 1
+  blocco: s
+  categoria: non_metallo
+  massa_atomica: 1.008
+  configurazione_elettronica: 1s1
+  gusci:
+  - 1
+  punto_fusione_k: 13.99
+  punto_ebollizione_k: 20.271
+  densita: 0.08988
+  stati_ossidazione: []
+approfondimento: false

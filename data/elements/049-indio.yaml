@@ -1,0 +1,33 @@
+numero_atomico: 49
+simbolo: In
+nome: Indio
+nome_en: Indium
+scoperta:
+  anno: 1863
+  anno_stimato: false
+  scopritori:
+  - ferdinand-reich
+  - hieronymus-theodor-richter
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: 1864
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 13
+  periodo: 5
+  blocco: p
+  categoria: metallo_post_transizione
+  massa_atomica: 114.8181
+  configurazione_elettronica: '[Kr] 4d10 5s2 5p1'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 18
+  - 3
+  punto_fusione_k: 429.7485
+  punto_ebollizione_k: 2345.0
+  densita: 7.31
+  stati_ossidazione: []
+approfondimento: false

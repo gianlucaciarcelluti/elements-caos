@@ -1,0 +1,33 @@
+numero_atomico: 43
+simbolo: Tc
+nome: Tecnezio
+nome_en: Technetium
+scoperta:
+  anno: 1937
+  anno_stimato: false
+  scopritori:
+  - carlo-perrier
+  - emilio-segre
+  luogo: null
+  epoca: spettroscopia
+  isolamento_anno: null
+  note_cronologia: null
+  controversia: null
+proprieta:
+  gruppo: 7
+  periodo: 5
+  blocco: d
+  categoria: metallo_di_transizione
+  massa_atomica: 98.0
+  configurazione_elettronica: '[Kr] 4d5 5s2'
+  gusci:
+  - 2
+  - 8
+  - 18
+  - 13
+  - 2
+  punto_fusione_k: 2430.0
+  punto_ebollizione_k: 4538.0
+  densita: 11.0
+  stati_ossidazione: []
+approfondimento: false

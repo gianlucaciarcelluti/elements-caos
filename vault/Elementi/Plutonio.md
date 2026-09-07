@@ -7,9 +7,9 @@ anno_stimato: false
 scopritori: [Glenn Seaborg, Edwin McMillan, Joseph Kennedy, Arthur Wahl]
 epoca: Era nucleare
 categoria: attinide
-gruppo: null
+gruppo: 3
 periodo: 7
-posizione_cronologica: 4
+posizione_cronologica: 93
 tempo_lettura: 4
 ha_approfondimento: false
 tags: [elemento, attinide, epoca/nucleare, secolo/XX]
@@ -18,7 +18,7 @@ aliases: [Pu, Plutonium]
 
 # Plutonio (Pu)
 
-> [!abstract] 4° elemento scoperto — 1940
+> [!abstract] 93° elemento scoperto — 1940
 > Per quasi cinque anni il novantaquattresimo elemento della tavola periodica fu un segreto militare, non una voce di enciclopedia.
 
 Il plutonio non si trova in natura se non in tracce infinitesimali: è un elemento fabbricato dall'uomo in laboratorio, e la sua storia comincia non con una scoperta ma con un bombardamento di particelle dentro un acceleratore.
@@ -55,7 +55,13 @@ Consapevoli dell'importanza militare della scoperta, il gruppo di Berkeley scels
 
 ```mermaid
 flowchart TB
+    S["Lantanio<br/>La"]
+    S -->|stesso gruppo| C
     C["Plutonio<br/>Pu · Z=94"]
+    L["Nettunio<br/>Np"]
+    L -->|stesso periodo| C
+    R["Americio<br/>Am"]
+    C -->|stesso periodo| R
     style C fill:#f9a825,stroke:#333,stroke-width:2px
 ```
 
@@ -74,13 +80,13 @@ Tutti gli isotopi del plutonio sono radioattivi, e alcuni emettono calore in mod
 | Numero atomico | 94 |
 | Massa atomica | 244,0 u |
 | Categoria | Attinide |
-| Gruppo | — |
+| Gruppo | 3 |
 | Periodo | 7 |
 | Blocco | f |
 | Configurazione elettronica | [Rn] 5f⁶ 7s² |
 | Punto di fusione | 639,4 °C |
 | Punto di ebollizione | 3231,9 °C |
-| Densità | dato non disponibile |
+| Densità | 19,816 g/cm³ |
 | Stati di ossidazione | +2, +3, +4, +5, +6, +7 |
 
 ## Struttura atomica
@@ -119,8 +125,8 @@ Glenn Seaborg ricevette il premio Nobel per la chimica nel 1951 per la scoperta 
 
 ## Nella cronologia
 
-← Precedente: [[Sodio]] (1807)
-→ *Ultimo elemento della cronologia*
+← Precedente: [[Nettunio]] (1940)
+→ Successivo: [[Americio]] (1944)
 
 Epoca: [[Era nucleare]] · Scopritore: [[Glenn Seaborg]], [[Edwin McMillan]], [[Joseph Kennedy]], [[Arthur Wahl]]
 

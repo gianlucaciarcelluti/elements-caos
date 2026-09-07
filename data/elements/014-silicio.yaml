@@ -1,0 +1,30 @@
+numero_atomico: 14
+simbolo: Si
+nome: Silicio
+nome_en: Silicon
+scoperta:
+  anno: 1739
+  anno_stimato: false
+  scopritori:
+  - johann-heinrich-pott
+  luogo: null
+  epoca: alchimia
+  isolamento_anno: 1823
+  note_cronologia: Isolato in forma amorfa pura nel 1823 da Jöns Jacob Berzelius.
+  controversia: null
+proprieta:
+  gruppo: 14
+  periodo: 3
+  blocco: p
+  categoria: semimetallo
+  massa_atomica: 28.085
+  configurazione_elettronica: '[Ne] 3s2 3p2'
+  gusci:
+  - 2
+  - 8
+  - 4
+  punto_fusione_k: 1687.0
+  punto_ebollizione_k: 3538.0
+  densita: 2.329
+  stati_ossidazione: []
+approfondimento: false
