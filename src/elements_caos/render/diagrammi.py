@@ -12,7 +12,12 @@ from dataclasses import dataclass
 from elements_caos.models import Elemento
 
 # Caratteri che romperebbero la sintassi Mermaid all'interno di un'etichetta.
-_CARATTERI_PROBLEMATICI = re.compile(r'["\';{}|<>]')
+# L'apostrofo NON è fra questi: verificato con mermaid-cli che compila e viene
+# reso correttamente sia dentro le etichette fra virgolette sia nei titoli di
+# `timeline` senza virgolette (Ruling 45). Rimuoverlo mutilava i nomi italiani,
+# che lo usano di continuo, ed era per giunta incoerente con `_del_elidibile`,
+# che l'apostrofo lo produce di proposito.
+_CARATTERI_PROBLEMATICI = re.compile(r'[";{}|<>]')
 
 # Vocali (maiuscole e minuscole) davanti alle quali la preposizione articolata
 # "del" elide in "dell'". Nessun elemento italiano inizia per "h" (l'idrogeno

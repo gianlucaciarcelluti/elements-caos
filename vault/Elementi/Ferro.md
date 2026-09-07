@@ -43,7 +43,7 @@ Il salto alla siderurgia vera è una faccenda di temperatura, ed è la ragione d
 
 Ciò che cambia con la siderurgia non è la qualità del metallo, che all'inizio è anzi peggiore del buon bronzo, ma la sua disponibilità. Il bronzo dipendeva dallo stagno, raro e da importare da lontanissimo; i minerali di ferro invece si trovano quasi ovunque. Il ferro è il primo metallo che smette di essere un lusso: arma chiunque, ara qualunque campo, e ridisegna gli equilibri di potere di conseguenza.
 
-> [!warning] Paternità contesa
+> [!warning] Questione aperta
 > La data convenzionale del V millennio a.C. si riferisce al ferro meteoritico, non a quello estratto dai minerali, e la distinzione non è un dettaglio ma il cuore della vicenda. Il ferro meteoritico è già metallico quando lo si raccoglie e si lavora a freddo con le stesse tecniche del rame nativo; i reperti sicuri più antichi e ben analizzati sono le perline di Gerzeh, in Egitto, del 3200 a.C. circa, riconosciute come meteoritiche per la struttura di Widmanstätten e per il tenore di nichel intorno al trenta per cento. La siderurgia vera richiede invece forni oltre i millecinquecento gradi, matura nel II millennio a.C. e diventa dominante intorno al 1200 a.C. Presentare il ferro come noto dal V millennio senza precisare quale ferro anticiperebbe la metallurgia di quasi quattromila anni.
 
 ## Posizione nella tavola periodica
@@ -66,7 +66,7 @@ Il ferro non ha una sola struttura cristallina: la cambia al variare della tempe
 
 Il ferro è il ferromagnete per eccellenza, e alla sua capacità di magnetizzarsi si deve la parola stessa. La proprietà però ha un limite netto: sopra i 770 gradi, la cosiddetta temperatura di Curie, il ferro perde il ferromagnetismo e diventa semplicemente paramagnetico. Da questo comportamento discendono i motori elettrici, i trasformatori e per decenni la registrazione magnetica dei dati.
 
-Il difetto del ferro è che ossida male. La ruggine, ossido idrato di ferro, occupa più volume del metallo da cui nasce, quindi si sfoglia e si stacca invece di formare una pellicola protettiva: sotto lo strato caduto c'è metallo fresco pronto a corrodersi a sua volta. È il motivo per cui il ferro va verniciato, zincato o legato al cromo per farne acciaio inossidabile. Nei composti compare soprattutto negli stati +2 e +3.
+Il difetto del ferro è che ossida male. La ruggine, ossido idrato di ferro, occupa più volume del metallo da cui nasce, quindi si sfoglia e si stacca invece di formare una pellicola protettiva: sotto lo strato caduto c'è metallo fresco pronto a corrodersi a sua volta. È il motivo per cui il ferro va verniciato, zincato o legato al cromo per farne acciaio inossidabile. La chimica del ferro conosce parecchi stati di ossidazione, ma nella pratica quasi tutto quello che si incontra è ferro +2 o +3: gli altri richiedono condizioni di laboratorio.
 
 ### Dati fisico-chimici
 
@@ -115,7 +115,7 @@ flowchart LR
     C2 --> U6
     C3["Solfato ferroso<br/>FeSO4"]
     E --> C3
-    U7(["integratori contro anemia da carenza marziale"])
+    U7(["integratori contro l'anemia"])
     C3 --> U7
     U8(["trattamento delle acque reflue"])
     C3 --> U8

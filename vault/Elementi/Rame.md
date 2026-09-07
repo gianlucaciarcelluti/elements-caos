@@ -43,7 +43,7 @@ La svolta successiva arriva quando qualcuno, forse per caso, mescola il rame fus
 
 In Italia le prime tracce dell'uso del rame arrivano più tardi rispetto al Vicino Oriente, a partire da circa 6.000 anni fa, quando la metallurgia si diffonde verso ovest lungo le rotte commerciali del Mediterraneo e dei valichi alpini, portando con sé sia il metallo sia le tecniche per lavorarlo.
 
-> [!warning] Paternità contesa
+> [!warning] Questione aperta
 > Le fonti divergono su cosa contare come "inizio", e la differenza non è solo di data ma di tecnica. Il ciondolo di rame nativo della grotta di Shanidar, in Kurdistan, risale a circa 12.000 anni fa, ma è un minerale raccolto e appena sbozzato, non lavorato con metodo. La lavorazione vera e propria del rame nativo per ricottura e forgiatura a freddo, quella documentata al sito neolitico di Çayönü Tepesi in Anatolia sud-orientale, si colloca alla fine del IX millennio a.C.: è la "premetallurgia", ed è la fase a cui si riferisce la data convenzionale usata qui. La metallurgia vera, cioè la fusione del minerale con il fuoco, è tutt'altra cosa e arriva molto dopo: le prime tracce sicure risalgono al V millennio a.C., in Serbia e in Iran, con siti come Tell Magzaliya e Çatal Hüyük a testimoniare la diffusione della fusione nel Vicino Oriente fra l'8000 e il 6500 a.C. secondo alcune cronologie. Confondere premetallurgia e metallurgia sarebbe un errore: qui si parla della prima.
 
 ## Posizione nella tavola periodica

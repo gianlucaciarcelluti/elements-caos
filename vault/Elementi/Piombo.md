@@ -43,7 +43,7 @@ Roma porta la produzione di piombo a livelli che il mondo antico non aveva mai v
 
 Che il piombo facesse male era già noto agli antichi. Autori greci e romani descrivono i sintomi dell'intossicazione nei minatori e in chi lavorava il metallo, e l'architetto Vitruvio raccomanda esplicitamente le tubature di terracotta al posto di quelle di piombo per ragioni di salubrità. Il riconoscimento sistematico del problema, però, arriva solo nel tardo Ottocento, quando la medicina del lavoro comincia a misurare invece di osservare.
 
-> [!warning] Paternità contesa
+> [!warning] Questione aperta
 > Sui primi oggetti di piombo la letteratura divulgativa ripete un dato ormai superato. Le perline dal livello IX di Çatalhöyük, in Anatolia, sono state pubblicate come piombo fuso del VII millennio a.C. e da lì citate ovunque, ma le analisi successive indicano che si tratta di minerale sagomato, galena e cerussite, e non di metallo ottenuto per fusione. Il più antico oggetto sicuramente in piombo metallico quasi puro è quello della grotta di Ashalim, in Israele, datato alla fine del V millennio a.C. e ricondotto per composizione a minerali del Tauro anatolico. Resta comunque solido che la fusione del piombo su piccola scala inizi nel VII millennio a.C., ed è a quella fase che si riferisce la data usata qui.
 
 ## Posizione nella tavola periodica

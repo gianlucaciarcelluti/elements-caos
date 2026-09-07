@@ -98,7 +98,7 @@ Gli ioni d'argento sono tossici per batteri e funghi a concentrazioni che non da
 ```mermaid
 flowchart LR
     E["Argento"]
-    C1["Nitrato di argento<br/>AgNO3"]
+    C1["Nitrato d'argento<br/>AgNO3"]
     E --> C1
     U1(["reagente di laboratorio"])
     C1 --> U1
@@ -106,15 +106,15 @@ flowchart LR
     C1 --> U2
     U3(["sintesi degli alogenuri fotografici"])
     C1 --> U3
-    C2["Bromuro di argento<br/>AgBr"]
+    C2["Bromuro d'argento<br/>AgBr"]
     E --> C2
     U4(["emulsioni fotografiche in bianco e nero"])
     C2 --> U4
     U5(["lastre radiografiche tradizionali"])
     C2 --> U5
-    C3["Solfuro di argento<br/>Ag2S"]
+    C3["Solfuro d'argento<br/>Ag2S"]
     E --> C3
-    U6(["patina scura che annerisce le posate"])
+    U6(["patina scura dell'argenteria"])
     C3 --> U6
     U7(["minerale argentifero (acantite)"])
     C3 --> U7

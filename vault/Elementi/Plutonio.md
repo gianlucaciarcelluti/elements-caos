@@ -48,7 +48,7 @@ Consapevoli dell'importanza militare della scoperta, il gruppo di Berkeley scels
 
 *Per tradizione:* Il nome scelto proseguì la sequenza dei pianeti: dopo l'uranio, chiamato come Urano, e il nettunio, come Nettuno, il nuovo elemento prese il nome da Plutone, allora considerato l'ultimo pianeta del sistema solare. Seaborg scelse le lettere Pu come simbolo, invece del più prevedibile Pl, in parte per uno scherzo goliardico legato all'espressione inglese "P.U.", usata per indicare qualcosa di maleodorante.
 
-> [!warning] Paternità contesa
+> [!warning] Questione aperta
 > La data "di scoperta" varia a seconda della fonte perché il processo fu incrementale e in parte segreto: alcuni testi indicano il 14 dicembre 1940 (produzione del plutonio-238 al ciclotrone), altri il 23-24 febbraio 1941 (identificazione chimica del plutonio-239, la data più spesso citata come ufficiale), altri ancora il 28 marzo 1941 (dimostrazione della fissionabilità). Il gruppo scelse inoltre di non pubblicare la scoperta per ragioni di sicurezza legate al progetto dell'arma nucleare, a differenza di ogni altro elemento in questo vault.
 
 ## Posizione nella tavola periodica

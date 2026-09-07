@@ -315,3 +315,24 @@ def test_composti_preserva_il_tag_br_nell_etichetta() -> None:
 
     assert "<br/>" in risultato
     assert "Piombo (II) solfuro<br/>PbS" in risultato
+
+
+def test_composti_preservano_l_apostrofo_nell_etichetta() -> None:
+    """L'apostrofo resta nell'etichetta: Mermaid lo accetta dentro le virgolette.
+
+    Verificato con mermaid-cli su tutte le forme in uso (Ruling 45): l'apostrofo
+    dritto dentro un'etichetta fra virgolette compila e viene reso correttamente,
+    così come quello tipografico e quello di ``timeline`` senza virgolette. Il
+    carattere che rompe davvero un'etichetta è la virgoletta doppia, non
+    l'apostrofo: rimuoverlo mutilava i nomi italiani, che lo usano di continuo
+    ("Ossido d'argento" diventava "Ossido dargento").
+    """
+    fosforo = _fosforo()
+    fosforo.composti_principali = [
+        Composto(nome="Ossido d'argento", formula="Ag2O", usi=["integratori contro l'anemia"])
+    ]
+
+    risultato = diagramma_composti(fosforo)
+
+    assert "Ossido d'argento" in risultato
+    assert "integratori contro l'anemia" in risultato

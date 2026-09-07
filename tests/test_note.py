@@ -303,3 +303,37 @@ def test_nota_e_deterministica() -> None:
     modifiche a mano alle note generate.
     """
     assert _nota_fosforo() == _nota_fosforo()
+
+
+def test_stato_di_ossidazione_zero_si_stampa_senza_segno() -> None:
+    """Lo zero si stampa "0": non ha segno, e "+0" non è notazione valida.
+
+    Il formato ``{:+d}`` applicato indistintamente produceva "+0" (Ruling 46b).
+    Lo stato zero non è un caso di scuola: compare per esempio nei metalli dei
+    complessi carbonilici e nella fascia completa del carbonio.
+    """
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    fosforo = elementi[0]
+    fosforo.proprieta.stati_ossidazione = [-1, 0, 1]
+
+    nota = _nota_di(fosforo, elementi)
+
+    assert "| Stati di ossidazione | -1, 0, +1 |" in nota
+
+
+def test_riquadro_della_controversia_si_intitola_questione_aperta() -> None:
+    """L'intestazione del riquadro copre sia le paternità sia le datazioni.
+
+    Il campo ``controversia`` è previsto dalla spec per entrambi gli usi, ma
+    nei dati reali è sempre e solo una datazione discussa: intitolare il
+    riquadro "Paternità contesa" nominava l'unico dei due casi che non si
+    verifica mai (Ruling 48).
+    """
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    fosforo = elementi[0]
+    fosforo.scoperta.controversia = "Le fonti divergono sulla datazione."
+
+    nota = _nota_di(fosforo, elementi)
+
+    assert "> [!warning] Questione aperta" in nota
+    assert "Paternità contesa" not in nota

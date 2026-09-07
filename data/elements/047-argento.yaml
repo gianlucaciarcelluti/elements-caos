@@ -168,21 +168,21 @@ contenuti:
     attendibilita: documentato
   pronuncia: []
 composti_principali:
-- nome: Nitrato di argento
+- nome: Nitrato d'argento
   formula: AgNO3
   usi:
   - reagente di laboratorio
   - cauterizzazione in medicina
   - sintesi degli alogenuri fotografici
-- nome: Bromuro di argento
+- nome: Bromuro d'argento
   formula: AgBr
   usi:
   - emulsioni fotografiche in bianco e nero
   - lastre radiografiche tradizionali
-- nome: Solfuro di argento
+- nome: Solfuro d'argento
   formula: Ag2S
   usi:
-  - patina scura che annerisce le posate
+  - patina scura dell'argenteria
   - minerale argentifero (acantite)
 fonti:
 - url: https://en.wikipedia.org/wiki/Silver

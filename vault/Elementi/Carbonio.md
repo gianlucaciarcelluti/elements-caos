@@ -41,7 +41,7 @@ Il primo a mettere sotto esame la questione è Antoine Lavoisier. Nella primaver
 
 La prova decisiva arriva nel 1796 dall'inglese Smithson Tennant, che riscalda centosessanta milligrammi di diamante in un tubo d'oro chiuso insieme a nitrato di potassio, e misura. Quantità uguali di diamante e di carbone di legna producono, bruciando, quantità uguali di anidride carbonica: se il prodotto è identico, la sostanza di partenza deve esserlo. Il carbonio diventa così il primo elemento di cui si dimostra che può esistere in forme fisicamente opposte, quelle che oggi chiamiamo allotropi.
 
-> [!warning] Paternità contesa
+> [!warning] Questione aperta
 > Il carbonio è un caso particolare fra gli elementi noti fin dalla preistoria, perché le sue forme sono state usate per millenni senza che nessuno sospettasse fossero la stessa sostanza. Carbone di legna, grafite e diamante appartenevano a categorie mentali del tutto diverse. Antoine Lavoisier, bruciando un diamante nel 1772, osserva che produce lo stesso gas del carbone ma si ferma prima di concludere che siano la stessa cosa. È Smithson Tennant, nel 1796, a dimostrarlo per via quantitativa: masse uguali di diamante e di carbone danno masse uguali di anidride carbonica. Attribuire quindi la scoperta del carbonio alla preistoria è corretto solo nel senso dell'uso; il riconoscimento dell'elemento ha una data precisa e sta a fine Settecento.
 
 ## Posizione nella tavola periodica
@@ -80,7 +80,7 @@ Il repertorio si è allargato in tempi recenti. Nel 1985 vengono sintetizzati i 
 | Punto di fusione | dato non disponibile |
 | Punto di ebollizione | dato non disponibile |
 | Densità | 1,821 g/cm³ |
-| Stati di ossidazione | -4, -3, -2, -1, +0, +1, +2, +3, +4 |
+| Stati di ossidazione | -4, -3, -2, -1, 0, +1, +2, +3, +4 |
 
 ## Struttura atomica
 

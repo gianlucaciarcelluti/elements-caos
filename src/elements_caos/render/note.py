@@ -155,6 +155,17 @@ def formatta_decimale(numero: float) -> str:
     return str(numero).replace(".", ",")
 
 
+def formatta_stato_ossidazione(stato: int) -> str:
+    """Formatta uno stato di ossidazione con il suo segno esplicito.
+
+    Gli stati positivi e negativi portano il segno ("+2", "-3") perché è la
+    convenzione con cui si scrivono in chimica. Lo zero fa eccezione: non ha
+    segno, e "+0" non è notazione valida. Lo stato zero non è un caso di
+    scuola, comparendo per esempio nei metalli dei complessi carbonilici.
+    """
+    return "0" if stato == 0 else f"{stato:+d}"
+
+
 def formatta_configurazione_elettronica(configurazione: str) -> str:
     """Converte in apici Unicode gli esponenti di una configurazione elettronica.
 
@@ -268,7 +279,7 @@ def rendi_nota(contesto: ContestoNota) -> str:
             else "dato non disponibile"
         ),
         stati_ossidazione=(
-            ", ".join(f"{s:+d}" for s in proprieta.stati_ossidazione)
+            ", ".join(formatta_stato_ossidazione(s) for s in proprieta.stati_ossidazione)
             if proprieta.stati_ossidazione
             else "—"
         ),

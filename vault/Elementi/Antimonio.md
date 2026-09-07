@@ -43,7 +43,7 @@ Anche il nome porta i segni di una storia confusa. Il simbolo Sb viene dal latin
 
 Alla fortuna dell'antimonio in età moderna contribuisce un libro, il Carro trionfale dell'antimonio, attribuito a un monaco benedettino del Quattrocento di nome Basilio Valentino. L'attribuzione è falsa: l'opera esce nel 1604 ed è con ogni probabilità di Johann Thölde, che se ne servì per dare autorevolezza antica a un testo suo. Il libro fu comunque letto e discusso per due secoli, e l'antimonio divenne uno dei rimedi più prescritti e più contestati della medicina moderna.
 
-> [!warning] Paternità contesa
+> [!warning] Questione aperta
 > Il reperto citato come più antico oggetto di antimonio metallico, un frammento da Tello nell'antica Caldea datato intorno al 3000 a.C. e descritto come parte di un vaso, è contestato: Roger Moorey ha argomentato che non si tratti di un vaso e che non serva postulare una perduta tecnica per rendere malleabile un materiale così fragile, trattandosi più verosimilmente di un piccolo ornamento ricavato da antimonio nativo. Ben documentato è invece l'uso del minerale, la stibnite, come cosmetico per gli occhi nell'Egitto predinastico dal 3100 a.C. circa; va però precisato che il kohl egizio analizzato risulta in prevalenza a base di galena, solfuro di piombo, e che l'antimonio prevale in altre aree e in altre epoche.
 
 ## Posizione nella tavola periodica
@@ -101,7 +101,7 @@ flowchart LR
     E["Antimonio"]
     C1["Stibnite<br/>Sb2S3"]
     E --> C1
-    U1(["minerale principale da cui si estrae il metallo"])
+    U1(["minerale principale dell'antimonio"])
     C1 --> U1
     U2(["cosmetico per gli occhi in antichità"])
     C1 --> U2

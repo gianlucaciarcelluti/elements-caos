@@ -134,7 +134,9 @@ contenuti:
       più volume del metallo da cui nasce, quindi si sfoglia e si stacca invece di formare
       una pellicola protettiva: sotto lo strato caduto c''è metallo fresco pronto a corrodersi
       a sua volta. È il motivo per cui il ferro va verniciato, zincato o legato al cromo per
-      farne acciaio inossidabile. Nei composti compare soprattutto negli stati +2 e +3.'
+      farne acciaio inossidabile. La chimica del ferro conosce parecchi stati di ossidazione,
+      ma nella pratica quasi tutto quello che si incontra è ferro +2 o +3: gli altri richiedono
+      condizioni di laboratorio.'
     visual: Lamiera arrugginita che si sfoglia mostrando il metallo vivo sottostante
     attendibilita: documentato
   - id: usi_acciaio
@@ -191,7 +193,7 @@ composti_principali:
 - nome: Solfato ferroso
   formula: FeSO4
   usi:
-  - integratori contro anemia da carenza marziale
+  - integratori contro l'anemia
   - trattamento delle acque reflue
   - inchiostro ferrogallico
 fonti:

@@ -41,7 +41,7 @@ La prima oreficeria vera e propria, invece, è documentata benissimo e arriva mo
 
 Nel IV millennio a.C. l'Egitto e la Mesopotamia trattano l'oro su scala ormai statale, e le miniere della Nubia diventano una delle basi materiali del potere faraonico. Il passaggio decisivo per l'economia arriva però intorno al 610 a.C. in Lidia, nell'odierna Turchia: lì compaiono le prime monete coniate del mondo, battute in elettro, la lega naturale di oro e argento. Da quel momento l'oro smette di essere soltanto ornamento e diventa la misura del valore di ogni altra cosa.
 
-> [!warning] Paternità contesa
+> [!warning] Questione aperta
 > La data di -40000 è convenzionale e va presa per quello che è. Deriva dalla segnalazione di piccole quantità di oro nativo in grotte spagnole frequentate nel Paleolitico superiore, un dato che circola largamente nella letteratura divulgativa ma che non poggia su un singolo ritrovamento datato con precisione e ampiamente discusso, come accade invece per il rame o per il ferro meteoritico. Ciò che è solidamente documentato è molto più tardo: la più antica oreficeria del mondo è quella della necropoli calcolitica di Varna, in Bulgaria, datata fra il 4600 e il 4200 a.C., con oltre tremila oggetti d'oro per circa sei chili complessivi. Fra la raccolta di pagliuzze e l'oreficeria di Varna corrono decine di millenni: la prima è un gesto, la seconda una tecnica.
 
 ## Posizione nella tavola periodica
@@ -109,7 +109,7 @@ flowchart LR
     C1 --> U3
     C2["Dicianoaurato di potassio<br/>KAu(CN)2"]
     E --> C2
-    U4(["estrazione industriale del metallo dai minerali"])
+    U4(["estrazione industriale dell'oro dai minerali"])
     C2 --> U4
     U5(["galvanica e placcatura"])
     C2 --> U5
