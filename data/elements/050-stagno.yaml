@@ -9,7 +9,8 @@ scoperta:
   luogo: null
   epoca: antichita
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: La data segna l'avvio dell'estrazione dello stagno dalla cassiterite; il
+    metallo non ha scopritore e la sua importanza nasce dalla lega con il rame.
   controversia: null
 proprieta:
   gruppo: 14
@@ -27,5 +28,163 @@ proprieta:
   punto_fusione_k: 505.08
   punto_ebollizione_k: 2875.0
   densita: 7.365
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -4
+  - 2
+  - 4
 approfondimento: false
+contenuti:
+  hook: Senza stagno non c'è età del bronzo. È l'elemento raro che ha costretto il mondo antico
+    a commerciare su distanze che non aveva mai percorso, per un metallo che da solo non serve
+    quasi a niente.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Lo stagno è un metallo modesto: tenero, di poco pregio, quasi inutile allo stato
+      puro. La sua importanza storica è tutta relazionale, e sta in un fatto: aggiunto al
+      rame in proporzione di circa un decimo, produce una lega più dura, più fusibile e più
+      facile da colare. Quella lega è il bronzo, e ha dato il nome a un''epoca.'
+    visual: Lingottino di stagno tenero accanto a un'ascia di bronzo affilata
+    attendibilita: documentato
+  - id: cassiterite
+    sezione: storia
+    testo: Il minerale da cui si ricava è la cassiterite, biossido di stagno, un materiale
+      scuro e pesante che si concentra nelle sabbie dei fiumi e si può raccogliere lavando
+      la ghiaia, come si fa con l'oro. Ridurla a metallo con il carbone è relativamente facile,
+      il che spiega perché l'estrazione dello stagno prenda avvio già intorno al 3000 a.C.
+    visual: Granuli scuri di cassiterite separati per lavaggio in una batea
+    attendibilita: documentato
+  - id: bronzo_casuale
+    sezione: storia
+    testo: 'I primissimi bronzi non sono il frutto di una ricetta. Gli oggetti più antichi
+      contengono meno del due per cento di stagno o di arsenico, quantità compatibili con
+      minerali polimetallici fusi così come si presentavano, senza che nessuno stesse dosando
+      alcunché. La lega intenzionale, con lo stagno aggiunto di proposito e in proporzione
+      controllata, è un passaggio successivo e concettualmente enorme: qualcuno ha capito
+      che mescolare due metalli ne produce un terzo migliore di entrambi.'
+    visual: Crogiolo in cui rame fuso e stagno vengono uniti in proporzione misurata
+    attendibilita: documentato
+  - id: rarita
+    sezione: storia
+    testo: Qui nasce il problema che ha definito l'età del bronzo. Il rame è diffuso; i giacimenti
+      di stagno sono pochi e mal distribuiti, e mancano quasi del tutto proprio nel Vicino
+      Oriente, dove il bronzo serviva di più. Chi voleva bronzo doveva procurarsi stagno da
+      lontano, e questo ha reso indispensabili rotte commerciali di ampiezza continentale
+      in un'epoca che non aveva strade.
+    visual: Mappa dei rari giacimenti di stagno rispetto ai centri consumatori del Vicino
+      Oriente
+    attendibilita: documentato
+  - id: uluburun
+    sezione: storia
+    testo: 'Quanto lontano lo mostra il relitto di Uluburun, una nave affondata al largo della
+      Turchia meridionale intorno al 1320 a.C. e recuperata a partire dal 1982: trasportava
+      una tonnellata di lingotti di stagno, il più grande carico di metalli grezzi dell''età
+      del bronzo mai ritrovato. Le analisi isotopiche indicano che parte di quel metallo veniva
+      dai monti del Tauro e parte dall''Asia centrale, dagli attuali Uzbekistan e Tagikistan.'
+    visual: Lingotti di stagno a pelle di bue disposti sul fondale del relitto di Uluburun
+    attendibilita: documentato
+  - id: cornovaglia
+    sezione: storia
+    testo: Anche l'estremo opposto del continente entra nel gioco. Studi isotopici recenti
+      su lingotti recuperati in relitti al largo di Israele e della Francia hanno ricondotto
+      quel metallo ai giacimenti della Cornovaglia, all'estremità sud-occidentale della Britannia.
+      Significa che stagno estratto in Atlantico alimentava la produzione di bronzo del Mediterraneo
+      orientale, lungo una catena di scambi che nessuno dei suoi partecipanti percorreva per
+      intero.
+    visual: Rotta dalla Cornovaglia al Mediterraneo orientale tracciata su una carta
+    attendibilita: documentato
+  - id: collasso
+    sezione: storia
+    testo: 'La dipendenza da rotte lunghe è anche una fragilità. Verso il 1200 a.C. il Mediterraneo
+      orientale attraversa una crisi che travolge in pochi decenni regni e reti di scambio,
+      e con esse l''approvvigionamento di stagno. Che sia stata la causa o una delle conseguenze
+      è discusso fra gli storici, ma il fatto resta: quando il bronzo diventa difficile da
+      produrre, il ferro, il cui minerale si trova ovunque, smette di essere una curiosità
+      e diventa la scelta obbligata.'
+    visual: Magazzino portuale vuoto con lingotti mancanti dalle rastrelliere
+    attendibilita: documentato
+  - id: caratteristiche_fisiche
+    sezione: caratteristiche
+    testo: 'Lo stagno fonde a soli 232 gradi, la temperatura più bassa fra i metalli di uso
+      comune, e questa è la sua qualità decisiva: si lavora con mezzi elementari e si cola
+      in stampi senza attrezzature speciali. È tenero, duttile e resiste bene alla corrosione,
+      perché in aria si copre di un sottile strato di ossido che protegge il metallo sottostante.'
+    visual: Barretta di stagno che fonde su una fiamma modesta
+    attendibilita: documentato
+  - id: caratteristiche_grido
+    sezione: caratteristiche
+    testo: 'Piegando una barretta di stagno puro si sente un crepitio caratteristico, il cosiddetto
+      grido dello stagno: non è il metallo che si rompe, ma i suoi cristalli che scorrono
+      e si geminano l''uno sull''altro. È uno dei pochi casi in cui la riorganizzazione della
+      struttura cristallina di un materiale si percepisce direttamente con l''orecchio, ed
+      è servita per secoli come prova empirica di purezza del metallo.'
+    visual: Mano che piega lentamente una barretta di stagno lucido
+    attendibilita: documentato
+  - id: caratteristiche_peste
+    sezione: caratteristiche
+    testo: Lo stagno esiste in due forme molto diverse. Quella metallica e argentea, stabile
+      alle temperature ordinarie, sotto i 13,2 gradi cede lentamente il posto a una forma
+      grigia, opaca e friabile che si sbriciola in polvere. Il fenomeno si chiama peste dello
+      stagno, procede più in fretta col freddo intenso e ha rovinato oggetti e saldature per
+      secoli prima che se ne capisse la causa. Chimicamente il metallo mostra gli stati di
+      ossidazione +2 e +4.
+    visual: Oggetto di stagno in parte sbriciolato in polvere grigia dalla peste dello stagno
+    attendibilita: documentato
+  - id: usi_saldatura
+    sezione: usi
+    testo: L'impiego principale oggi è la saldatura. Le leghe per brasatura dolce contengono
+      stagno in percentuali che vanno dal cinque al settanta per cento, e sono ciò che tiene
+      insieme elettricamente e meccanicamente ogni scheda elettronica e buona parte degli
+      impianti idraulici. La normativa europea ha nel frattempo eliminato il piombo da queste
+      leghe, e le saldature attuali sono a base di stagno con argento e rame.
+    visual: Punta di saldatore che deposita una goccia di lega su una scheda
+    attendibilita: documentato
+  - id: usi_stagnatura
+    sezione: usi
+    testo: 'L''altro uso di massa è il rivestimento. La banda stagnata, cioè lamiera d''acciaio
+      ricoperta da uno strato sottilissimo di stagno, unisce la robustezza del ferro alla
+      resistenza alla corrosione del rivestimento: da qui la scatoletta per alimenti, brevettata
+      a Londra nel 1810 e prodotta dall''anno successivo, che ha cambiato l''alimentazione
+      e la logistica militare. Lo stagno compare inoltre nel peltro, nelle canne d''organo
+      e nei composti che stabilizzano le materie plastiche.'
+    visual: Linea di produzione di scatolame in banda stagnata
+    attendibilita: documentato
+  - id: curiosita_bottoni
+    sezione: curiosita
+    testo: 'Si racconta spesso che la ritirata di Napoleone dalla Russia nel 1812 sia stata
+      aggravata dalla peste dello stagno, che avrebbe sbriciolato i bottoni delle uniformi
+      lasciando i soldati esposti al gelo. È una storia bella e ricorrente, ma non è mai stata
+      dimostrata: i bottoni recuperati dai reperti di quella campagna non sono tutti di stagno,
+      e la trasformazione è troppo lenta per svolgersi in una sola stagione.'
+    visual: Bottone di stagno dell'epoca napoleonica, integro, accanto a un'immagine della
+      ritirata
+    attendibilita: leggendario
+  pronuncia: []
+composti_principali:
+- nome: Cassiterite
+  formula: SnO2
+  usi:
+  - minerale principale dello stagno
+  - opacizzante per smalti ceramici
+- nome: Cloruro stannoso
+  formula: SnCl2
+  usi:
+  - riducente in chimica analitica
+  - mordente per tintura
+  - stagnatura chimica
+- nome: Ossido di stagno e indio
+  formula: In2O3·SnO2
+  usi:
+  - elettrodi trasparenti per schermi e touchscreen
+  - celle fotovoltaiche
+fonti:
+- url: https://en.wikipedia.org/wiki/Tin
+  titolo: Tin
+  consultata: '2026-09-07'
+- url: https://www.science.org/doi/10.1126/sciadv.abq3766
+  titolo: Tin from Uluburun shipwreck shows small-scale commodity exchange fueled continental
+    tin supply (Science Advances)
+  consultata: '2026-09-07'
+- url: https://www.sciencenews.org/article/british-tin-bronze-age-civilizations
+  titolo: British tin might have fueled the rise of some Bronze Age civilizations
+  consultata: '2026-09-07'

@@ -9,7 +9,9 @@ scoperta:
   luogo: null
   epoca: antichita
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: La data convenzionale segna l'uso più antico dell'argento; la separazione
+    dal piombo per coppellazione è documentata da cumuli di scorie in Asia Minore nel IV millennio
+    a.C.
   controversia: null
 proprieta:
   gruppo: 11
@@ -27,5 +29,168 @@ proprieta:
   punto_fusione_k: 1234.93
   punto_ebollizione_k: 2435.0
   densita: 10.49
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 1
+  - 2
+  - 3
 approfondimento: false
+contenuti:
+  hook: 'L''argento non si raccoglie: si estrae, separandolo dal piombo con una tecnica che
+    è già chimica prima che la chimica esista. Per questo entra nella storia millenni dopo
+    l''oro, benché sia molto più abbondante.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Fra i tre metalli preziosi noti fin dall''antichità, l''argento è quello che ha
+      richiesto più intelligenza tecnica. In natura si trova raramente allo stato nativo,
+      quasi sempre combinato in minerali che non lo dichiarano: ottenerlo significa saperlo
+      riconoscere dove non si vede e saperlo tirare fuori.'
+    visual: Vena di minerale argentifero grigio in cui il metallo non è riconoscibile a occhio
+    attendibilita: documentato
+  - id: nativo_raro
+    sezione: storia
+    testo: 'Un po'' di argento nativo esiste, e con ogni probabilità è così che il metallo
+      si è fatto notare la prima volta: masse contorte di filamenti metallici lucenti che
+      affiorano in superficie in alcune vene minerarie. Ma sono rarità, e non bastano a sostenere
+      un uso diffuso. Fin quando l''argento resta un metallo da raccogliere, resta anche un
+      metallo quasi assente dai corredi; comincia a contare quando lo si sa produrre.'
+    visual: Campione di argento nativo dalla forma di filamenti attorcigliati
+    attendibilita: documentato
+  - id: coppellazione
+    sezione: storia
+    testo: 'La tecnica che apre la storia dell''argento si chiama coppellazione, e le sue
+      prime tracce sono cumuli di scorie in Asia Minore nel IV millennio a.C. Il minerale
+      argentifero, in genere galena, viene fuso e poi soffiato con aria in un recipiente poroso:
+      il piombo si ossida e viene assorbito dalle pareti, mentre l''argento, che non si ossida,
+      resta al centro come un bottone lucente. È una separazione chimica riuscita, ottenuta
+      millenni prima che esistesse un''idea di reazione chimica.'
+    visual: Bottone d'argento che affiora al centro di una coppella incandescente
+    attendibilita: documentato
+  - id: laurion
+    sezione: storia
+    testo: Su questa tecnica si è retta più di una potenza. Le miniere del Laurion, in Attica,
+      producevano nel periodo fra il VI e il IV secolo a.C. circa trenta tonnellate d'argento
+      l'anno, e furono la base materiale della flotta ateniese e della moneta che circolava
+      in tutto l'Egeo. Non è retorica dire che Atene comprò le proprie triremi con il proprio
+      sottosuolo.
+    visual: Pozzi e gallerie del Laurion con il profilo di una trireme sullo sfondo
+    attendibilita: documentato
+  - id: roma_medioevo
+    sezione: storia
+    testo: Roma spinge la produzione fino a circa duecento tonnellate l'anno, e nel II secolo
+      d.C. si stima che circolassero nell'economia imperiale intorno a diecimila tonnellate
+      di argento. Dopo il crollo dell'impero il baricentro si sposta in Europa centrale, alle
+      miniere di Boemia, Sassonia e Ungheria, che alimentano la moneta medievale finché i
+      giacimenti non si esauriscono.
+    visual: Zecca medievale con conii e tondelli d'argento pronti per la battitura
+    attendibilita: documentato
+  - id: potosi
+    sezione: storia
+    testo: Il ribaltamento definitivo arriva con la conquista spagnola delle Americhe. Dal
+      Cinquecento in poi il Perù e la Bolivia diventano i produttori dominanti, e l'argento
+      americano finanzia le guerre europee mentre attraversa l'Atlantico e il Pacifico fino
+      alla Cina, creando la prima rete di scambio davvero globale. È la merce che ha cucito
+      insieme i continenti prima di qualunque altra.
+    visual: Rotta dei galeoni con i lingotti d'argento americani in viaggio verso Europa e
+      Asia
+    attendibilita: documentato
+  - id: caratteristiche_conducibilita
+    sezione: caratteristiche
+    testo: 'L''argento detiene un primato che nessun altro metallo gli ha tolto: ha la più
+      alta conducibilità elettrica e la più alta conducibilità termica di qualunque elemento,
+      e per giunta la più alta riflettività nel visibile. Il rame lo insegue da vicino, e
+      lo ha soppiantato in tutta l''elettrotecnica per una sola ragione, il prezzo: dove il
+      costo non è il vincolo dominante, dai contatti dei relè alle apparecchiature di misura,
+      l''argento resta la scelta tecnicamente migliore possibile.'
+    visual: Confronto fra un filo d'argento e uno di rame su un banco di misura
+    attendibilita: documentato
+  - id: caratteristiche_lavorabilita
+    sezione: caratteristiche
+    testo: 'È un metallo duttile e malleabile, ma non abbastanza duro da reggere l''uso quotidiano
+      allo stato puro: l''argenteria e le monete sono da sempre leghe, tipicamente con rame,
+      come nell''argento sterling che ne contiene il 92,5 per cento. La superficie lucidata
+      riflette oltre il novanta per cento della luce che riceve, ed è questo che ha reso l''argento
+      lo specchio per antonomasia prima dell''alluminio.'
+    visual: Specchio antico argentato accanto a un servizio di posate in argento sterling
+    attendibilita: documentato
+  - id: caratteristiche_annerimento
+    sezione: caratteristiche
+    testo: 'L''argenteria che annerisce non si sta ossidando, come si crede comunemente: sta
+      reagendo con lo zolfo. La patina scura è solfuro d''argento, prodotto dai composti solforati
+      presenti in tracce nell''aria e in certi alimenti, e per questo un cucchiaino d''argento
+      si annerisce con l''uovo e non con l''acqua. Chimicamente l''argento è quasi sempre
+      monovalente, con stati +2 e +3 rari e instabili.'
+    visual: Cucchiaino d'argento annerito accanto a un uovo sodo aperto
+    attendibilita: documentato
+  - id: usi_fotografia
+    sezione: usi
+    testo: 'Per oltre un secolo l''impiego industriale principale dell''argento è stata la
+      fotografia. Gli alogenuri d''argento, cloruro, bromuro e ioduro, sono sensibili alla
+      luce e si decompongono liberando argento metallico dove il fotone li ha colpiti: l''immagine
+      latente su una pellicola è, letteralmente, un disegno fatto di argento. La transizione
+      al digitale ha fatto crollare questa domanda in pochi anni.'
+    visual: Pellicola in bianco e nero in sviluppo con l'immagine che affiora nella bacinella
+    attendibilita: documentato
+  - id: usi_industriali
+    sezione: usi
+    testo: 'Gli usi attuali si sono spostati altrove, e il maggiore è oggi il fotovoltaico:
+      la pasta d''argento forma i contatti conduttivi sulla faccia delle celle solari, e ogni
+      pannello installato ne consuma qualche grammo. Seguono i contatti elettrici di interruttori
+      e relè, dove l''affidabilità conta più del costo, le leghe per brasatura, la catalisi
+      industriale e gli specchi ottici di precisione.'
+    visual: Griglia di contatti argentati sulla superficie di una cella fotovoltaica
+    attendibilita: documentato
+  - id: usi_antimicrobico
+    sezione: usi
+    testo: Gli ioni d'argento sono tossici per batteri e funghi a concentrazioni che non danneggiano
+      i tessuti umani, e questa proprietà, nota empiricamente da secoli, è oggi impiegata
+      in medicazioni per ustioni, cateteri e rivestimenti di dispositivi medici. Vale la pena
+      distinguere questo uso clinico controllato dall'assunzione di argento colloidale a scopo
+      curativo, che non ha basi scientifiche e può causare una colorazione grigio-azzurra
+      permanente della pelle.
+    visual: Medicazione argentata per ustioni in confezione sterile
+    attendibilita: documentato
+  - id: curiosita_nome
+    sezione: curiosita
+    testo: 'Il simbolo Ag viene dal latino argentum, che risale a una radice indoeuropea legata
+      all''idea di bianco e lucente. La stessa radice ha battezzato l''Argentina, chiamata
+      così dagli europei per l''argento che speravano di trovare risalendo il Río de la Plata:
+      il metallo, in quantità, era invece nelle montagne boliviane.'
+    visual: Carta antica del Río de la Plata con la toponomastica coloniale
+    attendibilita: documentato
+  - id: curiosita_moneta
+    sezione: curiosita
+    testo: 'Per gran parte della storia europea argento e denaro sono stati sinonimi, al punto
+      che diverse lingue non li distinguono ancora: in francese e in spagnolo la parola che
+      indica il denaro, argent e plata, è la stessa che indica il metallo. La lira, la sterlina
+      e il marco nascono come pesi d''argento prima che come monete.'
+    visual: Bilancia da zecca con lingotti d'argento e monete affiancati
+    attendibilita: documentato
+  pronuncia: []
+composti_principali:
+- nome: Nitrato di argento
+  formula: AgNO3
+  usi:
+  - reagente di laboratorio
+  - cauterizzazione in medicina
+  - sintesi degli alogenuri fotografici
+- nome: Bromuro di argento
+  formula: AgBr
+  usi:
+  - emulsioni fotografiche in bianco e nero
+  - lastre radiografiche tradizionali
+- nome: Solfuro di argento
+  formula: Ag2S
+  usi:
+  - patina scura che annerisce le posate
+  - minerale argentifero (acantite)
+fonti:
+- url: https://en.wikipedia.org/wiki/Silver
+  titolo: Silver
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Cupellation
+  titolo: Cupellation
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Mines_of_Laurion
+  titolo: Mines of Laurion
+  consultata: '2026-09-07'
