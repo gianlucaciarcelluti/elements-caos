@@ -127,7 +127,13 @@ def diagramma_timeline(elemento: Elemento, nomi_scopritori: list[str]) -> str:
         righe.append(f"    {formatta_anno(scoperta.anno)} : Scoperta : {scopritori}")
 
     if scoperta.isolamento_anno is not None and scoperta.isolamento_anno != scoperta.anno:
-        righe.append(f"    {formatta_anno(scoperta.isolamento_anno)} : Isolamento allo stato puro")
+        # L'etichetta dice "Isolamento" e non "Isolamento allo stato puro": la fonte
+        # cronologica registra il primo isolamento riconosciuto, che in diversi casi è
+        # un campione ancora impuro (il titanio del 1875 arriva al 99,9 per cento solo
+        # nel 1910) o perfino un riconoscimento come metallo distinto (il platino del
+        # 1752). La purezza, dove conta, la racconta la nota; il diagramma, che molti
+        # leggono senza leggere il testo, non deve affermare più di quanto risulti.
+        righe.append(f"    {formatta_anno(scoperta.isolamento_anno)} : Isolamento")
 
     return _recinta("\n".join(righe))
 
