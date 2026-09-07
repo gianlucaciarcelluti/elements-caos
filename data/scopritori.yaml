@@ -630,6 +630,13 @@
   nazionalita: statunitense
   elementi:
   - 93
+- id: pierre-janssen
+  nome: Pierre Janssen
+  nato: 1824
+  morto: 1907
+  nazionalita: francese
+  elementi:
+  - 2
 - id: pierre-curie
   nome: Pierre Curie
   nato: 1859

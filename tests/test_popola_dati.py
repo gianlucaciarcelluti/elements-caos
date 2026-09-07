@@ -3,12 +3,14 @@
 import sys
 from pathlib import Path
 
+import yaml
+
 from elements_caos.ingest.cronologia import VoceCronologia
 from elements_caos.models import Categoria, Proprieta
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from popola_dati import costruisci_documento  # noqa: E402
+from popola_dati import _nome_file, costruisci_documento  # noqa: E402
 
 
 def _proprieta_fosforo(
@@ -39,7 +41,9 @@ def _proprieta_fosforo(
 
 
 def _voce_cronologia_fosforo() -> VoceCronologia:
-    return VoceCronologia(15, 1669, False, ["hennig-brand"], "alchimia", isolamento_anno=1669)
+    return VoceCronologia(
+        15, 1669, False, ["hennig-brand"], "alchimia", nome="Fosforo", isolamento_anno=1669
+    )
 
 
 def _voce_dataset_fosforo() -> dict:
@@ -207,3 +211,90 @@ def test_il_dataset_vince_quando_riporta_un_valore_diverso_da_quello_esistente()
     assert documento["proprieta"]["punto_fusione_k"] == 317.3
     assert documento["proprieta"]["punto_ebollizione_k"] == 553.7
     assert documento["proprieta"]["densita"] == 1.823
+
+
+def test_nome_italiano_viene_da_cronologia_non_dal_file_esistente() -> None:
+    """Ruling 39: il nome italiano è un dato di CRONOLOGIA, non del file YAML.
+
+    Anche quando il file esistente porta un nome diverso (residuo di un
+    errore precedente, o semplicemente vuoto), il documento fuso deve usare
+    ``voce_cronologia.nome``, mai un valore letto da ``esistente``.
+    """
+    documento = costruisci_documento(
+        15,
+        _voce_dataset_fosforo(),
+        _voce_cronologia_fosforo(),
+        _proprieta_fosforo(),
+        esistente={"nome": "NomeSbagliato"},
+    )
+
+    assert documento["nome"] == "Fosforo"
+
+
+def test_nome_italiano_sopravvive_quando_il_file_non_esiste() -> None:
+    """Riproduce esattamente il difetto segnalato: file cancellato, poi rigenerato.
+
+    Prima della Ruling 39 il nome italiano viveva solo nel file YAML che lo
+    script stesso scriveva: se il file veniva cancellato, l'unico ripiego
+    era il nome inglese del dataset (``esistente.get("nome",
+    voce_dataset["name"])``), e il file rinasceva con un nome sbagliato.
+    Con ``esistente={}`` (file assente, come dopo una cancellazione), il
+    documento deve comunque avere il nome italiano corretto, letto da
+    CRONOLOGIA.
+    """
+    documento = costruisci_documento(
+        15,
+        _voce_dataset_fosforo(),
+        _voce_cronologia_fosforo(),
+        _proprieta_fosforo(),
+        esistente={},
+    )
+
+    assert documento["nome"] == "Fosforo"
+    assert documento["nome"] != _voce_dataset_fosforo()["name"]
+
+
+def test_nome_file_ricostruito_dal_nome_italiano_di_cronologia(tmp_path: Path) -> None:
+    """Test end-to-end: cancella il file, riesegue la logica di popolamento, verifica.
+
+    Riproduce lo scenario esatto segnalato dal controller (tennesso
+    cancellato, rinato come "117-tennessine.yaml" con nome inglese) in
+    forma controllata: scrive un file YAML preesistente con nome e
+    contenuti corretti, lo cancella, poi applica la stessa logica di
+    ``main()`` (individua il percorso via glob, costruisce il documento,
+    scrive nel percorso ricostruito da ``_nome_file``) e verifica che il
+    file rinasca con il nome italiano giusto nello YAML e nel nome del
+    file — non con il nome inglese.
+    """
+    cartella = tmp_path / "elements"
+    cartella.mkdir()
+    percorso_originale = cartella / "015-fosforo.yaml"
+    percorso_originale.write_text(
+        yaml.safe_dump({"numero_atomico": 15, "nome": "Fosforo"}, allow_unicode=True),
+        encoding="utf-8",
+    )
+
+    # Simula la cancellazione del file, come nello scenario segnalato.
+    percorso_originale.unlink()
+
+    # Stessa logica di main(): cerca un file esistente per quel numero
+    # atomico (non lo trova, perché è stato cancellato), quindi costruisce
+    # il documento e scrive nel percorso ricostruito dal nome di CRONOLOGIA.
+    percorso_trovato = next(cartella.glob("015-*.yaml"), None)
+    assert percorso_trovato is None, "il file deve risultare assente dopo la cancellazione"
+
+    esistente: dict = {}
+    documento = costruisci_documento(
+        15,
+        _voce_dataset_fosforo(),
+        _voce_cronologia_fosforo(),
+        _proprieta_fosforo(),
+        esistente,
+    )
+
+    destinazione = percorso_trovato or cartella / _nome_file(15, documento["nome"])
+    destinazione.write_text(yaml.safe_dump(documento, allow_unicode=True), encoding="utf-8")
+
+    assert destinazione.name == "015-fosforo.yaml"
+    rigenerato = yaml.safe_load(destinazione.read_text(encoding="utf-8"))
+    assert rigenerato["nome"] == "Fosforo"

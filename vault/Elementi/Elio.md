@@ -4,7 +4,7 @@ simbolo: He
 numero_atomico: 2
 anno_scoperta: 1868
 anno_stimato: false
-scopritori: [Norman Lockyer]
+scopritori: [Pierre Janssen, Norman Lockyer]
 epoca: Spettroscopia e radioattività
 categoria: gas_nobile
 gruppo: 18
@@ -28,7 +28,7 @@ aliases: [He, Helium]
 ```mermaid
 timeline
     title Scoperta dell'Elio
-    1868 : Scoperta : Norman Lockyer
+    1868 : Scoperta : Pierre Janssen, Norman Lockyer
     1895 : Isolamento allo stato puro
 ```
 
@@ -81,7 +81,7 @@ flowchart TB
 ← Precedente: [[Indio]] (1863)
 → Successivo: [[Gallio]] (1875)
 
-Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Norman Lockyer]]
+Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Pierre Janssen]], [[Norman Lockyer]]
 
 ## Fonti
 

@@ -4,6 +4,17 @@ Lo script è idempotente e non distruttivo: i blocchi ``contenuti`` già
 compilati non vengono mai sovrascritti. Rilanciarlo aggiorna solo i dati di
 base.
 
+**Nota sul nome italiano (Ruling 39)**: il nome italiano dell'elemento viene
+letto da ``voce_cronologia.nome``, non più dal file YAML esistente con
+ripiego sul nome inglese del dataset. La versione precedente
+(``esistente.get("nome", voce_dataset["name"])``) creava una dipendenza
+circolare: se il file YAML veniva cancellato, l'unico posto dove il nome
+italiano era scritto spariva con lui, e lo script ripiegava in silenzio sul
+nome inglese, rigenerando un file con nome sbagliato invece di segnalare il
+problema. Il nome italiano è ora un dato di riferimento in
+``CRONOLOGIA``, come anno, scopritori ed epoca: sopravvive alla cancellazione
+di un file perché non dipende da esso.
+
 **Nota sulla preservazione di ``scoperta.luogo`` e ``scoperta.controversia``**:
 questi due sottocampi sono dati redazionali (narrativi/storiografici) al pari
 dei blocchi ``contenuti*``, non dati strutturali della cronologia. Se già
@@ -105,7 +116,7 @@ def costruisci_documento(
     documento = {
         "numero_atomico": numero,
         "simbolo": voce_dataset["symbol"],
-        "nome": esistente.get("nome", voce_dataset["name"]),
+        "nome": voce_cronologia.nome,
         "nome_en": voce_dataset["name"],
         "scoperta": {
             "anno": voce_cronologia.anno,
@@ -145,7 +156,9 @@ def main() -> int:
         voce_dataset = per_numero[numero]
         proprieta = estrai_proprieta(voce_dataset)
 
-        # Il nome italiano va inserito a mano: il dataset riporta solo l'inglese.
+        # Il nome del file si ricostruisce dal nome italiano in CRONOLOGIA,
+        # non da un file esistente: se il file è stato cancellato, il glob
+        # non lo trova e la sola fonte del nome resta voce_cronologia.nome.
         percorso = next(CARTELLA_DATI.glob(f"{numero:03d}-*.yaml"), None)
         esistente = yaml.safe_load(percorso.read_text(encoding="utf-8")) if percorso else {}
 

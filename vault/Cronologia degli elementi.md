@@ -113,7 +113,7 @@ Ogni elemento ha una firma luminosa, e leggerla significa trovarlo anche dove no
 | 62 | 1861 | [[Rubidio]] (Rb) | [[Gustav Kirchhoff]], [[Robert Bunsen]] |
 | 63 | 1861 | [[Tallio]] (Tl) | [[William Crookes]] |
 | 64 | 1863 | [[Indio]] (In) | [[Ferdinand Reich]], [[Hieronymus Theodor Richter]] |
-| 65 | 1868 | [[Elio]] (He) | [[Norman Lockyer]] |
+| 65 | 1868 | [[Elio]] (He) | [[Pierre Janssen]], [[Norman Lockyer]] |
 | 66 | 1875 | [[Gallio]] (Ga) | [[Paul-Émile Lecoq de Boisbaudran]] |
 | 67 | 1878 | [[Olmio]] (Ho) | [[Jacques-Louis Soret]], [[Marc Delafontaine]] |
 | 68 | 1878 | [[Itterbio]] (Yb) | [[Jean Charles Galissard de Marignac]] |

@@ -46,3 +46,16 @@ def test_isolamento_non_precede_la_scoperta() -> None:
             assert voce.isolamento_anno >= voce.anno, (
                 f"elemento {voce.numero_atomico}: isolamento prima della scoperta"
             )
+
+
+def test_ogni_voce_ha_il_nome_italiano_valorizzato() -> None:
+    """Il nome italiano (Ruling 39) deve essere presente su tutte e 118 le voci.
+
+    ``nome`` è l'unica sede di riferimento del nome italiano: se una voce lo
+    lasciasse vuoto (il default del campo, per motivi di ordine dei parametri
+    del dataclass, è la stringa vuota), popola_dati.py scriverebbe un file
+    YAML senza nome e, in caso di cancellazione, non avrebbe più modo di
+    ricostruirlo correttamente.
+    """
+    for voce in CRONOLOGIA:
+        assert voce.nome, f"elemento {voce.numero_atomico}: nome italiano mancante"
