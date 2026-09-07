@@ -11,8 +11,13 @@ scoperta:
   luogo: null
   epoca: spettroscopia
   isolamento_anno: 1895
-  note_cronologia: Isolato sulla Terra nel 1895 da William Ramsay, che ne confermò
-    l'identità.
+  note_cronologia: 'Osservato indipendentemente da entrambi nello stesso 1868: Janssen
+    il 18 agosto, durante l''eclissi solare a Guntur, in India, notò una riga gialla
+    nello spettro della cromosfera; Lockyer osservò la stessa riga il 20 ottobre,
+    dal proprio osservatorio, e per primo concluse correttamente che apparteneva a
+    un elemento nuovo, non ancora noto sulla Terra, a cui diede il nome elio. La paternità
+    condivisa è quella riconosciuta dalla storiografia. Isolato sulla Terra nel 1895
+    da William Ramsay, che ne confermò l''identità.'
   controversia: null
 proprieta:
   gruppo: 18

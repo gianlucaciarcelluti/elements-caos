@@ -55,6 +55,28 @@ sostituendo un'affermazione vera con un'affermazione falsa nella nota
 generata — "dato non disponibile" per un valore notissimo). La regola vale
 solo per riempire i buchi (dataset null → valore esistente), mai per far
 vincere sempre lo YAML esistente sul dataset.
+
+**Nota sulla doppia sorgente di ``scoperta.note_cronologia`` (Ruling 41)**:
+questo campo ha DUE sorgenti legittime, non una sola come potrebbe
+suggerire il resto del blocco ``scoperta`` (dove CRONOLOGIA è sempre
+autorevole). La prima è la trascrizione automatica: il testo di
+``voce_cronologia.note`` in ``cronologia.py``, scritto durante la verifica
+storica della fonte. La seconda è la rifinitura redazionale: un testo
+scritto o riscritto a mano su un file YAML esistente durante il lavoro sui
+contenuti (Task 12 sui 4 piloti, Task 14-19 su tutti gli altri), spesso più
+ricco o più preciso del testo automatico perché frutto di una ricerca
+mirata su quell'elemento specifico. **La rifinitura redazionale vince
+sempre**, esattamente come per ``contenuti``, ``fonti`` e
+``stati_ossidazione``: se invertissimo questa precedenza, il prossimo
+rilancio dell'ingest cancellerebbe silenziosamente il lavoro fatto sui
+piloti, lo stesso difetto già corretto due volte in questo task (Ruling 36
+e Ruling 37) ma applicato a un campo diverso. La riga
+``scoperta_esistente.get("note_cronologia") or voce_cronologia.note`` più
+sotto implementa esattamente questa precedenza: il valore esistente (la
+rifinitura) vince quando c'è, il testo di CRONOLOGIA (la trascrizione)
+riempie il buco solo quando il file non ne ha ancora uno. Non è un
+dimenticare-di-aggiornare: è la scelta corretta, resa esplicita qui perché
+prima non lo era abbastanza da distinguersi da un mancato aggiornamento.
 """
 
 import sys
@@ -113,6 +135,16 @@ def costruisci_documento(
         if proprieta_dict.get(campo) is None and proprieta_esistente.get(campo) is not None:
             proprieta_dict[campo] = proprieta_esistente[campo]
 
+    # note_cronologia ha due sorgenti legittime (Ruling 41): il testo della
+    # trascrizione automatica (voce_cronologia.note, da CRONOLOGIA) e
+    # un'eventuale rifinitura redazionale già scritta a mano sul file
+    # esistente. La seconda, quando c'è, vince sempre — stessa precedenza di
+    # contenuti, fonti e stati_ossidazione — perché nasce da una ricerca
+    # mirata su quell'elemento e non deve essere cancellata da un rilancio
+    # dell'ingest automatico. Il testo di CRONOLOGIA riempie il campo solo
+    # quando il file non ne ha ancora uno proprio.
+    note_cronologia = scoperta_esistente.get("note_cronologia") or voce_cronologia.note
+
     documento = {
         "numero_atomico": numero,
         "simbolo": voce_dataset["symbol"],
@@ -127,7 +159,7 @@ def costruisci_documento(
             "luogo": scoperta_esistente.get("luogo"),
             "epoca": voce_cronologia.epoca,
             "isolamento_anno": voce_cronologia.isolamento_anno,
-            "note_cronologia": scoperta_esistente.get("note_cronologia") or voce_cronologia.note,
+            "note_cronologia": note_cronologia,
             "controversia": scoperta_esistente.get("controversia"),
         },
         "proprieta": proprieta_dict,

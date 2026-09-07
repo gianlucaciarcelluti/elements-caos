@@ -298,3 +298,55 @@ def test_nome_file_ricostruito_dal_nome_italiano_di_cronologia(tmp_path: Path) -
     assert destinazione.name == "015-fosforo.yaml"
     rigenerato = yaml.safe_load(destinazione.read_text(encoding="utf-8"))
     assert rigenerato["nome"] == "Fosforo"
+
+
+def _voce_cronologia_fosforo_con_nota(testo: str) -> VoceCronologia:
+    return VoceCronologia(15, 1669, False, ["hennig-brand"], "alchimia", nome="Fosforo", note=testo)
+
+
+def test_note_cronologia_redazionale_vince_sulla_trascrizione_automatica() -> None:
+    """Ruling 41: la rifinitura redazionale di note_cronologia vince sempre.
+
+    Documenta la precedenza voluta, non un dimenticare-di-aggiornare: quando
+    un file esistente ha già una nota (scritta o riscritta a mano durante il
+    lavoro sui contenuti), quella nota sopravvive alla rigenerazione, anche
+    se il testo della trascrizione automatica in CRONOLOGIA è diverso. Stessa
+    precedenza di contenuti, fonti e stati_ossidazione, applicata qui a un
+    sottocampo di scoperta invece che a un blocco intero.
+    """
+    esistente = {
+        "scoperta": {
+            "note_cronologia": "Nota redazionale scritta a mano, frutto di una ricerca mirata."
+        }
+    }
+
+    documento = costruisci_documento(
+        15,
+        _voce_dataset_fosforo(),
+        _voce_cronologia_fosforo_con_nota("Testo della trascrizione automatica."),
+        _proprieta_fosforo(),
+        esistente,
+    )
+
+    assert (
+        documento["scoperta"]["note_cronologia"]
+        == "Nota redazionale scritta a mano, frutto di una ricerca mirata."
+    )
+
+
+def test_note_cronologia_di_cronologia_riempie_il_buco_se_il_file_non_ne_ha() -> None:
+    """La trascrizione automatica resta la sorgente quando non c'è ancora una rifinitura.
+
+    Il verso opposto della Ruling 41: un file senza note_cronologia proprio
+    (o senza blocco scoperta, come un file nuovo) riceve il testo di
+    CRONOLOGIA, non un campo vuoto.
+    """
+    documento = costruisci_documento(
+        15,
+        _voce_dataset_fosforo(),
+        _voce_cronologia_fosforo_con_nota("Testo della trascrizione automatica."),
+        _proprieta_fosforo(),
+        esistente={},
+    )
+
+    assert documento["scoperta"]["note_cronologia"] == "Testo della trascrizione automatica."

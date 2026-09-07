@@ -10,10 +10,8 @@ scoperta:
   luogo: Londra
   epoca: elettrolisi
   isolamento_anno: 1807
-  note_cronologia: 'Scoperta e isolamento coincidono nello stesso anno: il sodio non
-    era mai stato osservato prima come sostanza a sé, perché nessun metodo chimico
-    noto riusciva a separarlo dai suoi composti. Fu la corrente elettrica, non il
-    fuoco, a romperne per prima il legame.'
+  note_cronologia: 'Georg Ernst Stahl distinse chimicamente il sale di sodio già nel
+    1702, ma non isolò l''elemento: la scoperta riconosciuta è l''elettrolisi di Davy.'
   controversia: null
 proprieta:
   gruppo: 1
