@@ -10,7 +10,7 @@ categoria: metallo_di_transizione
 gruppo: 9
 periodo: 4
 posizione_cronologica: 17
-tempo_lettura: 1
+tempo_lettura: 5
 ha_approfondimento: false
 tags: [elemento, metallo-di-transizione, epoca/alchimia, secolo/XVIII]
 aliases: [Co, Cobalt]
@@ -19,9 +19,9 @@ aliases: [Co, Cobalt]
 # Cobalto (Co)
 
 > [!abstract] 17° elemento scoperto — 1735
-> 
+> Per millenni i metalli erano sette, come i pianeti. Nel 1735 un chimico svedese ne trovò un ottavo, e l'ordine del mondo dovette fare spazio.
 
-
+Il cobalto è un metallo grigio-azzurrino, duro e magnetico, che l'umanità ha usato per quattromila anni senza mai vederlo: ne conosceva soltanto i minerali, e li adoperava per fare il blu. È il primo elemento metallico della storia con uno scopritore, una data e un metodo, e la sua identificazione chiude l'età in cui i metalli si contavano sulle dita di due mani.
 
 ## Cronologia della scoperta
 
@@ -33,7 +33,17 @@ timeline
 
 ## Storia della scoperta
 
+Il blu di cobalto precede di molto il cobalto. Composti cobaltiferi colorano il vetro egizio e i gioielli persiani già nel III millennio a.C., si ritrovano nei vetri blu del relitto di Uluburun nel XIV secolo a.C. e nelle rovine di Pompei, e dal Trecento in poi sono il segreto delle porcellane bianche e blu cinesi. Chi mescolava quel minerale alla pasta vitrea sapeva perfettamente che cosa otteneva, e non aveva la minima idea del perché.
 
+Fino al Settecento la dottrina corrente contava sette metalli — oro, argento, rame, ferro, stagno, piombo e mercurio — associati ai sette corpi celesti mobili, e quella corrispondenza non era un ornamento poetico ma un principio esplicativo: spiegava perché i metalli fossero proprio quelli e non altri. Un metallo in più non era soltanto una novità da catalogare; era una crepa nell'impianto.
+
+Il guaio veniva dalle miniere sassoni. Certi minerali somigliavano al minerale di rame, ma per quanto si scaldassero non ne davano; in compenso, arrostiti, liberavano fumi che facevano ammalare i minatori. Oggi sappiamo che quei minerali erano arseniuri e che i fumi erano ossido di arsenico. I minatori davano la colpa ai Kobold, gli spiriti dispettosi del sottosuolo, accusati di aver sostituito il metallo buono con una contraffazione avvelenata.
+
+Che il nome venga da quel minerale maledetto è pacifico; da dove venga la parola lo è molto meno. La derivazione dal tedesco Kobold, lo spirito domestico o della miniera, è quella più diffusa e più antica, ma non è l'unica in campo: si è proposto anche il greco kobalos, che indicava sia un imbroglione sia i fumi dell'arsenico, e derivazioni da termini minerari slavi. Le ricostruzioni si intrecciano e nessuna ha chiuso la questione.
+
+Georg Brandt dirige il laboratorio chimico del Collegio delle miniere di Stoccolma ed è, per formazione e per mestiere, esattamente l'uomo giusto: figlio di un proprietario di miniere e farmacista, allevato fra i minerali, e per di più impegnato in prima persona a smascherare gli alchimisti che promettevano oro. Intorno al 1735 isola dal minerale un metallo nuovo e lo sottopone a una batteria di prove per distinguerlo dal bismuto, con cui si trovava mescolato.
+
+Il colpo da maestro è la prova del colore. Il blu del vetro veniva attribuito al bismuto che accompagnava il minerale; Brandt mostra che a produrlo è invece il suo metallo nuovo, fondendolo con silice e alcali fino a ottenere lo smalto blu. In un esperimento solo dimostra che la sostanza esiste, che è distinta e che è responsabile di un fenomeno che il mondo conosceva da millenni. È il primo metallo scoperto da una persona con un nome.
 
 ## Posizione nella tavola periodica
 
@@ -51,7 +61,11 @@ flowchart TB
 
 ## Caratteristiche
 
+Il cobalto è uno dei tre soli elementi ferromagnetici a temperatura ambiente, insieme al ferro e al nichel, e fra i tre è quello che tiene meglio: conserva le proprietà magnetiche fino a 1115 gradi, la temperatura più alta di qualsiasi altro materiale magnetico. È questa resistenza al calore a renderlo indispensabile nei magneti permanenti che devono lavorare in condizioni severe.
 
+La chimica del cobalto è una chimica di colori. I composti comuni lo contengono allo stato più due o più tre, anche se la letteratura ne registra un ventaglio molto più ampio, e i suoi ioni cambiano tinta a seconda di ciò che li circonda: in acqua danno un rosa tenue, ma bastano ioni cloruro a trasformarli in un blu intenso. La reazione è così vistosa e reversibile che si usa come indicatore di umidità.
+
+Il cobalto è l'unico metallo che sta al centro di una vitamina. Le cobalamine, cioè la vitamina B12, sono molecole costruite attorno a un singolo atomo di cobalto, e senza di esse gli animali non producono globuli rossi né mantengono in salute il sistema nervoso. Nessun animale né pianta sa fabbricarla: la sintetizzano soltanto i batteri, e tutto il resto della catena alimentare se la passa di bocca in bocca.
 
 ### Dati fisico-chimici
 
@@ -67,7 +81,7 @@ flowchart TB
 | Punto di fusione | 1494,9 °C |
 | Punto di ebollizione | 2926,9 °C |
 | Densità | 8,9 g/cm³ |
-| Stati di ossidazione | — |
+| Stati di ossidazione | -3, -1, +1, +2, +3, +4, +5 |
 
 ## Struttura atomica
 
@@ -75,7 +89,41 @@ flowchart TB
 
 ## Usi e presenza in natura
 
+Oggi la destinazione principale del cobalto sono le batterie agli ioni di litio, dove entra negli ossidi del catodo e contribuisce a densità di energia e durata dei cicli di ricarica. Seguono le superleghe per turbine di aerei e centrali, che sfruttano la sua tenuta alle alte temperature, e i carburi cementati da taglio, dove fa da legante metallico alle particelle durissime di tungsteno.
 
+La domanda di batterie ha spostato il baricentro del cobalto su un solo paese: la Repubblica Democratica del Congo fornisce oltre l'ottanta per cento della produzione mondiale, e una quota di quel minerale esce da scavi artigianali condotti a mano, senza sicurezza e con impiego documentato di lavoro minorile. È il caso in cui la transizione energetica presenta un conto che non compare nel prezzo di listino.
+
+```mermaid
+flowchart LR
+    E["Cobalto"]
+    C1["Ossido di cobalto e alluminio<br/>CoAl2O4"]
+    E --> C1
+    U1(["blu di cobalto per ceramica e pittura"])
+    C1 --> U1
+    U2(["pigmento per vetro"])
+    C1 --> U2
+    C2["Cobalamina (vitamina B12)<br/>C63H88CoN14O14P"]
+    E --> C2
+    U3(["formazione dei globuli rossi"])
+    C2 --> U3
+    U4(["funzionalità del sistema nervoso"])
+    C2 --> U4
+    C3["Ossido di litio e cobalto<br/>LiCoO2"]
+    E --> C3
+    U5(["catodo delle batterie agli ioni di litio"])
+    C3 --> U5
+    C4["Cloruro di cobalto<br/>CoCl2"]
+    E --> C4
+    U6(["indicatore di umidità"])
+    C4 --> U6
+    style E fill:#f9a825,stroke:#333,stroke-width:2px
+```
+
+## Curiosità
+
+Il cobalto-60, isotopo artificiale prodotto nei reattori, emette raggi gamma molto energetici e per decenni è stato il cuore della radioterapia oncologica, la cosiddetta bomba al cobalto: un elemento che nasce come veleno delle miniere e finisce per curare i tumori. Le stesse sorgenti sterilizzano oggi strumenti chirurgici e derrate alimentari.
+
+C'è una piccola ironia nella nomenclatura mineraria tedesca: accanto al cobalto, accusato di essere rame contraffatto dai folletti, esiste il nichel, il cui nome viene da Kupfernickel, cioè rame del demonio Nick, per un identico sospetto sullo stesso tipo di minerale. Due elementi vicini nella tavola periodica portano entrambi, incisa nel nome, la delusione dei minatori che cercavano rame e trovavano altro.
 
 ## Nella cronologia
 
@@ -86,3 +134,6 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Georg Brandt]]
 
 ## Fonti
 
+- [Cobalt](https://en.wikipedia.org/wiki/Cobalt) — consultata il 07/09/2026
+- [Georg Brandt](https://en.wikipedia.org/wiki/Georg_Brandt) — consultata il 07/09/2026
+- [Cobalt blue](https://en.wikipedia.org/wiki/Cobalt_blue) — consultata il 07/09/2026

@@ -7,12 +7,21 @@ scoperta:
   anno_stimato: false
   scopritori:
   - johann-heinrich-pott
-  luogo: null
+  luogo: Berlino
   epoca: alchimia
   isolamento_anno: 1808
-  note_cronologia: Isolato come elemento puro solo nel 1808, per elettrolisi, da Humphry
-    Davy.
-  controversia: null
+  note_cronologia: 'Pott riconosce la terra calcarea come terra a sé nelle Observationes et
+    animadversiones chymicae del 1739. Il metallo è isolato solo nel 1808, per elettrolisi,
+    da Humphry Davy.'
+  controversia: 'Attribuire a Pott la scoperta del calcio richiede una precisazione. Nel
+    1739 Pott riconosce la terra calcarea come una delle terre elementari, distinta dalle
+    altre: è un passo reale, ma riguarda la calce, non il metallo, e Pott non sostenne mai
+    che dentro la calce ci fosse un metallo. L''ipotesi che le terre fossero ossidi di
+    metalli sconosciuti è di Lavoisier, mezzo secolo dopo, e la prova è di Humphry Davy nel
+    1808. Molte cronologie, questa compresa, datano la scoperta al lavoro sulle terre perché
+    è lì che il calcio comincia a esistere come sostanza distinta; altre la datano al 1808,
+    quando qualcuno lo tiene finalmente in mano. Entrambe le date dicono qualcosa di vero e
+    nessuna delle due da sola racconta la vicenda.'
 proprieta:
   gruppo: 2
   periodo: 4
@@ -28,5 +37,168 @@ proprieta:
   punto_fusione_k: 1115.0
   punto_ebollizione_k: 1757.0
   densita: 1.55
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 1
+  - 2
 approfondimento: false
+contenuti:
+  hook: Ci costruiamo le ossa, ci abbiamo costruito il Colosseo e ci facciamo contrarre i
+    muscoli. Eppure nessuno aveva mai visto il calcio prima del 1808.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il calcio è un metallo argenteo e tenero, tanto reattivo che in natura non si
+      trova mai libero: sta sempre combinato, ed è in quella forma che ci circonda da
+      sempre. È il quinto elemento più abbondante della crosta terrestre e il minerale più
+      diffuso nel nostro corpo, il che spiega il paradosso della sua storia — un elemento
+      onnipresente e invisibile fino a due secoli fa.'
+    visual: Un pezzo di calcio metallico appena tagliato accanto a un blocco di calcare
+    attendibilita: documentato
+  - id: calce
+    sezione: storia
+    testo: 'La storia del calcio comincia da un forno. Scaldando il calcare oltre gli
+      ottocento gradi se ne caccia via l''anidride carbonica e resta la calce viva, una
+      sostanza avida d''acqua che, rimescolata con sabbia, fa presa e indurisce. È una delle
+      invenzioni decisive dell''antichità: senza malta di calce non esistono le cupole
+      romane, e la parola stessa calcio viene dal latino calx, che significa appunto calce.'
+    visual: Fornace da calce con il calcare in cottura
+    attendibilita: documentato
+  - id: terre
+    sezione: storia
+    testo: 'Nel Settecento la calce appartiene alla categoria delle terre: sostanze
+      polverose, refrattarie, che nessun fuoco riesce a scomporre e che perciò venivano
+      considerate elementari. Era una conclusione ragionevole per gli strumenti del tempo,
+      e sbagliata: le terre non resistevano perché fossero semplici, ma perché il legame fra
+      il metallo e l''ossigeno era troppo forte per la sola forza del calore.'
+    visual: Campioni di terre settecentesche etichettati in coppelle di porcellana
+    attendibilita: documentato
+  - id: pott
+    sezione: storia
+    testo: 'Nel 1739 il chimico berlinese Johann Heinrich Pott pubblica un lavoro in cui la
+      terra calcarea è riconosciuta come una terra a sé, non riconducibile alle altre. Va
+      detto con precisione che cosa fece e che cosa no: separò e caratterizzò una sostanza,
+      non un metallo, e non sostenne mai che nella calce se ne nascondesse uno. È la data da
+      cui il calcio comincia a esistere come qualcosa di distinto, ancora senza sapere che
+      cosa sia.'
+    visual: Frontespizio di un trattato chimico berlinese del 1739
+    attendibilita: documentato
+  - id: black_lavoisier
+    sezione: storia
+    testo: 'I due passi successivi arrivano dal resto d''Europa. Nel 1755 lo scozzese Joseph
+      Black dimostra che il calcare, cuocendo, perde peso perché libera un''aria fissa, cioè
+      anidride carbonica: la prima volta che un gas viene pesato dentro una reazione. Poco
+      dopo Lavoisier inserisce la calce fra le terre salificabili e avanza l''ipotesi
+      decisiva, che siano ossidi di metalli non ancora isolati.'
+    visual: Bilancia da laboratorio con i due campioni, prima e dopo la cottura
+    attendibilita: documentato
+  - id: davy
+    sezione: storia
+    testo: 'A dare ragione a Lavoisier è Humphry Davy nel 1808, con lo strumento che aveva
+      già usato per sodio e potassio: la corrente elettrica, capace di spezzare legami che
+      il fuoco non scalfiva. Con la calce la faccenda è più ostica, e Davy la risolve
+      lavorando su una miscela con ossido di mercurio e raccogliendo il prodotto su un
+      catodo di mercurio; ne esce un amalgama, da cui il mercurio viene poi distillato via.
+      Dopo sessantanove anni la terra di Pott consegna finalmente il suo metallo.'
+    visual: Pila voltaica di Davy collegata al crogiolo con l'amalgama di calcio
+    attendibilita: documentato
+  - id: caratteristiche_reattivita
+    sezione: caratteristiche
+    testo: 'Il calcio metallico è argenteo appena tagliato e ingrigisce in pochi istanti,
+      perché all''aria si ricopre di ossido e nitruro. In acqua reagisce liberando idrogeno,
+      meno violentemente del sodio ma abbastanza da renderlo inservibile come metallo
+      strutturale. Nei composti si presenta quasi senza eccezioni allo stato più due,
+      cedendo entrambi gli elettroni esterni: una chimica prevedibile, senza i colori e le sorprese dei
+      metalli di transizione.'
+    visual: Truciolo di calcio che si opacizza a contatto con l'aria
+    attendibilita: documentato
+  - id: caratteristiche_ossa
+    sezione: caratteristiche
+    testo: 'Nel corpo umano il calcio è il minerale più abbondante, circa un chilo in un
+      adulto, e per il novantanove per cento sta nelle ossa e nei denti sotto forma di
+      idrossiapatite, un fosfato di calcio cristallino. Lo scheletro però non è solo
+      un''impalcatura: funziona anche da magazzino, e l''organismo vi attinge o vi deposita
+      calcio per tenere costante la quantità che circola nel sangue.'
+    visual: Sezione di osso trabecolare al microscopio elettronico
+    attendibilita: documentato
+  - id: caratteristiche_segnale
+    sezione: caratteristiche
+    testo: 'L''uno per cento restante fa il lavoro più delicato. Lo ione calcio è il segnale
+      universale della cellula: la sua concentrazione, tenuta bassissima all''interno,
+      schizza verso l''alto quando un canale si apre, e quel picco è ciò che fa contrarre un
+      muscolo, fa partire un impulso nervoso o innesca la coagulazione del sangue. Ogni
+      battito del cuore è un''onda di calcio che entra e viene ripompata fuori.'
+    visual: Fibra muscolare con il transito dello ione calcio evidenziato in fluorescenza
+    attendibilita: documentato
+  - id: usi_costruzioni
+    sezione: usi
+    testo: 'Il calcio è, per volume, l''elemento su cui è costruito il mondo edificato. Il
+      cemento Portland si ottiene cuocendo calcare e argilla, e da esso viene il calcestruzzo;
+      il gesso, solfato di calcio, fa intonaci, pannelli e forme; il calcare grezzo è
+      pietra da costruzione e fondente indispensabile negli altiforni, dove cattura le
+      impurità del minerale di ferro e le porta via nella scoria.'
+    visual: Forno rotante da cemento con il calcare in ingresso
+    attendibilita: documentato
+  - id: usi_vari
+    sezione: usi
+    testo: 'Il metallo puro, che serve a poco da solo, è invece un ottimo riducente e si usa
+      per estrarre altri metalli dai loro composti e per ripulire gli acciai dall''ossigeno e
+      dallo zolfo residui. In agricoltura la calce corregge i suoli acidi, e nell''industria
+      alimentare i sali di calcio fanno coagulare il tofu e rinforzano farine e bevande.'
+    visual: Spargimento di calce agricola su un campo arato
+    attendibilita: documentato
+  - id: curiosita_grotte
+    sezione: curiosita
+    testo: 'Le grotte carsiche sono interamente opera di una reazione reversibile del calcio.
+      L''acqua piovana, resa leggermente acida dall''anidride carbonica, scioglie il calcare
+      e se lo porta via in soluzione; dove la goccia ritorna all''aria il processo si inverte,
+      il carbonato riprecipita e costruisce stalattiti e stalagmiti. La stessa chimica scava
+      la roccia e la ricostruisce, a pochi metri di distanza.'
+    visual: Sala di grotta carsica con stalattiti e stalagmiti in formazione
+    attendibilita: documentato
+  - id: curiosita_gusci
+    sezione: curiosita
+    testo: 'Buona parte del calcare del pianeta è stata fabbricata da esseri viventi. Gusci
+      di molluschi, scheletri di coralli e microscopiche piastrine di alghe unicellulari si
+      depositano sui fondali per milioni di anni e diventano roccia: le bianche scogliere di
+      Dover sono un accumulo di plancton calcareo. Il calcio con cui costruiamo le case è
+      passato, quasi tutto, attraverso qualcosa che era vivo.'
+    visual: Scogliere bianche di gesso con il dettaglio dei coccoliti al microscopio
+    attendibilita: documentato
+  pronuncia:
+  - termine: Humphry Davy
+    ipa: ˈhʌmfri ˈdeɪvi
+    nota: All'inglese; il nome si scrive senza la e.
+  - termine: Johann Heinrich Pott
+    ipa: ˈjoːhan ˈhaɪnʁɪç pɔt
+    nota: Alla tedesca.
+composti_principali:
+- nome: Carbonato di calcio
+  formula: CaCO3
+  usi:
+  - calcare e marmo da costruzione
+  - gusci e scheletri degli organismi marini
+  - fondente per la siderurgia
+- nome: Ossido di calcio (calce viva)
+  formula: CaO
+  usi:
+  - malte e cementi
+  - correzione dei suoli acidi
+- nome: Solfato di calcio (gesso)
+  formula: CaSO4
+  usi:
+  - intonaci e pannelli
+  - forme e calchi ortopedici
+- nome: Idrossiapatite
+  formula: Ca5(PO4)3(OH)
+  usi:
+  - struttura minerale di ossa e denti
+fonti:
+- url: https://en.wikipedia.org/wiki/Calcium
+  titolo: Calcium
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Johann_Heinrich_Pott
+  titolo: Johann Heinrich Pott
+  consultata: '2026-09-07'
+- url: https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/pott-johann-heinrich
+  titolo: 'Pott, Johann Heinrich (Dictionary of Scientific Biography)'
+  consultata: '2026-09-07'

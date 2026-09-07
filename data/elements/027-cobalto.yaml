@@ -7,10 +7,12 @@ scoperta:
   anno_stimato: false
   scopritori:
   - georg-brandt
-  luogo: null
+  luogo: Stoccolma
   epoca: alchimia
   isolamento_anno: 1735
-  note_cronologia: null
+  note_cronologia: 'Brandt ottiene e caratterizza il metallo intorno al 1735 presso il
+    Laboratorium Chymicum del Collegio delle miniere di Stoccolma; la pubblicazione
+    distesa dei sei saggi che lo distinguono dal bismuto è del 1741 circa.'
   controversia: null
 proprieta:
   gruppo: 9
@@ -27,5 +29,183 @@ proprieta:
   punto_fusione_k: 1768.0
   punto_ebollizione_k: 3200.0
   densita: 8.9
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -3
+  - -1
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 approfondimento: false
+contenuti:
+  hook: Per millenni i metalli erano sette, come i pianeti. Nel 1735 un chimico svedese ne
+    trovò un ottavo, e l'ordine del mondo dovette fare spazio.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il cobalto è un metallo grigio-azzurrino, duro e magnetico, che l''umanità ha
+      usato per quattromila anni senza mai vederlo: ne conosceva soltanto i minerali, e li
+      adoperava per fare il blu. È il primo elemento metallico della storia con uno
+      scopritore, una data e un metodo, e la sua identificazione chiude l''età in cui i
+      metalli si contavano sulle dita di due mani.'
+    visual: Un lingotto di cobalto accanto a un frammento di vetro blu intenso
+    attendibilita: documentato
+  - id: blu_antico
+    sezione: storia
+    testo: 'Il blu di cobalto precede di molto il cobalto. Composti cobaltiferi colorano il
+      vetro egizio e i gioielli persiani già nel III millennio a.C., si ritrovano nei vetri
+      blu del relitto di Uluburun nel XIV secolo a.C. e nelle rovine di Pompei, e dal
+      Trecento in poi sono il segreto delle porcellane bianche e blu cinesi. Chi mescolava
+      quel minerale alla pasta vitrea sapeva perfettamente che cosa otteneva, e non aveva
+      la minima idea del perché.'
+    visual: Vaso di porcellana Ming bianco e blu accanto a una perla di vetro egizia
+    attendibilita: documentato
+  - id: i_sette_metalli
+    sezione: storia
+    testo: 'Fino al Settecento la dottrina corrente contava sette metalli — oro, argento,
+      rame, ferro, stagno, piombo e mercurio — associati ai sette corpi celesti mobili, e
+      quella corrispondenza non era un ornamento poetico ma un principio esplicativo:
+      spiegava perché i metalli fossero proprio quelli e non altri. Un metallo in più non
+      era soltanto una novità da catalogare; era una crepa nell''impianto.'
+    visual: Tavola alchemica con i sette metalli accanto ai rispettivi simboli planetari
+    attendibilita: documentato
+  - id: kobold
+    sezione: storia
+    testo: 'Il guaio veniva dalle miniere sassoni. Certi minerali somigliavano al minerale
+      di rame, ma per quanto si scaldassero non ne davano; in compenso, arrostiti,
+      liberavano fumi che facevano ammalare i minatori. Oggi sappiamo che quei minerali
+      erano arseniuri e che i fumi erano ossido di arsenico. I minatori davano la colpa ai
+      Kobold, gli spiriti dispettosi del sottosuolo, accusati di aver sostituito il metallo
+      buono con una contraffazione avvelenata.'
+    visual: Galleria di miniera sassone con il fumo del minerale arrostito
+    attendibilita: documentato
+  - id: etimologia
+    sezione: storia
+    testo: 'Che il nome venga da quel minerale maledetto è pacifico; da dove venga la parola
+      lo è molto meno. La derivazione dal tedesco Kobold, lo spirito domestico o della
+      miniera, è quella più diffusa e più antica, ma non è l''unica in campo: si è proposto
+      anche il greco kobalos, che indicava sia un imbroglione sia i fumi dell''arsenico, e
+      derivazioni da termini minerari slavi. Le ricostruzioni si intrecciano e nessuna ha
+      chiuso la questione.'
+    visual: Voci di dizionario minerario tedesco con le varianti kobelt, kobolt, kobalt
+    attendibilita: discusso
+  - id: brandt
+    sezione: storia
+    testo: 'Georg Brandt dirige il laboratorio chimico del Collegio delle miniere di
+      Stoccolma ed è, per formazione e per mestiere, esattamente l''uomo giusto: figlio di
+      un proprietario di miniere e farmacista, allevato fra i minerali, e per di più
+      impegnato in prima persona a smascherare gli alchimisti che promettevano oro. Intorno
+      al 1735 isola dal minerale un metallo nuovo e lo sottopone a una batteria di prove per
+      distinguerlo dal bismuto, con cui si trovava mescolato.'
+    visual: Brandt al banco del Laboratorium Chymicum fra crogioli e campioni di minerale
+    attendibilita: documentato
+  - id: dimostrazione
+    sezione: storia
+    testo: 'Il colpo da maestro è la prova del colore. Il blu del vetro veniva attribuito al
+      bismuto che accompagnava il minerale; Brandt mostra che a produrlo è invece il suo
+      metallo nuovo, fondendolo con silice e alcali fino a ottenere lo smalto blu. In un
+      esperimento solo dimostra che la sostanza esiste, che è distinta e che è responsabile
+      di un fenomeno che il mondo conosceva da millenni. È il primo metallo scoperto da una
+      persona con un nome.'
+    visual: Perla di smalto blu ottenuta alla fiamma su un filo di platino
+    attendibilita: documentato
+  - id: caratteristiche_magnetismo
+    sezione: caratteristiche
+    testo: 'Il cobalto è uno dei tre soli elementi ferromagnetici a temperatura ambiente,
+      insieme al ferro e al nichel, e fra i tre è quello che tiene meglio: conserva le
+      proprietà magnetiche fino a 1115 gradi, la temperatura più alta di qualsiasi altro
+      materiale magnetico. È questa resistenza al calore a renderlo indispensabile nei
+      magneti permanenti che devono lavorare in condizioni severe.'
+    visual: Magnete al cobalto che regge il carico mentre la fiamma lo arroventa
+    attendibilita: documentato
+  - id: caratteristiche_colore
+    sezione: caratteristiche
+    testo: 'La chimica del cobalto è una chimica di colori. I composti comuni lo contengono
+      allo stato più due o più tre, anche se la letteratura ne registra un ventaglio molto
+      più ampio, e i suoi ioni cambiano tinta a seconda di ciò che li circonda: in acqua
+      danno un rosa tenue, ma bastano ioni cloruro a trasformarli in un blu intenso. La
+      reazione è così vistosa e reversibile che si usa come indicatore di umidità.'
+    visual: Due provette affiancate, una rosa e una blu, con lo stesso sale di cobalto
+    attendibilita: documentato
+  - id: caratteristiche_b12
+    sezione: caratteristiche
+    testo: 'Il cobalto è l''unico metallo che sta al centro di una vitamina. Le cobalamine,
+      cioè la vitamina B12, sono molecole costruite attorno a un singolo atomo di cobalto, e
+      senza di esse gli animali non producono globuli rossi né mantengono in salute il
+      sistema nervoso. Nessun animale né pianta sa fabbricarla: la sintetizzano soltanto i
+      batteri, e tutto il resto della catena alimentare se la passa di bocca in bocca.'
+    visual: Struttura della cobalamina con l'atomo di cobalto al centro dell'anello
+    attendibilita: documentato
+  - id: usi_batterie
+    sezione: usi
+    testo: 'Oggi la destinazione principale del cobalto sono le batterie agli ioni di litio,
+      dove entra negli ossidi del catodo e contribuisce a densità di energia e durata dei
+      cicli di ricarica. Seguono le superleghe per turbine di aerei e centrali, che sfruttano
+      la sua tenuta alle alte temperature, e i carburi cementati da taglio, dove fa da legante
+      metallico alle particelle durissime di tungsteno.'
+    visual: Catodo di una cella agli ioni di litio accanto a una paletta di turbina
+    attendibilita: documentato
+  - id: usi_congo
+    sezione: usi
+    testo: 'La domanda di batterie ha spostato il baricentro del cobalto su un solo paese: la
+      Repubblica Democratica del Congo fornisce oltre l''ottanta per cento della produzione
+      mondiale, e una quota di quel minerale esce da scavi artigianali condotti a mano, senza
+      sicurezza e con impiego documentato di lavoro minorile. È il caso in cui la transizione
+      energetica presenta un conto che non compare nel prezzo di listino.'
+    visual: Scavo artigianale a cielo aperto con sacchi di minerale grezzo
+    attendibilita: documentato
+  - id: curiosita_cobalto60
+    sezione: curiosita
+    testo: 'Il cobalto-60, isotopo artificiale prodotto nei reattori, emette raggi gamma
+      molto energetici e per decenni è stato il cuore della radioterapia oncologica, la
+      cosiddetta bomba al cobalto: un elemento che nasce come veleno delle miniere e finisce
+      per curare i tumori. Le stesse sorgenti sterilizzano oggi strumenti chirurgici e
+      derrate alimentari.'
+    visual: Testata di una unità di teleterapia al cobalto-60
+    attendibilita: documentato
+  - id: curiosita_nome_beffa
+    sezione: curiosita
+    testo: 'C''è una piccola ironia nella nomenclatura mineraria tedesca: accanto al cobalto,
+      accusato di essere rame contraffatto dai folletti, esiste il nichel, il cui nome viene
+      da Kupfernickel, cioè rame del demonio Nick, per un identico sospetto sullo stesso tipo
+      di minerale. Due elementi vicini nella tavola periodica portano entrambi, incisa nel
+      nome, la delusione dei minatori che cercavano rame e trovavano altro.'
+    visual: Campioni di cobaltite e niccolite affiancati, entrambi ingannevolmente metallici
+    attendibilita: documentato
+  pronuncia:
+  - termine: Georg Brandt
+    ipa: ˈjɛɔrj brant
+    nota: Alla svedese.
+  - termine: Kobold
+    ipa: ˈkoːbɔlt
+    nota: Alla tedesca.
+composti_principali:
+- nome: Ossido di cobalto e alluminio
+  formula: CoAl2O4
+  usi:
+  - blu di cobalto per ceramica e pittura
+  - pigmento per vetro
+- nome: Cobalamina (vitamina B12)
+  formula: C63H88CoN14O14P
+  usi:
+  - formazione dei globuli rossi
+  - funzionalità del sistema nervoso
+- nome: Ossido di litio e cobalto
+  formula: LiCoO2
+  usi:
+  - catodo delle batterie agli ioni di litio
+- nome: Cloruro di cobalto
+  formula: CoCl2
+  usi:
+  - indicatore di umidità
+fonti:
+- url: https://en.wikipedia.org/wiki/Cobalt
+  titolo: Cobalt
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Georg_Brandt
+  titolo: Georg Brandt
+  consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Cobalt_blue
+  titolo: Cobalt blue
+  consultata: '2026-09-07'
