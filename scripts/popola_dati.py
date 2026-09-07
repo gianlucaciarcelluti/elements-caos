@@ -26,6 +26,24 @@ azzererebbe in silenzio il lavoro fatto su tutti e 118 gli elementi (la
 validazione segnala "non compilati" in modo indistinguibile da "mai
 scritti", quindi la perdita non sarebbe nemmeno visibile a un controllo
 superficiale).
+
+**Nota sulla preservazione di ``punto_fusione_k``, ``punto_ebollizione_k`` e
+``densita`` (Ruling 37)**: stessa causa della Ruling 36, applicata a tre
+campi diversi con una semantica leggermente diversa. Questi tre NON sono dati
+redazionali in generale: sono dichiaratamente dataset-driven, e quando il
+dataset porta un valore quel valore vince sempre, anche se diverso da quello
+già scritto (è la fonte automatica dichiarata, e un suo aggiornamento deve
+propagarsi). La sola eccezione è quando il dataset riporta ``null`` mentre lo
+YAML esistente ha già un valore: lì il ``null`` del dataset significa "il
+dataset non lo sa", non "il dato non esiste", e non può cancellare un valore
+verificato in fase redazionale (caso reale: il fosforo pilota aveva
+``punto_fusione_k: 317.3`` / ``punto_ebollizione_k: 553.7`` scritti a mano
+prima che esistesse l'ingest automatico; il dataset esterno riporta ``None``
+per entrambi, e senza questa eccezione un rilancio li cancellava,
+sostituendo un'affermazione vera con un'affermazione falsa nella nota
+generata — "dato non disponibile" per un valore notissimo). La regola vale
+solo per riempire i buchi (dataset null → valore esistente), mai per far
+vincere sempre lo YAML esistente sul dataset.
 """
 
 import sys
@@ -62,15 +80,27 @@ def costruisci_documento(
     esiste ancora) e restituisce il nuovo documento da scrivere.
     """
     scoperta_esistente = esistente.get("scoperta") or {}
+    proprieta_esistente = esistente.get("proprieta") or {}
     proprieta_dict = proprieta.model_dump(mode="json")
 
     # Gli stati di ossidazione sono un dato redazionale (Ruling 23/36): se già
-    # compilati a mano su un file esistente, sopravvivono alla rigenerazione
-    # del resto del blocco proprieta, che invece viene sempre ricostruito dal
-    # dataset esterno.
-    stati_ossidazione_esistenti = (esistente.get("proprieta") or {}).get("stati_ossidazione")
+    # compilati a mano su un file esistente, sopravvivono SEMPRE alla
+    # rigenerazione del resto del blocco proprieta, indipendentemente da cosa
+    # dice il dataset (che per questo campo restituisce sempre lista vuota).
+    stati_ossidazione_esistenti = proprieta_esistente.get("stati_ossidazione")
     if stati_ossidazione_esistenti:
         proprieta_dict["stati_ossidazione"] = stati_ossidazione_esistenti
+
+    # Punto di fusione, punto di ebollizione e densità (Ruling 37): a
+    # differenza degli stati di ossidazione, questi sono dati dataset-driven
+    # e il dataset vince quando ha un valore, ANCHE se diverso da quello
+    # esistente (aggiornamento della fonte). Solo quando il dataset riporta
+    # null e lo YAML esistente ha già un valore, quel valore sopravvive: un
+    # null del dataset è una lacuna della fonte, non un'informazione che il
+    # dato non esista, e non deve cancellare un valore verificato.
+    for campo in ("punto_fusione_k", "punto_ebollizione_k", "densita"):
+        if proprieta_dict.get(campo) is None and proprieta_esistente.get(campo) is not None:
+            proprieta_dict[campo] = proprieta_esistente[campo]
 
     documento = {
         "numero_atomico": numero,

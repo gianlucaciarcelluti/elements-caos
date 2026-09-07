@@ -80,8 +80,8 @@ La particolare instabilità del fosforo bianco dipende dalla sua struttura molec
 | Periodo | 3 |
 | Blocco | p |
 | Configurazione elettronica | [Ne] 3s² 3p³ |
-| Punto di fusione | dato non disponibile |
-| Punto di ebollizione | dato non disponibile |
+| Punto di fusione | 44,2 °C |
+| Punto di ebollizione | 280,6 °C |
 | Densità | 1,823 g/cm³ |
 | Stati di ossidazione | -3, -2, -1, +1, +3, +4, +5 |
 

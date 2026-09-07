@@ -25,8 +25,8 @@ proprieta:
   - 2
   - 8
   - 5
-  punto_fusione_k: null
-  punto_ebollizione_k: null
+  punto_fusione_k: 317.3
+  punto_ebollizione_k: 553.7
   densita: 1.823
   stati_ossidazione:
   - -3
