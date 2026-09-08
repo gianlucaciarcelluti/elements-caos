@@ -506,7 +506,12 @@ CRONOLOGIA: list[VoceCronologia] = [
         48,
         1817,
         False,
-        ["karl-samuel-hermann", "friedrich-stromeyer", "johann-carl-heinrich-roloff"],
+        # La trascrizione originale della cronologia dava il terzo scopritore come
+        # "Johann Carl Heinrich Roloff". Il nome e sbagliato: il medico che nel 1817
+        # trovo l'ossido di zinco sospetto nelle farmacie dei dintorni di Magdeburgo
+        # era Johann Christoff Heinrich Roloff (1783-1825), come lo nominano la voce
+        # Cadmium della Wikipedia tedesca e la sua voce biografica.
+        ["karl-samuel-hermann", "friedrich-stromeyer", "johann-christoff-heinrich-roloff"],
         "elettrolisi",
         isolamento_anno=1817,
         nome="Cadmio",

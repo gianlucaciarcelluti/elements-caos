@@ -8,11 +8,14 @@ scoperta:
   scopritori:
   - karl-samuel-hermann
   - friedrich-stromeyer
-  - johann-carl-heinrich-roloff
-  luogo: null
+  - johann-christoff-heinrich-roloff
+  luogo: Gottinga
   epoca: elettrolisi
   isolamento_anno: 1817
-  note_cronologia: null
+  note_cronologia: 'Scoperta multipla e quasi simultanea: Roloff sospettò arsenico
+    in una partita di ossido di zinco, Hermann la rianalizzò e vi trovò un metallo
+    ignoto, Stromeyer arrivò allo stesso metallo per una via indipendente e lo isolò
+    dandogli il nome che è rimasto.'
   controversia: null
 proprieta:
   gruppo: 12
@@ -30,5 +33,198 @@ proprieta:
   punto_fusione_k: 594.22
   punto_ebollizione_k: 1040.0
   densita: 8.65
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -2
+  - 0
+  - 1
+  - 2
 approfondimento: false
+contenuti:
+  hook: 'Un''ispezione in farmacia, una calamina che cambiava colore scaldandosi e
+    il sospetto di arsenico: nel 1817 tre chimici tedeschi arrivarono quasi insieme
+    allo stesso metallo sconosciuto.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il cadmio è un metallo bianco-argenteo dal riflesso azzurrino, tenero
+      come lo stagno, che per più di un secolo è stato apprezzato per due qualità:
+      protegge l''acciaio dalla ruggine e dà ai pittori gialli e rossi che nessun altro
+      pigmento reggeva alla luce. Poi si è capito quanto è tossico.'
+    visual: Un lingotto di cadmio accanto a un tubetto di colore giallo
+    attendibilita: documentato
+  - id: calamina
+    sezione: storia
+    testo: La materia prima non era un minerale esotico ma un prodotto da banco di
+      farmacia. L'ossido di zinco si vendeva come rimedio per la pelle e come polvere
+      per ferite, e si otteneva tostando la calamina, termine che all'epoca copriva
+      indistintamente carbonati e silicati di zinco. Nelle farmacie tedesche degli
+      anni Dieci dell'Ottocento ne circolavano partite di qualità molto diseguale,
+      e ispezionarle era compito delle autorità sanitarie.
+    visual: Barattoli da farmacia ottocentesca con etichette di ossido di zinco
+    attendibilita: documentato
+  - id: roloff_hermann
+    sezione: storia
+    testo: 'Nel 1817 il medico distrettuale Johann Christoff Heinrich Roloff, ispezionando
+      le farmacie dei dintorni di Magdeburgo, trovò partite di ossido di zinco che
+      alle sue prove preliminari sembravano contenere arsenico: dava con l''idrogeno solforato
+      un precipitato giallo, la reazione tipica dell''arsenico. Il lotto risaliva
+      alla fabbrica chimica di Karl Samuel Leberecht Hermann, che per difendere la
+      reputazione della propria azienda si mise ad analizzarlo a fondo. Di arsenico
+      non ce n''era: il precipitato veniva da un metallo che nessuno aveva mai descritto.'
+    visual: Un precipitato giallo sul fondo di una provetta durante un saggio analitico
+    attendibilita: documentato
+  - id: stromeyer
+    sezione: storia
+    testo: 'Nello stesso anno, a centocinquanta chilometri di distanza, Friedrich
+      Stromeyer, professore a Gottinga e ispettore delle farmacie del regno di Hannover,
+      seguiva una pista indipendente: alcuni fornitori vendevano carbonato di zinco
+      spacciandolo per ossido, e Stromeyer notò che certi campioni impuri ingiallivano
+      scaldandosi mentre la calamina pura non lo faceva. Insistette su quell''anomalia
+      finché, tostando e riducendo il solfuro, ottenne il metallo.'
+    visual: Un crogiolo su una fornace da laboratorio con un residuo giallastro
+    attendibilita: documentato
+  - id: nome_cadmia
+    sezione: storia
+    testo: 'Cadmia era il nome latino della calamina, che a sua volta risale a Cadmo,
+      il fondatore mitico di Tebe, nei cui dintorni quel minerale si estraeva: Stromeyer
+      chiamò così il nuovo metallo, e quello è rimasto il nome dell''elemento.'
+    visual: Il frontespizio di un fascicolo degli Annalen der Physik del 1818
+    attendibilita: documentato
+  - id: credito_conteso
+    sezione: storia
+    testo: Hermann pubblicò le proprie osservazioni nel 1818 sugli Annalen der Physik,
+      e nessuno dei tre poté rivendicare da solo la scoperta. I loro carteggi si
+      intrecciano al punto che il dibattito su chi sia arrivato per primo al metallo
+      puro non si è mai chiuso.
+    attendibilita: discusso
+  - id: gialli
+    sezione: storia
+    testo: 'Il metallo restò a lungo raro e caro, e la sua prima carriera fu artistica:
+      negli anni Quaranta dell''Ottocento si capì che il solfuro di cadmio dava un
+      giallo intenso e stabile alla luce, e i gialli e gli arancioni di cadmio entrarono
+      nelle tavolozze dei pittori. Per un secolo la Germania rimase
+      il solo produttore importante del metallo.'
+    visual: Una tavolozza da pittore con pennellate di giallo e arancione intensi
+    attendibilita: documentato
+  - id: fisiche
+    sezione: caratteristiche
+    testo: 'Il cadmio è tenero, malleabile e duttile: si riga con l''unghia e si lamina
+      in fogli sottili. Fonde a 321 °C e bolle a 767 °C, temperature nettamente più
+      basse di quelle dei metalli di transizione veri e propri, e proprio questa volatilità
+      è il suo lato pericoloso, perché scaldato produce fumi che sono la forma più
+      insidiosa in cui lo si possa incontrare.'
+    visual: Un foglio sottile di cadmio laminato piegato fra le dita
+    attendibilita: documentato
+  - id: parentela_zinco
+    sezione: caratteristiche
+    testo: 'Sta nel gruppo 12 sotto lo zinco e gli somiglia molto: stesso stato di
+      ossidazione dominante, il +2, raggi ionici vicini, stessa tendenza a formare
+      complessi. È per questa somiglianza che il cadmio prende il posto dello zinco
+      nel reticolo della blenda, il principale minerale di zinco; ed è per la stessa
+      somiglianza che nell''organismo si infila al posto dello zinco nelle proteine
+      che dovrebbero contenerlo, mandandole fuori uso.'
+    visual: Struttura cristallina della blenda con un atomo di cadmio sostituito allo
+      zinco
+    attendibilita: documentato
+  - id: tossicita
+    sezione: caratteristiche
+    testo: 'Il corpo umano non ha alcun uso per il cadmio e non ha modo efficace di
+      liberarsene: si accumula nei reni e nelle ossa e vi resta per decenni. L''Agenzia
+      internazionale per la ricerca sul cancro lo classifica come cancerogeno certo
+      per l''uomo, e per chi non lavora nel settore la principale fonte di esposizione
+      è il fumo di sigaretta, che porta i fumatori a concentrazioni nel sangue quattro
+      o cinque volte più alte.'
+    visual: Radiografia di ossa con evidenziate le zone di accumulo
+    attendibilita: documentato
+  - id: usi_batterie
+    sezione: usi
+    testo: Il grosso del cadmio prodotto è andato a lungo nelle batterie ricaricabili
+      al nichel-cadmio, robuste e longeve, oggi soppiantate dal litio nel mercato
+      di consumo ma ancora usate in ambito industriale, dove contano affidabilità
+      e durata più che la densità di energia. Seguivano i pigmenti — solfuro per il
+      giallo, solfoseleniuro per l'arancione e il rosso — le leghe basso-fondenti
+      e i rivestimenti anticorrosione.
+    visual: Un pacco batterie industriale al nichel-cadmio aperto
+    attendibilita: documentato
+  - id: usi_elettronica
+    sezione: usi
+    testo: 'Gli impieghi in crescita sono invece elettronici: il tellururo di cadmio
+      è il materiale dei pannelli solari a film sottile più diffusi dopo il silicio
+      cristallino, il seleniuro di cadmio serve all''optoelettronica e ai punti quantici
+      che accendono i colori di certi schermi, e il tellururo di cadmio e zinco fa
+      da rivelatore per raggi X e gamma nelle apparecchiature di imaging.'
+    visual: Un pannello fotovoltaico a film sottile con la superficie scura e uniforme
+    attendibilita: documentato
+  - id: usi_produzione
+    sezione: usi
+    testo: 'Non esistono giacimenti di solo cadmio: si ricava per intero dalla raffinazione
+      dello zinco, con una produzione mondiale intorno alle 23.000 tonnellate nel
+      2025. In Europa la direttiva RoHS ne limita da vent''anni la presenza nelle
+      apparecchiature elettroniche, mentre nei reattori nucleari le barre di controllo
+      lo sfruttano per la sua capacità di assorbire neutroni.'
+    visual: Barre di controllo calate dentro il nocciolo di un reattore
+    attendibilita: documentato
+  - id: angstrom
+    sezione: curiosita
+    testo: 'Nel 1907 l''unità di lunghezza della spettroscopia, l''ångström, fu definita
+      per convenzione internazionale a partire da una riga rossa dello spettro del
+      cadmio, alla quale si attribuivano esattamente 6438,4696 unità: per decenni
+      misurare la luce ha voluto dire confrontarla con questo metallo.'
+    attendibilita: documentato
+  - id: itai_itai
+    sezione: curiosita
+    testo: 'Il conto della tossicità del cadmio è stato pagato soprattutto in Giappone.
+      Nel bacino del fiume Jinzū gli scarichi di una miniera di zinco contaminarono
+      per decenni le risaie, e il cadmio accumulato nel riso provocò, a partire dal
+      primo Novecento, una malattia ossea e renale devastante: la chiamarono itai-itai,
+      «ahi ahi», dal grido di dolore delle malate, per lo più donne anziane.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Friedrich Stromeyer
+    ipa: ˈfʁiːdʁɪç ˈʃtʁoːmaɪɐ
+    nota: Tedesco.
+  - termine: Karl Samuel Leberecht Hermann
+    ipa: kaʁl ˈzaːmuɛl ˈleːbəʁɛçt ˈhɛʁman
+    nota: Tedesco.
+  - termine: Johann Christoff Heinrich Roloff
+    ipa: ˈjoːhan kaʁl ˈhaɪnʁɪç ˈʁoːlɔf
+    nota: Tedesco.
+  - termine: itai-itai
+    ipa: itai itai
+    nota: 'Giapponese: «ahi ahi».'
+composti_principali:
+- nome: Solfuro di cadmio
+  formula: CdS
+  usi:
+  - pigmento giallo di cadmio
+  - fotoresistenze
+  - strati di celle solari
+- nome: Tellururo di cadmio
+  formula: CdTe
+  usi:
+  - pannelli fotovoltaici a film sottile
+- nome: Ossido di cadmio
+  formula: CdO
+  usi:
+  - elettrodi delle batterie al nichel-cadmio
+  - rivestimenti
+  - catalizzatori
+- nome: Seleniuro di cadmio
+  formula: CdSe
+  usi:
+  - punti quantici per schermi e imaging
+  - pigmenti rossi
+  - optoelettronica
+fonti:
+- url: https://en.wikipedia.org/wiki/Cadmium
+  titolo: Cadmium
+  consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Karl_Samuel_Leberecht_Hermann
+  titolo: Karl Samuel Leberecht Hermann
+  consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Itai-itai_disease
+  titolo: Itai-itai disease
+  consultata: 2026-09-07
+- url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cadmium.pdf
+  titolo: Cadmium — Mineral Commodity Summaries 2026, U.S. Geological Survey
+  consultata: 2026-09-07

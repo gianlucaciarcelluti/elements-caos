@@ -7,7 +7,7 @@ scoperta:
   anno_stimato: false
   scopritori:
   - johan-august-arfwedson
-  luogo: null
+  luogo: Stoccolma
   epoca: elettrolisi
   isolamento_anno: 1821
   note_cronologia: Isolato in forma metallica nel 1821 da William Thomas Brande.
@@ -25,5 +25,196 @@ proprieta:
   punto_fusione_k: 453.65
   punto_ebollizione_k: 1603.0
   densita: 0.534
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -1
+  - 1
 approfondimento: false
+contenuti:
+  hook: 'Una pietra grigia raccolta su un''isola svedese conteneva un alcali che non
+    era né potassa né soda: le analisi di un venticinquenne senza stipendio aprirono
+    la strada al terzo elemento della tavola.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il litio è il metallo meno denso che esista: un blocchetto galleggia
+      sull''acqua. Per un secolo e mezzo è rimasto una curiosità da laboratorio, buono
+      per qualche vetro e qualche grasso lubrificante; oggi è il cuore delle batterie
+      ricaricabili, e le sue miniere si contano fra le più corteggiate del pianeta.'
+    visual: Un pezzetto di litio metallico che galleggia in un becher
+    attendibilita: documentato
+  - id: petalite
+    sezione: storia
+    testo: Il minerale da cui parte tutto si chiama petalite, e fu individuato nel
+      1800 sull'isola di Utö, nell'arcipelago di Stoccolma, dal chimico e statista
+      brasiliano José Bonifácio de Andrada e Silva. Era una roccia lucente e sfaldabile
+      dall'aspetto poco memorabile, e passò quasi vent'anni negli armadi dei mineralogisti
+      prima che qualcuno la analizzasse davvero.
+    visual: Un campione di petalite biancastra su un tavolo da mineralogia
+    attendibilita: documentato
+  - id: arfwedson
+    sezione: storia
+    testo: 'Nel 1817 la petalite finì sul banco di Johan August Arfwedson, venticinque
+      anni, che lavorava senza stipendio nel laboratorio privato di Jöns Jacob Berzelius
+      a Stoccolma. Sommando i pesi di silice, allumina e ossidi che riusciva a separare,
+      Arfwedson non arrivava mai al cento per cento del campione: mancava qualche
+      punto percentuale, sempre lo stesso.'
+    visual: Un giovane chimico ottocentesco alla bilancia analitica
+    attendibilita: documentato
+  - id: terzo_alcali
+    sezione: storia
+    testo: 'Quel residuo si comportava come un alcali, ma non era né potassa né soda:
+      i suoi sali erano molto meno solubili, il carbonato precipitava dove quelli
+      di sodio e potassio restavano in soluzione, e nessuna delle reazioni caratteristiche
+      dei due alcali noti dava il risultato atteso. Arfwedson cercò e trovò lo stesso
+      alcali anche in altri due minerali dello stesso giacimento, lo spodumene e la
+      lepidolite.'
+    visual: 'Tre minerali affiancati: petalite, spodumene e lepidolite'
+    attendibilita: documentato
+  - id: nome_lithos
+    sezione: storia
+    testo: 'Fu Berzelius a proporre il nome, dal greco lithos, «pietra». La scelta
+      era un commento sui parenti già noti: il potassio veniva dalla cenere delle
+      piante e il sodio era noto soprattutto per quanto ne contiene il sangue degli
+      animali, mentre questo terzo alcali
+      era stato trovato per la prima volta nel regno minerale, dentro una roccia.'
+    visual: L'iscrizione greca λίθος incisa accanto a un frammento di minerale
+    attendibilita: documentato
+  - id: isolamento
+    sezione: storia
+    testo: Il metallo puro si fece attendere. Arfwedson non riuscì a ottenerlo, e
+      l'elettrolisi che aveva liberato sodio e potassio, applicata ai sali di litio,
+      restituiva quantità irrisorie. Nel 1821 William Thomas Brande, a Londra, elettrolizzò
+      l'ossido di litio e ne ottenne quantità minime;
+      solo nel 1855 Robert Bunsen e Augustus Matthiessen, elettrolizzando cloruro
+      di litio fuso, ne produssero abbastanza da poterlo studiare.
+    visual: Una cella elettrolitica ottocentesca con sale fuso incandescente
+    attendibilita: documentato
+  - id: svolta_batterie
+    sezione: storia
+    testo: 'Per più di un secolo il litio restò un elemento di nicchia: serviva a
+      fare vetri e ceramiche resistenti agli sbalzi di temperatura e grassi lubrificanti
+      per i motori aeronautici. La svolta arriva nel Novecento con la ricerca sugli
+      accumulatori, che unisce due sue caratteristiche: il peso atomico più basso
+      fra tutti i metalli e un potenziale di elettrodo elevato. È questa combinazione
+      ad averlo reso il componente essenziale di elettrodi ed elettroliti delle batterie
+      ricaricabili.'
+    visual: Una cella cilindrica agli ioni di litio sezionata, con gli avvolgimenti
+      degli elettrodi
+    attendibilita: documentato
+  - id: densita
+    sezione: caratteristiche
+    testo: Con 0,534 grammi per centimetro cubo il litio è il metallo meno denso e,
+      in condizioni standard, l'elemento solido meno denso in assoluto. Come tutti
+      gli alcalini va tenuto lontano dall'aria, sotto vuoto, in atmosfera inerte o
+      immerso in cherosene purificato, perché all'aria umida si annerisce in fretta
+      sotto una crosta di idrossido, nitruro e carbonato.
+    visual: Blocchetti di litio conservati in un contenitore sigillato
+    attendibilita: documentato
+  - id: azoto
+    sezione: caratteristiche
+    testo: È il meno impetuoso dei metalli alcalini nella reazione con l'acqua, che
+      libera idrogeno senza incendiarlo, ma è anche l'unico che aggredisce l'azoto
+      dell'aria a temperatura ambiente, formando nitruro di litio. È uno degli effetti
+      della relazione diagonale con il magnesio, l'elemento che gli sta in diagonale
+      nella tavola e con cui condivide raggio ionico e comportamento chimico.
+    visual: Una superficie metallica che si ricopre di una crosta scura di nitruro
+    attendibilita: documentato
+  - id: valenza_fiamma
+    sezione: caratteristiche
+    testo: 'Nella pratica il litio esiste in un modo solo: cede l''unico elettrone
+      di valenza e resta ione Li+, e lo stato negativo che pure gli è noto si ottiene
+      soltanto in composti di sintesi. Alla prova alla fiamma tinge il fuoco di un rosso
+      carminio che lo distingue a colpo d''occhio dal giallo del sodio e dal lilla
+      del potassio.'
+    visual: 'Tre saggi alla fiamma affiancati: rosso, giallo e lilla'
+    attendibilita: documentato
+  - id: fusione
+    sezione: caratteristiche
+    testo: 'Fonde a 180,5 °C, la temperatura più alta fra tutti i metalli alcalini,
+      e a differenza dei suoi parenti più pesanti resta solido ben oltre il calore
+      di una mano. Per il resto si comporta da metallo a tutti gli effetti: conduce
+      bene calore ed elettricità ed è abbastanza tenero da tagliarsi con un coltello.'
+    visual: Un lingotto di litio in fusione in un crogiolo
+    attendibilita: documentato
+  - id: usi_batterie
+    sezione: usi
+    testo: 'Secondo il Servizio geologico degli Stati Uniti, nel 2025 l''88 per cento
+      del litio consumato nel mondo è finito in batterie: auto elettriche, accumulatori
+      di rete, utensili e apparecchi portatili. Il resto si divide fra ceramiche e
+      vetri (4 per cento), grassi lubrificanti (2) e una manciata di impieghi minori,
+      dal trattamento dell''aria negli ambienti chiusi alla farmaceutica.'
+    visual: Una fila di moduli di batteria in un impianto di assemblaggio
+    attendibilita: documentato
+  - id: usi_produzione
+    sezione: usi
+    testo: 'La produzione mineraria mondiale, esclusi gli Stati Uniti, è stimata in
+      circa 290.000 tonnellate di litio per il 2025, in crescita del 31 per cento
+      in un anno, e arriva da due filiere molto diverse: le salamoie degli altopiani
+      andini di Cile e Argentina, evaporate al sole in vasche enormi, e le rocce pegmatitiche
+      di Australia e Zimbabwe, estratte e macinate come un minerale qualsiasi.'
+    visual: Vasche di evaporazione turchesi in un salar andino visto dall'alto
+    attendibilita: documentato
+  - id: usi_medicina
+    sezione: usi
+    testo: 'I sali di litio hanno inoltre un posto stabile in psichiatria: dal lavoro
+      di John Cade nel 1949 il carbonato di litio è usato come stabilizzatore dell''umore
+      nel disturbo bipolare, con un margine così stretto fra dose efficace e dose
+      tossica da obbligare a misurarne periodicamente la concentrazione nel sangue.'
+    visual: Una confezione di compresse accanto a una provetta per il dosaggio ematico
+    attendibilita: documentato
+  - id: big_bang
+    sezione: curiosita
+    testo: 'Il litio è uno dei pochissimi elementi già presenti nell''universo pochi
+      minuti dopo il Big Bang, insieme a idrogeno ed elio. La quantità che si osserva
+      nelle stelle più antiche, però, non corrisponde a quella prevista dai modelli
+      di nucleosintesi primordiale: la discrepanza è nota come problema cosmologico
+      del litio, e non si sa ancora se dipenda dalle misure o dalla teoria.'
+    attendibilita: documentato
+  - id: litio_6_depauperato
+    sezione: curiosita
+    testo: Fra la fine degli anni Cinquanta e la metà degli anni Ottanta gli Stati
+      Uniti accumularono circa 42.000 tonnellate di idrossido di litio per ricavarne
+      trizio destinato agli ordigni termonucleari, impoverendo quella scorta del 75
+      per cento del suo litio-6. Gli scarichi degli impianti di separazione isotopica
+      finirono nelle falde, e il peso atomico misurato di alcuni prodotti chimici
+      commerciali ne risultò alterato.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Johan August Arfwedson
+    ipa: ˈjuːan ˈaʊɡɵst ˈarvɛdsɔn
+    nota: Svedese.
+  - termine: Utö
+    ipa: ˈʉːtøː
+    nota: 'Svedese: isola dell''arcipelago di Stoccolma.'
+  - termine: William Thomas Brande
+    ipa: ˈwɪljəm ˈtɒməs ˈbrænd
+    nota: Inglese britannico.
+composti_principali:
+- nome: Carbonato di litio
+  formula: Li2CO3
+  usi:
+  - materiali per batterie
+  - stabilizzatore dell'umore
+  - vetri e ceramiche
+- nome: Idrossido di litio
+  formula: LiOH
+  usi:
+  - catodi delle batterie agli ioni di litio
+  - grassi lubrificanti
+  - assorbimento dell'anidride carbonica negli ambienti chiusi
+- nome: Cloruro di litio
+  formula: LiCl
+  usi:
+  - produzione elettrolitica del metallo
+  - deumidificanti
+  - flussi per saldatura
+fonti:
+- url: https://en.wikipedia.org/wiki/Lithium
+  titolo: Lithium
+  consultata: 2026-09-07
+- url: https://periodic-table.rsc.org/element/3/lithium
+  titolo: Lithium — Periodic Table, Royal Society of Chemistry
+  consultata: 2026-09-07
+- url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf
+  titolo: Lithium — Mineral Commodity Summaries 2026, U.S. Geological Survey
+  consultata: 2026-09-07

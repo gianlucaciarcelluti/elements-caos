@@ -8,10 +8,12 @@ scoperta:
   scopritori:
   - antoine-jerome-balard
   - carl-lowig
-  luogo: null
+  luogo: Montpellier
   epoca: elettrolisi
   isolamento_anno: 1825
-  note_cronologia: null
+  note_cronologia: 'Balard e Löwig ottennero il bromo indipendentemente nell''autunno
+    del 1825: Balard pubblicò nel 1826, Löwig solo nel 1827, e il credito storico
+    è andato quasi per intero a Balard.'
   controversia: null
 proprieta:
   gruppo: 17
@@ -28,5 +30,207 @@ proprieta:
   punto_fusione_k: 265.8
   punto_ebollizione_k: 332.0
   densita: 3.1028
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -1
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 7
 approfondimento: false
+contenuti:
+  hook: 'Nell''autunno del 1825 due chimici alle prime armi, in due paesi diversi
+    e da due acque salate diverse, cavarono lo stesso liquido rosso: uno pubblicò
+    l''anno dopo, l''altro due anni dopo.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il bromo è liquido a temperatura ambiente, cosa che in tutta la tavola
+      riesce a pochissimi. È rosso bruno, pesante, e fuma da solo emettendo un vapore
+      dello stesso colore e dall''odore aggressivo: quell''odore gli è valso il nome,
+      e per una volta l''etimologia non fa sconti.'
+    visual: Un flacone di vetro con bromo liquido rosso bruno e il suo vapore
+    attendibilita: documentato
+  - id: acque_madri
+    sezione: storia
+    testo: 'La materia prima è quello che una salina butta via. Le acque madri — il
+      liquido denso e amaro che resta quando l''acqua di mare ha già dato tutto il
+      sale che poteva dare — concentrano ciò che il cloruro di sodio si lascia indietro:
+      magnesio, potassio e, in proporzione minuscola, bromuro. Lo stesso vale per
+      le ceneri delle alghe che crescono in quelle acque, bruciate per ricavarne iodio.'
+    visual: Vasche di una salina mediterranea con l'acqua residua di colore rossastro
+    attendibilita: documentato
+  - id: balard
+    sezione: storia
+    testo: 'Antoine Jérôme Balard, ventitré anni, giovane farmacista a Montpellier,
+      lavorava sulle ceneri delle alghe delle saline locali, la stessa materia prima
+      da cui si ricavava lo iodio. Saturando di cloro una soluzione di quelle ceneri
+      ottenne una sostanza bruno-rossastra: provò a dimostrare che fosse monocloruro
+      di iodio, non ci riuscì, e concluse di avere in mano un elemento nuovo.'
+    visual: Un farmacista ottocentesco che distilla un liquido rosso in un laboratorio
+    attendibilita: documentato
+  - id: lowig
+    sezione: storia
+    testo: 'Nello stesso autunno Carl Löwig aveva ottenuto la stessa sostanza dall''acqua
+      di una sorgente minerale di Bad Kreuznach, la sua città, con il procedimento
+      identico: saturazione con cloro ed estrazione con etere etilico. Portò quel
+      liquido bruno come saggio del proprio lavoro quando fece domanda per un posto
+      nel laboratorio di Leopold Gmelin a Heidelberg. La pubblicazione tardò, e quando
+      uscì, nel 1827, l''elemento portava già il nome che gli aveva dato Balard.'
+    visual: Una boccetta etichettata accanto a una lettera di domanda manoscritta
+    attendibilita: documentato
+  - id: nome_bromos
+    sezione: storia
+    testo: Balard aveva proposto muride, dal latino muria, «salamoia». Fu su suggerimento
+      del chimico Anglada che il nome cambiò in brôme, dal greco bromos, «puzzo».
+      È una delle poche denominazioni della tavola periodica a descrivere non un colore,
+      non un luogo e non un mito, ma la reazione di chi apre il flacone.
+    visual: Il frontespizio della memoria di Balard negli Annales de chimie et de
+      physique
+    attendibilita: documentato
+  - id: credito
+    sezione: storia
+    testo: 'Vauquelin, Thénard e Gay-Lussac verificarono gli esperimenti di Balard,
+      e la memoria uscì negli Annales de chimie et de physique nel 1826. La cronologia
+      riconosciuta assegna a entrambi l''autunno del 1825, ma il credito storico è
+      andato quasi per intero a Balard: è uno dei casi in cui la storia della chimica
+      misura la scoperta non dal momento in cui una sostanza compare in un becher,
+      ma da quello in cui qualcuno la descrive in pubblico.'
+    visual: Due date affiancate su un registro di accademia scientifica
+    attendibilita: documentato
+  - id: triade
+    sezione: storia
+    testo: 'L''arrivo del bromo ebbe poi un effetto che nessuno dei due aveva previsto.
+      Il suo peso atomico cadeva quasi esattamente a metà fra quello del cloro e quello
+      dello iodio, e le sue proprietà pure: cloro, bromo e iodio diventarono una delle
+      triadi di Johann Wolfgang Döbereiner, fra i primi indizi che gli elementi
+      seguissero un ordine numerico e non un elenco arbitrario.'
+    visual: Tre campioni allineati — cloro, bromo, iodio — con i rispettivi pesi atomici
+    attendibilita: documentato
+  - id: liquido
+    sezione: caratteristiche
+    testo: 'Alle condizioni convenzionali di temperatura e pressione esistono due
+      soli elementi liquidi: il bromo, che fonde a −7,4 °C e bolle a 58,9 °C, e il
+      mercurio. Altri quattro hanno un punto di fusione appena sopra la temperatura
+      ambiente e restano solidi per un soffio — il francio, stimato intorno ai 27
+      °C e mai ottenuto in quantità visibili, il cesio a 28,5 °C, il gallio a 29,8
+      °C e il rubidio a 39,3 °C.'
+    visual: Una fiala di bromo liquido accanto a una goccia di mercurio
+    attendibilita: documentato
+  - id: volatilita
+    sezione: caratteristiche
+    testo: 'La sua tensione di vapore è alta abbastanza che una fiala aperta si svuoti
+      a vista d''occhio: sopra il liquido staziona sempre uno strato di vapore rossastro,
+      ed è quello il vero pericolo. Il bromo attacca mucose e pelle e provoca ustioni
+      chimiche lente a rimarginarsi, quindi si maneggia solo sotto cappa e con guanti
+      adatti.'
+    visual: Una cappa chimica con una fiala aperta e vapore rossastro che si diffonde
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente sta esattamente dove ci si aspetta, fra il cloro e lo iodio:
+      meno aggressivo del primo, più del secondo. Nei composti prevale lo stato −1
+      del bromuro, ma esistono anche stati positivi fino al +7 del perbromato, che
+      a lungo si tentò invano di preparare, al punto che si arrivò a teorizzare che
+      non potesse esistere: fu ottenuto solo nel 1968.'
+    visual: Modello molecolare dello ione perbromato
+    attendibilita: documentato
+  - id: usi_principali
+    sezione: usi
+    testo: 'L''impiego principale del bromo prodotto nel mondo sono i ritardanti di
+      fiamma: molecole bromurate mescolate a plastiche, tessuti e schede elettroniche che,
+      quando il materiale si scalda troppo, si dissociano liberando atomi di bromo
+      che interrompono le reazioni a catena della combustione. Il secondo impiego
+      per volume sono i fluidi salini densi usati per il completamento dei pozzi di
+      petrolio e di gas.'
+    visual: Un pannello di plastica sottoposto a prova di fiamma che non prende fuoco
+    attendibilita: documentato
+  - id: usi_storici
+    sezione: usi
+    testo: 'Gli impieghi che il bromo ha perso raccontano un secolo di storia industriale:
+      il dibromoetano serviva a espellere i residui di piombo dai motori a benzina
+      addizionata, il bromuro d''argento era la sostanza sensibile alla luce di ogni
+      pellicola fotografica, e i sali di bromo furono per decenni i sedativi più prescritti
+      al mondo — tanto che in inglese bromide indica ancora oggi una banalità rassicurante.'
+    visual: Una vecchia pellicola fotografica accanto a un flacone di farmacia d'epoca
+    attendibilita: documentato
+  - id: usi_produzione
+    sezione: usi
+    testo: Oggi il bromo si estrae quasi solo dalle salamoie. Il Mar Morto, che ne
+      contiene un quantitativo stimato in un miliardo di tonnellate, alimenta gli
+      impianti israeliani e giordani; negli Stati Uniti la produzione viene dalle
+      salamoie sotterranee dell'Arkansas, di cui però non si conosce l'entità perché
+      le due aziende che le sfruttano non la dichiarano. Il totale mondiale stimato
+      per il 2025, che per questo motivo esclude gli Stati Uniti, è di 430.000
+      tonnellate, di cui 200.000 in Israele, 110.000 in Giordania e 90.000 in Cina.
+    visual: Impianti di estrazione sulle rive del Mar Morto
+    attendibilita: documentato
+  - id: liebig
+    sezione: curiosita
+    testo: 'Justus von Liebig ricevette da una salina un campione di liquido rosso
+      perché lo analizzasse, e lo archiviò come cloruro di iodio senza approfondire:
+      aveva in mano il bromo e non lo riconobbe. Se ne accorse leggendo la memoria
+      di Balard.'
+    attendibilita: documentato
+  - id: armadio_degli_errori
+    sezione: curiosita
+    testo: Da quella bottiglia, si racconta, Liebig non si separò più, e la tenne
+      in un armadio che chiamava l'armadio degli errori, per ricordarsi di non dare
+      mai più per scontata una risposta.
+    attendibilita: tradizionale
+  - id: oceani
+    sezione: curiosita
+    testo: 'Il grosso del bromo terrestre sta disciolto in mare, dove la sua massa
+      complessiva è circa un trecentesimo di quella del cloro. È da lì che viene,
+      per vie diverse, tutto il bromo che l''industria estrae: le salamoie sotterranee
+      e i laghi salati non sono che acqua di mare antica, evaporata e concentrata
+      per milioni di anni.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Antoine Jérôme Balard
+    ipa: ɑ̃twan ʒeʁom balaʁ
+    nota: Francese.
+  - termine: Carl Löwig
+    ipa: kaʁl ˈløːvɪç
+    nota: Tedesco.
+  - termine: Bad Kreuznach
+    ipa: baːt ˈkʁɔʏtsnax
+    nota: Tedesco.
+  - termine: Justus von Liebig
+    ipa: ˈjʊstʊs fɔn ˈliːbɪç
+    nota: Tedesco.
+composti_principali:
+- nome: Bromuro di calcio
+  formula: CaBr2
+  usi:
+  - fluidi densi per il completamento dei pozzi
+  - sali antighiaccio
+- nome: Bromuro d'argento
+  formula: AgBr
+  usi:
+  - emulsioni fotografiche
+  - lenti fotocromatiche
+- nome: Bromuro di sodio
+  formula: NaBr
+  usi:
+  - fluidi di perforazione
+  - disinfezione delle acque
+  - sedativi (uso storico)
+- nome: Bromuro di metile
+  formula: CH3Br
+  usi:
+  - fumigante agricolo, in dismissione per il protocollo di Montreal
+fonti:
+- url: https://en.wikipedia.org/wiki/Bromine
+  titolo: Bromine
+  consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries
+  titolo: Timeline of chemical element discoveries
+  consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Liquid
+  titolo: Liquid
+  consultata: 2026-09-07
+- url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bromine.pdf
+  titolo: Bromine — Mineral Commodity Summaries 2026, U.S. Geological Survey
+  consultata: 2026-09-07

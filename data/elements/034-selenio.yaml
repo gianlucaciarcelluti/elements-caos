@@ -8,10 +8,12 @@ scoperta:
   scopritori:
   - jons-jacob-berzelius
   - johan-gottlieb-gahn
-  luogo: null
+  luogo: Gripsholm
   epoca: elettrolisi
   isolamento_anno: 1817
-  note_cronologia: null
+  note_cronologia: Berzelius e Gahn individuarono la sostanza nel 1817 nei fanghi
+    delle camere di piombo del proprio impianto di acido solforico; la descrizione
+    dell'elemento nuovo è in una lettera del 1818 ad Alexander Marcet.
   controversia: null
 proprieta:
   gruppo: 16
@@ -28,5 +30,196 @@ proprieta:
   punto_fusione_k: 494.0
   punto_ebollizione_k: 958.0
   densita: 4.81
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -2
+  - -1
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 approfondimento: false
+contenuti:
+  hook: 'Un fango rosso sul fondo delle camere di piombo di una fabbrica di acido
+    solforico: il sospetto era che fosse arsenico, e a doverlo verificare fu il chimico
+    più autorevole d''Europa, che di quella fabbrica era comproprietario.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il selenio è un non metallo che cambia carattere a seconda della forma
+      che assume: polvere rossa isolante in una, solido grigio semiconduttore in un''altra.
+      È l''elemento che ha insegnato all''elettricità a rispondere alla luce, ed è
+      insieme un nutriente indispensabile e un veleno, separati da un margine di dosi
+      strettissimo.'
+    visual: Polvere rossa e cristalli grigi di selenio affiancati su un vetrino
+    attendibilita: documentato
+  - id: fabbrica
+    sezione: storia
+    testo: 'Nel 1817 Jöns Jacob Berzelius e Johan Gottlieb Gahn erano comproprietari
+      di un piccolo impianto chimico vicino a Gripsholm, in Svezia, che produceva
+      acido solforico con il metodo delle camere di piombo: si bruciavano zolfo o
+      piriti, e i fumi venivano assorbiti dall''acqua in grandi ambienti rivestiti
+      di piombo. Le piriti arrivavano dalla miniera di Falun, e sul fondo delle camere
+      lasciavano un precipitato rosso che nessuno si aspettava.'
+    visual: L'interno di una camera di piombo con un deposito rossastro sul fondo
+    attendibilita: documentato
+  - id: sospetto_arsenico
+    sezione: storia
+    testo: 'Il sospetto immediato fu l''arsenico, presenza comune nelle piriti e problema
+      serio per chi vende acido solforico destinato anche alla farmacia: l''uso di
+      quella pirite venne sospeso. Berzelius e Gahn, che avevano interesse a continuare
+      a usarla, analizzarono il deposito e notarono che bruciandolo emanava un odore
+      acuto di rafano — un odore che l''arsenico non dà, ma che era noto per i composti
+      del tellurio.'
+    visual: Un mucchietto di pirite dorata accanto a una fiamma da saggio
+    attendibilita: documentato
+  - id: non_e_tellurio
+    sezione: storia
+    testo: Berzelius scrisse al collega Alexander Marcet, a Londra, che si trattava
+      di un composto di tellurio. I minerali di Falun, però, di tellurio non ne contenevano,
+      e la contraddizione lo spinse a rianalizzare il precipitato. In una seconda
+      lettera del 1818 descriveva un elemento nuovo, simile allo zolfo e al tellurio
+      ma distinto da entrambi.
+    visual: Una lettera manoscritta del 1818 con formule e simboli chimici
+    attendibilita: documentato
+  - id: nome_selene
+    sezione: storia
+    testo: 'Per il nome Berzelius scelse una simmetria. Il tellurio, isolato pochi
+      anni prima, veniva dal latino tellus, «terra»; il nuovo elemento, che gli somigliava
+      al punto da essere stato scambiato per esso, lo chiamò selenio dal greco selene,
+      «luna». È una delle etimologie meglio documentate della tavola periodica, perché
+      a spiegarne il senso fu chi la coniò: l''ho chiamato selenio, scrisse, proprio
+      per richiamare i suoi rapporti con il tellurio.'
+    visual: La Luna e la Terra affiancate sopra i simboli Se e Te
+    attendibilita: documentato
+  - id: willoughby_smith
+    sezione: storia
+    testo: Il selenio uscì dalla nicchia dei curiosi nel 1873, quando Willoughby Smith
+      si accorse che la conducibilità elettrica del selenio grigio cambiava a seconda
+      di quanta luce lo colpisse. Era la prima osservazione della fotoconduttività
+      in un materiale, e da lì nacquero in sequenza le fotocellule, gli esposimetri
+      fotografici, i raddrizzatori di corrente e i tamburi delle fotocopiatrici.
+    visual: Una barretta di selenio collegata a un galvanometro sotto un fascio di
+      luce
+    attendibilita: documentato
+  - id: allotropi
+    sezione: caratteristiche
+    testo: Il selenio esiste in più forme allotropiche dalle proprietà molto diverse.
+      La polvere rossa amorfa e il vetro nero sono isolanti; la forma grigia, fatta
+      di lunghe catene elicoidali di atomi disposte in reticolo esagonale, è la più
+      stabile e densa delle tre ed è un semiconduttore. Fonde a 220,9 °C e bolle a 684,9 °C, valori
+      intermedi fra lo zolfo che gli sta sopra e il tellurio che gli sta sotto nel
+      gruppo 16.
+    visual: 'Le tre forme del selenio: polvere rossa, vetro nero, cristalli grigi'
+    attendibilita: documentato
+  - id: fotoconduttivita
+    sezione: caratteristiche
+    testo: 'Il meccanismo della fotoconduttività è semplice da enunciare: la luce
+      fornisce agli elettroni l''energia per superare il salto fra
+      banda di valenza e banda di conduzione, e la resistenza del materiale crolla
+      in proporzione all''illuminazione. È il principio su cui si regge ogni sensore
+      di luce a stato solido.'
+    visual: Diagramma delle bande di energia di un semiconduttore illuminato
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: Chimicamente somiglia allo zolfo abbastanza da sostituirlo nei minerali
+      e nelle molecole biologiche. Nei composti va dal −2 dei seleniuri fino al +6
+      dei selenati, passando per il +4 del biossido e dei seleniti, che è la forma
+      in cui lo si incontra più spesso; nelle rocce compare quasi sempre come seleniuro
+      al posto di un solfuro, ed è per questo che viaggia insieme ai minerali solforati
+      di rame, nichel e piombo.
+    visual: Cristalli di biossido di selenio bianco su un vetro d'orologio
+    attendibilita: documentato
+  - id: usi_ripartizione
+    sezione: usi
+    testo: 'Secondo il Servizio geologico degli Stati Uniti, nel 2025 il consumo mondiale
+      di selenio si è ripartito fra metallurgia (40 per cento), agricoltura e salute
+      animale (20), vetro (20), elettronica e fotovoltaico (10), chimica e pigmenti
+      (5) e un ultimo 5 per cento di impieghi vari. Nel vetro serve a due scopi opposti: in dosi minime neutralizza il verdino
+      che le impurità di ferro danno alle bottiglie, in dosi maggiori tinge il vetro
+      di rosso rubino.'
+    visual: Bottiglie di vetro incolore accanto a un vetro rosso rubino
+    attendibilita: documentato
+  - id: usi_produzione
+    sezione: usi
+    testo: 'Non esistono miniere di selenio: oltre l''80 per cento della produzione
+      mondiale viene dai fanghi anodici che si depositano sul fondo delle celle di
+      raffinazione elettrolitica del rame, e il totale del 2025, che non comprende
+      gli Stati Uniti, è stimato in circa 3.800 tonnellate. È un elemento che si ottiene soltanto perché se ne estrae
+      un altro, e la sua disponibilità dipende dal mercato del rame più che dal proprio.'
+    visual: Fanghi anodici scuri raccolti sul fondo di una cella elettrolitica
+    attendibilita: documentato
+  - id: usi_biologia
+    sezione: usi
+    testo: 'Nell''organismo il selenio entra nella selenocisteina, un amminoacido
+      incorporato in un gruppo ristretto di proteine, fra cui gli enzimi che smaltiscono
+      i perossidi e le deiodinasi che attivano gli ormoni tiroidei. La finestra fra
+      carenza e intossicazione è però stretta come per pochi altri nutrienti: la carenza
+      è associata a malattie endemiche osservate dove i suoli ne sono poveri, l''eccesso provoca
+      caduta di capelli e unghie fragili.'
+    visual: Modello molecolare della selenocisteina
+    attendibilita: documentato
+  - id: xerografia
+    sezione: curiosita
+    testo: 'Il tamburo delle prime fotocopiatrici era rivestito di selenio: al buio
+      l''elemento tratteneva la carica elettrostatica, dove la luce riflessa dal foglio
+      lo colpiva la carica se ne andava, e sulla figura di carica rimasta si attaccava
+      il toner. Un ufficio intero ha funzionato per decenni su una proprietà osservata
+      per caso in un laboratorio telegrafico.'
+    attendibilita: documentato
+  - id: alito_aglio
+    sezione: curiosita
+    testo: 'L''odore che mise Berzelius sulla pista giusta non è dell''elemento puro,
+      che è praticamente inodore, ma di suoi composti volatili. Lo stesso meccanismo
+      dà il segno più riconoscibile dell''avvelenamento da selenio: l''organismo cerca
+      di eliminarlo trasformandolo in dimetilselenio, e chi ne ha assorbito troppo
+      emana un alito d''aglio.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Jöns Jacob Berzelius
+    ipa: jœns ˈjɑːkɔb bæˈseːliɵs
+    nota: Svedese.
+  - termine: Johan Gottlieb Gahn
+    ipa: ˈjuːan ˈɡɔtliːb ɡɑːn
+    nota: Svedese.
+  - termine: Gripsholm
+    ipa: ˈɡrɪpsˌhɔlm
+    nota: Svedese.
+composti_principali:
+- nome: Biossido di selenio
+  formula: SeO2
+  usi:
+  - ossidante in sintesi organica
+  - brunitura delle armi
+  - pigmenti
+- nome: Solfuro di selenio
+  formula: SeS2
+  usi:
+  - shampoo antiforfora
+  - trattamento delle dermatiti seborroiche
+- nome: Selenito di sodio
+  formula: Na2SeO3
+  usi:
+  - integrazione di mangimi e fertilizzanti
+  - reagente analitico
+- nome: Seleniuro di rame, indio e gallio
+  formula: CuInGaSe2
+  usi:
+  - celle solari a film sottile
+fonti:
+- url: https://en.wikipedia.org/wiki/Selenium
+  titolo: Selenium
+  consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Willoughby_Smith
+  titolo: Willoughby Smith
+  consultata: 2026-09-08
+- url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-selenium.pdf
+  titolo: Selenium — Mineral Commodity Summaries 2026, U.S. Geological Survey
+  consultata: 2026-09-07
+- url: http://publications.iupac.org/ci/2011/3305/5_trofast.html
+  titolo: Jan Trofast, Berzelius' Discovery of Selenium, Chemistry International 33
+    (2011)
+  consultata: 2026-09-07

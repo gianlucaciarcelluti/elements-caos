@@ -423,10 +423,10 @@
   nazionalita: svedese
   elementi:
   - 34
-- id: johann-carl-heinrich-roloff
-  nome: Johann Carl Heinrich Roloff
-  nato: null
-  morto: null
+- id: johann-christoff-heinrich-roloff
+  nome: Johann Christoff Heinrich Roloff
+  nato: 1783
+  morto: 1825
   nazionalita: tedesca
   elementi:
   - 48
