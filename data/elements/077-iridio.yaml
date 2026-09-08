@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - smithson-tennant
-  luogo: null
+  luogo: Londra
   epoca: elettrolisi
   isolamento_anno: 1803
-  note_cronologia: Osservato nello stesso anno anche da Hippolyte-Victor Collet-Descotils.
+  note_cronologia: Osservato nello stesso anno anche da Hippolyte-Victor Collet-Descotils
+    e, a Parigi, da Fourcroy e Vauquelin, che però non ne raccolsero abbastanza per
+    caratterizzarlo. La memoria di Tennant, che annuncia insieme iridio e osmio, fu
+    letta alla Royal Society il 21 giugno 1804.
   controversia: null
 proprieta:
   gruppo: 9
@@ -29,5 +32,198 @@ proprieta:
   punto_fusione_k: 2719.0
   punto_ebollizione_k: 4403.0
   densita: 22.56
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -3
+  - -2
+  - -1
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
 approfondimento: false
+contenuti:
+  hook: Ogni passaggio della separazione tirava fuori un sale di un colore diverso.
+    Smithson Tennant chiamò il metallo che li produceva con il nome della dea greca
+    dell'arcobaleno.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: L'iridio è il secondo elemento stabile più denso, dietro all'osmio per
+      pochi centesimi di grammo per centimetro cubo. È fra i più rari della crosta
+      terrestre e fra i più difficili da corrodere, e nel Novecento è diventato l'indizio
+      chimico di una catastrofe avvenuta sessantasei milioni di anni fa.
+    visual: Un frammento di iridio metallico grigio argenteo dalla superficie irregolare
+    attendibilita: documentato
+  - id: residuo_scartato
+    sezione: storia
+    testo: 'La società fra Smithson Tennant e William Hyde Wollaston, nata nel 1800
+      per raffinare e vendere platino, aveva diviso il minerale prima ancora di dividersi
+      il lavoro, e a Tennant era toccato ciò che l''acqua regia si rifiutava di
+      sciogliere. Era la parte che tutti scartavano: Joseph
+      Louis Proust l''aveva presa per grafite, e la maggioranza dei chimici la buttava
+      via come impurità del minerale.'
+    visual: Un mucchietto di residuo nero insolubile su carta da filtro
+    attendibilita: documentato
+  - id: concorrenza_parigina
+    sezione: storia
+    testo: Nel 1803 la stessa polvere era sotto esame anche a Parigi, dove tre chimici
+      la riconobbero per quello che era senza poterlo dimostrare, perché non ne
+      avevano raccolta abbastanza. Tennant, che ne aveva molto di più, lavorò per un anno
+      intero a scioglierla e riscioglierla, alternando alcali e acidi, prima di
+      cavarne qualcosa di netto.
+    visual: Due laboratori a confronto, uno londinese e uno parigino, di inizio Ottocento
+    attendibilita: documentato
+  - id: sali_colorati
+    sezione: storia
+    testo: Trattando il residuo alternativamente con soda e acido cloridrico, Tennant
+      ottenne una successione di sali dai colori accesi e, alla fine, dei cristalli
+      rosso scuro. Capì che nella polvere nera non c'era un metallo nuovo ma due,
+      e che quei colori appartenevano al primo. Lo chiamò iridio, da Iride, la dea
+      greca dell'arcobaleno e messaggera degli dèi dell'Olimpo, proprio per la varietà
+      dei colori dei suoi composti.
+    visual: Provette allineate con soluzioni di sali di iridio di colori diversi
+    attendibilita: documentato
+  - id: annuncio_royal_society
+    sezione: storia
+    testo: 'L''annuncio dei due elementi arrivò alla Royal Society con una lettera
+      del 21 giugno 1804. Dalla stessa partita di platina greggia Wollaston aveva
+      già ricavato il palladio nel 1802 e il rodio l''anno seguente, presentandolo
+      nel 1804. Un minerale che si comprava per farne altro aveva riempito quattro
+      caselle vuote della tavola.'
+    visual: La sala delle riunioni della Royal Society all'inizio dell'Ottocento
+    attendibilita: documentato
+  - id: difficolta_fusione
+    sezione: storia
+    testo: Averlo isolato non voleva dire poterlo usare. L'iridio fonde a 2446 °C
+      e per quasi tutto l'Ottocento nessuno riuscì a portarlo allo stato liquido in
+      quantità utili. Nel 1813 John George Children ne fuse un primo campione con
+      quella che allora era la più grande batteria galvanica mai costruita; nel 1842 Robert Hare ne
+      ottenne per primo un campione di elevata purezza, descrivendolo come quasi immalleabile
+      e durissimo; solo nel 1860 Henri Sainte-Claire Deville e Jules Henri Debray
+      ne fusero quantità apprezzabili, bruciando più di trecento litri di ossigeno
+      e idrogeno puri per ogni chilogrammo di metallo.
+    visual: Un soffietto ossidrico che fonde un metallo refrattario su un blocco di
+      calce
+    attendibilita: documentato
+  - id: resistenza_corrosione
+    sezione: caratteristiche
+    testo: 'La Royal Society of Chemistry lo descrive come il materiale più resistente
+      alla corrosione che si conosca: gli acidi non lo intaccano, nemmeno l''acqua
+      regia. Inattaccabile però non è. Si scioglie in acido cloridrico concentrato
+      se c''è del perclorato di sodio, reagisce con i sali di cianuro in presenza
+      di ossigeno, e ad alta temperatura cede agli alogeni, all''ossigeno e allo
+      zolfo.'
+    visual: Un crogiolo di iridio annerito dall'uso ma intatto
+    attendibilita: documentato
+  - id: densita_durezza
+    sezione: caratteristiche
+    testo: Con 22,56 grammi per centimetro cubo è secondo solo all'osmio per densità,
+      e la distanza fra i due sta nella terza cifra decimale. È durissimo e fragile,
+      tanto che a freddo si lavora male, e proprio la sua rigidità lo rende adatto
+      agli impieghi in cui la deformazione non è ammessa.
+    visual: Un provino metallico sotto una macchina per prove di durezza
+    attendibilita: documentato
+  - id: stato_piu_alto
+    sezione: caratteristiche
+    testo: 'Gli stati di ossidazione noti dell''iridio vanno da -3 a +9, e il +9 è
+      un primato: è lo stato di ossidazione più alto mai osservato in un elemento,
+      individuato nel 2014 in uno ione gassoso di tetrossido di iridio. Nei composti
+      stabili dominano però il +3 e il +4.'
+    visual: Rappresentazione dello ione tetrossido di iridio in fase gassosa
+    attendibilita: documentato
+  - id: rarita_e_meteoriti
+    sezione: caratteristiche
+    testo: 'Nella crosta terrestre l''iridio è raro fino all''inverosimile, intorno
+      a una parte per miliardo, mentre nei meteoriti è centinaia di volte più abbondante.
+      Il motivo è antico: essendo siderofilo, quando la Terra si differenziò seguì
+      il ferro verso il nucleo e lasciò la superficie quasi vuota.'
+    visual: Una sezione lucidata di meteorite ferroso con le figure di Widmanstätten
+    attendibilita: documentato
+  - id: usi_alte_temperature
+    sezione: usi
+    testo: Gli usi dell'iridio discendono tutti dalla sua indifferenza al calore e
+      agli acidi. Se ne fanno i crogioli in cui si fanno crescere, col metodo Czochralski,
+      i cristalli singoli di zaffiro e di granati per i laser, a temperature che arrivano
+      a 2100 °C; gli elettrodi per la produzione elettrolitica del cloro; le punte
+      delle candele di accensione, in particolare quelle aeronautiche, dove il problema
+      è l'erosione da arco elettrico; e i catalizzatori del processo Cativa, con cui
+      si ricava acido acetico dal metanolo.
+    visual: Un cristallo di zaffiro sintetico estratto da un crogiolo incandescente
+    attendibilita: documentato
+  - id: usi_isotopo_e_spazio
+    sezione: usi
+    testo: 'L''isotopo artificiale iridio-192 è una delle due sorgenti gamma più usate
+      nella radiografia industriale, per controllare le saldature senza distruggerle,
+      e in brachiterapia, per irradiare i tumori dall''interno. Il metallo riveste
+      inoltre le pastiglie di plutonio-238 dei generatori termoelettrici che alimentano
+      le sonde spaziali, e con il platino forma la lega novanta a dieci di cui era
+      fatto il prototipo internazionale del metro. Sono impieghi di nicchia che si
+      pagano cari: lo USGS colloca il prezzo medio dell''iridio nel 2024 a 4.800 dollari
+      l''oncia troy, il più alto fra i metalli del gruppo del platino che quota.'
+    visual: Un contenitore schermato per sorgenti radiografiche industriali
+    attendibilita: documentato
+  - id: curiosita_gubbio
+    sezione: curiosita
+    testo: Negli anni Settanta il geologo Walter Alvarez studiava a Gubbio, in Umbria,
+      una successione di calcari che attraversa senza interruzioni il confine fra
+      Cretaceo e Paleogene. Fra gli strati c'era un sottile livello di argilla, e le
+      analisi condotte da Frank Asaro e Helen Michel vi trovarono iridio in
+      concentrazione centinaia di volte superiore al normale.
+    attendibilita: documentato
+  - id: curiosita_alvarez
+    sezione: curiosita
+    testo: Poiché l'iridio abbonda nei meteoriti e scarseggia sulla crosta, nel 1980
+      quei tre insieme a Luis Alvarez, padre di Walter e premio Nobel per la fisica,
+      proposero che l'argilla fosse la polvere ricaduta dopo l'impatto di un grande
+      corpo extraterrestre, e che l'impatto avesse causato l'estinzione di massa di
+      fine Cretaceo. Il cratere di Chicxulub, individuato più tardi, ha dato ragione
+      all'ipotesi.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Smithson Tennant
+    ipa: ˈsmɪθsən ˈtɛnənt
+    nota: Inglese britannico.
+  - termine: Collet-Descotils
+    ipa: kɔlɛ dekɔtil
+    nota: Francese.
+  - termine: Chicxulub
+    ipa: tʃikʃuˈlub
+    nota: Maya yucateco, come pronunciato in spagnolo.
+composti_principali:
+- nome: Diossido di iridio
+  formula: IrO2
+  usi:
+  - elettrodi per elettrolisi
+  - produzione industriale di cloro
+- nome: Tricloruro di iridio
+  formula: IrCl3
+  usi:
+  - precursore dei catalizzatori
+  - sintesi di complessi luminescenti
+- nome: Esacloroiridato di sodio
+  formula: Na2IrCl6
+  usi:
+  - il sale rosso scuro della scoperta
+  - raffinazione dell'iridio
+fonti:
+- url: https://www.chemistryworld.com/features/two-men-two-centuries-four-metals/3004876.article
+  titolo: Two men, two centuries, four metals
+  consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Iridium
+  titolo: Iridium
+  consultata: 2026-09-07
+- url: https://periodic-table.rsc.org/element/77/iridium
+  titolo: Iridium — Royal Society of Chemistry
+  consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Alvarez_hypothesis
+  titolo: Alvarez hypothesis
+  consultata: 2026-09-07
+- url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-platinum-group.pdf
+  titolo: USGS Mineral Commodity Summaries 2025 — Platinum-Group Metals
+  consultata: 2026-09-07

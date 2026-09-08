@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - karl-ernst-claus
-  luogo: null
+  luogo: Kazan
   epoca: elettrolisi
   isolamento_anno: 1844
-  note_cronologia: null
+  note_cronologia: Due rivendicazioni precedenti — il «vestio» di Jędrzej Śniadecki,
+    annunciato nel 1808, e il «ruthenium» di Gottfried Osann, del 1827 — furono ritirate
+    dagli stessi autori. Claus isolò e caratterizzò l'elemento a Kazan nel 1844, conservando
+    il nome scelto da Osann.
   controversia: null
 proprieta:
   gruppo: 8
@@ -28,5 +31,196 @@ proprieta:
   punto_fusione_k: 2607.0
   punto_ebollizione_k: 4423.0
   densita: 12.45
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -2
+  - -1
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
 approfondimento: false
+contenuti:
+  hook: Due chimici annunciarono di averlo scoperto, e tutti e due ritirarono l'annuncio.
+    Un terzo, quarant'anni dopo, ne isolò sei grammi e gli lasciò il nome che uno
+    dei due aveva già scelto.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il rutenio è l''ultimo arrivato dei sei metalli del gruppo del platino
+      e il meno costoso fra quelli che il mercato quota: nel 2024 valeva un decimo
+      del rodio. Duro, fragile, quasi
+      inattaccabile dagli acidi, oggi vive per lo più dentro l''elettronica, in film
+      sottili che nessuno vede.'
+    visual: Polvere e pastiglie di rutenio metallico grigio su una bilancia di laboratorio
+    attendibilita: documentato
+  - id: vestio_sniadecki
+    sezione: storia
+    testo: La prima rivendicazione è del chimico polacco Jędrzej Śniadecki. Nel 1807,
+      esaminando minerali di platino sudamericano, ritenne di avere isolato un metallo
+      nuovo e lo chiamò vestio, dall'asteroide Vesta scoperto poco prima; l'annuncio
+      uscì l'anno seguente. Nessuno riuscì a confermare il risultato ripetendo
+      l'esperimento, e Śniadecki finì per ritirare lui stesso la rivendicazione. Se avesse davvero avuto in mano il rutenio non
+      è mai stato accertato.
+    visual: Un laboratorio universitario polacco di inizio Ottocento
+    attendibilita: discusso
+  - id: ruthenium_osann
+    sezione: storia
+    testo: Nel 1827 gli stessi residui lasciati dalla platina degli Urali dopo l'attacco
+      con acqua regia finirono sotto esame due volte, a Dorpat da Gottfried Osann
+      e a Stoccolma da Jöns Jacob Berzelius. Berzelius
+      non vi trovò metalli insoliti; Osann credette di trovarne addirittura tre e
+      li chiamò pluranio, polinio e rutenio, quest'ultimo perché i campioni venivano
+      dalla Russia. Ne nacque una lunga controversia fra i due, e poiché Osann non
+      riuscì a ripetere l'isolamento finì per rinunciare alle proprie rivendicazioni.
+      Nemmeno di questa si può dire che fosse una scoperta.
+    visual: Due chimici dell'Ottocento che confrontano campioni su un tavolo da laboratorio
+    attendibilita: discusso
+  - id: claus_kazan
+    sezione: storia
+    testo: Il rutenio come elemento arriva nel 1844, per mano di Karl Ernst Claus,
+      chimico russo di origine tedesco-baltica che insegnava all'università di Kazan.
+      Claus lavorò sui residui della coniazione dei rubli di platino, cioè sulla frazione
+      della platina greggia che l'acqua regia non scioglie, la stessa da cui l'osmio
+      era uscito quarant'anni prima a Londra. Dimostrò che nei preparati di Osann
+      c'era davvero un metallo nuovo in piccola quantità, e ne ottenne sei grammi
+      puri.
+    visual: Monete di rublo in platino accanto a un residuo scuro di raffinazione
+    attendibilita: documentato
+  - id: nome_ruthenia
+    sezione: storia
+    testo: 'Il nome lo lasciò a Osann, che nel frattempo vi aveva rinunciato: rutenio,
+      da Ruthenia, il nome latino delle terre russe. Claus scrisse di aver battezzato
+      così il nuovo corpo in onore della propria patria, e di averne pieno diritto
+      perché Osann alla sua parola aveva ormai rinunciato e in chimica quella parola
+      non esisteva ancora. Con quel gesto inaugurò una consuetudine che dura tuttora:
+      intitolare un elemento a un paese.'
+    visual: Una carta geografica ottocentesca dell'impero russo
+    attendibilita: documentato
+  - id: sestetto_completo
+    sezione: storia
+    testo: Con il rutenio il gruppo del platino era completo. Quattro dei sei — palladio,
+      rodio, osmio e iridio — erano usciti fra il 1802 e il 1804 da una sola partita
+      di minerale comprata a Londra da Wollaston e Tennant; il platino era noto ai
+      chimici europei da un secolo abbondante; il sesto è arrivato quarant'anni dopo
+      da un residuo degli Urali, in un laboratorio sul Volga.
+    visual: I sei metalli del gruppo del platino con accanto l'anno della rispettiva
+      scoperta
+    attendibilita: documentato
+  - id: caratteristiche_fisiche
+    sezione: caratteristiche
+    testo: Il rutenio è un metallo bianco argenteo, duro e fragile, che fonde a 2334
+      °C e ha una densità di 12,45 grammi per centimetro cubo, quasi identica a quella
+      del rodio. A freddo non lo attaccano né gli acidi né l'acqua regia; ossida invece
+      rapidamente ad alta temperatura, e in presenza di alcali e ossidanti forti passa
+      in soluzione.
+    visual: Un lingotto di rutenio grezzo dalla superficie opaca
+    attendibilita: documentato
+  - id: configurazione_anomala
+    sezione: caratteristiche
+    testo: 'La sua configurazione elettronica è un''eccezione alla regola con cui
+      gli orbitali si riempiono: nello stato fondamentale il rutenio ha sette elettroni
+      nel guscio d e uno solo nell''orbitale s più esterno, invece dei due che ci
+      si aspetterebbe. La stessa irregolarità la mostrano il niobio, il molibdeno
+      e il rodio, suoi vicini di periodo, e il palladio la porta all''estremo: il
+      suo orbitale s esterno resta del tutto vuoto.'
+    visual: Diagramma degli orbitali del rutenio con l'unico elettrone 5s in evidenza
+    attendibilita: documentato
+  - id: stati_ossidazione
+    sezione: caratteristiche
+    testo: 'Gli stati di ossidazione noti vanno da -2 a +8, tanti quanti quelli dell''osmio,
+      il congenere più pesante: i due si somigliano anche nel comportamento del composto
+      estremo. Il tetrossido di rutenio, come quello di osmio, è volatile, ossidante
+      fortissimo e tossico, e va maneggiato con le stesse precauzioni.'
+    visual: Modello molecolare tetraedrico del tetrossido di rutenio
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'In natura è raro anche per gli standard del gruppo del platino: si trova
+      a volte non combinato, ma più spesso disperso insieme agli altri cinque nei
+      solfuri di nichel e rame, e si recupera dai residui della loro raffinazione.
+      La produzione mondiale si aggira sulle trenta tonnellate l''anno.'
+    visual: Minerale di pentlandite con inclusioni metalliche
+    attendibilita: documentato
+  - id: usi_elettronica
+    sezione: usi
+    testo: 'Metà del rutenio consumato nel mondo va in due impieghi elettronici. Il
+      primo sono i resistori a film spesso, dove il biossido di rutenio e i rutenati
+      di piombo e bismuto formano l''elemento resistivo di componenti presenti in
+      qualunque scheda. Il secondo sono i contatti elettrici: un film sottilissimo
+      di rutenio, deposto per via galvanica o per sputtering, indurisce le leghe di
+      platino e palladio e dà la stessa durata di un rivestimento al rodio a un costo
+      molto minore.'
+    visual: Resistori a film spesso su un circuito ceramico
+    attendibilita: documentato
+  - id: usi_catalisi
+    sezione: usi
+    testo: In catalisi il rutenio è il metallo della metatesi delle olefine, la reazione
+      che ricombina gli scheletri carboniosi e che con i catalizzatori di Robert Grubbs
+      è entrata nella produzione industriale, valendo anche per questo il Nobel per
+      la chimica del 2005. Gli anodi a ossidi misti che lo contengono producono cloro
+      per elettrolisi e proteggono dalla corrosione le strutture interrate e sommerse.
+      Lo USGS dà il prezzo medio del rutenio nel 2024 a 440 dollari l'oncia troy,
+      contro i 4.600 del rodio e i 4.800 dell'iridio.
+    visual: Un reattore di laboratorio per la metatesi delle olefine
+    attendibilita: documentato
+  - id: curiosita_impronte
+    sezione: curiosita
+    testo: 'Il tetrossido di rutenio ha un impiego che da un metallo prezioso non
+      ci si aspetta: reagendo con i grassi lasciati dalla pelle rivela le impronte
+      digitali latenti, depositandovi sopra biossido di rutenio bruno-nero. È la stessa
+      chimica per cui il composto gemello dell''osmio colora le membrane cellulari.'
+    attendibilita: documentato
+  - id: curiosita_parker
+    sezione: curiosita
+    testo: 'Dal 1944 il pennino della Parker 51, una delle stilografiche più vendute
+      della storia, era una punta d''oro a quattordici carati rivestita di una lega
+      composta per il 96,2 per cento di rutenio e per il 3,8 di iridio: per questo
+      si chiamava pennino «RU».'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Jędrzej Śniadecki
+    ipa: ˈjɛndʐɛj ɕɲaˈdɛt͡ski
+    nota: Polacco.
+  - termine: Gottfried Osann
+    ipa: ˈɡɔtfʁiːt ˈoːzan
+    nota: Tedesco.
+  - termine: Karl Ernst Claus
+    ipa: kaʁl ɛʁnst klaʊs
+    nota: Tedesco.
+  - termine: Kazan
+    ipa: kɐˈzanʲ
+    nota: Russo.
+composti_principali:
+- nome: Biossido di rutenio
+  formula: RuO2
+  usi:
+  - resistori a film spesso
+  - anodi per la produzione di cloro
+- nome: Tricloruro di rutenio
+  formula: RuCl3
+  usi:
+  - precursore dei catalizzatori
+  - sintesi di complessi organometallici
+- nome: Tetrossido di rutenio
+  formula: RuO4
+  usi:
+  - ossidazioni in chimica organica
+  - rivelazione delle impronte digitali latenti
+fonti:
+- url: https://en.wikipedia.org/wiki/Ruthenium
+  titolo: Ruthenium
+  consultata: 2026-09-07
+- url: https://periodic-table.rsc.org/element/44/ruthenium
+  titolo: Ruthenium — Royal Society of Chemistry
+  consultata: 2026-09-07
+- url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-platinum-group.pdf
+  titolo: USGS Mineral Commodity Summaries 2025 — Platinum-Group Metals
+  consultata: 2026-09-07
+- url: https://www.chemistryworld.com/features/two-men-two-centuries-four-metals/3004876.article
+  titolo: Two men, two centuries, four metals
+  consultata: 2026-09-07
