@@ -10,7 +10,7 @@ tipo: scopritore
 
 {% if scopritore.ritratto %}
 ![[{{ scopritore.ritratto.file }}]]
-*{{ scopritore.ritratto.autore }} — {{ scopritore.ritratto.licenza }} — [fonte]({{ scopritore.ritratto.fonte }})*
+*{{ scopritore.ritratto.autore }} — {{ scopritore.ritratto.licenza }} — [fonte]({{ scopritore.ritratto.fonte | url_markdown }})*
 {% endif %}
 {% if scopritore.nato or scopritore.morto %}
 {{ scopritore.nazionalita | default('', true) | capitalize }}{% if scopritore.nato %}, {{ scopritore.nato }}{% if scopritore.morto %}–{{ scopritore.morto }}{% endif %}{% endif %}.

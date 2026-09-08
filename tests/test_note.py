@@ -1,5 +1,6 @@
 """Test della composizione della nota Markdown di un elemento."""
 
+from datetime import date
 from pathlib import Path
 
 import pytest
@@ -246,6 +247,31 @@ def test_nota_riporta_le_fonti() -> None:
 
     assert "## Fonti" in nota
     assert "https://esempio.it/fosforo" in nota
+
+
+def test_nota_codifica_le_parentesi_negli_url_delle_fonti() -> None:
+    """Un URL con parentesi non deve spezzare il collegamento Markdown.
+
+    Wikipedia usa le parentesi per disambiguare i titoli omonimi
+    (``Henry_Roscoe_(chemist)``): lasciate com'erano chiudevano in anticipo la
+    destinazione del link, e metà dell'indirizzo finiva stampata come testo.
+    """
+    from elements_caos.models import Fonte
+
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    fosforo = elementi[0].model_copy(deep=True)
+    fosforo.fonti = [
+        Fonte(
+            url="https://en.wikipedia.org/wiki/Henry_Roscoe_(chemist)",
+            titolo="Sir Henry Enfield Roscoe",
+            consultata=date(2026, 9, 8),
+        )
+    ]
+
+    nota = _nota_di(fosforo, elementi)
+
+    assert "https://en.wikipedia.org/wiki/Henry_Roscoe_%28chemist%29" in nota
+    assert "Henry_Roscoe_(chemist)" not in nota
 
 
 def test_nota_non_collega_approfondimento_senza_contenuti_estesi() -> None:

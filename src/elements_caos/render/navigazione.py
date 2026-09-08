@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from elements_caos.caricamento import ordina_per_scoperta
 from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Tappa
 from elements_caos.render.diagrammi import formatta_anno
-from elements_caos.render.note import ambiente_template
+from elements_caos.render.note import ambiente_template, url_per_markdown
 
 
 @dataclass(frozen=True)
@@ -176,7 +176,7 @@ def rendi_attribuzioni(scopritori: dict[str, Scopritore]) -> str:
         ritratto = scopritore.ritratto
         righe_tabella.append(
             f"| {scopritore.nome} | {ritratto.autore} | {ritratto.licenza} "
-            f"| [{ritratto.file}]({ritratto.fonte}) |"
+            f"| [{ritratto.file}]({url_per_markdown(ritratto.fonte)}) |"
         )
 
     righe = [

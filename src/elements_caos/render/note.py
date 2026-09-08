@@ -166,6 +166,18 @@ def formatta_stato_ossidazione(stato: int) -> str:
     return "0" if stato == 0 else f"{stato:+d}"
 
 
+def url_per_markdown(url: str) -> str:
+    """Rende un URL sicuro dentro le parentesi di un collegamento Markdown.
+
+    Le parentesi tonde di un indirizzo — frequenti su Wikipedia, che le usa per
+    disambiguare i titoli omonimi (``Henry_Roscoe_(chemist)``) — chiudono in
+    anticipo la destinazione del link e lasciano il resto dell'URL come testo
+    visibile. Si codificano in percent-encoding, che i browser riconoscono e che
+    nessun parser Markdown interpreta.
+    """
+    return url.replace("(", "%28").replace(")", "%29")
+
+
 def formatta_configurazione_elettronica(configurazione: str) -> str:
     """Converte in apici Unicode gli esponenti di una configurazione elettronica.
 
@@ -216,13 +228,15 @@ def costruisci_contesto(
 
 def ambiente_template() -> Environment:
     """Costruisce l'ambiente Jinja2 condiviso da tutti i renderer del vault."""
-    return Environment(
+    ambiente = Environment(
         loader=FileSystemLoader(CARTELLA_TEMPLATE),
         undefined=StrictUndefined,
         trim_blocks=True,
         lstrip_blocks=True,
         keep_trailing_newline=True,
     )
+    ambiente.filters["url_markdown"] = url_per_markdown
+    return ambiente
 
 
 def rendi_nota(contesto: ContestoNota) -> str:

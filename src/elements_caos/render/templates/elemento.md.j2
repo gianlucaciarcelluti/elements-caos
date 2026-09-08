@@ -102,5 +102,5 @@ Epoca: [[{{ epoca.nome }}]]{% if wikilink_scopritori %} · {{ "Scopritori" if wi
 ## Fonti
 
 {% for fonte in elemento.fonti %}
-- [{{ fonte.titolo }}]({{ fonte.url }}) — consultata il {{ fonte.consultata.strftime('%d/%m/%Y') }}
+- [{{ fonte.titolo }}]({{ fonte.url | url_markdown }}) — consultata il {{ fonte.consultata.strftime('%d/%m/%Y') }}
 {% endfor %}
