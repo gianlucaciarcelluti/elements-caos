@@ -29,7 +29,7 @@ Il cromo è un metallo grigio-acciaio durissimo e lucentissimo, che resiste alla
 timeline
     title Scoperta del Cromo
     1797 : Scoperta : Louis Nicolas Vauquelin
-    1798 : Isolamento allo stato puro
+    1798 : Isolamento
 ```
 
 ## Storia della scoperta

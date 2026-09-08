@@ -29,7 +29,7 @@ Il fluoro è l'elemento più elettronegativo della tavola periodica: strappa ele
 timeline
     title Scoperta del Fluoro
     1771 : Scoperta : Carl Wilhelm Scheele
-    1886 : Isolamento allo stato puro
+    1886 : Isolamento
 ```
 
 ## Storia della scoperta

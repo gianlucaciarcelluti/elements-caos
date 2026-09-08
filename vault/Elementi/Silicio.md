@@ -29,7 +29,7 @@ Il silicio è il secondo elemento più abbondante della crosta terrestre dopo l'
 timeline
     title Scoperta del Silicio
     1739 : Scoperta : Johann Heinrich Pott
-    1823 : Isolamento allo stato puro
+    1823 : Isolamento
 ```
 
 ## Storia della scoperta

@@ -29,7 +29,7 @@ aliases: [Er, Erbium]
 timeline
     title Scoperta dell'Erbio
     1843 : Scoperta : Carl Gustaf Mosander
-    1934 : Isolamento allo stato puro
+    1934 : Isolamento
 ```
 
 ## Storia della scoperta

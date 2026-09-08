@@ -29,7 +29,7 @@ aliases: [Tb, Terbium]
 timeline
     title Scoperta del Terbio
     1843 : Scoperta : Carl Gustaf Mosander
-    1937 : Isolamento allo stato puro
+    1937 : Isolamento
 ```
 
 ## Storia della scoperta

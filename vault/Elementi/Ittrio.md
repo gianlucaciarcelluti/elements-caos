@@ -29,7 +29,7 @@ L'ittrio è un metallo grigio argenteo, leggero, che la chimica classifica fra i
 timeline
     title Scoperta dell'Ittrio
     1794 : Scoperta : Johan Gadolin
-    1828 : Isolamento allo stato puro
+    1828 : Isolamento
 ```
 
 ## Storia della scoperta

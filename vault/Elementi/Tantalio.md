@@ -29,7 +29,7 @@ aliases: [Ta, Tantalum]
 timeline
     title Scoperta del Tantalio
     1802 : Scoperta : Anders Gustaf Ekeberg
-    1864 : Isolamento allo stato puro
+    1864 : Isolamento
 ```
 
 ## Storia della scoperta

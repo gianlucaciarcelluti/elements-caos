@@ -19,7 +19,7 @@ aliases: [Na, Sodium]
 # Sodio (Na)
 
 > [!abstract] 48° elemento scoperto — 1807
-> Bastarono due giorni di novembre e una pila elettrica perché un chimico isolasse, uno via l'altro, due metalli che nessuno aveva mai visto.
+> Bastarono pochi giorni d'autunno e una pila elettrica perché un chimico isolasse, uno dopo l'altro, due metalli che nessuno aveva mai visto.
 
 Il sodio è il metallo che reagisce con l'acqua producendo scintille e una fiamma arancione: talmente reattivo che in natura non esiste mai da solo, e per secoli i chimici non sospettarono nemmeno che dentro il comune sale da cucina si nascondesse un metallo.
 
@@ -37,11 +37,13 @@ All'inizio dell'Ottocento la chimica dispone di uno strumento nuovo, la pila vol
 
 Alla Royal Institution di Londra lavora Humphry Davy, un chimico cornico arrivato alla scienza da autodidatta e diventato in pochi anni una delle figure più celebri della Londra scientifica, anche grazie alle sue conferenze pubbliche affollate di curiosi. Davy costruisce pile sempre più potenti e le usa per elettrolizzare, cioè scomporre con la corrente, sostanze che si credevano elementari e indivisibili.
 
-Il bersaglio di Davy è la soda caustica, l'idrossido di sodio, uno degli alcali più comuni e studiati dell'epoca. Fino ad allora i chimici la consideravano una sostanza semplice: Davy sospetta invece che contenga un metallo non ancora osservato, tenuto insieme all'ossigeno da un legame troppo forte per essere spezzato con i mezzi chimici tradizionali.
+Il bersaglio di Davy sono i due alcali fissi, la potassa e la soda caustica, fra le sostanze più comuni e più studiate dell'epoca. Fino ad allora i chimici le consideravano semplici: Davy sospetta invece che ciascuna nasconda un metallo mai osservato, tenuto insieme all'ossigeno da un legame troppo forte per essere spezzato con i mezzi chimici tradizionali.
 
-Il 19 novembre 1807 Davy sottopone la soda caustica fusa alla corrente della sua pila e osserva, all'elettrodo negativo, la comparsa di globuli argentei che prendono fuoco a contatto con l'aria e galleggiano sull'acqua reagendo con violenza. È un metallo nuovo, mai isolato prima: Davy lo chiama sodium, dal nome inglese della soda da cui l'ha estratto.
+A cedere per prima è la potassa: il 6 ottobre 1807 la corrente della pila fa comparire, sul lato negativo, globuli metallici che prendono fuoco a contatto con l'aria. Davy li chiama potassium, ed è il primo metallo della storia strappato a un composto dalla sola elettricità.
 
-Pochi giorni dopo, ripetendo l'esperimento sulla potassa invece che sulla soda, Davy isola con lo stesso metodo un secondo metallo, il potassio. Nell'arco di poche settimane annuncia entrambe le scoperte alla Royal Society: è l'inizio di una serie che nel giro di due anni lo porterà a isolare da solo anche calcio, stronzio, bario e magnesio, sei elementi nuovi attribuiti a un'unica persona.
+Pochi giorni dopo Davy ripete l'esperimento sulla soda caustica fusa e osserva allo stesso elettrodo globuli argentei che galleggiano sull'acqua reagendo con violenza. È il secondo metallo nuovo nel giro di una settimana: lo chiama sodium, dal nome inglese della soda da cui l'ha estratto.
+
+Nelle settimane successive Davy presenta entrambe le scoperte alla Royal Society, in una sola memoria: è l'inizio di una serie che nel giro di due anni lo porterà a isolare da solo anche calcio, stronzio, bario e magnesio, sei elementi nuovi attribuiti a un'unica persona.
 
 Il nome scelto da Davy, sodium, si diffonde nel mondo anglosassone, ma sul continente europeo il chimico svedese Jöns Jacob Berzelius propone in seguito il nome natrium, dal natron, il minerale a base di carbonato di sodio usato fin dall'antichità egizia. Da questa alternativa deriva il simbolo Na, che è rimasto quello ufficiale anche nei paesi che oggi chiamano l'elemento sodium o sodio.
 
@@ -145,3 +147,4 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Humphry Davy]]
 - [Sodium](https://en.wikipedia.org/wiki/Sodium) — consultata il 05/09/2026
 - [Humphry Davy](https://en.wikipedia.org/wiki/Humphry_Davy) — consultata il 05/09/2026
 - [Davy's Elements (1805-1824)](https://uwaterloo.ca/chemistry/community-outreach/timeline-of-elements/davys-elements-1805-1824) — consultata il 05/09/2026
+- [Humphry Davy, On Some New Phenomena of Chemical Changes Produced by Electricity (Bakerian Lecture, Philosophical Transactions, 1808)](https://www.chemteam.info/Chem-History/Davy-Na&K-1808.html) — consultata il 08/09/2026

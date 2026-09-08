@@ -29,7 +29,7 @@ aliases: [Sc, Scandium]
 timeline
     title Scoperta dello Scandio
     1879 : Scoperta : Lars Fredrik Nilson
-    1937 : Isolamento allo stato puro
+    1937 : Isolamento
 ```
 
 ## Storia della scoperta

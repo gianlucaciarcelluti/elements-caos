@@ -29,7 +29,7 @@ aliases: [Ga, Gallium]
 timeline
     title Scoperta del Gallio
     1875 : Scoperta : Paul-Émile Lecoq de Boisbaudran
-    1878 : Isolamento allo stato puro
+    1878 : Isolamento
 ```
 
 ## Storia della scoperta

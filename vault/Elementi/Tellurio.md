@@ -29,7 +29,7 @@ Il tellurio è uno dei solidi più rari della crosta terrestre, tanto raro quant
 timeline
     title Scoperta del Tellurio
     1782 : Scoperta : Franz-Joseph Müller von Reichenstein
-    1798 : Isolamento allo stato puro
+    1798 : Isolamento
 ```
 
 ## Storia della scoperta

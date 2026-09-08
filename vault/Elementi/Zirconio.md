@@ -29,7 +29,7 @@ Lo zirconio è un metallo grigio chiaro, duro e straordinariamente resistente al
 timeline
     title Scoperta dello Zirconio
     1789 : Scoperta : Martin Heinrich Klaproth
-    1824 : Isolamento allo stato puro
+    1824 : Isolamento
 ```
 
 ## Storia della scoperta

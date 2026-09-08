@@ -29,7 +29,7 @@ Il boro è un semimetallo scuro, durissimo e pessimo conduttore, che sta al quin
 timeline
     title Scoperta del Boro
     1787 : Scoperta : Louis-Bernard Guyton de Morveau, Antoine-Laurent Lavoisier, Claude Louis Berthollet, Antoine François de Fourcroy
-    1809 : Isolamento allo stato puro
+    1809 : Isolamento
 ```
 
 ## Storia della scoperta

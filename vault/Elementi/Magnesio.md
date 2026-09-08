@@ -29,7 +29,7 @@ Il magnesio è un metallo bianco-argenteo così leggero da galleggiare quasi nel
 timeline
     title Scoperta del Magnesio
     1755 : Scoperta : Joseph Black
-    1808 : Isolamento allo stato puro
+    1808 : Isolamento
 ```
 
 ## Storia della scoperta

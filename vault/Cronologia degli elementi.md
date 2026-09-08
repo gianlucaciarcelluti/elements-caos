@@ -94,7 +94,7 @@ La pila di Volta mette in mano ai chimici uno strumento nuovo: la corrente elett
 | 50 | 1811 | [[Iodio]] (I) | [[Bernard Courtois]] |
 | 51 | 1817 | [[Litio]] (Li) | [[Johan August Arfwedson]] |
 | 52 | 1817 | [[Selenio]] (Se) | [[Jöns Jacob Berzelius]], [[Johan Gottlieb Gahn]] |
-| 53 | 1817 | [[Cadmio]] (Cd) | [[Karl Samuel Leberecht Hermann]], [[Friedrich Stromeyer]], [[Johann Carl Heinrich Roloff]] |
+| 53 | 1817 | [[Cadmio]] (Cd) | [[Karl Samuel Leberecht Hermann]], [[Friedrich Stromeyer]], [[Johann Christoff Heinrich Roloff]] |
 | 54 | 1825 | [[Bromo]] (Br) | [[Antoine Jérôme Balard]], [[Carl Löwig]] |
 | 55 | 1829 | [[Torio]] (Th) | [[Jöns Jacob Berzelius]] |
 | 56 | 1838 | [[Lantanio]] (La) | [[Carl Gustaf Mosander]] |

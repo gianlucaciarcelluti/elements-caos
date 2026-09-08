@@ -29,7 +29,7 @@ aliases: [In, Indium]
 timeline
     title Scoperta dell'Indio
     1863 : Scoperta : Ferdinand Reich, Hieronymus Theodor Richter
-    1864 : Isolamento allo stato puro
+    1864 : Isolamento
 ```
 
 ## Storia della scoperta

@@ -29,7 +29,7 @@ aliases: [Rb, Rubidium]
 timeline
     title Scoperta del Rubidio
     1861 : Scoperta : Gustav Kirchhoff, Robert Bunsen
-    1863 : Isolamento allo stato puro
+    1863 : Isolamento
 ```
 
 ## Storia della scoperta

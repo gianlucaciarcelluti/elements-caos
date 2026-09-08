@@ -29,7 +29,7 @@ aliases: [He, Helium]
 timeline
     title Scoperta dell'Elio
     1868 : Scoperta : Pierre Janssen, Norman Lockyer
-    1895 : Isolamento allo stato puro
+    1895 : Isolamento
 ```
 
 ## Storia della scoperta

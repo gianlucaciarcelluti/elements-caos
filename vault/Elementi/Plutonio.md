@@ -29,7 +29,7 @@ Il plutonio non si trova in natura se non in tracce infinitesimali: è un elemen
 timeline
     title Scoperta del Plutonio
     1940 : Scoperta : Glenn Seaborg, Edwin McMillan, Joseph Kennedy, Arthur Wahl
-    1941 : Isolamento allo stato puro
+    1941 : Isolamento
 ```
 
 ## Storia della scoperta

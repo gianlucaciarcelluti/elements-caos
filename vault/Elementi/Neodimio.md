@@ -29,7 +29,7 @@ aliases: [Nd, Neodymium]
 timeline
     title Scoperta del Neodimio
     1841 : Scoperta : Carl Gustaf Mosander
-    1901 : Isolamento allo stato puro
+    1901 : Isolamento
 ```
 
 ## Storia della scoperta

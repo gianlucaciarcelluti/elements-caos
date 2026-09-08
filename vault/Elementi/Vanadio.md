@@ -29,7 +29,7 @@ aliases: [V, Vanadium]
 timeline
     title Scoperta del Vanadio
     1801 : Scoperta : Andrés Manuel del Río
-    1867 : Isolamento allo stato puro
+    1867 : Isolamento
 ```
 
 ## Storia della scoperta

@@ -29,7 +29,7 @@ L'arsenico è un semimetallo grigio e lucente che a pressione ordinaria non fond
 timeline
     title Scoperta dell'Arsenico
     300 d.C. : Primo uso documentato (data stimata)
-    1250 : Isolamento allo stato puro
+    1250 : Isolamento
 ```
 
 ## Storia della scoperta

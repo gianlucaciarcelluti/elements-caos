@@ -29,7 +29,7 @@ L'alluminio è il metallo più abbondante della crosta terrestre, leggero, resis
 timeline
     title Scoperta dell'Alluminio
     1746 : Scoperta : Johann Heinrich Pott
-    1825 : Isolamento allo stato puro
+    1825 : Isolamento
 ```
 
 ## Storia della scoperta

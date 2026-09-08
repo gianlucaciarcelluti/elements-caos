@@ -29,7 +29,7 @@ aliases: [Th, Thorium]
 timeline
     title Scoperta del Torio
     1829 : Scoperta : Jöns Jacob Berzelius
-    1914 : Isolamento allo stato puro
+    1914 : Isolamento
 ```
 
 ## Storia della scoperta

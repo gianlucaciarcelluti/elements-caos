@@ -29,7 +29,7 @@ Il bismuto è un metallo pesante dal riflesso appena rosato, fragile, che fonde 
 timeline
     title Scoperta del Bismuto
     1500 : Primo uso documentato (data stimata)
-    1753 : Isolamento allo stato puro
+    1753 : Isolamento
 ```
 
 ## Storia della scoperta

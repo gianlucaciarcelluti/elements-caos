@@ -1,11 +1,14 @@
 ---
-titolo: Johann Carl Heinrich Roloff
+titolo: Johann Christoff Heinrich Roloff
 tipo: scopritore
+nato: 1783
+morto: 1825
 tags: [scopritore]
 ---
 
-# Johann Carl Heinrich Roloff
+# Johann Christoff Heinrich Roloff
 
+Tedesca, 1783–1825.
 
 ## Elementi scoperti
 

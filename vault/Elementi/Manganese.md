@@ -29,7 +29,7 @@ Il manganese è un metallo grigio, duro e fragile, che praticamente nessuno ha m
 timeline
     title Scoperta del Manganese
     1770 : Scoperta : Torbern Bergman
-    1774 : Isolamento allo stato puro
+    1774 : Isolamento
 ```
 
 ## Storia della scoperta

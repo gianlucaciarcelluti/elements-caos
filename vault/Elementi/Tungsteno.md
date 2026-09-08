@@ -29,7 +29,7 @@ Il tungsteno è il metallo che fonde più in alto di tutti e, dopo il carbonio, 
 timeline
     title Scoperta del Tungsteno
     1781 : Scoperta : Carl Wilhelm Scheele
-    1783 : Isolamento allo stato puro
+    1783 : Isolamento
 ```
 
 ## Storia della scoperta

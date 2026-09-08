@@ -29,7 +29,7 @@ Il bario è un metallo alcalino terroso talmente reattivo da non esistere libero
 timeline
     title Scoperta del Bario
     1772 : Scoperta : Carl Wilhelm Scheele
-    1808 : Isolamento allo stato puro
+    1808 : Isolamento
 ```
 
 ## Storia della scoperta

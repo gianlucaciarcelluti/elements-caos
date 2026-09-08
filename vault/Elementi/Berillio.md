@@ -29,7 +29,7 @@ Il berillio è il quarto elemento della tavola periodica, un metallo grigio chia
 timeline
     title Scoperta del Berillio
     1798 : Scoperta : Louis Nicolas Vauquelin
-    1828 : Isolamento allo stato puro
+    1828 : Isolamento
 ```
 
 ## Storia della scoperta

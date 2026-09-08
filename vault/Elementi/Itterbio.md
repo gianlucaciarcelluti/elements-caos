@@ -29,7 +29,7 @@ aliases: [Yb, Ytterbium]
 timeline
     title Scoperta dell'Itterbio
     1878 : Scoperta : Jean Charles Galissard de Marignac
-    1936 : Isolamento allo stato puro
+    1936 : Isolamento
 ```
 
 ## Storia della scoperta

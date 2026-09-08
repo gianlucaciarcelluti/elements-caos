@@ -29,7 +29,7 @@ Il titanio è il metallo che riunisce quattro pregi che altrove si trovano solta
 timeline
     title Scoperta del Titanio
     1791 : Scoperta : William Gregor
-    1875 : Isolamento allo stato puro
+    1875 : Isolamento
 ```
 
 ## Storia della scoperta

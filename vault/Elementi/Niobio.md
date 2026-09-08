@@ -29,7 +29,7 @@ aliases: [Nb, Niobium]
 timeline
     title Scoperta del Niobio
     1801 : Scoperta : Charles Hatchett
-    1864 : Isolamento allo stato puro
+    1864 : Isolamento
 ```
 
 ## Storia della scoperta

@@ -29,7 +29,7 @@ Il molibdeno è un metallo grigio argenteo che fonde intorno ai 2620 gradi, uno 
 timeline
     title Scoperta del Molibdeno
     1778 : Scoperta : Carl Wilhelm Scheele
-    1781 : Isolamento allo stato puro
+    1781 : Isolamento
 ```
 
 ## Storia della scoperta

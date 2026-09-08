@@ -29,7 +29,7 @@ aliases: [Cs, Cesium]
 timeline
     title Scoperta del Cesio
     1860 : Scoperta : Gustav Kirchhoff, Robert Bunsen
-    1882 : Isolamento allo stato puro
+    1882 : Isolamento
 ```
 
 ## Storia della scoperta

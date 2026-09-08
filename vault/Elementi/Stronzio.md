@@ -29,7 +29,7 @@ Lo stronzio è un metallo alcalino terroso morbido e argenteo, che all'aria si o
 timeline
     title Scoperta dello Stronzio
     1790 : Scoperta : Adair Crawford
-    1808 : Isolamento allo stato puro
+    1808 : Isolamento
 ```
 
 ## Storia della scoperta

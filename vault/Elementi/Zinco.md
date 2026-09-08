@@ -29,7 +29,7 @@ Lo zinco è un metallo bianco-azzurrino di uso quotidiano, e la sua storia è do
 timeline
     title Scoperta dello Zinco
     1000 a.C. : Primo uso documentato (data stimata)
-    1746 : Isolamento allo stato puro
+    1746 : Isolamento
 ```
 
 ## Storia della scoperta

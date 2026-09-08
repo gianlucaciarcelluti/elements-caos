@@ -29,7 +29,7 @@ aliases: [Ce, Cerium]
 timeline
     title Scoperta del Cerio
     1803 : Scoperta : Martin Heinrich Klaproth
-    1875 : Isolamento allo stato puro
+    1875 : Isolamento
 ```
 
 ## Storia della scoperta

@@ -29,7 +29,7 @@ Il platino è un metallo bianco, pesantissimo e praticamente inattaccabile: non 
 timeline
     title Scoperta del Platino
     600 a.C. : Primo uso documentato (data stimata)
-    1752 : Isolamento allo stato puro
+    1752 : Isolamento
 ```
 
 ## Storia della scoperta

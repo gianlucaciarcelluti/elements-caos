@@ -29,7 +29,7 @@ Il calcio è un metallo argenteo e tenero, tanto reattivo che in natura non si t
 timeline
     title Scoperta del Calcio
     1739 : Scoperta : Johann Heinrich Pott
-    1808 : Isolamento allo stato puro
+    1808 : Isolamento
 ```
 
 ## Storia della scoperta

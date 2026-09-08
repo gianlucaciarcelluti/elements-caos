@@ -29,7 +29,7 @@ aliases: [Tl, Thallium]
 timeline
     title Scoperta del Tallio
     1861 : Scoperta : William Crookes
-    1862 : Isolamento allo stato puro
+    1862 : Isolamento
 ```
 
 ## Storia della scoperta

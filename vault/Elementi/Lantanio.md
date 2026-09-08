@@ -29,7 +29,7 @@ aliases: [La, Lanthanum]
 timeline
     title Scoperta del Lantanio
     1838 : Scoperta : Carl Gustaf Mosander
-    1904 : Isolamento allo stato puro
+    1904 : Isolamento
 ```
 
 ## Storia della scoperta

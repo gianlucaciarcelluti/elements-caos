@@ -29,7 +29,7 @@ L'uranio è l'elemento più pesante che si trovi in quantità apprezzabili in na
 timeline
     title Scoperta dell'Uranio
     1789 : Scoperta : Martin Heinrich Klaproth
-    1841 : Isolamento allo stato puro
+    1841 : Isolamento
 ```
 
 ## Storia della scoperta

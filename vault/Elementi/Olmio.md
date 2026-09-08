@@ -29,7 +29,7 @@ aliases: [Ho, Holmium]
 timeline
     title Scoperta dell'Olmio
     1878 : Scoperta : Jacques-Louis Soret, Marc Delafontaine
-    1939 : Isolamento allo stato puro
+    1939 : Isolamento
 ```
 
 ## Storia della scoperta

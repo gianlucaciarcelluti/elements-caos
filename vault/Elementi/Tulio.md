@@ -29,7 +29,7 @@ aliases: [Tm, Thulium]
 timeline
     title Scoperta del Tulio
     1879 : Scoperta : Per Teodor Cleve
-    1911 : Isolamento allo stato puro
+    1911 : Isolamento
 ```
 
 ## Storia della scoperta
