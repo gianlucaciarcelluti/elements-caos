@@ -4,7 +4,7 @@ simbolo: Md
 numero_atomico: 101
 anno_scoperta: 1955
 anno_stimato: false
-scopritori: [Glenn Seaborg]
+scopritori: [Albert Ghiorso, Bernard George Harvey, Gregory Robert Choppin, Stanley Gerald Thompson, Glenn Seaborg]
 epoca: Era nucleare
 categoria: attinide
 gruppo: 3
@@ -28,7 +28,7 @@ aliases: [Md, Mendelevium]
 ```mermaid
 timeline
     title Scoperta del Mendelevio
-    1955 : Scoperta : Glenn Seaborg
+    1955 : Scoperta : Albert Ghiorso, Bernard George Harvey, Gregory Robert Choppin, Stanley Gerald Thompson, Glenn Seaborg
 ```
 
 ## Storia della scoperta
@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Fermio]] (1952)
 → Successivo: [[Nobelio]] (1958)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Glenn Seaborg]]
+Epoca: [[Era nucleare]] · Scopritori: [[Albert Ghiorso]], [[Bernard George Harvey]], [[Gregory Robert Choppin]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]]
 
 ## Fonti
 

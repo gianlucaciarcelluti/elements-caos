@@ -18,6 +18,9 @@ Statunitense, 1915–2010.
 - [[Curio]] (Cm) — 1944
 - [[Berkelio]] (Bk) — 1949
 - [[Californio]] (Cf) — 1950
+- [[Einsteinio]] (Es) — 1952
+- [[Fermio]] (Fm) — 1952
+- [[Mendelevio]] (Md) — 1955
 - [[Nobelio]] (No) — 1958
 - [[Laurenzio]] (Lr) — 1961
 - [[Rutherfordio]] (Rf) — 1969

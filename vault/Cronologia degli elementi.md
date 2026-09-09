@@ -154,9 +154,9 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 96 | 1945 | [[Promezio]] (Pm) | [[Jacob Marinsky]], [[Lawrence Glendenin]], [[Charles Coryell]] |
 | 97 | 1949 | [[Berkelio]] (Bk) | [[Glenn Seaborg]], [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]] |
 | 98 | 1950 | [[Californio]] (Cf) | [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]], [[Albert Ghiorso]], [[Glenn Seaborg]] |
-| 99 | 1952 | [[Einsteinio]] (Es) | [[Glenn Seaborg]] |
-| 100 | 1952 | [[Fermio]] (Fm) | [[Glenn Seaborg]] |
-| 101 | 1955 | [[Mendelevio]] (Md) | [[Glenn Seaborg]] |
+| 99 | 1952 | [[Einsteinio]] (Es) | [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
+| 100 | 1952 | [[Fermio]] (Fm) | [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
+| 101 | 1955 | [[Mendelevio]] (Md) | [[Albert Ghiorso]], [[Bernard George Harvey]], [[Gregory Robert Choppin]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
 | 102 | 1958 | [[Nobelio]] (No) | [[Albert Ghiorso]] |
 | 103 | 1961 | [[Laurenzio]] (Lr) | [[Albert Ghiorso]] |
 | 104 | 1969 | [[Rutherfordio]] (Rf) | [[Georgy Flerov]], [[Albert Ghiorso]] |

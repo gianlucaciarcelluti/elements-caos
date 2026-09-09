@@ -22,9 +22,9 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 1945 | [[Promezio]] (Pm) | [[Jacob Marinsky]], [[Lawrence Glendenin]], [[Charles Coryell]] |
 | 1949 | [[Berkelio]] (Bk) | [[Glenn Seaborg]], [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]] |
 | 1950 | [[Californio]] (Cf) | [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]], [[Albert Ghiorso]], [[Glenn Seaborg]] |
-| 1952 | [[Einsteinio]] (Es) | [[Glenn Seaborg]] |
-| 1952 | [[Fermio]] (Fm) | [[Glenn Seaborg]] |
-| 1955 | [[Mendelevio]] (Md) | [[Glenn Seaborg]] |
+| 1952 | [[Einsteinio]] (Es) | [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
+| 1952 | [[Fermio]] (Fm) | [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
+| 1955 | [[Mendelevio]] (Md) | [[Albert Ghiorso]], [[Bernard George Harvey]], [[Gregory Robert Choppin]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
 | 1958 | [[Nobelio]] (No) | [[Albert Ghiorso]] |
 | 1961 | [[Laurenzio]] (Lr) | [[Albert Ghiorso]] |
 | 1969 | [[Rutherfordio]] (Rf) | [[Georgy Flerov]], [[Albert Ghiorso]] |

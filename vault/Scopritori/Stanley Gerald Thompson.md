@@ -14,5 +14,8 @@ Statunitense, 1912–1976.
 
 - [[Berkelio]] (Bk) — 1949
 - [[Californio]] (Cf) — 1950
+- [[Einsteinio]] (Es) — 1952
+- [[Fermio]] (Fm) — 1952
+- [[Mendelevio]] (Md) — 1955
 
 ← Torna a [[Cronologia degli elementi]]
