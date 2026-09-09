@@ -865,7 +865,19 @@ CRONOLOGIA: list[VoceCronologia] = [
         "nucleare",
         nome="Mendelevio",
     ),
-    VoceCronologia(102, 1958, False, ["albert-ghiorso"], "nucleare", nome="Nobelio"),
+    # La trascrizione originale riportava "Ghiorso et al." e il Task 13 ne aveva tenuto il
+    # solo Ghiorso: qui compare la squadra di Berkeley che nel 1958 rivendico l'elemento
+    # 102. Il dato del progetto resta quello della cronologia di riferimento (Berkeley
+    # 1958) anche se il Transfermium Working Group ha poi assegnato la priorita a Dubna
+    # nel 1992: la vicenda e raccontata per intero nella nota e nel campo controversia.
+    VoceCronologia(
+        102,
+        1958,
+        False,
+        ["albert-ghiorso", "torbjorn-sikkeland", "john-walton", "glenn-seaborg"],
+        "nucleare",
+        nome="Nobelio",
+    ),
     VoceCronologia(103, 1961, False, ["albert-ghiorso"], "nucleare", nome="Laurenzio"),
     VoceCronologia(
         104, 1969, False, ["georgy-flerov", "albert-ghiorso"], "nucleare", nome="Rutherfordio"

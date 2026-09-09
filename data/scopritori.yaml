@@ -321,6 +321,7 @@
   - 99
   - 100
   - 101
+  - 102
   ritratto:
     autore: Atomic Energy Commission. (1946 - 01/19/1975)
     file: glenn-seaborg.jpg
@@ -828,3 +829,17 @@
   nazionalita: statunitense
   elementi:
   - 101
+- id: torbjorn-sikkeland
+  nome: Torbjørn Sikkeland
+  nato: 1923
+  morto: 2014
+  nazionalita: norvegese
+  elementi:
+  - 102
+- id: john-walton
+  nome: John R. Walton
+  nato: null
+  morto: null
+  nazionalita: null
+  elementi:
+  - 102
