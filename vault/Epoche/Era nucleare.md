@@ -17,11 +17,11 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 1940 | [[Astato]] (At) | [[Dale Corson]], [[Kenneth MacKenzie]], [[Emilio Segrè]] |
 | 1940 | [[Nettunio]] (Np) | [[Edwin McMillan]], [[Philip Abelson]] |
 | 1940 | [[Plutonio]] (Pu) | [[Glenn Seaborg]], [[Edwin McMillan]], [[Joseph Kennedy]], [[Arthur Wahl]] |
-| 1944 | [[Americio]] (Am) | [[Glenn Seaborg]] |
-| 1944 | [[Curio]] (Cm) | [[Glenn Seaborg]] |
+| 1944 | [[Americio]] (Am) | [[Glenn Seaborg]], [[Ralph Arthur James]], [[Leon Owen Morgan]], [[Albert Ghiorso]] |
+| 1944 | [[Curio]] (Cm) | [[Glenn Seaborg]], [[Ralph Arthur James]], [[Albert Ghiorso]] |
 | 1945 | [[Promezio]] (Pm) | [[Jacob Marinsky]], [[Lawrence Glendenin]], [[Charles Coryell]] |
-| 1949 | [[Berkelio]] (Bk) | [[Glenn Seaborg]] |
-| 1950 | [[Californio]] (Cf) | [[Glenn Seaborg]] |
+| 1949 | [[Berkelio]] (Bk) | [[Glenn Seaborg]], [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]] |
+| 1950 | [[Californio]] (Cf) | [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]], [[Albert Ghiorso]], [[Glenn Seaborg]] |
 | 1952 | [[Einsteinio]] (Es) | [[Glenn Seaborg]] |
 | 1952 | [[Fermio]] (Fm) | [[Glenn Seaborg]] |
 | 1955 | [[Mendelevio]] (Md) | [[Glenn Seaborg]] |

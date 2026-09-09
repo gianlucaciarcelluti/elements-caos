@@ -14,6 +14,10 @@ Statunitense, 1915–2010.
 
 ## Elementi scoperti
 
+- [[Americio]] (Am) — 1944
+- [[Curio]] (Cm) — 1944
+- [[Berkelio]] (Bk) — 1949
+- [[Californio]] (Cf) — 1950
 - [[Nobelio]] (No) — 1958
 - [[Laurenzio]] (Lr) — 1961
 - [[Rutherfordio]] (Rf) — 1969

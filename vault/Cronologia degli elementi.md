@@ -149,11 +149,11 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 91 | 1940 | [[Astato]] (At) | [[Dale Corson]], [[Kenneth MacKenzie]], [[Emilio Segrè]] |
 | 92 | 1940 | [[Nettunio]] (Np) | [[Edwin McMillan]], [[Philip Abelson]] |
 | 93 | 1940 | [[Plutonio]] (Pu) | [[Glenn Seaborg]], [[Edwin McMillan]], [[Joseph Kennedy]], [[Arthur Wahl]] |
-| 94 | 1944 | [[Americio]] (Am) | [[Glenn Seaborg]] |
-| 95 | 1944 | [[Curio]] (Cm) | [[Glenn Seaborg]] |
+| 94 | 1944 | [[Americio]] (Am) | [[Glenn Seaborg]], [[Ralph Arthur James]], [[Leon Owen Morgan]], [[Albert Ghiorso]] |
+| 95 | 1944 | [[Curio]] (Cm) | [[Glenn Seaborg]], [[Ralph Arthur James]], [[Albert Ghiorso]] |
 | 96 | 1945 | [[Promezio]] (Pm) | [[Jacob Marinsky]], [[Lawrence Glendenin]], [[Charles Coryell]] |
-| 97 | 1949 | [[Berkelio]] (Bk) | [[Glenn Seaborg]] |
-| 98 | 1950 | [[Californio]] (Cf) | [[Glenn Seaborg]] |
+| 97 | 1949 | [[Berkelio]] (Bk) | [[Glenn Seaborg]], [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]] |
+| 98 | 1950 | [[Californio]] (Cf) | [[Stanley Gerald Thompson]], [[Kenneth Street Jr.]], [[Albert Ghiorso]], [[Glenn Seaborg]] |
 | 99 | 1952 | [[Einsteinio]] (Es) | [[Glenn Seaborg]] |
 | 100 | 1952 | [[Fermio]] (Fm) | [[Glenn Seaborg]] |
 | 101 | 1955 | [[Mendelevio]] (Md) | [[Glenn Seaborg]] |
