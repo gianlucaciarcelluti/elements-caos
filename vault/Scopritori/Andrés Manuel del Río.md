@@ -9,7 +9,7 @@ tags: [scopritore]
 # Andrés Manuel del Río
 
 ![[andres-manuel-del-rio.png]]
-*Rafael Ximeno y Planes — Public domain — [fonte](https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Manuel_del_R%C3%ADo_(Rafael_Ximeno_y_Planes_1825)_retrato.png)*
+*Rafael Ximeno y Planes — Public domain — [fonte](https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Manuel_del_R%C3%ADo_%28Rafael_Ximeno_y_Planes_1825%29_retrato.png)*
 Spagnola, 1764–1849.
 
 ## Elementi scoperti
