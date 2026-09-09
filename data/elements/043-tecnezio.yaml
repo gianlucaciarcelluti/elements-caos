@@ -8,10 +8,13 @@ scoperta:
   scopritori:
   - carlo-perrier
   - emilio-segre
-  luogo: null
+  luogo: Palermo, Italia
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'Primo elemento prodotto artificialmente: Perrier e Segrè lo identificarono
+    nel 1937 in una lamina di molibdeno irraggiata nel ciclotrone di Berkeley e spedita loro
+    da Ernest Lawrence. La casella 43 era stata rivendicata più volte — davyum, lucium, nipponium,
+    masurium — senza che nessun annuncio reggesse. Il nome fu scelto nel 1947.'
   controversia: null
 proprieta:
   gruppo: 7
@@ -29,5 +32,171 @@ proprieta:
   punto_fusione_k: 2430.0
   punto_ebollizione_k: 4538.0
   densita: 11.0
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -3
+  - -1
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 approfondimento: true
+contenuti:
+  hook: 'Arrivò a Palermo dentro una busta: una lamina di molibdeno smontata da un ciclotrone
+    californiano e spedita perché nessuno la voleva più. Dentro c''era l''elemento che riempiva
+    la casella 43.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il tecnezio è il primo elemento prodotto artificialmente dall''uomo, e il più
+      leggero fra quelli che non hanno alcun isotopo stabile: tutti i suoi nuclei decadono,
+      e per questo in natura è praticamente scomparso. Oggi è l''atomo più usato della medicina
+      nucleare: qualche decina di milioni di esami all''anno nel mondo passano da lui.'
+    visual: Una siringa schermata accanto a una gamma camera in medicina nucleare
+    attendibilita: documentato
+  - id: la_casella_43
+    sezione: storia
+    testo: La casella 43 era rimasta vuota più a lungo di quasi ogni altra. Mendeleev ne aveva
+      previsto l'occupante con il nome di eka-manganese; nel corso di cinquant'anni fu annunciato
+      più volte con nomi diversi — davyum, lucium, nipponium, masurium — e ogni volta l'annuncio
+      non resse.
+    visual: Una tavola periodica con la casella 43 ancora vuota
+    attendibilita: documentato
+  - id: perche_non_c_era
+    sezione: storia
+    testo: 'Il motivo era fisico, non sperimentale, e fu capito solo dopo: il numero atomico
+      43 è dispari, e le regole di stabilità dei nuclei fanno sì che nessuna combinazione
+      di protoni e neutroni dia, per quell''elemento, un nucleo stabile. Qualunque tecnezio
+      si fosse formato con la Terra è decaduto molto tempo fa: cercarlo nei minerali era una
+      caccia senza preda.'
+    visual: Il diagramma dei nuclidi con la lacuna in corrispondenza dell'elemento 43
+    attendibilita: documentato
+  - id: la_lamina_spedita
+    sezione: storia
+    testo: 'Nel 1936 Emilio Segrè visitò Berkeley e convinse Ernest Lawrence, l''inventore
+      del ciclotrone, a lasciargli portare in Italia qualche pezzo di scarto della macchina.
+      Lawrence gli spedì poi a Palermo una lamina di molibdeno che era stata parte del deflettore
+      ed era diventata radioattiva: materiale da buttare, che a Segrè serviva proprio per
+      quello.'
+    visual: Una lamina metallica dentro una busta postale con timbri americani
+    attendibilita: documentato
+  - id: perrier_e_segre
+    sezione: storia
+    testo: 'A Palermo, nel 1937, Segrè e il mineralogista Carlo Perrier analizzarono la lamina
+      con metodi di chimica comparativa: dimostrarono che parte dell''attività non apparteneva
+      al molibdeno né a nessun elemento vicino, e che il suo comportamento chimico era quello
+      previsto per l''elemento 43. La casella era piena, e il suo contenuto non veniva da
+      una miniera ma da una macchina.'
+    visual: Un laboratorio universitario italiano degli anni Trenta
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome arrivò solo nel 1947: tecnezio, dal greco technetos, «artificiale», perché
+      era il primo elemento prodotto dall''uomo invece che trovato. È un nome che segna una
+      soglia: da quel momento la tavola periodica smette di essere un inventario di ciò che
+      esiste e diventa anche un elenco di ciò che si può fabbricare.'
+    visual: Un ciclotrone degli anni Trenta visto dall'alto
+    attendibilita: documentato
+  - id: nelle_stelle
+    sezione: storia
+    testo: 'Nel 1952 l''astronomo Paul Merrill trovò le righe del tecnezio negli spettri di
+      alcune giganti rosse. Poiché l''elemento decade in tempi brevi rispetto alla vita di
+      una stella, la sua presenza dimostrava che veniva prodotto lì, in quel momento: era
+      una prova diretta che gli elementi pesanti si formano dentro le stelle, e non erano
+      tutti già presenti alla nascita dell''universo.'
+    visual: Lo spettro di una gigante rossa con le righe del tecnezio segnate
+    attendibilita: documentato
+  - id: instabilita
+    sezione: caratteristiche
+    testo: 'Nessuno dei suoi isotopi è stabile. Il più longevo, il tecnezio-98, ha un''emivita
+      di poco più di quattro milioni di anni: tantissimo per un laboratorio, pochissimo rispetto
+      ai quattro miliardi e mezzo di anni della Terra. Tracce minime di tecnezio esistono
+      in natura, prodotte dalla fissione spontanea dell''uranio nei minerali.'
+    visual: Un contatore che registra il decadimento di un campione
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente somiglia al manganese e al renio, i suoi vicini di colonna: forma
+      l''anione pertecnetato, in cui sta allo stato +7, ed è in quella forma che si maneggia
+      in medicina. Il metallo è argenteo e si opacizza lentamente all''aria; in soluzione
+      il pertecnetato è un ottimo inibitore della corrosione dell''acciaio, una proprietà
+      che nessuno usa per ovvie ragioni.'
+    visual: Una soluzione di pertecnetato in un flacone schermato
+    attendibilita: documentato
+  - id: il_99m
+    sezione: caratteristiche
+    testo: 'L''isotopo che conta è il tecnezio-99m, uno stato eccitato del tecnezio-99 che
+      decade emettendo un raggio gamma di energia ideale per essere rivelato dall''esterno,
+      con un''emivita di sei ore: abbastanza lunga per fare l''esame, abbastanza breve perché
+      il paziente non resti radioattivo a lungo. È una combinazione di proprietà che nessun
+      altro isotopo offre altrettanto bene.'
+    visual: Lo schema del decadimento del tecnezio-99m con l'emissione gamma
+    attendibilita: documentato
+  - id: usi_medicina
+    sezione: usi
+    testo: 'Legato a molecole diverse, il tecnezio-99m va dove serve: attaccato ai difosfonati
+      si fissa sulle ossa, ad altre molecole raggiunge il cuore, la tiroide, i reni, i linfonodi.
+      Si inietta, si aspetta che si distribuisca, e una gamma camera fotografa da fuori dove
+      si è accumulato: dove il metabolismo è più attivo il segnale è più forte, ed è così
+      che una metastasi ossea o un''ischemia cardiaca diventano visibili. Nel mondo se ne
+      fanno una decina di milioni di esami l''anno.'
+    visual: Un'immagine scintigrafica scheletrica in falsi colori
+    attendibilita: documentato
+  - id: i_generatori
+    sezione: usi
+    testo: 'Il modo in cui arriva negli ospedali è ingegnoso: il tecnezio-99m ha sei ore di
+      vita e non si può spedire. Si spedisce invece il suo genitore, il molibdeno-99, fissato
+      su una colonnina di allumina dentro un contenitore schermato; il tecnezio che vi si
+      forma per decadimento viene staccato lavando la colonna con soluzione fisiologica, ogni
+      giorno, per una settimana. Il dispositivo si chiama generatore, e in gergo si dice «mungerlo».'
+    visual: Un generatore molibdeno-tecnezio in una camera calda ospedaliera
+    attendibilita: documentato
+  - id: curiosita_reattori
+    sezione: curiosita
+    testo: 'Il molibdeno-99 si produce irraggiando uranio in pochi reattori di ricerca, quasi
+      tutti vecchi di decenni: quando due o tre di essi si fermano insieme per manutenzione,
+      gli ospedali di mezzo mondo rinviano gli esami. È uno dei casi in cui la medicina di
+      massa dipende da una filiera fatta di pochissimi impianti.'
+    attendibilita: documentato
+  - id: curiosita_scorie
+    sezione: curiosita
+    testo: 'Il tecnezio-99, il figlio a vita lunga del tecnezio-99m, è anche uno dei prodotti
+      di fissione più abbondanti nelle scorie nucleari: essendo solubile in acqua nella forma
+      di pertecnetato, è fra i radionuclidi che si muovono più facilmente nell''ambiente,
+      ed è uno dei problemi principali nella progettazione dei depositi geologici.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Emilio Segrè
+    ipa: eˈmiːljo seˈɡrɛ
+    nota: Italiano.
+  - termine: Carlo Perrier
+    ipa: ˈkarlo perˈrjɛr
+    nota: Italiano.
+  - termine: technetos
+    ipa: texneˈtos
+    nota: Greco antico, «artificiale».
+composti_principali:
+- nome: Pertecnetato di sodio
+  formula: NaTcO4
+  usi:
+  - radiofarmaco di base per la scintigrafia
+- nome: Tecnezio-99m
+  formula: 99mTc
+  usi:
+  - diagnostica per immagini in medicina nucleare
+- nome: Generatore molibdeno-tecnezio
+  formula: 99Mo/99mTc
+  usi:
+  - produzione ospedaliera quotidiana del radiofarmaco
+fonti:
+- url: https://en.wikipedia.org/wiki/Technetium
+  titolo: Technetium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/43/technetium
+  titolo: Technetium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Technetium-99m
+  titolo: Technetium-99m
+  consultata: *id001

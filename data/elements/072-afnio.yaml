@@ -8,10 +8,13 @@ scoperta:
   scopritori:
   - dirk-coster
   - georg-von-hevesy
-  luogo: null
+  luogo: Copenaghen, Danimarca
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: L'elemento 72 fu cercato a lungo fra le terre rare, e nel 1911 Georges
+    Urbain ne annunciò una scoperta col nome di celtium, poi respinta. Bohr previde su basi
+    teoriche che dovesse essere un metallo di transizione parente dello zirconio, e fu lì
+    che Coster e Hevesy lo trovarono nel 1923, con la spettroscopia a raggi X.
   controversia: null
 proprieta:
   gruppo: 4
@@ -30,5 +33,167 @@ proprieta:
   punto_fusione_k: 2506.0
   punto_ebollizione_k: 4876.0
   densita: 13.31
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 4
 approfondimento: false
+contenuti:
+  hook: Per quindici anni l'elemento 72 fu cercato fra le terre rare, e qualcuno annunciò
+    perfino di averlo trovato. Bohr disse che stavano cercando nel posto sbagliato, e aveva
+    ragione per ragioni di meccanica quantistica.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'L''afnio è il gemello chimico dello zirconio: stessa colonna, stessa valenza,
+      raggi ionici quasi identici, e per questo i due si separano con difficoltà. È però l''opposto
+      dello zirconio per una proprietà che in un reattore nucleare conta più di tutte: assorbe
+      i neutroni seicento volte meglio.'
+    visual: Un lingotto di afnio metallico accanto a uno di zirconio, indistinguibili
+    attendibilita: documentato
+  - id: la_casella_72
+    sezione: storia
+    testo: 'Nel primo Novecento la casella 72 della tavola periodica era una delle poche rimaste
+      vuote, e non si sapeva dove collocarla: molti chimici la cercavano fra le terre rare,
+      perché la serie dei lantanidi sembrava non essere ancora finita. Nel 1911 Georges Urbain
+      annunciò di averla riempita con un elemento che chiamò celtium, ricavato dalle terre
+      rare.'
+    visual: Una tavola periodica di inizio Novecento con la casella 72 in bianco
+    attendibilita: documentato
+  - id: bohr_dice_dove
+    sezione: storia
+    testo: 'Fu la teoria a indicare il posto giusto. Niels Bohr, applicando il proprio modello
+      dell''atomo e il modo in cui gli elettroni riempiono i gusci, sostenne che la serie
+      dei lantanidi doveva chiudersi al lutezio e che l''elemento 72 doveva essere un metallo
+      di transizione, parente dello zirconio: andava cercato nei minerali di zirconio, non
+      nelle terre rare.'
+    visual: Uno schema dei livelli elettronici secondo il modello di Bohr
+    attendibilita: documentato
+  - id: coster_e_hevesy
+    sezione: storia
+    testo: 'Nel 1923, a Copenaghen, nell''istituto diretto da Bohr, Dirk Coster e George de
+      Hevesy esaminarono minerali di zirconio con la spettroscopia a raggi X, che identifica
+      un elemento dal suo numero atomico invece che dal comportamento chimico: è la tecnica
+      con cui Henry Moseley aveva dimostrato dieci anni prima che il numero atomico, e non
+      il peso, è ciò che ordina la tavola periodica. Le righe dell''elemento 72 c''erano,
+      esattamente dove Bohr aveva detto. Lo chiamarono afnio, da Hafnia, il nome latino di
+      Copenaghen.'
+    visual: Uno spettro a raggi X con le righe caratteristiche di un elemento
+    attendibilita: documentato
+  - id: il_celtium_cade
+    sezione: storia
+    testo: 'La rivendicazione di Urbain non resse: né lo spettro né il comportamento chimico
+      che aveva descritto corrispondevano all''elemento trovato a Copenaghen, e dopo una lunga
+      controversia il celtium fu archiviato. È lo stesso Urbain che aveva vinto la disputa
+      sul lutezio quindici anni prima: qui perse, e per una ragione di principio — l''elemento
+      non stava dove lui lo cercava.'
+    visual: Due pubblicazioni scientifiche in contraddizione, aperte a confronto
+    attendibilita: discusso
+  - id: perche_conta
+    sezione: storia
+    testo: La scoperta dell'afnio è uno dei primi casi in cui la struttura elettronica dell'atomo,
+      cioè la fisica, dice alla chimica dove guardare, e ci prende. Da lì in avanti la tavola
+      periodica smette di essere un ordinamento per peso e diventa un ordinamento per numero
+      atomico e configurazione elettronica, cioè per come l'atomo è fatto dentro.
+    visual: La tavola periodica moderna organizzata per blocchi elettronici
+    attendibilita: documentato
+  - id: gemello_dello_zirconio
+    sezione: caratteristiche
+    testo: 'Le proprietà chimiche di afnio e zirconio sono quasi identiche, per via della
+      contrazione lantanidica che rende i due ioni praticamente della stessa dimensione: nei
+      minerali stanno sempre insieme, e separarli è una delle operazioni più costose della
+      metallurgia. Ogni zirconio commerciale ne contiene una piccola percentuale, e viceversa.'
+    visual: Cristalli di zircone al microscopio, con inclusioni indistinguibili
+    attendibilita: documentato
+  - id: i_neutroni
+    sezione: caratteristiche
+    testo: 'Dove i due si distinguono nettamente è di fronte ai neutroni: l''afnio ne cattura
+      circa seicento volte più dello zirconio. È la ragione per cui lo zirconio, trasparente
+      ai neutroni, fa i tubi che contengono il combustibile nucleare, e l''afnio, che li mangia,
+      fa le barre di controllo: due elementi quasi indistinguibili con ruoli opposti nella
+      stessa macchina, ed è per questo che vanno separati fino all''ultima traccia.'
+    visual: Il nocciolo di un reattore con tubi di zircaloy e barre di controllo
+    attendibilita: documentato
+  - id: proprieta_fisiche
+    sezione: caratteristiche
+    testo: 'È un metallo lucente, duttile, resistente alla corrosione, che fonde a 2233 gradi
+      e nei composti sta quasi sempre nello stato +4. In polvere fine è piroforico, cioè si
+      incendia spontaneamente all''aria: una proprietà che ne complica la lavorazione e che
+      si sfrutta in alcuni inneschi.'
+    visual: Trucioli metallici che si incendiano al contatto con l'aria
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'Nella crosta terrestre è a circa tre parti per milione, più comune del molibdeno,
+      ma non ha minerali propri: si ricava per intero come sottoprodotto della lavorazione
+      dello zircone per lo zirconio. I procedimenti di separazione dei due, per distillazione
+      estrattiva o per scambio ionico, sono stati sviluppati proprio per l''industria nucleare,
+      che aveva bisogno di zirconio senza afnio e di afnio senza zirconio.'
+    visual: Sabbie di zircone in un impianto di separazione
+    attendibilita: documentato
+  - id: usi_nucleari
+    sezione: usi
+    testo: Le barre di controllo all'afnio sono usate soprattutto nei reattori navali, in
+      particolare nei sottomarini, dove servono materiali che assorbano bene i neutroni, resistano
+      alla corrosione dell'acqua ad alta temperatura e durino per l'intera vita del reattore
+      senza essere sostituiti.
+    visual: Il compartimento reattore di un sottomarino in sezione
+    attendibilita: documentato
+  - id: usi_superleghe_e_chip
+    sezione: usi
+    testo: 'Fuori dal nucleare, l''afnio entra nelle superleghe a base di nichel per le palette
+      delle turbine, dove piccole aggiunte migliorano la resistenza alle alte temperature,
+      e nell''elettronica: dal 2007 l''ossido di afnio è il dielettrico che isola il gate
+      dei transistor nei processori più avanzati. Serviva perché il biossido di silicio, sceso
+      a spessori di pochi atomi, aveva cominciato a lasciar passare corrente per effetto tunnel,
+      e senza un isolante migliore la miniaturizzazione dei chip si sarebbe fermata lì.'
+    visual: Un wafer di silicio con strati dielettrici ad alta costante
+    attendibilita: documentato
+  - id: curiosita_hevesy
+    sezione: curiosita
+    testo: George de Hevesy, che trovò l'afnio, è lo stesso che nel 1940, all'arrivo dei nazisti
+      a Copenaghen, sciolse in acqua regia le medaglie Nobel di due colleghi per impedirne
+      il sequestro, lasciando la soluzione su uno scaffale. Finita la guerra l'oro fu recuperato
+      e le medaglie rifuse. Nel 1943 lui stesso ricevette il Nobel per l'uso degli isotopi
+      come traccianti.
+    attendibilita: documentato
+  - id: curiosita_nomi_di_citta
+    sezione: curiosita
+    testo: Con l'afnio, Copenaghen entra nella tavola periodica accanto a Parigi (lutezio),
+      Stoccolma (olmio), la Scandinavia (scandio), la Francia, la Germania e la Polonia. La
+      geografia dei nomi degli elementi è, in buona sostanza, la mappa dei laboratori europei
+      fra Ottocento e Novecento.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Dirk Coster
+    ipa: dɪrk ˈkɔstər
+    nota: Olandese.
+  - termine: George de Hevesy
+    ipa: ˈɡeːorɡ ˈhɛvɛʃi
+    nota: Ungherese.
+  - termine: Hafnia
+    ipa: ˈhafnja
+    nota: Nome latino di Copenaghen.
+composti_principali:
+- nome: Ossido di afnio
+  formula: HfO2
+  usi:
+  - dielettrico dei transistor
+  - rivestimenti ottici
+  - ceramiche refrattarie
+- nome: Afnio metallico
+  formula: Hf
+  usi:
+  - barre di controllo per reattori navali
+- nome: Carburo di afnio
+  formula: HfC
+  usi:
+  - materiali con i più alti punti di fusione noti
+fonti:
+- url: https://en.wikipedia.org/wiki/Hafnium
+  titolo: Hafnium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/72/hafnium
+  titolo: Hafnium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/George_de_Hevesy
+  titolo: George de Hevesy
+  consultata: *id001
