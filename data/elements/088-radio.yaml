@@ -8,10 +8,13 @@ scoperta:
   scopritori:
   - pierre-curie
   - marie-curie
-  luogo: null
+  luogo: Parigi, Francia
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Annunciato il 26 dicembre 1898, cinque mesi dopo il polonio e con lo stesso
+    metodo radiometrico; la conferma che si trattasse di un elemento nuovo venne dalle righe
+    spettrali carminio osservate da Eugène-Anatole Demarçay. Il metallo fu isolato nel 1910
+    da Marie Curie e André-Louis Debierne.
   controversia: null
 proprieta:
   gruppo: 2
@@ -31,5 +34,160 @@ proprieta:
   punto_fusione_k: 1233.0
   punto_ebollizione_k: 2010.0
   densita: 5.5
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
 approfondimento: true
+contenuti:
+  hook: Da una tonnellata di pechblenda si ricava un settimo di grammo di radio. I Curie ne
+    lavorarono tonnellate in un capanno senza pavimento, e ci misero quattro anni per averne
+    un decigrammo.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il radio è l''elemento che ha reso visibile la radioattività: brilla al buio,
+      scalda ciò che lo circonda, impressiona le lastre fotografiche attraverso il cartone.
+      Per trent''anni è stato considerato una sostanza miracolosa e messo in creme, saponi
+      e bevande; poi si è capito che cosa fa a chi lo ingerisce.'
+    visual: Una fiala di sale di radio che emette un bagliore verdastro al buio
+    attendibilita: documentato
+  - id: dopo_il_polonio
+    sezione: storia
+    testo: 'Individuato il polonio nel luglio del 1898, i Curie si accorsero che i conti ancora
+      non tornavano: nella pechblenda restava altra attività non spiegata, associata alla
+      frazione che conteneva bario. Continuarono a separare seguendo la radiazione, e il 21
+      dicembre annunciarono un secondo elemento nuovo.'
+    visual: Un quaderno di laboratorio con misure di attività annotate a mano
+    attendibilita: documentato
+  - id: la_conferma_spettroscopica
+    sezione: storia
+    testo: 'La prova venne dallo spettroscopio di Eugène-Anatole Demarçay, che nei campioni
+      trovò righe di un rosso carminio che non appartenevano al bario né a nulla di noto.
+      Era la conferma che serviva: la radioattività diceva che c''era qualcosa, lo spettro
+      diceva che quel qualcosa era un elemento.'
+    visual: Righe spettrali rosso carminio in uno spettroscopio
+    attendibilita: documentato
+  - id: il_capanno
+    sezione: storia
+    testo: Poi cominciò il lavoro vero. Una tonnellata di pechblenda contiene circa un settimo
+      di grammo di radio, e per averne una quantità pesabile i Curie trattarono tonnellate
+      di residui minerari provenienti da Jáchymov, in Boemia, in un capanno di legno del cortile
+      della Scuola di fisica e chimica di Parigi. Marie mescolava a mano cariche da venti
+      chili in caldaie da fonderia. Nel 1902 avevano un decigrammo di cloruro di radio puro.
+    visual: Un capanno di legno con caldaie e vasche di cristallizzazione
+    attendibilita: documentato
+  - id: il_metallo_1910
+    sezione: storia
+    testo: Il metallo arrivò nel 1910, quando Marie Curie e André-Louis Debierne elettrolizzarono
+      una soluzione di cloruro di radio su catodo di mercurio, ottenendo un amalgama che scaldarono
+      in idrogeno per allontanare il mercurio. È una delle poche volte in cui l'elemento puro
+      è stato prodotto dalla stessa persona che lo aveva scoperto.
+    visual: Una cella elettrolitica con catodo di mercurio
+    attendibilita: documentato
+  - id: cosa_cambio
+    sezione: storia
+    testo: 'Il radio cambiò la fisica prima ancora della chimica: era abbastanza attivo da
+      permettere esperimenti che con l''uranio erano impossibili, e fu la sorgente con cui
+      Rutherford e altri studiarono le particelle alfa, scoprirono il nucleo atomico e dimostrarono
+      che un elemento può trasformarsi in un altro. Per vent''anni, chi voleva fare fisica
+      nucleare aveva bisogno di radio.'
+    visual: Un apparato per la diffusione delle particelle alfa su una lamina d'oro
+    attendibilita: documentato
+  - id: radioluminescenza
+    sezione: caratteristiche
+    testo: Il radio-226 ha un'emivita di 1600 anni e decade emettendo particelle alfa; il
+      bagliore che gli si attribuisce non viene direttamente da lui, ma dalle sostanze fluorescenti
+      che la radiazione eccita, a partire dall'azoto dell'aria e dal solfuro di zinco delle
+      vernici. Un campione si mantiene inoltre più caldo dell'ambiente, per la sola energia
+      che emette.
+    visual: Un cristallo fluorescente illuminato da una sorgente radioattiva vicina
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente è l''ultimo dei metalli alcalino-terrosi e si comporta come tale:
+      reagisce con l''acqua, forma sali simili a quelli del bario, e proprio questa somiglianza
+      rende difficile separarlo e pericoloso ingerirlo, perché l''organismo lo scambia per
+      calcio e lo deposita nelle ossa.'
+    visual: Un modello dello scheletro con il midollo osseo evidenziato
+    attendibilita: documentato
+  - id: la_catena
+    sezione: caratteristiche
+    testo: Decadendo, il radio produce radon, che è un gas e se ne va, e poi una serie di
+      figli solidi a vita breve fino al piombo stabile. È questa catena, più del radio stesso,
+      a determinare la dose che riceve chi gli sta vicino, ed è il motivo per cui una sorgente
+      sigillata di radio diventa col tempo anche una sorgente di gas.
+    visual: La catena di decadimento del radio-226 fino al piombo
+    attendibilita: documentato
+  - id: usi_vernici
+    sezione: usi
+    testo: 'Fra il 1910 e gli anni Trenta il radio entrò nelle vernici luminescenti di orologi,
+      quadranti d''aereo, interruttori e strumenti: circa un microgrammo per pezzo, mescolato
+      al solfuro di zinco. Era la soluzione al problema di leggere l''ora al buio, e i quadranti
+      così dipinti hanno continuato a brillare per decenni.'
+    visual: Il quadrante di un orologio d'epoca con i numeri luminescenti
+    attendibilita: documentato
+  - id: radium_girls
+    sezione: usi
+    testo: 'A dipingerli erano giovani operaie, che per fare la punta al pennello lo portavano
+      alle labbra, ingerendo radio a ogni cifra. Molte si ammalarono di necrosi della mandibola,
+      anemia e tumori ossei, e cinque di loro fecero causa all''azienda nel 1927: il processo
+      delle radium girls è uno dei fondamenti del diritto del lavoro sulle malattie professionali,
+      e ha cambiato il modo in cui si regolano le sostanze pericolose.'
+    visual: Un tavolo da lavoro con pennelli sottili e quadranti da dipingere
+    attendibilita: documentato
+  - id: usi_medici
+    sezione: usi
+    testo: 'In medicina il radio serviva a produrre radon per la radioterapia, e sorgenti
+      sigillate in aghi e tubicini venivano applicate direttamente sui tumori: è l''antenato
+      della brachiterapia. Quasi tutto questo è stato sostituito da isotopi artificiali più
+      maneggevoli e meno longevi; resta un discendente moderno, il radio-223, approvato nel
+      2013, che sfrutta proprio la somiglianza chimica con il calcio per depositarsi nelle
+      metastasi ossee e irradiarle dall''interno con particelle alfa a raggio cortissimo.'
+    visual: Una fiala di radiofarmaco moderno accanto a una vecchia sorgente sigillata
+    attendibilita: documentato
+  - id: curiosita_prodotti
+    sezione: curiosita
+    testo: 'Nei primi decenni del Novecento il radio fu venduto come tonico: acque «radioattive»,
+      creme di bellezza, dentifrici, cioccolato, e perfino un apparecchio domestico che serviva
+      a rendere radioattiva l''acqua del rubinetto. Quasi nessuno di questi prodotti ne conteneva
+      abbastanza da fare danni, perché il radio costava troppo per metterne davvero; qualcuno
+      però sì, e uno di questi uccise nel 1932 un noto industriale americano che ne beveva
+      bottiglie ogni giorno, con conseguenze che portarono a regolamentare il settore.'
+    attendibilita: documentato
+  - id: curiosita_quaderni
+    sezione: curiosita
+    testo: 'I quaderni di laboratorio dei Curie sono conservati alla Bibliothèque nationale
+      de France in scatole schermate: sono ancora radioattivi e lo resteranno per millenni,
+      e chi vuole consultarli deve firmare una liberatoria. La stessa cosa vale per i mobili
+      e i vestiti del laboratorio di rue Lhomond.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Jáchymov
+    ipa: ˈjaːxɪmof
+    nota: Ceco.
+  - termine: André-Louis Debierne
+    ipa: ɑ̃dʁe lwi dəˈbjɛʁn
+    nota: Francese.
+composti_principali:
+- nome: Cloruro di radio
+  formula: RaCl2
+  usi:
+  - prima forma purificata dell'elemento
+  - sorgenti storiche
+- nome: Solfato di radio e solfuro di zinco
+  formula: RaSO4 + ZnS
+  usi:
+  - vernici luminescenti storiche
+- nome: Radio-223 dicloruro
+  formula: 223RaCl2
+  usi:
+  - terapia delle metastasi ossee
+fonti:
+- url: https://en.wikipedia.org/wiki/Radium
+  titolo: Radium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/88/radium
+  titolo: Radium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Radium_Girls
+  titolo: Radium Girls
+  consultata: *id001

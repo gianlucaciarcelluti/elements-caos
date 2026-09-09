@@ -7,10 +7,14 @@ scoperta:
   anno_stimato: false
   scopritori:
   - andre-louis-debierne
-  luogo: null
+  luogo: Parigi, Francia
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Debierne lo separò nel 1899 dai residui di pechblenda già sfruttati dai
+    Curie per il radio. Nel 1902 Friedrich Oskar Giesel lo trovò indipendentemente e lo chiamò
+    emanium, descrivendone le proprietà chimiche con più precisione; la priorità fu assegnata
+    a Debierne per anzianità, ma a Giesel si riconosce la prima preparazione radiochimicamente
+    pura.
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +34,162 @@ proprieta:
   punto_fusione_k: 1500.0
   punto_ebollizione_k: 3500.0
   densita: 10.0
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
 approfondimento: false
+contenuti:
+  hook: Nei residui che i Curie avevano già spremuto per estrarne il radio restava ancora
+    qualcosa. A trovarlo fu il loro assistente, e a quel qualcosa la tavola periodica deve
+    il nome di un'intera serie.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: L'attinio è il capostipite degli attinidi, la serie che porta il suo nome e che
+      comprende uranio, plutonio e tutti gli elementi artificiali pesanti. È talmente raro
+      che una tonnellata di minerale di uranio ne contiene meno di un milligrammo, e talmente
+      attivo da brillare al buio di una luce azzurra.
+    visual: Una sorgente di attinio che emette un tenue bagliore azzurro
+    attendibilita: documentato
+  - id: i_residui_dei_curie
+    sezione: storia
+    testo: 'Nel 1899 André-Louis Debierne, che lavorava accanto ai Curie nel laboratorio di
+      rue Lhomond, riprese i residui di pechblenda da cui il radio era già stato estratto
+      e li sottopose a nuove separazioni. Quei residui erano già stati spremuti due volte
+      — prima per il polonio, poi per il radio — e restavano comunque attivi: Debierne isolò
+      la frazione che non corrispondeva a nessuno dei due e annunciò un terzo elemento nuovo,
+      che chiamò attinio, dal greco aktis, «raggio».'
+    visual: Residui minerari in una vasca di cristallizzazione
+    attendibilita: documentato
+  - id: giesel_e_l_emanium
+    sezione: storia
+    testo: Nel 1902, in Germania, Friedrich Oskar Giesel isolò indipendentemente una sostanza
+      che si comportava come il lantanio e nel 1904 la chiamò emanium. Le proprietà chimiche
+      che descriveva erano più accurate di quelle di Debierne, ma la priorità fu assegnata
+      al francese per anzianità, e il nome attinio restò. A Giesel va però riconosciuta la
+      prima preparazione radiochimicamente pura dell'elemento.
+    visual: Due pubblicazioni scientifiche di inizio Novecento a confronto
+    attendibilita: discusso
+  - id: una_serie_intera
+    sezione: storia
+    testo: 'Il nome ebbe una fortuna che nessuno poteva prevedere. Quando negli anni Quaranta
+      Glenn Seaborg propose di collocare gli elementi pesanti in una seconda serie analoga
+      a quella dei lantanidi, la chiamò serie degli attinidi dal primo dei suoi membri: l''attinio,
+      che era stato trovato per caso nei rifiuti di un''altra estrazione, dà oggi il nome
+      a quattordici elementi.'
+    visual: La riga degli attinidi in una tavola periodica moderna
+    attendibilita: documentato
+  - id: la_catena
+    sezione: storia
+    testo: 'L''attinio-227 sta in una delle tre catene di decadimento naturali, quella dell''uranio-235,
+      che per questo si chiama serie dell''attinio. Ogni catena produce un gas nobile radioattivo,
+      e quella dell''attinio produceva l''actinon: uno dei tre nomi con cui si chiamavano
+      quelle che si sarebbero poi rivelate le emanazioni di un unico elemento, il radon.'
+    visual: Le tre catene di decadimento naturali disegnate a confronto
+    attendibilita: documentato
+  - id: radioattivita
+    sezione: caratteristiche
+    testo: 'L''isotopo naturale principale è l''attinio-227, con un''emivita di 21,8 anni:
+      abbastanza breve da renderlo circa centocinquanta volte più attivo del radio a parità
+      di massa, abbastanza lunga da poterlo maneggiare e studiare. Decade prevalentemente
+      emettendo particelle beta, e i suoi figli emettono alfa.'
+    visual: Il segmento della catena di decadimento che parte dall'attinio-227
+    attendibilita: documentato
+  - id: il_bagliore
+    sezione: caratteristiche
+    testo: 'Al buio l''attinio brilla di una luce azzurra pallida, che non viene dal metallo
+      ma dall''aria: le particelle emesse ionizzano ed eccitano l''azoto circostante, che
+      restituisce l''energia come luce. È lo stesso fenomeno che dà il caratteristico bagliore
+      alle sorgenti radioattive intense, e che nei reattori sott''acqua diventa l''azzurro
+      Čerenkov.'
+    visual: Il bagliore azzurro dell'aria ionizzata attorno a una sorgente
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente somiglia al lantanio più che a qualunque altro elemento: sta nello
+      stato +3, forma composti incolori, e proprio questa somiglianza rese difficile ai primi
+      ricercatori distinguerlo dalle terre rare che lo accompagnavano nei minerali. È un metallo
+      argenteo che all''aria si ossida rapidamente formando uno strato bianco protettivo.'
+    visual: Un modello del reticolo cristallino cubico dell'attinio
+    attendibilita: documentato
+  - id: rarita
+    sezione: caratteristiche
+    testo: 'In natura esiste solo come prodotto intermedio del decadimento dell''uranio e
+      del torio, in quantità infinitesime: una tonnellata di minerale di uranio ne contiene
+      circa 0,2 milligrammi. Quello che si usa oggi si produce irraggiando radio-226 con neutroni
+      in un reattore, ed è disponibile in quantità che si misurano in grammi all''anno nel
+      mondo.'
+    visual: Un contenitore schermato per il trasporto di isotopi radioattivi
+    attendibilita: documentato
+  - id: usi_terapia
+    sezione: usi
+    testo: 'L''impiego che oggi ne muove la ricerca è medico: l''attinio-225 è uno degli isotopi
+      più promettenti per la terapia alfa mirata, in cui il radionuclide viene legato a una
+      molecola che si attacca selettivamente alle cellule tumorali. Le particelle alfa percorrono
+      pochi decimi di millimetro, cioè il diametro di qualche cellula: distruggono quella
+      a cui sono attaccate e risparmiano il tessuto sano intorno, e siccome sono pesanti e
+      cariche il danno che fanno al DNA è difficile da riparare. È il motivo per cui questa
+      terapia funziona su tumori che resistono alla radioterapia convenzionale.'
+    visual: Una molecola vettore con un radionuclide legato, in uno schema
+    attendibilita: documentato
+  - id: usi_neutroni
+    sezione: usi
+    testo: L'ossido di attinio pressato con berillio dà una sorgente di neutroni efficiente,
+      sullo stesso principio delle sorgenti al polonio ma con una vita utile molto più lunga;
+      è un impiego di nicchia, limitato dalla disponibilità dell'elemento.
+    visual: Una sorgente di neutroni sigillata dentro il proprio contenitore
+    attendibilita: documentato
+  - id: niente_industria
+    sezione: usi
+    testo: 'Fuori da questi due casi l''attinio non ha impieghi industriali: è troppo raro,
+      troppo caro e troppo radioattivo perché convenga usarlo dove qualcos''altro può fare
+      lo stesso lavoro. È uno dei pochi elementi della tavola periodica di cui si può dire
+      che serve quasi soltanto alla ricerca.'
+    visual: Un laboratorio di radiochimica con celle schermate
+    attendibilita: documentato
+  - id: curiosita_produzione
+    sezione: curiosita
+    testo: 'La produzione mondiale di attinio-225 si misura in quantità di materiale che a
+      occhio nudo non si vedono, e la domanda della medicina nucleare la supera da anni: è
+      uno dei rari casi in cui a frenare una terapia non è la scienza ma la disponibilità
+      fisica dell''ingrediente. Buona parte di ciò che esiste proviene dal decadimento di
+      vecchie scorte di torio-229 conservate da decenni in pochi laboratori al mondo, e nuovi
+      metodi di produzione con acceleratori sono in sviluppo proprio per superare quel collo
+      di bottiglia.'
+    attendibilita: documentato
+  - id: curiosita_debierne
+    sezione: curiosita
+    testo: 'Debierne restò tutta la vita accanto ai Curie: isolò con Marie il radio metallico
+      nel 1910, diresse il laboratorio dopo la morte di lei, e non rivendicò mai la propria
+      scoperta con particolare energia. Il suo elemento, però, ha dato il nome alla parte
+      della tavola periodica su cui si è giocato il Novecento.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: André-Louis Debierne
+    ipa: ɑ̃dʁe lwi dəˈbjɛʁn
+    nota: Francese.
+  - termine: Friedrich Oskar Giesel
+    ipa: ˈfʁiːdʁɪç ˈɔskaʁ ˈɡiːzl̩
+    nota: Tedesco.
+  - termine: aktis
+    ipa: akˈtis
+    nota: Greco antico, «raggio».
+composti_principali:
+- nome: Ossido di attinio
+  formula: Ac2O3
+  usi:
+  - sorgenti di neutroni con berillio
+  - ricerca
+- nome: Attinio-225
+  formula: 225Ac
+  usi:
+  - terapia alfa mirata dei tumori
+fonti:
+- url: https://en.wikipedia.org/wiki/Actinium
+  titolo: Actinium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/89/actinium
+  titolo: Actinium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Targeted_alpha-particle_therapy
+  titolo: Targeted alpha-particle therapy
+  consultata: *id001
