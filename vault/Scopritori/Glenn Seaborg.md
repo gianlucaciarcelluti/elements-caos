@@ -22,5 +22,6 @@ Statunitense, 1912–1999.
 - [[Einsteinio]] (Es) — 1952
 - [[Fermio]] (Fm) — 1952
 - [[Mendelevio]] (Md) — 1955
+- [[Nobelio]] (No) — 1958
 
 ← Torna a [[Cronologia degli elementi]]

@@ -157,7 +157,7 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 99 | 1952 | [[Einsteinio]] (Es) | [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
 | 100 | 1952 | [[Fermio]] (Fm) | [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
 | 101 | 1955 | [[Mendelevio]] (Md) | [[Albert Ghiorso]], [[Bernard George Harvey]], [[Gregory Robert Choppin]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
-| 102 | 1958 | [[Nobelio]] (No) | [[Albert Ghiorso]] |
+| 102 | 1958 | [[Nobelio]] (No) | [[Albert Ghiorso]], [[Torbjørn Sikkeland]], [[John R. Walton]], [[Glenn Seaborg]] |
 | 103 | 1961 | [[Laurenzio]] (Lr) | [[Albert Ghiorso]] |
 | 104 | 1969 | [[Rutherfordio]] (Rf) | [[Georgy Flerov]], [[Albert Ghiorso]] |
 | 105 | 1970 | [[Dubnio]] (Db) | [[Georgy Flerov]], [[Albert Ghiorso]] |
