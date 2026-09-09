@@ -7,10 +7,15 @@ scoperta:
   anno_stimato: false
   scopritori:
   - glenn-seaborg
-  luogo: null
+  - ralph-james
+  - albert-ghiorso
+  luogo: Berkeley, California
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Prodotto nell'estate del 1944, prima dell'americio, bombardando plutonio-239
+    con particelle alfa; annunciato solo alla fine del 1945. Il nome segue l'analogia con
+    il gadolinio, che occupa la stessa posizione fra i lantanidi ed è a sua volta dedicato
+    a uno scienziato. Il metallo puro fu ottenuto nel 1950.
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +35,159 @@ proprieta:
   punto_fusione_k: 1613.0
   punto_ebollizione_k: 3383.0
   densita: 13.51
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
+  - 4
+  - 6
 approfondimento: false
+contenuti:
+  hook: Fu prodotto prima dell'americio ma numerato dopo, e per mesi i suoi scopritori lo
+    chiamarono «delirio» perché non riuscivano a separarlo dal gemello. Poi gli diedero il
+    nome dei Curie.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il curio è uno dei pochi elementi che si vedono brillare: i suoi composti emettono
+      una fluorescenza giallo-arancio sotto ultravioletto, e un campione abbastanza attivo
+      si illumina da solo di viola per la ionizzazione dell''aria. Scalda anche: un grammo
+      di curio-242 produce tre watt di potenza termica.'
+    visual: Un campione di composto di curio che brilla al buio
+    attendibilita: documentato
+  - id: il_bersaglio_di_plutonio
+    sezione: storia
+    testo: 'Nell''estate del 1944, a Berkeley, Glenn Seaborg, Ralph James e Albert Ghiorso
+      bombardarono plutonio-239 con particelle alfa nel ciclotrone da sessanta pollici e ottennero
+      il curio-242. L''elemento 96 arrivò così prima del 95, che sarebbe stato prodotto qualche
+      mese dopo: la numerazione della tavola periodica e l''ordine delle scoperte non coincidono
+      quasi mai.'
+    visual: Il ciclotrone da sessanta pollici di Berkeley in funzione
+    attendibilita: documentato
+  - id: delirium
+    sezione: storia
+    testo: 'Separare i due elementi nuovi dal resto e l''uno dall''altro fu l''ostacolo vero,
+      e il soprannome che il gruppo diede al 96 lo dice: delirium. Solo la teoria degli attinidi,
+      che Seaborg stava formulando proprio in quei mesi, permise di prevedere come si sarebbero
+      comportati e di progettare le separazioni invece di tentarle alla cieca.'
+    visual: Colonne di separazione chimica in un laboratorio degli anni Quaranta
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome fu scelto per analogia: nella serie dei lantanidi, la posizione corrispondente
+      è quella del gadolinio, che porta il nome di Johan Gadolin. Al posto suo, fra gli attinidi,
+      andava un altro scienziato, e la scelta cadde su Marie e Pierre Curie, che della radioattività
+      erano stati i fondatori. È il primo elemento dedicato a persone di cui si conosca il
+      volto.'
+    visual: Ritratti di Marie e Pierre Curie in laboratorio
+    attendibilita: documentato
+  - id: annuncio
+    sezione: storia
+    testo: 'Come l''americio, il curio fu prodotto dentro il progetto Manhattan e annunciato
+      solo alla fine del 1945, quando la segretezza fu allentata: due elementi nuovi resi
+      pubblici insieme, a guerra finita, da un programma che era nato per fare tutt''altro.'
+    visual: Documenti scientifici con il timbro di declassificazione
+    attendibilita: documentato
+  - id: il_metallo
+    sezione: storia
+    testo: 'Il metallo puro arrivò nel 1950, ottenuto riducendo il fluoruro di curio con bario
+      da W. W. T. Crane, J. C. Wallmann e B. B. Cunningham. Sono i tempi tipici di questa
+      epoca: dalla prima produzione dell''elemento al primo pezzo di metallo passano anni,
+      e le quantità restano microscopiche.'
+    visual: Una cella schermata con manipolatori per la chimica dei transuranici
+    attendibilita: documentato
+  - id: calore_e_luce
+    sezione: caratteristiche
+    testo: 'Il curio-242 ha un''emivita di 163 giorni e genera circa tre watt di calore per
+      grammo; il curio-244, con diciotto anni di emivita, ne genera meno ma dura di più. Un
+      campione sufficientemente concentrato si scalda visibilmente e brilla di viola: è l''aria
+      attorno che si ionizza, come per l''attinio.'
+    visual: Un campione incandescente per il proprio decadimento in una cella schermata
+    attendibilita: documentato
+  - id: fluorescenza
+    sezione: caratteristiche
+    testo: 'I composti di curio mostrano una fluorescenza giallo-arancio intensa e stabile
+      sotto luce ultravioletta, e questa proprietà si usa per riconoscerne la presenza: in
+      radiochimica, dove le quantità sono invisibili, il modo in cui un elemento emette luce
+      è spesso l''unico modo pratico di dire che c''è.'
+    visual: Una soluzione che fluoresce in giallo-arancio sotto lampada UV
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'In soluzione sta quasi sempre nello stato +3, come i lantanidi, e questa è stata
+      la conferma sperimentale più netta dell''ipotesi degli attinidi: se il curio fosse un
+      metallo di transizione pesante, come la tavola periodica dell''epoca lo collocava, si
+      comporterebbe come l''iridio; invece si comporta come il gadolinio, il suo omologo della
+      serie f, con cui condivide il guscio semipieno di sette elettroni. Sono stati proprio
+      l''americio e il curio a dimostrare che Seaborg aveva ragione.'
+    visual: Il confronto fra le configurazioni elettroniche di curio e gadolinio
+    attendibilita: documentato
+  - id: tossicita
+    sezione: caratteristiche
+    testo: 'Ingerito o inalato, il curio si accumula nelle ossa, nei polmoni e nel fegato,
+      dove la sua radiazione alfa agisce a contatto: è uno degli elementi con la tossicità
+      radiologica più alta, ed è maneggiato esclusivamente in celle schermate con manipolatori
+      a distanza.'
+    visual: Guanti da cella calda visti dall'interno di una schermatura
+    attendibilita: documentato
+  - id: usi_spaziali
+    sezione: usi
+    testo: 'Il calore del curio è stato studiato per i generatori termoelettrici delle sonde
+      spaziali, come alternativa al plutonio-238. L''impiego che ha davvero volato è però
+      un altro: gli spettrometri alfa a raggi X montati sui rover marziani Sojourner, Spirit,
+      Opportunity e Curiosity, e sul lander Philae posato sulla cometa Churyumov-Gerasimenko,
+      usano sorgenti di curio per determinare la composizione chimica delle rocce. Lo strumento
+      appoggia la sorgente sul terreno, le particelle alfa colpiscono i nuclei e la radiazione
+      che ne torna indietro dice quali elementi ci sono: è analisi chimica fatta a duecento
+      milioni di chilometri, senza reagenti e senza laboratorio.'
+    visual: Lo spettrometro alfa di un rover marziano appoggiato su una roccia
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'In laboratorio il curio serve come materiale di partenza per fabbricare elementi
+      ancora più pesanti: bombardando bersagli di curio si sono ottenuti il berkelio, il californio
+      e diversi isotopi degli elementi successivi. È il primo anello di una catena in cui
+      ogni elemento nuovo serve a fare quello dopo, e in cui la disponibilità di qualche milligrammo
+      di materiale raro decide che cosa si può tentare: la sintesi degli elementi superpesanti
+      dipende, ancora oggi, da quanti bersagli i pochi reattori adatti riescono a produrre.'
+    visual: Un bersaglio di curio montato in un acceleratore
+    attendibilita: documentato
+  - id: curiosita_nome_analogia
+    sezione: curiosita
+    testo: 'L''analogia con i lantanidi ha guidato non solo la chimica ma anche i battesimi:
+      americio come europio (un continente), curio come gadolinio (uno scienziato), e più
+      tardi berkelio come terbio (il luogo della scoperta). Per una manciata di elementi,
+      il modo di dare i nomi è stato un modo di dichiarare una teoria.'
+    attendibilita: documentato
+  - id: curiosita_curie
+    sezione: curiosita
+    testo: Marie Curie aveva scelto per il polonio il nome del proprio paese; il curio porta
+      il nome di lei e del marito, scelto da altri. Nella tavola periodica i Curie compaiono
+      così due volte, e sono l'unica coppia di coniugi a cui sia dedicato un elemento.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Ralph James
+    ipa: ɹælf dʒeɪmz
+    nota: Inglese americano.
+  - termine: Churyumov-Gerasimenko
+    ipa: tʃuˈrʲumof ɡʲɪrɐˈsʲimʲɪnkə
+    nota: Russo.
+composti_principali:
+- nome: Ossido di curio
+  formula: Cm2O3
+  usi:
+  - sorgenti per spettrometri alfa a raggi X
+  - bersagli per la sintesi
+- nome: Curio-244
+  formula: 244Cm
+  usi:
+  - sorgenti termiche
+  - analisi elementare su sonde spaziali
+fonti:
+- url: https://en.wikipedia.org/wiki/Curium
+  titolo: Curium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/96/curium
+  titolo: Curium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Alpha_particle_X-ray_spectrometer
+  titolo: Alpha particle X-ray spectrometer
+  consultata: *id001

@@ -792,10 +792,43 @@ CRONOLOGIA: list[VoceCronologia] = [
         "nucleare",
         nome="Promezio",
     ),
-    VoceCronologia(95, 1944, False, ["glenn-seaborg"], "nucleare", nome="Americio"),
-    VoceCronologia(96, 1944, False, ["glenn-seaborg"], "nucleare", nome="Curio"),
-    VoceCronologia(97, 1949, False, ["glenn-seaborg"], "nucleare", nome="Berkelio"),
-    VoceCronologia(98, 1950, False, ["glenn-seaborg"], "nucleare", nome="Californio"),
+    # La trascrizione originale comprimeva in "Seaborg et al." le squadre di Berkeley che
+    # hanno prodotto gli elementi dal 95 al 101, e il Task 13 ne aveva tenuto il solo
+    # Seaborg. Qui i quattro elementi del lotto 19b recuperano i co-scopritori (Step 3b
+    # del piano): accreditare a una persona sola il lavoro di un gruppo e un errore che
+    # i lettori competenti notano, e in questa epoca i gruppi sono la regola.
+    VoceCronologia(
+        95,
+        1944,
+        False,
+        ["glenn-seaborg", "ralph-james", "leon-morgan", "albert-ghiorso"],
+        "nucleare",
+        nome="Americio",
+    ),
+    VoceCronologia(
+        96,
+        1944,
+        False,
+        ["glenn-seaborg", "ralph-james", "albert-ghiorso"],
+        "nucleare",
+        nome="Curio",
+    ),
+    VoceCronologia(
+        97,
+        1949,
+        False,
+        ["glenn-seaborg", "albert-ghiorso", "stanley-thompson", "kenneth-street"],
+        "nucleare",
+        nome="Berkelio",
+    ),
+    VoceCronologia(
+        98,
+        1950,
+        False,
+        ["stanley-thompson", "kenneth-street", "albert-ghiorso", "glenn-seaborg"],
+        "nucleare",
+        nome="Californio",
+    ),
     VoceCronologia(99, 1952, False, ["glenn-seaborg"], "nucleare", nome="Einsteinio"),
     VoceCronologia(100, 1952, False, ["glenn-seaborg"], "nucleare", nome="Fermio"),
     VoceCronologia(101, 1955, False, ["glenn-seaborg"], "nucleare", nome="Mendelevio"),

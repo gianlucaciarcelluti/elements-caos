@@ -6,11 +6,17 @@ scoperta:
   anno: 1950
   anno_stimato: false
   scopritori:
+  - stanley-thompson
+  - kenneth-street
+  - albert-ghiorso
   - glenn-seaborg
-  luogo: null
+  luogo: Berkeley, California
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'Sintetizzato il 9 febbraio 1950 bombardando con particelle alfa un bersaglio
+    di curio-242 del peso di un microgrammo: ne uscirono circa cinquemila atomi. Con il californio
+    si interrompe l''analogia con i nomi dei lantanidi, perché il corrispondente disprosio
+    significa «difficile da raggiungere».'
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +36,161 @@ proprieta:
   punto_fusione_k: 1173.0
   punto_ebollizione_k: 1743.0
   densita: 15.1
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
+  - 3
+  - 4
+  - 5
 approfondimento: false
+contenuti:
+  hook: Un microgrammo emette due milioni e trecentomila neutroni al secondo. È la sorgente
+    di neutroni più pratica che esista, e serve ad accendere i reattori nucleari e a scoprire
+    che cosa c'è dentro una roccia o un bagaglio.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il californio è l''elemento artificiale più utile fra quelli oltre il plutonio:
+      non per la sua chimica, che quasi nessuno usa, ma perché un suo isotopo si spezza da
+      solo emettendo neutroni a getto continuo. È una sorgente di neutroni che sta in un ditale
+      e non ha bisogno di corrente.'
+    visual: Una sorgente sigillata di californio dentro il proprio contenitore
+    attendibilita: documentato
+  - id: febbraio_1950
+    sezione: storia
+    testo: 'Il 9 febbraio 1950, a Berkeley, Stanley Thompson, Kenneth Street Jr., Albert Ghiorso
+      e Glenn Seaborg bombardarono con particelle alfa un bersaglio di curio-242 grande quanto
+      un microgrammo. Ottennero circa cinquemila atomi dell''elemento 98: il quarto elemento
+      nuovo in sei anni per lo stesso gruppo, e il secondo in due mesi dopo il berkelio.'
+    visual: Il ciclotrone di Berkeley con un bersaglio microscopico montato
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Con il californio l''analogia con i lantanidi si interruppe: sopra c''era il disprosio,
+      il cui nome significa «difficile da raggiungere», e nessuno voleva un elemento chiamato
+      così. Lo intitolarono allo stato e all''università, e Seaborg commentò con ironia che,
+      non potendo seguire la regola, il massimo che potevano fare era ricordare che anche
+      un secolo prima raggiungere la California era stato difficile.'
+    visual: Una mappa della California ottocentesca con le rotte dei cercatori d'oro
+    attendibilita: documentato
+  - id: il_gruppo
+    sezione: storia
+    testo: 'In sei anni il gruppo di Berkeley aveva prodotto americio, curio, berkelio e californio,
+      e negli anni successivi avrebbe aggiunto einsteinio, fermio, mendelevio e altri. Era
+      una catena industriale: ogni elemento nuovo diventava il bersaglio per fabbricare il
+      successivo, e il limite non era l''idea ma la quantità di materiale che si riusciva
+      a mettere insieme.'
+    visual: La sequenza dei bersagli usati per produrre elementi successivi
+    attendibilita: documentato
+  - id: fissione_spontanea
+    sezione: caratteristiche
+    testo: 'Il californio-252 è particolare fra tutti gli isotopi disponibili: nel 97 per
+      cento dei casi decade emettendo una particella alfa, ma nel restante tre per cento si
+      spezza da solo in due frammenti, liberando in media quasi quattro neutroni. Un solo
+      microgrammo ne emette 2,3 milioni al secondo, con un''emivita di 2,6 anni.'
+    visual: Lo schema di una fissione spontanea con i frammenti e i neutroni emessi
+    attendibilita: documentato
+  - id: perche_conta
+    sezione: caratteristiche
+    testo: 'I neutroni sono difficili da produrre: servono un reattore, un acceleratore o
+      una sorgente mista come quelle al polonio-berillio, che ne dà molti meno. Un pezzetto
+      di californio-252 fa lo stesso lavoro senza alimentazione, senza raffreddamento e senza
+      manutenzione, e sta in una capsula lunga qualche centimetro.'
+    visual: Una capsula sigillata accanto a una moneta per la scala
+    attendibilita: documentato
+  - id: proprieta
+    sezione: caratteristiche
+    testo: 'Il metallo è argenteo, tenero e si ossida rapidamente all''aria; nei composti
+      sta prevalentemente nello stato +3. Come tutti gli attinidi pesanti è fortemente radiotossico,
+      e i campioni si maneggiano solo dietro schermature apposite: la radiazione neutronica,
+      a differenza di quella alfa, attraversa il vetro e il metallo, e per fermarla servono
+      acqua, cemento o polietilene, cioè materiali pieni di idrogeno contro cui i neutroni
+      rimbalzano perdendo energia.'
+    visual: Un blocco di polietilene borato usato come schermo per neutroni
+    attendibilita: documentato
+  - id: produzione
+    sezione: caratteristiche
+    testo: 'Si produce in due soli impianti al mondo, a Oak Ridge negli Stati Uniti e a Dimitrovgrad
+      in Russia, irraggiando bersagli di curio per anni. Le quantità annue si misurano in
+      frazioni di grammo: nel 2003 i due siti ne producevano insieme meno di trecento milligrammi
+      l''anno.'
+    visual: Il canale di irraggiamento di un reattore ad alto flusso
+    attendibilita: documentato
+  - id: usi_reattori
+    sezione: usi
+    testo: 'L''uso classico è avviare i reattori nucleari: per far partire la reazione a catena
+      in modo controllato serve un flusso iniziale di neutroni che dia il via alle fissioni,
+      e una sorgente al californio inserita nel nocciolo lo fornisce senza dipendere da nulla.
+      Lo stesso principio vale nei rivelatori che verificano il corretto caricamento del combustibile
+      e nei sistemi che misurano il livello di potenza quando il reattore è ancora spento.'
+    visual: L'inserimento di una sorgente nel nocciolo di un reattore
+    attendibilita: documentato
+  - id: usi_analisi
+    sezione: usi
+    testo: 'L''analisi per attivazione neutronica è l''altro grande impiego: si irradia un
+      campione con neutroni, i nuclei che contiene diventano per un momento radioattivi, e
+      lo spettro gamma che emettono dice quali elementi ci sono e in che quantità, senza distruggere
+      nulla e spesso senza nemmeno aprire il contenitore. Si usa nella prospezione mineraria
+      e petrolifera, nei controlli sui bagagli e sui container alla ricerca di esplosivi,
+      nella caratterizzazione dei materiali e nell''analisi non distruttiva di reperti archeologici
+      e opere d''arte.'
+    visual: Una sonda a neutroni calata dentro un pozzo di prospezione
+    attendibilita: documentato
+  - id: usi_medici
+    sezione: usi
+    testo: 'In medicina il californio è stato usato per la brachiterapia a neutroni di alcuni
+      tumori del collo dell''utero e del cervello, nei casi in cui la radioterapia convenzionale
+      non funziona: i neutroni danneggiano le cellule tumorali anche in assenza di ossigeno,
+      dove i raggi X sono poco efficaci.'
+    visual: Un applicatore per brachiterapia in sala operatoria
+    attendibilita: documentato
+  - id: costo
+    sezione: usi
+    testo: 'Negli anni Settanta la commissione americana per l''energia atomica lo vendeva
+      a dieci dollari al microgrammo; oggi il prezzo è molto più alto e la disponibilità resta
+      il vero limite. Come per il berkelio, non esiste un mercato: esiste una lista di richieste
+      e una produzione che non la copre.'
+    visual: Un modulo di richiesta di materiale nucleare su una scrivania
+    attendibilita: documentato
+  - id: curiosita_quattro_nomi
+    sezione: curiosita
+    testo: Con il californio, la California entra nella tavola periodica per la seconda volta
+      in due mesi dopo Berkeley, e il gruppo che li aveva prodotti dovette difendersi dall'accusa
+      di aver esagerato con i nomi locali. Un giornale commentò che avrebbero potuto chiamarli
+      anche universitio e ofio, per «Università della California».
+    attendibilita: tradizionale
+  - id: curiosita_neutroni_ovunque
+    sezione: curiosita
+    testo: 'Le sorgenti al californio si trovano in luoghi che nessuno assocerebbe alla fisica
+      nucleare: dentro i pozzi petroliferi per misurare la porosità delle rocce, nei cementifici
+      per controllare la composizione della miscela in tempo reale, nelle miniere di carbone
+      per stimare il contenuto di zolfo. Un elemento artificiale prodotto in due impianti
+      al mondo lavora, in silenzio, in mezza industria pesante.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Kenneth Street
+    ipa: ˈkɛnɪθ striːt
+    nota: Inglese americano.
+  - termine: Dimitrovgrad
+    ipa: dʲɪmʲɪtrəfˈɡrat
+    nota: Russo.
+composti_principali:
+- nome: Californio-252
+  formula: 252Cf
+  usi:
+  - sorgenti di neutroni
+  - avviamento dei reattori
+  - analisi per attivazione
+- nome: Ossido di californio
+  formula: Cf2O3
+  usi:
+  - forma chimica delle sorgenti sigillate
+fonti:
+- url: https://en.wikipedia.org/wiki/Californium
+  titolo: Californium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/98/californium
+  titolo: Californium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Neutron_activation_analysis
+  titolo: Neutron activation analysis
+  consultata: *id001

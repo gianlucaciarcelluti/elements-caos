@@ -7,10 +7,16 @@ scoperta:
   anno_stimato: false
   scopritori:
   - glenn-seaborg
-  luogo: null
+  - ralph-james
+  - leon-morgan
+  - albert-ghiorso
+  luogo: Berkeley, California
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Prodotto nell'autunno del 1944 dentro il progetto Manhattan e annunciato
+    solo nel novembre 1945. La scoperta è del gruppo di Berkeley — Seaborg, Ralph James, Leon
+    Morgan e Albert Ghiorso — e la separazione chimica fu completata a Chicago. Il nome segue
+    l'analogia con l'europio, che sta nella stessa posizione fra i lantanidi.
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +36,164 @@ proprieta:
   punto_fusione_k: 1449.0
   punto_ebollizione_k: 2880.0
   densita: 12.0
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 approfondimento: false
+contenuti:
+  hook: La notizia della scoperta di due elementi nuovi uscì per la prima volta non in una
+    rivista scientifica ma in una trasmissione radiofonica per ragazzi, cinque giorni prima
+    dell'annuncio ufficiale.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'L''americio è l''unico elemento artificiale che si trova comunemente nelle case:
+      una frazione di microgrammo sta dentro la maggior parte dei rivelatori di fumo a ionizzazione
+      del mondo. È anche il primo transuranico prodotto in quantità industriali, ed è un sottoprodotto
+      inevitabile di ogni reattore nucleare.'
+    visual: Un rivelatore di fumo domestico aperto, con la sorgente in evidenza
+    attendibilita: documentato
+  - id: berkeley_1944
+    sezione: storia
+    testo: Nell'autunno del 1944, a Berkeley, il gruppo di Glenn Seaborg bombardò con neutroni
+      un bersaglio di plutonio-239 e ottenne l'elemento 95. La squadra comprendeva Ralph James,
+      Leon Morgan e Albert Ghiorso, e la separazione chimica fu completata al Metallurgical
+      Laboratory dell'Università di Chicago, dentro il progetto Manhattan.
+    visual: Un laboratorio di radiochimica del progetto Manhattan
+    attendibilita: documentato
+  - id: pandemonium_e_delirium
+    sezione: storia
+    testo: 'Gli elementi 95 e 96 diedero un filo da torcere: si comportavano chimicamente
+      in modo quasi identico l''uno all''altro e alle terre rare, e separarli fu un incubo
+      che durò mesi. Il gruppo di Berkeley li soprannominò per questo pandemonium e delirium,
+      dal greco «tutti i demoni» e dal latino «follia», e i soprannomi restarono nell''uso
+      interno finché non arrivarono i nomi definitivi.'
+    visual: Due provette con precipitati indistinguibili
+    attendibilita: documentato
+  - id: i_nomi
+    sezione: storia
+    testo: 'I nomi ufficiali seguirono la logica che Seaborg stava costruendo: se gli attinidi
+      sono una serie analoga a quella dei lantanidi, allora l''elemento 95 sta sotto l''europio
+      e va chiamato come un continente, e il 96 sta sotto il gadolinio e va dedicato a due
+      scienziati. Nacquero così americio e curio, per analogia esplicita con europio e gadolinio.'
+    visual: Le due righe di lantanidi e attinidi allineate a confronto
+    attendibilita: documentato
+  - id: i_quiz_kids
+    sezione: storia
+    testo: L'annuncio arrivò per una via inconsueta. Il 5 novembre 1945 Seaborg era ospite
+      di Quiz Kids, un programma radiofonico americano in cui un gruppo di ragazzi faceva
+      domande a scienziati; uno di loro gli chiese se durante la guerra avesse scoperto elementi
+      nuovi, e Seaborg rispose di sì, nominandoli. La presentazione ufficiale alla società
+      chimica americana era prevista cinque giorni dopo.
+    visual: Un microfono radiofonico degli anni Quaranta in studio
+    attendibilita: documentato
+  - id: la_serie_degli_attinidi
+    sezione: storia
+    testo: 'Il ragionamento che aveva portato ai nomi era la parte più importante della storia.
+      Collocare gli elementi pesanti in una seconda serie f, staccata dal corpo della tavola,
+      permetteva di prevederne le proprietà chimiche invece di scoprirle a tentoni: era l''ipotesi
+      degli attinidi, che Seaborg propose nel 1944 e che i colleghi gli sconsigliarono di
+      pubblicare, avvertendolo che avrebbe rovinato la propria reputazione scientifica. La
+      pubblicò lo stesso, e da allora la tavola periodica ha la forma che conosciamo.'
+    visual: La tavola periodica con la riga degli attinidi staccata in basso
+    attendibilita: documentato
+  - id: americio_241
+    sezione: caratteristiche
+    testo: L'isotopo che conta è l'americio-241, che si forma nel combustibile nucleare dal
+      decadimento del plutonio-241 e ha un'emivita di 432 anni. Emette particelle alfa e,
+      cosa che lo rende utile, anche raggi gamma di bassa energia, che sono facilmente rivelabili
+      e facilmente schermabili.
+    visual: Lo spettro gamma dell'americio-241 con il picco a bassa energia
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: È un metallo argenteo, tenero, che nei composti sta di norma nello stato +3 come
+      i lantanidi cui somiglia; a differenza loro raggiunge però anche stati più alti, fino
+      al +6, e le sue soluzioni cambiano colore di conseguenza. Al buio un campione brilla
+      debolmente, per la ionizzazione dell'aria che lo circonda.
+    visual: Una soluzione rosata di un sale di americio
+    attendibilita: documentato
+  - id: dove_si_trova
+    sezione: caratteristiche
+    testo: 'Una tonnellata di combustibile nucleare esausto contiene circa cento grammi di
+      americio, quasi tutto americio-241 e americio-243, e la quantità cresce nel tempo perché
+      il plutonio-241 continua a decadere in americio anche dopo che il combustibile è stato
+      scaricato. È uno degli elementi che rendono le scorie problematiche a lungo termine:
+      con le sue centinaia di anni di emivita resta attivo ben oltre la vita di qualunque
+      struttura costruita per contenerlo, ed è uno dei bersagli principali degli studi sulla
+      trasmutazione delle scorie.'
+    visual: Contenitori di scorie ad alta attività in un deposito
+    attendibilita: documentato
+  - id: usi_rivelatori
+    sezione: usi
+    testo: 'Nel rivelatore di fumo a ionizzazione, una sorgente di biossido di americio ionizza
+      l''aria fra due elettrodi e vi fa passare una piccola corrente costante; quando il fumo
+      entra nella camera, le particelle di fuliggine catturano gli ioni, la corrente cala
+      e l''allarme suona. È l''unica applicazione domestica di un elemento artificiale, e
+      ne servono meno di due decimillesimi di grammo per apparecchio: una quantità che, sigillata
+      in una camera metallica, non espone chi vive in casa ad alcuna dose significativa.'
+    visual: Lo schema di una camera di ionizzazione di un rivelatore di fumo
+    attendibilita: documentato
+  - id: usi_industriali
+    sezione: usi
+    testo: 'Fuori casa, l''americio serve nei misuratori di spessore e di densità, dove si
+      misura quanta radiazione attraversa un materiale in produzione continua, e nelle sorgenti
+      di neutroni: mescolato al berillio dà un flusso costante usato nella prospezione petrolifera
+      e nella misura dell''umidità dei terreni.'
+    visual: Una sonda a neutroni per la misura dell'umidità del suolo
+    attendibilita: documentato
+  - id: usi_futuri
+    sezione: usi
+    testo: 'L''agenzia spaziale europea sta sviluppando generatori termoelettrici basati sull''americio-241,
+      come alternativa al plutonio-238, che è difficile da produrre e di cui l''Europa non
+      ha una filiera: l''americio scalda meno, ma si può ricavare dalle scorte di plutonio
+      civile invecchiato, dove si forma da solo.'
+    visual: Un prototipo di generatore termoelettrico per sonde spaziali
+    attendibilita: documentato
+  - id: curiosita_ragazzo
+    sezione: curiosita
+    testo: 'Il ragazzo dei Quiz Kids che chiese a Seaborg se avesse scoperto elementi nuovi
+      ricevette una risposta che nessun ufficio stampa avrebbe autorizzato: due elementi mai
+      annunciati, nominati in diretta radiofonica. Seaborg raccontò poi l''episodio con divertimento,
+      e resta uno dei rari casi in cui una scoperta chimica è stata resa pubblica da una domanda
+      infantile.'
+    attendibilita: documentato
+  - id: curiosita_ragazzino_reattore
+    sezione: curiosita
+    testo: Nel 1994 un ragazzo americano di diciassette anni, David Hahn, raccolse l'americio
+      di centinaia di rivelatori di fumo per costruire nel capanno di casa quello che chiamava
+      un reattore autofertilizzante. Non funzionò come reattore, ma contaminò abbastanza da
+      far intervenire l'agenzia federale per l'ambiente, che smantellò e portò via il capanno.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Glenn Seaborg
+    ipa: ɡlɛn ˈsiːbɔːrɡ
+    nota: Inglese americano.
+  - termine: Albert Ghiorso
+    ipa: ˈælbərt ɡiˈɔːrsoʊ
+    nota: Inglese americano.
+composti_principali:
+- nome: Biossido di americio
+  formula: AmO2
+  usi:
+  - rivelatori di fumo a ionizzazione
+  - misuratori industriali
+- nome: Sorgente americio-berillio
+  formula: Am-Be
+  usi:
+  - sorgenti di neutroni
+  - prospezione petrolifera
+fonti:
+- url: https://en.wikipedia.org/wiki/Americium
+  titolo: Americium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/95/americium
+  titolo: Americium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Smoke_detector
+  titolo: Smoke detector
+  consultata: *id001

@@ -11,6 +11,10 @@
   morto: 2010
   nazionalita: statunitense
   elementi:
+  - 95
+  - 96
+  - 97
+  - 98
   - 102
   - 103
   - 104
@@ -773,3 +777,34 @@
   nazionalita: svedese
   elementi:
   - 58
+- id: ralph-james
+  nome: Ralph Arthur James
+  nato: 1920
+  morto: 1973
+  nazionalita: statunitense
+  elementi:
+  - 95
+  - 96
+- id: leon-morgan
+  nome: Leon Owen Morgan
+  nato: 1919
+  morto: 2002
+  nazionalita: statunitense
+  elementi:
+  - 95
+- id: stanley-thompson
+  nome: Stanley Gerald Thompson
+  nato: 1912
+  morto: 1976
+  nazionalita: statunitense
+  elementi:
+  - 97
+  - 98
+- id: kenneth-street
+  nome: Kenneth Street Jr.
+  nato: 1920
+  morto: 2006
+  nazionalita: statunitense
+  elementi:
+  - 97
+  - 98
