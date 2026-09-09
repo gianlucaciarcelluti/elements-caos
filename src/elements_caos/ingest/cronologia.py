@@ -829,9 +829,42 @@ CRONOLOGIA: list[VoceCronologia] = [
         "nucleare",
         nome="Californio",
     ),
-    VoceCronologia(99, 1952, False, ["glenn-seaborg"], "nucleare", nome="Einsteinio"),
-    VoceCronologia(100, 1952, False, ["glenn-seaborg"], "nucleare", nome="Fermio"),
-    VoceCronologia(101, 1955, False, ["glenn-seaborg"], "nucleare", nome="Mendelevio"),
+    # Einsteinio e fermio escono dai detriti del test Ivy Mike e sono firmati da una
+    # collaborazione fra Berkeley, Argonne e Los Alamos con una ventina di autori: qui
+    # restano i tre nomi che le fonti secondarie isolano sempre, e la collaborazione e
+    # dichiarata in note_cronologia, come prevede lo Step 3b del piano per gli elementi
+    # attribuiti a squadre.
+    VoceCronologia(
+        99,
+        1952,
+        False,
+        ["albert-ghiorso", "stanley-thompson", "glenn-seaborg"],
+        "nucleare",
+        nome="Einsteinio",
+    ),
+    VoceCronologia(
+        100,
+        1952,
+        False,
+        ["albert-ghiorso", "stanley-thompson", "glenn-seaborg"],
+        "nucleare",
+        nome="Fermio",
+    ),
+    # Il mendelevio ha invece cinque autori documentati uno per uno.
+    VoceCronologia(
+        101,
+        1955,
+        False,
+        [
+            "albert-ghiorso",
+            "bernard-harvey",
+            "gregory-choppin",
+            "stanley-thompson",
+            "glenn-seaborg",
+        ],
+        "nucleare",
+        nome="Mendelevio",
+    ),
     VoceCronologia(102, 1958, False, ["albert-ghiorso"], "nucleare", nome="Nobelio"),
     VoceCronologia(103, 1961, False, ["albert-ghiorso"], "nucleare", nome="Laurenzio"),
     VoceCronologia(

@@ -6,11 +6,17 @@ scoperta:
   anno: 1952
   anno_stimato: false
   scopritori:
+  - albert-ghiorso
+  - stanley-thompson
   - glenn-seaborg
-  luogo: null
+  luogo: Enewetak, Isole Marshall
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'Individuato nei detriti del test termonucleare Ivy Mike del 1º novembre
+    1952, raccolti con carte filtro montate su aerei. La scoperta è di una collaborazione
+    fra Berkeley, Argonne e Los Alamos con una ventina di autori: qui sono citati i tre nomi
+    che le fonti isolano sempre. L''annuncio pubblico arrivò solo nell''agosto 1955, alla
+    conferenza di Ginevra, per via del segreto militare.'
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +36,157 @@ proprieta:
   punto_fusione_k: 1133.0
   punto_ebollizione_k: 1269.0
   densita: 8.84
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
+  - 3
 approfondimento: false
+contenuti:
+  hook: Il 1° novembre 1952 un'isola del Pacifico smise di esistere. Fra i detriti raccolti
+    dagli aerei che attraversarono la nube c'erano due elementi che nessuno aveva mai visto.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'L''einsteinio è il settimo transuranico e il più pesante di cui si sia mai prodotta
+      una quantità pesabile: si misura in milligrammi, se ne fabbrica circa un milligrammo
+      l''anno, e la sua radioattività è tale che un campione brilla e si distrugge da solo,
+      danneggiando il proprio reticolo cristallino mentre lo si studia.'
+    visual: Un campione di einsteinio che emette luce propria in una cella schermata
+    attendibilita: documentato
+  - id: ivy_mike
+    sezione: storia
+    testo: 'Il 1º novembre 1952 gli Stati Uniti fecero esplodere a Enewetak, nelle isole Marshall,
+      il primo ordigno termonucleare della storia: il test Ivy Mike, dieci megatoni, quasi
+      mille volte la bomba di Hiroshima. L''isola di Elugelab scomparve, lasciando un cratere
+      sott''acqua largo due chilometri. Dentro la palla di fuoco l''uranio del dispositivo
+      si trovò immerso in un flusso di neutroni così intenso che alcuni nuclei ne catturarono
+      una quindicina ciascuno in una frazione di secondo, per poi risalire la tavola periodica
+      decadendo.'
+    visual: Il fungo atomico di un test termonucleare nel Pacifico
+    attendibilita: documentato
+  - id: le_carte_filtro
+    sezione: storia
+    testo: 'I detriti furono raccolti con carte filtro montate su aerei che attraversarono
+      la nube, e più tardi dai coralli dell''atollo. Ad analizzarli fu il gruppo di Albert
+      Ghiorso a Berkeley, insieme ai laboratori di Argonne e Los Alamos: nelle tracce trovarono
+      due elementi nuovi, il 99 e il 100.'
+    visual: Carte filtro radioattive analizzate in un laboratorio
+    attendibilita: documentato
+  - id: il_segreto
+    sezione: storia
+    testo: 'La scoperta restò classificata per ordine dei militari: rivelarla avrebbe significato
+      dire quanti neutroni aveva prodotto l''ordigno, cioè informazioni sul progetto della
+      bomba. L''annuncio pubblico arrivò solo nell''agosto del 1955, alla prima conferenza
+      di Ginevra sugli usi pacifici dell''energia atomica, e lo fece Ghiorso.'
+    visual: Documenti classificati con il timbro di segretezza
+    attendibilita: documentato
+  - id: i_nomi
+    sezione: storia
+    testo: 'I nomi furono proposti quando entrambi i dedicatari erano ancora vivi, e annunciati
+      quando nessuno dei due lo era più: Enrico Fermi morì nel novembre 1954, Albert Einstein
+      nell''aprile 1955, e la conferenza di Ginevra fu in agosto. Sono i primi elementi intitolati
+      a scienziati che avrebbero potuto vedere il proprio nome nella tavola periodica, e non
+      ce l''hanno fatta per pochi mesi.'
+    visual: Ritratti di Einstein e Fermi affiancati
+    attendibilita: documentato
+  - id: einstein_e_la_bomba
+    sezione: storia
+    testo: 'La dedica a Einstein ha un''ironia che all''epoca non sfuggì a nessuno: l''elemento
+      usciva dai detriti di una bomba all''idrogeno, e Einstein aveva firmato nel 1939 la
+      lettera che spingeva Roosevelt a costruire l''arma atomica, salvo poi definirla l''errore
+      più grande della propria vita e passare gli ultimi anni a battersi contro le armi nucleari.'
+    visual: La lettera di Einstein a Roosevelt del 1939
+    attendibilita: documentato
+  - id: radioattivita
+    sezione: caratteristiche
+    testo: 'L''isotopo che si produce, l''einsteinio-253, ha un''emivita di venti giorni e
+      un''attività così alta da scaldare visibilmente il campione e da renderlo luminoso.
+      La radiazione danneggia il reticolo cristallino del metallo alla velocità con cui lo
+      si forma: le misure di struttura vanno fatte in fretta, perché il materiale si autodistrugge
+      mentre lo si osserva.'
+    visual: Un reticolo cristallino che si degrada nel tempo, in uno schema
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente sta nello stato +3 come gli attinidi vicini, e in condizioni riducenti
+      scende al +2. È l''ultimo elemento della tavola periodica di cui esistano misure chimiche
+      su quantità pesabili: nel 2021 un gruppo americano è riuscito a caratterizzarne un legame
+      chimico partendo da meno di un microgrammo, e ha dovuto rifare l''esperimento perché
+      il campione si consumava. Da qui in poi tutto ciò che si sa viene da esperimenti su
+      pochi atomi, ed è per questo che l''einsteinio segna un confine.'
+    visual: Una microbilancia in una scatola a guanti schermata
+    attendibilita: documentato
+  - id: produzione
+    sezione: caratteristiche
+    testo: 'Oggi si produce irraggiando per anni bersagli di plutonio e curio nei reattori
+      ad alto flusso, e la resa mondiale è dell''ordine del milligrammo all''anno, praticamente
+      tutta da Oak Ridge. Ogni campagna richiede di far salire i nuclei una casella alla volta,
+      catturando neutroni e aspettando decadimenti beta: è la stessa cosa che Ivy Mike ha
+      fatto in un microsecondo, ripetuta con pazienza per mesi.'
+    visual: Il canale di irraggiamento di un reattore ad alto flusso
+    attendibilita: documentato
+  - id: nessun_uso
+    sezione: usi
+    testo: 'L''einsteinio non ha usi pratici e non può averne: dura settimane, costa quantità
+      di lavoro sproporzionate, si distrugge da solo e non se ne produce abbastanza perché
+      qualcuno possa progettarci sopra qualcosa. Serve però a fare altro, ed è così che è
+      entrato nella storia della tavola periodica.'
+    visual: Una cella calda con manipolatori a distanza
+    attendibilita: documentato
+  - id: bersaglio_per_il_101
+    sezione: usi
+    testo: Nel 1955 un bersaglio di un miliardo di atomi di einsteinio-253 — una quantità
+      invisibile — fu bombardato con particelle alfa e produsse diciassette atomi di mendelevio,
+      l'elemento 101. È l'unico impiego che l'einsteinio abbia mai avuto, e ha permesso di
+      aggiungere una casella alla tavola.
+    visual: Un bersaglio microscopico montato in un acceleratore
+    attendibilita: documentato
+  - id: la_chimica_degli_atomi
+    sezione: usi
+    testo: 'Il resto del materiale prodotto serve alla ricerca di base: misurare i raggi ionici,
+      i potenziali di ossidazione e le proprietà spettroscopiche degli attinidi pesanti, per
+      capire fino a che punto la serie si comporta come previsto e dove comincia a discostarsene.'
+    visual: Uno spettrometro per l'analisi di campioni radioattivi
+    attendibilita: documentato
+  - id: curiosita_scoperta_doppia
+    sezione: curiosita
+    testo: Einsteinio e fermio sono gli unici due elementi della tavola periodica scoperti
+      in un'esplosione nucleare. La stessa reazione che li ha prodotti — un nucleo pesante
+      che cattura molti neutroni in un istante e poi decade risalendo la tavola — è quella
+      che nelle stelle produce gli elementi più pesanti del ferro, e che in laboratorio nessuno
+      riesce a riprodurre con la stessa efficienza.
+    attendibilita: documentato
+  - id: curiosita_nome_e_simbolo
+    sezione: curiosita
+    testo: 'Il simbolo proposto all''inizio era E, e solo più tardi divenne Es per evitare
+      confusioni. È uno dei diversi casi, in questa parte della tavola, in cui il simbolo
+      di un elemento è cambiato dopo l''annuncio: nella chimica dei transuranici anche le
+      convenzioni tipografiche hanno dovuto adattarsi in corsa, mentre le caselle si riempivano
+      più in fretta di quanto i manuali riuscissero a stampare.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Enewetak
+    ipa: ɛnɪˈwiːtɒk
+    nota: Marshallese.
+  - termine: Albert Ghiorso
+    ipa: ˈælbərt ɡiˈɔːrsoʊ
+    nota: Inglese americano.
+composti_principali:
+- nome: Einsteinio-253
+  formula: 253Es
+  usi:
+  - bersaglio per la sintesi del mendelevio
+  - ricerca sugli attinidi
+- nome: Ossido di einsteinio
+  formula: Es2O3
+  usi:
+  - studi di chimica e struttura degli attinidi pesanti
+fonti:
+- url: https://en.wikipedia.org/wiki/Einsteinium
+  titolo: Einsteinium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/99/einsteinium
+  titolo: Einsteinium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ivy_Mike
+  titolo: Ivy Mike
+  consultata: *id001

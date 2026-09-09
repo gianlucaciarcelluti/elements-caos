@@ -15,6 +15,9 @@
   - 96
   - 97
   - 98
+  - 99
+  - 100
+  - 101
   - 102
   - 103
   - 104
@@ -800,6 +803,9 @@
   elementi:
   - 97
   - 98
+  - 99
+  - 100
+  - 101
 - id: kenneth-street
   nome: Kenneth Street Jr.
   nato: 1920
@@ -808,3 +814,17 @@
   elementi:
   - 97
   - 98
+- id: bernard-harvey
+  nome: Bernard George Harvey
+  nato: 1919
+  morto: 2016
+  nazionalita: britannico-statunitense
+  elementi:
+  - 101
+- id: gregory-choppin
+  nome: Gregory Robert Choppin
+  nato: 1927
+  morto: 2015
+  nazionalita: statunitense
+  elementi:
+  - 101
