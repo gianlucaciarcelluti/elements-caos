@@ -12,6 +12,7 @@ Svedese, 1779–1848.
 
 ## Elementi scoperti
 
+- [[Cerio]] (Ce) — 1803
 - [[Selenio]] (Se) — 1817
 - [[Torio]] (Th) — 1829
 

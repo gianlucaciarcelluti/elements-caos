@@ -18,7 +18,7 @@ La pila di Volta mette in mano ai chimici uno strumento nuovo: la corrente elett
 | 1801 | [[Niobio]] (Nb) | [[Charles Hatchett]] |
 | 1802 | [[Palladio]] (Pd) | [[William Hyde Wollaston]] |
 | 1802 | [[Tantalio]] (Ta) | [[Anders Gustaf Ekeberg]] |
-| 1803 | [[Cerio]] (Ce) | [[Martin Heinrich Klaproth]] |
+| 1803 | [[Cerio]] (Ce) | [[Jöns Jacob Berzelius]], [[Wilhelm Hisinger]], [[Martin Heinrich Klaproth]] |
 | 1803 | [[Osmio]] (Os) | [[Smithson Tennant]] |
 | 1803 | [[Iridio]] (Ir) | [[Smithson Tennant]] |
 | 1804 | [[Rodio]] (Rh) | [[William Hyde Wollaston]] |
