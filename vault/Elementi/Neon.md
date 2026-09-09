@@ -10,7 +10,7 @@ categoria: gas_nobile
 gruppo: 18
 periodo: 2
 posizione_cronologica: 77
-tempo_lettura: 1
+tempo_lettura: 4
 ha_approfondimento: false
 tags: [elemento, gas-nobile, epoca/spettroscopia, secolo/XIX]
 aliases: [Ne, Neon]
@@ -19,9 +19,9 @@ aliases: [Ne, Neon]
 # Neon (Ne)
 
 > [!abstract] 77° elemento scoperto — 1898
-> 
+> «Il bagliore cremisi che usciva dal tubo raccontava da solo la propria storia, ed era uno spettacolo da fissare e non dimenticare più.» Così Travers descrisse il momento in cui vide il neon per la prima volta.
 
-
+Il neon è il quinto elemento più abbondante dell'universo e uno dei più rari dell'atmosfera terrestre: una parte su cinquantacinquemila. È anche l'elemento meno reattivo che si conosca — nemmeno il fluoro riesce a legarlo — e il suo unico contributo alla tecnologia è una luce rosso-arancio che ha dato il nome a un'intera categoria di insegne.
 
 ## Cronologia della scoperta
 
@@ -33,7 +33,15 @@ timeline
 
 ## Storia della scoperta
 
+Dopo l'argon nel 1894 e l'elio terrestre nel 1895, William Ramsay era convinto che fra i due dovesse esserci un altro gas, e che altri ancora stessero più in basso nella colonna. Il metodo per cercarli glielo diede la criogenia: raffreddare l'aria fino a liquefarla e poi lasciarla evaporare lentamente, raccogliendo le frazioni una a una secondo il punto di ebollizione.
 
+Nel 1898, in poche settimane, lui e Morris Travers ne trovarono tre. Il primo fu il cripton, dal residuo che restava alla fine dell'evaporazione; poi, in giugno, la frazione più volatile diede il neon; a settembre, dalla coda più pesante, uscì lo xenon. Una colonna intera della tavola periodica riempita in un anno solo, dagli stessi due uomini e con lo stesso apparecchio.
+
+Il nome lo suggerì il figlio tredicenne di Ramsay: neos, «nuovo». Il padre avrebbe preferito qualcosa di più descrittivo, ma la parola era netta e rimase. È l'unico elemento della tavola periodica battezzato da un ragazzino.
+
+Il riconoscimento fu immediato e visivo. Messo in un tubo di scarica, il gas nuovo emise una luce rosso-arancio così intensa e così diversa da tutto ciò che avevano visto che Travers ne scrisse in termini che nei resoconti scientifici non si usano: uno spettacolo da non dimenticare. Nessun altro gas nobile dà quel colore, ed è per questo che il neon è l'unico riconoscibile a occhio nudo.
+
+Il passaggio dall'esperimento all'insegna lo fece Georges Claude, che nel dicembre del 1910 mostrò a Parigi una lampada a tubo riempita di neon e nel 1912 cominciò a venderne come cartelloni pubblicitari. Nel giro di vent'anni le città del mondo si riempirono di scritte luminose, e il nome dell'elemento passò a indicare qualunque insegna a tubo, anche quelle che il neon non lo contengono.
 
 ## Posizione nella tavola periodica
 
@@ -51,7 +59,13 @@ flowchart TB
 
 ## Caratteristiche
 
+Il neon è considerato l'elemento chimicamente meno reattivo della tavola periodica: non si conoscono molecole neutre stabili che lo contengano, e nemmeno il fluoro, che strappa elettroni a tutto, riesce a legarlo. Il guscio esterno completo e la piccola dimensione dell'atomo lo rendono più restio perfino dell'elio, che in condizioni estreme qualche composto lo forma.
 
+Il colore della luce dipende dalle transizioni degli elettroni eccitati dalla scarica, che nel neon cadono quasi tutte nel rosso e nell'arancione. È una proprietà dell'atomo e non del tubo: qualunque insegna riempita di neon puro dà quel colore, e per averne altri si usano altri gas o si rivestono i tubi di fosfori.
+
+Liquefa a 27 kelvin, e ha una capacità refrigerante per unità di volume più di quaranta volte quella dell'elio liquido: dove non serve arrivare vicino allo zero assoluto ma serve portare via molto calore, il neon liquido fa il lavoro con impianti molto più piccoli.
+
+Nell'universo il neon è il quinto elemento per massa, dopo idrogeno, elio, ossigeno e carbonio, perché si forma facilmente nella fusione stellare. Sulla Terra è raro perché è leggero e inerte: non si lega a nulla che lo trattenga, e quello che c'era è in gran parte sfuggito nello spazio quando il pianeta era ancora caldo.
 
 ### Dati fisico-chimici
 
@@ -67,7 +81,7 @@ flowchart TB
 | Punto di fusione | -248,6 °C |
 | Punto di ebollizione | -246,0 °C |
 | Densità | 0,9002 g/cm³ |
-| Stati di ossidazione | — |
+| Stati di ossidazione | 0 |
 
 ## Struttura atomica
 
@@ -75,7 +89,33 @@ flowchart TB
 
 ## Usi e presenza in natura
 
+Le insegne restano l'impiego più visibile: tubi di vetro riempiti a bassa pressione, elettrodi alle estremità, qualche migliaio di volt. Il rosso-arancio è quello del neon puro; gli altri colori si ottengono con argon e mercurio più un rivestimento di fosfori, ma l'insegna continua a chiamarsi al neon per abitudine.
 
+L'impiego che ne consuma di più oggi è invisibile e recente: i laser a eccimeri delle macchine per la fotolitografia, quelle con cui si stampano i circuiti dei microprocessori, usano miscele in cui il neon è il componente principale. È il motivo per cui una crisi di fornitura del neon si ripercuote sulla produzione mondiale di semiconduttori.
+
+Il resto va nella criogenia industriale, dove il neon liquido raffredda rivelatori e apparati che lavorano fra i venticinque e i quaranta kelvin, e nei tubi a vuoto ad alta tensione, dove serve un gas che non reagisca con gli elettrodi né con il vetro.
+
+```mermaid
+flowchart LR
+    E["Neon"]
+    C1["Neon gassoso<br/>Ne"]
+    E --> C1
+    U1(["insegne luminose"])
+    C1 --> U1
+    U2(["laser a eccimeri per fotolitografia"])
+    C1 --> U2
+    C2["Neon liquido<br/>Ne"]
+    E --> C2
+    U3(["refrigerante criogenico ad alta capacità"])
+    C2 --> U3
+    style E fill:#f9a825,stroke:#333,stroke-width:2px
+```
+
+## Curiosità
+
+Il figlio di Ramsay, che propose il nome, aveva suggerito la parola greca per «nuovo» perché era esattamente quello che il padre continuava a ripetere in casa in quei mesi. Nel giro di poche settimane, con lo stesso apparecchio, di nuovi ne sarebbero arrivati altri due.
+
+Il neon industriale è un sottoprodotto della separazione dell'aria negli impianti siderurgici, e per ragioni storiche una quota rilevante di quello purificato veniva da pochi stabilimenti in Ucraina: quando quelle forniture si sono interrotte, l'industria dei semiconduttori ha scoperto di dipendere da un gas che quasi nessuno sapeva di usare.
 
 ## Nella cronologia
 
@@ -86,3 +126,6 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[William Ramsay]], [[M
 
 ## Fonti
 
+- [Neon](https://en.wikipedia.org/wiki/Neon) — consultata il 09/09/2026
+- [Neon — Royal Society of Chemistry](https://periodic-table.rsc.org/element/10/neon) — consultata il 09/09/2026
+- [Neon lighting](https://en.wikipedia.org/wiki/Neon_lighting) — consultata il 09/09/2026
