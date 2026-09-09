@@ -8,10 +8,12 @@ scoperta:
   scopritori:
   - william-ramsay
   - morris-travers
-  luogo: null
+  luogo: Londra, Regno Unito
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Secondo dei tre gas nobili che Ramsay e Travers ricavarono nel 1898 dalla
+    distillazione frazionata dell'aria liquida, fra il cripton di maggio e lo xenon di settembre.
+    Il nome fu suggerito dal figlio tredicenne di Ramsay.
   controversia: null
 proprieta:
   gruppo: 18
@@ -26,5 +28,160 @@ proprieta:
   punto_fusione_k: 24.56
   punto_ebollizione_k: 27.104
   densita: 0.9002
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 0
 approfondimento: false
+contenuti:
+  hook: «Il bagliore cremisi che usciva dal tubo raccontava da solo la propria storia, ed
+    era uno spettacolo da fissare e non dimenticare più.» Così Travers descrisse il momento
+    in cui vide il neon per la prima volta.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il neon è il quinto elemento più abbondante dell''universo e uno dei più rari
+      dell''atmosfera terrestre: una parte su cinquantacinquemila. È anche l''elemento meno
+      reattivo che si conosca — nemmeno il fluoro riesce a legarlo — e il suo unico contributo
+      alla tecnologia è una luce rosso-arancio che ha dato il nome a un''intera categoria
+      di insegne.'
+    visual: Un tubo di scarica al neon acceso in una stanza buia
+    attendibilita: documentato
+  - id: il_metodo
+    sezione: storia
+    testo: 'Dopo l''argon nel 1894 e l''elio terrestre nel 1895, William Ramsay era convinto
+      che fra i due dovesse esserci un altro gas, e che altri ancora stessero più in basso
+      nella colonna. Il metodo per cercarli glielo diede la criogenia: raffreddare l''aria
+      fino a liquefarla e poi lasciarla evaporare lentamente, raccogliendo le frazioni una
+      a una secondo il punto di ebollizione.'
+    visual: Un apparato per la liquefazione dell'aria di fine Ottocento
+    attendibilita: documentato
+  - id: tre_in_un_anno
+    sezione: storia
+    testo: Nel 1898, in poche settimane, lui e Morris Travers ne trovarono tre. Il primo fu
+      il cripton, dal residuo che restava alla fine dell'evaporazione; poi, in giugno, la
+      frazione più volatile diede il neon; a settembre, dalla coda più pesante, uscì lo xenon.
+      Una colonna intera della tavola periodica riempita in un anno solo, dagli stessi due
+      uomini e con lo stesso apparecchio.
+    visual: Tre ampolle di vetro etichettate con i nomi dei tre gas
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome lo suggerì il figlio tredicenne di Ramsay: neos, «nuovo». Il padre avrebbe
+      preferito qualcosa di più descrittivo, ma la parola era netta e rimase. È l''unico elemento
+      della tavola periodica battezzato da un ragazzino.'
+    visual: Un quaderno con appunti di laboratorio e un nome scritto a matita
+    attendibilita: documentato
+  - id: il_bagliore
+    sezione: storia
+    testo: 'Il riconoscimento fu immediato e visivo. Messo in un tubo di scarica, il gas nuovo
+      emise una luce rosso-arancio così intensa e così diversa da tutto ciò che avevano visto
+      che Travers ne scrisse in termini che nei resoconti scientifici non si usano: uno spettacolo
+      da non dimenticare. Nessun altro gas nobile dà quel colore, ed è per questo che il neon
+      è l''unico riconoscibile a occhio nudo.'
+    visual: Il bagliore rosso-arancio di un tubo di scarica in un laboratorio
+    attendibilita: documentato
+  - id: georges_claude
+    sezione: storia
+    testo: Il passaggio dall'esperimento all'insegna lo fece Georges Claude, che nel dicembre
+      del 1910 mostrò a Parigi una lampada a tubo riempita di neon e nel 1912 cominciò a venderne
+      come cartelloni pubblicitari. Nel giro di vent'anni le città del mondo si riempirono
+      di scritte luminose, e il nome dell'elemento passò a indicare qualunque insegna a tubo,
+      anche quelle che il neon non lo contengono.
+    visual: Un'insegna al neon di un locale notturno degli anni Trenta
+    attendibilita: documentato
+  - id: inerzia_totale
+    sezione: caratteristiche
+    testo: 'Il neon è considerato l''elemento chimicamente meno reattivo della tavola periodica:
+      non si conoscono molecole neutre stabili che lo contengano, e nemmeno il fluoro, che
+      strappa elettroni a tutto, riesce a legarlo. Il guscio esterno completo e la piccola
+      dimensione dell''atomo lo rendono più restio perfino dell''elio, che in condizioni estreme
+      qualche composto lo forma.'
+    visual: Il guscio elettronico completo del neon in un modello atomico
+    attendibilita: documentato
+  - id: la_luce
+    sezione: caratteristiche
+    testo: 'Il colore della luce dipende dalle transizioni degli elettroni eccitati dalla
+      scarica, che nel neon cadono quasi tutte nel rosso e nell''arancione. È una proprietà
+      dell''atomo e non del tubo: qualunque insegna riempita di neon puro dà quel colore,
+      e per averne altri si usano altri gas o si rivestono i tubi di fosfori.'
+    visual: Lo spettro a righe del neon con le righe rosse in evidenza
+    attendibilita: documentato
+  - id: refrigerante
+    sezione: caratteristiche
+    testo: 'Liquefa a 27 kelvin, e ha una capacità refrigerante per unità di volume più di
+      quaranta volte quella dell''elio liquido: dove non serve arrivare vicino allo zero assoluto
+      ma serve portare via molto calore, il neon liquido fa il lavoro con impianti molto più
+      piccoli.'
+    visual: Un criostato a neon liquido in un laboratorio
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'Nell''universo il neon è il quinto elemento per massa, dopo idrogeno, elio, ossigeno
+      e carbonio, perché si forma facilmente nella fusione stellare. Sulla Terra è raro perché
+      è leggero e inerte: non si lega a nulla che lo trattenga, e quello che c''era è in gran
+      parte sfuggito nello spazio quando il pianeta era ancora caldo.'
+    visual: Un grafico dell'abbondanza cosmica degli elementi con il neon in evidenza
+    attendibilita: documentato
+  - id: usi_insegne
+    sezione: usi
+    testo: 'Le insegne restano l''impiego più visibile: tubi di vetro riempiti a bassa pressione,
+      elettrodi alle estremità, qualche migliaio di volt. Il rosso-arancio è quello del neon
+      puro; gli altri colori si ottengono con argon e mercurio più un rivestimento di fosfori,
+      ma l''insegna continua a chiamarsi al neon per abitudine.'
+    visual: Un artigiano che piega a mano un tubo di vetro per un'insegna
+    attendibilita: documentato
+  - id: usi_industriali
+    sezione: usi
+    testo: 'L''impiego che ne consuma di più oggi è invisibile e recente: i laser a eccimeri
+      delle macchine per la fotolitografia, quelle con cui si stampano i circuiti dei microprocessori,
+      usano miscele in cui il neon è il componente principale. È il motivo per cui una crisi
+      di fornitura del neon si ripercuote sulla produzione mondiale di semiconduttori.'
+    visual: Una macchina litografica in una camera bianca per semiconduttori
+    attendibilita: documentato
+  - id: usi_criogenia
+    sezione: usi
+    testo: Il resto va nella criogenia industriale, dove il neon liquido raffredda rivelatori
+      e apparati che lavorano fra i venticinque e i quaranta kelvin, e nei tubi a vuoto ad
+      alta tensione, dove serve un gas che non reagisca con gli elettrodi né con il vetro.
+    visual: Un serbatoio criogenico per neon liquido in un impianto
+    attendibilita: documentato
+  - id: curiosita_ragazzo
+    sezione: curiosita
+    testo: Il figlio di Ramsay, che propose il nome, aveva suggerito la parola greca per «nuovo»
+      perché era esattamente quello che il padre continuava a ripetere in casa in quei mesi.
+      Nel giro di poche settimane, con lo stesso apparecchio, di nuovi ne sarebbero arrivati
+      altri due.
+    attendibilita: documentato
+  - id: curiosita_ucraina
+    sezione: curiosita
+    testo: 'Il neon industriale è un sottoprodotto della separazione dell''aria negli impianti
+      siderurgici, e per ragioni storiche una quota rilevante di quello purificato veniva
+      da pochi stabilimenti in Ucraina: quando quelle forniture si sono interrotte, l''industria
+      dei semiconduttori ha scoperto di dipendere da un gas che quasi nessuno sapeva di usare.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Morris Travers
+    ipa: ˈmɒɹɪs ˈtɹævəz
+    nota: Inglese britannico.
+  - termine: Georges Claude
+    ipa: ʒɔʁʒ klod
+    nota: Francese.
+composti_principali:
+- nome: Neon gassoso
+  formula: Ne
+  usi:
+  - insegne luminose
+  - laser a eccimeri per fotolitografia
+- nome: Neon liquido
+  formula: Ne
+  usi:
+  - refrigerante criogenico ad alta capacità
+fonti:
+- url: https://en.wikipedia.org/wiki/Neon
+  titolo: Neon
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/10/neon
+  titolo: Neon — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Neon_lighting
+  titolo: Neon lighting
+  consultata: *id001

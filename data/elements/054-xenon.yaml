@@ -8,10 +8,12 @@ scoperta:
   scopritori:
   - william-ramsay
   - morris-travers
-  luogo: null
+  luogo: Londra, Regno Unito
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Terzo e ultimo dei gas nobili che Ramsay e Travers ricavarono nel 1898
+    dall'aria liquida, isolato il 12 luglio. Nel 1962 Neil Bartlett ne preparò il primo composto,
+    l'esafluoroplatinato di xeno, smentendo l'inerzia assoluta dei gas nobili.
   controversia: null
 proprieta:
   gruppo: 18
@@ -29,5 +31,166 @@ proprieta:
   punto_fusione_k: 161.4
   punto_ebollizione_k: 165.051
   densita: 5.894
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8
 approfondimento: false
+contenuti:
+  hook: Per sessantaquattro anni i gas nobili furono, per definizione, gli elementi che non
+    fanno composti. Il 23 marzo 1962 un chimico di Vancouver mischiò due gas e la definizione
+    cadde.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Lo xenon è il più pesante dei gas nobili stabili e il più reattivo: è con lui
+      che si è dimostrato che l''inerzia dei gas nobili non era una legge di natura ma una
+      questione di energia. È anche il più raro dei gas dell''aria, presente in una parte
+      su undici milioni e mezzo, e per questo il più caro.'
+    visual: Una lampada ad arco allo xenon accesa, di un bianco intenso
+    attendibilita: documentato
+  - id: il_terzo_gas
+    sezione: storia
+    testo: 'Il 12 luglio 1898 William Ramsay e Morris Travers arrivarono in fondo alla loro
+      distillazione dell''aria liquida: nella frazione più pesante, dopo il cripton e il neon,
+      restava ancora un gas. Le sue righe spettrali erano nuove, e ne chiamarono xenon, dal
+      greco xenos, «straniero», «ospite».'
+    visual: Una piccola ampolla di gas raccolta all'ultimo stadio di una distillazione
+    attendibilita: documentato
+  - id: un_gas_costoso
+    sezione: storia
+    testo: 'Trovarlo era una cosa, averne era un''altra: nell''aria lo xenon sta in una parte
+      su undici milioni e mezzo, e per raccoglierne un litro bisogna lavorare undici milioni
+      di litri d''aria. Per mezzo secolo restò un gas da laboratorio, interessante e inutilizzabile,
+      e la sua chimica — cioè la sua assenza di chimica — non fu quasi studiata.'
+    visual: Colonne di distillazione criogenica in un grande impianto per gas industriali
+    attendibilita: documentato
+  - id: bartlett_1962
+    sezione: storia
+    testo: 'Nel 1962 Neil Bartlett, a Vancouver, stava studiando l''esafluoruro di platino,
+      un composto talmente ossidante da strappare un elettrone perfino all''ossigeno molecolare.
+      Notò che l''energia necessaria a ionizzare lo xenon era quasi identica a quella dell''ossigeno,
+      e ne trasse la conseguenza: il 23 marzo mise i due gas a contatto e ottenne un solido
+      giallo-arancio, il primo composto di un gas nobile mai preparato.'
+    visual: Due gas che si mescolano in un apparato di vetro producendo un solido giallo
+    attendibilita: documentato
+  - id: cosa_cambio
+    sezione: storia
+    testo: 'Il risultato cambiò un capitolo dei manuali nel giro di mesi. In poco tempo furono
+      preparati fluoruri e ossidi di xenon, poi composti di cripton e infine, a temperature
+      bassissime, perfino di argon: la colonna che si definiva per l''inerzia si rivelò una
+      colonna di elementi molto poco reattivi, non inerti. È uno dei casi in cui una proprietà
+      data per definitoria si è rivelata solo un limite delle condizioni sperimentali.'
+    visual: Cristalli di tetrafluoruro di xeno in una fiala
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Lo xenon forma oggi decine di composti: fluoruri, ossidi, ossifluoruri, sali complessi.
+      La ragione per cui è il più disponibile della colonna sta nelle sue dimensioni: l''atomo
+      è grande, gli elettroni esterni sono lontani dal nucleo e meno trattenuti, e servono
+      meno energia e un ossidante meno estremo per strapparne uno.'
+    visual: Modelli molecolari di composti dello xeno affiancati
+    attendibilita: documentato
+  - id: proprieta_fisiche
+    sezione: caratteristiche
+    testo: 'È incolore e inodore, ma con una densità più di quattro volte quella dell''aria:
+      respirandolo la voce diventa più profonda, l''opposto di quello che fa l''elio. Liquefa
+      a 165 kelvin, e nella scarica elettrica emette una luce bianco-azzurra molto vicina,
+      come spettro, alla luce del giorno.'
+    visual: Una lampada allo xenon confrontata con la luce solare
+    attendibilita: documentato
+  - id: rarita
+    sezione: caratteristiche
+    testo: 'È il più raro dei gas nobili non radioattivi dell''atmosfera. Si ricava come sottoprodotto
+      dei grandi impianti di separazione dell''aria, e la produzione mondiale annua si misura
+      in poche decine di milioni di litri: abbastanza per la medicina, l''illuminazione e
+      i satelliti, non abbastanza per usi di massa.'
+    visual: Bombole di xeno compresso in un deposito di gas speciali
+    attendibilita: documentato
+  - id: usi_illuminazione
+    sezione: usi
+    testo: Le lampade ad arco allo xenon danno una luce continua e vicina a quella solare,
+      e per questo hanno illuminato per decenni i proiettori cinematografici, i fari delle
+      automobili di fascia alta, i simulatori solari con cui si collaudano i pannelli fotovoltaici
+      e i flash professionali, dove la scarica dura pochi milionesimi di secondo.
+    visual: La lampada ad arco di un proiettore cinematografico
+    attendibilita: documentato
+  - id: usi_spazio
+    sezione: usi
+    testo: 'Nei propulsori ionici dei satelliti lo xenon è il propellente di riferimento:
+      viene ionizzato e accelerato da un campo elettrico fino a decine di chilometri al secondo,
+      e la spinta è minuscola ma continua per anni. Le sonde che hanno raggiunto asteroidi
+      e comete con motori elettrici hanno viaggiato spingendo via atomi di xeno, uno alla
+      volta.'
+    visual: Il propulsore ionico di una sonda spaziale acceso nel vuoto
+    attendibilita: documentato
+  - id: usi_medicina_e_ricerca
+    sezione: usi
+    testo: 'In medicina lo xenon è un anestetico generale efficace, che agisce in fretta e
+      non pesa sul cuore e sulla circolazione: se ne fa poco uso solo perché costa troppo.
+      Nella ricerca sulla materia oscura è invece il protagonista assoluto: rivelatori con
+      parecchie tonnellate di xeno liquido, sepolti sotto le montagne per schermarli dai raggi
+      cosmici, aspettano l''urto di particelle che nessuno ha ancora osservato. Lo xeno serve
+      perché è denso, ha nuclei pesanti da colpire e si può purificare fino a livelli di radioattività
+      residua bassissimi.'
+    visual: Il grande cilindro di un rivelatore a xeno liquido in un laboratorio sotterraneo
+    attendibilita: documentato
+  - id: costo
+    sezione: usi
+    testo: 'Il prezzo dello xenon è di ordini di grandezza superiore a quello dell''argon,
+      e questo decide da solo dove lo si usa: dove ne serve poco e serve una proprietà che
+      nessun altro elemento dà — la luce solare artificiale, la spinta continua nel vuoto,
+      un nucleo pesante da colpire — e mai dove basterebbe qualcosa di più comune. È un vincolo
+      che si sente anche nella ricerca: gli esperimenti sulla materia oscura competono per
+      lo xeno disponibile con l''industria dei satelliti.'
+    visual: Un listino di gas speciali con i prezzi a confronto
+    attendibilita: documentato
+  - id: curiosita_voce
+    sezione: curiosita
+    testo: 'Respirare xeno abbassa la voce invece di alzarla, perché il suono nel gas viaggia
+      più lentamente che nell''aria: è l''esperimento inverso a quello dell''elio. Non è però
+      uno scherzo consigliabile: essendo quattro volte più denso dell''aria, il gas si accumula
+      nei polmoni e non se ne va da solo.'
+    attendibilita: documentato
+  - id: curiosita_bartlett
+    sezione: curiosita
+    testo: Prima di provare, Bartlett aveva calcolato che l'energia di ionizzazione dello
+      xenon e quella dell'ossigeno molecolare fossero quasi uguali, e su quel numero aveva
+      costruito la propria previsione. L'esperimento durò pochi minuti, il ragionamento che
+      lo rendeva sensato era stato l'unica cosa difficile.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Neil Bartlett
+    ipa: niːl ˈbɑːtlət
+    nota: Inglese britannico.
+  - termine: xenos
+    ipa: ˈksenos
+    nota: Greco antico, «straniero».
+composti_principali:
+- nome: Tetrafluoruro di xeno
+  formula: XeF4
+  usi:
+  - agente fluorurante
+  - chimica dei gas nobili
+- nome: Xeno gassoso
+  formula: Xe
+  usi:
+  - lampade ad arco
+  - propulsione ionica
+  - anestesia
+- nome: Xeno liquido
+  formula: Xe
+  usi:
+  - rivelatori per la ricerca sulla materia oscura
+fonti:
+- url: https://en.wikipedia.org/wiki/Xenon
+  titolo: Xenon
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/54/xenon
+  titolo: Xenon — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Noble_gas_compound
+  titolo: Noble gas compound
+  consultata: *id001
