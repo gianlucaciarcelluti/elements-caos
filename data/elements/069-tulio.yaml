@@ -7,12 +7,12 @@ scoperta:
   anno_stimato: false
   scopritori:
   - per-teodor-cleve
-  luogo: null
+  luogo: Uppsala, Svezia
   epoca: spettroscopia
   isolamento_anno: 1911
-  note_cronologia: 'La fonte attribuiva l''isolamento del 1911 a ''H. Nilson'', ma
-    la verifica indica Charles James come primo isolatore del tulio puro: lo scopritore
-    riconosciuto qui è solo Cleve, autore dell''osservazione del 1879.'
+  note_cronologia: 'La fonte attribuiva l''isolamento del 1911 a ''H. Nilson'', ma la verifica
+    indica Charles James come primo isolatore del tulio puro: lo scopritore riconosciuto qui
+    è solo Cleve, autore dell''osservazione del 1879.'
   controversia: null
 proprieta:
   gruppo: 3
@@ -31,5 +31,161 @@ proprieta:
   punto_fusione_k: 1818.0
   punto_ebollizione_k: 2223.0
   densita: 9.32
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
+  - 3
 approfondimento: false
+contenuti:
+  hook: Per ottenere un campione puro del lantanide più raro ci vollero quindicimila ricristallizzazioni,
+    fatte a mano, una dopo l'altra, dallo stesso uomo.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il tulio è il meno abbondante dei lantanidi stabili: nella crosta terrestre è
+      a mezza parte per milione, meno dell''oro secondo alcune stime. Per un secolo è stato
+      una curiosità costosa da laboratorio, e solo di recente ha trovato impieghi che lo giustificano:
+      sorgenti portatili di raggi X e laser chirurgici.'
+    visual: Un piccolo campione di tulio metallico argenteo in una fiala
+    attendibilita: documentato
+  - id: cleve_smonta_erbia
+    sezione: storia
+    testo: 'Nel 1879 Per Teodor Cleve, a Uppsala, applicò all''erbia un metodo di esclusione:
+      toglieva sistematicamente tutti i contaminanti che sapeva riconoscere e guardava che
+      cosa restava. Restarono due sostanze che non corrispondevano a nulla, e le chiamò holmia
+      e thulia — la prima dal nome latino di Stoccolma, la seconda da Thule, il paese ai confini
+      del mondo che i greci collocavano all''estremo nord.'
+    visual: Una serie di provette con residui di separazione allineate
+    attendibilita: documentato
+  - id: thule
+    sezione: storia
+    testo: 'Il nome era una dichiarazione di appartenenza: la Scandinavia aveva dato all''Europa
+      la cava di Ytterby, la scuola di Berzelius e mezza tavola periodica delle terre rare,
+      e chiamare un elemento con il nome mitico del nord era il modo di dirlo. In pochi anni
+      Cleve, Nilson, Mosander e Marignac avevano riempito di toponimi scandinavi una porzione
+      intera della tavola.'
+    visual: Una carta antica con l'iscrizione Thule ai margini del nord
+    attendibilita: documentato
+  - id: quindicimila_cristallizzazioni
+    sezione: storia
+    testo: 'Ottenere il tulio puro fu un''impresa di pazienza più che di ingegno. All''inizio
+      del Novecento l''americano Charles James, all''Università del New Hampshire, mise a
+      punto un metodo di cristallizzazione frazionata dei bromati e lo ripeté migliaia di
+      volte: ogni passaggio arricchiva la frazione di una quantità minima, e per arrivare
+      al campione puro del 1911 si stima che ne abbia eseguiti circa quindicimila. È il tipo
+      di lavoro che nessuno rifarebbe oggi, e che le resine a scambio ionico avrebbero sbrigato
+      in un pomeriggio quarant''anni dopo.'
+    visual: File di cristallizzatori su un lungo bancone di laboratorio
+    attendibilita: documentato
+  - id: il_metallo
+    sezione: storia
+    testo: Il metallo vero e proprio arrivò più tardi ancora, nel 1936, per mano di Wilhelm
+      Klemm e Heinrich Bommer, che in quegli anni stavano ricavando uno dopo l'altro i metalli
+      dei lantanidi riducendone i cloruri anidri. Fra l'annuncio di Cleve e il primo pezzo
+      di tulio metallico passarono cinquantasette anni.
+    visual: Un crogiolo con cloruro anidro e vapori di potassio
+    attendibilita: documentato
+  - id: il_piu_raro
+    sezione: caratteristiche
+    testo: 'Con circa mezza parte per milione nella crosta terrestre il tulio è il meno abbondante
+      dei lantanidi, se si esclude il promezio, che è radioattivo e in natura praticamente
+      non esiste. La sua rarità però non è di quelle drammatiche: è comunque più comune di
+      argento, oro e platino, e la ragione per cui costa è che va separato da tredici elementi
+      che gli somigliano.'
+    visual: Un grafico dell'abbondanza dei lantanidi nella crosta terrestre
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente si comporta come i suoi vicini: cede tre elettroni e forma ioni Tm³⁺,
+      i cui sali sono di un verde pallido; in condizioni riducenti può scendere allo stato
+      +2, come fanno anche europio, samario e itterbio. È tenero, malleabile, argenteo, e
+      all''aria si ossida lentamente.'
+    visual: Sali di tulio verde pallido in una capsula di porcellana
+    attendibilita: documentato
+  - id: effetto_di_contrazione
+    sezione: caratteristiche
+    testo: 'Il tulio sta quasi in fondo alla serie dei lantanidi, dove la cosiddetta contrazione
+      lantanidica ha già fatto il suo lavoro: man mano che il guscio f si riempie, gli ioni
+      diventano progressivamente più piccoli invece di crescere. È questa contrazione a rendere
+      i lantanidi pesanti così simili fra loro e così difficili da separare, ed è anche la
+      ragione per cui gli elementi del periodo successivo hanno raggi atomici inaspettatamente
+      piccoli.'
+    visual: Un grafico dei raggi ionici lungo la serie dei lantanidi
+    attendibilita: documentato
+  - id: usi_raggi_x
+    sezione: usi
+    testo: 'L''isotopo tulio-170 si produce irraggiando il tulio naturale in un reattore,
+      ed emette raggi X di energia adatta alla radiografia: sigillato in una capsula diventa
+      una sorgente portatile che funziona per circa un anno senza corrente elettrica. Si usa
+      per controllare saldature e componenti dove un apparecchio radiologico non arriva —
+      dentro una condotta, in cima a un traliccio, in un cantiere isolato — e in odontoiatria,
+      dove serve poca energia e molta maneggevolezza.'
+    visual: Una sorgente radiografica portatile in un contenitore schermato
+    attendibilita: documentato
+  - id: usi_laser
+    sezione: usi
+    testo: 'Nei cristalli laser il tulio emette intorno ai due micrometri, in una finestra
+      che l''acqua assorbe fortemente e che l''atmosfera lascia passare: se ne fanno bisturi
+      ottici per la chirurgia dei tessuti molli e telemetri e sistemi di misura che devono
+      lavorare all''aperto senza rischiare di danneggiare la vista di chi guarda.'
+    visual: Un cristallo laser drogato al tulio montato in una cavità ottica
+    attendibilita: documentato
+  - id: usi_banconote
+    sezione: usi
+    testo: 'Una parte dei composti di tulio finisce negli inchiostri di sicurezza: sotto la
+      luce ultravioletta emettono una fluorescenza blu netta e difficile da imitare, e per
+      questo sono fra le sostanze usate nelle banconote in euro come misura antifalsificazione.'
+    visual: Una banconota illuminata da una lampada ultravioletta
+    attendibilita: documentato
+  - id: costo
+    sezione: usi
+    testo: 'Nel 2005 la polvere di tulio metallico al novantanove per cento costava intorno
+      ai settanta dollari al grammo: un prezzo che non dipende dalla scarsità in natura ma
+      dal numero di passaggi di separazione necessari per arrivarci, ed è la ragione per cui
+      il tulio compare solo dove nessun altro elemento fa lo stesso lavoro.'
+    visual: Una piccola ampolla etichettata con polvere metallica
+    attendibilita: documentato
+  - id: curiosita_james
+    sezione: curiosita
+    testo: Charles James, l'uomo delle quindicimila cristallizzazioni, arrivò anche a isolare
+      il lutezio nello stesso periodo di Georges Urbain e Carl Auer von Welsbach, ma non rivendicò
+      la priorità e lasciò la disputa agli altri due. Il suo metodo di separazione, invece,
+      restò lo standard per decenni.
+    attendibilita: documentato
+  - id: curiosita_ossa
+    sezione: curiosita
+    testo: 'I lantanidi pesanti come il tulio si legano al calcio delle ossa e vi restano
+      a lungo, e per questo la loro tossicità si misura sul lungo periodo più che sull''immediato.
+      In compenso non hanno alcun ruolo biologico noto: nessun organismo, per quanto si sappia,
+      ha imparato a usarli.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Per Teodor Cleve
+    ipa: pæːr ˈteːʊdɔr ˈkleːvɛ
+    nota: Svedese.
+  - termine: Charles James
+    ipa: tʃɑːlz dʒeɪmz
+    nota: Inglese britannico.
+  - termine: Thule
+    ipa: ˈtuːle
+    nota: Dal greco Θούλη.
+composti_principali:
+- nome: Ossido di tulio
+  formula: Tm2O3
+  usi:
+  - drogaggio di cristalli laser
+  - inchiostri di sicurezza
+- nome: Cristallo Tm:YAG
+  formula: Tm:Y3Al5O12
+  usi:
+  - laser chirurgici
+  - telemetri sicuri per la vista
+fonti:
+- url: https://en.wikipedia.org/wiki/Thulium
+  titolo: Thulium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/69/thulium
+  titolo: Thulium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Charles_James_(chemist)
+  titolo: Charles James (chemist)
+  consultata: *id001

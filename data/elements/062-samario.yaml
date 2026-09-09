@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - paul-emile-lecoq-de-boisbaudran
-  luogo: null
+  luogo: Parigi, Francia
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'Lecoq de Boisbaudran ne separò l''ossido dal didimio della samarskite
+    nel 1879. L''ossido puro è del 1901, per mano di Eugène-Anatole Demarçay, e il metallo
+    del 1903, ottenuto da Wilhelm Muthmann: la samaria originale conteneva anche l''europio,
+    che Demarçay separò negli stessi anni.'
   controversia: null
 proprieta:
   gruppo: 3
@@ -29,5 +32,164 @@ proprieta:
   punto_fusione_k: 1345.0
   punto_ebollizione_k: 2173.0
   densita: 7.52
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
+  - 3
 approfondimento: false
+contenuti:
+  hook: 'È il primo elemento della tavola periodica a portare, per interposto minerale, il
+    nome di una persona: un ufficiale minerario russo che non era né chimico né scopritore
+    di nulla.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il samario è il lantanide dei magneti che non temono il caldo: le leghe con il
+      cobalto restano magnetiche oltre i settecento gradi, dove i più potenti magneti al neodimio
+      si sono già smagnetizzati da un pezzo. È anche uno dei pochi elementi che assorbono
+      neutroni abbastanza bene da avere un ruolo nel controllo dei reattori.'
+    visual: Un magnete al samario-cobalto accanto a un motore elettrico smontato
+    attendibilita: documentato
+  - id: la_samarskite
+    sezione: storia
+    testo: Negli anni Quaranta dell'Ottocento negli Urali si trovò un minerale nero e pesante
+      che fu chiamato samarskite in onore di Vasilij Samarskij-Bychovec, l'ufficiale che dirigeva
+      il corpo minerario russo e che aveva concesso ai mineralogisti tedeschi di studiarne
+      i campioni. Il nome, dato al minerale, sarebbe poi passato all'elemento.
+    visual: Un campione nero e lucente di samarskite
+    attendibilita: documentato
+  - id: lecoq_1879
+    sezione: storia
+    testo: Nel 1879, a Parigi, Paul-Émile Lecoq de Boisbaudran — lo stesso che quattro anni
+      prima aveva trovato il gallio — esaminò allo spettroscopio il didimio ricavato dalla
+      samarskite e vi individuò righe di assorbimento nuove. Ne separò l'ossido e lo chiamò
+      samaria, dal minerale.
+    visual: Uno spettroscopio con righe di assorbimento del didimio
+    attendibilita: documentato
+  - id: il_primo_nome_proprio
+    sezione: storia
+    testo: 'Con il samario, per la prima volta, un elemento chimico porta il nome di una persona.
+      La cosa avviene per due passaggi — il minerale intitolato a Samarskij, l''elemento intitolato
+      al minerale — e forse per questo passò senza le discussioni che avrebbero accompagnato
+      più tardi il gadolinio, il curio o l''einsteinio. Samarskij, per parte sua, non fece
+      mai ricerca chimica: aveva soltanto autorizzato l''invio dei campioni.'
+    visual: Il ritratto di un ufficiale russo dell'Ottocento in uniforme
+    attendibilita: documentato
+  - id: ossido_puro_e_metallo
+    sezione: storia
+    testo: 'Come per tutta la famiglia, il campione puro arrivò decenni dopo: l''ossido di
+      samario puro fu prodotto solo nel 1901 da Eugène-Anatole Demarçay, e il metallo nel
+      1903 da Wilhelm Muthmann. Nel frattempo la samaria di Lecoq de Boisbaudran si era rivelata
+      contenere anche l''europio, che Demarçay ne separò proprio in quegli anni.'
+    visual: Un laboratorio parigino di inizio Novecento con apparati di separazione
+    attendibilita: documentato
+  - id: magnetismo
+    sezione: caratteristiche
+    testo: 'La lega di samario e cobalto è il magnete permanente della tenuta termica: magnetizza
+      meno del neodimio-ferro-boro, ma non perde le proprie proprietà quando la temperatura
+      sale, e resiste alla corrosione senza bisogno di rivestimenti. Dove il calore è un problema
+      — motori aeronautici, sensori vicini a un motore, apparati militari — è ancora la scelta
+      obbligata.'
+    visual: Un magnete al samario-cobalto in un motore ad alta temperatura
+    attendibilita: documentato
+  - id: stato_due
+    sezione: caratteristiche
+    testo: Oltre allo stato +3 comune a tutti i lantanidi, il samario forma composti nello
+      stato +2, e i suoi ioni bivalenti in soluzione hanno un colore rosso sangue inconfondibile.
+      Lo ioduro di samario(II) è per questo un reagente riducente molto usato in sintesi organica,
+      dove la sua forza si legge letteralmente dal colore della soluzione, che si scarica
+      man mano che reagisce.
+    visual: Una soluzione rosso sangue di ioduro di samario in un pallone
+    attendibilita: documentato
+  - id: neutroni
+    sezione: caratteristiche
+    testo: 'Il samario-149 cattura i neutroni termici con una sezione d''urto di circa 41.000
+      barn, alta abbastanza da renderlo un veleno neutronico: nei reattori si forma come prodotto
+      di fissione e frena la reazione, e nelle barre di controllo lo si usa apposta. È un
+      caso in cui la stessa proprietà è un problema quando arriva da sola e uno strumento
+      quando la si mette dove serve.'
+    visual: Il nocciolo di un reattore con le barre di controllo inserite
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'Con sette parti per milione nella crosta terrestre il samario è il quarantesimo
+      elemento per abbondanza, più comune dello stagno. Come tutti i lantanidi si ricava da
+      monazite e bastnäsite e non ha giacimenti propri, e il suo prezzo dipende più dalla
+      domanda degli altri membri della famiglia che dalla propria: quando il mondo compra
+      neodimio per i magneti, il samario esce dalla stessa lavorazione che lo voglia o no.'
+    visual: Sabbie monazitiche in un impianto di separazione
+    attendibilita: documentato
+  - id: usi_magneti
+    sezione: usi
+    testo: 'L''impiego principale sono i magneti permanenti samario-cobalto, nati negli anni
+      Sessanta e rimasti insuperati per stabilità termica: reggono oltre i settecento gradi,
+      non si smagnetizzano con i campi esterni e non hanno bisogno di rivestimenti protettivi
+      perché non si corrodono. Stanno nei motori e nei generatori aeronautici, nelle guide
+      d''onda dei radar, nei sensori che lavorano accanto a un motore caldo e in tutti gli
+      apparati dove una smagnetizzazione costerebbe molto più del magnete. Il neodimio li
+      ha sostituiti ovunque conti la forza; dove conta la temperatura, no.'
+    visual: Un generatore aeronautico con magneti permanenti al samario
+    attendibilita: documentato
+  - id: usi_medicina_e_catalisi
+    sezione: usi
+    testo: Il samario-153, legato a una molecola che si fissa sulle ossa, si usa in medicina
+      nucleare per alleviare il dolore delle metastasi ossee irradiandole dall'interno; in
+      chimica lo ioduro di samario(II) è uno dei riducenti più versatili della sintesi organica
+      moderna, capace di reazioni che con altri reagenti non riuscirebbero.
+    visual: Una fiala di radiofarmaco in un contenitore schermato
+    attendibilita: documentato
+  - id: usi_datazione
+    sezione: usi
+    testo: Il samario-147 decade in neodimio-143 con un'emivita di oltre cento miliardi di
+      anni, e su questo si basa la datazione samario-neodimio, uno dei metodi con cui si stabilisce
+      l'età delle rocce più antiche e dei meteoriti. È lo stesso principio della datazione
+      rubidio-stronzio, applicato a una coppia che resiste meglio ai processi geologici.
+    visual: Una sezione di meteorite pronta per l'analisi isotopica
+    attendibilita: documentato
+  - id: curiosita_demarcay
+    sezione: curiosita
+    testo: 'Eugène-Anatole Demarçay, che purificò il samario e separò l''europio, era anche
+      l''uomo cui i coniugi Curie mandavano i campioni per l''analisi spettroscopica: fu lui
+      a confermare, dalle righe, che nel materiale ricavato dalla pechblenda c''era davvero
+      un elemento nuovo, cioè il radio.'
+    attendibilita: documentato
+  - id: curiosita_pozzo
+    sezione: curiosita
+    testo: 'Nei reattori nucleari l''accumulo di samario-149 dopo uno spegnimento è un fenomeno
+      che gli operatori devono conoscere: l''isotopo si forma dal decadimento dei prodotti
+      di fissione e resta lì, assorbendo neutroni, finché non viene bruciato dal flusso della
+      successiva ripartenza. È uno dei modi in cui un reattore ricorda quello che gli è successo
+      il giorno prima.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Vasilij Samarskij-Bychovec
+    ipa: vɐˈsʲilʲɪj sɐˈmarskʲɪj bɨxɐˈvʲɛt͡s
+    nota: Russo.
+  - termine: Eugène-Anatole Demarçay
+    ipa: øʒɛn anatɔl dəmaʁˈsɛ
+    nota: Francese.
+composti_principali:
+- nome: Lega samario-cobalto
+  formula: SmCo5
+  usi:
+  - magneti permanenti per alte temperature
+  - motori aeronautici
+- nome: Ioduro di samario(II)
+  formula: SmI2
+  usi:
+  - riducente in sintesi organica
+- nome: Ossido di samario
+  formula: Sm2O3
+  usi:
+  - assorbitori di neutroni
+  - vetri ottici
+  - catalizzatori
+fonti:
+- url: https://en.wikipedia.org/wiki/Samarium
+  titolo: Samarium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/62/samarium
+  titolo: Samarium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Samarium%E2%80%93neodymium_dating
+  titolo: Samarium–neodymium dating
+  consultata: *id001

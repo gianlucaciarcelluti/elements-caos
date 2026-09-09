@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - jean-charles-galissard-de-marignac
-  luogo: null
+  luogo: Ginevra, Svizzera
   epoca: spettroscopia
   isolamento_anno: 1936
-  note_cronologia: Isolato in forma pura nel 1936 da Wilhelm Klemm e Heinrich Bommer.
+  note_cronologia: Marignac separò l'itterbia dall'erbia nel 1878; nel 1907 Georges Urbain
+    la divise a sua volta in neoitterbia e lutecia, cioè nell'itterbio odierno e nel lutezio.
+    Il metallo fu ottenuto nel 1936 da Wilhelm Klemm e Heinrich Bommer, e l'itterbio quasi
+    puro solo nel 1953, con lo scambio ionico.
   controversia: null
 proprieta:
   gruppo: 3
@@ -29,5 +32,166 @@ proprieta:
   punto_fusione_k: 1097.0
   punto_ebollizione_k: 1469.0
   densita: 6.9
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
+  - 3
 approfondimento: false
+contenuti:
+  hook: Una terra chiamata erbia conteneva un elemento in più. Quando lo si tolse, ne restava
+    un'altra terra, che a sua volta ne conteneva due. Ytterby ha dato il nome a quattro elementi,
+    e questa è la storia del terzo.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'L''itterbio è uno dei lantanidi più docili: fonde a poco più di ottocento gradi,
+      cioè molto più in basso dei suoi vicini, ed è l''unico della serie che si comporta in
+      due modi diversi, cedendo tre elettroni o soltanto due. Oggi il suo compito più raffinato
+      è misurare il tempo meglio di qualunque orologio al cesio.'
+    visual: Un campione di itterbio metallico argenteo in una fiala sotto argon
+    attendibilita: documentato
+  - id: erbia_che_si_sfoglia
+    sezione: storia
+    testo: Alla fine dell'Ottocento le terre rare si comportavano come le matrioske. Dall'ittria
+      di Ytterby, Mosander aveva ricavato nel 1843 erbia e terbia; trentacinque anni dopo
+      l'erbia era ancora considerata l'ossido di un elemento solo, ma le sue proprietà misurate
+      non tornavano mai del tutto.
+    visual: Una serie di capsule con precipitati bianchi quasi identici
+    attendibilita: documentato
+  - id: marignac_1878
+    sezione: storia
+    testo: 'Nel 1878 Jean Charles Galissard de Marignac, a Ginevra, riprese l''erbia ricavata
+      dalla gadolinite e ne separò per via chimica una componente che si comportava diversamente
+      dal resto: sfruttò il fatto che i nitrati dei diversi lantanidi si decompongono a temperature
+      leggermente diverse, un margine sottilissimo su cui costruire una separazione. La chiamò
+      itterbia, ancora una volta dal nome del villaggio svedese da cui tutta la faccenda era
+      partita.'
+    visual: Il laboratorio ginevrino di un chimico dell'Ottocento
+    attendibilita: documentato
+  - id: ytterby_conta
+    sezione: storia
+    testo: Quattro elementi portano nel nome pezzi della parola Ytterby — ittrio, itterbio,
+      terbio ed erbio — e altri cinque, scandio, olmio, tulio, gadolinio e tantalio, furono
+      individuati per la prima volta in minerali di quel giacimento. Una cava di feldspato
+      lunga poche centinaia di metri ha lasciato nella tavola periodica più tracce di qualunque
+      altro luogo della Terra.
+    visual: La targa commemorativa all'ingresso della cava di Ytterby
+    attendibilita: documentato
+  - id: urbain_1907
+    sezione: storia
+    testo: 'Nemmeno l''itterbia era finita. Nel 1907 il francese Georges Urbain la divise
+      a sua volta in due componenti, che chiamò neoitterbia e lutecia: la prima è l''itterbio
+      che conosciamo oggi, la seconda è il lutezio. In poco più di sessant''anni una singola
+      terra si era sfogliata in una mezza dozzina di elementi, e ogni volta i chimici avevano
+      creduto di essere arrivati in fondo.'
+    visual: Uno schema ad albero delle terre rare che si dividono in successione
+    attendibilita: documentato
+  - id: il_metallo
+    sezione: storia
+    testo: Il metallo arrivò nel 1936, per mano di Wilhelm Klemm e Heinrich Bommer, gli stessi
+      che in quegli anni stavano ricavando i metalli di mezza serie dei lantanidi. L'itterbio
+      davvero puro, però, si ottenne solo nel 1953, quando le resine a scambio ionico resero
+      possibile in poche ore ciò che prima richiedeva migliaia di cristallizzazioni.
+    visual: Colonne di scambio ionico in un laboratorio degli anni Cinquanta
+    attendibilita: documentato
+  - id: due_stati
+    sezione: caratteristiche
+    testo: 'Nella serie dei lantanidi l''itterbio è uno dei pochi che, oltre allo stato +3
+      comune a tutti, forma composti stabili anche allo stato +2: il suo guscio f è completo
+      con quattordici elettroni, e cedendone solo due l''atomo raggiunge una configurazione
+      particolarmente stabile. È la stessa ragione per cui fonde e bolle molto più in basso
+      dei vicini.'
+    visual: Due soluzioni di sali di itterbio di colore diverso a confronto
+    attendibilita: documentato
+  - id: sotto_pressione
+    sezione: caratteristiche
+    testo: 'Ha un comportamento elettrico insolito: compresso a circa quarantamila atmosfere
+      la sua resistività aumenta di dieci volte, poi crolla a un decimo del valore che ha
+      a pressione ordinaria. Su questa curva si costruiscono i sensori che misurano pressioni
+      estreme, dove nessun altro materiale dà una risposta così netta.'
+    visual: Un sensore di pressione a itterbio dentro una pressa idraulica
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'Nella crosta terrestre è a circa tre parti per milione, come gli altri lantanidi
+      pesanti, e si ricava dalla monazite, dallo xenotime e dalle argille ad adsorbimento
+      ionico. Come tutta la famiglia non ha giacimenti propri: si separa dagli altri per scambio
+      ionico o per estrazione con solventi, cioè con i due metodi che negli anni Cinquanta
+      hanno reso ordinario ciò che prima era eroico.'
+    visual: Impianti di estrazione con solventi per la separazione delle terre rare
+    attendibilita: documentato
+  - id: usi_orologi
+    sezione: usi
+    testo: 'Un orologio atomico ottico all''itterbio conta le oscillazioni della luce invece
+      che delle microonde, e siccome la luce oscilla centomila volte più in fretta, la stessa
+      incertezza relativa vale un errore molto più piccolo: gli orologi all''itterbio del
+      NIST sono stabili entro meno di due parti su un trilione, cioè sbaglierebbero meno di
+      un secondo in tutta l''età dell''universo. È su strumenti di questo tipo che si sta
+      discutendo la prossima definizione del secondo, oggi ancora affidata al cesio.'
+    visual: Una trappola ottica per atomi di itterbio in un laboratorio di metrologia
+    attendibilita: documentato
+  - id: usi_laser
+    sezione: usi
+    testo: 'Nelle fibre ottiche drogate all''itterbio si costruiscono i laser industriali
+      più potenti in commercio, che arrivano a diversi kilowatt in fascio continuo: tagliano
+      e saldano l''acciaio, e hanno soppiantato in gran parte i laser a CO₂ perché il fascio
+      si porta dove serve dentro una fibra invece che con specchi.'
+    visual: Un laser in fibra che taglia una lamiera d'acciaio
+    attendibilita: documentato
+  - id: usi_metallurgia
+    sezione: usi
+    testo: 'Gli altri impieghi sono minori ma vecchi: piccole aggiunte di itterbio affinano
+      il grano degli acciai inossidabili e ne migliorano le proprietà meccaniche, il fluoruro
+      fa da riempitivo radiopaco nelle otturazioni dentali, e l''isotopo itterbio-169 serve
+      come sorgente portatile di raggi gamma per la radiografia industriale, dove si deve
+      controllare una saldatura in cima a un traliccio o dentro una condotta e non c''è corrente
+      elettrica per alimentare un tubo a raggi X.'
+    visual: Un contenitore schermato per sorgenti gamma portatili
+    attendibilita: documentato
+  - id: curiosita_marignac
+    sezione: curiosita
+    testo: 'Marignac non diede mai il proprio nome a nulla, e agli elementi che trovò ne diede
+      altri: itterbio dal villaggio, gadolinio dal minerale. Fu però lui, misurando pesi atomici
+      con una precisione che i contemporanei non raggiungevano, a fornire a Mendeleev buona
+      parte dei numeri su cui la tavola periodica è stata costruita.'
+    attendibilita: documentato
+  - id: curiosita_terre_infinite
+    sezione: curiosita
+    testo: Fra il 1839 e il 1907, da un'unica pietra nera raccolta a Ytterby uscirono nove
+      elementi, ciascuno annunciato come definitivo. Ogni volta serviva uno strumento nuovo
+      — prima le cristallizzazioni ripetute, poi lo spettroscopio, infine lo scambio ionico
+      — e ogni volta l'ultimo residuo si rivelava ancora divisibile.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Jean Charles Galissard de Marignac
+    ipa: ʒɑ̃ ʃaʁl ɡalisaʁ də maʁiˈɲak
+    nota: Francese.
+  - termine: Georges Urbain
+    ipa: ʒɔʁʒ yʁˈbɛ̃
+    nota: Francese.
+  - termine: Ytterby
+    ipa: ˈʏtːɛrbʏ
+    nota: Svedese.
+composti_principali:
+- nome: Ossido di itterbio
+  formula: Yb2O3
+  usi:
+  - drogaggio di laser in fibra
+  - vetri e ceramiche speciali
+- nome: Fluoruro di itterbio
+  formula: YbF3
+  usi:
+  - riempitivo radiopaco per otturazioni dentali
+- nome: Ioduro di itterbio(II)
+  formula: YbI2
+  usi:
+  - riducente in sintesi organica
+fonti:
+- url: https://en.wikipedia.org/wiki/Ytterbium
+  titolo: Ytterbium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/70/ytterbium
+  titolo: Ytterbium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ytterby
+  titolo: Ytterby
+  consultata: *id001
