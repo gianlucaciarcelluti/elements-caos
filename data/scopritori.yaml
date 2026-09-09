@@ -322,6 +322,7 @@
   - 100
   - 101
   - 102
+  - 106
   ritratto:
     autore: Atomic Energy Commission. (1946 - 01/19/1975)
     file: glenn-seaborg.jpg
@@ -836,6 +837,7 @@
   nazionalita: norvegese
   elementi:
   - 102
+  - 103
 - id: john-walton
   nome: John R. Walton
   nato: null
@@ -843,3 +845,24 @@
   nazionalita: null
   elementi:
   - 102
+- id: almon-larsh
+  nome: Almon E. Larsh
+  nato: null
+  morto: null
+  nazionalita: null
+  elementi:
+  - 103
+- id: robert-latimer
+  nome: Robert M. Latimer
+  nato: null
+  morto: null
+  nazionalita: null
+  elementi:
+  - 103
+- id: kenneth-hulet
+  nome: E. Kenneth Hulet
+  nato: null
+  morto: null
+  nazionalita: null
+  elementi:
+  - 106

@@ -4,7 +4,7 @@ simbolo: Sg
 numero_atomico: 106
 anno_scoperta: 1974
 anno_stimato: false
-scopritori: [Albert Ghiorso]
+scopritori: [Albert Ghiorso, E. Kenneth Hulet, Glenn Seaborg]
 epoca: Era nucleare
 categoria: metallo_di_transizione
 gruppo: 6
@@ -28,7 +28,7 @@ aliases: [Sg, Seaborgium]
 ```mermaid
 timeline
     title Scoperta del Seaborgio
-    1974 : Scoperta : Albert Ghiorso
+    1974 : Scoperta : Albert Ghiorso, E. Kenneth Hulet, Glenn Seaborg
 ```
 
 ## Storia della scoperta
@@ -82,7 +82,7 @@ flowchart TB
 ← Precedente: [[Dubnio]] (1970)
 → Successivo: [[Bohrio]] (1981)
 
-Epoca: [[Era nucleare]] · Scopritore: [[Albert Ghiorso]]
+Epoca: [[Era nucleare]] · Scopritori: [[Albert Ghiorso]], [[E. Kenneth Hulet]], [[Glenn Seaborg]]
 
 ## Fonti
 

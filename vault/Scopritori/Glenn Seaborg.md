@@ -23,5 +23,6 @@ Statunitense, 1912–1999.
 - [[Fermio]] (Fm) — 1952
 - [[Mendelevio]] (Md) — 1955
 - [[Nobelio]] (No) — 1958
+- [[Seaborgio]] (Sg) — 1974
 
 ← Torna a [[Cronologia degli elementi]]

@@ -1,18 +1,14 @@
 ---
-titolo: Torbjørn Sikkeland
+titolo: Almon E. Larsh
 tipo: scopritore
-nato: 1923
-morto: 2014
 tags: [scopritore]
 ---
 
-# Torbjørn Sikkeland
+# Almon E. Larsh
 
-Norvegese, 1923–2014.
 
 ## Elementi scoperti
 
-- [[Nobelio]] (No) — 1958
 - [[Laurenzio]] (Lr) — 1961
 
 ← Torna a [[Cronologia degli elementi]]

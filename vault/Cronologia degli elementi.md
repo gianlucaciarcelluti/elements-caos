@@ -158,10 +158,10 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 100 | 1952 | [[Fermio]] (Fm) | [[Albert Ghiorso]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
 | 101 | 1955 | [[Mendelevio]] (Md) | [[Albert Ghiorso]], [[Bernard George Harvey]], [[Gregory Robert Choppin]], [[Stanley Gerald Thompson]], [[Glenn Seaborg]] |
 | 102 | 1958 | [[Nobelio]] (No) | [[Albert Ghiorso]], [[Torbjørn Sikkeland]], [[John R. Walton]], [[Glenn Seaborg]] |
-| 103 | 1961 | [[Laurenzio]] (Lr) | [[Albert Ghiorso]] |
+| 103 | 1961 | [[Laurenzio]] (Lr) | [[Albert Ghiorso]], [[Torbjørn Sikkeland]], [[Almon E. Larsh]], [[Robert M. Latimer]] |
 | 104 | 1969 | [[Rutherfordio]] (Rf) | [[Georgy Flerov]], [[Albert Ghiorso]] |
 | 105 | 1970 | [[Dubnio]] (Db) | [[Georgy Flerov]], [[Albert Ghiorso]] |
-| 106 | 1974 | [[Seaborgio]] (Sg) | [[Albert Ghiorso]] |
+| 106 | 1974 | [[Seaborgio]] (Sg) | [[Albert Ghiorso]], [[E. Kenneth Hulet]], [[Glenn Seaborg]] |
 | 107 | 1981 | [[Bohrio]] (Bh) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 108 | 1982 | [[Meitnerio]] (Mt) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 109 | 1984 | [[Hassio]] (Hs) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |

@@ -7,10 +7,18 @@ scoperta:
   anno_stimato: false
   scopritori:
   - albert-ghiorso
-  luogo: null
+  - torbjorn-sikkeland
+  - almon-larsh
+  - robert-latimer
+  luogo: Berkeley, California
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Rivendicato da Berkeley il 14 febbraio 1961 da Ghiorso, Sikkeland, Larsh
+    e Latimer — la cronologia di riferimento li comprimeva in «Ghiorso et al.» — con l'isotopo
+    indicato come laurenzio-257, attribuzione poi corretta in laurenzio-258. Dubna raggiunse
+    l'elemento nel 1965 e ne dimostrò la chimica da attinide; nel 1992 il Transfermium Working
+    Group ha assegnato a Berkeley e Dubna un credito condiviso. Il simbolo è passato da Lw
+    a Lr nel 1963.
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +38,176 @@ proprieta:
   punto_fusione_k: 1900.0
   punto_ebollizione_k: null
   densita: null
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
 approfondimento: false
+contenuti:
+  hook: Il 14 febbraio 1961 Berkeley annunciò l'elemento 103 e sbagliò a dire quale isotopo
+    avesse fatto. L'elemento è rimasto, l'isotopo no, e la scoperta è sopravvissuta all'errore.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: Il laurenzio occupa l'ultima casella degli attinidi, e da lì guarda un confine
+      che non è mai stato tracciato con sicurezza. È l'elemento con cui finisce una delle
+      due file staccate in fondo alla tavola periodica, ed è anche quello su cui si discute
+      se debba stare lì oppure risalire nel corpo principale, accanto allo scandio e all'ittrio.
+    visual: Il fondo di una tavola periodica con le due file separate degli attinidi
+    attendibilita: documentato
+  - id: il_bersaglio
+    sezione: storia
+    testo: L'esperimento del 1961 usò un bersaglio di tre milligrammi di californio — una
+      quantità enorme per gli standard di questa parte della tavola — composto da tre isotopi
+      diversi, bombardato con ioni di boro-10 e boro-11 accelerati dall'acceleratore lineare
+      per ioni pesanti di Berkeley. Gli atomi prodotti rinculavano su un nastro metallico
+      che li portava davanti a una fila di rivelatori, un pezzo di nastro alla volta.
+    visual: Un nastro metallico che scorre davanti a una fila di rivelatori
+    attendibilita: documentato
+  - id: l_annuncio
+    sezione: storia
+    testo: L'annuncio uscì il 14 febbraio 1961 a firma di Albert Ghiorso, Torbjørn Sikkeland,
+      Almon Larsh e Robert Latimer. Il gruppo dichiarava di aver prodotto il laurenzio-257,
+      riconosciuto da particelle alfa da 8,6 megaelettronvolt con un'emivita di otto secondi,
+      e propose per l'elemento il nome del fondatore del laboratorio, Ernest Lawrence, morto
+      nel 1958.
+    visual: La prima pagina di un articolo scientifico del 1961
+    attendibilita: documentato
+  - id: l_isotopo_sbagliato
+    sezione: storia
+    testo: 'Il lavoro successivo dimostrò che quell''isotopo non poteva essere il laurenzio-257,
+      perché il laurenzio-257 non si comporta così: l''attività osservata apparteneva quasi
+      certamente al laurenzio-258. È una distinzione che sembra minima e non lo è, perché
+      in questa parte della tavola l''identità di un elemento si stabilisce proprio riconoscendo
+      l''isotopo e la sua catena di decadimento. La scoperta ha retto, l''identificazione
+      no.'
+    visual: Uno schema di due catene di decadimento a confronto
+    attendibilita: documentato
+  - id: dubna
+    sezione: storia
+    testo: 'A Dubna il gruppo di Georgij Flërov arrivò all''elemento 103 nel 1965, per una
+      strada diversa: americio-243 bombardato con ioni di ossigeno-18, che produce il laurenzio-256.
+      I sovietici contestarono i dati americani, proposero per l''elemento il nome rutherfordium
+      — che più tardi sarebbe finito sulla casella successiva — e negli anni seguenti condussero
+      gli esperimenti di chimica che dimostrarono che il 103 è davvero l''ultimo degli attinidi.'
+    visual: Il logo dell'Istituto unificato per le ricerche nucleari di Dubna
+    attendibilita: documentato
+  - id: il_verdetto
+    sezione: storia
+    testo: Nel 1992 il Transfermium Working Group assegnò il credito della scoperta a entrambi
+      i laboratori, riconoscendo che nessuna delle due rivendicazioni iniziali era conclusiva
+      da sola e che la certezza era arrivata solo con gli esperimenti di Berkeley del 1971.
+      Il nome, ormai in uso da trent'anni, restò quello proposto per primo; il simbolo invece
+      cambiò, da Lw a Lr, nel 1963.
+    visual: Due sigle di laboratorio affiancate su un documento ufficiale
+    attendibilita: documentato
+  - id: dove_finisce_la_fila
+    sezione: storia
+    testo: Resta invece aperta la domanda su dove vada messo. La tavola periodica che si trova
+      nelle aule chiude gli attinidi con il laurenzio e mette il lutezio in fondo ai lantanidi,
+      ma molti chimici sostengono che laurenzio e lutezio appartengano al gruppo 3, sotto
+      lo scandio e l'ittrio, e che la fila separata debba finire una casella prima. La questione
+      riguarda il disegno stesso della tavola, non un dettaglio di nomenclatura, e non è chiusa.
+    visual: Due versioni della tavola periodica a confronto sul gruppo 3
+    attendibilita: discusso
+  - id: solo_il_tre
+    sezione: caratteristiche
+    testo: 'In soluzione il laurenzio esiste soltanto come ione trivalente, e a differenza
+      dei suoi vicini non si lascia portare né al +2 né a stati superiori: è l''unico stato
+      di ossidazione che gli si conosca. Negli esperimenti di eluizione si comporta come gli
+      altri attinidi trivalenti, con una particolarità: il suo raggio ionico, misurato in
+      88,1 picometri, è più grande di quanto l''andamento della serie facesse prevedere.'
+    visual: Una colonna cromatografica con le frazioni raccolte in sequenza
+    attendibilita: documentato
+  - id: configurazione_anomala
+    sezione: caratteristiche
+    testo: 'L''anomalia ha una spiegazione che riguarda la velocità degli elettroni. In un
+      atomo così pesante gli elettroni più interni si muovono a una frazione notevole della
+      velocità della luce, e la relatività cambia l''energia degli orbitali: nel laurenzio
+      l''ultimo elettrone non va nell''orbitale d, come farebbe seguendo la regola che vale
+      per il lutezio, ma in un orbitale p. La configurazione risulta [Rn] 5f14 7s2 7p1, ed
+      è un caso raro di eccezione prevista dalla teoria prima di essere osservata.'
+    visual: Uno schema degli orbitali con il livello p occupato al posto del d
+    attendibilita: documentato
+  - id: la_misura_del_2015
+    sezione: caratteristiche
+    testo: 'Nel 2015 un gruppo giapponese è riuscito a misurare l''energia con cui il laurenzio
+      perde il primo elettrone, lavorando su atomi singoli di laurenzio-256: 4,96 elettronvolt,
+      il valore più basso fra tutti i lantanidi e tutti gli attinidi. Un elettrone così debolmente
+      legato è esattamente ciò che ci si aspetta da un atomo con un guscio f completo e un
+      solo elettrone sopra, ed è l''argomento sperimentale più forte a favore del laurenzio
+      nel blocco d.'
+    visual: Un apparato per la misura del potenziale di ionizzazione su atomi singoli
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: Si conoscono una quindicina di isotopi del laurenzio. Il più longevo è il laurenzio-266,
+      che con circa undici ore di emivita è uno dei nuclidi più durevoli di questa regione
+      della tavola, ma se ne producono pochissimi atomi; per la chimica si usa il laurenzio-260,
+      che dura meno di tre minuti ma si ottiene in quantità sufficienti a fare un esperimento.
+    visual: Una tabella di isotopi con emivite da secondi a ore
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Del laurenzio non si è mai prodotta una quantità visibile e non se ne prevede
+      alcun uso: serve unicamente agli esperimenti che lo riguardano. Il metallo non esiste,
+      i composti si conoscono solo in soluzione e le proprietà fisiche tabulate sono calcoli.'
+    visual: Un laboratorio di chimica degli elementi pesanti dietro un vetro schermato
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: Ma è uno degli elementi che più servono alla teoria. Il laurenzio è il punto in
+      cui la relatività smette di essere una correzione e diventa la spiegazione principale
+      del comportamento chimico, e ogni misura che gli si strappa — il raggio ionico, l'energia
+      di ionizzazione, la resistenza a cambiare stato di ossidazione — mette alla prova i
+      modelli che dovranno prevedere gli elementi ancora più pesanti, dove esperimenti come
+      questi diventano quasi impossibili.
+    visual: Il confronto fra una curva calcolata e alcuni punti sperimentali
+    attendibilita: documentato
+  - id: curiosita_lawrence
+    sezione: curiosita
+    testo: 'Ernest Lawrence inventò il ciclotrone nel 1930, e con quella macchina cominciò
+      la fabbricazione degli elementi: il tecnezio, il primo elemento artificiale, uscì da
+      un pezzo del suo ciclotrone spedito a Palermo. Gli acceleratori che hanno prodotto tutti
+      i transuranici discendono da quella invenzione, e l''elemento che porta il suo nome
+      è stato fatto con uno di essi.'
+    visual: Ernest Lawrence accanto al primo ciclotrone
+    attendibilita: documentato
+  - id: curiosita_simbolo
+    sezione: curiosita
+    testo: 'Il laurenzio è uno dei pochi elementi ad aver cambiato simbolo dopo il battesimo.
+      Berkeley aveva scelto Lw, con la doppia v che in inglese si legge naturalmente, ma quella
+      lettera non esiste nell''alfabeto latino classico e non compare in molte lingue: nel
+      1963 la IUPAC la sostituì con Lr, che è il simbolo in uso oggi. La stessa sorte era
+      toccata al mendelevio, passato da Mv a Md sei anni prima.'
+    visual: Due caselle di tavola periodica con i simboli Lw e Lr a confronto
+    attendibilita: documentato
+  pronuncia:
+  - termine: Ernest Lawrence
+    ipa: ˈɜːnɪst ˈlɒrəns
+    nota: Inglese americano.
+  - termine: Torbjørn Sikkeland
+    ipa: ˈtuːrbjœɳ ˈsɪkəlɑn
+    nota: Norvegese.
+composti_principali:
+- nome: Ione laurenzio(III)
+  formula: Lr³⁺
+  usi:
+  - esperimenti di eluizione a scambio ionico
+  - misura del raggio ionico
+- nome: Fluoruro di laurenzio
+  formula: LrF₃
+  usi:
+  - studi di coprecipitazione con i fluoruri degli attinidi trivalenti
+- nome: Laurenzio-260
+  formula: 260Lr
+  usi:
+  - esperimenti di chimica su pochi atomi
+fonti:
+- url: https://en.wikipedia.org/wiki/Lawrencium
+  titolo: Lawrencium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/103/lawrencium
+  titolo: Lawrencium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Group_3_element
+  titolo: Group 3 element
+  consultata: *id001

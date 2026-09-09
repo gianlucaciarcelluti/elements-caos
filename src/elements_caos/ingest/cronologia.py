@@ -878,14 +878,45 @@ CRONOLOGIA: list[VoceCronologia] = [
         "nucleare",
         nome="Nobelio",
     ),
-    VoceCronologia(103, 1961, False, ["albert-ghiorso"], "nucleare", nome="Laurenzio"),
+    # "Ghiorso et al." nella trascrizione originale: qui i quattro autori dell'articolo
+    # del 1961 che annuncia l'elemento 103. Il Transfermium Working Group ha poi
+    # riconosciuto la scoperta a Berkeley e Dubna insieme, e la nota lo racconta.
     VoceCronologia(
-        104, 1969, False, ["georgy-flerov", "albert-ghiorso"], "nucleare", nome="Rutherfordio"
+        103,
+        1961,
+        False,
+        ["albert-ghiorso", "torbjorn-sikkeland", "almon-larsh", "robert-latimer"],
+        "nucleare",
+        nome="Laurenzio",
+    ),
+    VoceCronologia(
+        # Rutherfordio e dubnio restano attribuiti ai due capi squadra: il Transfermium
+        # Working Group ha assegnato a Berkeley e Dubna un credito condiviso, e le fonti
+        # non isolano un elenco simmetrico di nomi per le due parti. La condivisione e
+        # dichiarata in note_cronologia.
+        104,
+        1969,
+        False,
+        ["georgy-flerov", "albert-ghiorso"],
+        "nucleare",
+        nome="Rutherfordio",
     ),
     VoceCronologia(
         105, 1970, False, ["georgy-flerov", "albert-ghiorso"], "nucleare", nome="Dubnio"
     ),
-    VoceCronologia(106, 1974, False, ["albert-ghiorso"], "nucleare", nome="Seaborgio"),
+    # "Ghiorso et al." nella trascrizione originale. L'articolo del 1974 e firmato da otto
+    # autori di Berkeley e Livermore; qui restano i tre nomi che le fonti secondarie
+    # isolano sempre, e la collaborazione fra i due laboratori e dichiarata in
+    # note_cronologia, come per einsteinio e fermio. Seaborg e fra i coautori
+    # dell'articolo che annuncia l'elemento che porta il suo nome.
+    VoceCronologia(
+        106,
+        1974,
+        False,
+        ["albert-ghiorso", "kenneth-hulet", "glenn-seaborg"],
+        "nucleare",
+        nome="Seaborgio",
+    ),
     VoceCronologia(
         107, 1981, False, ["peter-armbruster", "gottfried-munzenberg"], "nucleare", nome="Bohrio"
     ),
