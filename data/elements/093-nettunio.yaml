@@ -8,10 +8,13 @@ scoperta:
   scopritori:
   - edwin-mcmillan
   - philip-abelson
-  luogo: null
+  luogo: Berkeley, California
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Primo elemento transuranico prodotto. Le attività osservate da Fermi nel
+    1934, interpretate all'epoca come elementi oltre l'uranio, erano in realtà frammenti di
+    fissione. McMillan e Abelson dimostrarono nel 1940 che il nuovo decadimento a 2,3 giorni
+    apparteneva alla casella 93.
   controversia: null
 proprieta:
   gruppo: 3
@@ -31,5 +34,164 @@ proprieta:
   punto_fusione_k: 912.0
   punto_ebollizione_k: 4447.0
   densita: 20.45
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 approfondimento: false
+contenuti:
+  hook: 'Fermi credeva di averlo fatto nel 1934, e prese il Nobel anche per quello. In realtà
+    aveva spezzato l''uranio senza accorgersene: il primo elemento oltre l''uranio arrivò
+    sei anni dopo, a Berkeley.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il nettunio è il primo elemento oltre l''uranio, e il primo transuranico mai prodotto:
+      da lui in poi la tavola periodica smette di essere l''inventario di ciò che la Terra
+      contiene. Prende il nome dal pianeta che segue Urano, e apre una serie che arriverà
+      fino alla casella 118.'
+    visual: Il ciclotrone di Berkeley con un bersaglio di ossido d'uranio
+    attendibilita: documentato
+  - id: l_equivoco_di_fermi
+    sezione: storia
+    testo: 'Nel 1934 Enrico Fermi bombardò l''uranio con neutroni e osservò attività radioattive
+      nuove, che interpretò come elementi più pesanti dell''uranio; li chiamò ausonio ed esperio,
+      e il Nobel del 1938 cita anche quel risultato. La lettura era sbagliata: ciò che aveva
+      prodotto erano frammenti di fissione, cioè nuclei spezzati in due, come Ida Noddack
+      aveva suggerito inutilmente nello stesso anno. La fissione fu riconosciuta solo alla
+      fine del 1938, da Hahn e Strassmann con l''interpretazione di Lise Meitner, e a quel
+      punto la domanda su che cosa ci fosse davvero oltre l''uranio tornò aperta.'
+    visual: Un apparato per l'irraggiamento con neutroni degli anni Trenta
+    attendibilita: documentato
+  - id: mcmillan_1940
+    sezione: storia
+    testo: 'Nel 1940, a Berkeley, Edwin McMillan bombardò uranio con neutroni nel ciclotrone
+      e osservò due decadimenti: uno era l''uranio-239, già noto, l''altro aveva un''emivita
+      di 2,3 giorni e non corrispondeva a nulla. Trattando il campione con acido fluoridrico
+      in presenza di un riducente, la sostanza precipitava insieme all''uranio invece che
+      con le terre rare: non era un frammento di fissione, era qualcosa di nuovo.'
+    visual: Un chimico che esegue una precipitazione con acido fluoridrico
+    attendibilita: documentato
+  - id: abelson
+    sezione: storia
+    testo: 'Fu Philip Abelson, chimico, a completare la dimostrazione: il comportamento della
+      sostanza somigliava a quello dell''uranio, non a quello di nessun elemento noto delle
+      terre rare, e l''unica collocazione possibile era la casella 93. I due pubblicarono
+      nello stesso 1940, ed era la prima volta che l''uomo aggiungeva una casella oltre il
+      limite della tavola naturale.'
+    visual: Un banco di radiochimica con provette e contatori
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome venne dall''astronomia, per continuare una serie già cominciata: l''uranio
+      era stato battezzato per Urano, e l''elemento successivo prese il nome di Nettuno, il
+      pianeta che nel sistema solare viene dopo. L''elemento seguente, il 94, avrebbe preso
+      quello di Plutone, e con lui la sequenza si sarebbe fermata.'
+    visual: I pianeti esterni del sistema solare in fila
+    attendibilita: documentato
+  - id: apre_la_serie
+    sezione: storia
+    testo: 'La scoperta del nettunio e, pochi mesi dopo, del plutonio dimostrò che gli elementi
+      oltre l''uranio non erano semplicemente metalli di transizione più pesanti, come la
+      tavola periodica dell''epoca lasciava intendere collocandoli sotto renio, osmio e iridio.
+      Erano una serie a sé, analoga a quella dei lantanidi: è la serie degli attinidi, che
+      Glenn Seaborg avrebbe proposto pochi anni dopo, riscrivendo la forma stessa della tavola
+      periodica e spostando quattordici elementi in una riga a parte.'
+    visual: Le due righe di lantanidi e attinidi staccate in fondo alla tavola
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'L''isotopo più importante è il nettunio-237, con un''emivita di 2,14 milioni di
+      anni: abbastanza lunga da permettere di accumularlo e studiarlo, abbastanza breve perché
+      in natura ne resti solo qualche traccia. Si forma in quantità nei reattori nucleari
+      come sottoprodotto, e oggi ne esistono decine di tonnellate nel combustibile esausto
+      del mondo.'
+    visual: Elementi di combustibile nucleare esausto in deposito
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'È un metallo argenteo, denso e reattivo, con una chimica insolitamente ricca per
+      un attinide: forma composti in cinque stati di ossidazione diversi, dal +3 al +7, e
+      in soluzione il +5 è il più stabile. Ogni stato ha un colore proprio, e nella stessa
+      soluzione possono coesistere più stati contemporaneamente, il che rende la sua chimica
+      notoriamente scomoda.'
+    visual: Soluzioni di nettunio in stati di ossidazione diversi, di colori diversi
+    attendibilita: documentato
+  - id: in_natura
+    sezione: caratteristiche
+    testo: 'Tracce di nettunio esistono nei minerali di uranio, prodotte quando un nucleo
+      di uranio cattura un neutrone liberato dalla fissione spontanea di un altro. Sono quantità
+      infinitesime, ma dimostrano che la distinzione fra elementi naturali e artificiali è
+      meno netta di quanto sembri: alcuni transuranici la natura li produce, semplicemente
+      non li conserva.'
+    visual: Un minerale di uranio al microscopio
+    attendibilita: documentato
+  - id: criticita
+    sezione: caratteristiche
+    testo: 'Il nettunio-237 è fissile, con una massa critica di una sessantina di chilogrammi:
+      non è mai stato usato per costruire armi, ma la sua accumulazione nel combustibile esausto
+      è uno dei motivi per cui il materiale nucleare civile viene contabilizzato e controllato
+      con tanta attenzione.'
+    visual: Un deposito controllato di materiali nucleari
+    attendibilita: documentato
+  - id: usi_plutonio_238
+    sezione: usi
+    testo: 'L''impiego principale è fare da materia prima per un altro elemento: irraggiando
+      nettunio-237 con neutroni si ottiene plutonio-238, che è l''isotopo dei generatori termoelettrici
+      delle sonde spaziali. Le missioni verso i pianeti esterni, dove il Sole è troppo lontano
+      perché i pannelli solari bastino, si alimentano con il calore di quel decadimento e
+      funzionano per decenni: il nettunio è l''anello che rende possibile produrlo, e la sua
+      disponibilità è uno dei vincoli reali dei programmi di esplorazione.'
+    visual: Il generatore termoelettrico di una sonda spaziale
+    attendibilita: documentato
+  - id: usi_rivelatori
+    sezione: usi
+    testo: 'L''altro impiego è la rivelazione: il nettunio-237 serve nei rivelatori di neutroni
+      ad alta energia, dove la sua risposta alla fissione permette di misurare flussi che
+      altri materiali non distinguono. Sono usi da laboratorio e da impianto, misurati in
+      grammi.'
+    visual: Una camera a fissione per la misura dei flussi neutronici
+    attendibilita: documentato
+  - id: curiosita_pianeti
+    sezione: curiosita
+    testo: 'La serie astronomica dei nomi si è fermata a Plutone perché dopo il 94 gli elementi
+      hanno cominciato a essere intitolati a persone e luoghi: americio, curio, berkelio,
+      californio. Se la logica planetaria fosse continuata, oggi avremmo elementi con nomi
+      di corpi celesti che nel frattempo hanno perso lo statuto di pianeta.'
+    attendibilita: documentato
+  - id: curiosita_abelson
+    sezione: curiosita
+    testo: Philip Abelson, il chimico che completò la dimostrazione, avrebbe poi diretto per
+      vent'anni la rivista Science ed è stato uno dei primi a sostenere pubblicamente che
+      il progetto della bomba all'idrogeno andava discusso e non deciso in segreto. La sua
+      firma sul primo transuranico è il suo lavoro meno noto.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Edwin McMillan
+    ipa: ˈɛdwɪn məkˈmɪlən
+    nota: Inglese americano.
+  - termine: Philip Abelson
+    ipa: ˈfɪlɪp ˈeɪbəlsən
+    nota: Inglese americano.
+composti_principali:
+- nome: Ossido di nettunio
+  formula: NpO2
+  usi:
+  - bersagli per la produzione di plutonio-238
+- nome: Nettunio-237
+  formula: 237Np
+  usi:
+  - rivelatori di neutroni
+  - precursore del plutonio-238
+fonti:
+- url: https://en.wikipedia.org/wiki/Neptunium
+  titolo: Neptunium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/93/neptunium
+  titolo: Neptunium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Transuranium_element
+  titolo: Transuranium element
+  consultata: *id001

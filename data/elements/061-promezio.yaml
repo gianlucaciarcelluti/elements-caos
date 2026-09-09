@@ -9,10 +9,13 @@ scoperta:
   - jacob-marinsky
   - lawrence-glendenin
   - charles-coryell
-  luogo: null
+  luogo: Oak Ridge, Tennessee
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: L'elemento 61 fu identificato nel 1945 fra i prodotti di fissione dei reattori
+    del progetto Manhattan, con la cromatografia a scambio ionico; l'annuncio pubblico arrivò
+    solo nel 1947, con la declassificazione. Le rivendicazioni precedenti — florenzio (1926)
+    e illinio — si basavano su righe spettrali che si rivelarono del didimio.
   controversia: null
 proprieta:
   gruppo: 3
@@ -31,5 +34,158 @@ proprieta:
   punto_fusione_k: 1315.0
   punto_ebollizione_k: 3273.0
   densita: 7.26
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
 approfondimento: false
+contenuti:
+  hook: Fra il neodimio e il samario c'era un buco che nessuno riusciva a riempire. Fu riempito
+    nel 1945 con materiale ricavato dalle scorie di un reattore, e il nome lo suggerì la moglie
+    di uno degli scopritori.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il promezio è l''unico lantanide senza isotopi stabili, e uno dei due soli elementi
+      fra i primi ottantatré a non averne: in natura non esiste in quantità apprezzabili,
+      e tutto quello che si usa viene dai reattori nucleari. È anche il solo elemento della
+      sua famiglia che si trova più facilmente in un deposito di scorie che in una miniera.'
+    visual: Un campione di composto di promezio che emette un debole bagliore
+    attendibilita: documentato
+  - id: il_buco_fra_60_e_62
+    sezione: storia
+    testo: 'Quando all''inizio del Novecento la serie delle terre rare fu completata, fra
+      il neodimio e il samario restava una casella vuota. Doveva esserci qualcosa: il numero
+      atomico non salta, e le regolarità della tavola periodica lo richiedevano. Ma nessuno
+      riusciva a estrarlo dai minerali, per la ragione che si sarebbe capita solo dopo — in
+      quei minerali non c''era.'
+    visual: La riga dei lantanidi con una casella vuota fra due elementi noti
+    attendibilita: documentato
+  - id: illinium_e_florenzio
+    sezione: storia
+    testo: 'Le rivendicazioni non mancarono. Nel 1926 gli italiani Luigi Rolla e Lorenzo Fernandes
+      annunciarono il florenzio, dal nome di Firenze; nello stesso periodo un gruppo dell''Università
+      dell''Illinois annunciò l''illinio. Entrambi gli annunci caddero per la stessa ragione:
+      la riga spettrale su cui si basavano risultò identica a quella del didimio, cioè della
+      miscela di praseodimio e neodimio che aveva già ingannato i chimici per quarant''anni.
+      Cercare l''elemento 61 nei minerali delle terre rare era una caccia senza preda, ma
+      nessuno poteva saperlo.'
+    visual: Due pubblicazioni concorrenti degli anni Venti a confronto
+    attendibilita: documentato
+  - id: oak_ridge_1945
+    sezione: storia
+    testo: 'L''elemento arrivò da un''altra strada. Nel 1945, a Oak Ridge, Jacob Marinsky,
+      Lawrence Glendenin e Charles Coryell stavano separando con la cromatografia a scambio
+      ionico i prodotti della fissione dell''uranio nei reattori del progetto Manhattan. Fra
+      le decine di nuclidi che uscivano dalle colonne ne identificarono uno che apparteneva
+      alla casella 61: la fissione lo produceva in continuazione, e per trovarlo non serviva
+      un minerale ma un reattore. Era la conferma del perché nessuno l''avesse mai estratto
+      da una roccia.'
+    visual: Colonne di scambio ionico in un laboratorio degli anni Quaranta
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome lo propose Grace Mary Coryell, moglie di uno dei tre: Prometeo, il titano
+      che rubò il fuoco agli dèi e lo diede agli uomini, pagandone il prezzo. La scelta era
+      esplicita — l''elemento veniva dal fuoco nucleare, e con esso arrivava sia l''audacia
+      sia il rischio di ciò che l''ingegno umano può fare.'
+    visual: Una raffigurazione classica del mito di Prometeo
+    attendibilita: documentato
+  - id: annuncio_ritardato
+    sezione: storia
+    testo: 'La scoperta fu resa pubblica solo nel 1947, a guerra finita e con la declassificazione
+      dei lavori del progetto: è uno dei diversi elementi di questa epoca annunciati con anni
+      di ritardo rispetto alla scoperta, perché ottenuti dentro un programma militare segreto.'
+    visual: Documenti timbrati come declassificati su un tavolo
+    attendibilita: documentato
+  - id: perche_non_esiste
+    sezione: caratteristiche
+    testo: 'Il promezio non ha isotopi stabili né a vita lunga: il più longevo, il promezio-145,
+      arriva a diciassette anni, e quello che si usa, il promezio-147, a poco più di due anni
+      e mezzo. Rispetto ai quattro miliardi e mezzo di anni della Terra, sono tempi nulli:
+      qualunque promezio primordiale è scomparso da ere.'
+    visual: Un grafico delle emivite dei lantanidi con il promezio in fondo
+    attendibilita: documentato
+  - id: in_natura
+    sezione: caratteristiche
+    testo: 'Tracce infinitesime esistono comunque, prodotte dalla fissione spontanea dell''uranio
+      nei minerali: si stima che nell''intera crosta terrestre ce ne siano poche centinaia
+      di grammi in ogni istante. È lo stesso meccanismo che tiene in vita l''astato e il francio,
+      e la stessa quantità inutilizzabile.'
+    visual: Un minerale di uranio in cui avviene fissione spontanea
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Chimicamente è un lantanide come gli altri: sta nello stato +3, ha ioni di un
+      rosa pallido, e la sua chimica si deduce per interpolazione fra quella del neodimio
+      e quella del samario, i due vicini. Il sale di promezio brilla di una luce azzurrina
+      per la propria radioattività, non per fluorescenza.'
+    visual: Un sale rosato che emette luce azzurrina al buio
+    attendibilita: documentato
+  - id: dove_si_prende
+    sezione: caratteristiche
+    testo: Il promezio commerciale si estrae dai prodotti di fissione del combustibile nucleare
+      esausto, dove si forma in quantità dell'ordine di grammi per tonnellata di uranio irraggiato.
+      È uno dei rari casi in cui un elemento della tavola periodica ha come giacimento principale
+      un deposito di scorie.
+    visual: Elementi di combustibile esausto in una piscina di raffreddamento
+    attendibilita: documentato
+  - id: usi_batterie
+    sezione: usi
+    testo: 'L''impiego classico sono le batterie nucleari: le particelle beta emesse dal promezio-147
+      vengono convertite in corrente elettrica, e la batteria funziona per circa cinque anni
+      senza manutenzione e senza risentire del freddo o del caldo. Sono state usate dove serviva
+      una sorgente piccola e autonoma — pacemaker, strumenti in luoghi inaccessibili, dispositivi
+      militari e spaziali — prima che le batterie chimiche moderne ne coprissero buona parte
+      degli usi.'
+    visual: Una piccola batteria nucleare sezionata
+    attendibilita: documentato
+  - id: usi_luminescenza_e_spessori
+    sezione: usi
+    testo: 'Il promezio ha sostituito il radio nelle vernici luminose degli strumenti quando
+      la pericolosità del radio è diventata evidente: emette beta invece di alfa, e la radiazione
+      resta dentro il quadrante. Serve inoltre nei misuratori di spessore, dove si misura
+      quanta radiazione attraversa un materiale in produzione continua, dalla carta ai laminati
+      metallici.'
+    visual: Un misuratore di spessore a radiazione su una linea di laminazione
+    attendibilita: documentato
+  - id: curiosita_stella
+    sezione: curiosita
+    testo: 'Righe attribuite al promezio sono state osservate nello spettro di alcune stelle:
+      come per il tecnezio, la presenza di un elemento a vita breve nell''atmosfera di una
+      stella indica che lì viene prodotto in continuazione, ed è una delle prove dirette che
+      la nucleosintesi stellare è un processo in corso e non finito.'
+    attendibilita: documentato
+  - id: curiosita_nome
+    sezione: curiosita
+    testo: Il promezio è uno dei pochi elementi il cui nome è stato scelto da qualcuno che
+      non lavorava in laboratorio, e forse l'unico proposto da una persona che compare nella
+      storia della chimica solo per quel suggerimento. Il riferimento a Prometeo, in un elemento
+      nato dalle scorie della bomba, era tutt'altro che ingenuo.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Charles Coryell
+    ipa: tʃɑːlz ˈkɔːɹiəl
+    nota: Inglese americano.
+  - termine: Prometeo
+    ipa: promeˈtɛo
+    nota: Italiano.
+composti_principali:
+- nome: Cloruro di promezio
+  formula: PmCl3
+  usi:
+  - forma di riferimento per lo studio dell'elemento
+- nome: Promezio-147
+  formula: 147Pm
+  usi:
+  - batterie nucleari
+  - vernici luminescenti
+  - misuratori di spessore
+fonti:
+- url: https://en.wikipedia.org/wiki/Promethium
+  titolo: Promethium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/61/promethium
+  titolo: Promethium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Atomic_battery
+  titolo: Atomic battery
+  consultata: *id001
