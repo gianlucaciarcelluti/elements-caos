@@ -8,10 +8,12 @@ scoperta:
   scopritori:
   - gustav-kirchhoff
   - robert-bunsen
-  luogo: null
+  luogo: Heidelberg, Germania
   epoca: spettroscopia
   isolamento_anno: 1863
-  note_cronologia: null
+  note_cronologia: Secondo elemento scoperto per via spettroscopica, pochi mesi dopo il cesio
+    e dagli stessi Bunsen e Kirchhoff. Il primo metallo, impuro, lo ottenne Bunsen riducendo
+    il tartrato carbonizzato; il rubidio puro arrivò più tardi, per mano di George de Hevesy.
   controversia: null
 proprieta:
   gruppo: 1
@@ -29,5 +31,161 @@ proprieta:
   punto_fusione_k: 312.45
   punto_ebollizione_k: 961.0
   densita: 1.532
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 1
 approfondimento: false
+contenuti:
+  hook: Il secondo elemento trovato con lo spettroscopio arrivò pochi mesi dopo il primo,
+    dagli stessi due uomini e dallo stesso strumento. Stavolta le righe erano rosse.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il rubidio è un metallo alcalino tenero e argenteo che fonde a 39 gradi, poco
+      sopra la temperatura del corpo umano. È più comune del rame nella crosta terrestre,
+      non ha giacimenti propri, ed è uno dei pochi elementi il cui isotopo principale è insieme
+      stabilissimo e utile: serve a datare le rocce e a tenere l''ora.'
+    visual: Un frammento di rubidio metallico in una fiala sotto argon
+    attendibilita: documentato
+  - id: lo_stesso_strumento
+    sezione: storia
+    testo: Nel 1861, l'anno dopo il cesio, Robert Bunsen e Gustav Kirchhoff puntarono lo spettroscopio
+      su un campione di lepidolite, una mica di litio che veniva dalla Sassonia. Nello spettro
+      comparvero due righe rosso scuro che non appartenevano a nessun elemento conosciuto,
+      e i due riconobbero un secondo metallo alcalino nuovo, parente stretto di quello trovato
+      l'anno prima.
+    visual: Un cristallo di lepidolite lilla accanto a uno spettroscopio
+    attendibilita: documentato
+  - id: nome_rubidus
+    sezione: storia
+    testo: 'Il nome venne dal latino rubidus, «rosso cupo», per il colore delle righe: la
+      stessa logica con cui avevano battezzato il cesio, che di righe ne aveva due azzurre.
+      È una convenzione che con lo spettroscopio diventa quasi una regola — il tallio dal
+      verde, l''indio dall''indaco — e che lega il nome dell''elemento non a un luogo o a
+      un mito, ma al colore della sua luce.'
+    visual: Due righe rosso scuro in uno spettro di emissione
+    attendibilita: documentato
+  - id: il_metallo
+    sezione: storia
+    testo: Ottenere il metallo fu, come per il cesio, la parte difficile. Bunsen arrivò a
+      una prima riduzione scaldando il tartrato di rubidio carbonizzato, ma il campione era
+      impuro e si incendiava con facilità; il rubidio davvero puro arrivò molto più tardi,
+      per mano di George de Hevesy, lo stesso chimico che trent'anni dopo avrebbe scoperto
+      l'afnio.
+    visual: Un crogiolo con residui carbonizzati di un sale organico
+    attendibilita: documentato
+  - id: una_famiglia_ordinata
+    sezione: storia
+    testo: 'Cesio e rubidio completavano la colonna dei metalli alcalini, e lo facevano nel
+      momento giusto: pochi anni dopo Dmitrij Mendeleev avrebbe costruito la tavola periodica
+      proprio sulle regolarità di famiglie come questa, dove le proprietà cambiano in modo
+      prevedibile scendendo lungo la colonna. Due elementi trovati per il colore della loro
+      luce si rivelarono le tessere che mancavano a un disegno più grande.'
+    visual: La colonna dei metalli alcalini evidenziata in una tavola periodica
+    attendibilita: documentato
+  - id: reattivita
+    sezione: caratteristiche
+    testo: 'È uno dei metalli più reattivi che esistano: si ossida immediatamente all''aria,
+      reagisce in modo esplosivo con l''acqua liberando idrogeno e idrossido, e va conservato
+      sotto vuoto o in atmosfera inerte. Come il cesio, fonde a una temperatura che si raggiunge
+      in una giornata d''estate, e come il cesio è tenero abbastanza da tagliarsi con un coltello.'
+    visual: Un frammento metallico che reagisce violentemente a contatto con l'acqua
+    attendibilita: documentato
+  - id: rubidio_87
+    sezione: caratteristiche
+    testo: 'Poco più di un quarto del rubidio naturale è rubidio-87, che è radioattivo: decade
+      a stronzio-87 con un''emivita di quarantotto miliardi di anni, più di tre volte l''età
+      dell''universo. Un decadimento così lento non lo rende pericoloso — è un nuclide primordiale,
+      presente da quando la Terra si è formata, e la sua attività è confrontabile con quella
+      del potassio che mangiamo tutti i giorni — ma lo rende prezioso a chi deve misurare
+      tempi geologici.'
+    visual: Il diagramma del decadimento del rubidio-87 in stronzio-87
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'Con la sua abbondanza il rubidio è il ventitreesimo elemento della crosta terrestre,
+      più comune dello zinco e del rame. Non forma però minerali propri: si sostituisce al
+      potassio nei reticoli delle miche e dei feldspati, e si ricava come sottoprodotto della
+      lavorazione della lepidolite e dei sali di potassio.'
+    visual: Una mica lilla di lepidolite sfaldata in lamine sottili
+    attendibilita: documentato
+  - id: chimica_prevedibile
+    sezione: caratteristiche
+    testo: 'Chimicamente non riserva sorprese: cede l''unico elettrone esterno e resta ione
+      Rb⁺ in tutti i suoi composti, che sono quasi tutti solubili e quasi tutti incolori.
+      È questa monotonia a renderlo intercambiabile con il potassio nei minerali e negli organismi,
+      ed è la ragione per cui non si trova mai concentrato da qualche parte: sta ovunque ci
+      sia potassio, in proporzione di qualche parte su mille.'
+    visual: Cristalli incolori di un sale di rubidio in una capsula
+    attendibilita: documentato
+  - id: usi_datazione
+    sezione: usi
+    testo: 'La datazione rubidio-stronzio sfrutta proprio quel decadimento lentissimo: misurando
+      quanto stronzio-87 si è accumulato in un minerale rispetto al rubidio-87 che gli resta,
+      si calcola quando il minerale ha cristallizzato. È uno dei metodi con cui si datano
+      le rocce più antiche della Terra e i meteoriti, cioè con cui si è stabilita l''età del
+      sistema solare.'
+    visual: Una sezione sottile di roccia al microscopio polarizzatore
+    attendibilita: documentato
+  - id: usi_orologi_e_atomi
+    sezione: usi
+    testo: 'Gli orologi atomici al rubidio sono meno precisi di quelli al cesio ma molto più
+      piccoli ed economici, e per questo stanno dentro i satelliti di navigazione, i ripetitori
+      delle reti di telecomunicazione e gli strumenti di misura da laboratorio: dove serve
+      un riferimento di tempo stabile che stia in una scatola.'
+    visual: Un modulo compatto di orologio atomico al rubidio
+    attendibilita: documentato
+  - id: usi_ottica_ed_elettronica
+    sezione: usi
+    testo: 'Il resto degli impieghi vive di quella facilità a cedere elettroni: fotocellule,
+      catodi e vetri speciali. In laboratorio il rubidio è inoltre l''atomo preferito dell''ottica
+      quantistica, perché le sue transizioni cadono a lunghezze d''onda che i laser a semiconduttore
+      raggiungono senza fatica e perché una cella di vapore di rubidio si prepara con mezzi
+      ordinari: è il motivo per cui compare in mezzo mondo negli esperimenti sugli atomi freddi,
+      sui sensori inerziali e sui magnetometri.'
+    visual: Un banco ottico con laser accordati su una cella di vapore di rubidio
+    attendibilita: documentato
+  - id: curiosita_bose_einstein
+    sezione: curiosita
+    testo: Nel 1995 il primo condensato di Bose-Einstein mai ottenuto fu un gas di duemila
+      atomi di rubidio-87 raffreddati a meno di un milionesimo di grado sopra lo zero assoluto,
+      dove gli atomi smettono di comportarsi come particelle distinte e si muovono tutti insieme
+      come se fossero uno solo. Settant'anni prima quello stato della materia era stato previsto
+      sulla carta, senza speranza di vederlo.
+    attendibilita: documentato
+  - id: curiosita_potassio
+    sezione: curiosita
+    testo: 'Il corpo umano tratta il rubidio come se fosse potassio e lo distribuisce nelle
+      cellule allo stesso modo: un adulto ne contiene qualche centinaio di milligrammi, presi
+      con il cibo e senza alcun ruolo biologico noto. È uno dei diversi elementi che abitiamo
+      senza saperlo e senza che servano a niente.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: George de Hevesy
+    ipa: ˈɡeːorɡ ˈhɛvɛʃi
+    nota: Ungherese.
+composti_principali:
+- nome: Cloruro di rubidio
+  formula: RbCl
+  usi:
+  - biologia molecolare
+  - reagente di laboratorio
+- nome: Carbonato di rubidio
+  formula: Rb2CO3
+  usi:
+  - vetri speciali
+  - catalizzatori
+- nome: Idrossido di rubidio
+  formula: RbOH
+  usi:
+  - base fortissima
+  - elettroliti per batterie a bassa temperatura
+fonti:
+- url: https://en.wikipedia.org/wiki/Rubidium
+  titolo: Rubidium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/37/rubidium
+  titolo: Rubidium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate
+  titolo: Bose–Einstein condensate
+  consultata: *id001

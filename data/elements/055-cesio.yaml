@@ -8,10 +8,12 @@ scoperta:
   scopritori:
   - gustav-kirchhoff
   - robert-bunsen
-  luogo: null
+  luogo: Heidelberg, Germania
   epoca: spettroscopia
   isolamento_anno: 1882
-  note_cronologia: Isolato in forma metallica pura nel 1882 da Carl Setterberg.
+  note_cronologia: 'Primo elemento scoperto per via spettroscopica: Bunsen e Kirchhoff lo
+    annunciarono nel 1860 sulla base di due righe azzurre, senza averne isolato nemmeno un
+    granello. Il metallo fu ottenuto nel 1882 da Carl Setterberg, per elettrolisi del cianuro.'
   controversia: null
 proprieta:
   gruppo: 1
@@ -30,5 +32,165 @@ proprieta:
   punto_fusione_k: 301.7
   punto_ebollizione_k: 944.0
   densita: 1.93
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 1
 approfondimento: false
+contenuti:
+  hook: 'Per avere qualche grammo di un elemento nuovo, Bunsen e Kirchhoff fecero evaporare
+    quarantaquattromila litri d''acqua minerale. Lo avevano già visto: erano due righe azzurre
+    in uno spettro.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il cesio è il più reattivo e il più elettropositivo dei metalli: fonde a 28 gradi,
+      cioè si scioglie in mano attraverso il vetro della fiala che lo contiene, e a contatto
+      con l''acqua reagisce con violenza esplosiva anche a temperature basse. Oggi il suo
+      compito principale è misurare il tempo, e lo fa meglio di qualunque altra cosa esista.'
+    visual: Una fiala sigillata con cesio metallico fuso, dorato e liquido
+    attendibilita: documentato
+  - id: spettroscopio
+    sezione: storia
+    testo: 'Nel 1859 Robert Bunsen e Gustav Kirchhoff, a Heidelberg, misero insieme un becco
+      a gas dalla fiamma incolore e un prisma, e ottennero uno strumento che nessuno aveva
+      mai avuto: bruciando una sostanza si potevano leggere le righe colorate che emetteva,
+      e quelle righe erano diverse per ogni elemento. Era il primo metodo capace di dire che
+      cosa c''è in un campione senza doverlo separare.'
+    visual: Uno spettroscopio ottocentesco puntato su una fiamma da laboratorio
+    attendibilita: documentato
+  - id: due_righe_azzurre
+    sezione: storia
+    testo: 'Nel 1860 i due esaminarono l''acqua di una sorgente minerale di Dürkheim e vi
+      trovarono due righe azzurre che non appartenevano a nessuno degli elementi noti. Non
+      avevano isolato niente, non avevano in mano nemmeno un granello di sostanza nuova: avevano
+      solo due righe, e su quelle annunciarono un elemento. Era il primo elemento scoperto
+      per via spettroscopica.'
+    visual: Due righe azzurre brillanti in uno spettro di emissione
+    attendibilita: documentato
+  - id: quarantaquattromila_litri
+    sezione: storia
+    testo: Passare dalle righe alla sostanza fu un lavoro industriale. Per concentrare abbastanza
+      sali da poterci lavorare, Bunsen fece evaporare quarantaquattromila litri di acqua minerale,
+      che diedero 240 chilogrammi di soluzione salina concentrata; da quella ricavò pochi
+      grammi di composti di cesio. Il nome venne dal latino caesius, «azzurro grigio», che
+      era il colore delle due righe.
+    visual: Grandi caldaie in cui evapora acqua minerale in un cortile di laboratorio
+    attendibilita: documentato
+  - id: metallo_1882
+    sezione: storia
+    testo: 'Il metallo non lo ottennero loro. Il cesio è talmente elettropositivo che l''elettrolisi
+      dei suoi sali comuni restituisce composti invece del metallo, e ci vollero ventidue
+      anni e un''altra idea: nel 1882 lo svedese Carl Setterberg elettrolizzò il cianuro di
+      cesio, evitando i problemi che il cloruro portava con sé, e ottenne il metallo puro.'
+    visual: Una cella elettrolitica con un sale fuso e un deposito metallico lucente
+    attendibilita: documentato
+  - id: il_metodo_che_resta
+    sezione: storia
+    testo: 'L''anno dopo, con lo stesso strumento, Bunsen e Kirchhoff trovarono il rubidio,
+      e nei quindici anni successivi la spettroscopia consegnò alla tavola periodica tallio,
+      indio, gallio ed elio. Un elemento non doveva più essere isolato per essere scoperto:
+      bastava che la sua luce non somigliasse a quella di nessun altro.'
+    visual: Una serie di spettri a righe affiancati per il confronto
+    attendibilita: documentato
+  - id: reattivita
+    sezione: caratteristiche
+    testo: 'Fra i metalli alcalini il cesio è quello che cede l''elettrone esterno con meno
+      fatica di tutti, ed è per questo il più elettropositivo degli elementi. Si incendia
+      a contatto con l''aria, reagisce con l''acqua in modo esplosivo anche sotto zero, e
+      va conservato in fiale sigillate sotto vuoto o sotto argon: l''olio minerale, che basta
+      per il sodio, con lui non basta.'
+    visual: Fiale di vetro sigillate contenenti metallo alcalino sotto argon
+    attendibilita: documentato
+  - id: metallo_liquido
+    sezione: caratteristiche
+    testo: Fonde a 28,5 gradi, il che lo rende uno dei pochi metalli che si possono vedere
+      liquidi in una giornata calda. Da liquido è dorato, denso, e bagna il vetro; da solido
+      è tenero al punto di deformarsi sotto un'unghia. Del gruppo degli alcalini è anche il
+      più pesante fra quelli stabili.
+    visual: Metallo dorato liquido che scorre dentro una fiala di vetro
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'In natura esiste un solo isotopo stabile, il cesio-133, ed è quello degli orologi
+      atomici. Gli altri sono artificiali, e uno in particolare, il cesio-137, è fra i prodotti
+      di fissione più abbondanti: con trent''anni di emivita e una chimica praticamente identica
+      a quella del potassio, entra nei tessuti viventi al posto suo. È la ragione per cui
+      le contaminazioni radioattive di Černobyl'' e di Fukushima si misurano ancora oggi nel
+      suolo, nei funghi e nella selvaggina.'
+    visual: Uno spettro di emissione gamma con il picco del cesio-137
+    attendibilita: documentato
+  - id: usi_orologio
+    sezione: usi
+    testo: 'Dal 1967 il secondo non è più una frazione del giorno solare ma una proprietà
+      del cesio: è definito come 9.192.631.770 cicli della radiazione emessa nella transizione
+      fra due livelli iperfini dell''atomo di cesio-133. Ogni orologio atomico, ogni satellite
+      di navigazione e ogni rete che ha bisogno di sapere l''ora esatta discende da quella
+      definizione.'
+    visual: Il cuore di un orologio atomico al cesio in un laboratorio metrologico
+    attendibilita: documentato
+  - id: usi_perforazione
+    sezione: usi
+    testo: 'L''impiego che ne consuma di più in massa è però un altro: il formiato di cesio
+      è un sale molto denso e solubile con cui si preparano i fluidi da perforazione per i
+      pozzi profondi, dove serve un liquido pesante che regga la pressione senza portare in
+      giro particelle solide che danneggerebbero il giacimento.'
+    visual: Una torre di perforazione con il circuito dei fluidi in evidenza
+    attendibilita: documentato
+  - id: produzione
+    sezione: usi
+    testo: 'Il cesio si estrae dalla pollucite, un minerale delle pegmatiti, e il grosso delle
+      riserve conosciute sta in un solo giacimento, quello di Bernic Lake in Manitoba, che
+      da solo supera i due terzi della base di riserva mondiale. È una concentrazione che
+      nessun altro elemento industriale conosce, e vale la pena ricordarla ogni volta che
+      si parla di materie prime critiche: la scarsità di un elemento è quasi sempre una questione
+      di dove sta, non di quanto ce n''è.'
+    visual: Cristalli di pollucite in una pegmatite
+    attendibilita: documentato
+  - id: curiosita_fotocellule
+    sezione: curiosita
+    testo: 'La stessa facilità con cui cede l''elettrone ha dato al cesio la sua prima carriera
+      tecnica: nelle fotocellule e nei fotomoltiplicatori un catodo al cesio libera elettroni
+      quando la luce lo colpisce, ed è il principio con cui hanno funzionato per decenni gli
+      esposimetri, i sensori di prossimità e le prime televisioni.'
+    attendibilita: documentato
+  - id: curiosita_secondo
+    sezione: curiosita
+    testo: 'Un orologio al cesio sbaglia di meno di un secondo in qualche milione di anni,
+      e questa precisione ha una conseguenza curiosa: gli orologi vanno abbastanza bene da
+      misurare che il tempo scorre più lento in basso che in alto, come prevede la relatività
+      generale. Bastano poche decine di centimetri di dislivello perché la differenza si veda.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Robert Bunsen
+    ipa: ˈʁoːbɛʁt ˈbʊnzn̩
+    nota: Tedesco.
+  - termine: Gustav Kirchhoff
+    ipa: ˈɡʊstaf ˈkɪʁçhɔf
+    nota: Tedesco.
+  - termine: Dürkheim
+    ipa: ˈdʏʁkhaɪ̯m
+    nota: Tedesco.
+composti_principali:
+- nome: Cloruro di cesio
+  formula: CsCl
+  usi:
+  - centrifugazione in gradiente di densità
+  - reagente di laboratorio
+- nome: Formiato di cesio
+  formula: HCOOCs
+  usi:
+  - fluidi da perforazione ad alta densità
+- nome: Idrossido di cesio
+  formula: CsOH
+  usi:
+  - base fortissima
+  - elettroliti per celle a combustibile
+fonti:
+- url: https://en.wikipedia.org/wiki/Caesium
+  titolo: Caesium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/55/caesium
+  titolo: Caesium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Second
+  titolo: Second
+  consultata: *id001
