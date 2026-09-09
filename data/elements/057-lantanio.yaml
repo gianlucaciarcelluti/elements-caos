@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - carl-gustaf-mosander
-  luogo: null
+  luogo: Stoccolma, Svezia
   epoca: elettrolisi
   isolamento_anno: 1904
-  note_cronologia: Isolato in forma pura nel 1904 da Wilhelm Muthmann e Leopold Weiss.
+  note_cronologia: Le fonti oscillano fra 1838 e 1839 per l'annuncio di Mosander, che pubblicò
+    a scaglioni. La cronologia di riferimento indica il 1904 per il primo campione metallico,
+    ottenuto da Wilhelm Muthmann e Leopold Weiss; altre fonti datano al 1923 il primo lantanio
+    ragionevolmente puro.
   controversia: null
 proprieta:
   gruppo: 3
@@ -29,5 +32,169 @@ proprieta:
   punto_fusione_k: 1193.0
   punto_ebollizione_k: 3737.0
   densita: 6.162
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
 approfondimento: false
+contenuti:
+  hook: Mosander sospettava che la terra da cui era nato il cerio non fosse una sostanza sola.
+    Ci mise trentasei anni a dargli torto, e all'elemento che ne uscì mise nome «nascosto».
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il lantanio apre la serie dei lantanidi e le dà il nome, ma per la chimica è il
+      più semplice della famiglia: non ha elettroni nel guscio f, si comporta sempre allo
+      stesso modo e forma un solo ione. È tenero come il piombo, si taglia con un coltello,
+      e all''aria si copre di ossido nel giro di qualche ora.'
+    visual: Un pezzo di lantanio metallico appena tagliato, la superficie che si opacizza
+    attendibilita: documentato
+  - id: ceria_sotto_esame
+    sezione: storia
+    testo: 'Negli anni Trenta dell''Ottocento la ceria, la terra ricavata dalla pietra di
+      Bastnäs, era considerata l''ossido di un elemento solo. Carl Gustaf Mosander, chirurgo
+      di formazione e assistente di Berzelius a Stoccolma, non ne era convinto: le proprietà
+      che misurava non tornavano sempre uguali, e le differenze erano troppo sistematiche
+      per essere errori.'
+    visual: Un laboratorio ottocentesco con bilance e capsule di porcellana allineate
+    attendibilita: documentato
+  - id: scoperta_lantanio
+    sezione: storia
+    testo: 'Il metodo che usò era di pazienza. Scaldò all''aria il nitrato di cerio fino a
+      decomporlo solo in parte, poi trattò il residuo con acido nitrico diluito: quello che
+      si scioglieva non era cerio. Era una terra nuova, e nel 1839 Mosander la annunciò. Alcune
+      fonti datano l''annuncio al 1839, altre lo anticipano al 1838: la ricerca era in corso
+      da anni e la pubblicazione arrivò a scaglioni.'
+    visual: Nitrato di cerio che si decompone in una capsula riscaldata
+    attendibilita: documentato
+  - id: prova_di_un_elemento
+    sezione: storia
+    testo: 'Dimostrare che una terra è nuova, allora, voleva dire mostrare che non si comportava
+      come nessuna delle note: non c''erano spettri da confrontare né pesi atomici da misurare
+      con precisione, e restavano solo la solubilità dei sali, il colore dei precipitati e
+      la costanza dei risultati ripetuti. È il motivo per cui Mosander andò avanti anni prima
+      di annunciare, e per cui parecchi suoi contemporanei annunciarono elementi che non esistevano.'
+    visual: Un quaderno di laboratorio con colonne di misure ripetute
+    attendibilita: documentato
+  - id: nome_nascosto
+    sezione: storia
+    testo: 'Fu Berzelius a proporre il nome, dal greco lanthanein, «stare nascosto». Il riferimento
+      è doppio e voluto: la nuova terra si era nascosta dentro quella del cerio per trentasei
+      anni, e continuava a nascondersi perché le sue proprietà erano quasi indistinguibili
+      da quelle del vicino.'
+    visual: L'iscrizione greca λανθάνειν accanto a un campione di terra bianca
+    attendibilita: documentato
+  - id: il_seguito
+    sezione: storia
+    testo: La ceria non aveva finito. Due anni dopo, spingendo lo stesso metodo più a fondo,
+      Mosander ne cavò un'altra terra ancora, che chiamò didimio, «gemello», perché accompagnava
+      il lantanio dappertutto; nel 1843 avrebbe fatto lo stesso con l'ittria, ricavandone
+      terbio ed erbio. Un solo uomo, con una sola tecnica, raddoppiò l'elenco delle terre
+      rare.
+    visual: Tre capsule con precipitati bianchi quasi identici
+    attendibilita: documentato
+  - id: metallo_tardivo
+    sezione: storia
+    testo: Il metallo arrivò molto dopo. La cronologia di riferimento colloca il primo campione
+      nel 1904, per mano di Wilhelm Muthmann e Leopold Weiss; altre fonti spostano al 1923
+      il primo lantanio ragionevolmente puro. È lo scarto tipico di questa famiglia, dove
+      «isolato» ha significato per decenni cose molto diverse a seconda di quanto si riusciva
+      a pulire il campione.
+    visual: Una cella elettrolitica per la riduzione di cloruri fusi
+    attendibilita: documentato
+  - id: chimica_semplice
+    sezione: caratteristiche
+    testo: 'In tutti i suoi composti il lantanio cede tre elettroni e resta ione La³⁺, incolore
+      e senza sorprese: non avendo elettroni nel guscio f, gli mancano le transizioni elettroniche
+      che danno colore e magnetismo agli altri lantanidi. È la ragione per cui i suoi sali
+      sono bianchi mentre quelli dei vicini sono rosa, verdi o gialli, ed è anche il motivo
+      per cui, quando serve un lantanide che non interferisca con nient''altro, si sceglie
+      lui.'
+    visual: Sali di lantanio bianchi accanto a sali colorati di altri lantanidi
+    attendibilita: documentato
+  - id: reattivita
+    sezione: caratteristiche
+    testo: 'È uno dei metalli più reattivi fra i lantanidi: si ossida all''aria in poche ore,
+      reagisce lentamente con l''acqua fredda e rapidamente con quella calda liberando idrogeno,
+      e scaldato brucia con facilità. Per questo si conserva sott''olio o in atmosfera inerte,
+      come i metalli alcalini.'
+    visual: Un campione metallico conservato sotto olio minerale in una fiala
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'Con 39 parti per milione nella crosta terrestre è il ventottesimo elemento per
+      abbondanza, più comune del piombo. Si estrae dalla monazite e dalla bastnäsite, gli
+      stessi minerali del cerio, dai quali esce sempre in compagnia dell''intera famiglia:
+      nessun giacimento contiene un lantanide da solo, ed è questa convivenza, non la scarsità,
+      ad aver reso care le terre rare.'
+    visual: Sabbie monazitiche scure setacciate a mano
+    attendibilita: documentato
+  - id: usi_batterie
+    sezione: usi
+    testo: 'L''impiego che ne ha consumato di più è metallurgico e invisibile: le leghe che
+      immagazzinano idrogeno negli accumulatori nichel-metallo idruro sono a base di lantanio,
+      e una vettura ibrida di quella generazione ne portava a bordo più di dieci chilogrammi.
+      Sono le batterie che hanno mosso le automobili elettriche prima che il litio prendesse
+      il loro posto, e restano dove conta la robustezza più della leggerezza.'
+    visual: Il pacco batteria di un'automobile ibrida aperto
+    attendibilita: documentato
+  - id: usi_ottica_catalisi
+    sezione: usi
+    testo: L'ossido di lantanio alza l'indice di rifrazione del vetro senza aumentarne la
+      dispersione, e per questo sta nelle lenti degli obiettivi fotografici e nei vetri per
+      l'infrarosso; nelle raffinerie i catalizzatori di cracking a letto fluido lo usano per
+      stabilizzare le zeoliti che spezzano le molecole del petrolio.
+    visual: Un obiettivo fotografico sezionato che mostra le lenti interne
+    attendibilita: documentato
+  - id: usi_mischmetal
+    sezione: usi
+    testo: 'Nel mischmetal, la lega grezza di terre rare che esce dalla separazione, il lantanio
+      sta fra il venticinque e il quarantacinque per cento: serve a disossidare gli acciai
+      e, insieme al cerio, a fare le pietrine degli accendini.'
+    visual: Un lingotto grezzo di mischmetal
+    attendibilita: documentato
+  - id: curiosita_carbon_arc
+    sezione: curiosita
+    testo: 'Prima del cinema digitale, le lampade ad arco dei proiettori bruciavano elettrodi
+      di carbone caricati con ossidi di terre rare, lantanio compreso: davano una luce bianchissima
+      e continua, l''unica abbastanza intensa da attraversare una pellicola e riempire uno
+      schermo di venti metri.'
+    attendibilita: documentato
+  - id: curiosita_datazione
+    sezione: curiosita
+    testo: 'Il lantanio naturale è quasi tutto lantanio-139, stabile, ma un decimo di punto
+      percentuale è lantanio-138, radioattivo con un''emivita di oltre cento miliardi di anni:
+      un orologio che gira così piano da servire a datare i minerali più antichi del sistema
+      solare, e che nel frattempo contribuisce, in misura minima, alla radioattività naturale
+      delle rocce.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Carl Gustaf Mosander
+    ipa: kɑːɭ ˈɡɵsːtav mʊˈsandɛr
+    nota: Svedese.
+  - termine: lanthanein
+    ipa: lanˈtʰanein
+    nota: Greco antico.
+composti_principali:
+- nome: Ossido di lantanio
+  formula: La2O3
+  usi:
+  - vetri ottici ad alto indice di rifrazione
+  - catalizzatori per raffineria
+- nome: Carbonato di lantanio
+  formula: La2(CO3)3
+  usi:
+  - farmaco che lega i fosfati nell'insufficienza renale
+- nome: Lega LaNi5
+  formula: LaNi5
+  usi:
+  - accumulo di idrogeno
+  - elettrodi delle batterie nichel-metallo idruro
+fonti:
+- url: https://en.wikipedia.org/wiki/Lanthanum
+  titolo: Lanthanum
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/57/lanthanum
+  titolo: Lanthanum — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carl_Gustaf_Mosander
+  titolo: Carl Gustaf Mosander
+  consultata: *id001

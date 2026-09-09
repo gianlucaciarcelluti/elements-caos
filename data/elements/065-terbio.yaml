@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - carl-gustaf-mosander
-  luogo: null
+  luogo: Stoccolma, Svezia
   epoca: elettrolisi
   isolamento_anno: 1937
-  note_cronologia: Isolato in forma pura nel 1937 da Wilhelm Klemm e Heinrich Bommer.
+  note_cronologia: 'Mosander separò nel 1843 due terre dall''ittria, erbia e terbia, ma i
+    nomi delle due finirono scambiati nella letteratura successiva: l''elemento oggi chiamato
+    terbio porta il nome che Mosander aveva dato all''altro. Isolato in forma metallica nel
+    1937 da Wilhelm Klemm e Heinrich Bommer.'
   controversia: null
 proprieta:
   gruppo: 3
@@ -29,5 +32,169 @@ proprieta:
   punto_fusione_k: 1629.0
   punto_ebollizione_k: 3396.0
   densita: 8.23
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
+  - 4
 approfondimento: false
+contenuti:
+  hook: Mosander divise l'ittria in tre parti e diede un nome a ciascuna. Trent'anni dopo,
+    due di quei nomi si erano scambiati di posto, e nessuno se n'era accorto in tempo per
+    rimediare.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il terbio è uno dei lantanidi più scarsi e più cari, e vive di due mestieri che
+      non si vedono: fa il verde degli schermi e delle lampade fluorescenti, e in lega con
+      ferro e disprosio cambia di forma quando lo si immerge in un campo magnetico, il che
+      ne fa il cuore di certi attuatori e dei sonar navali.'
+    visual: Un campione di terbio metallico argenteo accanto a una polvere fosforescente verde
+    attendibilita: documentato
+  - id: la_cava_di_ytterby
+    sezione: storia
+    testo: Tutto comincia in una cava di feldspato a Ytterby, un'isola dell'arcipelago di
+      Stoccolma, da cui nel Settecento uscì una pietra nera insolita. Quattro elementi portano
+      nel nome pezzi della parola Ytterby — ittrio, itterbio, terbio ed erbio — e altri cinque
+      — scandio, olmio, tulio, gadolinio e tantalio — furono individuati per la prima volta
+      in minerali di quel giacimento.
+    visual: L'imbocco della cava di Ytterby con la targa che ricorda gli elementi
+    attendibilita: documentato
+  - id: ittria_divisa
+    sezione: storia
+    testo: 'Dalla pietra di Ytterby era nata nel 1794 l''ittria, considerata per mezzo secolo
+      l''ossido di un elemento solo. Nel 1843 Carl Gustaf Mosander, che aveva già smontato
+      la ceria, applicò all''ittria lo stesso metodo di precipitazioni ripetute e concluse
+      che conteneva tre terre distinte: ne tenne una con il nome vecchio e battezzò le altre
+      due erbia e terbia.'
+    visual: Tre precipitati affiancati, uno bianco, uno rosato, uno giallino
+    attendibilita: documentato
+  - id: chi_era_mosander
+    sezione: storia
+    testo: 'Mosander non era un chimico di formazione: aveva studiato medicina e fatto il
+      chirurgo, ed era arrivato al laboratorio di Berzelius come assistente, finendo per abitare
+      nello stesso edificio dell''Accademia delle scienze. Da quella posizione defilata smontò
+      in quattro anni due delle terre su cui si reggeva la mineralogia del tempo, e consegnò
+      alla chimica quattro elementi che nessuno aveva sospettato.'
+    visual: Il ritratto di un chimico svedese dell'Ottocento in camice da laboratorio
+    attendibilita: documentato
+  - id: nomi_scambiati
+    sezione: storia
+    testo: 'Quelle due terre erano poche, impure e quasi indistinguibili, e per trent''anni
+      chi le studiava non fu sicuro di quale avesse in mano. Nel lavoro con cui lo spettroscopista
+      svizzero Marc Delafontaine cominciò a metterle in ordine, i nomi delle due comparvero
+      scambiati, e in quella forma passarono nella letteratura: l''elemento che oggi chiamiamo
+      terbio porta il nome che Mosander aveva dato all''altro.'
+    visual: Due etichette da laboratorio scambiate di posto su due barattoli
+    attendibilita: documentato
+  - id: mosandrum
+    sezione: storia
+    testo: 'Nella confusione il terbio ebbe anche una breve stagione con un terzo nome, mosandrum,
+      dedicato allo scopritore. Non attecchì, e alla fine dell''Ottocento la coppia terbio-erbio
+      si assestò nell''assegnazione invertita che usiamo ancora: un caso in cui la chimica
+      ha preferito la continuità della letteratura alla fedeltà al battesimo originale.'
+    visual: Una pagina di rivista scientifica ottocentesca con il nome mosandrum
+    attendibilita: documentato
+  - id: metallo_1937
+    sezione: storia
+    testo: Il metallo puro arrivò quasi un secolo dopo la scoperta. Le terre rare si separano
+      davvero solo con lo scambio ionico, messo a punto a metà Novecento; prima di allora
+      il terbio si otteneva riducendo il cloruro anidro, come fecero Wilhelm Klemm e Heinrich
+      Bommer nel 1937. Fra l'annuncio di Mosander e il primo campione di metallo passano novantaquattro
+      anni, lo scarto più largo di tutta l'epoca.
+    visual: Un crogiolo con cloruro anidro pronto per la riduzione
+    attendibilita: documentato
+  - id: stato_quattro
+    sezione: caratteristiche
+    testo: 'Come tutti i lantanidi il terbio sta nello stato +3, ma è uno dei pochi — con
+      cerio e praseodimio — a formare composti stabili anche nello stato +4: l''ossido commerciale,
+      il Tb₄O₇, è una miscela dei due stati, ed è quello che si compra quando si compra «ossido
+      di terbio». Il +4 esiste perché a quel punto della serie il guscio f si trova a metà
+      riempimento, una configurazione che la meccanica quantistica favorisce, ed è la stessa
+      ragione per cui il terbio è così magnetico.'
+    visual: Polvere bruno-scura di ossido di terbio in un contenitore di laboratorio
+    attendibilita: documentato
+  - id: magnetismo
+    sezione: caratteristiche
+    testo: 'È fortemente paramagnetico e, sotto i 219 kelvin, diventa ferromagnetico: a temperatura
+      ambiente il magnetismo non regge, ma è abbastanza intenso da rendere il terbio utile
+      là dove serve una risposta magnetica molto marcata, in lega con elementi che quel magnetismo
+      lo tengono anche al caldo.'
+    visual: Un campione metallico che risponde a un magnete in un bagno di azoto liquido
+    attendibilita: documentato
+  - id: rarita
+    sezione: caratteristiche
+    testo: 'Nella crosta terrestre è a 1,2 parti per milione, poco più di un trentesimo del
+      neodimio, e non esiste nessun minerale in cui il terbio sia l''elemento dominante: si
+      ricava sempre come frazione minoritaria di altri, e oggi le fonti commerciali più ricche
+      sono le argille ad adsorbimento ionico della Cina meridionale.'
+    visual: Argille rossastre di un giacimento ad adsorbimento ionico
+    attendibilita: documentato
+  - id: usi_fosfori
+    sezione: usi
+    testo: 'L''impiego che ne consuma di più sono i fosfori: l''ossido di terbio dà il verde
+      nelle lampade fluorescenti tricromatiche e negli schermi, dove tre polveri — una rossa
+      all''europio, una verde al terbio, una blu — sommano una luce che l''occhio legge come
+      bianca. Poche righe strette al posto di uno spettro continuo, ed è per questo che le
+      lampade a risparmio hanno quella resa dei colori.'
+    visual: Il rivestimento interno di un tubo fluorescente che emette luce verde
+    attendibilita: documentato
+  - id: usi_terfenol
+    sezione: usi
+    testo: 'Il Terfenol-D, lega di terbio, disprosio e ferro, ha la magnetostrizione più alta
+      fra le leghe conosciute: si allunga e si accorcia sotto un campo magnetico abbastanza
+      da essere usato come attuatore di precisione e come sorgente sonora nei sonar navali.
+      È un impiego di nicchia, ma è quello che rende il terbio un materiale strategico.'
+    visual: Un cilindro di Terfenol-D dentro l'avvolgimento di un attuatore
+    attendibilita: documentato
+  - id: usi_magneti
+    sezione: usi
+    testo: 'Una quota crescente finisce nei magneti al neodimio: aggiungere terbio o disprosio
+      alza la temperatura alla quale il magnete perde le proprie proprietà, e per un motore
+      elettrico che lavora sotto carico è la differenza fra funzionare e smagnetizzarsi. È
+      il motivo per cui la domanda di terbio segue quella delle automobili elettriche.'
+    visual: Magneti al neodimio pronti per il montaggio in un motore
+    attendibilita: documentato
+  - id: curiosita_ytterby
+    sezione: curiosita
+    testo: 'Ytterby è il luogo che ha dato più nomi alla tavola periodica di qualunque altro
+      sulla Terra, e non è una città né una miniera famosa: è una cava di feldspato lunga
+      poche centinaia di metri, in un''isola dove oggi ci sono case e un molo.'
+    attendibilita: documentato
+  - id: curiosita_banconote
+    sezione: curiosita
+    testo: 'I composti di terbio fluorescono in verde sotto la luce ultravioletta, e questa
+      proprietà è stata usata negli inchiostri di sicurezza: alcune banconote in euro mostrano,
+      sotto la lampada di Wood, disegni che a occhio nudo non ci sono.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Ytterby
+    ipa: ˈʏtːɛrbʏ
+    nota: Svedese.
+  - termine: Marc Delafontaine
+    ipa: maʁk dəlafɔ̃ˈtɛn
+    nota: Francese.
+composti_principali:
+- nome: Ossido di terbio
+  formula: Tb4O7
+  usi:
+  - fosfori verdi
+  - precursore dei composti di terbio
+- nome: Terfenol-D
+  formula: Tb0.3Dy0.7Fe2
+  usi:
+  - attuatori magnetostrittivi
+  - sonar navali
+- nome: Fluoruro di terbio(IV)
+  formula: TbF4
+  usi:
+  - agente fluorurante
+  - chimica dello stato +4
+fonti:
+- url: https://en.wikipedia.org/wiki/Terbium
+  titolo: Terbium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/65/terbium
+  titolo: Terbium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ytterby
+  titolo: Ytterby
+  consultata: *id001

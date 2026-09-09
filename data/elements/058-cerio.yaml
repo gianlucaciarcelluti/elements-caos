@@ -6,12 +6,15 @@ scoperta:
   anno: 1803
   anno_stimato: false
   scopritori:
+  - jons-jacob-berzelius
+  - wilhelm-hisinger
   - martin-heinrich-klaproth
-  luogo: null
+  luogo: Bastnäs, Svezia
   epoca: elettrolisi
   isolamento_anno: 1875
-  note_cronologia: Isolato in forma pura nel 1875 da William Francis Hillebrand e
-    Thomas Norton.
+  note_cronologia: 'Scoperta indipendente e quasi simultanea: Jöns Jacob Berzelius e Wilhelm
+    Hisinger a Bastnäs, Martin Heinrich Klaproth a Berlino, entrambi nel 1803. Isolato in
+    forma metallica nel 1875 da William Francis Hillebrand e Thomas Norton.'
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +33,174 @@ proprieta:
   punto_fusione_k: 1068.0
   punto_ebollizione_k: 3716.0
   densita: 6.77
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
+  - 4
 approfondimento: false
+contenuti:
+  hook: Nel 1803 tre chimici, in due paesi che non si parlavano, cavarono lo stesso elemento
+    dalla stessa pietra svedese. Gli diedero il nome di un corpo celeste che allora si chiamava
+    pianeta.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il cerio è il più abbondante dei lantanidi e il venticinquesimo elemento della
+      crosta terrestre: ce n''è quanto rame, più che piombo e più che stagno. È anche il più
+      maneggevole della famiglia, perché è l''unico che in soluzione regge stabilmente lo
+      stato di ossidazione +4, e questa singolarità è ciò che permette di separarlo dai suoi
+      simili.'
+    visual: Un lingotto di cerio dalla superficie appena opacizzata
+    attendibilita: documentato
+  - id: pietra_di_bastnas
+    sezione: storia
+    testo: Nel 1751 Axel Fredrik Cronstedt raccolse in una miniera del Västmanland, in Svezia,
+      un frammento di una pietra pesante e rossastra che nessuno sapeva classificare. Ne mandò
+      un campione a Carl Wilhelm Scheele, che lo analizzò e non vi riconobbe nulla di nuovo.
+      Il verdetto del chimico più abile d'Europa mise la pietra a riposo per mezzo secolo.
+    visual: Un frammento di minerale rossastro su un tavolo da laboratorio settecentesco
+    attendibilita: documentato
+  - id: scoperta_1803
+    sezione: storia
+    testo: Nel 1803 la ripresero in mano Jöns Jacob Berzelius, allora ventiquattrenne, e Wilhelm
+      Hisinger, che di quella miniera era il proprietario e di mineralogia si intendeva abbastanza
+      da lavorarci accanto da pari. Insieme dimostrarono che la pietra conteneva una terra
+      sconosciuta. Nello stesso periodo, a Berlino e senza sapere nulla di loro, Martin Heinrich
+      Klaproth arrivava alla stessa conclusione su un campione dello stesso minerale.
+    visual: Due laboratori a confronto, uno svedese e uno berlinese, di inizio Ottocento
+    attendibilita: documentato
+  - id: nome_cerere
+    sezione: storia
+    testo: 'Il nome lo scelse Berzelius, e lo prese da Cerere, che due anni prima Giuseppe
+      Piazzi aveva individuato dall''osservatorio di Palermo e che allora era considerata
+      un pianeta a tutti gli effetti. Cerere a sua volta portava il nome della dea romana
+      delle messi: la catena finisce in un campo di grano, passando per un corpo celeste che
+      nel frattempo è stato retrocesso ad asteroide.'
+    visual: Il disco di Cerere osservato al telescopio accanto a una spiga di grano
+    attendibilita: documentato
+  - id: ceria_era_una_miscela
+    sezione: storia
+    testo: Quella che avevano in mano non era però una sostanza sola. La ceria resistette
+      trentasei anni prima che Carl Gustaf Mosander cominciasse a smontarla, ricavando nel
+      1839 il lantanio e nel 1841 il didimio, che a sua volta si rivelerà doppio. La pietra
+      di Bastnäs conteneva mezza famiglia delle terre rare, e ciascuna separazione richiese
+      una generazione di chimici.
+    visual: Provette allineate con precipitati di colori appena diversi
+    attendibilita: documentato
+  - id: perche_erano_difficili
+    sezione: storia
+    testo: 'La difficoltà non era il cerio ma la sua parentela. I lantanidi hanno praticamente
+      la stessa chimica — stesso stato di ossidazione, ioni di raggio quasi uguale — e i reagenti
+      che separano il ferro dal rame su di loro non hanno presa: si dividono solo per cristallizzazioni
+      frazionate ripetute centinaia di volte, con rese che calano a ogni passaggio. È il motivo
+      per cui una sola pietra svedese ha continuato a partorire elementi nuovi per ottant''anni.'
+    visual: Una lunga fila di cristallizzatori in un laboratorio ottocentesco
+    attendibilita: documentato
+  - id: isolamento_1875
+    sezione: storia
+    testo: 'Il metallo si fece attendere ancora. Il cerio è troppo elettropositivo perché
+      i forni dell''Ottocento potessero strapparlo al suo ossido, e ci vollero i metodi elettrochimici
+      aperti da Humphry Davy: il primo campione metallico lo ottennero nel 1875 William Francis
+      Hillebrand e Thomas Norton, settantadue anni dopo l''annuncio della scoperta.'
+    visual: Una cella elettrolitica con sale fuso incandescente
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'La definizione di «terra rara» è, per il cerio, un residuo storico: con 68 parti
+      per milione nella crosta terrestre è comune quanto il rame, e si concentra in due minerali
+      che si estraggono in tonnellate, la bastnäsite e la monazite. Rara era la sua purificazione,
+      non la sua presenza.'
+    visual: Cristalli di bastnäsite e monazite affiancati
+    attendibilita: documentato
+  - id: stato_quattro
+    sezione: caratteristiche
+    testo: Come tutti i lantanidi il cerio vive nello stato +3, ma è l'unico ad avere anche
+      una chimica del +4 stabile in acqua. Lo ione cerico è un ossidante forte, di un arancio-giallo
+      carico, e la coppia +4/+3 è talmente affidabile da essere usata come reagente di titolazione.
+      È anche la maniglia per cui il cerio si stacca dagli altri lantanidi, che quello stato
+      non lo reggono.
+    visual: Una soluzione arancione di sale cerico in un matraccio graduato
+    attendibilita: documentato
+  - id: piroforicita
+    sezione: caratteristiche
+    testo: 'Il metallo puro è tenero, si taglia con un coltello e si opacizza all''aria in
+      poche ore. Scaldato fra i 65 e gli 80 gradi si incendia da solo, e limato o graffiato
+      produce scintille: sono i trucioli che prendono fuoco per l''attrito, e su questo si
+      regge il suo impiego più diffuso.'
+    visual: Un blocchetto di cerio che sprigiona scintille sotto una lima
+    attendibilita: documentato
+  - id: usi_ferrocerio
+    sezione: usi
+    testo: 'Il ferrocerio, lega di ferro e cerio messa a punto da Carl Auer von Welsbach,
+      è la pietrina di ogni accendino: basta la ruota zigrinata a staccarne schegge che si
+      accendono nell''aria. La stessa lega, in forma di mischmetal, contiene poco meno del
+      cinquanta per cento di cerio e serve a disossidare acciai e ghise.'
+    visual: La pietrina di un accendino che produce una pioggia di scintille
+    attendibilita: documentato
+  - id: usi_ossido
+    sezione: usi
+    testo: 'L''ossido di cerio è il materiale con cui si lucidano le lenti e gli schermi di
+      vetro, e sta nei convertitori catalitici delle automobili per una ragione chimica precisa:
+      passando avanti e indietro fra +4 e +3 assorbe e restituisce ossigeno, e tiene la miscela
+      nella finestra in cui il catalizzatore lavora. Colorato di giallo, filtra l''ultravioletto
+      nei vetri.'
+    visual: Polvere di ossido di cerio usata per lucidare una lente
+    attendibilita: documentato
+  - id: presenza_e_mercato
+    sezione: usi
+    testo: 'Il cerio esce dalle stesse miniere di tutte le terre rare, e siccome ce n''è più
+      di quanto il mercato ne chieda finisce spesso come sottoprodotto in eccedenza della
+      corsa al neodimio: chi estrae terre rare per i magneti si trova fra le mani cerio in
+      abbondanza e deve trovargli un impiego.'
+    visual: Cumuli di concentrato di terre rare in un impianto di separazione
+    attendibilita: documentato
+  - id: curiosita_belousov
+    sezione: curiosita
+    testo: 'Nella reazione di Belousov-Žabotinskij il cerio oscilla fra +4 e +3 e la soluzione
+      cambia colore a intervalli regolari, avanti e indietro, per minuti: la dimostrazione
+      da banco che una reazione chimica può comportarsi come un orologio invece che come una
+      discesa a senso unico.'
+    attendibilita: documentato
+  - id: curiosita_manhattan
+    sezione: curiosita
+    testo: Durante il progetto Manhattan i composti di cerio furono studiati a Berkeley come
+      materiale per i crogioli in cui fondere uranio e plutonio, e la produzione di cerio
+      ad altissima purezza cominciò ad Ames nella metà del 1944, per fermarsi nell'agosto
+      del 1945.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Wilhelm Hisinger
+    ipa: ˈvɪlhɛlm ˈhiːsɪŋɛr
+    nota: Svedese.
+  - termine: Bastnäs
+    ipa: ˈbastnɛs
+    nota: Svedese.
+  - termine: Carl Auer von Welsbach
+    ipa: kaʁl ˈaʊ̯ɐ fɔn ˈvɛlsbax
+    nota: Tedesco.
+composti_principali:
+- nome: Ossido di cerio(IV)
+  formula: CeO2
+  usi:
+  - lucidatura del vetro
+  - convertitori catalitici
+  - filtri per l'ultravioletto
+- nome: Nitrato ammonico cerico
+  formula: (NH4)2Ce(NO3)6
+  usi:
+  - ossidante in chimica organica
+  - titolazioni redox
+- nome: Ferrocerio
+  formula: FeCe
+  usi:
+  - pietrine per accendini
+  - inneschi a scintilla
+fonti:
+- url: https://en.wikipedia.org/wiki/Cerium
+  titolo: Cerium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/58/cerium
+  titolo: Cerium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
+  titolo: Ceres (dwarf planet)
+  consultata: *id001

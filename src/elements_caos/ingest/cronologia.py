@@ -461,7 +461,11 @@ CRONOLOGIA: list[VoceCronologia] = [
         58,
         1803,
         False,
-        ["martin-heinrich-klaproth"],
+        # La trascrizione originale della cronologia comprimeva la scoperta del cerio in
+        # "Klaproth et al.", e il Task 13 ne aveva tenuto il solo Klaproth. La scoperta e
+        # doppia e indipendente: Berzelius e Hisinger sulla cerite di Bastnas, Klaproth a
+        # Berlino, entrambi nel 1803 (Step 3b del piano).
+        ["jons-jacob-berzelius", "wilhelm-hisinger", "martin-heinrich-klaproth"],
         "elettrolisi",
         isolamento_anno=1875,
         note="Isolato in forma pura nel 1875 da William Francis Hillebrand e Thomas Norton.",

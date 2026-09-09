@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - carl-gustaf-mosander
-  luogo: null
+  luogo: Stoccolma, Svezia
   epoca: elettrolisi
   isolamento_anno: 1934
-  note_cronologia: Isolato in forma pura nel 1934 da Wilhelm Klemm e Heinrich Bommer.
+  note_cronologia: Mosander separò nel 1843 due terre dall'ittria, erbia e terbia, ma i nomi
+    delle due finirono scambiati nella letteratura successiva. L'ossido ragionevolmente puro
+    fu ottenuto nel 1905 da Georges Urbain e Charles James; il metallo nel 1934 da Wilhelm
+    Klemm e Heinrich Bommer, per riduzione del cloruro anidro con vapori di potassio.
   controversia: null
 proprieta:
   gruppo: 3
@@ -29,5 +32,161 @@ proprieta:
   punto_fusione_k: 1802.0
   punto_ebollizione_k: 3141.0
   densita: 9.066
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
 approfondimento: false
+contenuti:
+  hook: L'elemento che porta la fibra ottica oltre l'oceano fu trovato in una cava svedese
+    di feldspato, e per trent'anni ha portato il nome del proprio gemello.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'L''erbio è il lantanide su cui poggia il traffico intercontinentale di dati: drogato
+      dentro il vetro di una fibra ottica, amplifica la luce esattamente alla lunghezza d''onda
+      in cui la fibra è più trasparente, e permette di rilanciare un segnale senza mai riconvertirlo
+      in elettricità. I suoi sali, e i vetri che ne contengono, sono di un rosa tenue.'
+    visual: Una bobina di fibra ottica che emette un bagliore rosato
+    attendibilita: documentato
+  - id: una_pietra_e_tre_terre
+    sezione: storia
+    testo: 'L''erbio esce dalla stessa vicenda del terbio. Nel 1843 Carl Gustaf Mosander sottopose
+      l''ittria — la terra ricavata cinquant''anni prima dalla pietra nera di Ytterby — a
+      precipitazioni ripetute con ammoniaca, e concluse che non era una sostanza sola ma tre:
+      l''ittria vera e propria, e due frazioni minori che chiamò erbia e terbia.'
+    visual: Un becher in cui un precipitato si separa a strati
+    attendibilita: documentato
+  - id: scambio_di_nomi
+    sezione: storia
+    testo: 'Le due frazioni erano scarse e sporche, e distinguerle richiedeva strumenti che
+      non c''erano ancora. Quando la spettroscopia arrivò a mettere ordine, lo svizzero Marc
+      Delafontaine pubblicò i risultati con i nomi delle due invertiti, e l''inversione entrò
+      nell''uso: quello che Mosander aveva chiamato erbia oggi si chiama terbio, e viceversa.
+      Nessuno rimise le cose a posto perché rimetterle a posto avrebbe reso illeggibile tutta
+      la letteratura precedente.'
+    visual: Due pubblicazioni ottocentesche aperte a confronto
+    attendibilita: documentato
+  - id: erbia_ancora_divisibile
+    sezione: storia
+    testo: 'Nemmeno l''erbia era finita. Negli anni Settanta e Ottanta dell''Ottocento, con
+      lo spettroscopio, se ne staccarono altri elementi: il gadolinio, l''olmio, il tulio,
+      il disprosio. Ogni volta il residuo si chiamava ancora erbia, e ogni volta era meno
+      di prima. Delle terre di Mosander, quello che resta oggi con quel nome è la parte che
+      nessuno è più riuscito a dividere.'
+    visual: Uno spettro a righe con più serie sovrapposte
+    attendibilita: documentato
+  - id: ossido_puro_e_metallo
+    sezione: storia
+    testo: L'ossido ragionevolmente puro arrivò nel 1905, ottenuto in modo indipendente da
+      Georges Urbain e Charles James; il metallo, ancora dopo. Wilhelm Klemm e Heinrich Bommer
+      lo ridussero dal cloruro anidro con vapori di potassio nel 1934, novantun anni dopo
+      l'annuncio di Mosander, e ottennero un campione ancora lontano dalla purezza che si
+      raggiungerà con lo scambio ionico.
+    visual: Una storta da laboratorio con vapori di potassio
+    attendibilita: documentato
+  - id: chimica_e_colore
+    sezione: caratteristiche
+    testo: 'In soluzione l''erbio è lo ione trivalente Er³⁺, di un rosa che vira al pesca,
+      e il colore non dipende dalla luce come nel neodimio ma resta stabile: per questo l''ossido
+      di erbio è un colorante affidabile per vetri, porcellane e zirconia cubica. Il metallo
+      è argenteo, tenero, e all''aria si ossida lentamente formando uno strato che lo protegge.'
+    visual: Un vetro rosa colorato all'ossido di erbio in controluce
+    attendibilita: documentato
+  - id: le_righe_strette
+    sezione: caratteristiche
+    testo: 'Quel che rende utile l''erbio non è il colore ma la precisione con cui assorbe
+      ed emette. Gli elettroni del guscio f stanno schermati dai gusci esterni e risentono
+      poco di ciò che li circonda: le loro transizioni danno righe strette e sempre alla stessa
+      lunghezza d''onda, che il vetro attorno sia amorfo o cristallino. È il motivo per cui
+      un lantanide può fare da amplificatore dentro un materiale disordinato come il vetro.'
+    visual: Diagramma dei livelli energetici degli elettroni f dell'erbio
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: Nella crosta terrestre è a 2,8 parti per milione, il doppio del terbio, e nell'acqua
+      di mare a meno di un nanogrammo per litro. Si estrae dalle stesse sabbie e argille di
+      tutte le terre rare, ed è fra i lantanidi pesanti, la parte della famiglia che le argille
+      ad adsorbimento ionico della Cina meridionale hanno reso disponibile a costi accettabili.
+    visual: Un campione di sabbie di terre rare setacciato
+    attendibilita: documentato
+  - id: usi_amplificatori
+    sezione: usi
+    testo: 'L''amplificatore in fibra drogata all''erbio è la ragione per cui esistono i cavi
+      sottomarini moderni. L''erbio, eccitato da un laser di pompa, restituisce energia al
+      segnale intorno ai 1550 nanometri, che è esattamente la finestra in cui la fibra di
+      silice perde meno luce: il segnale si rinforza restando luce, senza essere convertito
+      in corrente e ricreato. Prima di questi amplificatori ogni tratta richiedeva un ripetitore
+      elettronico, con tutta la sua elettronica da guastarsi in fondo al mare.'
+    visual: Il modulo di un amplificatore ottico con la bobina di fibra drogata
+    attendibilita: documentato
+  - id: perche_conta_1550
+    sezione: usi
+    testo: 'Il numero che conta è 1550 nanometri. Una fibra monomodale di silice, a quella
+      lunghezza d''onda, perde meno luce che a qualunque altra: è una finestra fissata dalla
+      fisica del vetro, non dalla tecnologia, e chi progetta una dorsale ottica deve starci
+      dentro. Che l''erbio amplifichi proprio lì è una coincidenza fortunata su cui si è costruita
+      l''intera rete in fibra, dai cavi transatlantici alle dorsali continentali.'
+    visual: La curva di attenuazione di una fibra ottica con il minimo a 1550 nanometri
+    attendibilita: documentato
+  - id: usi_laser_medicali
+    sezione: usi
+    testo: 'Il laser a erbio-YAG emette a 2940 nanometri, una lunghezza d''onda che l''acqua
+      assorbe fortissimamente: il colpo si scarica nei primi micrometri di tessuto e vaporizza
+      solo quelli, lasciando quasi intatto ciò che sta sotto. È il principio dei laser usati
+      in dermatologia e in odontoiatria, dove serve togliere strati sottili senza scaldare
+      il resto.'
+    visual: Un manipolo laser in uso in uno studio odontoiatrico
+    attendibilita: documentato
+  - id: usi_vetri_e_leghe
+    sezione: usi
+    testo: 'Fuori dall''ottica gli impieghi sono minori ma vecchi: l''ossido colora vetri
+      e smalti di rosa, filtra alcune lunghezze d''onda negli occhiali di protezione, e in
+      metallurgia piccole aggiunte di erbio rendono più lavorabile il vanadio abbassandone
+      la durezza.'
+    visual: Smalti rosa su piastrelle di ceramica
+    attendibilita: documentato
+  - id: curiosita_neutroni
+    sezione: curiosita
+    testo: 'L''erbio assorbe bene i neutroni, e per questo entra nei materiali di controllo
+      dei reattori nucleari: mescolato al combustibile, tiene sotto controllo la reattività
+      nei primi tempi di vita di una carica, quando l''uranio fresco ne avrebbe troppa.'
+    attendibilita: documentato
+  - id: curiosita_ytterby_quattro
+    sezione: curiosita
+    testo: Quattro elementi portano nel nome pezzi della parola Ytterby — ittrio, itterbio,
+      terbio ed erbio — e altri cinque — scandio, olmio, tulio, gadolinio e tantalio — furono
+      individuati per la prima volta in minerali di quel giacimento. Nessun altro posto al
+      mondo ha lasciato una traccia simile nella tavola periodica.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Ytterby
+    ipa: ˈʏtːɛrbʏ
+    nota: Svedese.
+  - termine: Georges Urbain
+    ipa: ʒɔʁʒ yʁˈbɛ̃
+    nota: Francese.
+composti_principali:
+- nome: Ossido di erbio
+  formula: Er2O3
+  usi:
+  - colorante rosa per vetri e ceramiche
+  - drogaggio delle fibre ottiche
+- nome: Cristallo Er:YAG
+  formula: Er:Y3Al5O12
+  usi:
+  - laser dermatologici
+  - laser odontoiatrici
+- nome: Fibra di silice drogata all'erbio
+  formula: SiO2:Er
+  usi:
+  - amplificatori ottici
+  - cavi sottomarini
+fonti:
+- url: https://en.wikipedia.org/wiki/Erbium
+  titolo: Erbium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/68/erbium
+  titolo: Erbium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Erbium-doped_optical_fiber_amplifier
+  titolo: Erbium-doped optical fiber amplifier
+  consultata: *id001

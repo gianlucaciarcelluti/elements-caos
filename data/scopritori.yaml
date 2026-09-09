@@ -446,6 +446,7 @@
   nazionalita: svedese
   elementi:
   - 34
+  - 58
   - 90
 - id: joseph-black
   nome: Joseph Black
@@ -765,3 +766,10 @@
   - 116
   - 117
   - 118
+- id: wilhelm-hisinger
+  nome: Wilhelm Hisinger
+  nato: 1766
+  morto: 1852
+  nazionalita: svedese
+  elementi:
+  - 58
