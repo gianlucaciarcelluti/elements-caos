@@ -8,10 +8,13 @@ scoperta:
   scopritori:
   - georges-urbain
   - carl-auer-von-welsbach
-  luogo: null
+  luogo: Parigi, Francia
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Scoperta indipendente e quasi simultanea di Georges Urbain a Parigi, Carl
+    Auer von Welsbach a Vienna e Charles James nel New Hampshire, tutti nel 1907. James rinunciò
+    a pubblicare; la Commissione internazionale per i pesi atomici assegnò la priorità a Urbain
+    nel 1909, e la IUPAC fissò il nome lutetium solo nel 1949.
   controversia: null
 proprieta:
   gruppo: 3
@@ -30,5 +33,160 @@ proprieta:
   punto_fusione_k: 1925.0
   punto_ebollizione_k: 3675.0
   densita: 9.841
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
 approfondimento: false
+contenuti:
+  hook: 'Tre uomini in tre paesi trovarono lo stesso elemento nello stesso anno. Uno pubblicò
+    per primo, uno propose un altro nome, il terzo rinunciò senza pubblicare: la disputa si
+    chiuse due anni dopo, a maggioranza.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il lutezio chiude la serie dei lantanidi ed è quello che meno le somiglia: ha
+      il guscio f completo, ed è il più duro, il più denso e quello che fonde più in alto
+      di tutta la famiglia. È anche uno dei più cari, non perché sia scarso in assoluto ma
+      perché nei minerali che lo contengono sta in proporzioni minime.'
+    visual: Un piccolo lingotto di lutezio metallico argenteo
+    attendibilita: documentato
+  - id: l_ultima_terra
+    sezione: storia
+    testo: 'Nel 1907 restava un solo pezzo da assestare nella vicenda delle terre rare: l''itterbia
+      che Marignac aveva separato nel 1878 dava ancora segni di non essere una sostanza sola.
+      Tre chimici, in tre paesi diversi, ci stavano lavorando contemporaneamente e senza saperlo.'
+    visual: Tre laboratori europei e americani in un montaggio d'epoca
+    attendibilita: documentato
+  - id: i_tre
+    sezione: storia
+    testo: Georges Urbain, a Parigi, divise l'itterbia in due componenti e le chiamò neoitterbia
+      e lutecia, dal nome latino della propria città; il barone Carl Auer von Welsbach, a
+      Vienna, arrivò allo stesso risultato e propose i nomi aldebaranio e cassiopeio; l'americano
+      Charles James, nel New Hampshire, aveva il materiale pronto per pubblicare quando venne
+      a sapere del lavoro di Urbain, e rinunciò.
+    visual: Tre pubblicazioni scientifiche del 1907 a confronto
+    attendibilita: documentato
+  - id: la_commissione
+    sezione: storia
+    testo: La disputa la chiuse nel 1909 la Commissione internazionale per i pesi atomici,
+      che assegnò la priorità a Urbain e ne adottò il nome. In Germania e in Austria cassiopeium
+      restò in uso per decenni, e ci volle il 1949 perché la IUPAC raccomandasse lutetium
+      come nome unico, correggendo anche l'ortografia originale di Urbain, che era lutecium.
+    visual: Il verbale di una commissione scientifica di inizio Novecento
+    attendibilita: documentato
+  - id: chi_rinuncia
+    sezione: storia
+    testo: 'Il comportamento di Charles James è il dettaglio che si ricorda meno e che vale
+      di più: aveva in mano il campione, il metodo e i risultati, e scelse di non rivendicare
+      nulla. Il suo metodo di cristallizzazione frazionata, con cui aveva già ottenuto il
+      tulio puro dopo quindicimila passaggi, restò lo standard per decenni ed è quello con
+      cui si sono preparate le terre rare fino allo scambio ionico.'
+    visual: Un laboratorio universitario americano di inizio Novecento
+    attendibilita: documentato
+  - id: fine_di_una_serie
+    sezione: storia
+    testo: Con il lutezio la serie dei lantanidi era completa, e con essa si chiudeva la stagione
+      cominciata nel 1794 con la pietra nera di Ytterby. Erano serviti centotredici anni,
+      quattro generazioni di chimici e tre strumenti diversi — la cristallizzazione frazionata,
+      lo spettroscopio, poi lo scambio ionico — per estrarre quindici elementi da quella che
+      all'inizio sembrava una sola terra.
+    visual: La riga dei lantanidi completa in una tavola periodica moderna
+    attendibilita: documentato
+  - id: il_piu_denso
+    sezione: caratteristiche
+    testo: 'Il lutezio ha la durezza Brinell più alta, la densità maggiore e il punto di fusione
+      più elevato dell''intera serie dei lantanidi: è l''effetto della contrazione lantanidica,
+      che scendendo lungo la serie stringe gli atomi e li lega più saldamente. Con il guscio
+      f pieno, poi, la sua chimica è semplice e somiglia a quella dell''ittrio più che a quella
+      dei vicini.'
+    visual: Un provino di lutezio sotto una macchina per prove di durezza
+    attendibilita: documentato
+  - id: chimica
+    sezione: caratteristiche
+    testo: 'Nei composti sta esclusivamente nello stato +3, con ioni incolori e diamagnetici:
+      non avendo elettroni f spaiati non ha né colore né magnetismo, il che lo rende l''eccezione
+      ottica e magnetica della famiglia. È stabile all''aria in condizioni normali e si dissolve
+      negli acidi diluiti.'
+    visual: Sali incolori di lutezio in una capsula di porcellana
+    attendibilita: documentato
+  - id: rarita
+    sezione: caratteristiche
+    testo: 'Nella monazite il lutezio sta in proporzioni dell''ordine di un decimillesimo
+      di punto percentuale, ed è questo, più dell''abbondanza nella crosta, a determinarne
+      il prezzo: intorno ai diecimila dollari al chilogrammo, fra i più alti delle terre rare.
+      Si ottiene alla fine di una catena di separazioni che deve prima togliere tutti gli
+      altri quattordici lantanidi.'
+    visual: Sabbie monazitiche pronte per la lavorazione
+    attendibilita: documentato
+  - id: lutezio_176
+    sezione: caratteristiche
+    testo: 'Il 2,6 per cento del lutezio naturale è lutezio-176, radioattivo con un''emivita
+      di decine di miliardi di anni. Decade in afnio-176, e questa coppia è alla base della
+      datazione lutezio-afnio, con cui si stabilisce l''età dei minerali e dei meteoriti più
+      antichi: la stessa logica del rubidio-stronzio, applicata a due elementi che restano
+      insieme anche quando la roccia si trasforma.'
+    visual: Una sezione di meteorite preparata per l'analisi isotopica
+    attendibilita: documentato
+  - id: usi_pet
+    sezione: usi
+    testo: 'L''impiego che oggi ne consuma di più è la medicina nucleare: l''ossiortosilicato
+      di lutezio drogato al cerio è il cristallo scintillatore preferito per i rivelatori
+      della tomografia a emissione di positroni, perché è denso — e quindi ferma i fotoni
+      gamma in poco spazio — veloce a smaltire il segnale e abbastanza luminoso da permettere
+      di localizzare l''emissione con precisione. Ogni macchina PET ne contiene decine di
+      chilogrammi, disposti ad anello attorno al paziente.'
+    visual: L'anello di rivelatori di una macchina PET aperto per manutenzione
+    attendibilita: documentato
+  - id: usi_catalisi_e_terapia
+    sezione: usi
+    testo: 'Il resto si divide fra la catalisi — il lutezio stabile serve nei catalizzatori
+      del cracking del petrolio — e la terapia radioisotopica: il lutezio-177, legato a molecole
+      che si attaccano a specifici recettori tumorali, irradia il tumore dall''interno con
+      particelle beta a corto raggio, ed è alla base di terapie approvate per alcuni tumori
+      neuroendocrini e prostatici.'
+    visual: Una fiala di radiofarmaco al lutezio-177 in un contenitore schermato
+    attendibilita: documentato
+  - id: curiosita_cassiopeio
+    sezione: curiosita
+    testo: 'Il nome cassiopeium, proposto da von Welsbach e sconfitto nel 1909, è rimasto
+      in uso nella letteratura chimica tedesca fino agli anni Cinquanta: per mezzo secolo
+      lo stesso elemento ha avuto due nomi a seconda della lingua in cui se ne scriveva, come
+      era accaduto al niobio con il columbium.'
+    attendibilita: documentato
+  - id: curiosita_lutetia
+    sezione: curiosita
+    testo: 'Lutetia era il nome romano dell''insediamento sulla Senna da cui è nata Parigi,
+      e Urbain lo scelse per la propria città. Nella tavola periodica il lutezio fa così compagnia
+      al gallio, al germanio, allo scandio e all''europio: una geografia in cui ogni chimico
+      ha piantato la bandiera di casa propria.'
+    attendibilita: documentato
+  pronuncia:
+  - termine: Georges Urbain
+    ipa: ʒɔʁʒ yʁˈbɛ̃
+    nota: Francese.
+  - termine: Lutetia
+    ipa: luˈtɛtsja
+    nota: Nome latino di Parigi.
+composti_principali:
+- nome: Ossiortosilicato di lutezio drogato al cerio
+  formula: Lu2SiO5:Ce
+  usi:
+  - rivelatori per tomografia a emissione di positroni
+- nome: Ossido di lutezio
+  formula: Lu2O3
+  usi:
+  - catalizzatori
+  - ceramiche ottiche
+- nome: Lutezio-177 legato a peptidi
+  formula: 177Lu-DOTATATE
+  usi:
+  - terapia radiometabolica dei tumori neuroendocrini
+fonti:
+- url: https://en.wikipedia.org/wiki/Lutetium
+  titolo: Lutetium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/71/lutetium
+  titolo: Lutetium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Lutetium%E2%80%93hafnium_dating
+  titolo: Lutetium–hafnium dating
+  consultata: *id001

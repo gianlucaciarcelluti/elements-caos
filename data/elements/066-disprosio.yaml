@@ -7,10 +7,13 @@ scoperta:
   anno_stimato: false
   scopritori:
   - paul-emile-lecoq-de-boisbaudran
-  luogo: null
+  luogo: Parigi, Francia
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Lecoq de Boisbaudran lo separò dall'ossido di olmio nel 1886, dopo più
+    di trenta precipitazioni successive; il nome viene dal greco dysprositos, «difficile da
+    raggiungere». L'elemento puro arrivò solo negli anni Cinquanta del Novecento, con lo scambio
+    ionico messo a punto da Frank Spedding.
   controversia: null
 proprieta:
   gruppo: 3
@@ -29,5 +32,169 @@ proprieta:
   punto_fusione_k: 1680.0
   punto_ebollizione_k: 2840.0
   densita: 8.54
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 3
 approfondimento: false
+contenuti:
+  hook: Ci vollero più di trenta tentativi per cavarlo dal suo ossido, e chi ci riuscì lo
+    chiamò con la parola greca che significa «difficile da raggiungere».
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il disprosio è l''elemento che tiene i magneti in funzione quando si scaldano:
+      sostituendone qualche punto percentuale al neodimio si alza la temperatura alla quale
+      il magnete perde le proprie proprietà, e senza quella sostituzione i motori delle automobili
+      elettriche si smagnetizzerebbero sotto carico.'
+    visual: Un magnete al neodimio-disprosio dentro il rotore di un motore elettrico
+    attendibilita: documentato
+  - id: la_matrioska_delle_terre
+    sezione: storia
+    testo: 'Alla metà degli anni Ottanta dell''Ottocento la caccia alle terre rare aveva preso
+      una forma precisa: si partiva da un ossido considerato puro, lo si sottoponeva a separazioni
+      sempre più fini, e si guardava se le proprietà del residuo restavano costanti. Quasi
+      mai lo restavano. L''olmio, annunciato nel 1878, era uno di quegli ossidi apparentemente
+      definitivi.'
+    visual: Una sequenza di capsule con residui sempre più piccoli
+    attendibilita: documentato
+  - id: lecoq_1886
+    sezione: storia
+    testo: 'Nel 1886, a Parigi, Paul-Émile Lecoq de Boisbaudran lavorava sull''ossido di olmio
+      quando si accorse che conteneva ancora qualcosa. Separarlo fu una faccenda estenuante:
+      procedette per precipitazioni successive con ammoniaca, ripetendo l''operazione più
+      di trenta volte prima di avere in mano un ossido che si comportasse in modo coerente.'
+    visual: Un chimico che ripete una precipitazione in una lunga fila di becher
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome lo prese da quella fatica: dysprositos, in greco, significa «difficile
+      da raggiungere». È l''unico elemento della tavola periodica battezzato non per un luogo,
+      un mito, un colore o una persona, ma per la difficoltà che ha dato a chi lo cercava.'
+    visual: L'iscrizione greca δυσπρόσιτος accanto a un campione di ossido
+    attendibilita: documentato
+  - id: lecoq_collezionista
+    sezione: storia
+    testo: Con il disprosio, Lecoq de Boisbaudran arrivava al terzo elemento trovato da solo,
+      dopo il gallio nel 1875 e il samario nel 1879, e in mezzo aveva anche separato il gadolinio
+      che Marignac aveva soltanto intravisto. Nessun altro chimico dell'Ottocento ha messo
+      insieme un bottino simile con il solo spettroscopio e una pazienza da certosino.
+    visual: Il ritratto di un chimico francese dell'Ottocento in laboratorio
+    attendibilita: documentato
+  - id: il_metallo_tardivo
+    sezione: storia
+    testo: 'L''elemento puro, però, restò irraggiungibile per settant''anni. Ci vollero le
+      tecniche di scambio ionico sviluppate da Frank Spedding all''Iowa State University nei
+      primi anni Cinquanta: fu quel metodo, nato dentro il progetto Manhattan per separare
+      i prodotti di fissione, a rendere disponibili in quantità utili tutte le terre rare,
+      disprosio compreso.'
+    visual: Colonne di resina a scambio ionico in un laboratorio degli anni Cinquanta
+    attendibilita: documentato
+  - id: magnetismo
+    sezione: caratteristiche
+    testo: Il disprosio ha una delle suscettività magnetiche più alte fra gli elementi, e
+      sotto i settantacinque kelvin diventa ferromagnetico con un ordinamento complesso. A
+      temperatura ambiente resta paramagnetico, ma il suo contributo all'interno di una lega
+      è quello di irrigidire l'orientamento magnetico degli altri atomi, che è esattamente
+      ciò che serve per resistere al calore.
+    visual: Diagramma dell'ordinamento magnetico del disprosio a bassa temperatura
+    attendibilita: documentato
+  - id: magnetostrizione
+    sezione: caratteristiche
+    testo: 'Insieme al terbio e al ferro forma il Terfenol-D, la lega con la magnetostrizione
+      più alta a temperatura ambiente fra quelle conosciute: si allunga e si accorcia in modo
+      misurabile quando la si immerge in un campo magnetico, e su questo si fanno attuatori
+      di precisione e trasduttori per i sonar.'
+    visual: Un attuatore magnetostrittivo sezionato
+    attendibilita: documentato
+  - id: proprieta_generali
+    sezione: caratteristiche
+    testo: 'Il metallo è argenteo e abbastanza tenero da lasciarsi tagliare con un coltello;
+      all''aria si ossida lentamente a temperatura ambiente e brucia con facilità se scaldato,
+      e in acqua reagisce liberando idrogeno. Nei composti sta stabilmente nello stato +3
+      e i suoi sali sono giallo pallido. La sua concentrazione nella crosta terrestre è di
+      circa cinque parti per milione, il doppio del terbio: fra i lantanidi pesanti è uno
+      dei più comuni, il che non gli impedisce di essere fra i più contesi.'
+    visual: Un campione di disprosio metallico con la superficie appena opacizzata
+    attendibilita: documentato
+  - id: neutroni
+    sezione: caratteristiche
+    testo: Assorbe bene i neutroni termici, e per questo entra nelle barre di controllo dei
+      reattori nucleari in forma di titanato di disprosio, un materiale che non si gonfia
+      e non si degrada sotto irraggiamento come fanno altri assorbitori.
+    visual: Barre di controllo estratte dal nocciolo di un reattore
+    attendibilita: documentato
+  - id: usi_magneti
+    sezione: usi
+    testo: 'L''impiego che ne consuma di più è la sostituzione parziale del neodimio nei magneti
+      Nd₂Fe₁₄B: fino a qualche punto percentuale di disprosio alza la coercitività, cioè la
+      resistenza del magnete a essere smagnetizzato, e permette di lavorare a temperature
+      che altrimenti rovinerebbero il componente. Motori elettrici, generatori eolici e attuatori
+      aeronautici dipendono da questa aggiunta.'
+    visual: Il rotore di un generatore eolico con i magneti in evidenza
+    attendibilita: documentato
+  - id: criticita
+    sezione: usi
+    testo: 'Proprio per questo il disprosio compare in cima a tutte le liste dei materiali
+      critici per la transizione energetica. La domanda cresce con i motori elettrici e con
+      l''eolico, la produzione dipende quasi interamente dalle argille ad adsorbimento ionico
+      della Cina meridionale, e le previsioni di penuria si sono ripetute a ogni revisione
+      dei piani industriali degli ultimi quindici anni. È anche uno degli elementi su cui
+      si concentra la ricerca di sostituti: magneti che facciano a meno delle terre rare pesanti
+      sono studiati da vent''anni, e finora nessuno regge il confronto quando la temperatura
+      sale.'
+    visual: Una miniera di argille ad adsorbimento ionico a cielo aperto
+    attendibilita: documentato
+  - id: usi_minori
+    sezione: usi
+    testo: 'Gli altri impieghi sono piccoli ma stabili: i dosimetri personali a termoluminescenza
+      usano solfato o fluoruro di calcio drogato al disprosio, che immagazzina l''energia
+      della radiazione e la restituisce come luce quando lo si scalda; alcune lampade a ioduri
+      metallici contengono ioduro di disprosio per avvicinare lo spettro a quello della luce
+      naturale.'
+    visual: Un dosimetro personale a termoluminescenza appuntato su un camice
+    attendibilita: documentato
+  - id: curiosita_hard_disk
+    sezione: curiosita
+    testo: 'Il disprosio è anche uno dei metalli che rendono difficile riciclare un motore
+      elettrico: sta disperso in pochi punti percentuali dentro magneti sinterizzati, incollati
+      e rivestiti, e recuperarlo costa più di quanto valga finché il prezzo resta quello che
+      è. È un problema di ingegneria che nessuno ha ancora risolto in modo convincente.'
+    attendibilita: documentato
+  - id: curiosita_spedding
+    sezione: curiosita
+    testo: Frank Spedding, che con lo scambio ionico rese ottenibili le terre rare pure, aveva
+      sviluppato quel metodo per il progetto Manhattan, dove serviva separare gli elementi
+      delle scorie di fissione. La chimica delle terre rare, ferma da un secolo alle cristallizzazioni
+      frazionate, si è sbloccata come effetto collaterale della bomba atomica.
+    attendibilita: documentato
+  pronuncia:
+  - termine: dysprositos
+    ipa: dysˈprositos
+    nota: Greco antico.
+  - termine: Frank Spedding
+    ipa: fɹæŋk ˈspɛdɪŋ
+    nota: Inglese americano.
+composti_principali:
+- nome: Titanato di disprosio
+  formula: Dy2TiO5
+  usi:
+  - barre di controllo dei reattori nucleari
+- nome: Terfenol-D
+  formula: Tb0.3Dy0.7Fe2
+  usi:
+  - attuatori magnetostrittivi
+  - sonar
+- nome: Ossido di disprosio
+  formula: Dy2O3
+  usi:
+  - additivo per magneti permanenti
+  - lampade a ioduri metallici
+fonti:
+- url: https://en.wikipedia.org/wiki/Dysprosium
+  titolo: Dysprosium
+  consultata: &id001 2026-09-09
+- url: https://periodic-table.rsc.org/element/66/dysprosium
+  titolo: Dysprosium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Terfenol-D
+  titolo: Terfenol-D
+  consultata: *id001
