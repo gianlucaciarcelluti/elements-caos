@@ -7,10 +7,14 @@ scoperta:
   anno_stimato: false
   scopritori:
   - andres-manuel-del-rio
-  luogo: null
+  luogo: Città del Messico
   epoca: elettrolisi
   isolamento_anno: 1867
-  note_cronologia: Isolato in forma pura nel 1867 da Henry Enfield Roscoe.
+  note_cronologia: Del Río ritirò la propria rivendicazione nel 1805, convinto da
+    Collet-Descotils che si trattasse di cromo. L'elemento fu ritrovato nel 1830 da
+    Nils Gabriel Sefström, che gli diede il nome, e Friedrich Wöhler ne riconobbe
+    nel 1831 l'identità con l'eritronio di del Río. Isolato in forma pura nel 1867
+    da Henry Enfield Roscoe.
   controversia: null
 proprieta:
   gruppo: 5
@@ -27,5 +31,195 @@ proprieta:
   punto_fusione_k: 2183.0
   punto_ebollizione_k: 3680.0
   densita: 6.0
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -3
+  - -1
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 approfondimento: false
+contenuti:
+  hook: 'Nel 1801 un mineralogista trovò a Città del Messico un elemento nuovo. Quattro
+    anni dopo un chimico di Parigi gli scrisse che si era sbagliato, e lui gli credette:
+    per rimediare a quella parola ci vollero trent''anni.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il vanadio è un metallo grigio con un riflesso azzurro, duro e abbastanza
+      duttile da lasciarsi laminare, e deve la propria fama a due cose lontane fra
+      loro: tiene insieme buona parte degli acciai da utensile del mondo e forma composti
+      di ogni colore, dal violetto al giallo.'
+    visual: Un pezzo di vanadio metallico grigio azzurrino accanto a provette di soluzioni
+      colorate
+    attendibilita: documentato
+  - id: del_rio_messico
+    sezione: storia
+    testo: 'Nel 1801 Andrés Manuel del Río insegnava mineralogia al Real Seminario
+      de Minería di Città del Messico, la prima scuola mineraria del continente americano.
+      Analizzando un minerale di piombo che i minatori chiamavano «piombo bruno» —
+      lo stesso che molto più tardi sarebbe stato battezzato vanadinite — ne ricavò
+      sali di colori diversissimi e concluse di avere in mano un elemento sconosciuto:
+      lo chiamò panchromium, «tutti i colori», e poi eritronio, perché scaldati quei
+      sali viravano al rosso.'
+    visual: Cristalli rossi esagonali di vanadinite su matrice rocciosa
+    attendibilita: documentato
+  - id: ritrattazione
+    sezione: storia
+    testo: Alcuni campioni presero la via dell'Europa, e nel 1805 il chimico francese
+      Hippolyte Victor Collet-Descotils li esaminò e sentenziò che si trattava di
+      cromo impuro. Il verdetto era sbagliato, ma veniva dal centro della chimica
+      europea ed era condiviso da Alexander von Humboldt, che di del Río era amico
+      dai tempi degli studi a Freiberg. Del Río lo accettò e ritirò la propria rivendicazione.
+    visual: Un laboratorio parigino di inizio Ottocento con campioni minerali sul
+      banco
+    attendibilita: documentato
+  - id: sefstrom_falun
+    sezione: storia
+    testo: 'L''elemento tornò da un''altra strada, e per un motivo pratico. Nel 1830
+      Nils Gabriel Sefström, che dirigeva la scuola mineraria di Falun, cercava di
+      capire perché certe ghise fossero più fragili di altre, e nel minerale di ferro
+      della miniera di Taberg, in Småland, trovò tracce di un metallo che non sapeva
+      riconoscere. Ne accumulò ossido a sufficienza per portarlo a Stoccolma, nel
+      laboratorio privato di Jöns Jacob Berzelius: ci lavorarono durante le feste
+      di Natale e ai primi di gennaio del 1831 avevano il campione. Sefström lo chiamò
+      vanadio, da Vanadís, uno dei nomi della dea nordica Freyja, per i colori dei
+      suoi sali.'
+    visual: Un forno da laboratorio e campioni di minerale di ferro in una scuola
+      mineraria svedese
+    attendibilita: documentato
+  - id: wohler_identita
+    sezione: storia
+    testo: 'Che si trattasse dell''eritronio di del Río lo dimostrò nello stesso 1831
+      Friedrich Wöhler, che aveva sotto mano i minerali messicani e riconobbe l''identità
+      delle due sostanze. Il nome però era ormai dato: la proposta del geologo George
+      William Featherstonhaugh di chiamarlo «rionio», in onore di chi lo aveva incontrato
+      per primo, non ebbe seguito.'
+    visual: Due etichette di minerale, una messicana e una svedese, accostate sullo
+      stesso banco
+    attendibilita: documentato
+  - id: attribuzione
+    sezione: storia
+    testo: A chi vada la scoperta resta una questione di definizioni. Le tavole riportano
+      il 1801 e il nome di del Río, ed è la scelta che quasi tutte le fonti seguono;
+      ma il vanadio entra nella chimica europea solo nel 1830, con un'analisi che
+      nessuno ha ritirato, e chi aveva ritrattato non era stato smentito da un esperimento,
+      bensì convinto da un'autorità.
+    visual: Due pagine di manuale con date di scoperta diverse per lo stesso elemento
+    attendibilita: discusso
+  - id: roscoe_isolamento
+    sezione: storia
+    testo: Il metallo vero e proprio arrivò molto più tardi. Nel 1867 Henry Enfield
+      Roscoe, all'Owens College di Manchester, ottenne vanadio puro riducendo con
+      idrogeno il cloruro di vanadio, e mostrò che ciò che fino ad allora era passato
+      per il metallo — a partire dal preparato di Berzelius — era in realtà il nitruro.
+      Dovette correggere di conseguenza anche la massa atomica dell'elemento.
+    visual: Un tubo di riduzione in vetro attraversato da idrogeno in un laboratorio
+      vittoriano
+    attendibilita: documentato
+  - id: caratteristiche_fisiche
+    sezione: caratteristiche
+    testo: 'Il vanadio fonde a 1910 gradi e resiste bene alla corrosione: a temperatura
+      ambiente si copre di uno strato di ossido che lo protegge, e non lo intaccano
+      gli alcali né l''acido solforico o cloridrico. Sopra i 660 gradi, invece, l''ossidazione
+      all''aria diventa rapida.'
+    visual: Una barra di vanadio con la superficie opaca di ossido
+    attendibilita: documentato
+  - id: stati_e_colori
+    sezione: caratteristiche
+    testo: 'In soluzione acquosa il vanadio esiste in quattro stati di ossidazione
+      contigui, dal +2 al +5, e ciascuno ha il proprio colore: violetto, verde, blu
+      e giallo. Riducendo un vanadato con zinco si vede la soluzione attraversare
+      i quattro colori uno dopo l''altro, ed è a questa tavolozza che l''elemento
+      deve il nome. La tabella ne elenca altri, fino al -3, ma appartengono ai
+      carbonili di laboratorio, dove il vanadio sta a valenza zero o negativa.'
+    visual: Quattro provette allineate con soluzioni violetta, verde, blu e gialla
+    attendibilita: documentato
+  - id: abbondanza
+    sezione: caratteristiche
+    testo: 'In natura non si trova mai libero. I minerali che ne sono ricchi — vanadinite,
+      patronite, carnotite — hanno avuto importanza commerciale in passato, ma oggi
+      quasi tutto il vanadio esce come sottoprodotto: dalle scorie delle magnetiti
+      titanifere lavorate per il ferro, dai residui del petrolio, dai catalizzatori
+      esausti. Nel 2025 la Cina ne ha prodotte 82.000 tonnellate sulle 110.000 mondiali
+      stimate dallo USGS, seguita a distanza dalla Russia con 21.000 e poi da Brasile
+      e Sudafrica, intorno alle cinquemila ciascuno; negli Stati Uniti l''estrazione
+      primaria è ferma dal 2020.'
+    visual: Colata di scoria in un impianto siderurgico
+    attendibilita: documentato
+  - id: usi_acciaio
+    sezione: usi
+    testo: Oltre l'ottanta per cento del vanadio prodotto finisce in acciai e ferroleghe.
+      Bastano frazioni di punto percentuale di ferrovanadio per ottenere acciai da
+      utensile che tengono il filo anche a caldo e acciai basso-legati ad alta resistenza
+      per tubazioni e strutture; il primo impiego industriale su larga scala fu il
+      telaio della Ford Model T, intorno al 1905, più leggero a parità di robustezza.
+    visual: Il telaio di una Ford Model T in officina
+    attendibilita: documentato
+  - id: usi_titanio_catalisi
+    sezione: usi
+    testo: Il resto si divide fra due impieghi molto diversi. Nelle leghe di titanio
+      per l'aeronautica il vanadio è il secondo elemento aggiunto dopo l'alluminio,
+      e per quell'uso lo USGS non registra sostituti accettabili; il pentossido di
+      vanadio, invece, è il catalizzatore con cui si ossida l'anidride solforosa nel
+      processo che produce acido solforico.
+    visual: Pale di turbina in lega di titanio su un banco di montaggio
+    attendibilita: documentato
+  - id: curiosita_batteria
+    sezione: curiosita
+    testo: 'Le batterie a flusso redox al vanadio sfruttano proprio i quattro stati
+      contigui: la coppia +5/+4 sta a un elettrodo, la +3/+2 all''altro, e siccome
+      l''elemento è lo stesso da entrambe le parti le contaminazioni fra i due liquidi
+      non rovinano la cella. Si usano per accumulare energia sulla rete elettrica,
+      dove contano la durata e la sicurezza più della leggerezza.'
+    attendibilita: documentato
+  - id: curiosita_ascidie
+    sezione: curiosita
+    testo: Alcune ascidie, animali marini che filtrano l'acqua, accumulano vanadio
+      in cellule del sangue chiamate vanadociti, dove la concentrazione arriva a milioni
+      di volte quella dell'acqua circostante; a che cosa serva non è ancora chiaro.
+    attendibilita: documentato
+  pronuncia:
+  - termine: Andrés Manuel del Río
+    ipa: anˈdɾes maˈnwel del ˈri.o
+    nota: Spagnolo.
+  - termine: Nils Gabriel Sefström
+    ipa: nɪls ˈɡaːbriɛl ˈseːfstrœm
+    nota: Svedese.
+  - termine: Henry Enfield Roscoe
+    ipa: ˈhɛnɹi ˈɛnfiːld ˈɹɒskəʊ
+    nota: Inglese britannico.
+composti_principali:
+- nome: Pentossido di vanadio
+  formula: V2O5
+  usi:
+  - catalizzatore per l'acido solforico
+  - pigmento per ceramiche e vetri
+- nome: Solfato di vanadile
+  formula: VOSO4
+  usi:
+  - elettrolita delle batterie a flusso redox
+  - reagente di laboratorio
+- nome: Carburo di vanadio
+  formula: VC
+  usi:
+  - affinamento del grano negli acciai
+  - utensili da taglio
+fonti:
+- url: https://en.wikipedia.org/wiki/Vanadium
+  titolo: Vanadium
+  consultata: &id001 2026-09-08
+- url: https://periodic-table.rsc.org/element/23/vanadium
+  titolo: Vanadium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-vanadium.pdf
+  titolo: USGS Mineral Commodity Summaries 2026 — Vanadium
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Nils_Gabriel_Sefstr%C3%B6m
+  titolo: Nils Gabriel Sefström
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Henry_Roscoe_(chemist)
+  titolo: Sir Henry Enfield Roscoe
+  consultata: *id001
