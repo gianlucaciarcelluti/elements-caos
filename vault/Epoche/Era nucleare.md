@@ -33,7 +33,7 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 1981 | [[Bohrio]] (Bh) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 1982 | [[Meitnerio]] (Mt) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 1984 | [[Hassio]] (Hs) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
-| 1994 | [[Darmstadtio]] (Ds) | [[Sigurd Hofmann]] |
+| 1994 | [[Darmstadtio]] (Ds) | [[Sigurd Hofmann]], [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 1994 | [[Roentgenio]] (Rg) | [[Sigurd Hofmann]] |
 | 1996 | [[Copernicio]] (Cn) | [[Sigurd Hofmann]] |
 | 2000 | [[Livermorio]] (Lv) | [[Yuri Oganessian]], [[Kenton Moody]] |

@@ -165,7 +165,7 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 107 | 1981 | [[Bohrio]] (Bh) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 108 | 1982 | [[Meitnerio]] (Mt) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 109 | 1984 | [[Hassio]] (Hs) | [[Peter Armbruster]], [[Gottfried Münzenberg]] |
-| 110 | 1994 | [[Darmstadtio]] (Ds) | [[Sigurd Hofmann]] |
+| 110 | 1994 | [[Darmstadtio]] (Ds) | [[Sigurd Hofmann]], [[Peter Armbruster]], [[Gottfried Münzenberg]] |
 | 111 | 1994 | [[Roentgenio]] (Rg) | [[Sigurd Hofmann]] |
 | 112 | 1996 | [[Copernicio]] (Cn) | [[Sigurd Hofmann]] |
 | 113 | 2000 | [[Livermorio]] (Lv) | [[Yuri Oganessian]], [[Kenton Moody]] |
