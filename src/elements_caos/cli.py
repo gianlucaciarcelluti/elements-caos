@@ -26,9 +26,23 @@ from elements_caos.render.navigazione import (
 )
 from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi_nota
 from elements_caos.render.prosa import componi_sezione
+from elements_caos.sito.contesto import (
+    URL_ATTRIBUZIONI,
+    URL_HOME,
+    rendi_attribuzioni_sito,
+    rendi_epoca_sito,
+    rendi_home,
+    rendi_scopritore_sito,
+)
 from elements_caos.sito.cronologia import URL_CRONOLOGIA, rendi_cronologia_sito
 from elements_caos.sito.itinerario import URL_ITINERARIO, rendi_itinerario_sito
-from elements_caos.sito.pagina import CARTELLA_STATICI, rendi_elemento, url_elemento
+from elements_caos.sito.pagina import (
+    CARTELLA_STATICI,
+    rendi_elemento,
+    url_elemento,
+    url_epoca,
+    url_scopritore,
+)
 from elements_caos.sito.tavola import URL_TAVOLA, rendi_tavola_sito
 from elements_caos.validazione import (
     FONTI_MIN_BASE,
@@ -198,6 +212,12 @@ def genera_vault(cartella_dati: Path, cartella_vault: Path) -> int:
     return CODICE_SUCCESSO
 
 
+def _copia_binario(origine: Path, destinazione: Path) -> None:
+    """Copia un file binario, creando la cartella di destinazione se manca."""
+    destinazione.parent.mkdir(parents=True, exist_ok=True)
+    destinazione.write_bytes(origine.read_bytes())
+
+
 def _copia_statici(destinazione: Path) -> None:
     """Copia i fogli di stile e gli script nella cartella di uscita.
 
@@ -239,6 +259,26 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
 
     _scrivi(cartella_uscita / URL_TAVOLA, rendi_tavola_sito(elementi, epoche))
 
+    for epoca in epoche.values():
+        _scrivi(
+            cartella_uscita / url_epoca(epoca.nome),
+            rendi_epoca_sito(epoca, elementi, scopritori),
+        )
+
+    for scopritore in scopritori.values():
+        _scrivi(
+            cartella_uscita / url_scopritore(scopritore),
+            rendi_scopritore_sito(scopritore, elementi),
+        )
+        # Il ritratto accompagna la pagina: è già nel vault, verificato per
+        # licenza dal Task 12, e qui si copia soltanto.
+        if scopritore.ritratto is not None:
+            origine = cartella_dati / "images" / scopritore.ritratto.file
+            if origine.exists():
+                _copia_binario(origine, cartella_uscita / "immagini" / scopritore.ritratto.file)
+
+    _scrivi(cartella_uscita / URL_ATTRIBUZIONI, rendi_attribuzioni_sito(scopritori))
+
     itinerario = carica_itinerario(cartella_dati / "itinerario.yaml")
     if itinerario:
         _scrivi(
@@ -246,9 +286,11 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
             rendi_itinerario_sito(itinerario, elementi),
         )
 
+    _scrivi(cartella_uscita / URL_HOME, rendi_home(elementi, epoche, itinerario))
+
     _copia_statici(cartella_uscita / "statico")
 
-    print(f"Emesse {len(elementi)} pagine di elementi in {cartella_uscita}")
+    print(f"Emesse {len(elementi)} pagine di elementi e le pagine di contesto in {cartella_uscita}")
     return CODICE_SUCCESSO
 
 

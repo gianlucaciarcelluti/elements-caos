@@ -1,0 +1,56 @@
+{% extends "base.html.j2" %}
+{% set radice = "" %}
+
+{% block titolo %}La scoperta degli elementi{% endblock %}
+{% block descrizione %}I {{ totale }} elementi chimici raccontati nell'ordine in cui l'umanità li ha scoperti, non in quello del numero atomico.{% endblock %}
+
+{% block contenuto %}
+<article class="home">
+
+<header class="home__testa">
+<h1>La scoperta degli elementi</h1>
+<p class="elemento__hook">
+I {{ totale }} elementi chimici nell'ordine in cui l'umanità li ha scoperti, non
+in quello del numero atomico.
+</p>
+<p>
+È una storia che parte {{ preposizione_da }} del {{ anno_primo }} e finisce con
+{{ ultimo.nome | lower }}, che esiste per pochi atomi vissuti meno di un
+millesimo di secondo e che nessuno ha mai visto. Letta in quest'ordine, la
+tavola periodica smette di essere una griglia da memorizzare e diventa il
+racconto di come abbiamo imparato a riconoscere la materia di cui è fatto il
+mondo.
+</p>
+</header>
+
+<section class="porte">
+<h2>Da dove entrare</h2>
+<ul class="porte__voci">
+<li class="porta">
+<h3><a href="itinerario.html">L'itinerario in {{ totale_tappe }} tappe</a></h3>
+<p>Il filo della storia in un'ora di lettura, senza leggere tutte le note.</p>
+</li>
+<li class="porta">
+<h3><a href="cronologia-degli-elementi.html">La cronologia completa</a></h3>
+<p>Tutti i {{ totale }} elementi in ordine di tempo, raggruppati per epoca.</p>
+</li>
+<li class="porta">
+<h3><a href="tavola-periodica.html">La tavola nel tempo</a></h3>
+<p>Trascina gli anni e guarda la tavola riempirsi nell'ordine vero.</p>
+</li>
+</ul>
+</section>
+
+<section class="porte">
+<h2>Le {{ totale_epoche }} epoche</h2>
+<ul class="legenda__voci">
+{% for epoca in epoche %}
+<li class="legenda__voce epoca--{{ epoca.id }}">
+<a href="{{ url_epoca(epoca.nome) }}">{{ epoca.nome }}</a>
+</li>
+{% endfor %}
+</ul>
+</section>
+
+</article>
+{% endblock %}

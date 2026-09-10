@@ -1,0 +1,50 @@
+{% extends "base.html.j2" %}
+{% set radice = "../" %}
+
+{% block titolo %}{{ scopritore.nome }}{% endblock %}
+{% block descrizione %}{{ scopritore.nome }}, a cui si devono {{ voci | length }} elementi della tavola periodica.{% endblock %}
+
+{% block contenuto %}
+<article class="contesto">
+
+<header class="contesto__testa">
+<p class="contesto__occhiello">Scopritore</p>
+<h1>{{ scopritore.nome }}</h1>
+{# Nato, morto e nazionalità compaiono solo se noti: l'anagrafica sconosciuta
+   si lascia a null e non si inventa. #}
+{% if nato or morto or scopritore.nazionalita %}
+<p class="contesto__anagrafica">
+{% if nato or morto %}{{ nato or "?" }} — {{ morto or "?" }}{% endif %}
+{% if (nato or morto) and scopritore.nazionalita %} · {% endif %}
+{% if scopritore.nazionalita %}{{ scopritore.nazionalita }}{% endif %}
+</p>
+{% endif %}
+</header>
+
+{% if scopritore.ritratto %}
+<figure class="ritratto">
+<img src="{{ radice }}immagini/{{ scopritore.ritratto.file }}" alt="Ritratto di {{ scopritore.nome }}" loading="lazy">
+<figcaption>
+{{ scopritore.ritratto.autore }} · {{ scopritore.ritratto.licenza }} ·
+<a href="{{ scopritore.ritratto.fonte }}">fonte</a>
+</figcaption>
+</figure>
+{% endif %}
+
+<section class="contesto__elenco">
+<h2>{{ voci | length }} {{ "elemento" if voci | length == 1 else "elementi" }}</h2>
+<ul class="pastiglie">
+{% for voce in voci %}
+<li class="pastiglia epoca--{{ voce.epoca }}">
+<a href="{{ radice }}{{ voce.url }}">
+<span class="pastiglia__simbolo">{{ voce.elemento.simbolo }}</span>
+<span class="pastiglia__nome">{{ voce.elemento.nome }}</span>
+<span class="pastiglia__anno">{{ voce.anno }}</span>
+</a>
+</li>
+{% endfor %}
+</ul>
+</section>
+
+</article>
+{% endblock %}

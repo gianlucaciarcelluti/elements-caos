@@ -1,0 +1,34 @@
+{% extends "base.html.j2" %}
+{% set radice = "" %}
+
+{% block titolo %}Attribuzioni delle immagini{% endblock %}
+{% block descrizione %}Autore, licenza e origine di ogni immagine usata nel progetto.{% endblock %}
+
+{% block contenuto %}
+<article class="contesto">
+
+<header class="contesto__testa">
+<h1>Attribuzioni delle immagini</h1>
+<p>
+Tutte le immagini sono in pubblico dominio o rilasciate in CC0. L'attribuzione
+qui riportata non è dovuta per licenza: è una cortesia verso gli autori e verso
+chi vorrà riusare questo materiale.
+</p>
+</header>
+
+<ul class="attribuzioni">
+{% for scopritore in voci %}
+<li class="attribuzione">
+<p class="attribuzione__soggetto">
+<a href="{{ url_scopritore(scopritore) }}">{{ scopritore.nome }}</a>
+</p>
+<p class="attribuzione__dati">
+{{ scopritore.ritratto.autore }} · {{ scopritore.ritratto.licenza }} ·
+<a href="{{ scopritore.ritratto.fonte }}">{{ scopritore.ritratto.file }}</a>
+</p>
+</li>
+{% endfor %}
+</ul>
+
+</article>
+{% endblock %}

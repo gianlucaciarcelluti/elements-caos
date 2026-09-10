@@ -869,3 +869,106 @@ a {
 .tappa--letta .tappa__titolo {
   opacity: 0.6;
 }
+
+/* --- Pagine di contesto: epoche, scopritori, attribuzioni ----------------- */
+
+.contesto__occhiello {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--epoca-testo, var(--colore-testo-tenue));
+}
+
+.contesto__anagrafica {
+  margin: var(--passo-1) 0 0;
+  font-family: var(--font-titoli);
+  font-size: 0.9rem;
+  color: var(--colore-testo-tenue);
+}
+
+.contesto__testa h1 {
+  margin-block: var(--passo-1) var(--passo-3);
+  font-size: clamp(1.8rem, 1.4rem + 2vw, 2.6rem);
+}
+
+.ritratto {
+  margin: var(--passo-4) 0;
+}
+
+.ritratto img {
+  max-width: min(100%, 16rem);
+  height: auto;
+  border-radius: var(--raggio);
+}
+
+.ritratto figcaption {
+  margin-top: var(--passo-1);
+  font-family: var(--font-titoli);
+  font-size: 0.78rem;
+  color: var(--colore-testo-tenue);
+}
+
+.attribuzioni {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.attribuzione {
+  padding-block: var(--passo-2);
+  border-bottom: 1px solid var(--colore-bordo);
+}
+
+.attribuzione__soggetto {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-weight: 600;
+}
+
+.attribuzione__dati {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* --- Home ----------------------------------------------------------------- */
+
+.home__testa h1 {
+  margin-block: 0 var(--passo-3);
+  font-size: clamp(2rem, 1.5rem + 2.5vw, 3rem);
+}
+
+.porte__voci {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--passo-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.porta {
+  padding: var(--passo-3);
+  background: var(--colore-superficie);
+  border-radius: var(--raggio);
+}
+
+.porta h3 {
+  margin: 0 0 var(--passo-2);
+  font-family: var(--font-titoli);
+  font-size: 1.05rem;
+}
+
+.porta p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--colore-testo-tenue);
+}
+
+.legenda__voce a {
+  color: inherit;
+  text-decoration: none;
+}
