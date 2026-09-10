@@ -28,6 +28,7 @@ from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi
 from elements_caos.render.prosa import componi_sezione
 from elements_caos.sito.cronologia import URL_CRONOLOGIA, rendi_cronologia_sito
 from elements_caos.sito.pagina import CARTELLA_STATICI, rendi_elemento, url_elemento
+from elements_caos.sito.tavola import URL_TAVOLA, rendi_tavola_sito
 from elements_caos.validazione import (
     FONTI_MIN_BASE,
     PAROLE_MAX_BASE,
@@ -234,6 +235,8 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
         cartella_uscita / URL_CRONOLOGIA,
         rendi_cronologia_sito(elementi, epoche),
     )
+
+    _scrivi(cartella_uscita / URL_TAVOLA, rendi_tavola_sito(elementi, epoche))
 
     _copia_statici(cartella_uscita / "statico")
 

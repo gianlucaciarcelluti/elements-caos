@@ -83,6 +83,22 @@ def _richiede_dello(nome: str) -> bool:
     return nome[:2].lower() in {"gn", "pn", "ps"}
 
 
+def preposizione_articolata(prefisso: str, nome: str) -> str:
+    """Compone una preposizione articolata davanti al nome di un elemento.
+
+    Le regole dell'italiano sono le stesse per tutte le preposizioni — elisione
+    davanti a vocale, forma in "-llo" davanti a s impura, z, x e ai digrammi
+    gn, pn, ps — e cambia solo il prefisso: ``de`` dà del/dello/dell', ``a`` dà
+    al/allo/all', ``da`` dà dal/dallo/dall'. Il valore restituito include già
+    lo spazio o l'apostrofo: il chiamante lo concatena senza separatori.
+    """
+    if nome and nome[0] in _VOCALI_ELISIONE:
+        return f"{prefisso}ll'"
+    if _richiede_dello(nome):
+        return f"{prefisso}llo "
+    return f"{prefisso}l "
+
+
 def _del_elidibile(nome: str) -> str:
     """Restituisce "del ", "dello " o "dell'" secondo l'iniziale del nome.
 
@@ -95,11 +111,7 @@ def _del_elidibile(nome: str) -> str:
     lo spazio o l'apostrofo necessario: il chiamante lo concatena
     direttamente davanti al nome, senza separatori aggiuntivi.
     """
-    if nome and nome[0] in _VOCALI_ELISIONE:
-        return "dell'"
-    if _richiede_dello(nome):
-        return "dello "
-    return "del "
+    return preposizione_articolata("de", nome)
 
 
 def diagramma_timeline(elemento: Elemento, nomi_scopritori: list[str]) -> str:

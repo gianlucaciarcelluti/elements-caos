@@ -1,0 +1,72 @@
+{% extends "base.html.j2" %}
+{% set radice = "" %}
+
+{% block titolo %}La tavola periodica, nell'ordine della scoperta{% endblock %}
+{% block descrizione %}Trascina gli anni e guarda la tavola periodica riempirsi nell'ordine in cui l'umanità ha scoperto i {{ totale }} elementi.{% endblock %}
+
+{% block testa_extra %}<script src="{{ radice }}statico/tavola.js" defer></script>{% endblock %}
+
+{% block contenuto %}
+<article class="tavola-pagina">
+
+<header class="cronologia__testa">
+<h1>La tavola periodica, nell'ordine della scoperta</h1>
+<p class="cronologia__sommario">
+La tavola che si impara a scuola è il risultato. Questa è il procedimento:
+trascina gli anni e le caselle si accendono nell'ordine in cui sono state
+riempite davvero, {{ preposizione("da", primo.nome) }}{{ primo.nome | lower }} del {{ anno_primo }}
+{{ preposizione("a", ultimo.nome) }}{{ ultimo.nome | lower }} del {{ anno_ultimo }}.
+</p>
+</header>
+
+{# Il comando nasce nascosto: senza JavaScript non farebbe nulla, e la tavola
+   qui sotto è già completa e utile per conto suo. #}
+<section class="scorrevole" id="comando-anni" hidden>
+<label class="scorrevole__etichetta" for="anno">Elementi scoperti fino a</label>
+<output class="scorrevole__stato" id="stato-anni" aria-live="polite" for="anno"></output>
+{# Lo scorrevole agisce sulla posizione cronologica, non sull'anno: una scala
+   da 40000 a.C. al 2010 spenderebbe il novanta per cento della corsa sulla
+   preistoria e schiaccerebbe negli ultimi pixel i due secoli in cui succede
+   quasi tutto. Un input range dà da solo frecce, Home e Fine. #}
+<input type="range" id="anno" name="anno" min="1" max="{{ totale }}" value="{{ totale }}" step="1"
+       aria-describedby="stato-anni">
+<div class="scorrevole__comandi">
+<button type="button" id="riavvolgi">Dall'inizio</button>
+<button type="button" id="anima">Riproduci</button>
+</div>
+</section>
+
+<div class="tavola-contenitore">
+<ul class="tavola" style="--righe: {{ riga_attinidi }}">
+{% for casella in caselle %}
+<li class="casella epoca--{{ casella.epoca }}"
+    style="--colonna: {{ casella.colonna }}; --riga: {{ casella.riga }}"
+    data-posizione="{{ casella.posizione }}">
+<a href="{{ casella.url }}" title="{{ casella.descrizione }}">
+<span class="casella__numero">{{ casella.numero_atomico }}</span>
+<span class="casella__simbolo">{{ casella.simbolo }}</span>
+<span class="casella__anno">{{ casella.anno }}</span>
+<span class="casella__nome-accessibile">{{ casella.descrizione }}</span>
+</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+
+<section class="legenda">
+<h2>Le epoche</h2>
+<ul class="legenda__voci">
+{% for epoca in epoche %}
+<li class="legenda__voce epoca--{{ epoca.id }}">{{ epoca.nome }}</li>
+{% endfor %}
+</ul>
+</section>
+
+<p class="cronologia__nota">
+Le caselle rimandano alla nota di ciascun elemento. Per l'elenco completo in
+ordine di tempo, con le epoche e l'itinerario di lettura, vedi la
+<a href="{{ radice }}cronologia-degli-elementi.html">cronologia</a>.
+</p>
+
+</article>
+{% endblock %}

@@ -10,6 +10,7 @@
 {# Caricato nella testa e non in fondo: applica il tema prima della prima
    pittura, altrimenti chi ha scelto lo scuro vede un lampo di chiaro. #}
 <script src="{{ radice }}statico/tema.js"></script>
+{% block testa_extra %}{% endblock %}
 </head>
 <body>
 <header class="testata">

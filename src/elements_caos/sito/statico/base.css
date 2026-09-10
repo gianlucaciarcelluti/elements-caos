@@ -576,3 +576,156 @@ a {
   font-size: 0.65rem;
   color: var(--colore-testo-tenue);
 }
+
+/* --- Tavola periodica ----------------------------------------------------- */
+
+/* La griglia è larga 18 colonne: su schermo stretto scorre in orizzontale
+ * dentro il proprio contenitore invece di far scorrere la pagina. È l'unica
+ * eccezione alla regola del niente scorrimento laterale, ed è quella giusta:
+ * una tavola periodica compressa a 390 px non si legge. */
+.tavola-contenitore {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding-bottom: var(--passo-2);
+}
+
+.tavola {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(2.6rem, 1fr));
+  grid-template-rows: repeat(var(--righe), auto);
+  gap: 3px;
+  margin: 0;
+  padding: 0;
+  min-width: 48rem;
+  list-style: none;
+}
+
+.casella {
+  grid-column: var(--colonna);
+  grid-row: var(--riga);
+}
+
+.casella a {
+  /* Posizionato di proposito: il nome accessibile qui dentro è in posizione
+   * assoluta e, senza un antenato posizionato, il suo blocco contenitore
+   * sarebbe la pagina. Sfuggirebbe al contenitore che scorre e allargherebbe
+   * il documento a 795 px su un viewport da 390. Misurato. */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  padding: 2px;
+  background: var(--epoca-sfondo);
+  border-radius: 3px;
+  text-decoration: none;
+  line-height: 1.1;
+  transition: opacity 0.18s ease-out;
+}
+
+.casella__numero {
+  font-family: var(--font-dati);
+  font-size: 0.6rem;
+  color: var(--colore-testo-tenue);
+}
+
+.casella__simbolo {
+  font-family: var(--font-dati);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--epoca-testo);
+}
+
+.casella__anno {
+  font-family: var(--font-dati);
+  font-size: 0.55rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* Il nome esteso è per i lettori di schermo: nella casella non ci sta, ma
+ * senza, la tavola sarebbe un elenco di sigle. */
+.casella__nome-accessibile {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Le caselle non ancora scoperte restano al loro posto, spente: la tavola
+ * conserva la sua forma e si vede quali buchi la storia doveva ancora
+ * riempire. */
+.casella--spenta a {
+  opacity: 0.12;
+}
+
+/* --- Comando degli anni --------------------------------------------------- */
+
+.scorrevole {
+  margin-block: var(--passo-4);
+  padding: var(--passo-3);
+  background: var(--colore-superficie);
+  border-radius: var(--raggio);
+}
+
+.scorrevole__etichetta {
+  display: block;
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+}
+
+.scorrevole__stato {
+  display: block;
+  margin-block: var(--passo-1) var(--passo-2);
+  font-family: var(--font-titoli);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.scorrevole input[type="range"] {
+  width: 100%;
+  /* 44px di area di contatto: uno scorrevole sottile non si prende col dito. */
+  height: 44px;
+  accent-color: var(--colore-accento);
+}
+
+.scorrevole__comandi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--passo-2);
+}
+
+.scorrevole__comandi button {
+  min-height: 44px;
+  padding-inline: var(--passo-3);
+  background: var(--colore-fondo);
+  color: var(--colore-testo);
+  border: 1px solid var(--colore-bordo);
+  border-radius: var(--raggio);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+/* --- Legenda delle epoche ------------------------------------------------- */
+
+.legenda__voci {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--passo-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legenda__voce {
+  padding: var(--passo-1) var(--passo-2);
+  background: var(--epoca-sfondo);
+  color: var(--epoca-testo);
+  border-radius: var(--raggio);
+  font-family: var(--font-titoli);
+  font-size: 0.8rem;
+}
