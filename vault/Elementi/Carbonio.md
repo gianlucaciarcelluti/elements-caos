@@ -147,3 +147,11 @@ Epoca: [[Antichità]]
 - [Carbon](https://en.wikipedia.org/wiki/Carbon) — consultata il 07/09/2026
 - [Smithson Tennant](https://en.wikipedia.org/wiki/Smithson_Tennant) — consultata il 07/09/2026
 - [Smithson Tennant (Educación Química)](https://www.sciencedirect.com/science/article/pii/S0187893X15000373) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

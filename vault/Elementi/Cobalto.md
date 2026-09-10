@@ -140,3 +140,11 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Georg Brandt]]
 - [Cobalt](https://en.wikipedia.org/wiki/Cobalt) — consultata il 07/09/2026
 - [Georg Brandt](https://en.wikipedia.org/wiki/Georg_Brandt) — consultata il 07/09/2026
 - [Cobalt blue](https://en.wikipedia.org/wiki/Cobalt_blue) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

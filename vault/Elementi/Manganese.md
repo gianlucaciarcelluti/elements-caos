@@ -143,3 +143,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Torbern Bergman]]
 - [USGS, Mineral Commodity Summaries 2025 — Manganese](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-manganese.pdf) — consultata il 07/09/2026
 - [Manganese (Los Alamos National Laboratory, Periodic Table of Elements)](https://periodic.lanl.gov/25.shtml) — consultata il 07/09/2026
 - [P. J. Heyes et al., Selection and Use of Manganese Dioxide by Neanderthals, Scientific Reports 6 (2016), 22159](https://doi.org/10.1038/srep22159) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

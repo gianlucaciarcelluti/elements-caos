@@ -143,3 +143,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[William Hyde Wollaston]]
 - [Rhodium](https://en.wikipedia.org/wiki/Rhodium) — consultata il 07/09/2026
 - [Rhodium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/45/rhodium) — consultata il 07/09/2026
 - [USGS Mineral Commodity Summaries 2025 — Platinum-Group Metals](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-platinum-group.pdf) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

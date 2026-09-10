@@ -157,3 +157,11 @@ Epoca: [[Antichità]]
 - [Sulfur](https://en.wikipedia.org/wiki/Sulfur) — consultata il 07/09/2026
 - [Homer, Odyssey, Book 22 (Theoi Classical Texts Library)](https://www.theoi.com/Text/HomerOdyssey22.html) — consultata il 07/09/2026
 - [Oxidation state (tabella degli stati noti per elemento)](https://en.wikipedia.org/wiki/Oxidation_state) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

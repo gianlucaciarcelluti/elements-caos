@@ -130,3 +130,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 - [Livermorium](https://en.wikipedia.org/wiki/Livermorium) — consultata il 10/09/2026
 - [Livermorium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/116/livermorium) — consultata il 10/09/2026
 - [Calcium-48](https://en.wikipedia.org/wiki/Calcium-48) — consultata il 10/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

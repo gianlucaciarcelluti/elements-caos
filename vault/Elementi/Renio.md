@@ -138,3 +138,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Ida Noddack]], [[Walt
 - [Rhenium](https://en.wikipedia.org/wiki/Rhenium) — consultata il 09/09/2026
 - [Rhenium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/75/rhenium) — consultata il 09/09/2026
 - [Ida Noddack](https://en.wikipedia.org/wiki/Ida_Noddack) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

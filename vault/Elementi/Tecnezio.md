@@ -134,3 +134,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Carlo Perrier]], [[Em
 - [Technetium](https://en.wikipedia.org/wiki/Technetium) — consultata il 09/09/2026
 - [Technetium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/43/technetium) — consultata il 09/09/2026
 - [Technetium-99m](https://en.wikipedia.org/wiki/Technetium-99m) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

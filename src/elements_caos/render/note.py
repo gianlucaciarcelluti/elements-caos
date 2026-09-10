@@ -10,6 +10,7 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from elements_caos.caricamento import ordina_per_scoperta
 from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Sezione
 from elements_caos.render.atomo_svg import nome_file_atomo
+from elements_caos.render.avvertenza import AVVERTENZA_IA
 from elements_caos.render.diagrammi import (
     Vicini,
     calcola_vicini,
@@ -241,6 +242,8 @@ def ambiente_template() -> Environment:
         keep_trailing_newline=True,
     )
     ambiente.filters["url_markdown"] = url_per_markdown
+    # Disponibile a tutti i template: l'avvertenza va in coda a ogni pagina.
+    ambiente.globals["avvertenza_ia"] = AVVERTENZA_IA
     return ambiente
 
 

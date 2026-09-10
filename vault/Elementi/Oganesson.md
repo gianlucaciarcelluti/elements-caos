@@ -128,3 +128,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 - [Oganesson](https://en.wikipedia.org/wiki/Oganesson) — consultata il 10/09/2026
 - [Oganesson — Royal Society of Chemistry](https://periodic-table.rsc.org/element/118/oganesson) — consultata il 10/09/2026
 - [Noble gas](https://en.wikipedia.org/wiki/Noble_gas) — consultata il 10/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

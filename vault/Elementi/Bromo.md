@@ -151,3 +151,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritori: [[Antoine Jérôme Balard]], [
 - [Timeline of chemical element discoveries](https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries) — consultata il 07/09/2026
 - [Liquid](https://en.wikipedia.org/wiki/Liquid) — consultata il 07/09/2026
 - [Bromine — Mineral Commodity Summaries 2026, U.S. Geological Survey](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bromine.pdf) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

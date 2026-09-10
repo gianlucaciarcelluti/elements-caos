@@ -138,3 +138,11 @@ Epoca: [[Alchimia e primo moderno]]
 - [Bismuth](https://en.wikipedia.org/wiki/Bismuth) — consultata il 07/09/2026
 - [Bismuth breaks half-life record for alpha decay (Physics World, 2003)](https://physicsworld.com/a/bismuth-breaks-half-life-record-for-alpha-decay/) — consultata il 07/09/2026
 - [Bismuth-209](https://en.wikipedia.org/wiki/Bismuth-209) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

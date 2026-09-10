@@ -144,3 +144,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[William Gregor]]
 - [William Gregor](https://en.wikipedia.org/wiki/William_Gregor) — consultata il 07/09/2026
 - [Titanium (Encyclopedia.com)](https://www.encyclopedia.com/science-and-technology/chemistry/compounds-and-elements/titanium) — consultata il 07/09/2026
 - [Kroll process](https://en.wikipedia.org/wiki/Kroll_process) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

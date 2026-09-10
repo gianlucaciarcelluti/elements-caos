@@ -138,3 +138,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Eugène-Anatole Demar
 - [Europium](https://en.wikipedia.org/wiki/Europium) — consultata il 09/09/2026
 - [Europium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/63/europium) — consultata il 09/09/2026
 - [Europium anomaly](https://en.wikipedia.org/wiki/Europium_anomaly) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

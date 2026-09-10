@@ -153,3 +153,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritori: [[Karl Samuel Leberecht Herman
 - [Karl Samuel Leberecht Hermann](https://en.wikipedia.org/wiki/Karl_Samuel_Leberecht_Hermann) — consultata il 07/09/2026
 - [Itai-itai disease](https://en.wikipedia.org/wiki/Itai-itai_disease) — consultata il 07/09/2026
 - [Cadmium — Mineral Commodity Summaries 2026, U.S. Geological Survey](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cadmium.pdf) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -132,3 +132,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Glenn Seaborg]], [[Ralph Arthur James]]
 - [Curium](https://en.wikipedia.org/wiki/Curium) — consultata il 09/09/2026
 - [Curium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/96/curium) — consultata il 09/09/2026
 - [Alpha particle X-ray spectrometer](https://en.wikipedia.org/wiki/Alpha_particle_X-ray_spectrometer) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

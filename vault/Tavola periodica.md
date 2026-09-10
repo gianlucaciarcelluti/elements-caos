@@ -23,3 +23,11 @@ vedi [[Cronologia degli elementi]].
 
 **Lantanidi**: [[Lantanio\|La]] · [[Cerio\|Ce]] · [[Praseodimio\|Pr]] · [[Neodimio\|Nd]] · [[Promezio\|Pm]] · [[Samario\|Sm]] · [[Europio\|Eu]] · [[Gadolinio\|Gd]] · [[Terbio\|Tb]] · [[Disprosio\|Dy]] · [[Olmio\|Ho]] · [[Erbio\|Er]] · [[Tulio\|Tm]] · [[Itterbio\|Yb]] · [[Lutezio\|Lu]]
 **Attinidi**: [[Attinio\|Ac]] · [[Torio\|Th]] · [[Protoattinio\|Pa]] · [[Uranio\|U]] · [[Nettunio\|Np]] · [[Plutonio\|Pu]] · [[Americio\|Am]] · [[Curio\|Cm]] · [[Berkelio\|Bk]] · [[Californio\|Cf]] · [[Einsteinio\|Es]] · [[Fermio\|Fm]] · [[Mendelevio\|Md]] · [[Nobelio\|No]] · [[Laurenzio\|Lr]]
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

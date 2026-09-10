@@ -146,3 +146,11 @@ Epoca: [[Antichità]]
 - [Arsenic](https://en.wikipedia.org/wiki/Arsenic) — consultata il 07/09/2026
 - [Arsenical bronze](https://en.wikipedia.org/wiki/Arsenical_bronze) — consultata il 07/09/2026
 - [Oxidation state (tabella degli stati noti per elemento)](https://en.wikipedia.org/wiki/Oxidation_state) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

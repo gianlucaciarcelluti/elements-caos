@@ -32,3 +32,11 @@ Printer - Association GOZNAK of the Ministry of Finance of the Russian Federatio
 | Paul-Émile Lecoq de Boisbaudran | Unknown authorUnknown author | Public domain | [paul-emile-lecoq-de-boisbaudran.jpg](https://commons.wikimedia.org/wiki/File:Lecoq_de_Boisbaudran.jpg) |
 | Walter Noddack | www.uni-bamberg.de | Public domain | [walter-noddack.jpg](https://commons.wikimedia.org/wiki/File:,%D9%88%D8%A7%D9%84%D8%AA%D8%B1_%D9%86%D8%A7%D8%AF%D8%A7%D9%83_%28cropped%29.jpg) |
 | William Crookes | George Charles Beresford (1864-1938) | Public domain | [william-crookes.jpg](https://commons.wikimedia.org/wiki/File:Sir_William_Crookes_1906.jpg) |
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -149,3 +149,11 @@ Epoca: [[Chimica pneumatica]] · Scopritori: [[Louis-Bernard Guyton de Morveau]]
 - [Louis-Bernard Guyton de Morveau](https://en.wikipedia.org/wiki/Guyton_de_Morveau) — consultata il 07/09/2026
 - [Twenty-mule team](https://en.wikipedia.org/wiki/Twenty-mule_team) — consultata il 07/09/2026
 - [Borates in insulation](https://www.borax.com/products/applications/insulation) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

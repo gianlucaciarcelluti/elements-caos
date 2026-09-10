@@ -130,3 +130,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Yuri Oganessian]], [[Kenton Moody]]
 - [Tennessine](https://en.wikipedia.org/wiki/Tennessine) — consultata il 10/09/2026
 - [Tennessine — Royal Society of Chemistry](https://periodic-table.rsc.org/element/117/tennessine) — consultata il 10/09/2026
 - [Extended periodic table](https://en.wikipedia.org/wiki/Extended_periodic_table) — consultata il 10/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

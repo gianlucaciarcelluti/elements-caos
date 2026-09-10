@@ -140,3 +140,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Paul-Émile Lecoq de 
 - [Dysprosium](https://en.wikipedia.org/wiki/Dysprosium) — consultata il 09/09/2026
 - [Dysprosium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/66/dysprosium) — consultata il 09/09/2026
 - [Terfenol-D](https://en.wikipedia.org/wiki/Terfenol-D) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

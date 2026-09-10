@@ -130,3 +130,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Friedrich Ernst Dorn]
 - [Radon](https://en.wikipedia.org/wiki/Radon) — consultata il 09/09/2026
 - [Radon — Royal Society of Chemistry](https://periodic-table.rsc.org/element/86/radon) — consultata il 09/09/2026
 - [Health Risk of Radon — US Environmental Protection Agency](https://www.epa.gov/radon/health-risk-radon) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

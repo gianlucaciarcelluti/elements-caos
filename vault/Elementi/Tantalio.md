@@ -147,3 +147,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Anders Gustaf Ekeberg]]
 - [USGS Mineral Commodity Summaries 2026 — Tantalum](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf) — consultata il 08/09/2026
 - [Anders Gustaf Ekeberg](https://en.wikipedia.org/wiki/Anders_Gustaf_Ekeberg) — consultata il 08/09/2026
 - [Conflict resource](https://en.wikipedia.org/wiki/Conflict_resource) — consultata il 08/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -139,3 +139,11 @@ Epoca: [[Antichità]]
 - [Copper](https://en.wikipedia.org/wiki/Copper) — consultata il 05/09/2026
 - [Il rame, diecimila anni di utilizzi diversi](https://www.meccanicanews.com/2022/10/26/il-rame-diecimila-anni-di-utilizzi-diversi/) — consultata il 05/09/2026
 - [Archeometallurgia del Rame](https://www.campanologia.it/contenuto/pagine/02-ARS/ARS-C01-Archeologia-Fusoria/ARS-C01-09-Archeometallurgia-Rame.htm) — consultata il 05/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

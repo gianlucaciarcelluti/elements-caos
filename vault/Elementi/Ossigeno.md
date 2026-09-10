@@ -149,3 +149,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Carl Wilhelm Scheele]]
 - [Carl Wilhelm Scheele](https://en.wikipedia.org/wiki/Carl_Wilhelm_Scheele) — consultata il 07/09/2026
 - [Carl Wilhelm Scheele — the Uppsala chemist who discovered oxygen and chlorine](https://www.uu.se/en/about-uu/history/prominent-people/carl-scheele) — consultata il 07/09/2026
 - [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

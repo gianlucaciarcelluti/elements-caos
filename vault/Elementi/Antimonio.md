@@ -146,3 +146,11 @@ Epoca: [[Antichità]]
 - [Kohl (Britannica)](https://www.britannica.com/topic/kohl) — consultata il 07/09/2026
 - [Basil Valentine](https://en.wikipedia.org/wiki/Basil_Valentine) — consultata il 07/09/2026
 - [Antimony pill](https://en.wikipedia.org/wiki/Antimony_pill) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

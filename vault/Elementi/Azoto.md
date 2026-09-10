@@ -143,3 +143,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Daniel Rutherford]]
 - [Daniel Rutherford](https://en.wikipedia.org/wiki/Daniel_Rutherford) — consultata il 07/09/2026
 - [J. W. Erisman et al., How a century of ammonia synthesis changed the world, Nature Geoscience 1 (2008), 636-639](https://doi.org/10.1038/ngeo325) — consultata il 07/09/2026
 - [How many people does synthetic fertilizer feed?](https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -126,3 +126,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Sigurd Hofmann]], [[Peter Armbruster]],
 - [Darmstadtium](https://en.wikipedia.org/wiki/Darmstadtium) — consultata il 10/09/2026
 - [Darmstadtium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/110/darmstadtium) — consultata il 10/09/2026
 - [GSI Helmholtz Centre for Heavy Ion Research](https://en.wikipedia.org/wiki/GSI_Helmholtz_Centre_for_Heavy_Ion_Research) — consultata il 10/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

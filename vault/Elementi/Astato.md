@@ -130,3 +130,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Dale Corson]], [[Kenneth MacKenzie]], [
 - [Astatine](https://en.wikipedia.org/wiki/Astatine) — consultata il 09/09/2026
 - [Astatine — Royal Society of Chemistry](https://periodic-table.rsc.org/element/85/astatine) — consultata il 09/09/2026
 - [Astatine-211](https://en.wikipedia.org/wiki/Astatine-211) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

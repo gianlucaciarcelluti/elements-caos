@@ -146,3 +146,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Carl Wilhelm Scheele]]
 - [Peter Jacob Hjelm — Scientist of the Day (Linda Hall Library)](https://www.lindahall.org/about/news/scientist-of-the-day/peter-jacob-hjelm/) — consultata il 07/09/2026
 - [Carl Wilhelm Scheele — the Uppsala chemist who discovered oxygen and chlorine](https://www.uu.se/en/about-uu/history/prominent-people/carl-scheele) — consultata il 07/09/2026
 - [Scheele's green](https://en.wikipedia.org/wiki/Scheele%27s_green) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

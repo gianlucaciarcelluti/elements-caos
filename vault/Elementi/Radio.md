@@ -134,3 +134,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Pierre Curie]], [[Mar
 - [Radium](https://en.wikipedia.org/wiki/Radium) — consultata il 09/09/2026
 - [Radium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/88/radium) — consultata il 09/09/2026
 - [Radium Girls](https://en.wikipedia.org/wiki/Radium_Girls) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -149,3 +149,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Johan August Arfwedson]]
 - [Lithium](https://en.wikipedia.org/wiki/Lithium) — consultata il 07/09/2026
 - [Lithium — Periodic Table, Royal Society of Chemistry](https://periodic-table.rsc.org/element/3/lithium) — consultata il 07/09/2026
 - [Lithium — Mineral Commodity Summaries 2026, U.S. Geological Survey](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

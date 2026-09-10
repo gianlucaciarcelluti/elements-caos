@@ -124,3 +124,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Marguerite Perey]]
 - [Francium](https://en.wikipedia.org/wiki/Francium) — consultata il 09/09/2026
 - [Francium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/87/francium) — consultata il 09/09/2026
 - [Marguerite Perey](https://en.wikipedia.org/wiki/Marguerite_Perey) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

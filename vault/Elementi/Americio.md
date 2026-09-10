@@ -132,3 +132,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Glenn Seaborg]], [[Ralph Arthur James]]
 - [Americium](https://en.wikipedia.org/wiki/Americium) — consultata il 09/09/2026
 - [Americium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/95/americium) — consultata il 09/09/2026
 - [Smoke detector](https://en.wikipedia.org/wiki/Smoke_detector) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

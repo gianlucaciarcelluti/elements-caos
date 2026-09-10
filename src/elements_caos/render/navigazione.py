@@ -8,6 +8,7 @@ from dataclasses import dataclass
 
 from elements_caos.caricamento import ordina_per_scoperta
 from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Tappa
+from elements_caos.render.avvertenza import AVVERTENZA_IA
 from elements_caos.render.diagrammi import formatta_anno
 from elements_caos.render.note import ambiente_template, url_per_markdown
 
@@ -200,5 +201,7 @@ def rendi_attribuzioni(scopritori: dict[str, Scopritore]) -> str:
         righe.extend(righe_tabella)
     else:
         righe.append("*Nessuna immagine con attribuzione registrata.*")
+
+    righe.extend(["", AVVERTENZA_IA])
 
     return "\n".join(righe) + "\n"

@@ -134,3 +134,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[William Ramsay]], [[M
 - [Krypton](https://en.wikipedia.org/wiki/Krypton) — consultata il 09/09/2026
 - [Krypton — Royal Society of Chemistry](https://periodic-table.rsc.org/element/36/krypton) — consultata il 09/09/2026
 - [History of the metre](https://en.wikipedia.org/wiki/History_of_the_metre) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

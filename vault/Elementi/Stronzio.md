@@ -142,3 +142,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Adair Crawford]]
 - [Thomas Charles Hope](https://en.wikipedia.org/wiki/Thomas_Charles_Hope) — consultata il 07/09/2026
 - [Baby Tooth Survey](https://en.wikipedia.org/wiki/Baby_Tooth_Survey) — consultata il 07/09/2026
 - [JILA Atomic Clocks Measure Einstein's General Relativity at Millimeter Scale](https://jila.colorado.edu/news-events/articles/jila-atomic-clocks-measure-einsteins-general-relativity-millimeter-scale) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

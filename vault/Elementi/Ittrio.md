@@ -144,3 +144,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Johan Gadolin]]
 - [Yttrium — Element information, properties and uses (Royal Society of Chemistry)](https://periodic-table.rsc.org/element/39/yttrium) — consultata il 07/09/2026
 - [Ytterby](https://en.wikipedia.org/wiki/Ytterby) — consultata il 07/09/2026
 - [Carl Gustaf Mosander](https://en.wikipedia.org/wiki/Carl_Gustaf_Mosander) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

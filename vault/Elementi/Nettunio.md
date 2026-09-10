@@ -130,3 +130,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Edwin McMillan]], [[Philip Abelson]]
 - [Neptunium](https://en.wikipedia.org/wiki/Neptunium) — consultata il 09/09/2026
 - [Neptunium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/93/neptunium) — consultata il 09/09/2026
 - [Transuranium element](https://en.wikipedia.org/wiki/Transuranium_element) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

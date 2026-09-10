@@ -144,3 +144,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Carl Wilhelm Scheele]]
 - [The d'Elhuyar brothers: the discovery and isolation of tungsten](https://institutoeuropadelospueblos.org/en/2024/04/10/the-delhuyar-brothers-the-discovery-and-isolation-of-tungsten/) — consultata il 07/09/2026
 - [Juan José Elhuyar](https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_Elhuyar) — consultata il 07/09/2026
 - [Scheelite](https://en.wikipedia.org/wiki/Scheelite) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

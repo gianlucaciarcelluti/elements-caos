@@ -145,3 +145,11 @@ Epoca: [[Antichità]]
 - [Gold](https://en.wikipedia.org/wiki/Gold) — consultata il 07/09/2026
 - [Varna Necropolis](https://en.wikipedia.org/wiki/Varna_Necropolis) — consultata il 07/09/2026
 - [Varna Chalcolithic Necropolis - oldest gold treasure in the world](https://visit.varna.bg/en/varna_oldest_gold_treasure_in_the_world.html) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

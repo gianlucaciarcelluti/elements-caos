@@ -137,3 +137,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Jacques-Louis Soret]]
 - [Holmium](https://en.wikipedia.org/wiki/Holmium) — consultata il 09/09/2026
 - [Holmium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/67/holmium) — consultata il 09/09/2026
 - [Per Teodor Cleve](https://en.wikipedia.org/wiki/Per_Teodor_Cleve) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

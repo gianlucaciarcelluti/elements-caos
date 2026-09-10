@@ -95,6 +95,17 @@ immagini.
 
 Se vuoi contribuire, il documento da leggere è [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Avvertenza
+
+Questo progetto è stato realizzato con l'assistenza di sistemi di intelligenza
+artificiale. Ogni affermazione è stata verificata sulle fonti citate in fondo a
+ciascuna nota, ma **i contenuti possono contenere errori e imprecisioni**: prima
+di riutilizzarli, controlla la fonte.
+
+L'avvertenza compare in fondo a ogni pagina del vault e del sito. Se trovi un
+errore, [segnalalo](https://github.com/gianlucaciarcelluti/elements-caos/issues/new/choose):
+è il modo più utile di contribuire.
+
 ## Licenze
 
 - **Contenuti** (`data/`, `vault/`, documentazione): [CC BY-SA 4.0](LICENSE)

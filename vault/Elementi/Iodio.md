@@ -144,3 +144,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Bernard Courtois]]
 - [Iodine](https://en.wikipedia.org/wiki/Iodine) — consultata il 07/09/2026
 - [Bernard Courtois](https://en.wikipedia.org/wiki/Bernard_Courtois) — consultata il 07/09/2026
 - [Iodine — Mineral Commodity Summaries 2026, U.S. Geological Survey](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iodine.pdf) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

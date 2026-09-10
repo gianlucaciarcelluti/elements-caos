@@ -135,3 +135,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Per Teodor Cleve]]
 - [Thulium](https://en.wikipedia.org/wiki/Thulium) — consultata il 09/09/2026
 - [Thulium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/69/thulium) — consultata il 09/09/2026
 - [Charles James (chemist)](https://en.wikipedia.org/wiki/Charles_James_%28chemist%29) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

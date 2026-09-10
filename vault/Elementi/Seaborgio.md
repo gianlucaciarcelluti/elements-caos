@@ -138,3 +138,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Albert Ghiorso]], [[E. Kenneth Hulet]],
 - [Seaborgium](https://en.wikipedia.org/wiki/Seaborgium) — consultata il 10/09/2026
 - [Seaborgium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/106/seaborgium) — consultata il 10/09/2026
 - [Glenn T. Seaborg](https://en.wikipedia.org/wiki/Glenn_T._Seaborg) — consultata il 10/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

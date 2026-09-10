@@ -144,3 +144,11 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Hennig Brand]]
 - [Hennig Brand](https://en.wikipedia.org/wiki/Hennig_Brand) — consultata il 05/09/2026
 - [Phosphorus](https://en.wikipedia.org/wiki/Phosphorus) — consultata il 05/09/2026
 - [Lo strano modo di scoprire il fosforo](https://scuole.federchimica.it/elementi/lo-strano-modo-di-scoprire-il-fosforo) — consultata il 05/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

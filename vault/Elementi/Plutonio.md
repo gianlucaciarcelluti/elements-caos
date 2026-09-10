@@ -138,3 +138,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Glenn Seaborg]], [[Edwin McMillan]], [[
 - [Atomic number 94 — Plutonium Timeline](https://www.lanl.gov/media/publications/national-security-science/1221-plutonium-timeline) — consultata il 05/09/2026
 - [From the Archives: Glenn T. Seaborg and the Discovery of Plutonium](https://elements.lbl.gov/news/from-the-archives-glenn-t-seaborg-and-the-discovery-of-plutonium/) — consultata il 05/09/2026
 - [Plutonium](https://en.wikipedia.org/wiki/Plutonium) — consultata il 05/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

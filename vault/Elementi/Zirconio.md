@@ -148,3 +148,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Martin Heinrich Klaproth]]
 - [Zircon](https://en.wikipedia.org/wiki/Zircon) — consultata il 07/09/2026
 - [Jack Hills](https://en.wikipedia.org/wiki/Jack_Hills) — consultata il 07/09/2026
 - [Martin Heinrich Klaproth](https://en.wikipedia.org/wiki/Martin_Heinrich_Klaproth) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

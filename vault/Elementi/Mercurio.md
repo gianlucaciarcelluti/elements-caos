@@ -145,3 +145,11 @@ Epoca: [[Antichità]]
 - [Flowing rivers of mercury (Chemistry World)](https://www.chemistryworld.com/features/flowing-rivers-of-mercury/8122.article) — consultata il 07/09/2026
 - [Mercury as a Geophysical Tracer Gas: Emissions from the Emperor Qin Tomb in Xi'an Studied by Laser Radar (Scientific Reports, 2020)](https://www.nature.com/articles/s41598-020-67305-x) — consultata il 07/09/2026
 - [Elixirs of Immortal Life Were a Deadly Obsession (JSTOR Daily)](https://daily.jstor.org/elixir-immortal-life-deadly-obsessions/) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

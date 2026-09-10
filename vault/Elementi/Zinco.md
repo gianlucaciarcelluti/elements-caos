@@ -145,3 +145,11 @@ Epoca: [[Antichità]]
 - [Brass (storia della cementazione e dell'ottone antico)](https://en.wikipedia.org/wiki/Brass) — consultata il 07/09/2026
 - [Zawar: World's Oldest Zinc Mining and Metallurgy Site](https://geographyandyou.com/geoheritage-sites/zawar-worlds-oldest-zinc-mining-and-metallurgy-site) — consultata il 07/09/2026
 - [Zinc Production in Ancient India (Infinity Foundation)](https://infinityfoundation.com/zinc-production-in-ancient-india/) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

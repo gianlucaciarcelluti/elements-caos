@@ -144,3 +144,11 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Robert Boyle]]
 - [Timeline of hydrogen technologies](https://en.wikipedia.org/wiki/Timeline_of_hydrogen_technologies) — consultata il 07/09/2026
 - [Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle) — consultata il 07/09/2026
 - [Henry Cavendish](https://en.wikipedia.org/wiki/Henry_Cavendish) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

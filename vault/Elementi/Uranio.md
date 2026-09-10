@@ -142,3 +142,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Martin Heinrich Klaproth]]
 - [Martin Heinrich Klaproth](https://en.wikipedia.org/wiki/Martin_Heinrich_Klaproth) — consultata il 07/09/2026
 - [Natural nuclear fission reactor (Oklo)](https://en.wikipedia.org/wiki/Natural_nuclear_fission_reactor) — consultata il 07/09/2026
 - [World Uranium Mining Production (World Nuclear Association)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

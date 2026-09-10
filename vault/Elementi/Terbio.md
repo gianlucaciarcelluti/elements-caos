@@ -143,3 +143,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Carl Gustaf Mosander]]
 - [Terbium](https://en.wikipedia.org/wiki/Terbium) — consultata il 09/09/2026
 - [Terbium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/65/terbium) — consultata il 09/09/2026
 - [Ytterby](https://en.wikipedia.org/wiki/Ytterby) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

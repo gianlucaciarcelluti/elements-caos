@@ -142,3 +142,11 @@ Epoca: [[Antichità]]
 - [Silver](https://en.wikipedia.org/wiki/Silver) — consultata il 07/09/2026
 - [Cupellation](https://en.wikipedia.org/wiki/Cupellation) — consultata il 07/09/2026
 - [Mines of Laurion](https://en.wikipedia.org/wiki/Mines_of_Laurion) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

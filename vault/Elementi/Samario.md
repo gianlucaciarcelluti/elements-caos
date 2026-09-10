@@ -140,3 +140,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Paul-Émile Lecoq de 
 - [Samarium](https://en.wikipedia.org/wiki/Samarium) — consultata il 09/09/2026
 - [Samarium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/62/samarium) — consultata il 09/09/2026
 - [Samarium–neodymium dating](https://en.wikipedia.org/wiki/Samarium%E2%80%93neodymium_dating) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

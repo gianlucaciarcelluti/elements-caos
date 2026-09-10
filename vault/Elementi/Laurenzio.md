@@ -136,3 +136,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Albert Ghiorso]], [[Torbjørn Sikkeland
 - [Lawrencium](https://en.wikipedia.org/wiki/Lawrencium) — consultata il 09/09/2026
 - [Lawrencium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/103/lawrencium) — consultata il 09/09/2026
 - [Group 3 element](https://en.wikipedia.org/wiki/Group_3_element) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

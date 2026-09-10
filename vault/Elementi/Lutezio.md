@@ -136,3 +136,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Georges Urbain]], [[C
 - [Lutetium](https://en.wikipedia.org/wiki/Lutetium) — consultata il 09/09/2026
 - [Lutetium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/71/lutetium) — consultata il 09/09/2026
 - [Lutetium–hafnium dating](https://en.wikipedia.org/wiki/Lutetium%E2%80%93hafnium_dating) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -141,3 +141,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Andrés Manuel del Río]]
 - [USGS Mineral Commodity Summaries 2026 — Vanadium](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-vanadium.pdf) — consultata il 08/09/2026
 - [Nils Gabriel Sefström](https://en.wikipedia.org/wiki/Nils_Gabriel_Sefstr%C3%B6m) — consultata il 08/09/2026
 - [Sir Henry Enfield Roscoe](https://en.wikipedia.org/wiki/Henry_Roscoe_%28chemist%29) — consultata il 08/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -137,3 +137,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Albert Ghiorso]], [[Torbjørn Sikkeland
 - [Nobelium](https://en.wikipedia.org/wiki/Nobelium) — consultata il 09/09/2026
 - [Nobelium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/102/nobelium) — consultata il 09/09/2026
 - [Transfermium Wars](https://en.wikipedia.org/wiki/Transfermium_Wars) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

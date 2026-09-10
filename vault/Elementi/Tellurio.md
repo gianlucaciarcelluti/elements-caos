@@ -146,3 +146,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Franz-Joseph Müller von Reichens
 - [Franz Joseph Müller von Reichenstein (Encyclopedia.com)](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/franz-joseph-muller-von-reichenstein) — consultata il 07/09/2026
 - [Franz Joseph Müller von Reichenstein — Discoverer of Tellurium (ChemistryViews)](https://www.chemistryviews.org/franz-joseph-muller-von-reichenstein-discoverer-of-tellurium/) — consultata il 07/09/2026
 - [Martin Heinrich Klaproth](https://en.wikipedia.org/wiki/Martin_Heinrich_Klaproth) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

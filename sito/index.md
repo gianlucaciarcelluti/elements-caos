@@ -44,3 +44,11 @@ procedura per segnalare un errore stanno nel
 I contenuti sono rilasciati con licenza
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it), le
 immagini sono di pubblico dominio o CC0.
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

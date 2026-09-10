@@ -205,3 +205,11 @@ Gli elementi non si cercano più: si fabbricano. Dai laboratori di Berkeley, Dub
 | 117 | 2006 | [[Oganesson]] (Og) | [[Yuri Oganessian]], [[Kenton Moody]] |
 | 118 | 2010 | [[Tennesso]] (Ts) | [[Yuri Oganessian]], [[Kenton Moody]] |
 
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

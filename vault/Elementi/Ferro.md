@@ -147,3 +147,11 @@ Epoca: [[Antichità]]
 - [Iron dagger of Tutankhamun](https://en.wikipedia.org/wiki/Iron_dagger_of_Tutankhamun) — consultata il 07/09/2026
 - [Did Hieroglyphic Texts Reveal That Ancient Egyptians Knew Meteorites Came From the Sky?](https://www.smithsonianmag.com/science-nature/do-hieroglyphic-texts-reveal-that-ancient-egyptians-knew-meteorites-came-from-the-sky-180983039/) — consultata il 07/09/2026
 - [Smelting Conditions and Smelting Products: Experimental Insights into the Development of Iron Bloomery Furnaces (EXARC Journal)](https://exarc.net/issue-2020-2/ea/development-bloomery-furnaces) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

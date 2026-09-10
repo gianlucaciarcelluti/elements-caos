@@ -138,3 +138,11 @@ Epoca: [[Antichità]]
 - [Platinum](https://en.wikipedia.org/wiki/Platinum) — consultata il 07/09/2026
 - [The La Tolita-Tumaco Culture: Master Metalsmiths in Gold and Platinum (D. A. Scott)](https://www.academia.edu/6698631/THE_LA_TOLITA_TUMACO_CULTURE_MASTER_METALSMITHS_IN_GOLD_AND_PLATINUM) — consultata il 07/09/2026
 - [K. Lane, Gone Platinum: Contraband and Chemistry in Eighteenth-Century Colombia (Colonial Latin American Review 20:1, 2011, pp. 61-79)](https://doi.org/10.1080/10609164.2011.552549) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -137,3 +137,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Gustav Kirchhoff]], [
 - [Caesium](https://en.wikipedia.org/wiki/Caesium) — consultata il 09/09/2026
 - [Caesium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/55/caesium) — consultata il 09/09/2026
 - [Second](https://en.wikipedia.org/wiki/Second) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

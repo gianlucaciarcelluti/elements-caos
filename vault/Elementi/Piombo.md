@@ -148,3 +148,11 @@ Epoca: [[Antichità]]
 - [The Earliest Lead Object in the Levant (PLOS ONE)](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0142948) — consultata il 07/09/2026
 - [Roman lead poisoning theory](https://en.wikipedia.org/wiki/Roman_lead_poisoning_theory) — consultata il 07/09/2026
 - [Venetian ceruse](https://en.wikipedia.org/wiki/Venetian_ceruse) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

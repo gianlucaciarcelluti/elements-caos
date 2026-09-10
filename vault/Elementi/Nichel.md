@@ -137,3 +137,11 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Axel Fredrik Cronstedt]]
 - [Axel Fredrik Cronstedt](https://en.wikipedia.org/wiki/Axel_Fredrik_Cronstedt) — consultata il 07/09/2026
 - [Multifarious devils, part 3. "Pumpernickel", "Nickel", and "Old Nick"](https://blog.oup.com/2013/06/pumpernickel-etymology-word-origin/) — consultata il 07/09/2026
 - [USGS Mineral Commodity Summaries 2025: Nickel](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-nickel.pdf) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

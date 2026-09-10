@@ -147,3 +147,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritori: [[Jöns Jacob Berzelius]], [[J
 - [Willoughby Smith](https://en.wikipedia.org/wiki/Willoughby_Smith) — consultata il 08/09/2026
 - [Selenium — Mineral Commodity Summaries 2026, U.S. Geological Survey](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-selenium.pdf) — consultata il 07/09/2026
 - [Jan Trofast, Berzelius' Discovery of Selenium, Chemistry International 33 (2011)](http://publications.iupac.org/ci/2011/3305/5_trofast.html) — consultata il 07/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

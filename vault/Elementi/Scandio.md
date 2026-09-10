@@ -137,3 +137,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[Lars Fredrik Nilson]]
 - [Scandium](https://en.wikipedia.org/wiki/Scandium) — consultata il 09/09/2026
 - [Scandium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/21/scandium) — consultata il 09/09/2026
 - [Mendeleev's predicted elements](https://en.wikipedia.org/wiki/Mendeleev%27s_predicted_elements) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

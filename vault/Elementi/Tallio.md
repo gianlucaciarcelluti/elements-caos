@@ -140,3 +140,11 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritore: [[William Crookes]]
 - [Thallium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/81/thallium) — consultata il 09/09/2026
 - [William Crookes](https://en.wikipedia.org/wiki/William_Crookes) — consultata il 09/09/2026
 - [Thallium poisoning](https://en.wikipedia.org/wiki/Thallium_poisoning) — consultata il 09/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

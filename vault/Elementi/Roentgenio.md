@@ -128,3 +128,11 @@ Epoca: [[Era nucleare]] · Scopritori: [[Sigurd Hofmann]], [[Peter Armbruster]],
 - [Roentgenium](https://en.wikipedia.org/wiki/Roentgenium) — consultata il 10/09/2026
 - [Roentgenium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/111/roentgenium) — consultata il 10/09/2026
 - [Wilhelm Röntgen](https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen) — consultata il 10/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

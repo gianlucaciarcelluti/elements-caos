@@ -142,3 +142,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Charles Hatchett]]
 - [Niobium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/41/niobium) — consultata il 08/09/2026
 - [USGS Mineral Commodity Summaries 2026 — Niobium (Columbium)](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf) — consultata il 08/09/2026
 - [Christian Wilhelm Blomstrand](https://en.wikipedia.org/wiki/Christian_Wilhelm_Blomstrand) — consultata il 08/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.

@@ -151,3 +151,11 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Humphry Davy]]
 - [Humphry Davy](https://en.wikipedia.org/wiki/Humphry_Davy) — consultata il 05/09/2026
 - [Davy's Elements (1805-1824)](https://uwaterloo.ca/chemistry/community-outreach/timeline-of-elements/davys-elements-1805-1824) — consultata il 05/09/2026
 - [Humphry Davy, On Some New Phenomena of Chemical Changes Produced by Electricity (Bakerian Lecture, Philosophical Transactions, 1808)](https://www.chemteam.info/Chem-History/Davy-Na&K-1808.html) — consultata il 08/09/2026
+
+---
+
+> [!warning] Avvertenza
+> Questo progetto è stato realizzato con l'assistenza di sistemi di
+> intelligenza artificiale. I contenuti sono verificati sulle fonti citate,
+> ma **possono contenere errori e imprecisioni**: prima di riutilizzarli,
+> controlla la fonte.
