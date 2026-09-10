@@ -14,8 +14,17 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from markupsafe import Markup, escape
 
 from elements_caos.models import Elemento, Scopritore, Sezione
+from elements_caos.render.atomo_svg import nome_file_atomo
 from elements_caos.render.avvertenza import AVVERTENZA_IA
-from elements_caos.render.note import ContestoNota
+from elements_caos.render.diagrammi import Vicini, formatta_anno
+from elements_caos.render.note import (
+    ETICHETTE_CATEGORIA,
+    ContestoNota,
+    formatta_configurazione_elettronica,
+    formatta_decimale,
+    formatta_stato_ossidazione,
+    kelvin_in_celsius,
+)
 from elements_caos.render.prosa import componi_sezione, conta_parole, tempo_lettura_minuti
 
 CARTELLA_TEMPLATE = Path(__file__).parent / "templates"
@@ -83,6 +92,63 @@ def paragrafi_html(testo: str) -> Markup:
         sicuro = _CORSIVO.sub(r"<em>\1</em>", str(escape(blocco)))
         paragrafi.append(f"<p>{sicuro}</p>")
     return Markup("\n".join(paragrafi))
+
+
+def dati_elemento(elemento: Elemento) -> list[tuple[str, str]]:
+    """Raccoglie i dati fisico-chimici come coppie etichetta/valore.
+
+    Sono gli stessi valori della tabella nella nota del vault, con gli stessi
+    formattatori: una seconda formattazione produrrebbe prima o poi due cifre
+    diverse per lo stesso dato. Qui però non è una tabella — a 390 px una
+    tabella o spezza le parole o scorre in orizzontale — ma una lista di
+    descrizione, che si impila.
+    """
+    proprieta = elemento.proprieta
+    voci: list[tuple[str, str]] = [
+        ("Numero atomico", str(elemento.numero_atomico)),
+        ("Massa atomica", f"{formatta_decimale(proprieta.massa_atomica)} u"),
+        ("Categoria", ETICHETTE_CATEGORIA[proprieta.categoria]),
+        ("Gruppo", str(proprieta.gruppo) if proprieta.gruppo is not None else "—"),
+        ("Periodo", str(proprieta.periodo)),
+        ("Blocco", proprieta.blocco),
+        (
+            "Configurazione elettronica",
+            formatta_configurazione_elettronica(proprieta.configurazione_elettronica),
+        ),
+        ("Punto di fusione", kelvin_in_celsius(proprieta.punto_fusione_k)),
+        ("Punto di ebollizione", kelvin_in_celsius(proprieta.punto_ebollizione_k)),
+        (
+            "Densità",
+            f"{formatta_decimale(proprieta.densita)} g/cm³"
+            if proprieta.densita is not None
+            else "—",
+        ),
+        (
+            "Stati di ossidazione",
+            ", ".join(formatta_stato_ossidazione(stato) for stato in proprieta.stati_ossidazione)
+            or "—",
+        ),
+    ]
+    return voci
+
+
+def celle_vicine(vicini: Vicini) -> list[dict[str, object]]:
+    """Descrive i vicini nella tavola periodica come celle di una griglia.
+
+    In HTML invece che in un diagramma: il testo resta selezionabile, un
+    lettore di schermo lo annuncia e la griglia si adatta alla larghezza.
+    """
+    posizioni = (
+        ("sopra", vicini.sopra, "stesso gruppo"),
+        ("sinistra", vicini.sinistra, "stesso periodo"),
+        ("destra", vicini.destra, "stesso periodo"),
+        ("sotto", vicini.sotto, "stesso gruppo"),
+    )
+    return [
+        {"dove": dove, "elemento": vicino, "relazione": relazione}
+        for dove, vicino, relazione in posizioni
+        if vicino is not None
+    ]
 
 
 def ambiente_sito() -> Environment:
@@ -158,6 +224,10 @@ def rendi_elemento(contesto: ContestoNota) -> str:
         incipit=incipit,
         sezioni=sezioni,
         minuti=tempo_lettura_minuti(parole),
+        dati=dati_elemento(elemento),
+        vicini=celle_vicine(contesto.vicini),
+        anno_leggibile=formatta_anno(elemento.scoperta.anno),
+        file_atomo=nome_file_atomo(elemento),
         url_elemento=url_elemento,
         url_scopritore=url_scopritore,
         url_epoca=url_epoca,

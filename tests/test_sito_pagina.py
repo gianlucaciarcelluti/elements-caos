@@ -234,3 +234,113 @@ def test_comando_sito_segnala_i_dati_mancanti(tmp_path: Path) -> None:
     codice = main(["sito", "--dati", str(tmp_path / "vuoto"), "--uscita", str(tmp_path / "out")])
 
     assert codice == 2
+
+
+# --- La scheda dei dati ------------------------------------------------------
+
+
+def test_i_dati_sono_coppie_etichetta_valore() -> None:
+    """I dati stanno in una lista di descrizione, non in una tabella.
+
+    Una tabella a 390 px o si stringe fino a spezzare le parole o scorre in
+    orizzontale: entrambe le cose sono state misurate sul sito con Quartz. Una
+    lista di descrizione si impila e basta.
+    """
+    pagina = _pagina_fosforo()
+
+    assert "<dl" in pagina
+    assert "<table" not in pagina
+    assert "<dt>Massa atomica</dt>" in pagina
+
+
+def test_i_dati_riportano_i_valori_formattati() -> None:
+    """I valori usano gli stessi formattatori del vault, non una seconda formattazione."""
+    pagina = _pagina_fosforo()
+
+    assert "30,974" in pagina  # massa con la virgola decimale italiana
+    assert "Non metallo" in pagina  # categoria in italiano leggibile
+    assert "3s²" in pagina  # configurazione con gli esponenti in apice
+
+
+def test_gli_stati_di_ossidazione_portano_il_segno() -> None:
+    """«+5» e «-3» sono la convenzione chimica, «5» e «3» no."""
+    pagina = _pagina_fosforo()
+
+    assert "+5" in pagina
+    assert "-3" in pagina
+
+
+# --- Le figure ---------------------------------------------------------------
+
+
+def test_la_posizione_nella_tavola_e_una_griglia_html() -> None:
+    """I vicini nella tavola sono testo vero, non un'immagine.
+
+    In HTML sono selezionabili, leggibili da un lettore di schermo e si
+    adattano alla larghezza: un diagramma Mermaid non fa nessuna delle tre.
+
+    I dati di prova contengono un solo elemento, che quindi non ha vicini: la
+    griglia si verifica sulla funzione che la costruisce.
+    """
+    from elements_caos.render.diagrammi import Vicini
+    from elements_caos.sito.pagina import celle_vicine
+
+    elementi = _elementi()
+    celle = celle_vicine(Vicini(sopra=elementi[0], destra=elementi[0]))
+
+    assert [cella["dove"] for cella in celle] == ["sopra", "destra"]
+    assert celle[0]["relazione"] == "stesso gruppo"
+    assert celle[1]["relazione"] == "stesso periodo"
+
+
+def test_la_griglia_dei_vicini_ha_la_forma_della_tavola() -> None:
+    """Sopra/sotto è il gruppo, sinistra/destra il periodo: la disposizione lo dice."""
+    foglio = (
+        Path(__file__).resolve().parents[1]
+        / "src"
+        / "elements_caos"
+        / "sito"
+        / "statico"
+        / "base.css"
+    ).read_text(encoding="utf-8")
+
+    assert "grid-template-areas" in foglio
+    assert "sinistra centro destra" in foglio
+
+
+def test_senza_vicini_la_sezione_non_compare() -> None:
+    """L'idrogeno non ha nulla sopra: la sezione sparisce invece di restare vuota."""
+    pagina = _pagina_fosforo()
+
+    assert 'class="vicini"' not in pagina
+
+
+def test_la_cronologia_della_scoperta_e_in_pagina() -> None:
+    """Anno, luogo e scopritori: la scheda li mostra senza rimandare altrove."""
+    pagina = _pagina_fosforo()
+
+    assert "1669" in pagina
+    assert "Amburgo" in pagina
+
+
+def test_la_struttura_atomica_e_una_figura() -> None:
+    """Lo schema a gusci è l'unica figura vera della scheda."""
+    pagina = _pagina_fosforo()
+
+    assert "atomo-Fosforo.svg" in pagina
+    assert "<img" in pagina
+
+
+def test_i_composti_e_i_loro_usi_sono_in_pagina() -> None:
+    """Il diagramma dei composti diventa un elenco leggibile."""
+    pagina = _pagina_fosforo()
+
+    assert "Acido fosforico" in pagina
+    assert "fertilizzanti" in pagina
+
+
+def test_nessun_diagramma_da_rendere_nel_browser() -> None:
+    """Niente Mermaid: nessuna libreria da scaricare, nessuno sfarfallio."""
+    pagina = _pagina_fosforo()
+
+    assert "mermaid" not in pagina.lower()

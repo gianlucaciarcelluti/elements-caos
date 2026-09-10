@@ -1,0 +1,13 @@
+{# Dati fisico-chimici come lista di descrizione.
+
+   Non è una tabella per una ragione misurata: a 390 px una tabella a due
+   colonne o spezza le parole («#ele/men/to») o scorre in orizzontale. Una
+   lista di descrizione si impila da sola e resta leggibile ovunque. #}
+<dl class="dati">
+{% for etichetta, valore in dati %}
+<div class="dati__voce">
+<dt>{{ etichetta }}</dt>
+<dd>{{ valore }}</dd>
+</div>
+{% endfor %}
+</dl>

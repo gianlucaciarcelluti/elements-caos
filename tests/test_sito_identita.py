@@ -206,3 +206,15 @@ def test_il_tema_si_puo_scegliere(tmp_path: Path) -> None:
     pagina = (uscita / "elementi" / "fosforo.html").read_text(encoding="utf-8")
     assert 'id="scelta-tema"' in pagina
     assert (uscita / "statico" / "tema.js").is_file()
+
+
+def test_la_cella_centrale_dei_vicini_si_distingue() -> None:
+    """L'elemento corrente deve staccarsi dai vicini.
+
+    La regola alza la specificità di proposito: `.vicini__cella` compare più
+    avanti nel foglio e a parità di peso vincerebbe, lasciando la cella
+    centrale identica alle altre. È già successo.
+    """
+    foglio = (CARTELLA_STATICI / "base.css").read_text(encoding="utf-8")
+
+    assert ".vicini .vicini__cella--centro" in foglio

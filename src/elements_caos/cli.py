@@ -222,6 +222,12 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
     for elemento in elementi:
         contesto = costruisci_contesto(elemento, elementi, scopritori, epoche)
         _scrivi(cartella_uscita / url_elemento(elemento), rendi_elemento(contesto))
+        # Lo schema a gusci è l'unica figura della scheda ed è generato da noi:
+        # la sua palette è già verificata sui due temi (atomo_svg).
+        _scrivi(
+            cartella_uscita / "immagini" / nome_file_atomo(elemento),
+            rendi_atomo_svg(elemento),
+        )
 
     _copia_statici(cartella_uscita / "statico")
 

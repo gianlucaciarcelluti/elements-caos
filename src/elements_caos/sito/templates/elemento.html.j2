@@ -33,6 +33,80 @@ Numero atomico {{ elemento.numero_atomico }} ·
 </section>
 {% endfor %}
 
+<section class="elemento__scheda">
+<h2>La scoperta</h2>
+<dl class="dati">
+<div class="dati__voce"><dt>Anno</dt><dd>{{ anno_leggibile }}</dd></div>
+{% if elemento.scoperta.luogo %}
+<div class="dati__voce"><dt>Luogo</dt><dd>{{ elemento.scoperta.luogo }}</dd></div>
+{% endif %}
+{% if contesto.scopritori %}
+<div class="dati__voce">
+<dt>{{ "Scopritori" if contesto.scopritori | length > 1 else "Scopritore" }}</dt>
+<dd>
+{% for scopritore in contesto.scopritori %}
+<a href="{{ radice }}{{ url_scopritore(scopritore) }}">{{ scopritore.nome }}</a>{{ ", " if not loop.last }}
+{% endfor %}
+</dd>
+</div>
+{% endif %}
+</dl>
+</section>
+
+<section class="elemento__scheda">
+<h2>Dati</h2>
+{% include "_dati.html.j2" %}
+</section>
+
+{% if vicini %}
+<section class="elemento__scheda">
+<h2>Posizione nella tavola periodica</h2>
+{# Griglia in HTML e non un diagramma: il testo resta selezionabile, un
+   lettore di schermo lo annuncia e la disposizione si adatta alla larghezza. #}
+<ul class="vicini">
+{% for cella in vicini %}
+<li class="vicini__cella vicini__cella--{{ cella.dove }}">
+<a href="{{ radice }}{{ url_elemento(cella.elemento) }}">
+<span class="vicini__simbolo">{{ cella.elemento.simbolo }}</span>
+<span class="vicini__nome">{{ cella.elemento.nome }}</span>
+</a>
+</li>
+{% endfor %}
+<li class="vicini__cella vicini__cella--centro" aria-current="page">
+<span class="vicini__simbolo">{{ elemento.simbolo }}</span>
+<span class="vicini__nome">{{ elemento.nome }}</span>
+</li>
+</ul>
+<p class="vicini__legenda">
+Sopra e sotto: stesso gruppo. A sinistra e a destra: stesso periodo.
+</p>
+</section>
+{% endif %}
+
+<section class="elemento__scheda">
+<h2>Struttura atomica</h2>
+<figure class="atomo">
+<img src="{{ radice }}immagini/{{ file_atomo }}" alt="Schema dei gusci elettronici del {{ elemento.nome | lower }}" width="360" height="360">
+<figcaption>Gusci elettronici: {{ elemento.proprieta.gusci | join(", ") }}</figcaption>
+</figure>
+</section>
+
+{% if elemento.composti_principali %}
+<section class="elemento__scheda">
+<h2>Composti principali</h2>
+<ul class="composti">
+{% for composto in elemento.composti_principali %}
+<li class="composti__voce">
+<p class="composti__nome">{{ composto.nome }} <span class="composti__formula">{{ composto.formula }}</span></p>
+{% if composto.usi %}
+<p class="composti__usi">{{ composto.usi | join(" · ") }}</p>
+{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
 <nav class="elemento__catena" aria-label="Elementi vicini nella cronologia">
 {% if contesto.precedente_cronologico %}
 <a class="catena__precedente" href="{{ radice }}{{ url_elemento(contesto.precedente_cronologico) }}">

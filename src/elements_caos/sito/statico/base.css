@@ -251,3 +251,170 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* --- Schede della pagina elemento ---------------------------------------- */
+
+.elemento__scheda {
+  margin-block: var(--passo-5);
+}
+
+/* Lista di descrizione invece che tabella: si impila da sola su schermo
+ * stretto e diventa a due colonne quando c'è spazio. */
+.dati {
+  margin: 0;
+  border-top: 1px solid var(--colore-bordo);
+}
+
+.dati__voce {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--passo-2) var(--passo-3);
+  padding-block: var(--passo-2);
+  border-bottom: 1px solid var(--colore-bordo);
+}
+
+.dati dt {
+  flex: 1 1 11rem;
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+}
+
+.dati dd {
+  flex: 1 1 11rem;
+  margin: 0;
+  font-family: var(--font-dati);
+  font-size: 0.9rem;
+}
+
+/* --- Vicini nella tavola -------------------------------------------------- */
+
+/* Le celle sono disposte come nella tavola periodica, non in elenco: sopra e
+ * sotto sono lo stesso gruppo, a sinistra e a destra lo stesso periodo, e
+ * l'elemento sta al centro. La sezione si chiama "posizione nella tavola" e
+ * questa è la posizione. */
+.vicini {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-areas:
+    ".        sopra  ."
+    "sinistra centro destra"
+    ".        sotto  .";
+  gap: var(--passo-2);
+  margin: 0;
+  padding: 0;
+  max-width: 26rem;
+  list-style: none;
+}
+
+.vicini__cella--sopra {
+  grid-area: sopra;
+}
+.vicini__cella--sotto {
+  grid-area: sotto;
+}
+.vicini__cella--sinistra {
+  grid-area: sinistra;
+}
+.vicini__cella--destra {
+  grid-area: destra;
+}
+/* La specificità è alzata di proposito: `.vicini__cella` compare più avanti
+ * nel foglio e, a parità di peso, vincerebbe sul bordo dichiarato qui. */
+.vicini .vicini__cella--centro {
+  grid-area: centro;
+  background: var(--colore-fondo);
+  border: 2px solid var(--colore-accento);
+}
+
+.vicini__legenda {
+  margin-top: var(--passo-2);
+  font-family: var(--font-titoli);
+  font-size: 0.8rem;
+  color: var(--colore-testo-tenue);
+}
+
+.vicini__cella {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--passo-2);
+  text-align: center;
+  background: var(--colore-superficie);
+  border: 1px solid var(--colore-bordo);
+  border-radius: var(--raggio);
+}
+
+.vicini__cella a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--passo-1);
+  text-decoration: none;
+}
+
+.vicini__simbolo {
+  font-family: var(--font-dati);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.vicini__nome {
+  font-family: var(--font-titoli);
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+
+
+/* --- Struttura atomica ---------------------------------------------------- */
+
+.atomo {
+  margin: 0;
+  text-align: center;
+}
+
+.atomo img {
+  max-width: min(100%, 22rem);
+  height: auto;
+}
+
+.atomo figcaption {
+  font-family: var(--font-titoli);
+  font-size: 0.8rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* --- Composti ------------------------------------------------------------- */
+
+.composti {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.composti__voce {
+  padding-block: var(--passo-3);
+  border-bottom: 1px solid var(--colore-bordo);
+}
+
+.composti__nome {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-weight: 600;
+}
+
+.composti__formula {
+  margin-left: var(--passo-2);
+  font-family: var(--font-dati);
+  font-weight: 400;
+  font-size: 0.9em;
+  color: var(--colore-testo-tenue);
+}
+
+.composti__usi {
+  margin: var(--passo-1) 0 0;
+  font-size: 0.9rem;
+  color: var(--colore-testo-tenue);
+}
