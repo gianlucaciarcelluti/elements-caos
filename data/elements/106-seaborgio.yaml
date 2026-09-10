@@ -9,10 +9,18 @@ scoperta:
   - albert-ghiorso
   - kenneth-hulet
   - glenn-seaborg
-  luogo: null
+  luogo: Berkeley, California
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'La cronologia di riferimento comprimeva gli scopritori in «Ghiorso et
+    al.». L''articolo che annuncia l''elemento, pubblicato nel dicembre 1974, e firmato da
+    otto autori fra il laboratorio di Berkeley e quello di Livermore: qui restano i tre nomi
+    che le fonti secondarie isolano sempre — Ghiorso, Hulet e Seaborg — e la collaborazione
+    fra i due laboratori e dichiarata qui. Seaborg e dunque fra i coautori dell''articolo
+    che annuncia l''elemento poi intitolato a lui. Dubna rivendico l''elemento lo stesso anno,
+    ma la commissione internazionale giudico i dati sovietici insufficienti e assegno il credito
+    per intero a Berkeley. Il nome fu proposto nel marzo 1994, respinto dalla IUPAC nell''agosto
+    successivo perche Seaborg era vivo, e confermato nel 1997.'
   controversia: null
 proprieta:
   gruppo: 6
@@ -32,5 +40,178 @@ proprieta:
   punto_fusione_k: null
   punto_ebollizione_k: null
   densita: 35.0
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 0
+  - 6
 approfondimento: false
+contenuti:
+  hook: Glenn Seaborg disse che avere un elemento intitolato a sé era l'onore più grande della
+    sua vita, meglio del premio Nobel che aveva già vinto. Per ottenerlo servì una rivolta
+    della chimica americana contro la commissione internazionale.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: Il seaborgio è il primo elemento della tavola periodica a essere stato ufficialmente
+      intitolato a una persona ancora viva, e uno dei pochissimi il cui eponimo compare fra
+      gli autori dell'articolo che ne annuncia la scoperta. Sono due anomalie che vanno insieme,
+      e che hanno tenuto occupata la comunità chimica internazionale per tre anni.
+    visual: Glenn Seaborg che indica la casella 106 su una tavola periodica
+    attendibilita: documentato
+  - id: le_due_rivendicazioni
+    sezione: storia
+    testo: Nel 1974 arrivarono due annunci. A Dubna il gruppo di Jurij Oganesjan bombardò
+      bersagli di piombo con ioni di cromo-54 e registrò cinquantuno eventi di fissione spontanea
+      con emivite fra i quattro e i dieci millisecondi. A Berkeley si bombardò californio-249
+      con ioni di ossigeno-18 e si ottennero una settantina di decadimenti alfa del seaborgio-263,
+      un isotopo che dura meno di un secondo.
+    visual: Due apparati sperimentali affiancati, uno sovietico e uno americano
+    attendibilita: documentato
+  - id: perche_vinse_berkeley
+    sezione: storia
+    testo: Questa volta la commissione internazionale non divise il merito. I decadimenti
+      di Berkeley erano agganciati a nuclei figli già noti — il rutherfordio-259 e il nobelio-255
+      — e da quell'aggancio si risaliva senza ambiguità al numero atomico; i dati sovietici,
+      giudicati privi delle verifiche necessarie, non permettevano la stessa conclusione.
+      Il credito andò per intero agli americani, e su questa casella la contesa finì lì.
+    visual: Una catena di decadimenti che si aggancia a due nuclei noti
+    attendibilita: documentato
+  - id: la_ricerca_del_nome
+    sezione: storia
+    testo: Trovare un nome si rivelò più difficile che trovare l'elemento. Il gruppo mise
+      sul tavolo Isaac Newton, Thomas Edison, Leonardo da Vinci, Ferdinando Magellano, l'Ulisse
+      dei poemi, George Washington e la Finlandia, patria di un membro della squadra, senza
+      che nessuna proposta prevalesse. Poi Albert Ghiorso ebbe l'idea di intitolare l'elemento
+      a Seaborg e raccolse il consenso dei colleghi uno per uno, prima di chiederlo all'interessato.
+    visual: Una lavagna con una lista di nomi proposti e cancellati
+    attendibilita: documentato
+  - id: l_annuncio_e_il_divieto
+    sezione: storia
+    testo: 'Il nome fu annunciato al congresso della American Chemical Society nel marzo del
+      1994 da Kenneth Hulet, uno dei coscopritori. Cinque mesi dopo la IUPAC stabilì che un
+      elemento non poteva essere intitolato a una persona vivente, e Seaborg era vivo: nel
+      settembre del 1994 la commissione propose di chiamare la casella 106 rutherfordium,
+      spostandoci il nome che Berkeley aveva scelto per il 104.'
+    visual: Il verbale di una riunione internazionale di nomenclatura
+    attendibilita: documentato
+  - id: la_replica
+    sezione: storia
+    testo: 'Seaborg replicò che sarebbe stata la prima volta nella storia in cui a scopritori
+      riconosciuti e incontestati veniva negato il privilegio di dare il nome al proprio elemento.
+      La IUPAC difese la propria posizione con un argomento di principio, espresso da un membro
+      americano della commissione: chi scopre non ha il diritto di nominare, ha il diritto
+      di proporre un nome.'
+    visual: Due dichiarazioni contrapposte impaginate su una rivista scientifica
+    attendibilita: documentato
+  - id: la_rivolta
+    sezione: storia
+    testo: 'A quel punto la American Chemical Society fece una cosa insolita: approvò il nome
+      seaborgium per le proprie riviste in aperto dissenso dalla IUPAC, e con esso tutte le
+      altre proposte americane e tedesche per le caselle dal 104 al 109. Per un paio d''anni
+      la chimica ebbe due nomenclature ufficiali concorrenti. La IUPAC cedette nel 1997, e
+      nella stessa sistemazione la società americana accettò di rinunciare all''hahnio in
+      cambio del seaborgio.'
+    visual: Due riviste scientifiche con nomenclature diverse sulla stessa casella
+    attendibilita: documentato
+  - id: il_commento
+    sezione: storia
+    testo: 'Seaborg commentò che era il più grande onore mai ricevuto, migliore, disse, del
+      premio Nobel per la chimica che aveva vinto nel 1951 con Edwin McMillan. Aggiunse una
+      motivazione che riguarda i lettori più che sé stesso: gli studenti di chimica che avessero
+      incontrato quella casella si sarebbero chiesti perché portasse quel nome, e così avrebbero
+      conosciuto il suo lavoro. Morì il 25 febbraio 1999, un anno e mezzo dopo la decisione.'
+    visual: Un ritratto tardo di Glenn Seaborg
+    attendibilita: documentato
+  - id: gruppo_sei
+    sezione: caratteristiche
+    testo: 'Chimicamente il seaborgio è un elemento del gruppo 6, sotto il molibdeno e il
+      tungsteno, e questa volta la colonna funziona. Negli esperimenti in fase gassosa l''elemento
+      forma un ossicloruro volatile, SgO₂Cl₂, e la sua volatilità è minore di quella dei composti
+      corrispondenti di molibdeno e tungsteno: esattamente l''andamento che ci si aspetta
+      scendendo lungo il gruppo, misurato invece che previsto.'
+    visual: Una colonna di cromatografia in fase gassosa con il gradiente di temperatura
+    attendibilita: documentato
+  - id: il_carbonile
+    sezione: caratteristiche
+    testo: 'Il risultato più sorprendente è del 2014, quando si è riusciti a preparare l''esacarbonile
+      di seaborgio, Sg(CO)₆, cioè un composto in cui l''elemento lega sei molecole di monossido
+      di carbonio e si trova nello stato di ossidazione zero. È una molecola metallorganica
+      di un elemento superpesante, volatile come i carbonili di molibdeno e tungsteno e reattiva
+      verso la silice come loro: la prova che quassù non funzionano solo le somiglianze grossolane,
+      ma anche i dettagli.'
+    visual: La struttura ottaedrica di un esacarbonile metallico
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'Gli isotopi più stabili del seaborgio durano qualche minuto: il seaborgio-269
+      arriva a una decina di minuti secondo le misure più recenti, il seaborgio-271 si ferma
+      a una trentina di secondi. Diversi di essi non si producono direttamente ma si raccolgono
+      come prodotti di decadimento di elementi più pesanti — il seaborgio-269 discende dal
+      flerovio-285 dopo quattro decadimenti alfa — e questa è spesso l''unica strada per ottenerne
+      abbastanza da fare chimica.'
+    visual: Una catena di decadimenti che scende da un elemento più pesante
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Del seaborgio non esiste alcun uso pratico: si producono singoli atomi, che scompaiono
+      in minuti o in frazioni di secondo, e non se n''è mai vista una quantità pesabile. Tutto
+      ciò che se ne fa è misurare come si comporta.'
+    visual: Una sala sperimentale con il rivelatore di un separatore di rinculo
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'Quelle misure servono a stabilire fin dove la tavola periodica resta una guida
+      affidabile. Nel gruppo 5 il dubnio si è comportato in modo inatteso, nel gruppo 6 il
+      seaborgio segue le previsioni fin nei dettagli: è confrontando casi come questi che
+      si capisce quali proprietà la relatività riordina e quali no, e si calibrano i modelli
+      su cui si progetteranno gli esperimenti degli elementi ancora più pesanti.'
+    visual: Un grafico che confronta valori previsti e misurati lungo un gruppo
+    attendibilita: documentato
+  - id: curiosita_posta
+    sezione: curiosita
+    testo: 'Negli ultimi anni di vita Seaborg poteva ricevere posta con l''indirizzo scritto
+      interamente in nomi di elementi chimici: seaborgio, laurenzio — per il laboratorio Lawrence
+      Berkeley dove lavorava — berkelio, californio, americio. Cinque caselle della tavola
+      periodica bastavano a individuare una persona, un laboratorio, una città, uno stato
+      e un continente.'
+    visual: Una busta indirizzata con nomi di elementi chimici
+    attendibilita: documentato
+  - id: curiosita_il_secondo
+    sezione: curiosita
+    testo: 'Per una ventina d''anni il seaborgio è rimasto l''unico elemento intitolato a
+      una persona vivente. Il secondo è arrivato nel 2016: l''oganesson, la casella 118, dedicata
+      a Jurij Oganesjan, cioè al fisico che nel 1974 aveva guidato la squadra di Dubna nella
+      rivendicazione dell''elemento 106 contro Berkeley — la stessa che quella volta perse.'
+    visual: Jurij Oganesjan davanti a una tavola periodica
+    attendibilita: documentato
+  pronuncia:
+  - termine: Glenn Seaborg
+    ipa: ɡlɛn ˈsiːbɔːrɡ
+    nota: Inglese americano.
+  - termine: Jurij Oganesjan
+    ipa: ˈjurʲɪj ɐɡɐˈnʲesʲən
+    nota: Russo.
+composti_principali:
+- nome: Ossicloruro di seaborgio
+  formula: SgO₂Cl₂
+  usi:
+  - cromatografia in fase gassosa
+  - confronto di volatilità lungo il gruppo 6
+- nome: Esacarbonile di seaborgio
+  formula: Sg(CO)₆
+  usi:
+  - dimostrazione dello stato di ossidazione zero
+  - chimica metallorganica dei superpesanti
+- nome: Ossidoidrossido di seaborgio
+  formula: SgO₂(OH)₂
+  usi:
+  - esperimenti di chimica in soluzione acquosa
+fonti:
+- url: https://en.wikipedia.org/wiki/Seaborgium
+  titolo: Seaborgium
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/106/seaborgium
+  titolo: Seaborgium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Glenn_T._Seaborg
+  titolo: Glenn T. Seaborg
+  consultata: *id001

@@ -241,6 +241,19 @@ def test_formatta_configurazione_elettronica_esponente_doppia_cifra() -> None:
     assert formatta_configurazione_elettronica("[Rn] 5f14 6d3 7s2") == "[Rn] 5f¹⁴ 6d³ 7s²"
 
 
+def test_formatta_configurazione_elettronica_toglie_asterisco_di_previsione() -> None:
+    """L'asterisco che il dataset premette alle configurazioni previste sparisce.
+
+    Il dataset delle proprietà marca con un asterisco iniziale le
+    configurazioni degli elementi dal 105 in poi, che sono calcolate e non
+    misurate. Nella tabella della nota quell'asterisco non ha legenda e si
+    legge come un refuso, mentre l'informazione che la configurazione è una
+    previsione la dà già la prosa: si toglie in rendering, lasciando il dato
+    intatto negli YAML.
+    """
+    assert formatta_configurazione_elettronica("*[Rn] 5f14 6d3 7s2") == "[Rn] 5f¹⁴ 6d³ 7s²"
+
+
 def test_nota_riporta_le_fonti() -> None:
     """Le fonti consultate sono elencate in fondo alla nota."""
     nota = _nota_fosforo()

@@ -192,7 +192,12 @@ def formatta_configurazione_elettronica(configurazione: str) -> str:
         sottolivello, elettroni = corrispondenza.groups()
         return sottolivello + elettroni.translate(_CIFRE_IN_APICI)
 
-    return _ESPONENTE_CONFIGURAZIONE.sub(_converti, configurazione)
+    # Il dataset premette un asterisco alle configurazioni previste anziché
+    # misurate (gli elementi dal 105 in poi). Nella tabella della nota non ha
+    # legenda e si legge come un refuso; che il valore sia una previsione lo
+    # dice la prosa dell'elemento, quindi qui l'asterisco cade. Il dato negli
+    # YAML resta quello del dataset.
+    return _ESPONENTE_CONFIGURAZIONE.sub(_converti, configurazione.lstrip("*"))
 
 
 def costruisci_contesto(
