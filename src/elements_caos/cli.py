@@ -26,6 +26,7 @@ from elements_caos.render.navigazione import (
 )
 from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi_nota
 from elements_caos.render.prosa import componi_sezione
+from elements_caos.sito.pagina import rendi_elemento, url_elemento
 from elements_caos.validazione import (
     FONTI_MIN_BASE,
     PAROLE_MAX_BASE,
@@ -194,6 +195,25 @@ def genera_vault(cartella_dati: Path, cartella_vault: Path) -> int:
     return CODICE_SUCCESSO
 
 
+def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
+    """Emette il sito pubblico a partire dagli stessi dati che generano il vault.
+
+    Il vault non viene toccato: sono due emettitori indipendenti sullo stesso
+    dataset, e chi legge in Obsidian non deve accorgersi dell'esistenza del
+    sito.
+    """
+    elementi = carica_elementi(cartella_dati / "elements")
+    scopritori = carica_scopritori(cartella_dati / "scopritori.yaml")
+    epoche = carica_epoche(cartella_dati / "epoche.yaml")
+
+    for elemento in elementi:
+        contesto = costruisci_contesto(elemento, elementi, scopritori, epoche)
+        _scrivi(cartella_uscita / url_elemento(elemento), rendi_elemento(contesto))
+
+    print(f"Emesse {len(elementi)} pagine di elementi in {cartella_uscita}")
+    return CODICE_SUCCESSO
+
+
 def valida_vault(cartella_dati: Path, cartella_vault: Path, salta_budget: bool) -> int:
     """Esegue tutti i controlli di integrità sul vault e ne riporta l'esito."""
     elementi = carica_elementi(cartella_dati / "elements")
@@ -260,6 +280,10 @@ def main(argv: list[str] | None = None) -> int:
     )
     sottocomandi = analizzatore.add_subparsers(dest="comando", required=True)
 
+    sotto_sito = sottocomandi.add_parser("sito", help="Emette il sito pubblico in HTML.")
+    sotto_sito.add_argument("--dati", type=Path, default=Path("data"))
+    sotto_sito.add_argument("--uscita", type=Path, default=Path("public"))
+
     for nome, aiuto in (
         ("genera", "Genera il vault a partire dai dati YAML."),
         ("valida", "Verifica l'integrità del vault generato."),
@@ -279,6 +303,8 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if argomenti.comando == "genera":
             return genera_vault(argomenti.dati, argomenti.vault)
+        if argomenti.comando == "sito":
+            return genera_sito(argomenti.dati, argomenti.uscita)
         return valida_vault(argomenti.dati, argomenti.vault, argomenti.salta_budget)
     except ErroreCaricamento as errore:
         print(f"Errore nei dati: {errore}", file=sys.stderr)

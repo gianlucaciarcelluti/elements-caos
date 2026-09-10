@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block titolo %}{% endblock %}</title>
+<meta name="description" content="{% block descrizione %}{% endblock %}">
+</head>
+<body>
+<header class="testata">
+<a class="testata__sito" href="{{ radice }}index.html">La scoperta degli elementi</a>
+</header>
+
+<main id="contenuto">
+{% block contenuto %}{% endblock %}
+</main>
+
+<footer class="chiusura">
+<div class="avvertenza" role="note">
+<p class="avvertenza__titolo">Avvertenza</p>
+{{ avvertenza_ia }}
+</div>
+<nav class="chiusura__link">
+<a href="{{ radice }}cronologia-degli-elementi.html">Cronologia</a>
+<a href="{{ radice }}tavola-periodica.html">Tavola periodica</a>
+<a href="{{ radice }}attribuzioni.html">Attribuzioni</a>
+<a href="https://github.com/gianlucaciarcelluti/elements-caos">Repository</a>
+</nav>
+</footer>
+</body>
+</html>
