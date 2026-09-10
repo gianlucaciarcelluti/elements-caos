@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   pull_request:
+  # Avvio manuale: permette di provare i controlli su un ramo di lavoro senza
+  # aprire una pull request, che su un repository pubblico è un atto visibile.
+  workflow_dispatch:
 
 # Il repository diventerà pubblico: nessun job qui ha bisogno di scrivere.
 permissions:
