@@ -7,10 +7,19 @@ scoperta:
   anno_stimato: false
   scopritori:
   - sigurd-hofmann
-  luogo: null
+  - peter-armbruster
+  - gottfried-munzenberg
+  luogo: Darmstadt
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'Tre nuclei di roentgenio-272 rivelati al GSI l''8 dicembre 1994 da bismuto-209
+    e nichel-64. La cronologia di riferimento comprimeva gli scopritori in «Hofmann et al.»:
+    l''articolo del 1995 ha gli stessi tredici autori di quello sul darmstadtio, e qui restano
+    i tre nomi che le fonti secondarie isolano — Hofmann, Armbruster e Munzenberg. La commissione
+    internazionale giudico le prove insufficienti nel 2001; il GSI ripete l''esperimento nel
+    2002 ottenendo altri tre atomi, e la IUPAC riconosce la scoperta nel 2003. Il nome, proposto
+    nel 2004, e ufficiale dal primo novembre di quell''anno; fino ad allora l''elemento si
+    chiamava unununium (Uuu), nome sistematico.'
   controversia: null
 proprieta:
   gruppo: 11
@@ -30,5 +39,160 @@ proprieta:
   punto_fusione_k: null
   punto_ebollizione_k: null
   densita: 28.7
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -1
+  - 3
+  - 5
 approfondimento: false
+contenuti:
+  hook: Per dieci anni la casella 111 si è chiamata unununio, che in latino maccheronico vuol
+    dire soltanto «uno-uno-uno». Era un segnaposto, e serviva a non dare un nome a un elemento
+    prima di essere sicuri che esistesse.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il roentgenio è intitolato a chi ha scoperto i raggi X, cioè a uno dei pochi risultati
+      scientifici che hanno cambiato la vita quotidiana di chiunque. L''elemento in sé è l''opposto:
+      ne esistono in tutto una manciata di atomi, nessuno ne ha mai misurato una proprietà
+      chimica, e non ne uscirà mai nulla di utile.'
+    visual: Una delle prime radiografie della storia, con la mano e l'anello
+    attendibilita: documentato
+  - id: dicembre_1994
+    sezione: storia
+    testo: 'L''8 dicembre 1994, quattro settimane dopo il darmstadtio, il gruppo di Sigurd
+      Hofmann al GSI ottenne tre nuclei dell''elemento 111 bombardando bismuto-209 con ioni
+      di nichel-64. Era la stessa reazione che Dubna aveva provato nel 1986 senza vedere nulla:
+      la differenza stava nella sensibilità dell''apparato e nella pazienza con cui la si
+      applicava.'
+    visual: Il pannello di controllo di un acceleratore con il conteggio degli eventi
+    attendibilita: documentato
+  - id: non_bastava
+    sezione: storia
+    testo: 'Tre atomi non bastarono. Nel 2001 la commissione internazionale giudicò le prove
+      insufficienti a dichiarare la scoperta, e il gruppo dovette rifare l''esperimento: nel
+      2002 ne raccolse altri tre. Solo allora, nel 2003, la IUPAC riconobbe la scoperta al
+      GSI. È una scansione che dice molto su come funzionano le regole in questo campo: il
+      criterio non è aver visto, ma aver visto abbastanza da poter essere smentiti.'
+    visual: Un documento di valutazione con due serie di dati a confronto
+    attendibilita: documentato
+  - id: il_segnaposto
+    sezione: storia
+    testo: Nel frattempo l'elemento aveva un nome provvisorio, unununium, con il simbolo Uuu.
+      La IUPAC aveva introdotto nel 1979 una nomenclatura sistematica che traduce in latino
+      le cifre del numero atomico — un-un-un per il 111 — proprio per evitare che laboratori
+      rivali battezzassero elementi non ancora confermati, come era successo per trent'anni
+      con la guerra dei transfermi. È una regola nata da un conflitto.
+    visual: Una tavola periodica con le ultime caselle riempite da sigle a tre lettere
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: Nel 2004 il GSI propose roentgenium, e la IUPAC lo ufficializzò il primo novembre
+      di quell'anno. Wilhelm Conrad Röntgen aveva scoperto i raggi X nel 1895 a Würzburg,
+      quasi per caso, notando che uno schermo fluorescente si illuminava mentre lui lavorava
+      con un tubo coperto di cartone nero; ricevette il primo premio Nobel per la fisica mai
+      assegnato, nel 1901, e rifiutò di brevettare la scoperta perché la riteneva di tutti.
+    visual: Il ritratto di Wilhelm Conrad Röntgen
+    attendibilita: documentato
+  - id: nessuna_chimica
+    sezione: caratteristiche
+    testo: 'Del roentgenio non si è misurata alcuna proprietà, e i valori di questa nota sono
+      calcoli. Sta nel gruppo 11, sotto rame, argento e oro, e le previsioni ne fanno un metallo
+      nobile: lo stato di ossidazione più stabile dovrebbe essere il +3, accompagnato da un
+      +5 e da un +1 meno saldi.'
+    visual: Una tabella di proprietà calcolate accanto a quelle misurate dell'oro
+    attendibilita: documentato
+  - id: lo_stato_meno_uno
+    sezione: caratteristiche
+    testo: 'La previsione più curiosa riguarda lo stato negativo. L''oro è uno dei rarissimi
+      metalli capaci di comportarsi da anione, formando composti in cui vale meno uno: esiste
+      l''auride di cesio, un sale in cui l''oro fa la parte del cloro. Ci si è chiesti se
+      il roentgenio possa fare altrettanto, e i calcoli dicono di no o quasi: la sua affinità
+      per l''elettrone in più è circa i due terzi di quella dell''oro, troppo poco perché
+      i roentgenuri siano stabili.'
+    visual: Un cristallo di auride di cesio, che ha aspetto trasparente e non metallico
+    attendibilita: documentato
+  - id: piu_pesante_dell_oro
+    sezione: caratteristiche
+    testo: 'C''è una ragione per cui il gruppo 11 è interessante proprio all''ultima casella.
+      L''oro deve il proprio colore agli effetti relativistici: gli elettroni più interni
+      di un atomo così pesante si muovono tanto in fretta da alterare le energie degli orbitali,
+      e la luce assorbita si sposta verso il blu. Nel roentgenio quegli effetti sono molto
+      più forti, perché il nucleo ha trentadue cariche in più, e i modelli prevedono di conseguenza
+      un elemento che dall''oro si discosta più di quanto l''oro si discosti dall''argento.'
+    visual: Tre pepite di rame, argento e oro accanto a una casella vuota
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: Si conoscono nove isotopi del roentgenio. Il più longevo fra quelli confermati
+      è il roentgenio-282, che arriva a un minuto e quaranta; di un roentgenio-286, non ancora
+      confermato, si stima un'emivita di quasi undici minuti, che ne farebbe uno dei nuclei
+      superpesanti più durevoli conosciuti. Gli isotopi ottenuti sparando nichel sul bismuto,
+      come quelli del 1994, durano millesimi di secondo.
+    visual: Una scala di emivite dagli millisecondi ai minuti
+    attendibilita: documentato
+  - id: come_lo_si_riconosce
+    sezione: caratteristiche
+    testo: 'L''unica cosa che del roentgenio si misura davvero è il modo in cui muore. Ogni
+      atomo prodotto emette una particella alfa, diventa meitnerio, poi bohrio, e la sequenza
+      scende lungo la tavola fino a un nucleo già catalogato. Le energie e gli intervalli
+      di quella scala sono il ritratto dell''elemento: non dicono di che colore sia né come
+      reagisca, ma bastano a distinguerlo da qualunque altra cosa esista.'
+    visual: Una catena di decadimenti alfa con le energie annotate a fianco
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Il roentgenio non ha usi: non esiste in natura, se ne sono prodotti in tutto pochi
+      atomi e non se ne produrranno mai abbastanza per farne qualcosa. Serve a verificare
+      le previsioni teoriche sul gruppo 11, e per ora nemmeno a quello, perché le verifiche
+      non si sono ancora potute fare.'
+    visual: Un rivelatore silenzioso in attesa di un evento
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'Ciò che questa casella ha davvero prodotto è un precedente. Il caso del roentgenio
+      ha contribuito a fissare lo standard con cui si valutano oggi le rivendicazioni di elementi
+      nuovi: catene di decadimento agganciate a nuclei noti, statistica sufficiente, e ripetizione
+      indipendente dell''esperimento. Tutti gli elementi scoperti dopo hanno dovuto superare
+      la stessa soglia.'
+    visual: Una lista di criteri di accettazione spuntati uno per uno
+    attendibilita: documentato
+  - id: curiosita_rontgen
+    sezione: curiosita
+    testo: 'Röntgen chiamò i suoi raggi «X» perché non sapeva che cosa fossero, e il nome
+      provvisorio gli è rimasto per sempre in inglese e in italiano; in tedesco si chiamano
+      invece raggi Röntgen. L''elemento 111 ha attraversato la stessa vicenda al contrario:
+      ha avuto per anni un nome provvisorio, unununio, ed è finito per prendere quello dell''uomo
+      che aveva reso permanente un provvisorio.'
+    visual: Un tubo a raggi catodici dell'Ottocento
+    attendibilita: documentato
+  - id: curiosita_tre_settimane
+    sezione: curiosita
+    testo: 'Fra il primo atomo di darmstadtio e il primo di roentgenio passò meno di un mese.
+      Lo stesso apparato, la stessa squadra, lo stesso bersaglio di piombo o bismuto e un
+      proiettile appena più pesante: bastava cambiare il fascio e ricominciare. In quel novembre
+      e dicembre del 1994 la tavola periodica si allungò di due caselle nello stesso corridoio.'
+    visual: Due date ravvicinate su un calendario del 1994
+    attendibilita: documentato
+  pronuncia:
+  - termine: Wilhelm Conrad Röntgen
+    ipa: ˈvɪlhɛlm ˈkɔnʁaːt ˈʁœntɡən
+    nota: Tedesco, la ö si pronuncia come la e francese di «peur».
+composti_principali:
+- nome: Roentgenuro
+  formula: Rg⁻
+  usi:
+  - anione previsto per analogia con l'auride, ritenuto poco stabile
+- nome: Roentgenio-282
+  formula: 282Rg
+  usi:
+  - anello delle catene di decadimento degli elementi più pesanti
+fonti:
+- url: https://en.wikipedia.org/wiki/Roentgenium
+  titolo: Roentgenium
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/111/roentgenium
+  titolo: Roentgenium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen
+  titolo: Wilhelm Röntgen
+  consultata: *id001

@@ -940,7 +940,17 @@ CRONOLOGIA: list[VoceCronologia] = [
         "nucleare",
         nome="Darmstadtio",
     ),
-    VoceCronologia(111, 1994, False, ["sigurd-hofmann"], "nucleare", nome="Roentgenio"),
+    # Ultimo "Hofmann et al." da espandere. L'articolo del 1995 sull'elemento 111 ha gli
+    # stessi tredici autori di quello sul 110: qui restano i tre nomi che le fonti
+    # secondarie isolano, e la dimensione della collaborazione e in note_cronologia.
+    VoceCronologia(
+        111,
+        1994,
+        False,
+        ["sigurd-hofmann", "peter-armbruster", "gottfried-munzenberg"],
+        "nucleare",
+        nome="Roentgenio",
+    ),
     VoceCronologia(112, 1996, False, ["sigurd-hofmann"], "nucleare", nome="Copernicio"),
     VoceCronologia(
         116,
