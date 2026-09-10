@@ -156,6 +156,25 @@ Solo **pubblico dominio o CC0**. Ogni immagine in `vault/Immagini/` ha accanto
 un file `<nome>.license.yaml` con autore, fonte e licenza, e `valida` fallisce
 se manca. Un'immagine CC BY o CC BY-NC, per quanto adatta, non entra.
 
+## Costruire il sito in locale
+
+Il vault è pubblicato anche come sito, su GitHub Pages. Non serve toccarlo per
+contribuire ai contenuti, ma se vuoi vedere come verrà una nota:
+
+```bash
+scripts/costruisci_sito.sh          # costruisce in public/
+SERVI=1 scripts/costruisci_sito.sh  # costruisce e serve in locale
+```
+
+Lo script clona Quartz in `.quartz-build/` a una versione fissata, ci copia
+dentro il vault e costruisce. La prima esecuzione impiega qualche minuto perché
+scarica le dipendenze; le successive riusano il clone. Sia `public/` sia
+`.quartz-build/` sono ignorati da git.
+
+La home del sito è `sito/index.md`, ed è l'unica pagina scritta a mano: sta
+fuori dal vault perché in Obsidian una nota «index» sarebbe solo rumore, mentre
+senza di essa la radice del sito risponderebbe 404.
+
 ## Prima di aprire la pull request
 
 ```bash

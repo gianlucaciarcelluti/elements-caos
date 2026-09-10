@@ -56,6 +56,9 @@ Il punto di partenza è la nota **Cronologia degli elementi**: contiene
 l'itinerario guidato e l'elenco completo in ordine di scoperta, raggruppato per
 epoca storica.
 
+Se non usi Obsidian, lo stesso vault è pubblicato come sito:
+**<https://gianlucaciarcelluti.github.io/elements-caos>**.
+
 ## Com'è fatto
 
 Il vault non si scrive a mano: si **genera** da un dataset di file YAML, uno per
