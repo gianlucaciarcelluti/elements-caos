@@ -729,3 +729,143 @@ a {
   font-family: var(--font-titoli);
   font-size: 0.8rem;
 }
+
+/* --- Itinerario ----------------------------------------------------------- */
+
+.avanzamento {
+  margin-block: var(--passo-4);
+  padding: var(--passo-3);
+  background: var(--colore-superficie);
+  border-radius: var(--raggio);
+}
+
+.avanzamento__stato {
+  margin: 0 0 var(--passo-2);
+  font-family: var(--font-titoli);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.avanzamento__barra {
+  height: 6px;
+  background: var(--colore-bordo);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.avanzamento__barra span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--colore-accento);
+  transition: width 0.2s ease-out;
+}
+
+.avanzamento__comandi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--passo-2);
+  margin-top: var(--passo-3);
+}
+
+.avanzamento__riprendi,
+.avanzamento__comandi button {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: var(--passo-3);
+  background: var(--colore-fondo);
+  color: var(--colore-testo);
+  border: 1px solid var(--colore-bordo);
+  border-radius: var(--raggio);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.avanzamento__nota {
+  margin: var(--passo-2) 0 0;
+  font-family: var(--font-titoli);
+  font-size: 0.78rem;
+  color: var(--colore-testo-tenue);
+}
+
+.tappe {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: tappa;
+}
+
+.tappa {
+  margin-block: var(--passo-5);
+  padding-bottom: var(--passo-4);
+  border-bottom: 1px solid var(--colore-bordo);
+  scroll-margin-top: var(--passo-3);
+}
+
+.tappa__testa {
+  display: flex;
+  align-items: baseline;
+  gap: var(--passo-3);
+}
+
+.tappa__numero {
+  flex: none;
+  font-family: var(--font-dati);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--colore-accento);
+}
+
+.tappa__titolo {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.tappa__descrizione {
+  margin-block: var(--passo-2);
+}
+
+.tappa__vai {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--passo-3);
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: 0.95rem;
+}
+
+.tappa__minuti {
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+}
+
+.tappa__letta {
+  display: flex;
+  align-items: center;
+  gap: var(--passo-2);
+  /* 44px: la casella da sola è troppo piccola per il pollice, l'etichetta
+   * intera invece è un bersaglio comodo. */
+  min-height: 44px;
+  margin-top: var(--passo-2);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+  cursor: pointer;
+}
+
+.tappa__segno {
+  width: 1.15rem;
+  height: 1.15rem;
+  accent-color: var(--colore-accento);
+}
+
+/* Una tappa letta si attenua ma resta leggibile: nasconderla toglierebbe al
+ * lettore la possibilità di tornarci. */
+.tappa--letta .tappa__descrizione,
+.tappa--letta .tappa__titolo {
+  opacity: 0.6;
+}

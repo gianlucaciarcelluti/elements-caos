@@ -1,0 +1,66 @@
+{% extends "base.html.j2" %}
+{% set radice = "" %}
+
+{% block titolo %}L'itinerario in {{ totale_tappe }} tappe{% endblock %}
+{% block descrizione %}Un percorso di lettura in {{ totale_tappe }} tappe attraverso la storia degli elementi, circa {{ totale_minuti }} minuti in tutto.{% endblock %}
+{% block testa_extra %}<script src="{{ radice }}statico/itinerario.js" defer></script>{% endblock %}
+
+{% block contenuto %}
+<article class="itinerario">
+
+<header class="cronologia__testa">
+<h1>L'itinerario in {{ totale_tappe }} tappe</h1>
+<p class="cronologia__sommario">
+Il filo della storia in {{ totale_tappe }} letture, circa {{ totale_minuti }} minuti
+in tutto: dal metallo raccolto da terra agli atomi vissuti un millesimo di
+secondo. Non serve leggere tutte e centodiciotto le note per capire come è
+andata.
+</p>
+</header>
+
+{# L'avanzamento nasce nascosto: senza JavaScript non ci sarebbe nulla da
+   mostrare, e l'elenco delle tappe qui sotto è già il percorso completo. #}
+<section class="avanzamento" id="avanzamento" hidden>
+<p class="avanzamento__stato" id="stato-avanzamento" aria-live="polite"></p>
+<div class="avanzamento__barra"><span id="barra-avanzamento"></span></div>
+<div class="avanzamento__comandi">
+<a class="avanzamento__riprendi" id="riprendi" href="#tappa-1">Riprendi</a>
+<button type="button" id="azzera">Azzera</button>
+</div>
+<p class="avanzamento__nota">
+Lo stato resta nel tuo browser: non viene inviato da nessuna parte.
+</p>
+</section>
+
+<ol class="tappe">
+{% for voce in voci %}
+<li class="tappa" id="tappa-{{ voce.numero }}" data-tappa="{{ voce.numero }}">
+<div class="tappa__testa">
+<span class="tappa__numero">{{ voce.numero }}</span>
+<h2 class="tappa__titolo">{{ voce.tappa.titolo }}</h2>
+</div>
+<p class="tappa__descrizione">{{ voce.tappa.descrizione }}</p>
+<p class="tappa__vai">
+{% if voce.elemento %}
+<a href="{{ voce.url }}">Leggi {{ voce.elemento.nome }}</a>
+<span class="tappa__minuti">{{ voce.minuti }} {{ "minuto" if voce.minuti == 1 else "minuti" }}</span>
+{% endif %}
+</p>
+{# La casella nasce nascosta come il resto dell'avanzamento. #}
+<label class="tappa__letta" hidden>
+<input type="checkbox" class="tappa__segno" data-tappa="{{ voce.numero }}">
+Letta
+</label>
+</li>
+{% endfor %}
+</ol>
+
+<p class="cronologia__nota">
+Finito il percorso, l'elenco completo in ordine di scoperta è nella
+<a href="{{ radice }}cronologia-degli-elementi.html">cronologia</a>, e la
+<a href="{{ radice }}tavola-periodica.html">tavola periodica</a> mostra in quale
+ordine le caselle si sono riempite.
+</p>
+
+</article>
+{% endblock %}

@@ -27,6 +27,7 @@ from elements_caos.render.navigazione import (
 from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi_nota
 from elements_caos.render.prosa import componi_sezione
 from elements_caos.sito.cronologia import URL_CRONOLOGIA, rendi_cronologia_sito
+from elements_caos.sito.itinerario import URL_ITINERARIO, rendi_itinerario_sito
 from elements_caos.sito.pagina import CARTELLA_STATICI, rendi_elemento, url_elemento
 from elements_caos.sito.tavola import URL_TAVOLA, rendi_tavola_sito
 from elements_caos.validazione import (
@@ -237,6 +238,13 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
     )
 
     _scrivi(cartella_uscita / URL_TAVOLA, rendi_tavola_sito(elementi, epoche))
+
+    itinerario = carica_itinerario(cartella_dati / "itinerario.yaml")
+    if itinerario:
+        _scrivi(
+            cartella_uscita / URL_ITINERARIO,
+            rendi_itinerario_sito(itinerario, elementi),
+        )
 
     _copia_statici(cartella_uscita / "statico")
 
