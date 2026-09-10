@@ -1,0 +1,69 @@
+{% extends "base.html.j2" %}
+{% set radice = "" %}
+
+{% block titolo %}La scoperta degli elementi, in ordine di tempo{% endblock %}
+{% block descrizione %}Tutti i {{ totale }} elementi chimici nell'ordine in cui l'umanità li ha scoperti, dall'oro dell'antichità agli atomi sintetizzati in laboratorio.{% endblock %}
+
+{% block contenuto %}
+<article class="cronologia">
+
+<header class="cronologia__testa">
+<h1>La scoperta degli elementi, in ordine di tempo</h1>
+<p class="cronologia__sommario">
+Tutti i {{ totale }} elementi nell'ordine in cui l'umanità li ha incontrati, non
+in quello del numero atomico. Sei epoche, da chi raccolse un metallo da terra a
+chi ha costruito atomi vissuti un millesimo di secondo.
+</p>
+</header>
+
+<section class="cronologia__densita">
+<h2>Dove la storia accelera</h2>
+<p class="cronologia__nota">
+Quante scoperte per periodo di venticinque anni. I periodi vuoti restano al loro
+posto: per cinquant'anni, fra il Seicento e il Settecento, non si scopre nulla.
+</p>
+{# L'istogramma è una lista di descrizione, non un grafico: i valori restano
+   testo, un lettore di schermo li annuncia e non serve alcuna libreria. #}
+<dl class="istogramma">
+{% for secchiello in secchielli %}
+<div class="istogramma__barra">
+<dt>{{ secchiello.etichetta }}</dt>
+<dd>
+<span class="istogramma__riempimento" style="--quota: {{ (secchiello.quantita / massimo * 100) | round(1) }}%"></span>
+<span class="istogramma__quantita">{{ secchiello.quantita }}</span>
+</dd>
+</div>
+{% endfor %}
+</dl>
+</section>
+
+<nav class="cronologia__salti" aria-label="Vai a un'epoca">
+{% for gruppo in gruppi %}
+<a href="#{{ gruppo.epoca.id }}" class="salto epoca--{{ gruppo.epoca.id }}">{{ gruppo.epoca.nome }}</a>
+{% endfor %}
+</nav>
+
+{% for gruppo in gruppi %}
+<section class="epoca epoca--{{ gruppo.epoca.id }}" id="{{ gruppo.epoca.id }}">
+<header class="epoca__testa">
+<h2><a href="{{ url_epoca(gruppo.epoca.nome) }}">{{ gruppo.epoca.nome }}</a></h2>
+<p class="epoca__estremi">{{ gruppo.primo }} — {{ gruppo.ultimo }} · {{ gruppo.elementi | length }} elementi</p>
+</header>
+{# Pastiglie in griglia e non righe di tabella: a 390 px ne stanno tre per
+   riga, e le 118 voci occupano un decimo dello spazio che serviva prima. #}
+<ul class="pastiglie">
+{% for elemento in gruppo.elementi %}
+<li class="pastiglia">
+<a href="{{ url_elemento(elemento) }}">
+<span class="pastiglia__simbolo">{{ elemento.simbolo }}</span>
+<span class="pastiglia__nome">{{ elemento.nome }}</span>
+<span class="pastiglia__anno">{{ formatta_anno(elemento.scoperta.anno) }}</span>
+</a>
+</li>
+{% endfor %}
+</ul>
+</section>
+{% endfor %}
+
+</article>
+{% endblock %}

@@ -118,6 +118,13 @@ h2 {
   font-size: 1.4rem;
 }
 
+.cronologia__testa h1 {
+  /* Su telefono un titolo di sette parole occupa mezza schermata: qui la
+   * scala parte più bassa che nelle schede degli elementi. */
+  font-size: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem);
+  margin-block: 0 var(--passo-3);
+}
+
 a {
   color: var(--colore-accento);
   text-underline-offset: 0.15em;
@@ -416,5 +423,156 @@ a {
 .composti__usi {
   margin: var(--passo-1) 0 0;
   font-size: 0.9rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* --- Linea del tempo ------------------------------------------------------ */
+
+.cronologia__sommario {
+  font-size: 1.1em;
+  color: var(--colore-testo-tenue);
+}
+
+.cronologia__nota {
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* L'istogramma è una lista di descrizione con una barra disegnata in CSS:
+ * i valori restano testo e non serve alcuna libreria. */
+.istogramma {
+  margin: 0;
+}
+
+.istogramma__barra {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  align-items: center;
+  gap: var(--passo-2);
+  padding-block: 2px;
+  line-height: 1.3;
+}
+
+.istogramma dt {
+  font-family: var(--font-dati);
+  font-size: 0.75rem;
+  color: var(--colore-testo-tenue);
+}
+
+.istogramma dd {
+  display: flex;
+  align-items: center;
+  gap: var(--passo-2);
+  margin: 0;
+}
+
+.istogramma__riempimento {
+  /* --quota arriva dal template: è la quantità in percentuale del massimo. */
+  width: var(--quota);
+  min-width: 2px;
+  height: 0.75rem;
+  background: var(--colore-accento);
+  border-radius: 2px;
+}
+
+.istogramma__quantita {
+  font-family: var(--font-dati);
+  font-size: 0.75rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* --- Salti alle epoche ---------------------------------------------------- */
+
+.cronologia__salti {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--passo-2);
+  margin-block: var(--passo-4);
+}
+
+.salto {
+  padding: var(--passo-2) var(--passo-3);
+  /* 44px di altezza minima: sotto, il pollice manca il bersaglio. */
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  background: var(--epoca-sfondo);
+  color: var(--epoca-testo);
+  border-radius: var(--raggio);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+/* --- Epoche e pastiglie --------------------------------------------------- */
+
+.epoca {
+  margin-block: var(--passo-5);
+  /* L'ancora non deve finire sotto il bordo superiore della finestra. */
+  scroll-margin-top: var(--passo-3);
+}
+
+.epoca__testa h2 {
+  margin-bottom: var(--passo-1);
+}
+
+.epoca__testa h2 a {
+  color: var(--epoca-testo);
+  text-decoration: none;
+}
+
+.epoca__estremi {
+  margin: 0 0 var(--passo-3);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* Tre per riga a 390 px: le 118 voci occupano un decimo dello spazio che
+ * serviva alle sei tabelle. */
+.pastiglie {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4.8rem, 1fr));
+  gap: var(--passo-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pastiglia a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  padding: var(--passo-1) 2px;
+  min-height: 56px;
+  background: var(--epoca-sfondo);
+  border-radius: var(--raggio);
+  text-align: center;
+  text-decoration: none;
+}
+
+.pastiglia__simbolo {
+  font-family: var(--font-dati);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--epoca-testo);
+}
+
+.pastiglia__nome {
+  font-family: var(--font-titoli);
+  font-size: 0.68rem;
+  line-height: 1.1;
+  color: var(--colore-testo);
+  /* I nomi lunghi (rutherfordio, protoattinio) devono poter spezzare invece
+   * di allargare la colonna e ridurre le pastiglie per riga. */
+  overflow-wrap: anywhere;
+}
+
+.pastiglia__anno {
+  font-family: var(--font-dati);
+  font-size: 0.65rem;
   color: var(--colore-testo-tenue);
 }

@@ -83,3 +83,30 @@
     --epoca-nucleare-testo: #d9687b;
   }
 }
+
+/* Applicazione del colore d'epoca. Un solo blocco per entrambi i temi: i token
+ * cambiano, le regole no. */
+.epoca--antichita {
+  --epoca-sfondo: var(--epoca-antichita-sfondo);
+  --epoca-testo: var(--epoca-antichita-testo);
+}
+.epoca--alchimia {
+  --epoca-sfondo: var(--epoca-alchimia-sfondo);
+  --epoca-testo: var(--epoca-alchimia-testo);
+}
+.epoca--pneumatica {
+  --epoca-sfondo: var(--epoca-pneumatica-sfondo);
+  --epoca-testo: var(--epoca-pneumatica-testo);
+}
+.epoca--elettrolisi {
+  --epoca-sfondo: var(--epoca-elettrolisi-sfondo);
+  --epoca-testo: var(--epoca-elettrolisi-testo);
+}
+.epoca--spettroscopia {
+  --epoca-sfondo: var(--epoca-spettroscopia-sfondo);
+  --epoca-testo: var(--epoca-spettroscopia-testo);
+}
+.epoca--nucleare {
+  --epoca-sfondo: var(--epoca-nucleare-sfondo);
+  --epoca-testo: var(--epoca-nucleare-testo);
+}
