@@ -8,10 +8,16 @@ scoperta:
   scopritori:
   - peter-armbruster
   - gottfried-munzenberg
-  luogo: null
+  luogo: Darmstadt
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: Primo dei sei elementi consecutivi sintetizzati al GSI di Darmstadt. Cinque
+    atomi di bohrio-262 ottenuti nel 1981 da bismuto-209 e cromo-54, con la catena di decadimenti
+    agganciata a isotopi noti di fermio e californio. Dubna aveva rivendicato l'elemento nel
+    1976 con la stessa reazione, ma su eventi di fissione spontanea che la commissione internazionale
+    ha giudicato insufficienti; il merito dell'idea del metodo — la fusione fredda, cioè la
+    fusione a bassa energia di eccitazione — resta però sovietico. Il nome proposto dal GSI
+    era nielsbohrium, abbreviato in bohrium dalla IUPAC nel 1994 e definitivo dal 1997.
   controversia: null
 proprieta:
   gruppo: 7
@@ -31,5 +37,170 @@ proprieta:
   punto_fusione_k: null
   punto_ebollizione_k: null
   densita: 37.1
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 7
 approfondimento: false
+contenuti:
+  hook: Cinque atomi, nel 1981, hanno inaugurato il metodo con cui sono state riempite sei
+    caselle consecutive della tavola periodica. Si chiama fusione fredda, e non ha nulla a
+    che vedere con la fusione fredda di cui si parlò nel 1989.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il bohrio è il primo elemento fabbricato a Darmstadt, e il primo di una serie
+      di sei caselle consecutive che un solo laboratorio tedesco si è aggiudicato nell''arco
+      di tredici anni. Non fu una questione di fortuna: il gruppo aveva adottato un modo diverso
+      di far scontrare i nuclei, e quel modo funzionava dove il precedente si era fermato.'
+    visual: L'edificio dell'acceleratore del GSI a Darmstadt
+    attendibilita: documentato
+  - id: il_muro
+    sezione: storia
+    testo: 'Alla fine degli anni Settanta la fabbricazione di elementi nuovi si era arenata.
+      Il metodo in uso consisteva nel lanciare ioni abbastanza energici da superare la repulsione
+      elettrica fra i nuclei, ma quell''energia restava nel nucleo composto che si formava,
+      scaldandolo: il nucleo la smaltiva espellendo quattro o cinque neutroni, e nel frattempo
+      aveva ottime probabilità di spezzarsi. Più si saliva di numero atomico, più la resa
+      crollava.'
+    visual: Uno schema di un nucleo composto che si spezza invece di raffreddarsi
+    attendibilita: documentato
+  - id: l_idea_di_dubna
+    sezione: storia
+    testo: 'L''idea che sbloccò la situazione venne dal gruppo di Dubna: usare bersagli di
+      piombo o di bismuto, che hanno gusci nucleari completi e sono quindi particolarmente
+      compatti, e proiettili più pesanti lanciati appena sopra la soglia. Il nucleo che si
+      forma nasce quasi freddo, con un''energia di eccitazione così bassa da potersi liberare
+      espellendo un solo neutrone. Il nucleo sopravvive molto più spesso, e la resa cambia
+      di ordini di grandezza.'
+    visual: Il confronto fra due reazioni, una a molti neutroni e una a un neutrone solo
+    attendibilita: documentato
+  - id: la_parola_fusione_fredda
+    sezione: storia
+    testo: 'Il metodo si chiama fusione fredda, e vale la pena chiarire subito che non c''entra
+      nulla con la vicenda che nel 1989 rese celebre quell''espressione: lì si sosteneva,
+      senza fondamento, di aver ottenuto fusione nucleare in una cella elettrochimica a temperatura
+      ambiente. Qui la parola «fredda» è relativa e tecnica, e descrive quanto poca energia
+      in eccesso porti con sé il nucleo appena formato dentro un acceleratore da miliardi
+      di elettronvolt.'
+    visual: 'Due immagini contrapposte: una cella elettrochimica e un acceleratore'
+    attendibilita: documentato
+  - id: il_1981
+    sezione: storia
+    testo: A Darmstadt il gruppo di Peter Armbruster e Gottfried Münzenberg applicò il metodo
+      con uno strumento costruito apposta, il separatore SHIP, che divide i nuclei appena
+      nati dal fascio che non ha reagito e li consegna ai rivelatori. Nel 1981, bombardando
+      bismuto-209 con ioni di cromo-54, ottennero cinque atomi di bohrio-262 e ne seguirono
+      i decadimenti alfa fino a isotopi noti di fermio e californio.
+    visual: Il separatore SHIP con la sua linea di fascio
+    attendibilita: documentato
+  - id: la_rivendicazione_precedente
+    sezione: storia
+    testo: Dubna aveva rivendicato l'elemento già nel 1976, con la stessa reazione, ma basandosi
+      su eventi di fissione spontanea e su emivite che non tornavano con quelle misurate poi
+      a Darmstadt. La commissione internazionale giudicò le prove sovietiche insufficienti
+      e assegnò la scoperta ai tedeschi, riconoscendo però che l'idea del metodo veniva da
+      Dubna. È una distinzione che i tedeschi non hanno mai nascosto.
+    visual: Due articoli scientifici a confronto, uno del 1976 e uno del 1981
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il GSI propose nielsbohrium, nome e cognome, per evitare che il solo cognome si
+      confondesse con il boro. La IUPAC obiettò che non esisteva precedente di un elemento
+      intitolato con nome e cognome, e nel 1994 raccomandò bohrium; la sezione danese della
+      IUPAC approvò la forma breve, e nel 1997 divenne definitiva. Il timore della confusione
+      si è rivelato infondato: nella nomenclatura dei composti le due radici restano distinte.'
+    visual: Il ritratto di Niels Bohr
+    attendibilita: documentato
+  - id: gruppo_sette
+    sezione: caratteristiche
+    testo: 'Nel 2000, al Paul Scherrer Institute in Svizzera, sei atomi di bohrio-267 sono
+      stati fatti reagire con una miscela di acido cloridrico e ossigeno, producendo un ossicloruro
+      volatile, BhO₃Cl. È il comportamento che ci si aspetta da un elemento del gruppo 7,
+      quello del tecnezio e del renio, e la misura è andata oltre il sì o no: l''energia con
+      cui la molecola aderisce alla superficie della colonna è risultata di 77,8 kilojoule
+      per mole, contro i 78,5 previsti dal calcolo.'
+    visual: Una colonna cromatografica con il gradiente termico e i punti di deposizione
+    attendibilita: documentato
+  - id: sei_atomi
+    sezione: caratteristiche
+    testo: 'Vale la pena fermarsi sul numero: sei atomi. La chimica di questo elemento è nota
+      perché sei singoli atomi, prodotti uno alla volta e trasportati da un flusso di gas,
+      si sono depositati in un punto anziché in un altro di una colonna. Ogni atomo è un dato,
+      e la conclusione è una statistica su una mano di eventi: è il regime in cui lavora tutta
+      la chimica degli elementi superpesanti.'
+    visual: Sei punti su un grafico di deposizione lungo una colonna
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'Si conoscono una dozzina di isotopi del bohrio. I più leggeri, quelli ottenuti
+      per fusione fredda, durano meno di un decimo di secondo; i più ricchi di neutroni arrivano
+      a qualche minuto — il bohrio-270 sfiora i due minuti e mezzo — ma non si producono direttamente:
+      si raccolgono come prodotti del decadimento di elementi più pesanti, dal flerovio al
+      tennesso. È il paradosso di questa regione della tavola: per avere un elemento più stabile
+      conviene fabbricarne uno più pesante e aspettare che decada.'
+    visual: Una catena di decadimenti che scende verso il bohrio
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Il bohrio non ha usi e non ne avrà: non esiste in natura, se ne producono singoli
+      atomi e nessuno ne ha mai visto una quantità pesabile. Serve alla ricerca che lo riguarda,
+      e a nient''altro.'
+    visual: Una sala sperimentale con rivelatori attorno a una linea di fascio
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'Il metodo, però, è servito a tutto il resto. La fusione fredda ha riempito sei
+      caselle consecutive, dal 107 al 112, e ha stabilito il modo di lavorare che si usa ancora:
+      bersaglio pesante e stabile, proiettile lanciato appena sopra la soglia, separatore
+      elettromagnetico, catena di decadimenti agganciata a nuclei noti. Il bohrio è il primo
+      elemento su cui questa procedura ha funzionato per intero.'
+    visual: Uno schema completo di un esperimento di sintesi di elementi superpesanti
+    attendibilita: documentato
+  - id: curiosita_bohr
+    sezione: curiosita
+    testo: Niels Bohr aveva costruito nel 1913 il modello atomico che spiega perché gli elementi
+      hanno gusci elettronici, cioè la ragione per cui la tavola periodica ha le righe che
+      ha. Che una casella porti il suo nome è coerente; che sia la casella 107, dove i gusci
+      elettronici sono deformati dalla velocità relativistica degli elettroni, è un'ironia
+      che il modello del 1913 non poteva prevedere.
+    visual: Lo schema del modello atomico di Bohr disegnato a mano
+    attendibilita: documentato
+  - id: curiosita_dubna_darmstadt
+    sezione: curiosita
+    testo: La spartizione del 1997 ha assegnato al GSI tre nomi consecutivi — bohrio, hassio
+      e meitnerio — a cui si è aggiunto il darmstadtio nel 2003, dopo che per trent'anni Berkeley
+      e Dubna si erano contese ogni casella. Il laboratorio tedesco era arrivato per ultimo,
+      aveva usato un'idea sovietica e uno strumento proprio, e ha finito per ottenere senza
+      contestazioni ciò per cui gli altri due avevano litigato.
+    visual: Le tre sigle dei laboratori su una mappa dell'Europa e del Nordamerica
+    attendibilita: documentato
+  pronuncia:
+  - termine: Niels Bohr
+    ipa: nels ˈboɐ̯ˀ
+    nota: Danese, la r finale è appena accennata.
+  - termine: Gottfried Münzenberg
+    ipa: ˈɡɔtfriːt ˈmʏntsn̩bɛʁk
+    nota: Tedesco.
+composti_principali:
+- nome: Ossicloruro di bohrio
+  formula: BhO₃Cl
+  usi:
+  - cromatografia in fase gassosa
+  - confronto con gli ossicloruri di tecnezio e renio
+- nome: Bohrio-267
+  formula: 267Bh
+  usi:
+  - esperimenti di chimica in fase gassosa
+- nome: Bohrio-270
+  formula: 270Bh
+  usi:
+  - studio della stabilità dei nuclei ricchi di neutroni
+fonti:
+- url: https://en.wikipedia.org/wiki/Bohrium
+  titolo: Bohrium
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/107/bohrium
+  titolo: Bohrium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Cold_fusion
+  titolo: Cold fusion
+  consultata: *id001

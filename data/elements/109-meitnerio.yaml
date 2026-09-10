@@ -8,10 +8,15 @@ scoperta:
   scopritori:
   - peter-armbruster
   - gottfried-munzenberg
-  luogo: null
+  luogo: Darmstadt
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'Un solo atomo di meitnerio-266, rivelato al GSI di Darmstadt il 29 agosto
+    1982 da bismuto-209 e ferro-58. Stesso gruppo e stesso metodo del bohrio. Il nome, proposto
+    dal GSI nel 1992 in onore di Lise Meitner, non è mai stato contestato da nessuno dei laboratori
+    concorrenti: è l''unica casella di questa riga della tavola su cui non c''è stata disputa
+    di nomenclatura. Nessuna proprietà chimica del meitnerio è mai stata misurata: gli stati
+    di ossidazione riportati sono previsioni teoriche.'
   controversia: null
 proprieta:
   gruppo: 9
@@ -31,5 +36,161 @@ proprieta:
   punto_fusione_k: null
   punto_ebollizione_k: null
   densita: 37.4
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 1
+  - 3
+  - 6
 approfondimento: false
+contenuti:
+  hook: Il 29 agosto 1982 un rivelatore di Darmstadt registrò un atomo, uno solo. Di quell'elemento,
+    più di quarant'anni dopo, non è ancora stata misurata una singola proprietà chimica.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il meitnerio è una casella che contiene un nome, una manciata di eventi registrati
+      e una colonna di previsioni. Non se ne conosce il colore, la densità, il comportamento
+      in soluzione né alcun composto: tutto ciò che si sa con certezza è che esiste, quanto
+      dura e in che cosa decade. In compenso il nome che porta è l''unico della tavola periodica
+      dedicato specificamente a una donna realmente esistita.'
+    visual: Un rivelatore a semiconduttore con un singolo segnale registrato
+    attendibilita: documentato
+  - id: un_atomo
+    sezione: storia
+    testo: L'atomo arrivò il 29 agosto 1982. Il gruppo di Peter Armbruster e Gottfried Münzenberg
+      bombardava bismuto-209 con ioni di ferro-58, e il separatore consegnò ai rivelatori
+      un nucleo di meitnerio-266, che decadde subito. Fu l'unico dell'intera campagna sperimentale.
+    visual: Il diario di laboratorio aperto alla data del 29 agosto 1982
+    attendibilita: documentato
+  - id: come_si_riconosce_un_atomo_solo
+    sezione: storia
+    testo: Che un evento singolo basti a dichiarare un elemento nuovo sembra temerario, e
+      non lo è, perché quell'evento non è un impulso isolato. Il nucleo si conficca in un
+      rivelatore a stato solido che ne registra la posizione con precisione di frazioni di
+      millimetro; poi decade, e la particella emessa parte dallo stesso punto; poi decade
+      il figlio, e così via lungo una catena. Una sequenza di segnali nella stessa posizione,
+      con gli intervalli e le energie giuste, ha una probabilità trascurabile di essere prodotta
+      dal caso.
+    visual: Uno schema di eventi correlati nello stesso pixel di un rivelatore
+    attendibilita: documentato
+  - id: chi_era_meitner
+    sezione: storia
+    testo: Lise Meitner aveva lavorato trent'anni a Berlino accanto a Otto Hahn, con cui nel
+      1917 aveva individuato il protoattinio. Ebrea di origine austriaca, nel 1938 dovette
+      fuggire dalla Germania nazista e riparare in Svezia, e da lì continuò a corrispondere
+      con il collega rimasto a Berlino.
+    visual: Lise Meitner nel laboratorio di Berlino negli anni Venti
+    attendibilita: documentato
+  - id: il_natale_del_1938
+    sezione: storia
+    testo: Fu in quell'esilio che arrivò il risultato più importante della sua vita. Hahn
+      e Fritz Strassmann avevano trovato bario in un campione di uranio bombardato con neutroni
+      e non sapevano spiegarselo; Meitner, in Svezia, ne discusse con il nipote Otto Frisch
+      e insieme capirono che il nucleo di uranio si era spezzato in due, calcolando l'energia
+      che il processo doveva liberare. La loro interpretazione uscì su Nature nel febbraio
+      del 1939, e da lì in poi il mondo seppe che cos'era la fissione nucleare.
+    visual: Una passeggiata invernale nella neve svedese con appunti di calcolo
+    attendibilita: documentato
+  - id: il_nobel_mancato
+    sezione: storia
+    testo: 'Il premio Nobel per la chimica del 1944 fu assegnato al solo Hahn. Meitner, che
+      aveva impostato la ricerca e fornito la spiegazione fisica, restò fuori: è uno dei casi
+      più discussi nella storia del premio. Quando gli americani le proposero di lavorare
+      al progetto della bomba rifiutò seccamente, dicendo che non voleva avere nulla a che
+      fare con un ordigno, e più tardi disse di essere dispiaciuta che la bomba avesse dovuto
+      essere inventata.'
+    visual: Il diploma del premio Nobel per la chimica del 1944
+    attendibilita: documentato
+  - id: il_nome_mai_contestato
+    sezione: storia
+    testo: 'Il GSI propose meitnerium nel 1992. In una riga della tavola periodica in cui
+      quasi ogni casella ha avuto la propria disputa di nomenclatura, questo nome non è mai
+      stato contestato da nessuno: la IUPAC lo raccomandò nel 1994 e lo confermò nel 1997
+      senza che alcun laboratorio avanzasse alternative.'
+    visual: Una casella di tavola periodica con un solo nome scritto sotto
+    attendibilita: documentato
+  - id: nessuna_misura
+    sezione: caratteristiche
+    testo: Della chimica del meitnerio non si è misurato nulla, e la tabella dei dati di questa
+      nota riporta previsioni teoriche, non risultati sperimentali. Il calcolo lo colloca
+      nel gruppo 9, sotto cobalto, rodio e iridio, e ne fa un metallo nobile con lo stato
+      di ossidazione +3 come più stabile in soluzione, accompagnato da un +1 e da un +6 possibili.
+    visual: Una tabella di proprietà con la colonna «valore calcolato»
+    attendibilita: documentato
+  - id: perche_non_si_e_fatto
+    sezione: caratteristiche
+    testo: 'Il motivo per cui il bohrio e l''hassio hanno una chimica e il meitnerio no sta
+      nei numeri: gli isotopi del meitnerio che si sanno produrre durano pochi secondi e se
+      ne ottiene qualche atomo per settimana di macchina. Per fare chimica servono più atomi
+      e più tempo di quanto questa casella conceda, e finora non è stato possibile ottenere
+      né gli uni né l''altro.'
+    visual: Un grafico che incrocia emivita e resa di produzione
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'Si conoscono una decina di isotopi del meitnerio, tutti prodotti in quantità minime.
+      Il più longevo fra quelli confermati è il meitnerio-278, che arriva a quattro secondi
+      e mezzo, e non si fabbrica direttamente: compare come anello intermedio nella catena
+      di decadimenti del nihonio e degli elementi più pesanti. Gli isotopi leggeri, quelli
+      ottenuti per fusione diretta, si misurano in millisecondi.'
+    visual: Una catena di decadimenti alfa con il meitnerio a metà strada
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Il meitnerio non ha alcun uso e non ne avrà: non esiste in natura, se ne producono
+      singoli atomi che spariscono in secondi, e la quantità complessiva mai esistita starebbe
+      comodamente in una frase.'
+    visual: Una sala di controllo con un conteggio fermo su pochi eventi
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'La sua utilità è indiretta ma reale: gli isotopi del meitnerio sono anelli delle
+      catene di decadimento con cui si identificano gli elementi più pesanti. Quando un laboratorio
+      dichiara di aver prodotto il 113 o il 115, la prova è la sequenza di decadimenti che
+      ne segue, e in quella sequenza il meitnerio compare come tappa. Conoscerne bene le emivite
+      e le energie significa poter riconoscere ciò che sta più in alto.'
+    visual: Una catena di decadimenti usata come impronta di identificazione
+    attendibilita: documentato
+  - id: curiosita_meitner_altrove
+    sezione: curiosita
+    testo: Lise Meitner ha un cratere sulla Luna, uno su Venere, un asteroide della fascia
+      principale e, dal 2000, un premio biennale della Società europea di fisica dedicato
+      alla ricerca nucleare. L'elemento 109 ha preso il suo nome nel 1992, ventiquattro anni
+      dopo la sua morte, ed è il riconoscimento che più somiglia a quello che i colleghi le
+      avevano negato in vita.
+    visual: Il cratere Meitner fotografato dalla superficie lunare
+    attendibilita: documentato
+  - id: curiosita_una_sola_donna
+    sezione: curiosita
+    testo: Nella tavola periodica la casella 109 è l'unica intitolata specificamente a una
+      donna realmente esistita. Il curio è dedicato a Pierre e Marie Curie insieme, non a
+      lei sola, e gli altri nomi femminili della tavola appartengono alla mitologia o all'astronomia
+      — il cerio a Cerere, il palladio a Pallade, il niobio a Niobe, il vanadio a Vanadís,
+      uno dei nomi della dea nordica Freyja. Su centodiciotto caselle, una.
+    visual: Le caselle della tavola periodica con nomi di persona evidenziate
+    attendibilita: documentato
+  pronuncia:
+  - termine: Lise Meitner
+    ipa: ˈliːzə ˈmaɪtnɐ
+    nota: Tedesco.
+  - termine: Fritz Strassmann
+    ipa: fʁɪts ˈʃtʁaːsman
+    nota: Tedesco.
+composti_principali:
+- nome: Esafluoruro di meitnerio
+  formula: MtF₆
+  usi:
+  - composto previsto per analogia con l'esafluoruro di iridio, mai preparato
+- nome: Meitnerio-278
+  formula: 278Mt
+  usi:
+  - anello delle catene di decadimento usate per identificare gli elementi più pesanti
+fonti:
+- url: https://en.wikipedia.org/wiki/Meitnerium
+  titolo: Meitnerium
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/109/meitnerium
+  titolo: Meitnerium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Lise_Meitner
+  titolo: Lise Meitner
+  consultata: *id001

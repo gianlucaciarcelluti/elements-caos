@@ -7,10 +7,20 @@ scoperta:
   anno_stimato: false
   scopritori:
   - sigurd-hofmann
-  luogo: null
+  - peter-armbruster
+  - gottfried-munzenberg
+  luogo: Darmstadt
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: null
+  note_cronologia: 'Tre atomi di darmstadtio-269 rivelati al GSI il 9, il 12 e il 17 novembre
+    1994 da piombo-208 e nichel-62, piu nove atomi di darmstadtio-271 ottenuti con nichel-64
+    nella stessa serie. La cronologia di riferimento comprimeva gli scopritori in «Hofmann
+    et al.»: l''articolo del 1995 e firmato da tredici autori, e qui restano i tre nomi che
+    le fonti secondarie isolano sempre — Hofmann, che guidava il gruppo, con Armbruster e
+    Munzenberg. Un quarto evento annunciato per il 9 novembre e stato ritirato perche i dati
+    erano stati fabbricati da Victor Ninov, secondo firmatario dell''articolo, che per questa
+    ragione resta fuori dal campo `scopritori`. Il nome e stato ufficializzato dalla IUPAC
+    il 16 agosto 2003.'
   controversia: null
 proprieta:
   gruppo: 10
@@ -30,5 +40,156 @@ proprieta:
   punto_fusione_k: null
   punto_ebollizione_k: null
   densita: 34.8
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 2
+  - 4
+  - 6
 approfondimento: false
+contenuti:
+  hook: 'Nel novembre del 1994 a Darmstadt comparvero tre atomi dell''elemento 110, il 9,
+    il 12 e il 17 del mese. Ne fu annunciato un quarto, che non era mai esistito: i dati erano
+    stati fabbricati da un membro del gruppo.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il darmstadtio è l''elemento che porta il nome della città in cui è stato fatto,
+      ed è il quarto delle sei caselle consecutive che quel laboratorio si è aggiudicato.
+      È anche l''elemento su cui si vede meglio che cosa significhi lavorare con un atomo
+      alla volta: quando la scoperta è fatta di tre eventi, distinguere un evento vero da
+      uno inventato diventa un problema pratico e non filosofico.'
+    visual: Il cartello del GSI all'ingresso del laboratorio di Darmstadt
+    attendibilita: documentato
+  - id: novembre_1994
+    sezione: storia
+    testo: La campagna del novembre 1994 usava piombo-208 come bersaglio e ioni di nichel-62
+      come proiettili. Il 9 novembre il gruppo guidato da Sigurd Hofmann, con Peter Armbruster
+      e Gottfried Münzenberg, registrò un atomo di darmstadtio-269; ne seguirono un secondo
+      il 12 e un terzo il 17. Con un fascio di nichel-64, nella stessa serie di esperimenti,
+      si ottennero poi nove atomi di darmstadtio-271, riconosciuti dalla correlazione con
+      i decadimenti dei figli già noti.
+    visual: Un bersaglio rotante di piombo dentro una camera a vuoto
+    attendibilita: documentato
+  - id: il_quarto_atomo
+    sezione: storia
+    testo: 'Nell''annuncio comparve anche un quarto evento, riferito allo stesso 9 novembre.
+      Quell''evento non c''era: i dati erano stati fabbricati da Victor Ninov, fisico del
+      gruppo e secondo firmatario dell''articolo, e il risultato è stato in seguito ritirato.
+      Ninov sarebbe poi finito al centro di un caso più clamoroso in un altro laboratorio,
+      e le tre osservazioni autentiche del 1994 restano valide: la scoperta del darmstadtio
+      non dipendeva da quel quarto atomo.'
+    visual: Un articolo scientifico con una riga cancellata da una ritrattazione
+    attendibilita: documentato
+  - id: perche_e_grave
+    sezione: storia
+    testo: Vale la pena capire perché in questo campo una falsificazione è particolarmente
+      insidiosa. Un esperimento di sintesi produce pochissimi eventi, ciascuno descritto da
+      una manciata di numeri — posizione, energia, tempo — e non esiste un campione da conservare
+      né una misura ripetibile a piacere. La difesa non è l'evidenza materiale ma la coerenza
+      interna della catena di decadimenti e la riproduzione indipendente in un altro laboratorio,
+      che è esattamente ciò che ha poi confermato gli atomi veri.
+    visual: Una tabella di eventi con posizioni, energie e tempi
+    attendibilita: documentato
+  - id: le_altre_rivendicazioni
+    sezione: storia
+    testo: L'elemento era stato cercato a lungo. Dubna ci aveva provato nel 1986 e nel 1987
+      senza successo, il GSI stesso aveva fallito nel 1990, e negli anni immediatamente successivi
+      al 1994 arrivarono un tentativo sovietico e uno americano che non portarono a conclusioni.
+      La casella 110 è stata inseguita per quasi un decennio prima di cedere.
+    visual: Una serie di risultati negativi elencati su una lavagna
+    attendibilita: documentato
+  - id: i_nomi_che_non_sono_stati
+    sezione: storia
+    testo: Sul nome il gruppo esitò a lungo. Fu presa in considerazione la forma wixhausium,
+      dal sobborgo di Darmstadt in cui sorge il laboratorio, e circolò per scherzo policium,
+      perché in Germania il 110 è il numero telefonico della polizia; gli americani avevano
+      proposto hahnium e i russi becquerelium. Alla fine il laboratorio scelse la città, e
+      la IUPAC ufficializzò darmstadtium il 16 agosto 2003.
+    visual: Il centro storico di Darmstadt
+    attendibilita: documentato
+  - id: nessuna_chimica
+    sezione: caratteristiche
+    testo: Della chimica del darmstadtio non si è misurato nulla, e i valori che compaiono
+      nella tabella di questa nota sono calcoli. Il posto che occupa lo colloca nel gruppo
+      10, sotto nichel, palladio e platino, e le previsioni gli attribuiscono gli stati di
+      ossidazione +2, +4 e +6, con un comportamento da metallo nobile.
+    visual: Una tabella di proprietà calcolate e non misurate
+    attendibilita: documentato
+  - id: il_composto_che_si_proverebbe
+    sezione: caratteristiche
+    testo: 'Se un giorno si riuscirà a farne chimica, il candidato più probabile è l''esafluoruro,
+      DsF₆, che dovrebbe assomigliare molto all''esafluoruro di platino: un composto volatile,
+      quindi trasportabile in un flusso di gas e studiabile con le stesse tecniche che hanno
+      funzionato per il bohrio e per l''hassio. Il problema non è il metodo, è avere abbastanza
+      atomi che durino abbastanza a lungo.'
+    visual: Il modello ottaedrico di una molecola di esafluoruro
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'Si conoscono una decina di isotopi del darmstadtio. Il più longevo è il darmstadtio-281,
+      che arriva a una quindicina di secondi e non si produce per fusione diretta: compare
+      nelle catene di decadimento degli elementi più pesanti. Quelli ottenuti sparando nichel
+      sul piombo, come gli atomi del 1994, durano frazioni di millesimo di secondo.'
+    visual: Una scala dei tempi che scende dai secondi ai microsecondi
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Il darmstadtio non ha usi e non ne avrà: non esiste in natura, se ne sono prodotti
+      in tutto pochi atomi e ciascuno di essi è durato meno di un battito di ciglia.'
+    visual: Una sala sperimentale vuota con i rivelatori accesi
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'Il valore di questa casella sta in quello che ha mostrato sui limiti del metodo.
+      La probabilità che due nuclei si fondano invece di rimbalzare cala in modo ripidissimo
+      man mano che si sale di numero atomico, e attorno alla casella 110 quel calo diventa
+      il problema principale: servono mesi di fascio per qualche atomo. La tecnica avrebbe
+      retto ancora per due caselle, ma il darmstadtio è il punto in cui è diventato chiaro
+      che per arrivare in fondo alla riga sarebbe servito qualcos''altro.'
+    visual: Un grafico delle rese di produzione che scende con il numero atomico
+    attendibilita: documentato
+  - id: curiosita_policium
+    sezione: curiosita
+    testo: 'Policium, il nome proposto per scherzo, aveva una sua logica: in Germania il numero
+      di emergenza della polizia è il 110, e l''elemento 110 nasceva in Germania. Non è mai
+      stata una candidatura seria, ma è finita comunque negli atti, e racconta qualcosa dell''atmosfera
+      di un gruppo che nell''arco di tredici anni aveva riempito sei caselle della tavola
+      periodica.'
+    visual: Un vecchio telefono con la tastiera in evidenza
+    attendibilita: documentato
+  - id: curiosita_wixhausen
+    sezione: curiosita
+    testo: Wixhausen, il sobborgo scartato, è dove il laboratorio si trova materialmente.
+      Chiamare un elemento con il nome di un quartiere sarebbe stato il grado più fine di
+      una scala che nella tavola periodica scende dai continenti — l'americio, l'europio —
+      agli stati, alle regioni, alle città. Il darmstadtio si è fermato un gradino sopra.
+    visual: Un cartello stradale con il nome di Wixhausen
+    attendibilita: documentato
+  pronuncia:
+  - termine: Darmstadt
+    ipa: ˈdaʁmʃtat
+    nota: Tedesco.
+  - termine: Sigurd Hofmann
+    ipa: ˈziːɡʊʁt ˈhoːfman
+    nota: Tedesco.
+  - termine: Wixhausen
+    ipa: ˈvɪkshaʊzn̩
+    nota: Tedesco.
+composti_principali:
+- nome: Esafluoruro di darmstadtio
+  formula: DsF₆
+  usi:
+  - composto previsto per analogia con l'esafluoruro di platino, mai preparato
+- nome: Darmstadtio-281
+  formula: 281Ds
+  usi:
+  - anello delle catene di decadimento degli elementi più pesanti
+fonti:
+- url: https://en.wikipedia.org/wiki/Darmstadtium
+  titolo: Darmstadtium
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/110/darmstadtium
+  titolo: Darmstadtium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/GSI_Helmholtz_Centre_for_Heavy_Ion_Research
+  titolo: GSI Helmholtz Centre for Heavy Ion Research
+  consultata: *id001

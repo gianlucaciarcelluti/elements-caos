@@ -926,7 +926,20 @@ CRONOLOGIA: list[VoceCronologia] = [
     VoceCronologia(
         108, 1984, False, ["peter-armbruster", "gottfried-munzenberg"], "nucleare", nome="Hassio"
     ),
-    VoceCronologia(110, 1994, False, ["sigurd-hofmann"], "nucleare", nome="Darmstadtio"),
+    # "Hofmann et al." nella trascrizione originale. L'articolo del 1995 e firmato da tredici
+    # autori; qui restano i tre nomi che le fonti secondarie isolano sempre — Hofmann, che
+    # guidava il gruppo, con Armbruster e Munzenberg — e la dimensione della collaborazione e
+    # dichiarata in note_cronologia, come per einsteinio, fermio e seaborgio. Victor Ninov,
+    # secondo firmatario di quell'articolo, resta fuori dal campo: un quarto atomo annunciato
+    # sulla base di dati da lui fabbricati e stato ritirato, e la nota lo racconta.
+    VoceCronologia(
+        110,
+        1994,
+        False,
+        ["sigurd-hofmann", "peter-armbruster", "gottfried-munzenberg"],
+        "nucleare",
+        nome="Darmstadtio",
+    ),
     VoceCronologia(111, 1994, False, ["sigurd-hofmann"], "nucleare", nome="Roentgenio"),
     VoceCronologia(112, 1996, False, ["sigurd-hofmann"], "nucleare", nome="Copernicio"),
     VoceCronologia(
