@@ -32,6 +32,9 @@ timeline
     1875 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Scoperta indipendente e quasi simultanea: Jöns Jacob Berzelius e Wilhelm Hisinger a Bastnäs, Martin Heinrich Klaproth a Berlino, entrambi nel 1803. La cronologia di riferimento comprimeva gli scopritori in «Klaproth et al.»: qui sono accreditati tutti e tre.
+
 ## Storia della scoperta
 
 Nel 1751 Axel Fredrik Cronstedt raccolse in una miniera del Västmanland, in Svezia, un frammento di una pietra pesante e rossastra che nessuno sapeva classificare. Ne mandò un campione a Carl Wilhelm Scheele, che lo analizzò e non vi riconobbe nulla di nuovo. Il verdetto del chimico più abile d'Europa mise la pietra a riposo per mezzo secolo.

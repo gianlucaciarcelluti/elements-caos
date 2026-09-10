@@ -32,6 +32,9 @@ timeline
     1824 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Klaproth riconosce nel 1789 una terra nuova, la zirconia, analizzando uno zircone proveniente da Ceylon; Berzelius ne ottiene nel 1824 il metallo impuro riducendo il fluorozirconato di potassio con il potassio. Il metallo puro e duttile arriva solo nel 1925 con il processo alla barra di iodio di van Arkel e de Boer.
+
 ## Storia della scoperta
 
 La gemma viene prima dell'elemento di parecchi millenni. Lo zircone è un minerale duro, brillante e fortemente rifrangente, noto ai gioiellieri dell'Oriente in tutte le sue tinte, dal bruno al giallo dorato al rosso; arrivava in Europa da Ceylon, l'attuale Sri Lanka, ed era chiamato con nomi che ne descrivevano il colore, fra cui il persiano zargun, colore d'oro, da cui la parola giargone e infine zircone.

@@ -31,6 +31,9 @@ timeline
     1937 : Scoperta : Carlo Perrier, Emilio Segrè
 ```
 
+> [!info] Nota sulla cronologia
+> Primo elemento prodotto artificialmente: Perrier e Segrè lo identificarono nel 1937 in una lamina di molibdeno irraggiata nel ciclotrone di Berkeley e spedita loro da Ernest Lawrence. La casella 43 era stata rivendicata più volte — davyum, lucium, nipponium, masurium — senza che nessun annuncio reggesse. Il nome fu scelto nel 1947.
+
 ## Storia della scoperta
 
 La casella 43 era rimasta vuota più a lungo di quasi ogni altra. Mendeleev ne aveva previsto l'occupante con il nome di eka-manganese; nel corso di cinquant'anni fu annunciato più volte con nomi diversi — davyum, lucium, nipponium, masurium — e ogni volta l'annuncio non resse.

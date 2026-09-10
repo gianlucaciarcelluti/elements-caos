@@ -31,6 +31,9 @@ timeline
     1913 : Scoperta : Kasimir Fajans, Oswald Helmuth Göhring
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1913, anno in cui Fajans e Göhring individuarono l'isotopo a vita brevissima e lo chiamarono brevium. Le fonti che datano il protoattinio al 1917 o al 1918 si riferiscono invece alla seconda scoperta, quella dell'isotopo a vita lunga, che è l'elemento come lo si conosce oggi. Il nome attuale, proposto da Meitner, è stato fissato dalla IUPAC nel 1949.
+
 ## Storia della scoperta
 
 All'inizio del Novecento la casella 91 della tavola periodica era vuota, e le catene di decadimento dicevano che qualcosa doveva starci: fra il torio e l'uranio mancava un anello. Cercarlo non significava analizzare un minerale, ma seguire ciò in cui una sostanza radioattiva si trasforma, misurando attività che calano nel tempo secondo curve diverse. Era un modo di fare chimica che dieci anni prima non esisteva, e in cui la quantità di materia in gioco poteva essere invisibile.

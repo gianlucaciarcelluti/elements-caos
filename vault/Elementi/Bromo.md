@@ -31,6 +31,9 @@ timeline
     1825 : Scoperta : Antoine Jérôme Balard, Carl Löwig
 ```
 
+> [!info] Nota sulla cronologia
+> Le tavole assegnano il bromo al solo Balard, benché Löwig fosse arrivato allo stesso risultato nello stesso autunno del 1825. È la regola generale della cronologia seguita qui, che guarda la pubblicazione: Balard stampò nel 1826, Löwig nel 1827.
+
 ## Storia della scoperta
 
 La materia prima è quello che una salina butta via. Le acque madri — il liquido denso e amaro che resta quando l'acqua di mare ha già dato tutto il sale che poteva dare — concentrano ciò che il cloruro di sodio si lascia indietro: magnesio, potassio e, in proporzione minuscola, bromuro. Lo stesso vale per le ceneri delle alghe che crescono in quelle acque, bruciate per ricavarne iodio.

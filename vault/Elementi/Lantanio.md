@@ -32,6 +32,9 @@ timeline
     1904 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Le fonti oscillano fra 1838 e 1839 per l'annuncio di Mosander, che pubblicò a scaglioni. La cronologia di riferimento indica il 1904 per il primo campione metallico, ottenuto da Wilhelm Muthmann e Leopold Weiss; altre fonti datano al 1923 il primo lantanio ragionevolmente puro.
+
 ## Storia della scoperta
 
 Negli anni Trenta dell'Ottocento la ceria, la terra ricavata dalla pietra di Bastnäs, era considerata l'ossido di un elemento solo. Carl Gustaf Mosander, chirurgo di formazione e assistente di Berzelius a Stoccolma, non ne era convinto: le proprietà che misurava non tornavano sempre uguali, e le differenze erano troppo sistematiche per essere errori.

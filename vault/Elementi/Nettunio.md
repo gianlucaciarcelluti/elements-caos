@@ -31,6 +31,9 @@ timeline
     1940 : Scoperta : Edwin McMillan, Philip Abelson
 ```
 
+> [!info] Nota sulla cronologia
+> Primo elemento transuranico prodotto. Le attività osservate da Fermi nel 1934, interpretate all'epoca come elementi oltre l'uranio, erano in realtà frammenti di fissione. McMillan e Abelson dimostrarono nel 1940 che il nuovo decadimento a 2,3 giorni apparteneva alla casella 93.
+
 ## Storia della scoperta
 
 Nel 1934 Enrico Fermi bombardò l'uranio con neutroni e osservò attività radioattive nuove, che interpretò come elementi più pesanti dell'uranio; li chiamò ausonio ed esperio, e il Nobel del 1938 cita anche quel risultato. La lettura era sbagliata: ciò che aveva prodotto erano frammenti di fissione, cioè nuclei spezzati in due, come Ida Noddack aveva suggerito inutilmente nello stesso anno. La fissione fu riconosciuta solo alla fine del 1938, da Hahn e Strassmann con l'interpretazione di Lise Meitner, e a quel punto la domanda su che cosa ci fosse davvero oltre l'uranio tornò aperta.

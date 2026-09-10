@@ -31,6 +31,9 @@ timeline
     1898 : Scoperta : William Ramsay, Morris Travers
 ```
 
+> [!info] Nota sulla cronologia
+> Secondo dei tre gas nobili che Ramsay e Travers ricavarono nel 1898 dalla distillazione frazionata dell'aria liquida, fra il cripton di maggio e lo xenon di settembre. Il nome fu suggerito dal figlio tredicenne di Ramsay.
+
 ## Storia della scoperta
 
 Dopo l'argon nel 1894 e l'elio terrestre nel 1895, William Ramsay era convinto che fra i due dovesse esserci un altro gas, e che altri ancora stessero più in basso nella colonna. Il metodo per cercarli glielo diede la criogenia: raffreddare l'aria fino a liquefarla e poi lasciarla evaporare lentamente, raccogliendo le frazioni una a una secondo il punto di ebollizione.

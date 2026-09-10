@@ -32,6 +32,9 @@ timeline
     1875 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> William Gregor riconosce l'elemento nel 1791 nella sabbia nera del torrente di Manaccan, in Cornovaglia; Klaproth lo ritrova indipendentemente nel rutilo nel 1795 e gli dà il nome dei Titani. Il metallo quasi puro è ottenuto nel 1875 da Dmitrij Kirillov; una purezza del 99,9 per cento arriva solo nel 1910 con Matthew Hunter, e la produzione industriale con il processo Kroll degli anni Trenta e Quaranta.
+
 ## Storia della scoperta
 
 Nel 1791 il reverendo William Gregor è un ecclesiastico anglicano del Devon e mineralogista per passione, come parecchi uomini di chiesa britannici del suo secolo, che avevano istruzione, tempo e curiosità in quantità sufficiente; di lì a due anni sarebbe diventato rettore di Creed, in Cornovaglia. Raccoglie nella valle di Manaccan una sabbia nera e magnetica depositata da un ruscello, di quelle che chiunque avrebbe scambiato per un residuo di ferro, e decide di analizzarla.

@@ -31,6 +31,9 @@ timeline
     1886 : Scoperta : Paul-Émile Lecoq de Boisbaudran
 ```
 
+> [!info] Nota sulla cronologia
+> Lecoq de Boisbaudran lo separò dall'ossido di olmio nel 1886, dopo più di trenta precipitazioni successive; il nome viene dal greco dysprositos, «difficile da raggiungere». L'elemento puro arrivò solo negli anni Cinquanta del Novecento, con lo scambio ionico messo a punto da Frank Spedding.
+
 ## Storia della scoperta
 
 Alla metà degli anni Ottanta dell'Ottocento la caccia alle terre rare aveva preso una forma precisa: si partiva da un ossido considerato puro, lo si sottoponeva a separazioni sempre più fini, e si guardava se le proprietà del residuo restavano costanti. Quasi mai lo restavano. L'olmio, annunciato nel 1878, era uno di quegli ossidi apparentemente definitivi.

@@ -32,6 +32,9 @@ timeline
     1882 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1860, l'anno dell'annuncio spettroscopico, quando dell'elemento non esisteva ancora un solo granello isolato. Il metallo fu ottenuto nel 1882 da Carl Setterberg, per elettrolisi del cianuro.
+
 ## Storia della scoperta
 
 Nel 1859 Robert Bunsen e Gustav Kirchhoff, a Heidelberg, misero insieme un becco a gas dalla fiamma incolore e un prisma, e ottennero uno strumento che nessuno aveva mai avuto: bruciando una sostanza si potevano leggere le righe colorate che emetteva, e quelle righe erano diverse per ogni elemento. Era il primo metodo capace di dire che cosa c'è in un campione senza doverlo separare.

@@ -32,6 +32,9 @@ timeline
     1823 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Pott distingue la terra vetrificabile, cioè la silice, dalle altre terre nei lavori sulle terre a partire dal 1739. Isolato in forma amorfa pura nel 1823 da Jöns Jacob Berzelius.
+
 ## Storia della scoperta
 
 La silice accompagna la tecnica umana dall'inizio. La selce scheggiata è silice quasi pura, e il vetro nasce fondendo sabbia con un fondente almeno dal III millennio a.C. Ma nessuna di queste pratiche richiedeva di sapere che cosa fosse la sabbia: bastava sapere che cosa ci si potesse fare. La silice era il materiale più familiare del mondo e insieme il più opaco alla comprensione, perché resisteva a ogni tentativo di scomporla.

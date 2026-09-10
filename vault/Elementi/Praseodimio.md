@@ -31,6 +31,9 @@ timeline
     1885 : Scoperta : Carl Auer von Welsbach
 ```
 
+> [!info] Nota sulla cronologia
+> Il praseodimio nasce dalla divisione del didimio, che Mosander aveva ricavato nel 1841 e che per quarantaquattro anni fu considerato un elemento: von Welsbach lo separò nel 1885 in praseodimio e neodimio per cristallizzazione frazionata del nitrato doppio di ammonio.
+
 ## Storia della scoperta
 
 Nel 1841 Carl Gustaf Mosander aveva ricavato dalla ceria una terra che chiamò didimio, «gemello», perché seguiva il lantanio ovunque. Per oltre quarant'anni il didimio fu trattato come un elemento: aveva il simbolo Di, un peso atomico, un colore riconoscibile e perfino un impiego industriale nei vetri per i soffiatori.

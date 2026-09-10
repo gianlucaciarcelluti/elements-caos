@@ -31,6 +31,9 @@ timeline
     1952 : Scoperta : Albert Ghiorso, Stanley Gerald Thompson, Glenn Seaborg
 ```
 
+> [!info] Nota sulla cronologia
+> Stessa data e stessa attribuzione dell'einsteinio: il test Ivy Mike, e la collaborazione fra tre laboratori ridotta ai tre nomi che le fonti isolano. Il gruppo svedese che ne produsse un isotopo per conto proprio non compare fra gli scopritori: il suo lavoro è indipendente ma successivo all'identificazione americana, che nel frattempo era segreta.
+
 ## Storia della scoperta
 
 Il fermio fu trovato insieme all'einsteinio, negli stessi detriti del test Ivy Mike del novembre 1952: la stessa palla di fuoco, le stesse carte filtro portate in volo attraverso la nube, la stessa collaborazione fra Berkeley, Argonne e Los Alamos. L'isotopo identificato fu il fermio-255, prodotto dall'uranio che aveva catturato diciassette neutroni.

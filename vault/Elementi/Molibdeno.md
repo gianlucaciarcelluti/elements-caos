@@ -32,6 +32,9 @@ timeline
     1781 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Scheele stabilisce nel 1778 che la molibdenite non è né grafite né galena e ne ricava l'acido molibdico; il metallo è ottenuto da Peter Jacob Hjelm riducendo l'ossido con carbone nel 1781, con pubblicazione distesa nel 1790.
+
 ## Storia della scoperta
 
 La storia comincia da un equivoco durato secoli. Esisteva una categoria di pietre morbide, grigie e untuose, che lasciavano un segno scuro sulla carta e che si chiamavano tutte allo stesso modo: molybdaena, dal greco molybdos, piombo. Sotto quel nome finivano la grafite, la galena e quella che oggi chiamiamo molibdenite, tre minerali che non hanno nulla in comune se non l'aspetto e il fatto di sporcare le dita.

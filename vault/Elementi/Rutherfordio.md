@@ -31,6 +31,9 @@ timeline
     1969 : Scoperta : Georgy Flerov, Albert Ghiorso
 ```
 
+> [!info] Nota sulla cronologia
+> Credito condiviso. La cronologia di riferimento comprime le due squadre in «Flerov et al.» e «Ghiorso et al.»: qui restano i due capi, perché la commissione congiunta ha riconosciuto nel 1993 che le prove di Dubna e quelle di Berkeley si equivalevano, e le fonti non isolano un elenco simmetrico di nomi per le due parti. Dubna rivendicò l'elemento nel 1964 proponendo il nome kurchatovium; Berkeley lo produsse nel 1969 con catene di decadimento verificabili e propose rutherfordium. Il nome attuale è fissato dalla IUPAC nel 1997, dopo una proposta del 1994 che assegnava alla casella il nome dubnium.
+
 ## Storia della scoperta
 
 Il primo annuncio venne da Dubna nel 1964: plutonio-242 bombardato con ioni di neon-22, e un'attività di fissione spontanea che il gruppo attribuì a un isotopo dell'elemento 104. I sovietici proposero di chiamarlo kurchatovium, simbolo Ku, in onore di Igor' Kurčatov, il fisico che aveva diretto il programma nucleare dell'Unione Sovietica ed era morto nel 1960.

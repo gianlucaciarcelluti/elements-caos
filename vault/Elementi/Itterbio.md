@@ -32,6 +32,9 @@ timeline
     1936 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Marignac separò l'itterbia dall'erbia nel 1878; nel 1907 Georges Urbain la divise a sua volta in neoitterbia e lutecia, cioè nell'itterbio odierno e nel lutezio. Il metallo fu ottenuto nel 1936 da Wilhelm Klemm e Heinrich Bommer, e l'itterbio quasi puro solo nel 1953, con lo scambio ionico.
+
 ## Storia della scoperta
 
 Alla fine dell'Ottocento le terre rare si comportavano come le matrioske. Dall'ittria di Ytterby, Mosander aveva ricavato nel 1843 erbia e terbia; trentacinque anni dopo l'erbia era ancora considerata l'ossido di un elemento solo, ma le sue proprietà misurate non tornavano mai del tutto.

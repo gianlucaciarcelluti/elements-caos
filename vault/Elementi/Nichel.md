@@ -31,6 +31,9 @@ timeline
     1751 : Scoperta : Axel Fredrik Cronstedt
 ```
 
+> [!info] Nota sulla cronologia
+> Cronstedt ricava il metallo dal kupfernickel della miniera di cobalto di Los, in Hälsingland, e presenta i risultati all'Accademia reale svedese delle scienze nel 1751, tornandoci sopra con una seconda memoria nel 1754.
+
 ## Storia della scoperta
 
 Nelle miniere fra la Sassonia e la Boemia circolava da tempo un minerale irritante. Aveva il colore caldo e il luccichio del minerale di rame, prometteva un buon carico, e per quanto lo si arrostisse non restituiva rame: soltanto scorie e, spesso, fumi che facevano ammalare chi ci stava sopra. Oggi sappiamo che era niccolite, un arseniuro, e che i fumi erano ossido di arsenico. Allora era semplicemente un tradimento senza spiegazione.

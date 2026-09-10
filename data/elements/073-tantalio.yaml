@@ -10,11 +10,11 @@ scoperta:
   luogo: Uppsala
   epoca: elettrolisi
   isolamento_anno: 1864
-  note_cronologia: Ekeberg individuò l'elemento nel 1802 in due minerali, la tantalite
-    di Kimito e l'ittrotantalite di Ytterby. Dal 1809 al 1846 il tantalio e il columbium
-    di Hatchett furono ritenuti la stessa sostanza; Heinrich Rose li separò di nuovo,
-    e nel 1864 Jean Charles Galissard de Marignac ne ottenne il metallo. Il primo
-    tantalio puro e duttile è del 1903, di Werner von Bolton.
+  note_cronologia: Ekeberg individuò l'elemento nel 1802 in due minerali, la tantalite di
+    Kimito e l'ittrotantalite di Ytterby. Dal 1809 al 1846 il tantalio e il columbium di Hatchett
+    furono ritenuti la stessa sostanza, e la cronologia registra le due scoperte separatamente
+    perché separate le ha ristabilite Heinrich Rose. Il primo tantalio puro e duttile è del
+    1903, di Werner von Bolton.
   controversia: null
 proprieta:
   gruppo: 5
@@ -44,148 +44,140 @@ proprieta:
   - 5
 approfondimento: false
 contenuti:
-  hook: 'Un chimico svedese lo trovò in due pietre e lo chiamò come il re condannato
-    a stare immerso nell''acqua senza poterne bere: il suo ossido, immerso negli acidi,
-    non ne assorbiva nulla.'
+  hook: 'Un chimico svedese lo trovò in due pietre e lo chiamò come il re condannato a stare
+    immerso nell''acqua senza poterne bere: il suo ossido, immerso negli acidi, non ne assorbiva
+    nulla.'
   beats:
   - id: incipit_generale
     sezione: incipit
-    testo: Il tantalio è un metallo blu-grigio, pesante e durissimo, con un punto
-      di fusione fra i più alti della tavola periodica e un'indifferenza quasi completa
-      agli acidi. In forma di polvere pressata sta dentro i condensatori di quasi
-      ogni telefono.
+    testo: Il tantalio è un metallo blu-grigio, pesante e durissimo, con un punto di fusione
+      fra i più alti della tavola periodica e un'indifferenza quasi completa agli acidi. In
+      forma di polvere pressata sta dentro i condensatori di quasi ogni telefono.
     visual: Una pastiglia di polvere di tantalio accanto a un condensatore aperto
     attendibilita: documentato
   - id: ekeberg_due_minerali
     sezione: storia
-    testo: 'Nel 1802 Anders Gustaf Ekeberg, che insegnava a Uppsala, analizzò due
-      minerali: una tantalite arrivata da Kimito, in Finlandia, e un''ittrotantalite
-      della cava di Ytterby, in Svezia. In entrambi trovò un ossido nuovo, che resisteva
-      a tutti i reagenti con cui provò ad attaccarlo.'
+    testo: 'Nel 1802 Anders Gustaf Ekeberg, che insegnava a Uppsala, analizzò due minerali:
+      una tantalite arrivata da Kimito, in Finlandia, e un''ittrotantalite della cava di Ytterby,
+      in Svezia. In entrambi trovò un ossido nuovo, che resisteva a tutti i reagenti con cui
+      provò ad attaccarlo.'
     visual: Due campioni minerali scuri accanto a un quaderno di analisi
     attendibilita: documentato
   - id: ytterby
     sezione: storia
     testo: Quella seconda pietra veniva da un giacimento vicino a Stoccolma, un giacimento
-      che ha lasciato molte tracce nella nomenclatura chimica. Quattro elementi portano
-      nel nome pezzi della parola Ytterby — ittrio, itterbio, terbio ed erbio — e
-      altri cinque — scandio, olmio, tulio, gadolinio e tantalio — furono individuati
-      per la prima volta in minerali di quel giacimento.
+      che ha lasciato molte tracce nella nomenclatura chimica. Quattro elementi portano nel
+      nome pezzi della parola Ytterby — ittrio, itterbio, terbio ed erbio — e altri cinque
+      — scandio, olmio, tulio, gadolinio e tantalio — furono individuati per la prima volta
+      in minerali di quel giacimento.
     visual: L'ingresso della vecchia cava di Ytterby, nell'arcipelago di Stoccolma
     attendibilita: documentato
   - id: nome_tantalo
     sezione: storia
     testo: 'Il nome Ekeberg lo prese dal mito: Tantalo, punito a restare immerso nell''acqua
-      che si ritirava appena si chinava a bere, sotto rami di frutta che si scostavano
-      dalla sua mano. «Chiamo questo metallo tantalio», scrisse, «anche in allusione
-      alla sua incapacità, immerso nell''acido, di assorbirne e di saturarsi».'
+      che si ritirava appena si chinava a bere, sotto rami di frutta che si scostavano dalla
+      sua mano. «Chiamo questo metallo tantalio», scrisse, «anche in allusione alla sua incapacità,
+      immerso nell''acido, di assorbirne e di saturarsi».'
     visual: Un vaso greco con la figura di Tantalo nell'acqua
     attendibilita: documentato
   - id: wollaston_confusione
     sezione: storia
-    testo: 'L''anno prima, a Londra, Charles Hatchett aveva annunciato il columbium.
-      Nel 1809 William Hyde Wollaston confrontò gli ossidi dei due e li dichiarò identici,
-      e Wöhler confermò: delle due sostanze sopravvisse quella di Ekeberg, con il
-      suo nome. Per il tantalio l''esito fu paradossale: il suo nome restò nei manuali,
-      ma a indicare un elemento solo là dove ce n''erano due.'
+    testo: 'L''anno prima, a Londra, Charles Hatchett aveva annunciato il columbium. Nel 1809
+      William Hyde Wollaston confrontò gli ossidi dei due e li dichiarò identici, e Wöhler
+      confermò: delle due sostanze sopravvisse quella di Ekeberg, con il suo nome. Per il
+      tantalio l''esito fu paradossale: il suo nome restò nei manuali, ma a indicare un elemento
+      solo là dove ce n''erano due.'
     visual: Una pagina di manuale ottocentesco con una sola voce per due elementi
     attendibilita: documentato
   - id: rose_marignac
     sezione: storia
-    testo: La separazione vera arrivò a metà secolo. Nel 1846 Heinrich Rose dimostrò
-      che nella tantalite c'erano due metalli distinti; nel 1864 Jean Charles Galissard
-      de Marignac ottenne il tantalio metallico riducendone il cloruro in idrogeno,
-      e due anni dopo mise a punto la cristallizzazione frazionata dei fluoruri doppi
-      di potassio, che per un secolo è rimasta il metodo industriale per dividere
-      i due elementi.
+    testo: La separazione vera arrivò a metà secolo. Nel 1846 Heinrich Rose dimostrò che nella
+      tantalite c'erano due metalli distinti; nel 1864 Jean Charles Galissard de Marignac
+      ottenne il tantalio metallico riducendone il cloruro in idrogeno, e due anni dopo mise
+      a punto la cristallizzazione frazionata dei fluoruri doppi di potassio, che per un secolo
+      è rimasta il metodo industriale per dividere i due elementi.
     visual: Cristalli bianchi che si separano sul fondo di una capsula di cristallizzazione
     attendibilita: documentato
   - id: bolton_duttile
     sezione: storia
-    testo: Il metallo di quegli anni restava però impuro e fragile. Il primo tantalio
-      davvero puro e duttile lo produsse Werner von Bolton a Charlottenburg nel 1903,
-      e il primo impiego commerciale furono i filamenti delle lampadine, che il tungsteno
-      spodestò nel giro di pochi anni.
+    testo: Il metallo di quegli anni restava però impuro e fragile. Il primo tantalio davvero
+      puro e duttile lo produsse Werner von Bolton a Charlottenburg nel 1903, e il primo impiego
+      commerciale furono i filamenti delle lampadine, che il tungsteno spodestò nel giro di
+      pochi anni.
     visual: Una lampadina a incandescenza a filamento metallico dei primi del Novecento
     attendibilita: documentato
   - id: fusione_densita
     sezione: caratteristiche
-    testo: 'Il tantalio fonde a 3017 gradi: fra i metalli lo superano soltanto il
-      tungsteno, il renio e l''osmio. È una volta e mezzo più denso del piombo, con
-      16,7 grammi per centimetro cubo, e nonostante la durezza si lavora bene e si
-      trafila in fili sottilissimi.'
+    testo: 'Il tantalio fonde a 3017 gradi: fra i metalli lo superano soltanto il tungsteno,
+      il renio e l''osmio. È una volta e mezzo più denso del piombo, con 16,7 grammi per centimetro
+      cubo, e nonostante la durezza si lavora bene e si trafila in fili sottilissimi.'
     visual: Un lingotto di tantalio accanto a un filo trafilato dello stesso metallo
     attendibilita: documentato
   - id: corrosione
     sezione: caratteristiche
-    testo: 'La proprietà per cui è stato battezzato è la resistenza agli acidi: sotto
-      i 150 gradi l''acqua regia non lo intacca. Lo sciolgono soltanto l''acido fluoridrico,
-      le soluzioni acide che contengono ioni fluoruro, il triossido di zolfo e gli
-      alcali fusi; per questo con il tantalio si fabbricano reattori, serpentine e
-      valvole destinati a liquidi che corroderebbero qualunque altra cosa.'
+    testo: 'La proprietà per cui è stato battezzato è la resistenza agli acidi: sotto i 150
+      gradi l''acqua regia non lo intacca. Lo sciolgono soltanto l''acido fluoridrico, le
+      soluzioni acide che contengono ioni fluoruro, il triossido di zolfo e gli alcali fusi;
+      per questo con il tantalio si fabbricano reattori, serpentine e valvole destinati a
+      liquidi che corroderebbero qualunque altra cosa.'
     visual: Una serpentina di tantalio dentro un reattore chimico
     attendibilita: documentato
   - id: separazione_niobio
     sezione: caratteristiche
-    testo: 'In natura non si presenta mai da solo né senza niobio: i due condividono
-      la columbite-tantalite, il coltan, e si somigliano al punto che separarli resta
-      una delle operazioni più difficili della metallurgia industriale, paragonabile
-      a quella fra zirconio e afnio. Oggi il concentrato si scioglie in acido fluoridrico
-      e il tantalio si estrae selettivamente con solventi.'
+    testo: 'In natura non si presenta mai da solo né senza niobio: i due condividono la columbite-tantalite,
+      il coltan, e si somigliano al punto che separarli resta una delle operazioni più difficili
+      della metallurgia industriale, paragonabile a quella fra zirconio e afnio. Oggi il concentrato
+      si scioglie in acido fluoridrico e il tantalio si estrae selettivamente con solventi.'
     visual: Frammenti neri di coltan su un vaglio
     attendibilita: documentato
   - id: usi_condensatori
     sezione: usi
-    testo: 'L''impiego principale è la polvere metallica dei condensatori. Pressata
-      in pastiglie e ossidata in superficie, forma un dielettrico così sottile da
-      concentrare una capacità elevata in pochissimo volume: è il motivo per cui i
-      condensatori al tantalio stanno nei telefoni, nei portatili e nell''elettronica
-      di bordo delle automobili.'
+    testo: 'L''impiego principale è la polvere metallica dei condensatori. Pressata in pastiglie
+      e ossidata in superficie, forma un dielettrico così sottile da concentrare una capacità
+      elevata in pochissimo volume: è il motivo per cui i condensatori al tantalio stanno
+      nei telefoni, nei portatili e nell''elettronica di bordo delle automobili.'
     visual: Condensatori al tantalio saldati su una scheda elettronica
     attendibilita: documentato
   - id: usi_chirurgia
     sezione: usi
-    testo: 'Il corpo umano non lo riconosce come estraneo, e questo ne ha fatto un
-      materiale chirurgico: placche craniche, protesi e rivestimenti che si legano
-      stabilmente all''osso, fili per ricucire i nervi. Non essendo magnetico, chi
-      porta un impianto in tantalio può sottoporsi a una risonanza magnetica.'
+    testo: 'Il corpo umano non lo riconosce come estraneo, e questo ne ha fatto un materiale
+      chirurgico: placche craniche, protesi e rivestimenti che si legano stabilmente all''osso,
+      fili per ricucire i nervi. Non essendo magnetico, chi porta un impianto in tantalio
+      può sottoporsi a una risonanza magnetica.'
     visual: Una placca cranica metallica accanto a strumenti chirurgici
     attendibilita: documentato
   - id: usi_coltan
     sezione: usi
-    testo: 'La materia prima, però, viene in gran parte da una regione sola. Nel 2025,
-      secondo lo USGS, la Repubblica Democratica del Congo ha prodotto 1.300 tonnellate
-      di tantalio sulle 2.500 mondiali e il Ruanda altre 400: insieme sfiorano il
-      settanta per cento. Il tantalio è uno dei quattro minerali di conflitto — con
-      stagno, tungsteno e oro — per i quali Stati Uniti, Unione Europea e OCSE impongono
-      obblighi di dichiarazione sulle forniture.'
+    testo: 'La materia prima, però, viene in gran parte da una regione sola. Nel 2025, secondo
+      lo USGS, la Repubblica Democratica del Congo ha prodotto 1.300 tonnellate di tantalio
+      sulle 2.500 mondiali e il Ruanda altre 400: insieme sfiorano il settanta per cento.
+      Il tantalio è uno dei quattro minerali di conflitto — con stagno, tungsteno e oro —
+      per i quali Stati Uniti, Unione Europea e OCSE impongono obblighi di dichiarazione sulle
+      forniture.'
     visual: Una miniera artigianale di coltan in Africa centrale
     attendibilita: documentato
   - id: coltan_proporzioni
     sezione: usi
-    testo: 'Il legame fra i telefoni e la guerra in Congo si racconta spesso come
-      se le proporzioni fossero sempre state queste, e non è così: negli annuari USGS
-      quella regione valeva meno dell''uno per cento della produzione mondiale fra
-      il 2002 e il 2006, con punte del dieci per cento nel 2000 e nel 2008. Il peso
-      di quelle miniere sul mercato è cresciuto dopo, mentre il conflitto durava già
-      da un decennio.'
+    testo: 'Il legame fra i telefoni e la guerra in Congo si racconta spesso come se le proporzioni
+      fossero sempre state queste, e non è così: negli annuari USGS quella regione valeva
+      meno dell''uno per cento della produzione mondiale fra il 2002 e il 2006, con punte
+      del dieci per cento nel 2000 e nel 2008. Il peso di quelle miniere sul mercato è cresciuto
+      dopo, mentre il conflitto durava già da un decennio.'
     visual: Un grafico della quota africana sulla produzione mondiale di tantalio
     attendibilita: discusso
   - id: curiosita_ekeberg
     sezione: curiosita
-    testo: Ekeberg era sordo per una malattia dell'infanzia e cieco da un occhio per
-      l'esplosione di un gas in laboratorio; morì a quarantasei anni, molto prima
-      che il suo elemento fosse riconosciuto come distinto dal niobio. Dal 2018 l'associazione
-      internazionale dell'industria del tantalio e del niobio gli intitola un premio
-      annuale per la ricerca.
+    testo: Ekeberg era sordo per una malattia dell'infanzia e cieco da un occhio per l'esplosione
+      di un gas in laboratorio; morì a quarantasei anni, molto prima che il suo elemento fosse
+      riconosciuto come distinto dal niobio. Dal 2018 l'associazione internazionale dell'industria
+      del tantalio e del niobio gli intitola un premio annuale per la ricerca.
     attendibilita: documentato
   - id: curiosita_isomero
     sezione: curiosita
-    testo: 'Il tantalio naturale è quasi tutto tantalio-181, ma lo 0,012 per cento
-      è tantalio-180m, un nucleo in stato eccitato che dovrebbe decadere e non lo
-      fa: nessuno lo ha mai osservato farlo, e il limite inferiore misurato per la
-      sua emivita supera i cento milioni di miliardi di anni. È l''unico isomero nucleare
-      fra i nuclidi primordiali, e il più raro di tutti.'
+    testo: 'Il tantalio naturale è quasi tutto tantalio-181, ma lo 0,012 per cento è tantalio-180m,
+      un nucleo in stato eccitato che dovrebbe decadere e non lo fa: nessuno lo ha mai osservato
+      farlo, e il limite inferiore misurato per la sua emivita supera i cento milioni di miliardi
+      di anni. È l''unico isomero nucleare fra i nuclidi primordiali, e il più raro di tutti.'
     attendibilita: documentato
   pronuncia:
   - termine: Anders Gustaf Ekeberg

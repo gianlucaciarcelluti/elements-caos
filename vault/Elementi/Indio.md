@@ -32,6 +32,9 @@ timeline
     1864 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Reich, daltonico, si fece assistere da Richter per leggere le righe spettrali: la scoperta nasce da quella collaborazione forzata. Richter isolò il metallo nel 1864, e in seguito rivendicò la scoperta come propria, rompendo il rapporto con Reich.
+
 ## Storia della scoperta
 
 Nel 1863, alla scuola mineraria di Freiberg in Sassonia, Ferdinand Reich stava esaminando minerali di zinco della zona convinto di potervi trovare il tallio, scoperto due anni prima e diventato subito la preda più ambita dei chimici con lo spettroscopio. Bruciando i campioni si aspettava la riga verde del tallio.

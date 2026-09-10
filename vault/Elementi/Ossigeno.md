@@ -31,6 +31,9 @@ timeline
     1771 : Scoperta : Carl Wilhelm Scheele
 ```
 
+> [!info] Nota sulla cronologia
+> Scheele ottiene la sua "aria di fuoco" intorno al 1771 e la registra su un quaderno di laboratorio che si conserva, ma pubblica soltanto nel 1777. Joseph Priestley arriva allo stesso gas per via indipendente il 1° agosto 1774 ed è il primo a stamparne la preparazione, alla fine del 1775. Antoine-Laurent Lavoisier ne capisce la natura, lo battezza e ne fa il perno della chimica moderna.
+
 ## Storia della scoperta
 
 Fino alla metà del Settecento l'aria era un elemento nel senso di Aristotele: una delle quattro sostanze semplici di cui tutto è fatto, non scomponibile in nulla di più elementare. Le arie diverse che i chimici incontravano — quella che spegneva le candele, quella che esplodeva, quella che soffocava i topi — erano considerate aria comune sporcata da qualche impurità, non sostanze distinte. La chimica pneumatica nasce nel momento in cui qualcuno prende sul serio l'ipotesi contraria.

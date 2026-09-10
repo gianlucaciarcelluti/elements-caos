@@ -31,6 +31,9 @@ timeline
     1811 : Scoperta : Bernard Courtois
 ```
 
+> [!info] Nota sulla cronologia
+> Courtois osservò il vapore violetto nel 1811; la scoperta fu resa pubblica il 29 novembre 1813 da Desormes e Clément, e Gay-Lussac ne riconobbe la natura elementare il 6 dicembre successivo, proponendo il nome iode.
+
 ## Storia della scoperta
 
 Il salnitro decideva quanta polvere da sparo un paese potesse fabbricare, e la Francia napoleonica ne aveva bisogno più di quanto le nitriere riuscissero a produrne. Il processo richiedeva carbonato di sodio, e per averlo i salnitrai ripiegarono sulle alghe raccolte lungo le coste di Normandia e Bretagna: bruciate in cumuli sulla spiaggia, lasciavano una cenere ricca di sali di sodio e di potassio.

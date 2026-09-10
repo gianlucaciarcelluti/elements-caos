@@ -10,22 +10,21 @@ scoperta:
   luogo: Strontian
   epoca: pneumatica
   isolamento_anno: 1808
-  note_cronologia: 'Adair Crawford e William Cruickshank riconoscono nel 1790 che il
-    minerale di Strontian differisce dalla witherite e contiene una terra non ancora
-    descritta. Thomas Charles Hope ne dà nel 1793 la caratterizzazione distesa e propone
-    il nome strontites. Humphry Davy isola il metallo nel 1808 per elettrolisi di una
-    miscela di cloruro di stronzio e ossido di mercurio.'
+  note_cronologia: Adair Crawford e William Cruickshank riconoscono nel 1790 che il minerale
+    di Strontian differisce dalla witherite e contiene una terra non ancora descritta; Thomas
+    Charles Hope ne dà nel 1793 la caratterizzazione distesa e propone il nome strontites.
+    La cronologia adotta il 1790, l'anno del riconoscimento, e non il 1808 dell'isolamento.
   controversia: 'La paternità dello stronzio si distribuisce fra almeno tre gruppi in tre
-    anni. Crawford e Cruickshank, nel 1790, sono i primi a scrivere che il minerale di
-    Strontian contiene una terra nuova, ma lo fanno con prudenza e senza dimostrarlo fino
-    in fondo: Crawford parla di una specie di terra che non è stata finora sufficientemente
-    esaminata. Nello stesso periodo, in Germania, Friedrich Gabriel Sulzer e Johann
-    Friedrich Blumenbach esaminano lo stesso minerale, lo battezzano strontianite e
-    concludono anch''essi che contiene una terra nuova. È Thomas Charles Hope, nel 1793, a
-    chiudere la questione con l''analisi sistematica e con la prova della fiamma cremisi, e
-    a proporre il nome. Il credito del 1790 a Crawford registra la prima segnalazione, non
-    la dimostrazione; e il nome di Cruickshank, che firmava con lui, tende a sparire dalle
-    cronologie che riportano un solo scopritore per riga.'
+    anni. Crawford e Cruickshank, nel 1790, sono i primi a scrivere che il minerale di Strontian
+    contiene una terra nuova, ma lo fanno con prudenza e senza dimostrarlo fino in fondo:
+    Crawford parla di una specie di terra che non è stata finora sufficientemente esaminata.
+    Nello stesso periodo, in Germania, Friedrich Gabriel Sulzer e Johann Friedrich Blumenbach
+    esaminano lo stesso minerale, lo battezzano strontianite e concludono anch''essi che contiene
+    una terra nuova. È Thomas Charles Hope, nel 1793, a chiudere la questione con l''analisi
+    sistematica e con la prova della fiamma cremisi, e a proporre il nome. Il credito del
+    1790 a Crawford registra la prima segnalazione, non la dimostrazione; e il nome di Cruickshank,
+    che firmava con lui, tende a sparire dalle cronologie che riportano un solo scopritore
+    per riga.'
 proprieta:
   gruppo: 2
   periodo: 5
@@ -47,17 +46,16 @@ proprieta:
   - 2
 approfondimento: false
 contenuti:
-  hook: Un villaggio di trecento anime sulla costa occidentale della Scozia ha dato il
-    proprio nome a un elemento chimico. È l'unico posto delle isole britanniche ad
-    avercela fatta.
+  hook: Un villaggio di trecento anime sulla costa occidentale della Scozia ha dato il proprio
+    nome a un elemento chimico. È l'unico posto delle isole britanniche ad avercela fatta.
   beats:
   - id: incipit_generale
     sezione: incipit
     testo: 'Lo stronzio è un metallo alcalino terroso morbido e argenteo, che all''aria si
       ossida in fretta e in acqua reagisce con vivacità. Chi lo conosce lo conosce per due
       cose agli antipodi: il rosso profondo che regala ai fuochi d''artificio, e un isotopo
-      radioattivo che negli anni Cinquanta finì nei denti dei bambini di mezzo mondo e
-      contribuì a fermare i test nucleari atmosferici.'
+      radioattivo che negli anni Cinquanta finì nei denti dei bambini di mezzo mondo e contribuì
+      a fermare i test nucleari atmosferici.'
     visual: Fuoco d''artificio rosso cremisi che si apre nel cielo notturno
     attendibilita: documentato
   - id: strontian
@@ -65,19 +63,18 @@ contenuti:
     testo: 'Strontian è un villaggio delle Highlands occidentali, nato attorno alle miniere
       di piombo aperte negli anni Venti del Settecento. Dalle sue gallerie usciva, insieme
       al piombo, un minerale che i minatori mettevano da parte perché non serviva a nulla:
-      lo si vendeva ai droghieri di Edimburgo come varietà di witherite, un carbonato di
-      bario. Nessuno aveva motivo di guardarlo da vicino, perché somigliava a qualcosa di
-      già noto.'
+      lo si vendeva ai droghieri di Edimburgo come varietà di witherite, un carbonato di bario.
+      Nessuno aveva motivo di guardarlo da vicino, perché somigliava a qualcosa di già noto.'
     visual: Ingresso di una galleria mineraria fra le colline verdi delle Highlands
     attendibilita: documentato
   - id: crawford
     sezione: storia
     testo: 'Nel 1790 Adair Crawford, medico irlandese che a Londra studiava il calore e le
       arie, esamina quel minerale insieme a William Cruickshank e si accorge che non torna:
-      i suoi sali si comportano diversamente da quelli del bario, sciolgono e
-      cristallizzano in un altro modo. Crawford scrive con la prudenza dell''epoca che si
-      tratta probabilmente di una specie di terra non ancora sufficientemente esaminata. Ha
-      ragione, ma non ha la prova.'
+      i suoi sali si comportano diversamente da quelli del bario, sciolgono e cristallizzano
+      in un altro modo. Crawford scrive con la prudenza dell''epoca che si tratta probabilmente
+      di una specie di terra non ancora sufficientemente esaminata. Ha ragione, ma non ha
+      la prova.'
     visual: Confronto fra due serie di cristalli, di bario e di stronzio, sul banco
     attendibilita: documentato
   - id: hope
@@ -93,23 +90,21 @@ contenuti:
     attendibilita: documentato
   - id: davy
     sezione: storia
-    testo: 'Restava il salto che nessuno sapeva fare: dalla terra al metallo. Lo compie
-      Humphry Davy nel 1808, l''anno in cui con la pila elettrica smonta una dopo l''altra
-      le terre alcaline e ne cava fuori bario, calcio, magnesio e stronzio. Il metodo è
-      l''elettrolisi di una miscela di cloruro di stronzio e ossido di mercurio, e il
-      prodotto è un amalgama da cui distillare via il mercurio. In pochi mesi Davy aggiunge
-      alla tavola periodica più elementi di chiunque altro prima di lui.'
-    visual: La grande pila voltaica della Royal Institution collegata alla cella
-      elettrolitica
+    testo: 'Restava il salto che nessuno sapeva fare: dalla terra al metallo. Lo compie Humphry
+      Davy nel 1808, l''anno in cui con la pila elettrica smonta una dopo l''altra le terre
+      alcaline e ne cava fuori bario, calcio, magnesio e stronzio. Il metodo è l''elettrolisi
+      di una miscela di cloruro di stronzio e ossido di mercurio, e il prodotto è un amalgama
+      da cui distillare via il mercurio. In pochi mesi Davy aggiunge alla tavola periodica
+      più elementi di chiunque altro prima di lui.'
+    visual: La grande pila voltaica della Royal Institution collegata alla cella elettrolitica
     attendibilita: documentato
   - id: caratteristiche_fiamma
     sezione: caratteristiche
     testo: 'Il rosso dello stronzio è una firma atomica. Scaldati, i suoi atomi assorbono
-      energia e la restituiscono emettendo luce a lunghezze d''onda precise, concentrate
-      nel rosso profondo; nessun altro elemento economico produce quel colore con quella
-      purezza. È il motivo per cui lo stronzio è insostituibile nella pirotecnica e nei
-      razzi di segnalazione: il rosso dei fuochi d''artificio, praticamente ovunque nel
-      mondo, è stronzio che brucia.'
+      energia e la restituiscono emettendo luce a lunghezze d''onda precise, concentrate nel
+      rosso profondo; nessun altro elemento economico produce quel colore con quella purezza.
+      È il motivo per cui lo stronzio è insostituibile nella pirotecnica e nei razzi di segnalazione:
+      il rosso dei fuochi d''artificio, praticamente ovunque nel mondo, è stronzio che brucia.'
     visual: Spettro a righe dello stronzio con le bande concentrate nel rosso
     attendibilita: documentato
   - id: caratteristiche_calcio
@@ -124,43 +119,42 @@ contenuti:
     attendibilita: documentato
   - id: usi_industriali
     sezione: usi
-    testo: 'Per decenni il grande consumatore di stronzio è stato il vetro dei tubi
-      catodici dei televisori, dove il suo ossido serviva a fermare i raggi X generati dal
-      cannone elettronico: assorbiva fino a tre quarti della produzione statunitense. La
-      scomparsa dei tubi catodici ha svuotato quel mercato di colpo, e oggi la domanda si
-      regge sui magneti ceramici al ferrite di stronzio, presenti in quasi ogni piccolo
-      motore elettrico, sulla pirotecnica e sui ceramici tecnici.'
+    testo: 'Per decenni il grande consumatore di stronzio è stato il vetro dei tubi catodici
+      dei televisori, dove il suo ossido serviva a fermare i raggi X generati dal cannone
+      elettronico: assorbiva fino a tre quarti della produzione statunitense. La scomparsa
+      dei tubi catodici ha svuotato quel mercato di colpo, e oggi la domanda si regge sui
+      magneti ceramici al ferrite di stronzio, presenti in quasi ogni piccolo motore elettrico,
+      sulla pirotecnica e sui ceramici tecnici.'
     visual: Retro di un vecchio televisore a tubo catodico smontato
     attendibilita: documentato
   - id: usi_medicina
     sezione: usi
-    testo: 'In medicina la somiglianza con il calcio è stata sfruttata in entrambe le
-      direzioni. Il ranelato di stronzio è stato prescritto contro l''osteoporosi perché si
-      fissa nell''osso e ne aumenta la densità, salvo poi vedersi restringere drasticamente
-      l''impiego per il rischio cardiovascolare emerso dagli studi successivi. Lo stronzio-89,
-      invece, si usa proprio perché si concentra nelle metastasi ossee, portando la radiazione
-      dove serve e attenuando il dolore.'
+    testo: In medicina la somiglianza con il calcio è stata sfruttata in entrambe le direzioni.
+      Il ranelato di stronzio è stato prescritto contro l'osteoporosi perché si fissa nell'osso
+      e ne aumenta la densità, salvo poi vedersi restringere drasticamente l'impiego per il
+      rischio cardiovascolare emerso dagli studi successivi. Lo stronzio-89, invece, si usa
+      proprio perché si concentra nelle metastasi ossee, portando la radiazione dove serve
+      e attenuando il dolore.
     visual: Fiala di radiofarmaco allo stronzio-89 in una sala di medicina nucleare
     attendibilita: documentato
   - id: curiosita_denti
     sezione: curiosita
-    testo: 'Lo stronzio-90 è uno dei prodotti più abbondanti della fissione dell''uranio, ha
-      un tempo di dimezzamento di circa ventotto anni e, ricadendo dalle esplosioni
-      atmosferiche, entra nell''erba, poi nel latte, poi nelle ossa e nei denti dei bambini,
-      dove l''organismo lo scambia per calcio e lo trattiene. Da lì continua a irradiare il
-      midollo osseo, e l''esposizione è associata a un aumento del rischio di leucemia e di
-      tumori ossei.'
+    testo: Lo stronzio-90 è uno dei prodotti più abbondanti della fissione dell'uranio, ha
+      un tempo di dimezzamento di circa ventotto anni e, ricadendo dalle esplosioni atmosferiche,
+      entra nell'erba, poi nel latte, poi nelle ossa e nei denti dei bambini, dove l'organismo
+      lo scambia per calcio e lo trattiene. Da lì continua a irradiare il midollo osseo, e
+      l'esposizione è associata a un aumento del rischio di leucemia e di tumori ossei.
     visual: Bicchiere di latte accanto allo schema della catena erba-mucca-latte-osso
     attendibilita: documentato
   - id: curiosita_baby_tooth
     sezione: curiosita
-    testo: 'Alla fine degli anni Cinquanta, a Saint Louis, un gruppo di scienziati e
-      cittadini chiese ai genitori di spedire i denti da latte caduti ai figli, per misurare
-      quanto stronzio-90 vi si fosse accumulato. Ne arrivarono oltre trecentoventimila, e
-      il confronto fu impressionante: i bambini nati nel 1963 ne avevano nei denti
-      cinquanta volte più di quelli nati nel 1950. I risultati contribuirono a convincere
-      il presidente Kennedy a firmare il trattato che nello stesso 1963 mise fuori legge le
-      esplosioni nucleari nell''atmosfera. Una raccolta di denti da latte aiutò a fermarle.'
+    testo: 'Alla fine degli anni Cinquanta, a Saint Louis, un gruppo di scienziati e cittadini
+      chiese ai genitori di spedire i denti da latte caduti ai figli, per misurare quanto
+      stronzio-90 vi si fosse accumulato. Ne arrivarono oltre trecentoventimila, e il confronto
+      fu impressionante: i bambini nati nel 1963 ne avevano nei denti cinquanta volte più
+      di quelli nati nel 1950. I risultati contribuirono a convincere il presidente Kennedy
+      a firmare il trattato che nello stesso 1963 mise fuori legge le esplosioni nucleari
+      nell''atmosfera. Una raccolta di denti da latte aiutò a fermarle.'
     visual: Buste postali con i denti da latte raccolti per lo studio
     attendibilita: documentato
   - id: curiosita_orologio
@@ -169,9 +163,9 @@ contenuti:
       atomici ottici che intrappolano atomi di stronzio in un reticolo di luce laser sono
       oggi fra i più precisi mai costruiti: sbaglierebbero meno di un secondo sull''intera
       età dell''universo. Sono così sensibili da rilevare il rallentamento del tempo previsto
-      dalla relatività generale su distanze minuscole: in un esperimento del 2022 gli
-      atomi che stavano un millimetro più in basso, dentro lo stesso campione, sono
-      risultati ticchettare più lentamente di quelli sopra di loro.'
+      dalla relatività generale su distanze minuscole: in un esperimento del 2022 gli atomi
+      che stavano un millimetro più in basso, dentro lo stesso campione, sono risultati ticchettare
+      più lentamente di quelli sopra di loro.'
     visual: Camera da vuoto di un orologio ottico con la nuvola di atomi intrappolati
     attendibilita: documentato
   pronuncia:

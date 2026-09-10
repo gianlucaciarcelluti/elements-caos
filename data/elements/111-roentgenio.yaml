@@ -12,14 +12,12 @@ scoperta:
   luogo: Darmstadt
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: 'Tre nuclei di roentgenio-272 rivelati al GSI l''8 dicembre 1994 da bismuto-209
-    e nichel-64. La cronologia di riferimento comprimeva gli scopritori in «Hofmann et al.»:
-    l''articolo del 1995 ha gli stessi tredici autori di quello sul darmstadtio, e qui restano
-    i tre nomi che le fonti secondarie isolano — Hofmann, Armbruster e Munzenberg. La commissione
-    internazionale giudico le prove insufficienti nel 2001; il GSI ripete l''esperimento nel
-    2002 ottenendo altri tre atomi, e la IUPAC riconosce la scoperta nel 2003. Il nome, proposto
-    nel 2004, e ufficiale dal primo novembre di quell''anno; fino ad allora l''elemento si
-    chiamava unununium (Uuu), nome sistematico.'
+  note_cronologia: 'La data adottata è quella della sintesi, l''8 dicembre 1994, ma il riconoscimento
+    IUPAC è del 2003: le prove del 1994 furono giudicate insufficienti nel 2001 e l''esperimento
+    dovette essere ripetuto. La cronologia di riferimento comprimeva gli scopritori in «Hofmann
+    et al.»: l''articolo del 1995 ha gli stessi tredici autori di quello sul darmstadtio,
+    e qui restano i tre nomi che le fonti isolano. Il nome è ufficiale dal primo novembre
+    2004.'
   controversia: null
 proprieta:
   gruppo: 11

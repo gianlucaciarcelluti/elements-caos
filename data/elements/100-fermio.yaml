@@ -12,10 +12,11 @@ scoperta:
   luogo: Enewetak, Isole Marshall
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: Trovato insieme all'einsteinio nei detriti del test Ivy Mike del 1952 e
-    tenuto segreto fino al 1955. Nel frattempo un gruppo dell'Istituto Nobel di Stoccolma
-    ne produsse indipendentemente un isotopo, senza sapere che l'elemento era già stato identificato.
-    Il fermio è l'ultimo elemento raggiungibile per cattura successiva di neutroni.
+  note_cronologia: 'Stessa data e stessa attribuzione dell''einsteinio: il test Ivy Mike,
+    e la collaborazione fra tre laboratori ridotta ai tre nomi che le fonti isolano. Il gruppo
+    svedese che ne produsse un isotopo per conto proprio non compare fra gli scopritori: il
+    suo lavoro è indipendente ma successivo all''identificazione americana, che nel frattempo
+    era segreta.'
   controversia: null
 proprieta:
   gruppo: 3

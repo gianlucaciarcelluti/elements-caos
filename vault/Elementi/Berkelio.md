@@ -31,6 +31,9 @@ timeline
     1949 : Scoperta : Glenn Seaborg, Albert Ghiorso, Stanley Gerald Thompson, Kenneth Street Jr.
 ```
 
+> [!info] Nota sulla cronologia
+> Sintetizzato nel dicembre 1949 bombardando americio-241 con particelle alfa: il risultato furono poche migliaia di atomi. Il nome segue l'analogia con il terbio, che occupa la stessa posizione fra i lantanidi e porta a sua volta il nome del luogo della scoperta.
+
 ## Storia della scoperta
 
 Nel dicembre del 1949, a Berkeley, Glenn Seaborg, Albert Ghiorso, Stanley Thompson e Kenneth Street Jr. bombardarono con particelle alfa un bersaglio di americio-241 nel ciclotrone da sessanta pollici. L'irraggiamento durò sei ore, e il risultato fu qualche migliaio di atomi dell'elemento 97: abbastanza da identificarlo chimicamente, non abbastanza da vederlo.

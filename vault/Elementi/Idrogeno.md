@@ -31,6 +31,9 @@ timeline
     1671 : Scoperta : Robert Boyle
 ```
 
+> [!info] Nota sulla cronologia
+> Data della produzione di "aria infiammabile" da parte di Boyle facendo agire olio di vitriolo su limatura di ferro. Il riconoscimento come sostanza distinta è di Henry Cavendish nel 1766; il nome idrogeno lo assegna Lavoisier nel 1783.
+
 ## Storia della scoperta
 
 Nel Seicento i gas sono il punto cieco della chimica. Si vedono, si sentono, a volte esplodono, ma non si sanno raccogliere né pesare, e la dottrina corrente li considera tutti varianti di un'unica aria, resa più o meno impura da ciò che vi si mescola. Un chimico che liberasse un gas nuovo non aveva nessuna categoria mentale in cui metterlo: quello che usciva dalla storta era aria, e basta.

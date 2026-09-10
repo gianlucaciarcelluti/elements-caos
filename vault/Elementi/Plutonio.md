@@ -32,6 +32,9 @@ timeline
     1941 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Il plutonio non fu scoperto: fu prodotto. La prima traccia dell'elemento 94, l'isotopo plutonio-238, risale al dicembre 1940; l'isotopo che avrebbe cambiato la storia, il plutonio-239, fu identificato pochi mesi dopo, nel febbraio 1941, e la sua capacità di fissione fu dimostrata a fine marzo dello stesso anno.
+
 ## Storia della scoperta
 
 Alla fine del 1940, all'Università della California a Berkeley, un gruppo di fisici e chimici guidato da Edwin McMillan aveva da poco identificato l'elemento 93, il nettunio, ottenuto bombardando uranio con neutroni. Era il primo elemento transuranico mai prodotto, oltre l'uranio che allora chiudeva la tavola periodica conosciuta: un risultato che apriva la strada, quasi per logica, alla ricerca dell'elemento successivo.

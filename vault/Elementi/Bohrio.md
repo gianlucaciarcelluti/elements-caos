@@ -31,6 +31,9 @@ timeline
     1981 : Scoperta : Peter Armbruster, Gottfried Münzenberg
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1981, anno della sintesi al GSI di Darmstadt, e non il 1976 della rivendicazione sovietica, giudicata insufficiente dalla commissione internazionale. Il nome proposto dal GSI era nielsbohrium, abbreviato in bohrium dalla IUPAC nel 1994 e definitivo dal 1997.
+
 ## Storia della scoperta
 
 Alla fine degli anni Settanta la fabbricazione di elementi nuovi si era arenata. Il metodo in uso consisteva nel lanciare ioni abbastanza energici da superare la repulsione elettrica fra i nuclei, ma quell'energia restava nel nucleo composto che si formava, scaldandolo: il nucleo la smaltiva espellendo quattro o cinque neutroni, e nel frattempo aveva ottime probabilità di spezzarsi. Più si saliva di numero atomico, più la resa crollava.

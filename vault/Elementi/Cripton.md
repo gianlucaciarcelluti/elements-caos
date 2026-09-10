@@ -31,6 +31,9 @@ timeline
     1898 : Scoperta : William Ramsay, Morris Travers
 ```
 
+> [!info] Nota sulla cronologia
+> Primo dei tre gas nobili trovati da Ramsay e Travers nel 1898, ricavato dal residuo dell'aria liquida quasi completamente evaporata. Fra il 1960 e il 1983 la definizione del metro è stata basata su una riga spettrale del cripton-86.
+
 ## Storia della scoperta
 
 Nel maggio del 1898 William Ramsay e Morris Travers lavoravano su quello che restava dopo aver fatto evaporare quasi tutta l'aria liquida: pochi centimetri cubi di gas che nessuno aveva ancora esaminato. Lo spettro mostrò due righe brillanti, una gialla e una verde, che non appartenevano a nulla di conosciuto.

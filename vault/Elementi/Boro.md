@@ -32,6 +32,9 @@ timeline
     1809 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La data del 1787 è quella della Méthode de nomenclature chimique, firmata da Guyton de Morveau, Lavoisier, Berthollet e Fourcroy, in cui il costituente ipotetico dell'acido borico riceve un nome. Davy ottiene la sostanza per via elettrochimica e poi riducendo l'acido borico con il potassio nel 1808, pubblicando nel 1809 e battezzandola boracium; nel 1812 corregge il nome in boro dopo averne stabilito la natura non metallica. Nello stesso 1808, a pochi giorni di distanza, Gay-Lussac e Thénard ottengono la stessa sostanza a Parigi riducendo l'acido borico con il ferro.
+
 ## Storia della scoperta
 
 Il borace arriva in Europa molto prima del boro, lungo le rotte carovaniere dal Tibet, dove veniva raccolto sulle rive dei laghi salati e venduto agli orafi. Serviva da fondente per la saldatura: cosparso su un giunto, scioglie gli ossidi che impediscono al metallo fuso di aderire. Era una merce preziosa e misteriosa, di cui si conosceva perfettamente l'uso e per nulla la composizione.

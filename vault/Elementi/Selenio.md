@@ -31,6 +31,9 @@ timeline
     1817 : Scoperta : Jöns Jacob Berzelius, Johan Gottlieb Gahn
 ```
 
+> [!info] Nota sulla cronologia
+> Berzelius e Gahn individuarono la sostanza nel 1817 nei fanghi delle camere di piombo del proprio impianto di acido solforico; la descrizione dell'elemento nuovo è in una lettera del 1818 ad Alexander Marcet.
+
 ## Storia della scoperta
 
 Nel 1817 Jöns Jacob Berzelius e Johan Gottlieb Gahn erano comproprietari di un piccolo impianto chimico vicino a Gripsholm, in Svezia, che produceva acido solforico con il metodo delle camere di piombo: si bruciavano zolfo o piriti, e i fumi venivano assorbiti dall'acqua in grandi ambienti rivestiti di piombo. Le piriti arrivavano dalla miniera di Falun, e sul fondo delle camere lasciavano un precipitato rosso che nessuno si aspettava.

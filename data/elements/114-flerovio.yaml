@@ -11,13 +11,10 @@ scoperta:
   luogo: Dubna
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: 'Primo atomo prodotto a Dubna nel dicembre 1998 da plutonio-244 e calcio-48,
-    nella collaborazione fra l''istituto russo e il laboratorio di Livermore; la cronologia
-    di riferimento data l''elemento al 2006, anno degli esperimenti che hanno reso conclusiva
-    la rivendicazione, e la IUPAC lo ha riconosciuto nel 2011. Il nome, ufficiale dal 2012,
-    viene dal Flerov Laboratory of Nuclear Reactions, a sua volta intitolato a Georgij Flërov.
-    La casella 114 era stata indicata dal 1966 come il numero magico dei protoni e il centro
-    dell''isola di stabilita: i dati raccolti dopo la sintesi non lo confermano.'
+  note_cronologia: Il primo atomo è del dicembre 1998, ma la cronologia di riferimento data
+    l'elemento al 2006, anno degli esperimenti che hanno reso conclusiva la rivendicazione;
+    la IUPAC lo ha riconosciuto nel 2011. È la ragione per cui in questo racconto il flerovio
+    compare dopo il livermorio e il moscovio, che sono stati prodotti dopo di lui.
   controversia: null
 proprieta:
   gruppo: 14

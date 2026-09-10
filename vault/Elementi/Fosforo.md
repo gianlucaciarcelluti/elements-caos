@@ -31,6 +31,9 @@ timeline
     1669 : Scoperta : Hennig Brand
 ```
 
+> [!info] Nota sulla cronologia
+> Primo elemento della storia con una scoperta documentata, luogo e data precisi: tutto ciò che viene prima è arrivato all'uomo senza che nessuno ne registrasse l'istante.
+
 ## Storia della scoperta
 
 Hennig Brand è un mercante di vetro caduto in disgrazia, ad Amburgo, che nella seconda metà del Seicento decide di reinventarsi alchimista. Come tanti nel suo secolo insegue la pietra filosofale, la sostanza leggendaria capace di trasformare i metalli comuni in oro. Non ha formazione scientifica, ma ha un'idea che ai chimici di professione non era venuta: se il corpo umano produce sostanze dal colore dell'oro, forse l'oro si nasconde proprio lì.

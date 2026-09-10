@@ -32,6 +32,9 @@ timeline
     1808 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1772, anno in cui Scheele riconosce nella baritina una terra nuova, e non il 1808 dell'isolamento di Davy. È la regola generale seguita qui, ed è la ragione per cui il bario compare fra gli elementi della chimica pneumatica invece che fra quelli dell'elettrolisi.
+
 ## Storia della scoperta
 
 La storia comincia con una pietra che fa una cosa impossibile. Nel 1602 Vincenzo Casciarolo, ciabattino e alchimista dilettante, raccoglie sul monte Paderno presso Bologna dei ciottoli pesanti e li calcina sperando di cavarne oro; ottiene invece un materiale che, dopo essere stato esposto alla luce, continua a brillare nel buio per ore. La chiamarono pietra di Bologna o lapis solaris, e fu la sensazione scientifica del secolo: intorno al 1612 un gesuita annota di averne visto la luminescenza dimostrata da Galileo in persona.

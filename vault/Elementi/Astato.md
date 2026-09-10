@@ -31,6 +31,9 @@ timeline
     1940 : Scoperta : Dale Corson, Kenneth MacKenzie, Emilio Segrè
 ```
 
+> [!info] Nota sulla cronologia
+> La data è quella della sintesi in laboratorio. La casella 85 aveva raccolto per decenni rivendicazioni poi cadute, che le tavole non registrano.
+
 ## Storia della scoperta
 
 La casella 85, sotto lo iodio, era una delle ultime rimaste vuote fra gli elementi naturali, e negli anni Trenta fu rivendicata più volte: alabamio nel 1931, dakin nel 1937, helvetium nel 1940, oltre a osservazioni di righe X che sembravano provarne l'esistenza. Nessuna di queste rivendicazioni resse alla verifica.

@@ -32,6 +32,9 @@ timeline
     1939 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Scoperta doppia e quasi simultanea: Soret e Delafontaine ne videro le righe a Ginevra nel 1878 e lo chiamarono «elemento X», Cleve ne ottenne l'ossido impuro a Uppsala nel 1879 e gli diede il nome. L'ossido puro è del 1911, il metallo del 1939, per mano di Heinrich Bommer.
+
 ## Storia della scoperta
 
 Nel 1878, a Ginevra, Jacques-Louis Soret e Marc Delafontaine studiavano allo spettroscopio i residui delle terre rare e trovarono righe di assorbimento che non corrispondevano a nessun elemento conosciuto. Non riuscendo a isolare la sostanza che le produceva, la chiamarono provvisoriamente «elemento X»: era il modo onesto di annunciare che c'era qualcosa senza sapere che cosa.

@@ -32,6 +32,9 @@ timeline
     1901 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> L'anno 1841 e il nome di Mosander si riferiscono alla scoperta del didimio, che von Welsbach separò in praseodimio e neodimio solo nel 1885. La cronologia di riferimento indica il 1901 per il primo campione metallico e comprimeva gli isolatori in «Muthmann et al.»: erano Wilhelm Muthmann con i propri collaboratori.
+
 ## Storia della scoperta
 
 Nel 1841 Carl Gustaf Mosander, che due anni prima aveva cavato il lantanio dalla ceria, spinse la separazione un passo più in là e ne ricavò una terza terra. La chiamò didimio, dal greco didymos, «gemello», perché accompagnava il lantanio ovunque e sembrava impossibile da staccargli di dosso.

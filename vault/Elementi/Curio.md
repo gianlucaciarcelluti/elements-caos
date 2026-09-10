@@ -31,6 +31,9 @@ timeline
     1944 : Scoperta : Glenn Seaborg, Ralph Arthur James, Albert Ghiorso
 ```
 
+> [!info] Nota sulla cronologia
+> Il curio fu prodotto nell'estate del 1944, prima dell'americio, e annunciato insieme a lui alla fine del 1945. In questo racconto compare comunque dopo, perché a parità d'anno l'ordine segue il numero atomico. Anche qui la cronologia di riferimento comprimeva la squadra in «Seaborg et al.».
+
 ## Storia della scoperta
 
 Nell'estate del 1944, a Berkeley, Glenn Seaborg, Ralph James e Albert Ghiorso bombardarono plutonio-239 con particelle alfa nel ciclotrone da sessanta pollici e ottennero il curio-242. L'elemento 96 arrivò così prima del 95, che sarebbe stato prodotto qualche mese dopo: la numerazione della tavola periodica e l'ordine delle scoperte non coincidono quasi mai.

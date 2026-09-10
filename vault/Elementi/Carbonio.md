@@ -31,6 +31,9 @@ timeline
     26000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> La data segna la più antica testimonianza d'uso, il carbone delle pitture rupestri, non la comprensione del carbonio come elemento: quella arriva a fine Settecento.
+
 ## Storia della scoperta
 
 La data convenzionale di ventiseimila anni fa segna la prima testimonianza d'uso, non la comprensione. È l'epoca delle grandi pitture rupestri del Paleolitico superiore, tracciate con carbone di legna: il pigmento nero più antico e più diffuso della storia umana, ottenuto semplicemente lasciando bruciare del legno senza abbastanza aria. Chi lo usava non aveva alcuna nozione di elemento chimico, e non ne aveva bisogno.

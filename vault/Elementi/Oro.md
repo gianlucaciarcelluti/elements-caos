@@ -31,6 +31,9 @@ timeline
     40000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> Oro nativo raccolto, non estratto: la data convenzionale segna la più antica testimonianza d'uso, non un atto di scoperta.
+
 ## Storia della scoperta
 
 L'oro appartiene alla piccolissima famiglia dei metalli che in natura si presentano allo stato nativo, cioè già metallici e non combinati con altri elementi. Non arrugginisce, non annerisce, non si sfalda: un granello depositato in un fiume centomila anni fa è ancora oro oggi, identico. È questa indifferenza chimica, più ancora della rarità, a spiegare perché sia il primo metallo entrato nelle mani dell'uomo, in un'epoca in cui la sola tecnologia disponibile era raccogliere e battere.

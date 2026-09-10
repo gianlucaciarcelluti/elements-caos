@@ -31,6 +31,9 @@ timeline
     1923 : Scoperta : Dirk Coster, Georg von Hevesy
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1923, l'anno dell'identificazione ai raggi X. La rivendicazione del 1911 sulla stessa casella, con il nome celtium, non è mai stata accettata e nelle tavole non compare.
+
 ## Storia della scoperta
 
 Nel primo Novecento la casella 72 della tavola periodica era una delle poche rimaste vuote, e non si sapeva dove collocarla: molti chimici la cercavano fra le terre rare, perché la serie dei lantanidi sembrava non essere ancora finita. Nel 1911 Georges Urbain annunciò di averla riempita con un elemento che chiamò celtium, ricavato dalle terre rare.

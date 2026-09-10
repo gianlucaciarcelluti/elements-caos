@@ -31,6 +31,9 @@ timeline
     1945 : Scoperta : Jacob Marinsky, Lawrence Glendenin, Charles Coryell
 ```
 
+> [!info] Nota sulla cronologia
+> L'elemento 61 fu identificato nel 1945 fra i prodotti di fissione dei reattori del progetto Manhattan, con la cromatografia a scambio ionico; l'annuncio pubblico arrivò solo nel 1947, con la declassificazione. Le rivendicazioni precedenti — florenzio (1926) e illinio — si basavano su righe spettrali che si rivelarono del didimio.
+
 ## Storia della scoperta
 
 Quando all'inizio del Novecento la serie delle terre rare fu completata, fra il neodimio e il samario restava una casella vuota. Doveva esserci qualcosa: il numero atomico non salta, e le regolarità della tavola periodica lo richiedevano. Ma nessuno riusciva a estrarlo dai minerali, per la ragione che si sarebbe capita solo dopo — in quei minerali non c'era.

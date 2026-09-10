@@ -11,11 +11,11 @@ scoperta:
   luogo: Karlsruhe, Germania
   epoca: spettroscopia
   isolamento_anno: null
-  note_cronologia: 'Scoperto due volte e con due nomi: nel 1913 Fajans e Göhring individuarono
-    l''isotopo a vita brevissima e lo chiamarono brevium; fra il 1917 e il 1918 Otto Hahn
-    e Lise Meitner, e indipendentemente Frederick Soddy e John Cranston, trovarono l''isotopo
-    a vita lunga. Il nome protoattinio, proposto da Meitner, fu confermato dalla IUPAC nel
-    1949.'
+  note_cronologia: La cronologia adotta il 1913, anno in cui Fajans e Göhring individuarono
+    l'isotopo a vita brevissima e lo chiamarono brevium. Le fonti che datano il protoattinio
+    al 1917 o al 1918 si riferiscono invece alla seconda scoperta, quella dell'isotopo a vita
+    lunga, che è l'elemento come lo si conosce oggi. Il nome attuale, proposto da Meitner,
+    è stato fissato dalla IUPAC nel 1949.
   controversia: null
 proprieta:
   gruppo: 3

@@ -31,6 +31,9 @@ timeline
     1803 : Scoperta : Smithson Tennant
 ```
 
+> [!info] Nota sulla cronologia
+> Osservato nello stesso anno anche da Hippolyte-Victor Collet-Descotils e, a Parigi, da Fourcroy e Vauquelin, che però non ne raccolsero abbastanza per caratterizzarlo. La memoria di Tennant, che annuncia insieme iridio e osmio, fu letta alla Royal Society il 21 giugno 1804.
+
 ## Storia della scoperta
 
 La società fra Smithson Tennant e William Hyde Wollaston, nata nel 1800 per raffinare e vendere platino, aveva diviso il minerale prima ancora di dividersi il lavoro, e a Tennant era toccato ciò che l'acqua regia si rifiutava di sciogliere. Era la parte che tutti scartavano: Joseph Louis Proust l'aveva presa per grafite, e la maggioranza dei chimici la buttava via come impurità del minerale.

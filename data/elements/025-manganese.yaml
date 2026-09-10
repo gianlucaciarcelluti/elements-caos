@@ -10,11 +10,9 @@ scoperta:
   luogo: null
   epoca: pneumatica
   isolamento_anno: 1774
-  note_cronologia: 'Bergman riconosce nella pirolusite un metallo nuovo intorno al 1770 e non
-    riesce a estrarlo. Nel 1774 Carl Wilhelm Scheele analizza il minerale e conferma la presenza
-    dell''elemento senza isolarlo; nello stesso anno Johan Gottlieb Gahn ottiene il metallo
-    riducendo il biossido con il carbone. Le fonti attribuiscono il riconoscimento a Bergman,
-    Scheele e altri, e l''isolamento a Gahn.'
+  note_cronologia: 'Bergman riconosce nella pirolusite un metallo nuovo intorno al 1770 e
+    non riesce a estrarlo. Le fonti attribuiscono il riconoscimento a Bergman, Scheele e altri,
+    e l''isolamento a Gahn: la cronologia adotta il 1774, che è l''anno di entrambe le cose.'
   controversia: null
 proprieta:
   gruppo: 7
@@ -49,20 +47,20 @@ contenuti:
   beats:
   - id: incipit_generale
     sezione: incipit
-    testo: 'Il manganese è un metallo grigio, duro e fragile, che praticamente nessuno ha mai
-      visto e senza il quale non esisterebbe l''acciaio. È il dodicesimo elemento per abbondanza
-      nella crosta terrestre e il quarto metallo più usato al mondo, eppure non compare mai da
-      solo in un oggetto: lavora sempre dentro qualcos''altro, disciolto in una lega o
-      mascherato in un ossido, il che spiega perché la sua fama sia sproporzionatamente piccola
-      rispetto alla sua importanza.'
+    testo: 'Il manganese è un metallo grigio, duro e fragile, che praticamente nessuno ha
+      mai visto e senza il quale non esisterebbe l''acciaio. È il dodicesimo elemento per
+      abbondanza nella crosta terrestre e il quarto metallo più usato al mondo, eppure non
+      compare mai da solo in un oggetto: lavora sempre dentro qualcos''altro, disciolto in
+      una lega o mascherato in un ossido, il che spiega perché la sua fama sia sproporzionatamente
+      piccola rispetto alla sua importanza.'
     visual: Lingotto di manganese elettrolitico dalla superficie grigia e cristallina
     attendibilita: documentato
   - id: pitture_rupestri
     sezione: storia
     testo: 'Il biossido di manganese è uno dei più antichi materiali con cui l''uomo abbia
       lasciato un segno. I neri delle pitture rupestri sono in buona parte ossidi di manganese:
-      nella grotta di Gargas, nei Pirenei, li si trova in opere datate fra i trentamila e i
-      ventiquattromila anni fa, e lo stesso pigmento compare a Lascaux. I Neanderthal ne
+      nella grotta di Gargas, nei Pirenei, li si trova in opere datate fra i trentamila e
+      i ventiquattromila anni fa, e lo stesso pigmento compare a Lascaux. I Neanderthal ne
       raccoglievano piccoli blocchi, alcuni dei quali portano segni di abrasione, e sulla
       destinazione di quei blocchi gli archeologi discutono ancora: la spiegazione tradizionale
       è la decorazione del corpo, ma è stato proposto che servissero ridotti in polvere per
@@ -72,52 +70,51 @@ contenuti:
     attendibilita: documentato
   - id: sapone_dei_vetrai
     sezione: storia
-    testo: 'Il secondo mestiere del minerale è l''opposto del primo: invece di annerire,
-      schiarisce. Il ferro presente come impurità nella sabbia colora il vetro di un verde
-      bottiglia che i vetrai egizi e romani volevano eliminare, e una piccola aggiunta di
-      pirolusite lo neutralizza otticamente, restituendo un vetro incolore. La tecnica
-      attraversò il Medioevo e arrivò intatta all''età moderna con un nome che dice tutto,
-      sapone dei vetrai.'
+    testo: 'Il secondo mestiere del minerale è l''opposto del primo: invece di annerire, schiarisce.
+      Il ferro presente come impurità nella sabbia colora il vetro di un verde bottiglia che
+      i vetrai egizi e romani volevano eliminare, e una piccola aggiunta di pirolusite lo
+      neutralizza otticamente, restituendo un vetro incolore. La tecnica attraversò il Medioevo
+      e arrivò intatta all''età moderna con un nome che dice tutto, sapone dei vetrai.'
     visual: Due coppe di vetro affiancate, una verdastra e una perfettamente incolore
     attendibilita: documentato
   - id: magnes
     sezione: storia
-    testo: 'Il nome viene da un equivoco antico. La pirolusite somiglia alla magnetite ed era
-      chiamata anch''essa magnes, pietra di Magnesia, dalla regione della Tessaglia da cui
-      provenivano entrambi i minerali neri; per distinguerle si prese a dire che l''una era di
-      sesso maschile e l''altra femminile. Da quella confusione linguistica sono usciti tre
-      termini che oggi indicano cose diverse: magnete, magnesio e manganese, imparentati fra
-      loro e non con ciò che nominano.'
+    testo: 'Il nome viene da un equivoco antico. La pirolusite somiglia alla magnetite ed
+      era chiamata anch''essa magnes, pietra di Magnesia, dalla regione della Tessaglia da
+      cui provenivano entrambi i minerali neri; per distinguerle si prese a dire che l''una
+      era di sesso maschile e l''altra femminile. Da quella confusione linguistica sono usciti
+      tre termini che oggi indicano cose diverse: magnete, magnesio e manganese, imparentati
+      fra loro e non con ciò che nominano.'
     visual: Frammento di magnetite e frammento di pirolusite, indistinguibili a occhio nudo
     attendibilita: documentato
   - id: bergman_scheele_gahn
     sezione: storia
-    testo: 'Che nella pirolusite ci fosse un metallo sconosciuto lo sostiene intorno al 1770
-      Torbern Bergman, il professore di chimica di Uppsala, che però non riesce a cavarlo dal
-      minerale. Nel 1774 Carl Wilhelm Scheele ne esamina un campione, vi ritrova calce, silice e
-      ferro, e conferma che oltre a questi c''è un elemento nuovo, ma neanche lui riesce a
-      separarlo. A risolvere il problema è nello stesso anno Johan Gottlieb Gahn, che scalda il
-      biossido con il carbone in un crogiolo e ottiene un granulo di metallo impuro.'
+    testo: Che nella pirolusite ci fosse un metallo sconosciuto lo sostiene intorno al 1770
+      Torbern Bergman, il professore di chimica di Uppsala, che però non riesce a cavarlo
+      dal minerale. Nel 1774 Carl Wilhelm Scheele ne esamina un campione, vi ritrova calce,
+      silice e ferro, e conferma che oltre a questi c'è un elemento nuovo, ma neanche lui
+      riesce a separarlo. A risolvere il problema è nello stesso anno Johan Gottlieb Gahn,
+      che scalda il biossido con il carbone in un crogiolo e ottiene un granulo di metallo
+      impuro.
     visual: Crogiolo aperto con il granulo metallico fra i residui di carbone
     attendibilita: documentato
   - id: divisione_del_lavoro
     sezione: storia
     testo: 'La vicenda mostra una divisione del lavoro che nel Settecento svedese si ripete
       spesso: c''è chi individua l''anomalia, chi la circoscrive analiticamente e chi trova
-      l''espediente tecnico per portarla a compimento. Le fonti attribuiscono infatti il
-      riconoscimento dell''elemento a Bergman, a Scheele e ad altri, e l''isolamento a Gahn, che
-      era un metallurgista di mestiere e possedeva le fornaci giuste. Nessuno dei tre avrebbe
-      concluso da solo.'
+      l''espediente tecnico per portarla a compimento. Le fonti attribuiscono infatti il riconoscimento
+      dell''elemento a Bergman, a Scheele e ad altri, e l''isolamento a Gahn, che era un metallurgista
+      di mestiere e possedeva le fornaci giuste. Nessuno dei tre avrebbe concluso da solo.'
     visual: I tre laboratori svedesi collegati dalle lettere che si scambiavano
     attendibilita: documentato
   - id: caratteristiche_stati
     sezione: caratteristiche
     testo: 'Il manganese è il campione degli stati di ossidazione: la letteratura ne registra
-      una gamma che va da meno tre a più sette, e i più comuni nella pratica sono più due, più
-      quattro e più sette. A ciascuno corrisponde un colore diverso, il che rende i suoi
+      una gamma che va da meno tre a più sette, e i più comuni nella pratica sono più due,
+      più quattro e più sette. A ciascuno corrisponde un colore diverso, il che rende i suoi
       composti un catalogo cromatico da manuale, dal rosa pallido dello ione più due al viola
-      intenso del permanganato, uno degli ossidanti più usati nei laboratori didattici di tutto
-      il mondo.'
+      intenso del permanganato, uno degli ossidanti più usati nei laboratori didattici di
+      tutto il mondo.'
     visual: Fila di provette con i composti di manganese ai diversi stati di ossidazione
     attendibilita: documentato
   - id: caratteristiche_fragile
@@ -131,18 +128,18 @@ contenuti:
     attendibilita: documentato
   - id: caratteristiche_fotosintesi
     sezione: caratteristiche
-    testo: 'In biologia il manganese occupa un posto che nessun altro elemento potrebbe
-      prendere. Al centro del fotosistema II delle piante c''è un complesso di quattro atomi di
-      manganese e uno di calcio: è la struttura che rompe la molecola d''acqua e libera
-      l''ossigeno, cioè il punto esatto in cui la fotosintesi produce l''aria che respiriamo.
-      L''ossigeno dell''atmosfera esce, letteralmente, da un catalizzatore al manganese.'
+    testo: 'In biologia il manganese occupa un posto che nessun altro elemento potrebbe prendere.
+      Al centro del fotosistema II delle piante c''è un complesso di quattro atomi di manganese
+      e uno di calcio: è la struttura che rompe la molecola d''acqua e libera l''ossigeno,
+      cioè il punto esatto in cui la fotosintesi produce l''aria che respiriamo. L''ossigeno
+      dell''atmosfera esce, letteralmente, da un catalizzatore al manganese.'
     visual: Il complesso a quattro atomi di manganese del fotosistema II
     attendibilita: documentato
   - id: usi_acciaio
     sezione: usi
     testo: 'Fino al novanta per cento del manganese consumato nel mondo va all''industria
-      dell''acciaio, e vi svolge due mestieri: durante l''affinazione cattura l''ossigeno e
-      soprattutto lo zolfo, che altrimenti renderebbero il metallo fragile a caldo, e come
+      dell''acciaio, e vi svolge due mestieri: durante l''affinazione cattura l''ossigeno
+      e soprattutto lo zolfo, che altrimenti renderebbero il metallo fragile a caldo, e come
       elemento di lega ne aumenta tenacità e resistenza. Ne bastano dai sei ai nove chilogrammi
       per tonnellata di acciaio, e il servizio geologico degli Stati Uniti registra che per
       questo impiego non esiste sostituto soddisfacente.'
@@ -150,8 +147,8 @@ contenuti:
     attendibilita: documentato
   - id: usi_batterie
     sezione: usi
-    testo: 'Il secondo impiego per volume è dentro le pile che si comprano al supermercato: il
-      biossido di manganese è il materiale catodico delle pile alcaline e delle vecchie
+    testo: 'Il secondo impiego per volume è dentro le pile che si comprano al supermercato:
+      il biossido di manganese è il materiale catodico delle pile alcaline e delle vecchie
       zinco-carbone, dove riceve gli elettroni che lo zinco cede. La chimica delle batterie
       gliene sta assegnando un altro, perché i catodi al litio-nichel-manganese-cobalto delle
       auto elettriche sostituiscono con il manganese, abbondante ed economico, parte del cobalto
@@ -160,21 +157,21 @@ contenuti:
     attendibilita: documentato
   - id: curiosita_noduli
     sezione: curiosita
-    testo: 'Sui fondali oceanici, a migliaia di metri di profondità, il manganese si raccoglie
+    testo: Sui fondali oceanici, a migliaia di metri di profondità, il manganese si raccoglie
       da solo in concrezioni tondeggianti grandi come patate, i noduli polimetallici, che
-      crescono di pochi millimetri per milione di anni attorno a un frammento di conchiglia o a
-      un dente di squalo. Contengono anche nichel, rame e cobalto, e sono l''oggetto del
-      dibattito sull''estrazione mineraria in mare profondo, dove il giacimento coincide con un
-      ecosistema che nessuno ha ancora finito di descrivere.'
+      crescono di pochi millimetri per milione di anni attorno a un frammento di conchiglia
+      o a un dente di squalo. Contengono anche nichel, rame e cobalto, e sono l'oggetto del
+      dibattito sull'estrazione mineraria in mare profondo, dove il giacimento coincide con
+      un ecosistema che nessuno ha ancora finito di descrivere.
     visual: Noduli polimetallici sparsi sul sedimento abissale
     attendibilita: documentato
   - id: curiosita_hadfield
     sezione: curiosita
     testo: 'Nel 1882 Robert Hadfield brevettò un acciaio con circa il dodici per cento di
-      manganese che si comporta in modo contrario all''intuizione: è relativamente tenero finché
-      lo si lascia stare, ma quando viene percosso la superficie si incrudisce e diventa
-      durissima, mentre il cuore resta tenace. Più lo si martella, più resiste. Da allora è il
-      materiale delle mascelle dei frantoi, dei cingoli delle scavatrici e degli scambi
+      manganese che si comporta in modo contrario all''intuizione: è relativamente tenero
+      finché lo si lascia stare, ma quando viene percosso la superficie si incrudisce e diventa
+      durissima, mentre il cuore resta tenace. Più lo si martella, più resiste. Da allora
+      è il materiale delle mascelle dei frantoi, dei cingoli delle scavatrici e degli scambi
       ferroviari.'
     visual: Cuore di uno scambio ferroviario in acciaio al manganese lucidato dall'uso
     attendibilita: documentato
@@ -210,15 +207,15 @@ fonti:
   titolo: Manganese
   consultata: '2026-09-07'
 - url: https://pubs.usgs.gov/fs/2014/3087/pdf/fs2014-3087.pdf
-  titolo: 'USGS, Manganese — It Turns Iron Into Steel (Fact Sheet 2014-3087)'
+  titolo: USGS, Manganese — It Turns Iron Into Steel (Fact Sheet 2014-3087)
   consultata: '2026-09-07'
 - url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-manganese.pdf
-  titolo: 'USGS, Mineral Commodity Summaries 2025 — Manganese'
+  titolo: USGS, Mineral Commodity Summaries 2025 — Manganese
   consultata: '2026-09-07'
 - url: https://periodic.lanl.gov/25.shtml
-  titolo: 'Manganese (Los Alamos National Laboratory, Periodic Table of Elements)'
+  titolo: Manganese (Los Alamos National Laboratory, Periodic Table of Elements)
   consultata: '2026-09-07'
 - url: https://doi.org/10.1038/srep22159
-  titolo: 'P. J. Heyes et al., Selection and Use of Manganese Dioxide by Neanderthals,
-    Scientific Reports 6 (2016), 22159'
+  titolo: P. J. Heyes et al., Selection and Use of Manganese Dioxide by Neanderthals, Scientific
+    Reports 6 (2016), 22159
   consultata: '2026-09-07'

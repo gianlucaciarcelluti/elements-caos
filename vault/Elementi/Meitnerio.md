@@ -31,6 +31,9 @@ timeline
     1982 : Scoperta : Peter Armbruster, Gottfried Münzenberg
 ```
 
+> [!info] Nota sulla cronologia
+> La data è quella del singolo atomo rivelato il 29 agosto 1982. Il nome, proposto dal GSI nel 1992, è l'unico di questa riga della tavola a non essere mai stato contestato da alcun laboratorio concorrente: la IUPAC lo ha raccomandato nel 1994 e confermato nel 1997.
+
 ## Storia della scoperta
 
 L'atomo arrivò il 29 agosto 1982. Il gruppo di Peter Armbruster e Gottfried Münzenberg bombardava bismuto-209 con ioni di ferro-58, e il separatore consegnò ai rivelatori un nucleo di meitnerio-266, che decadde subito. Fu l'unico dell'intera campagna sperimentale.

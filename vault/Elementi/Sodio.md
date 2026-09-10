@@ -31,6 +31,9 @@ timeline
     1807 : Scoperta : Humphry Davy
 ```
 
+> [!info] Nota sulla cronologia
+> Georg Ernst Stahl distinse chimicamente il sale di sodio già nel 1702, ma non isolò l'elemento: la scoperta riconosciuta è l'elettrolisi di Davy.
+
 ## Storia della scoperta
 
 All'inizio dell'Ottocento la chimica dispone di uno strumento nuovo, la pila voltaica, inventata da Alessandro Volta pochi anni prima. Per la prima volta è possibile far passare corrente elettrica continua attraverso una sostanza e osservare cosa succede: la corrente scinde legami che il fuoco e i reagenti chimici tradizionali non erano mai riusciti a rompere.

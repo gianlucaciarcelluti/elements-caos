@@ -32,6 +32,9 @@ timeline
     1895 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Individuato nello spettro della cromosfera solare durante l'eclissi del 18 agosto 1868 da Pierre Jules César Janssen, e riconosciuto come elemento nuovo da Norman Lockyer, che gli diede il nome. La cronologia adotta quel 1868 e non il 1895 in cui l'elio fu trovato sulla Terra: è la sola casella della tavola datata a un'osservazione fatta fuori dal pianeta.
+
 ## Storia della scoperta
 
 Il 18 agosto 1868 l'astronomo francese Jules Janssen osservò l'eclissi totale di Sole dall'India, puntando lo spettroscopio sulla cromosfera, lo strato di gas che l'eclissi rende visibile attorno al disco. Nello spettro trovò una riga gialla brillante alla lunghezza d'onda di 587,49 nanometri, molto vicina alle righe del sodio ma non coincidente con nessuna delle due.

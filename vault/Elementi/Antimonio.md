@@ -31,6 +31,9 @@ timeline
     3000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> La data si riferisce all'uso della stibnite, solfuro di antimonio, come cosmetico e non all'antimonio metallico: sul primo oggetto in antimonio metallico le fonti sono discordi.
+
 ## Storia della scoperta
 
 La sostanza che apre la vicenda è la stibnite, solfuro di antimonio, un minerale grigio scuro e lucente facilissimo da ridurre in polvere. Nell'Egitto predinastico, intorno al 3100 a.C., quella polvere è già in uso come cosmetico per gli occhi, il kohl, e da lì si diffonde in tutto il Vicino Oriente e nel Nordafrica, dove è rimasta in uso senza interruzione fino a oggi.

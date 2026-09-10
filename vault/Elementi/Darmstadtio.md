@@ -31,6 +31,9 @@ timeline
     1994 : Scoperta : Sigurd Hofmann, Peter Armbruster, Gottfried Münzenberg
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia di riferimento comprimeva gli scopritori in «Hofmann et al.»: l'articolo del 1995 è firmato da tredici autori, e qui restano i tre nomi che le fonti secondarie isolano sempre. Victor Ninov, secondo firmatario, resta fuori dal campo perché il quarto evento annunciato per il 9 novembre 1994 si basava su dati da lui fabbricati ed è stato ritirato. Il nome è ufficiale dal 16 agosto 2003.
+
 ## Storia della scoperta
 
 La campagna del novembre 1994 usava piombo-208 come bersaglio e ioni di nichel-62 come proiettili. Il 9 novembre il gruppo guidato da Sigurd Hofmann, con Peter Armbruster e Gottfried Münzenberg, registrò un atomo di darmstadtio-269; ne seguirono un secondo il 12 e un terzo il 17. Con un fascio di nichel-64, nella stessa serie di esperimenti, si ottennero poi nove atomi di darmstadtio-271, riconosciuti dalla correlazione con i decadimenti dei figli già noti.

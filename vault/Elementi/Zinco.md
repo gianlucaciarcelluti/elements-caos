@@ -32,6 +32,9 @@ timeline
     1746 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La data convenzionale colloca lo zinco nell'area mineraria indiana del Rajasthan, dove l'attività estrattiva è documentata dalla metà del I millennio a.C. La distillazione dello zinco metallico è però più tarda; in Europa Andreas Marggraf ne pubblica l'isolamento nel 1746, quattro anni dopo la distillazione di Anton von Swab.
+
 ## Storia della scoperta
 
 Il numero è novecentosette, i gradi a cui lo zinco bolle. Per estrarlo dal minerale bisogna scaldarlo con il carbone oltre i novecentocinquanta, cioè oltre il suo punto di ebollizione: nel momento stesso in cui il metallo si forma è già vapore, esce dal forno e a contatto con l'aria si riossida in fumo bianco. Ogni fornace normale, applicata allo zinco, produce fumo e niente altro. Per averlo bisogna condensarne il vapore al riparo dall'aria, un'idea che non viene in mente a nessuno finché non serve.

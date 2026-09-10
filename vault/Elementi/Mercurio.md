@@ -31,6 +31,9 @@ timeline
     1500 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> La data convenzionale si riferisce ai ritrovamenti di mercurio in tombe egizie del XVI-XV secolo a.C. Il cinabro, il minerale da cui si estrae, era già usato come pigmento nel Neolitico: il metallo liquido viene dopo, e richiede di sapere che riscaldando quel rosso se ne ricava.
+
 ## Storia della scoperta
 
 La storia del mercurio comincia dal suo minerale. Il cinabro, solfuro di mercurio, è una pietra rosso acceso, macinata come pigmento fin dal Neolitico: quel rosso è il vermiglione, il colore più prezioso della pittura antica. Riscaldandolo, però, il minerale si decompone e il metallo se ne stacca come vapore che ricondensa in gocce: un passaggio semplicissimo da eseguire e difficilissimo da immaginare.

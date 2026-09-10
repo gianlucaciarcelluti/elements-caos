@@ -31,6 +31,9 @@ timeline
     1939 : Scoperta : Marguerite Perey
 ```
 
+> [!info] Nota sulla cronologia
+> La data segue l'individuazione fatta da Marguerite Perey il 7 gennaio 1939. Le rivendicazioni precedenti sulla casella 87 — russium, alkalinium, virginium, moldavium — non sono mai state confermate e nelle tavole non compaiono.
+
 ## Storia della scoperta
 
 Alla fine degli anni Trenta la casella 87, sotto il cesio, era una delle ultime rimaste vuote fra gli elementi naturali. Era stata rivendicata più volte, con nomi come russium, alkalinium, virginium e moldavium, e ogni volta la rivendicazione era caduta: l'elemento c'era davvero, ma nessuno aveva guardato dove bisognava.

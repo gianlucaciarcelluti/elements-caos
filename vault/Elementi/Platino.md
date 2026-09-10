@@ -32,6 +32,9 @@ timeline
     1752 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La data convenzionale si riferisce alla cultura La Tolita della costa pacifica sudamericana, che lavorava il platino per sinterizzazione. In Europa il metallo entra nella letteratura scientifica con la descrizione di Henrik Teofilus Scheffer nel 1752, dopo i campioni raccolti da Charles Wood nel 1741.
+
 ## Storia della scoperta
 
 Nella regione di Esmeraldas, sulla costa pacifica dell'attuale Ecuador, gli orafi della cultura La Tolita risolsero il problema del punto di fusione ignorandolo. Setacciavano dai fiumi i granuli di platino nativo, li mescolavano a polvere d'oro e scaldavano l'impasto: l'oro, che fonde molto più in basso, rammolliva e faceva da legante fra i granuli di platino, che restavano solidi. Il pezzo veniva poi martellato e ricotto a ripetizione finché la massa non diventava omogenea e lavorabile.

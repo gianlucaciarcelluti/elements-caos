@@ -31,6 +31,9 @@ timeline
     1961 : Scoperta : Albert Ghiorso, Torbjørn Sikkeland, Almon E. Larsh, Robert M. Latimer
 ```
 
+> [!info] Nota sulla cronologia
+> Rivendicato da Berkeley il 14 febbraio 1961 da Ghiorso, Sikkeland, Larsh e Latimer — la cronologia di riferimento li comprimeva in «Ghiorso et al.» — con l'isotopo indicato come laurenzio-257, attribuzione poi corretta in laurenzio-258. Dubna raggiunse l'elemento nel 1965 e ne dimostrò la chimica da attinide; nel 1992 il Transfermium Working Group ha assegnato a Berkeley e Dubna un credito condiviso. Il simbolo è passato da Lw a Lr nel 1963.
+
 ## Storia della scoperta
 
 L'esperimento del 1961 usò un bersaglio di tre milligrammi di californio — una quantità enorme per gli standard di questa parte della tavola — composto da tre isotopi diversi, bombardato con ioni di boro-10 e boro-11 accelerati dall'acceleratore lineare per ioni pesanti di Berkeley. Gli atomi prodotti rinculavano su un nastro metallico che li portava davanti a una fila di rivelatori, un pezzo di nastro alla volta.

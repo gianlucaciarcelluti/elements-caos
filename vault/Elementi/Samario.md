@@ -31,6 +31,9 @@ timeline
     1879 : Scoperta : Paul-Émile Lecoq de Boisbaudran
 ```
 
+> [!info] Nota sulla cronologia
+> Lecoq de Boisbaudran ne separò l'ossido dal didimio della samarskite nel 1879, ed è quella la data adottata: l'ossido puro arriva nel 1901 e il metallo nel 1903.
+
 ## Storia della scoperta
 
 Negli anni Quaranta dell'Ottocento negli Urali si trovò un minerale nero e pesante che fu chiamato samarskite in onore di Vasilij Samarskij-Bychovec, l'ufficiale che dirigeva il corpo minerario russo e che aveva concesso ai mineralogisti tedeschi di studiarne i campioni. Il nome, dato al minerale, sarebbe poi passato all'elemento.

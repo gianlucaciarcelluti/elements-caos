@@ -31,6 +31,9 @@ timeline
     2003 : Scoperta : Yuri Oganessian, Kenton Moody
 ```
 
+> [!info] Nota sulla cronologia
+> La data è quella della sintesi, nell'agosto del 2003; il riconoscimento IUPAC è del dicembre 2015, dopo le conferme indipendenti arrivate da Lund nel 2013 e da Berkeley nel 2015. Il nome, ufficiale dal 28 novembre 2016, viene dall'oblast' di Mosca, la regione in cui si trova Dubna, e non dalla città.
+
 ## Storia della scoperta
 
 L'agosto del 2003 il gruppo di Jurij Oganesjan bombardò un bersaglio di americio-243 con ioni di calcio-48 e ottenne quattro atomi dell'elemento 115, in due isotopi. Ciascuno visse circa un decimo di secondo prima di emettere una particella alfa e diventare nihonio, che a sua volta decadde in roentgenio e poi giù lungo la catena.

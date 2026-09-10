@@ -32,6 +32,9 @@ timeline
     1753 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Data convenzionale degli alchimisti europei: intorno al 1500 il bismuto è materiale corrente nelle miniere e nelle tipografie sassoni, ma è considerato una varietà di piombo o di stagno. La distinzione come metallo autonomo è di Georgius Agricola nel 1546; la dimostrazione sperimentale che non è né piombo né stagno arriva da Claude François Geoffroy nel 1753.
+
 ## Storia della scoperta
 
 Il bismuto è fra i primi metalli che l'umanità ha maneggiato, e insieme fra gli ultimi a ricevere un nome proprio. Il problema è che sta in mezzo: fonde poco sopra i duecentosettanta gradi come lo stagno, è pesante e tenero come il piombo, e cristallizza fragile come l'antimonio. Chiunque lo trovasse lo classificava come una varietà di uno dei tre, e nei minerali si presenta spesso insieme a loro, il che rendeva l'equivoco quasi obbligato.

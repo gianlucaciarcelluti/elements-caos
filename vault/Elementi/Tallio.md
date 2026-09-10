@@ -32,6 +32,9 @@ timeline
     1862 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Scoperta contesa: William Crookes vide per primo la riga verde e pubblicò il 30 marzo 1861, ma fu Claude-Auguste Lamy, in Francia, a isolare il metallo e a caratterizzarlo. La cronologia adotta il 1861 e accredita Crookes, secondo la regola che privilegia l'osservazione sull'isolamento.
+
 ## Storia della scoperta
 
 Nel 1861 William Crookes stava cercando tellurio nei residui di una fabbrica di acido solforico, la fanghiglia che si accumula nelle camere di piombo e che in quegli anni era diventata la miniera preferita dei chimici. Puntandoci lo spettroscopio trovò una riga verde brillante che non corrispondeva a nulla di noto, e ne dedusse un elemento nuovo.

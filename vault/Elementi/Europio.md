@@ -31,6 +31,9 @@ timeline
     1901 : Scoperta : Eugène-Anatole Demarçay
 ```
 
+> [!info] Nota sulla cronologia
+> Demarçay sospettò l'esistenza dell'elemento già nel 1896, osservando righe che nei campioni di samario non tornavano, e riuscì a isolarlo solo nel 1901. È lo stesso spettroscopista che confermò ai coniugi Curie la presenza del radio nei loro campioni.
+
 ## Storia della scoperta
 
 Nel 1896 Eugène-Anatole Demarçay, a Parigi, studiava allo spettroscopio i campioni di samario che circolavano fra i chimici e notò righe che al samario non appartenevano. Non annunciò un elemento: annunciò un sospetto, e si mise a lavorare per dimostrarlo.

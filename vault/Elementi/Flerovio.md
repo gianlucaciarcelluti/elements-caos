@@ -31,6 +31,9 @@ timeline
     2006 : Scoperta : Yuri Oganessian, Kenton Moody
 ```
 
+> [!info] Nota sulla cronologia
+> Il primo atomo è del dicembre 1998, ma la cronologia di riferimento data l'elemento al 2006, anno degli esperimenti che hanno reso conclusiva la rivendicazione; la IUPAC lo ha riconosciuto nel 2011. È la ragione per cui in questo racconto il flerovio compare dopo il livermorio e il moscovio, che sono stati prodotti dopo di lui.
+
 ## Storia della scoperta
 
 Il primo atomo comparve a Dubna nel dicembre del 1998, in una collaborazione fra l'istituto russo e il laboratorio di Livermore guidata da Jurij Oganesjan. Il bersaglio era plutonio-244, il proiettile calcio-48, e l'unico nucleo prodotto sopravvisse trenta secondi prima di emettere una particella alfa: un tempo enorme per quella regione della tavola, ed è la ragione per cui il risultato fece impressione. Quell'attività non è però mai più stata osservata in alcun esperimento successivo, e a quale isotopo appartenesse resta incerto. La conferma dell'elemento richiese anni di lavoro ulteriore, e la IUPAC lo riconobbe nel 2011.

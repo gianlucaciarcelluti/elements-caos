@@ -31,6 +31,9 @@ timeline
     1898 : Scoperta : Pierre Curie, Marie Curie
 ```
 
+> [!info] Nota sulla cronologia
+> Primo elemento scoperto per via radiometrica: i Curie lo individuarono nel luglio 1898 seguendo l'attività residua della pechblenda dopo la rimozione di uranio e torio, senza averne isolato una quantità pesabile. Il nome fu scelto da Marie Curie per la Polonia, allora divisa fra tre imperi.
+
 ## Storia della scoperta
 
 Nel 1898 Marie e Pierre Curie stavano misurando la radioattività dei minerali di uranio con l'elettrometro messo a punto da Pierre e dal fratello. Trovarono un'anomalia: la pechblenda, tolti l'uranio e il torio, restava più attiva di quanto quei due elementi giustificassero. La differenza era di un fattore quattro, troppo grande per essere un errore di misura.

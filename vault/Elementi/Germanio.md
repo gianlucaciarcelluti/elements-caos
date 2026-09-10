@@ -31,6 +31,9 @@ timeline
     1886 : Scoperta : Clemens Winkler
 ```
 
+> [!info] Nota sulla cronologia
+> Corrisponde all'eka-silicio previsto da Mendeleev nel 1869. Winkler lo isolò inseguendo il sette per cento di massa che non riusciva ad attribuire nell'analisi dell'argirodite, e in un primo momento lo credette l'eka-antimonio.
+
 ## Storia della scoperta
 
 Nel 1869 Mendeleev aveva previsto un elemento nella casella vuota sotto il silicio, l'eka-silicio, indicandone la massa atomica intorno a 70, la densità, il colore grigio e perfino il comportamento del suo ossido e del suo cloruro. Era la terza delle sue previsioni verificabili, e la più dettagliata.

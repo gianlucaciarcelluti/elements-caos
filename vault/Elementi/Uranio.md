@@ -32,6 +32,9 @@ timeline
     1841 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Klaproth riconosce l'elemento nella pechblenda nel 1789 e lo battezza dal pianeta Urano; la polvere nera che ritiene metallo è in realtà un ossido. Il metallo è ottenuto nel 1841 da Eugène-Melchior Péligot, riducendo il tetracloruro di uranio con il potassio.
+
 ## Storia della scoperta
 
 Tutto comincia da un minerale che i minatori consideravano una iattura. Nelle miniere d'argento dei monti Metalliferi, al confine fra Sassonia e Boemia, compariva una roccia nera, pesante e lucida come pece, che annunciava la fine della vena d'argento e non dava nulla in cambio: la chiamavano Pechblende, dove Blende indica appunto un minerale che inganna. La si scartava sui cumuli di sterile.

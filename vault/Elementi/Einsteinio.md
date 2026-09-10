@@ -31,6 +31,9 @@ timeline
     1952 : Scoperta : Albert Ghiorso, Stanley Gerald Thompson, Glenn Seaborg
 ```
 
+> [!info] Nota sulla cronologia
+> La data è quella del test Ivy Mike, il 1º novembre 1952, e non quella dell'annuncio pubblico, che arrivò tre anni dopo. La scoperta è di una collaborazione fra Berkeley, Argonne e Los Alamos con una ventina di autori, che la cronologia di riferimento comprimeva in «Seaborg et al.»: qui restano i tre nomi che le fonti secondarie isolano sempre.
+
 ## Storia della scoperta
 
 Il 1º novembre 1952 gli Stati Uniti fecero esplodere a Enewetak, nelle isole Marshall, il primo ordigno termonucleare della storia: il test Ivy Mike, dieci megatoni, quasi mille volte la bomba di Hiroshima. L'isola di Elugelab scomparve, lasciando un cratere sott'acqua largo due chilometri. Dentro la palla di fuoco l'uranio del dispositivo si trovò immerso in un flusso di neutroni così intenso che alcuni nuclei ne catturarono una quindicina ciascuno in una frazione di secondo, per poi risalire la tavola periodica decadendo.

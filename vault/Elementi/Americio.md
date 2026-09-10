@@ -31,6 +31,9 @@ timeline
     1944 : Scoperta : Glenn Seaborg, Ralph Arthur James, Leon Owen Morgan, Albert Ghiorso
 ```
 
+> [!info] Nota sulla cronologia
+> La data è quella della produzione, nell'autunno del 1944 dentro il progetto Manhattan; l'annuncio pubblico è del novembre 1945. La cronologia di riferimento comprimeva la squadra in «Seaborg et al.»: i quattro nomi sono quelli dell'articolo di Berkeley.
+
 ## Storia della scoperta
 
 Nell'autunno del 1944, a Berkeley, il gruppo di Glenn Seaborg bombardò con neutroni un bersaglio di plutonio-239 e ottenne l'elemento 95. La squadra comprendeva Ralph James, Leon Morgan e Albert Ghiorso, e la separazione chimica fu completata al Metallurgical Laboratory dell'Università di Chicago, dentro il progetto Manhattan.

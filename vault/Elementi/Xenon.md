@@ -31,6 +31,9 @@ timeline
     1898 : Scoperta : William Ramsay, Morris Travers
 ```
 
+> [!info] Nota sulla cronologia
+> Terzo e ultimo dei gas nobili che Ramsay e Travers ricavarono nel 1898 dall'aria liquida, isolato il 12 luglio. Nel 1962 Neil Bartlett ne preparò il primo composto, l'esafluoroplatinato di xeno, smentendo l'inerzia assoluta dei gas nobili.
+
 ## Storia della scoperta
 
 Il 12 luglio 1898 William Ramsay e Morris Travers arrivarono in fondo alla loro distillazione dell'aria liquida: nella frazione più pesante, dopo il cripton e il neon, restava ancora un gas. Le sue righe spettrali erano nuove, e ne chiamarono xenon, dal greco xenos, «straniero», «ospite».

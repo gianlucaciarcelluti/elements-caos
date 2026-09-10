@@ -31,6 +31,9 @@ timeline
     1880 : Scoperta : Jean Charles Galissard de Marignac
 ```
 
+> [!info] Nota sulla cronologia
+> Marignac ne osservò le righe nel 1880 senza riuscire a isolarlo; fu Lecoq de Boisbaudran a separarlo nel 1886 e a dargli il nome, dal minerale gadolinite. Il metallo puro è del 1935, ottenuto da Félix Trombe.
+
 ## Storia della scoperta
 
 Nel 1880, a Ginevra, Jean Charles Galissard de Marignac osservò allo spettroscopio righe che non appartenevano a nessun elemento noto in campioni ricavati dalla gadolinite e dal didimio. Non riuscì a isolare la sostanza, ma l'osservazione era netta abbastanza da valere un annuncio: era il secondo elemento che trovava in due anni, dopo l'itterbio.

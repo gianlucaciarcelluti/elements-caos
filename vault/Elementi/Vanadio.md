@@ -32,6 +32,9 @@ timeline
     1867 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Del Río ritirò la propria rivendicazione nel 1805, convinto da Collet-Descotils che si trattasse di cromo. L'elemento fu ritrovato nel 1830 da Nils Gabriel Sefström, che gli diede il nome, e Friedrich Wöhler ne riconobbe nel 1831 l'identità con l'eritronio di del Río. Isolato in forma pura nel 1867 da Henry Enfield Roscoe.
+
 ## Storia della scoperta
 
 Nel 1801 Andrés Manuel del Río insegnava mineralogia al Real Seminario de Minería di Città del Messico, la prima scuola mineraria del continente americano. Analizzando un minerale di piombo che i minatori chiamavano «piombo bruno» — lo stesso che molto più tardi sarebbe stato battezzato vanadinite — ne ricavò sali di colori diversissimi e concluse di avere in mano un elemento sconosciuto: lo chiamò panchromium, «tutti i colori», e poi eritronio, perché scaldati quei sali viravano al rosso.

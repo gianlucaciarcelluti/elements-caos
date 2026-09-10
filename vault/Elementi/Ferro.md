@@ -31,6 +31,9 @@ timeline
     5000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> Ferro meteoritico, martellato a freddo: la siderurgia, cioè l'estrazione del ferro dal minerale, arriva millenni dopo e apre l'età del ferro intorno al 1200 a.C.
+
 ## Storia della scoperta
 
 Il ferro che si lavora prima della siderurgia viene dalle meteoriti. Circa una meteorite su venti è ricca di leghe ferro-nichel già metalliche, e queste masse cadute dal cielo si possono martellare a freddo senza fondere nulla, esattamente come si faceva con il rame nativo. È a questo ferro che si riferisce la data convenzionale usata qui: un metallo raccolto, non prodotto.

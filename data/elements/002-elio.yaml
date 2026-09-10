@@ -11,10 +11,11 @@ scoperta:
   luogo: Guntur, India
   epoca: spettroscopia
   isolamento_anno: 1895
-  note_cronologia: Individuato nello spettro della cromosfera solare durante l'eclissi del
+  note_cronologia: 'Individuato nello spettro della cromosfera solare durante l''eclissi del
     18 agosto 1868 da Pierre Jules César Janssen, e riconosciuto come elemento nuovo da Norman
-    Lockyer, che gli diede il nome. Trovato sulla Terra solo nel 1895 da William Ramsay, nella
-    clevite, e indipendentemente da Per Teodor Cleve e Nils Abraham Langlet a Uppsala.
+    Lockyer, che gli diede il nome. La cronologia adotta quel 1868 e non il 1895 in cui l''elio
+    fu trovato sulla Terra: è la sola casella della tavola datata a un''osservazione fatta
+    fuori dal pianeta.'
   controversia: null
 proprieta:
   gruppo: 18

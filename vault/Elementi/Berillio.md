@@ -32,6 +32,9 @@ timeline
     1828 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Vauquelin individua nel 1798 una terra nuova nel berillo e nello smeraldo, su sollecitazione del mineralogista René Just Haüy, che aveva osservato l'identità cristallografica dei due minerali. Il metallo è isolato nel 1828, indipendentemente e quasi in contemporanea, da Friedrich Wöhler e Antoine Bussy, per riduzione del cloruro di berillio con il potassio. Campioni di berillio puro non furono disponibili prima del 1957.
+
 ## Storia della scoperta
 
 La storia comincia da una domanda di geometria, non di chimica. René Just Haüy, il mineralogista che stava fondando la cristallografia, misura gli angoli dei cristalli di smeraldo e quelli del berillo, una pietra assai meno pregiata, e trova che sono identici: stessa forma, stessa struttura, colore diverso. Se la forma dei cristalli dipende da come sono fatte le sostanze, come sosteneva Haüy, allora quei due minerali devono essere lo stesso minerale. Serviva un chimico per verificarlo.

@@ -32,6 +32,9 @@ timeline
     1798 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Müller von Reichenstein individua l'elemento nel 1782 in un minerale aurifero della Transilvania e lo chiama aurum paradoxum; Martin Heinrich Klaproth ne conferma la natura e lo battezza tellurio nella conferenza tenuta all'Accademia delle scienze di Berlino il 25 gennaio 1798, attribuendo pubblicamente la scoperta a Müller. Pál Kitaibel vi era arrivato indipendentemente nel 1789.
+
 ## Storia della scoperta
 
 La storia comincia nelle miniere d'oro della Transilvania, che nel Settecento appartengono agli Asburgo e sono fra le più ricche d'Europa. In quei giacimenti si trovava un minerale biancastro e metallico che i minatori chiamavano oro bianco: si accompagnava all'oro, aveva il peso e l'aspetto giusti, ma alla lavorazione si comportava in modo che nessuno riusciva a prevedere.

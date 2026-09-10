@@ -32,6 +32,9 @@ timeline
     1798 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Vauquelin riceve campioni di crocoite siberiana nel 1794 e nel 1797 stabilisce che il minerale contiene un metallo non ancora descritto, ottenendone l'ossido; l'anno successivo riduce l'ossido con il carbone in un forno a carbonella e ottiene il metallo. Il minerale era noto in Europa dal 1761, quando Johann Gottlob Lehmann lo descrisse come piombo rosso di Siberia.
+
 ## Storia della scoperta
 
 Nel 1761, sugli Urali, il mineralogista Johann Gottlob Lehmann descrive un minerale arancio-rosso di una bellezza insolita e lo chiama piombo rosso di Siberia. Un decennio dopo Peter Simon Pallas visita lo stesso giacimento e capisce che quella pietra vale come pigmento: macinata, dà un arancione intenso che i pittori pagano caro. Il minerale, che oggi chiamiamo crocoite, comincia a viaggiare verso i laboratori europei per essere capito.

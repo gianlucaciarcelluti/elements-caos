@@ -11,13 +11,10 @@ scoperta:
   luogo: Dubna
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: 'Un atomo prodotto a Dubna il 19 luglio 2000 da curio-248 e calcio-48,
-    nella collaborazione fra l''istituto russo e il laboratorio di Livermore; l''attribuzione
-    iniziale all''isotopo 292 e stata corretta in 293 nel 2002, e la IUPAC ha riconosciuto
-    la scoperta il primo giugno 2011. Il nome, adottato nel maggio 2012, riconosce il Lawrence
-    Livermore National Laboratory: Dubna avrebbe voluto per questa casella il nome della propria
-    regione, che e finito invece sulla 115. Una rivendicazione del 1999 del laboratorio di
-    Berkeley, basata su dati fabbricati, era stata ritirata.'
+  note_cronologia: La data adottata è quella della sintesi, il 19 luglio 2000; il riconoscimento
+    IUPAC è del primo giugno 2011. I due nomi che compaiono in cronologia stanno per le squadre
+    congiunte di Dubna e di Livermore, che firmano insieme gli articoli di tutti gli elementi
+    da 114 a 118.
   controversia: null
 proprieta:
   gruppo: 16

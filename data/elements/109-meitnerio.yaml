@@ -11,12 +11,10 @@ scoperta:
   luogo: Darmstadt
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: 'Un solo atomo di meitnerio-266, rivelato al GSI di Darmstadt il 29 agosto
-    1982 da bismuto-209 e ferro-58. Stesso gruppo e stesso metodo del bohrio. Il nome, proposto
-    dal GSI nel 1992 in onore di Lise Meitner, non è mai stato contestato da nessuno dei laboratori
-    concorrenti: è l''unica casella di questa riga della tavola su cui non c''è stata disputa
-    di nomenclatura. Nessuna proprietà chimica del meitnerio è mai stata misurata: gli stati
-    di ossidazione riportati sono previsioni teoriche.'
+  note_cronologia: 'La data è quella del singolo atomo rivelato il 29 agosto 1982. Il nome,
+    proposto dal GSI nel 1992, è l''unico di questa riga della tavola a non essere mai stato
+    contestato da alcun laboratorio concorrente: la IUPAC lo ha raccomandato nel 1994 e confermato
+    nel 1997.'
   controversia: null
 proprieta:
   gruppo: 9

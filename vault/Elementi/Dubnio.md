@@ -31,6 +31,9 @@ timeline
     1970 : Scoperta : Georgy Flerov, Albert Ghiorso
 ```
 
+> [!info] Nota sulla cronologia
+> Credito condiviso, come per il rutherfordio. La cronologia di riferimento comprime le due squadre in «Flerov et al.» e «Ghiorso et al.»: qui restano i due capi, perché la commissione congiunta ha riconosciuto nel 1993 che il primo esperimento decisamente riuscito fu quello di Berkeley dell'aprile 1970, seguito da vicino da quello di Dubna del giugno successivo, e le fonti non isolano un elenco simmetrico di nomi per le due parti. La casella ha avuto quattro nomi proposti — hahnium da Berkeley, bohrium e poi nielsbohrium da Dubna, joliotium dalla IUPAC nel 1994 — prima che nel 1997 fosse chiamata dubnium in riconoscimento della sede dell'istituto sovietico.
+
 ## Storia della scoperta
 
 Le rivendicazioni furono due e vicinissime. Dubna dichiarò l'elemento nel 1968, bombardando americio-243 con ioni di neon-22; Berkeley nell'aprile del 1970, con californio-249 e ioni di azoto-15, riconoscendo il nuovo nucleo dai figli già noti. La commissione internazionale stabilì poi che il primo esperimento decisamente riuscito fosse quello di Berkeley, seguito a giugno da quello di Dubna, e assegnò il credito a entrambi.

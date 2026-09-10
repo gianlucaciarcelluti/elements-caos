@@ -31,6 +31,9 @@ timeline
     1774 : Scoperta : Carl Wilhelm Scheele
 ```
 
+> [!info] Nota sulla cronologia
+> Scheele prepara il gas nel 1774 facendo reagire la pirolusite con l'acido muriatico, ma lo interpreta come un composto e lo chiama aria di acido muriatico deflogisticato. Che si tratti di un elemento è dimostrato da Humphry Davy, che lo annuncia alla Royal Society il 15 novembre 1810 e conia il nome cloro.
+
 ## Storia della scoperta
 
 Nel 1774 Carl Wilhelm Scheele fa reagire la pirolusite, il minerale nero di manganese, con l'acido muriatico, cioè l'acido cloridrico. Si sviluppa un gas giallo-verde dall'odore violento che sbianca la carta di tornasole invece di arrossarla come farebbe un acido, corrode i metalli e scolora i tessuti e i fiori. Scheele annota tutte queste proprietà con una precisione che ancora si legge, e sbaglia soltanto nell'unico punto in cui non poteva fare altrimenti.

@@ -32,6 +32,9 @@ timeline
     1864 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Ekeberg individuò l'elemento nel 1802 in due minerali, la tantalite di Kimito e l'ittrotantalite di Ytterby. Dal 1809 al 1846 il tantalio e il columbium di Hatchett furono ritenuti la stessa sostanza, e la cronologia registra le due scoperte separatamente perché separate le ha ristabilite Heinrich Rose. Il primo tantalio puro e duttile è del 1903, di Werner von Bolton.
+
 ## Storia della scoperta
 
 Nel 1802 Anders Gustaf Ekeberg, che insegnava a Uppsala, analizzò due minerali: una tantalite arrivata da Kimito, in Finlandia, e un'ittrotantalite della cava di Ytterby, in Svezia. In entrambi trovò un ossido nuovo, che resisteva a tutti i reagenti con cui provò ad attaccarlo.

@@ -31,6 +31,9 @@ timeline
     1899 : Scoperta : André-Louis Debierne
 ```
 
+> [!info] Nota sulla cronologia
+> Debierne lo separò nel 1899 dai residui di pechblenda già sfruttati dai Curie per il radio. Nel 1902 Friedrich Oskar Giesel lo trovò indipendentemente e lo chiamò emanium, descrivendone le proprietà chimiche con più precisione; la priorità fu assegnata a Debierne per anzianità, ma a Giesel si riconosce la prima preparazione radiochimicamente pura.
+
 ## Storia della scoperta
 
 Nel 1899 André-Louis Debierne, che lavorava accanto ai Curie nel laboratorio di rue Lhomond, riprese i residui di pechblenda da cui il radio era già stato estratto e li sottopose a nuove separazioni. Quei residui erano già stati spremuti due volte — prima per il polonio, poi per il radio — e restavano comunque attivi: Debierne isolò la frazione che non corrispondeva a nessuno dei due e annunciò un terzo elemento nuovo, che chiamò attinio, dal greco aktis, «raggio».

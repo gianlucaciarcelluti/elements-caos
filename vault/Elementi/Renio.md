@@ -31,6 +31,9 @@ timeline
     1925 : Scoperta : Ida Noddack, Walter Noddack, Otto Berg
 ```
 
+> [!info] Nota sulla cronologia
+> Ultimo elemento stabile scoperto. Walter Noddack, Ida Tacke e Otto Berg lo annunciarono nel 1925 insieme all'elemento 43, che chiamarono masurio e che si rivelò un errore. Nel 1928 ne estrassero un grammo lavorando 660 chilogrammi di molibdenite. Nel 1908 Masataka Ogawa aveva probabilmente osservato lo stesso elemento, attribuendolo però alla casella 43 con il nome di nipponium.
+
 ## Storia della scoperta
 
 Negli anni Venti restavano vuote poche caselle nella tavola periodica, e due erano la 43 e la 75, sotto il manganese. I coniugi Walter Noddack e Ida Tacke, con Otto Berg, si misero a cercarle entrambe con la spettroscopia a raggi X, che identifica un elemento dal numero atomico e permette di riconoscerlo anche in tracce minime.

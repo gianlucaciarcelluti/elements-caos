@@ -31,6 +31,9 @@ timeline
     1898 : Scoperta : Pierre Curie, Marie Curie
 ```
 
+> [!info] Nota sulla cronologia
+> Annunciato il 26 dicembre 1898, cinque mesi dopo il polonio e con lo stesso metodo radiometrico; la conferma che si trattasse di un elemento nuovo venne dalle righe spettrali carminio osservate da Eugène-Anatole Demarçay. Il metallo fu isolato nel 1910 da Marie Curie e André-Louis Debierne.
+
 ## Storia della scoperta
 
 Individuato il polonio nel luglio del 1898, i Curie si accorsero che i conti ancora non tornavano: nella pechblenda restava altra attività non spiegata, associata alla frazione che conteneva bario. Continuarono a separare seguendo la radiazione, e il 21 dicembre annunciarono un secondo elemento nuovo.

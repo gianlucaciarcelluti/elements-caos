@@ -31,6 +31,9 @@ timeline
     1844 : Scoperta : Karl Ernst Claus
 ```
 
+> [!info] Nota sulla cronologia
+> Due rivendicazioni precedenti — il «vestio» di Jędrzej Śniadecki, annunciato nel 1808, e il «ruthenium» di Gottfried Osann, del 1827 — furono ritirate dagli stessi autori. Claus isolò e caratterizzò l'elemento a Kazan nel 1844, conservando il nome scelto da Osann.
+
 ## Storia della scoperta
 
 La prima rivendicazione è del chimico polacco Jędrzej Śniadecki. Nel 1807, esaminando minerali di platino sudamericano, ritenne di avere isolato un metallo nuovo e lo chiamò vestio, dall'asteroide Vesta scoperto poco prima; l'annuncio uscì l'anno seguente. Nessuno riuscì a confermare il risultato ripetendo l'esperimento, e Śniadecki finì per ritirare lui stesso la rivendicazione. Se avesse davvero avuto in mano il rutenio non è mai stato accertato.

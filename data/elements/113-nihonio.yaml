@@ -10,13 +10,11 @@ scoperta:
   luogo: Wako, Giappone
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: 'Tre atomi di nihonio-278 fabbricati al centro Nishina del RIKEN da bismuto-209
-    e zinco-70: il 23 luglio 2004, nell''aprile 2005 e il 12 agosto 2012. La collaborazione
-    fra Dubna e Livermore aveva osservato l''elemento 113 prima, ma come tappa della catena
-    di decadimento dell''elemento 115; nel dicembre 2015 la IUPAC ha assegnato la priorita
-    al RIKEN perche la catena giapponese e ancorata a nuclei gia noti. Il nome, proposto da
-    Kosuke Morita nel marzo 2016, e ufficiale dal 28 novembre 2016 ed e il primo dato a un
-    elemento in Asia.'
+  note_cronologia: 'La data adottata è quella del primo atomo fabbricato al RIKEN. La collaborazione
+    fra Dubna e Livermore aveva osservato l''elemento 113 già nel 2003, ma come tappa della
+    catena di decadimento dell''elemento 115: nel dicembre 2015 la IUPAC ha assegnato la priorità
+    ai giapponesi perché la loro catena è ancorata a nuclei già noti. Il nome è ufficiale
+    dal 28 novembre 2016.'
   controversia: null
 proprieta:
   gruppo: 13

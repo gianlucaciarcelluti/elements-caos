@@ -31,6 +31,9 @@ timeline
     2000 : Scoperta : Yuri Oganessian, Kenton Moody
 ```
 
+> [!info] Nota sulla cronologia
+> La data adottata è quella della sintesi, il 19 luglio 2000; il riconoscimento IUPAC è del primo giugno 2011. I due nomi che compaiono in cronologia stanno per le squadre congiunte di Dubna e di Livermore, che firmano insieme gli articoli di tutti gli elementi da 114 a 118.
+
 ## Storia della scoperta
 
 Il 19 luglio 2000 un bersaglio di curio-248 fu bombardato con ioni di calcio-48, e un singolo atomo dell'elemento 116 comparve nei rivelatori. L'attribuzione iniziale, corretta due anni dopo, lo assegnava a un isotopo sbagliato; la conferma definitiva richiese altri esperimenti fra il 2004 e il 2006, e la IUPAC riconobbe la scoperta il primo giugno 2011.

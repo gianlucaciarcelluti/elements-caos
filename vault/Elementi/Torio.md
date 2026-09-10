@@ -32,6 +32,9 @@ timeline
     1914 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Berzelius aveva già usato il nome «torio» nel 1815 per una terra che nel 1824 si rivelò fosfato di ittrio. L'elemento vero arrivò nel 1829, dal minerale nero raccolto da Morten Thrane Esmark a Løvøya. La radioattività fu riconosciuta nel 1898, indipendentemente da Gerhard Carl Schmidt e Marie Curie. Isolato in forma pura al 99 per cento nel 1914 da Dirk Lely Jr. e Lodewijk Hamburger.
+
 ## Storia della scoperta
 
 Nel 1815 Jöns Jacob Berzelius analizzò un campione di gadolinite e credette di avervi trovato una terra nuova. La battezzò in privato torio, dal nome del dio norreno del tuono, e per nove anni la trattò come un elemento. Nel 1824 dovette ricredersi: quello che aveva in mano era fosfato di ittrio, e il nome restò libero.

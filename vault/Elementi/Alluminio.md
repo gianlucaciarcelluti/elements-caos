@@ -32,6 +32,9 @@ timeline
     1825 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La collocazione nell'epoca alchemica dipende dalla data adottata, il 1746 dell'osservazione di Pott. L'alluminio è isolato solo nel 1825 da Hans Christian Ørsted — la purezza del suo campione è discussa, e Wöhler ne perfeziona la preparazione dal 1827 — e in una cronologia per isolamento starebbe fra gli elementi di Davy e Berzelius.
+
 ## Storia della scoperta
 
 Il punto di partenza è l'allume, un sale conosciuto e commerciato fin dall'antichità: Erodoto lo cita nel V secolo a.C., i tintori lo usavano per fissare i colori sulle stoffe e gli assediati per rendere il legno meno infiammabile. Era una merce strategica, oggetto di monopoli e di guerre commerciali, e per tutto quel tempo nessuno immaginò che contenesse un metallo.

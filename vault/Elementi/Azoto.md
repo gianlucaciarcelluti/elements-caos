@@ -31,6 +31,9 @@ timeline
     1772 : Scoperta : Daniel Rutherford
 ```
 
+> [!info] Nota sulla cronologia
+> Rutherford isola il gas e ne pubblica la descrizione nella dissertazione di laurea in medicina discussa a Edimburgo nel settembre 1772, sotto la guida di Joseph Black. Nello stesso giro di mesi arrivano allo stesso gas, per vie indipendenti, anche Carl Wilhelm Scheele, Henry Cavendish e Joseph Priestley: a Rutherford va il credito perché è il primo a pubblicarne una caratterizzazione compiuta.
+
 ## Storia della scoperta
 
 La storia comincia con un maestro e una domanda mal posta. A Edimburgo Joseph Black aveva dimostrato che esiste un'aria fissa, quella che oggi chiamiamo anidride carbonica, che si libera dal calcare e spegne le candele. Restava un fatto scomodo: se da un'aria in cui una candela si era spenta si toglieva tutta l'aria fissa, la candela continuava a non accendersi. Qualcosa d'altro c'era, e non aveva ancora un nome.

@@ -32,6 +32,9 @@ timeline
     1250 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La data convenzionale rimanda a Zosimo di Panopoli, alchimista greco-egizio attivo intorno al 300 d.C., che descrive l'arrostimento del realgar e la successiva riduzione ad arsenico grigio. L'isolamento che la tradizione chimica accredita come primo è però quello attribuito ad Alberto Magno intorno al 1250.
+
 ## Storia della scoperta
 
 La prima comparsa dell'arsenico nella tecnica umana precede di millenni la sua identificazione, e non è una scelta. Sull'altopiano iranico, già nel V millennio a.C., si producono bronzi arsenicali: leghe di rame e arsenico più dure del rame puro e più facili da colare, perché l'arsenico funziona da disossidante e aumenta la capacità di incrudimento. Non c'era bisogno di aggiungerlo, perché i minerali di rame lo contengono spesso per conto proprio, e gli archeometallurgisti discutono ancora quanto fosse intenzionale. Il bronzo allo stagno arriva dopo e vince perché è più controllabile.

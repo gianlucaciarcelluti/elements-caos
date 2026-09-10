@@ -32,6 +32,9 @@ timeline
     1878 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Primo dei tre elementi previsti da Mendeleev a essere trovato: corrisponde all'eka-alluminio descritto nel 1871. Fu Mendeleev stesso, dopo l'annuncio, a segnalare che la densità misurata da Lecoq de Boisbaudran era troppo bassa; la misura rifatta su campione più puro diede ragione alla previsione.
+
 ## Storia della scoperta
 
 Nel 1869 Dmitrij Mendeleev aveva ordinato gli elementi per peso atomico e si era trovato con dei buchi. Invece di ignorarli, li usò: se la tavola era una legge di natura, quei buchi erano elementi non ancora trovati, e le proprietà dei vicini dicevano quali dovessero essere. Nel 1871 descrisse l'occupante della casella sotto l'alluminio, lo chiamò eka-alluminio e ne indicò peso atomico, densità, punto di fusione basso e il modo in cui lo si sarebbe trovato.

@@ -31,6 +31,9 @@ timeline
     2004 : Scoperta : Kosuke Morita
 ```
 
+> [!info] Nota sulla cronologia
+> La data adottata è quella del primo atomo fabbricato al RIKEN. La collaborazione fra Dubna e Livermore aveva osservato l'elemento 113 già nel 2003, ma come tappa della catena di decadimento dell'elemento 115: nel dicembre 2015 la IUPAC ha assegnato la priorità ai giapponesi perché la loro catena è ancorata a nuclei già noti. Il nome è ufficiale dal 28 novembre 2016.
+
 ## Storia della scoperta
 
 Il gruppo di Kōsuke Morita, al centro Nishina del RIKEN vicino a Tokyo, scelse la via più difficile e più pulita: bombardare direttamente bismuto-209 con ioni di zinco-70, cioè fabbricare l'elemento 113 invece di raccoglierlo dai detriti di qualcos'altro. La resa attesa era bassissima, e il conto lo dice: il primo atomo arrivò il 23 luglio 2004, il secondo nell'aprile del 2005, il terzo il 12 agosto 2012.

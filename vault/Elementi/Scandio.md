@@ -32,6 +32,9 @@ timeline
     1937 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Corrisponde all'eka-boro previsto da Mendeleev nel 1869: fu Per Teodor Cleve, non Nilson, a riconoscere la corrispondenza e a segnalarla a Mendeleev. La cronologia di riferimento comprimeva in «Fischer et al.» gli autori dell'isolamento del 1937: erano Werner Fischer, Karl Brünger e Hans Grieneisen.
+
 ## Storia della scoperta
 
 Nel 1869 Mendeleev aveva lasciato una casella vuota sotto il boro e aveva descritto l'elemento che avrebbe dovuto occuparla, l'eka-boro, indicandone la massa atomica fra 40 e 48 e il comportamento chimico. Era una delle tre previsioni su cui la sua tavola si giocava la credibilità.

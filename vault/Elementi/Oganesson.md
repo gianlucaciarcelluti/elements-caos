@@ -31,6 +31,9 @@ timeline
     2006 : Scoperta : Yuri Oganessian, Kenton Moody
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia di riferimento data l'elemento al 2006, anno della pubblicazione che raccoglie gli esperimenti del 2002 e del 2005; il riconoscimento IUPAC è del dicembre 2015. La rivendicazione del 1999 del laboratorio di Berkeley, ritirata nel 2001 e riconosciuta nel 2002 come basata su dati fabbricati, non compare in alcuna cronologia. Il nome è ufficiale dal 28 novembre 2016.
+
 ## Storia della scoperta
 
 Nel 1999 il laboratorio di Berkeley annunciò di aver prodotto gli elementi 118 e 116 bombardando piombo-208 con ioni di cripton-86. Era un risultato clamoroso: una reazione che nessuno riteneva praticabile, e due caselle in un colpo solo. Il gruppo aveva già scelto il nome, ghiorsium, in onore di Albert Ghiorso.

@@ -31,6 +31,9 @@ timeline
     1958 : Scoperta : Albert Ghiorso, Torbjørn Sikkeland, John R. Walton, Glenn Seaborg
 ```
 
+> [!info] Nota sulla cronologia
+> Attribuzione contesa, e il dato adottato non è quello che oggi la IUPAC riconosce. La cronologia di riferimento assegna l'elemento alla squadra di Berkeley del 1958 — Ghiorso, Sikkeland, Walton e Seaborg, compressi nella fonte in «Ghiorso et al.» — mentre il Transfermium Working Group ha assegnato nel 1992 la priorità a Dubna. Cambiare il dato sposterebbe il nobelio dopo il laurenzio nell'ordine di lettura, e la divergenza è dichiarata qui invece di essere risolta in silenzio.
+
 ## Storia della scoperta
 
 Il primo annuncio arrivò nel 1957 dall'Istituto Nobel di Fisica di Stoccolma, dove un gruppo che riuniva svedesi, britannici di Harwell e americani di Argonne aveva bombardato un bersaglio di curio con ioni di carbonio-13, cinquanta volte, mezz'ora alla volta. Nei rivelatori comparve una particella alfa da 8,5 megaelettronvolt che non corrispondeva a nulla di noto, e il gruppo propose per l'elemento 102 il nome del proprio istituto: nobelio. La IUPAC lo accettò subito.

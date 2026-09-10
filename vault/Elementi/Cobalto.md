@@ -31,6 +31,9 @@ timeline
     1735 : Scoperta : Georg Brandt
 ```
 
+> [!info] Nota sulla cronologia
+> Brandt ottiene e caratterizza il metallo intorno al 1735 presso il Laboratorium Chymicum del Collegio delle miniere di Stoccolma; la pubblicazione distesa dei sei saggi che lo distinguono dal bismuto è del 1741 circa.
+
 ## Storia della scoperta
 
 Il blu di cobalto precede di molto il cobalto. Composti cobaltiferi colorano il vetro egizio e i gioielli persiani già nel III millennio a.C., si ritrovano nei vetri blu del relitto di Uluburun nel XIV secolo a.C. e nelle rovine di Pompei, e dal Trecento in poi sono il segreto delle porcellane bianche e blu cinesi. Chi mescolava quel minerale alla pasta vitrea sapeva perfettamente che cosa otteneva, e non aveva la minima idea del perché.

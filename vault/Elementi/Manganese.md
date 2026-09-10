@@ -32,6 +32,9 @@ timeline
     1774 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Bergman riconosce nella pirolusite un metallo nuovo intorno al 1770 e non riesce a estrarlo. Le fonti attribuiscono il riconoscimento a Bergman, Scheele e altri, e l'isolamento a Gahn: la cronologia adotta il 1774, che è l'anno di entrambe le cose.
+
 ## Storia della scoperta
 
 Il biossido di manganese è uno dei più antichi materiali con cui l'uomo abbia lasciato un segno. I neri delle pitture rupestri sono in buona parte ossidi di manganese: nella grotta di Gargas, nei Pirenei, li si trova in opere datate fra i trentamila e i ventiquattromila anni fa, e lo stesso pigmento compare a Lascaux. I Neanderthal ne raccoglievano piccoli blocchi, alcuni dei quali portano segni di abrasione, e sulla destinazione di quei blocchi gli archeologi discutono ancora: la spiegazione tradizionale è la decorazione del corpo, ma è stato proposto che servissero ridotti in polvere per accendere il fuoco, perché il biossido di manganese abbassa la temperatura di accensione del legno.

@@ -31,6 +31,9 @@ timeline
     1974 : Scoperta : Albert Ghiorso, E. Kenneth Hulet, Glenn Seaborg
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia di riferimento comprimeva gli scopritori in «Ghiorso et al.». L'articolo che annuncia l'elemento, pubblicato nel dicembre 1974, e firmato da otto autori fra il laboratorio di Berkeley e quello di Livermore: qui restano i tre nomi che le fonti secondarie isolano sempre — Ghiorso, Hulet e Seaborg — e la collaborazione fra i due laboratori e dichiarata qui. Seaborg e dunque fra i coautori dell'articolo che annuncia l'elemento poi intitolato a lui. Dubna rivendico l'elemento lo stesso anno, ma la commissione internazionale giudico i dati sovietici insufficienti e assegno il credito per intero a Berkeley. Il nome fu proposto nel marzo 1994, respinto dalla IUPAC nell'agosto successivo perche Seaborg era vivo, e confermato nel 1997.
+
 ## Storia della scoperta
 
 Nel 1974 arrivarono due annunci. A Dubna il gruppo di Jurij Oganesjan bombardò bersagli di piombo con ioni di cromo-54 e registrò cinquantuno eventi di fissione spontanea con emivite fra i quattro e i dieci millisecondi. A Berkeley si bombardò californio-249 con ioni di ossigeno-18 e si ottennero una settantina di decadimenti alfa del seaborgio-263, un isotopo che dura meno di un secondo.

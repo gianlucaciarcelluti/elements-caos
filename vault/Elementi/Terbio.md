@@ -32,6 +32,9 @@ timeline
     1937 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1843, anno in cui Mosander separò dall'ittria due terre nuove. I nomi delle due finirono scambiati nella letteratura successiva, e il terbio in forma metallica è del 1937.
+
 ## Storia della scoperta
 
 Tutto comincia in una cava di feldspato a Ytterby, un'isola dell'arcipelago di Stoccolma, da cui nel Settecento uscì una pietra nera insolita. Quattro elementi portano nel nome pezzi della parola Ytterby — ittrio, itterbio, terbio ed erbio — e altri cinque — scandio, olmio, tulio, gadolinio e tantalio — furono individuati per la prima volta in minerali di quel giacimento.

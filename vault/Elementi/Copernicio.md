@@ -31,6 +31,9 @@ timeline
     1996 : Scoperta : Sigurd Hofmann
 ```
 
+> [!info] Nota sulla cronologia
+> La data adottata è quella della sintesi, il 9 febbraio 1996; il riconoscimento IUPAC è del maggio 2009, dopo due giudizi di insufficienza e la ripetizione indipendente del RIKEN. Un secondo evento riportato insieme al primo è stato ritirato perché fabbricato. Il simbolo proposto, Cp, è stato cambiato in Cn perché già in uso per il cassiopeio e per il ciclopentadienile; il nome è ufficiale dal 19 febbraio 2010.
+
 ## Storia della scoperta
 
 Il 9 febbraio 1996 il gruppo di Sigurd Hofmann bombardò piombo-208 con ioni di zinco-70 e ottenne un atomo di copernicio-277. Uno. Un secondo evento riportato insieme al primo si rivelò poi fabbricato, come il quarto atomo del darmstadtio, e fu ritirato: la scoperta restò appesa a un singolo nucleo autentico.

@@ -31,6 +31,9 @@ timeline
     1894 : Scoperta : William Ramsay, Lord Rayleigh
 ```
 
+> [!info] Nota sulla cronologia
+> La scoperta nasce da un'anomalia di densità: l'azoto atmosferico pesava lo 0,5 per cento più di quello chimico. L'esperimento di Henry Cavendish del 1785 aveva già isolato lo stesso residuo inerte senza che nessuno ne traesse conclusioni.
+
 ## Storia della scoperta
 
 Nel 1892 Lord Rayleigh stava misurando con estrema precisione la densità dei gas e si accorse di un'anomalia ostinata: l'azoto estratto dall'aria pesava sistematicamente lo 0,5 per cento più di quello ottenuto da composti chimici come l'ammoniaca. La differenza era piccola ma superava di molto l'errore dei suoi strumenti, e non spariva rifacendo le misure.

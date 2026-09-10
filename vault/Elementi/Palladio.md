@@ -31,6 +31,9 @@ timeline
     1802 : Scoperta : William Hyde Wollaston
 ```
 
+> [!info] Nota sulla cronologia
+> Wollaston annotò il metallo nel taccuino di laboratorio nel luglio 1802 e ne mise in vendita campioni anonimi nell'aprile 1803: rivelò di esserne lo scopritore solo con la memoria del 1805.
+
 ## Storia della scoperta
 
 Il 24 dicembre 1800 due chimici inglesi conosciutisi a Cambridge, William Hyde Wollaston e Smithson Tennant, comprarono per 795 sterline una partita di platina greggia sudamericana e si misero in società per raffinarla e rivenderla. Il denaro era quasi tutto di Tennant, che aveva ereditato un patrimonio; l'abilità sperimentale era di Wollaston, che dalla metallurgia del platino sperava di arricchirsi. Si divisero anche il lavoro seguendo la materia: a Wollaston la parte che l'acqua regia scioglieva, a Tennant la polvere nera che restava sul fondo.

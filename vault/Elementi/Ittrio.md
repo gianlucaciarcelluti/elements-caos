@@ -32,6 +32,9 @@ timeline
     1828 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Carl Axel Arrhenius rinviene nel 1787 il minerale nero nella cava di Ytterby; Johan Gadolin ne pubblica nel 1794 l'analisi, riconoscendovi una terra nuova, che Anders Gustaf Ekeberg chiama ittria nel 1797. Il metallo è isolato nel 1828 da Friedrich Wöhler, riducendo il cloruro con il potassio. Nel 1843 Carl Gustaf Mosander dimostra che l'ittria di Gadolin conteneva in realtà tre ossidi distinti.
+
 ## Storia della scoperta
 
 Il luogo è una cava di feldspato e quarzo su un'isola dell'arcipelago di Stoccolma, presso il villaggio di Ytterby, da cui si cavava quarzo per le ferriere e più tardi feldspato per le manifatture di porcellana. Nel 1787 un tenente d'artiglieria appassionato di minerali, Carl Axel Arrhenius, vi raccoglie una pietra insolitamente nera e pesante: la prende per un minerale di tungsteno, appena diventato di moda fra i chimici svedesi, e la chiama ytterbite dal nome del posto.

@@ -31,6 +31,9 @@ timeline
     1984 : Scoperta : Peter Armbruster, Gottfried Münzenberg
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1984 e attribuisce la scoperta al GSI: Dubna aveva rivendicato l'elemento nello stesso anno, ma la commissione congiunta ha giudicato conclusivo il solo rapporto tedesco. La proposta IUPAC del 1994 avrebbe assegnato a questa casella il nome hahnium; hassium è definitivo dal 1997. La rivendicazione di un elemento 108 naturale, il «sergenio» del 1963, non è mai stata accettata.
+
 ## Storia della scoperta
 
 Il gruppo di Darmstadt arrivò alla casella 108 nel 1984, bombardando piombo-208 con ioni di ferro-58 e ottenendo tre atomi di hassio-265; due anni dopo ne produsse uno di hassio-264. A Dubna il gruppo di Oganesjan aveva registrato una ventina di eventi di fissione spontanea che attribuiva allo stesso elemento, ma senza la stessa possibilità di risalire al numero atomico. La commissione internazionale giudicò il rapporto tedesco conclusivo di per sé.

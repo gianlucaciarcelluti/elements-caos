@@ -31,6 +31,9 @@ timeline
     1907 : Scoperta : Georges Urbain, Carl Auer von Welsbach
 ```
 
+> [!info] Nota sulla cronologia
+> Charles James, che era arrivato al risultato per conto proprio, rinunciò a pubblicare. La Commissione internazionale per i pesi atomici assegnò la priorità a Urbain nel 1909, e la IUPAC fissò il nome lutetium solo nel 1949.
+
 ## Storia della scoperta
 
 Nel 1907 restava un solo pezzo da assestare nella vicenda delle terre rare: l'itterbia che Marignac aveva separato nel 1878 dava ancora segni di non essere una sostanza sola. Tre chimici, in tre paesi diversi, ci stavano lavorando contemporaneamente e senza saperlo.

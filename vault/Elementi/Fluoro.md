@@ -32,6 +32,9 @@ timeline
     1886 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Scheele nel 1771 prepara e studia l'acido fluoridrico dalla fluorite, riconoscendo che contiene qualcosa di nuovo. La cronologia adotta il 1810, l'anno in cui Ampère formula l'ipotesi dell'elemento: l'elemento libero è ottenuto solo il 26 giugno 1886 da Henri Moissan, settantasei anni dopo.
+
 ## Storia della scoperta
 
 Il minerale è noto da secoli e il suo nome dice a che serviva. Nel 1529 Georgius Agricola descrive la fluorite come additivo che abbassa il punto di fusione dei metalli nella fusione dei minerali, e la chiama così dal latino fluere, scorrere: era un fondente, una sostanza che rendeva la carica più fluida nel forno. I minatori tedeschi la conoscevano bene, ne ammiravano i cristalli cubici colorati, e non avevano ragione di sospettare che vi fosse dentro qualcosa di irriducibile.

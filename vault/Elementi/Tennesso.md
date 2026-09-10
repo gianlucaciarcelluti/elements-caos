@@ -31,6 +31,9 @@ timeline
     2010 : Scoperta : Yuri Oganessian, Kenton Moody
 ```
 
+> [!info] Nota sulla cronologia
+> La data adottata è quella dell'esperimento del 2010, l'ultimo che abbia riempito una casella della tavola periodica; il riconoscimento IUPAC è del dicembre 2015 e il nome è ufficiale dal 28 novembre 2016. La scoperta è attribuita a una collaborazione fra quattro istituzioni — Dubna, Oak Ridge, la Vanderbilt e Livermore — che la cronologia di riferimento comprime nei due nomi di Oganesjan e Moody.
+
 ## Storia della scoperta
 
 Per fare l'elemento 117 con un fascio di calcio-48, che ha venti protoni, serve un bersaglio con novantasette protoni: berkelio. Non è un materiale che si compri: al mondo lo sanno produrre in quantità utili pochissimi impianti, e quello a cui ci si rivolse è il reattore ad alto flusso di Oak Ridge, nel Tennessee; e occorre bombardare curio per mesi per ricavarne qualche milligrammo.

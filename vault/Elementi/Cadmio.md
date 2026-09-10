@@ -31,6 +31,9 @@ timeline
     1817 : Scoperta : Karl Samuel Leberecht Hermann, Friedrich Stromeyer, Johann Christoff Heinrich Roloff
 ```
 
+> [!info] Nota sulla cronologia
+> Scoperta multipla e quasi simultanea: Roloff sospettò arsenico in una partita di ossido di zinco, Hermann la rianalizzò e vi trovò un metallo ignoto, Stromeyer arrivò allo stesso metallo per una via indipendente e lo isolò dandogli il nome che è rimasto.
+
 ## Storia della scoperta
 
 La materia prima non era un minerale esotico ma un prodotto da banco di farmacia. L'ossido di zinco si vendeva come rimedio per la pelle e come polvere per ferite, e si otteneva tostando la calamina, termine che all'epoca copriva indistintamente carbonati e silicati di zinco. Nelle farmacie tedesche degli anni Dieci dell'Ottocento ne circolavano partite di qualità molto diseguale, e ispezionarle era compito delle autorità sanitarie.

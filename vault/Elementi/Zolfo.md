@@ -31,6 +31,9 @@ timeline
     2000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> Nessuno ha isolato lo zolfo: si raccoglie già puro attorno ai vulcani. La data convenzionale indica l'uso corrente nel Mediterraneo e in Egitto; il riconoscimento come elemento chimico è di Lavoisier, nel 1777.
+
 ## Storia della scoperta
 
 La prima cosa che l'uomo impara dello zolfo è che brucia, e che il fumo di quella combustione uccide. Nel ventiduesimo libro dell'Odissea, dopo la strage dei pretendenti, Odisseo chiede alla nutrice Euriclea di portargli fuoco e zolfo per purificare la sala: è una delle più antiche descrizioni scritte di una fumigazione chimica. Il gesto ha insieme un senso rituale e uno pratico, perché l'anidride solforosa che si sprigiona bruciando zolfo è effettivamente un disinfettante che stermina muffe, batteri e insetti.

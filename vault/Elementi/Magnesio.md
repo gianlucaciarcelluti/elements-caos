@@ -32,6 +32,9 @@ timeline
     1808 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Black distingue la magnesia alba dalla calce viva nella tesi di laurea in medicina discussa a Edimburgo nel 1754 e nella memoria che ne deriva, letta davanti alla Philosophical Society di Edimburgo nel 1755. Il metallo è isolato per via elettrochimica da Humphry Davy nel 1808; Antoine Bussy ne ottiene una forma coerente e lavorabile nel 1831.
+
 ## Storia della scoperta
 
 Prima di essere un elemento, la magnesia era una confusione. Con quel nome, preso dalla regione greca di Magnesia in Tessaglia, si indicavano sostanze diverse e incompatibili: la magnesia alba, una polvere bianca e leggera usata come lassativo, e la magnesia nera, un minerale scuro e pesante che i vetrai adoperavano per schiarire il vetro. Sono due materiali senza alcuna parentela — la prima porta al magnesio, la seconda al manganese — accomunati soltanto da un nome geografico e da un equivoco secolare.

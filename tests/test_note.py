@@ -378,6 +378,46 @@ def test_riquadro_della_controversia_si_intitola_questione_aperta() -> None:
     assert "Paternità contesa" not in nota
 
 
+def test_nota_cronologia_compare_sotto_il_diagramma_della_scoperta() -> None:
+    """Il campo ``note_cronologia`` arriva al lettore, subito dopo la timeline.
+
+    Il campo conteneva prosa redazionale che nessun template rendeva: era
+    l'unico dei campi invisibili scritto PER il lettore, e non era mai stato
+    dichiarato invisibile da nessuna parte (Ruling 71). Il posto giusto è
+    sotto il diagramma della scoperta, che è dove il lettore si chiede perché
+    un elemento sia datato 1801 se entra nella chimica nel 1830 — cioè
+    esattamente ciò che il diagramma non può dire.
+    """
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    fosforo = elementi[0]
+    fosforo.scoperta.note_cronologia = "La data segue la pubblicazione, non l'esperimento."
+
+    nota = _nota_di(fosforo, elementi)
+
+    assert "> [!info] Nota sulla cronologia" in nota
+    assert "> La data segue la pubblicazione, non l'esperimento." in nota
+    posizione_riquadro = nota.index("Nota sulla cronologia")
+    assert nota.index("## Cronologia della scoperta") < posizione_riquadro
+    assert posizione_riquadro < nota.index("## Storia della scoperta")
+
+
+def test_nota_cronologia_vuota_non_lascia_il_riquadro() -> None:
+    """Senza nulla da dire sulla datazione il riquadro non compare.
+
+    Il riquadro risponde a una domanda precisa — perché questa data, questa
+    attribuzione, questo nome — e dove la nota non ha nulla da aggiungere a
+    ciò che la sezione "Storia" già racconta il campo resta vuoto, invece di
+    ripetere la prosa a due paragrafi di distanza (Ruling 76).
+    """
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    fosforo = elementi[0]
+    fosforo.scoperta.note_cronologia = None
+
+    nota = _nota_di(fosforo, elementi)
+
+    assert "Nota sulla cronologia" not in nota
+
+
 def test_nota_accorda_l_etichetta_degli_scopritori_al_numero() -> None:
     """L'etichetta segue il numero dei nomi: "Scopritore" con uno, "Scopritori" con più.
 

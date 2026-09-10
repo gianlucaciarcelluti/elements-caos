@@ -31,6 +31,9 @@ timeline
     9000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> Non esiste un momento della scoperta: il rame entra nella storia umana per accumulo di gesti ripetuti in luoghi diversi, non per un singolo istante da datare.
+
 ## Storia della scoperta
 
 Prima che qualcuno imparasse a estrarlo dal minerale, il rame si trovava già pronto in natura, allo stato nativo: pepite e filoni di metallo puro affiorano in superficie in alcune regioni del Vicino Oriente, dell'Anatolia e più tardi delle Americhe. Un oggetto trovato nella grotta di Shanidar, nel Kurdistan iracheno, un piccolo pendaglio ricavato da un frammento di rame non lavorato, risale a circa 12.000 anni fa: è la prova più antica che l'uomo abbia raccolto e trattato questo metallo, prima ancora di saperlo estrarre o fondere.

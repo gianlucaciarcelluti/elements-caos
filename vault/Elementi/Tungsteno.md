@@ -32,6 +32,9 @@ timeline
     1783 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1781, l'anno in cui Scheele riconosce il metallo nell'acido tungstico ricavato dalla tungstenite, e non il 1783 in cui i fratelli Elhuyar lo isolano.
+
 ## Storia della scoperta
 
 Il primo nome è un insulto dei minatori. Nelle miniere di stagno della Sassonia e della Boemia compariva un minerale scuro e pesante che si accompagnava alla cassiterite e che, in fusione, faceva sparire una parte dello stagno nelle scorie: rendeva magra la colata. Chi lo malediceva diceva che divorava lo stagno come un lupo divora la pecora, e da lì wolfram, che si è letto come schiuma di lupo. Il minerale porta ancora quel nome, wolframite.

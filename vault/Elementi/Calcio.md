@@ -32,6 +32,9 @@ timeline
     1808 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Pott riconosce la terra calcarea come terra a sé nelle Observationes et animadversiones chymicae del 1739. Il metallo è isolato solo nel 1808, per elettrolisi, da Humphry Davy.
+
 ## Storia della scoperta
 
 La storia del calcio comincia da un forno. Scaldando il calcare oltre gli ottocento gradi se ne caccia via l'anidride carbonica e resta la calce viva, una sostanza avida d'acqua che, rimescolata con sabbia, fa presa e indurisce. È una delle invenzioni decisive dell'antichità: senza malta di calce non esistono le cupole romane, e la parola stessa calcio viene dal latino calx, che significa appunto calce.

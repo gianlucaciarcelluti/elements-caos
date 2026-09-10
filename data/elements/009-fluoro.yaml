@@ -11,10 +11,9 @@ scoperta:
   epoca: pneumatica
   isolamento_anno: 1886
   note_cronologia: 'Scheele nel 1771 prepara e studia l''acido fluoridrico dalla fluorite,
-    riconoscendo che contiene qualcosa di nuovo; nel 1810 André-Marie Ampère ipotizza che
-    l''acido contenga un elemento analogo al cloro, e in una lettera a Humphry Davy del 26
-    agosto 1812 propone per esso il nome fluorine. L''elemento libero è ottenuto solo il 26
-    giugno 1886 da Henri Moissan, centoquindici anni dopo.'
+    riconoscendo che contiene qualcosa di nuovo. La cronologia adotta il 1810, l''anno in
+    cui Ampère formula l''ipotesi dell''elemento: l''elemento libero è ottenuto solo il 26
+    giugno 1886 da Henri Moissan, settantasei anni dopo.'
   controversia: null
 proprieta:
   gruppo: 17
@@ -34,17 +33,16 @@ proprieta:
 approfondimento: true
 contenuti:
   hook: Fra il momento in cui si capì che esisteva e quello in cui qualcuno riuscì a vederlo
-    passarono centoquindici anni. Nel frattempo lasciò dietro di sé una fila di chimici
-    avvelenati.
+    passarono centoquindici anni. Nel frattempo lasciò dietro di sé una fila di chimici avvelenati.
   beats:
   - id: incipit_generale
     sezione: incipit
-    testo: 'Il fluoro è l''elemento più elettronegativo della tavola periodica: strappa
-      elettroni a chiunque e non li cede a nessuno. Da questo primato discende tutto il resto,
-      la sua aggressività verso quasi ogni altra sostanza, la stabilità quasi indistruttibile
-      dei composti che forma e il secolo abbondante che ci è voluto per isolarlo. È l''unico
-      elemento che, nei suoi composti, si presenta sempre e soltanto in un unico stato di
-      ossidazione, meno uno.'
+    testo: 'Il fluoro è l''elemento più elettronegativo della tavola periodica: strappa elettroni
+      a chiunque e non li cede a nessuno. Da questo primato discende tutto il resto, la sua
+      aggressività verso quasi ogni altra sostanza, la stabilità quasi indistruttibile dei
+      composti che forma e il secolo abbondante che ci è voluto per isolarlo. È l''unico elemento
+      che, nei suoi composti, si presenta sempre e soltanto in un unico stato di ossidazione,
+      meno uno.'
     visual: Ampolla di fluoro gassoso giallo pallido su fondo scuro
     attendibilita: documentato
   - id: fluorite
@@ -52,62 +50,62 @@ contenuti:
     testo: 'Il minerale è noto da secoli e il suo nome dice a che serviva. Nel 1529 Georgius
       Agricola descrive la fluorite come additivo che abbassa il punto di fusione dei metalli
       nella fusione dei minerali, e la chiama così dal latino fluere, scorrere: era un fondente,
-      una sostanza che rendeva la carica più fluida nel forno. I minatori tedeschi la
-      conoscevano bene, ne ammiravano i cristalli cubici colorati, e non avevano ragione di
-      sospettare che vi fosse dentro qualcosa di irriducibile.'
+      una sostanza che rendeva la carica più fluida nel forno. I minatori tedeschi la conoscevano
+      bene, ne ammiravano i cristalli cubici colorati, e non avevano ragione di sospettare
+      che vi fosse dentro qualcosa di irriducibile.'
     visual: Cristalli cubici di fluorite viola e verde su matrice rocciosa
     attendibilita: documentato
   - id: scheele_acido
     sezione: storia
     testo: 'Nel 1771 Carl Wilhelm Scheele scalda la fluorite con acido solforico in una storta
-      di vetro e ottiene un vapore acido che fa una cosa notevole: corrode il vetro stesso del
-      recipiente, incidendolo. È l''acido fluoridrico. Scheele ne descrive le proprietà e
-      capisce che quell''acido contiene un componente che non corrisponde a nulla di noto, ma il
-      componente in questione non si lascia separare da niente. È la scoperta di un elemento per
-      interposta persona: se ne vede l''ombra, non il corpo.'
+      di vetro e ottiene un vapore acido che fa una cosa notevole: corrode il vetro stesso
+      del recipiente, incidendolo. È l''acido fluoridrico. Scheele ne descrive le proprietà
+      e capisce che quell''acido contiene un componente che non corrisponde a nulla di noto,
+      ma il componente in questione non si lascia separare da niente. È la scoperta di un
+      elemento per interposta persona: se ne vede l''ombra, non il corpo.'
     visual: Storta di vetro corrosa e opacizzata dal vapore dell'acido fluoridrico
     attendibilita: documentato
   - id: il_nome_prima_della_cosa
     sezione: storia
-    testo: 'La situazione è tanto chiara nella teoria quanto impraticabile nei fatti. Nel 1810
-      il fisico André-Marie Ampère avanza l''ipotesi che l''acido fluoridrico sia un composto di
-      idrogeno e di un elemento ignoto, analogo al cloro; due anni dopo, in una lettera a
-      Humphry Davy del 26 agosto 1812, propone di chiamarlo fluorine. Davy accoglie il nome e
-      prova a isolare la sostanza, senza riuscirci. Per i settantaquattro anni successivi il
-      fluoro esiste come voce nelle tabelle degli elementi, con un nome, un posto e nessun
+    testo: 'La situazione è tanto chiara nella teoria quanto impraticabile nei fatti. Nel
+      1810 il fisico André-Marie Ampère avanza l''ipotesi che l''acido fluoridrico sia un
+      composto di idrogeno e di un elemento ignoto, analogo al cloro; due anni dopo, in una
+      lettera a Humphry Davy del 26 agosto 1812, propone di chiamarlo fluorine. Davy accoglie
+      il nome e prova a isolare la sostanza, senza riuscirci. Per i settantaquattro anni successivi
+      il fluoro esiste come voce nelle tabelle degli elementi, con un nome, un posto e nessun
       campione: un elemento dedotto e mai visto.'
     visual: Tabella degli elementi ottocentesca con il fluoro elencato fra i noti
     attendibilita: documentato
   - id: martiri
     sezione: storia
     testo: 'Il problema è che per liberare il fluoro bisogna manipolare l''acido fluoridrico,
-      che attacca il vetro, la pelle e le ossa, e che una volta liberato il fluoro reagisce con
-      l''apparato che dovrebbe contenerlo. I chimici che ne pagarono il prezzo nell''Ottocento
+      che attacca il vetro, la pelle e le ossa, e che una volta liberato il fluoro reagisce
+      con l''apparato che dovrebbe contenerlo. I chimici che ne pagarono il prezzo nell''Ottocento
       furono chiamati martiri del fluoro, e l''espressione non è retorica: il belga Paulin
       Louyet e il francese Jérôme Nicklès morirono nel tentativo, e gli irlandesi Thomas e
-      George Knox riportarono gravi avvelenamenti da acido fluoridrico, tanto che uno dei due
-      restò invalido per tre anni. Altri se la cavarono con danni minori: a Humphry Davy
+      George Knox riportarono gravi avvelenamenti da acido fluoridrico, tanto che uno dei
+      due restò invalido per tre anni. Altri se la cavarono con danni minori: a Humphry Davy
       l''acido danneggiò gli occhi.'
     visual: Banco di laboratorio ottocentesco con vetreria corrosa e apparato annerito
     attendibilita: documentato
   - id: moissan
     sezione: storia
-    testo: 'La soluzione arriva il 26 giugno 1886 e consiste nel togliere al fluoro ogni cosa da
-      aggredire. Henri Moissan elettrolizza una soluzione di fluoruro acido di potassio in acido
-      fluoridrico liquido, dentro un apparato costruito interamente in platino con elettrodi di
-      platino e iridio, e raffredda il tutto a meno cinquanta gradi per rallentare la
-      corrosione. All''anodo si raccoglie un gas giallo pallido che incendia il silicio
-      all''istante. È il metodo che l''industria usa ancora oggi.'
+    testo: La soluzione arriva il 26 giugno 1886 e consiste nel togliere al fluoro ogni cosa
+      da aggredire. Henri Moissan elettrolizza una soluzione di fluoruro acido di potassio
+      in acido fluoridrico liquido, dentro un apparato costruito interamente in platino con
+      elettrodi di platino e iridio, e raffredda il tutto a meno cinquanta gradi per rallentare
+      la corrosione. All'anodo si raccoglie un gas giallo pallido che incendia il silicio
+      all'istante. È il metodo che l'industria usa ancora oggi.
     visual: L'apparato in platino di Moissan raffreddato nel bagno refrigerante
     attendibilita: documentato
   - id: nobel_e_morte
     sezione: storia
-    testo: 'Moissan ricevette per questo il premio Nobel per la chimica del 1906 e morì
-      improvvisamente a Parigi nel febbraio 1907, poche settimane dopo il ritorno da Stoccolma.
-      Si legge spesso che sia stato l''ultimo martire del fluoro, ucciso dal suo stesso
-      elemento; la causa registrata fu però un''appendicite acuta, e il contributo delle
-      esposizioni al fluoro e al monossido di carbonio resta un''ipotesi mai dimostrata. La
-      coincidenza è impressionante, il nesso non è provato.'
+    testo: Moissan ricevette per questo il premio Nobel per la chimica del 1906 e morì improvvisamente
+      a Parigi nel febbraio 1907, poche settimane dopo il ritorno da Stoccolma. Si legge spesso
+      che sia stato l'ultimo martire del fluoro, ucciso dal suo stesso elemento; la causa
+      registrata fu però un'appendicite acuta, e il contributo delle esposizioni al fluoro
+      e al monossido di carbonio resta un'ipotesi mai dimostrata. La coincidenza è impressionante,
+      il nesso non è provato.
     visual: Medaglia del Nobel del 1906 accanto al necrologio parigino
     attendibilita: discusso
   - id: caratteristiche_elettronegativita
@@ -116,24 +114,24 @@ contenuti:
       stretti: gli manca un solo elettrone per completarsi e lo pretende da chiunque. Reagisce
       con tutti gli altri elementi tranne i gas nobili più leggeri, brucia l''acqua liberando
       ossigeno, incendia spontaneamente il vetro di quarzo, l''amianto e molti metalli. Non
-      esiste in natura allo stato libero per la ragione più semplice: non farebbe in tempo a
-      restarci.'
+      esiste in natura allo stato libero per la ragione più semplice: non farebbe in tempo
+      a restarci.'
     visual: Getto di fluoro che incendia un pezzo di lana d'acciaio al primo contatto
     attendibilita: documentato
   - id: caratteristiche_legame_forte
     sezione: caratteristiche
-    testo: 'Il rovescio di tanta violenza è una calma assoluta. Il legame carbonio-fluoro è fra
-      i più forti della chimica organica, e una volta formato non lo scioglie quasi nulla: né il
-      calore, né gli acidi, né i batteri. È per questo che le molecole perfluorurate resistono a
-      tutto, e per la stessa ragione si accumulano nell''ambiente e negli organismi, dove nessun
-      enzima sa demolirle. Le si chiama sostanze chimiche eterne proprio in virtù di questa
-      stabilità.'
+    testo: 'Il rovescio di tanta violenza è una calma assoluta. Il legame carbonio-fluoro
+      è fra i più forti della chimica organica, e una volta formato non lo scioglie quasi
+      nulla: né il calore, né gli acidi, né i batteri. È per questo che le molecole perfluorurate
+      resistono a tutto, e per la stessa ragione si accumulano nell''ambiente e negli organismi,
+      dove nessun enzima sa demolirle. Le si chiama sostanze chimiche eterne proprio in virtù
+      di questa stabilità.'
     visual: Goccia d'acqua che scivola intatta su una superficie perfluorurata
     attendibilita: documentato
   - id: caratteristiche_acido
     sezione: caratteristiche
-    testo: 'L''acido fluoridrico merita un paragrafo per conto suo, perché è pericoloso in un
-      modo che inganna. In acqua è un acido debole, meno corrosivo del cloridrico al tatto
+    testo: 'L''acido fluoridrico merita un paragrafo per conto suo, perché è pericoloso in
+      un modo che inganna. In acqua è un acido debole, meno corrosivo del cloridrico al tatto
       immediato, ma lo ione fluoruro attraversa la pelle senza dare dolore, raggiunge il sangue
       e sequestra il calcio dei tessuti e delle ossa: un''ustione estesa può uccidere per
       arresto cardiaco ore dopo il contatto, e chi la subisce può accorgersene troppo tardi.'
@@ -141,41 +139,41 @@ contenuti:
     attendibilita: documentato
   - id: usi_industria
     sezione: usi
-    testo: 'La quota maggiore di fluorite estratta finisce in acido fluoridrico, che è il punto
-      di partenza di quasi tutto il resto: refrigeranti, propellenti, polimeri fluorurati come
-      il politetrafluoroetilene, e i fluoruri usati nella raffinazione dell''alluminio. Una
-      parte va invece direttamente all''industria dell''acciaio come fondente, l''uso che i
-      minerari conoscevano cinque secoli fa e che non è mai passato di moda.'
+    testo: 'La quota maggiore di fluorite estratta finisce in acido fluoridrico, che è il
+      punto di partenza di quasi tutto il resto: refrigeranti, propellenti, polimeri fluorurati
+      come il politetrafluoroetilene, e i fluoruri usati nella raffinazione dell''alluminio.
+      Una parte va invece direttamente all''industria dell''acciaio come fondente, l''uso
+      che i minerari conoscevano cinque secoli fa e che non è mai passato di moda.'
     visual: Impianto chimico con le cisterne dell'acido fluoridrico
     attendibilita: documentato
   - id: usi_uranio
     sezione: usi
     testo: 'C''è poi un impiego che dipende da un dettaglio nucleare: il fluoro ha un solo
-      isotopo stabile. Questo fa dell''esafluoruro di uranio l''unico composto gassoso di uranio
-      in cui la differenza di massa fra le molecole dipende soltanto dall''isotopo di uranio, e
-      quindi il veicolo dell''arricchimento, per centrifugazione o per diffusione. Il progetto
-      Manhattan ne produsse quantità enormi, e ogni programma nucleare civile o militare passa
-      ancora di lì.'
+      isotopo stabile. Questo fa dell''esafluoruro di uranio l''unico composto gassoso di
+      uranio in cui la differenza di massa fra le molecole dipende soltanto dall''isotopo
+      di uranio, e quindi il veicolo dell''arricchimento, per centrifugazione o per diffusione.
+      Il progetto Manhattan ne produsse quantità enormi, e ogni programma nucleare civile
+      o militare passa ancora di lì.'
     visual: Cascata di centrifughe per l'arricchimento dell'uranio
     attendibilita: documentato
   - id: curiosita_teflon
     sezione: curiosita
     testo: 'Il polimero più famoso del fluoro nacque per sbaglio. Nel 1938 Roy Plunkett, che
-      alla DuPont cercava un nuovo refrigerante, trovò una bombola di tetrafluoroetilene
-      apparentemente vuota ma ancora pesante: il gas era polimerizzato spontaneamente sulle
-      pareti in una cera bianca scivolosissima e inattaccabile da tutto. Era il
-      politetrafluoroetilene, il teflon, che servì prima a guarnire le valvole degli impianti di
-      arricchimento dell''uranio e solo dopo a rivestire le padelle.'
+      alla DuPont cercava un nuovo refrigerante, trovò una bombola di tetrafluoroetilene apparentemente
+      vuota ma ancora pesante: il gas era polimerizzato spontaneamente sulle pareti in una
+      cera bianca scivolosissima e inattaccabile da tutto. Era il politetrafluoroetilene,
+      il teflon, che servì prima a guarnire le valvole degli impianti di arricchimento dell''uranio
+      e solo dopo a rivestire le padelle.'
     visual: La bombola sezionata con la patina bianca di polimero sulle pareti
     attendibilita: documentato
   - id: curiosita_denti
     sezione: curiosita
     testo: 'La presenza del fluoro nei dentifrici si deve a un''osservazione epidemiologica:
       nelle zone dove l''acqua ne conteneva naturalmente di più la carie era molto meno diffusa,
-      anche se un eccesso macchiava lo smalto. Lo ione fluoruro sostituisce parte degli
-      ossidrili nel minerale del dente formando fluorapatite, più resistente all''attacco degli
-      acidi. È l''elemento che nell''Ottocento uccideva i chimici e che oggi sta in ogni bagno,
-      dosato in parti per milione.'
+      anche se un eccesso macchiava lo smalto. Lo ione fluoruro sostituisce parte degli ossidrili
+      nel minerale del dente formando fluorapatite, più resistente all''attacco degli acidi.
+      È l''elemento che nell''Ottocento uccideva i chimici e che oggi sta in ogni bagno, dosato
+      in parti per milione.'
     visual: Tubetto di dentifricio e cristalli di fluorapatite al microscopio
     attendibilita: documentato
   pronuncia:
@@ -219,7 +217,7 @@ fonti:
   titolo: Henri Moissan
   consultata: '2026-09-07'
 - url: https://www.sciencehistory.org/stories/magazine/not-so-great-moments-in-chemical-safety/
-  titolo: 'Not-So-Great Moments in Chemical Safety (Science History Institute)'
+  titolo: Not-So-Great Moments in Chemical Safety (Science History Institute)
   consultata: '2026-09-07'
 - url: https://www.nobelprize.org/prizes/chemistry/1906/moissan/facts/
   titolo: The Nobel Prize in Chemistry 1906 — Henri Moissan

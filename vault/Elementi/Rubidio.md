@@ -32,6 +32,9 @@ timeline
     1863 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Secondo elemento scoperto per via spettroscopica, pochi mesi dopo il cesio e dagli stessi Bunsen e Kirchhoff. Il primo metallo, impuro, lo ottenne Bunsen riducendo il tartrato carbonizzato; il rubidio puro arrivò più tardi, per mano di George de Hevesy.
+
 ## Storia della scoperta
 
 Nel 1861, l'anno dopo il cesio, Robert Bunsen e Gustav Kirchhoff puntarono lo spettroscopio su un campione di lepidolite, una mica di litio che veniva dalla Sassonia. Nello spettro comparvero due righe rosso scuro che non appartenevano a nessun elemento conosciuto, e i due riconobbero un secondo metallo alcalino nuovo, parente stretto di quello trovato l'anno prima.

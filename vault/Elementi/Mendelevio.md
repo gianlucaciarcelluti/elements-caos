@@ -31,6 +31,9 @@ timeline
     1955 : Scoperta : Albert Ghiorso, Bernard George Harvey, Gregory Robert Choppin, Stanley Gerald Thompson, Glenn Seaborg
 ```
 
+> [!info] Nota sulla cronologia
+> Primo elemento identificato un atomo alla volta: diciassette atomi di mendelevio-256 riconosciuti fra il 18 e il 19 febbraio 1955 a Berkeley, bombardando con particelle alfa un bersaglio di einsteinio-253 di circa un miliardo di atomi. Gli autori documentati sono cinque — Ghiorso, Harvey, Choppin, Thompson e Seaborg — e la cronologia di riferimento li comprimeva in «Seaborg et al.». Il nome fu approvato nel 1955 con il simbolo Mv, sostituito da Md nel 1957.
+
 ## Storia della scoperta
 
 Nel 1955 il gruppo di Berkeley si trovò davanti a un problema di quantità. Per fabbricare l'elemento 101 serviva un bersaglio di einsteinio, e di einsteinio al mondo ne esisteva quanto se ne era riusciti a produrre in reattore: circa un miliardo di atomi, una quantità che non si vede, non si pesa e si maneggia solo perché è radioattiva e quindi si può seguire. Quel miliardo di atomi fu depositato per via elettrolitica su una sottilissima lamina d'oro, e quella lamina divenne il bersaglio.

@@ -32,6 +32,9 @@ timeline
     1911 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La fonte attribuiva l'isolamento del 1911 a 'H. Nilson', ma la verifica indica Charles James come primo isolatore del tulio puro: lo scopritore riconosciuto qui è solo Cleve, autore dell'osservazione del 1879.
+
 ## Storia della scoperta
 
 Nel 1879 Per Teodor Cleve, a Uppsala, applicò all'erbia un metodo di esclusione: toglieva sistematicamente tutti i contaminanti che sapeva riconoscere e guardava che cosa restava. Restarono due sostanze che non corrispondevano a nulla, e le chiamò holmia e thulia — la prima dal nome latino di Stoccolma, la seconda da Thule, il paese ai confini del mondo che i greci collocavano all'estremo nord.

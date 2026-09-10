@@ -32,6 +32,9 @@ timeline
     1821 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Isolato in forma metallica nel 1821 da William Thomas Brande.
+
 ## Storia della scoperta
 
 Il minerale da cui parte tutto si chiama petalite, e fu individuato nel 1800 sull'isola di Utö, nell'arcipelago di Stoccolma, dal chimico e statista brasiliano José Bonifácio de Andrada e Silva. Era una roccia lucente e sfaldabile dall'aspetto poco memorabile, e passò quasi vent'anni negli armadi dei mineralogisti prima che qualcuno la analizzasse davvero.

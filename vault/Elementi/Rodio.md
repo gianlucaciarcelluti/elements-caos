@@ -31,6 +31,9 @@ timeline
     1804 : Scoperta : William Hyde Wollaston
 ```
 
+> [!info] Nota sulla cronologia
+> Wollaston separò il rodio nel 1803 dalla stessa soluzione da cui aveva tratto il palladio e lo presentò alla Royal Society con la memoria del 1804.
+
 ## Storia della scoperta
 
 La platina greggia che arrivava in Europa dalla Colombia e dal Perù non era platino puro: era un miscuglio di granelli in cui, senza che nessuno lo sapesse, stavano insieme sei metalli distinti. I chimici del Settecento che tentavano di scioglierla si imbattevano sempre negli stessi due fastidi, una polvere nera che non andava in soluzione e colori inattesi nei sali, e li archiviavano come impurità del minerale. Furono proprio quei due fastidi a diventare quattro elementi.

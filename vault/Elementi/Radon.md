@@ -31,6 +31,9 @@ timeline
     1900 : Scoperta : Friedrich Ernst Dorn
 ```
 
+> [!info] Nota sulla cronologia
+> Dorn descrisse nel 1900 il gas radioattivo emesso dai composti del radio, che chiamò «emanazione del radio», ed è quella la data adottata. Ramsay e Whytlaw-Gray ne isolarono e caratterizzarono il gas nel 1910, proponendo il nome niton; il nome radon fu adottato nel 1923.
+
 ## Storia della scoperta
 
 Nel 1900 il fisico tedesco Friedrich Ernst Dorn osservò che i composti del radio emettevano un gas radioattivo, che chiamò emanazione del radio. Non era il primo a vedere qualcosa del genere — fenomeni simili erano stati notati con il torio e con l'attinio — ma fu il primo a studiarne sistematicamente il comportamento.

@@ -31,6 +31,9 @@ timeline
     1807 : Scoperta : Humphry Davy
 ```
 
+> [!info] Nota sulla cronologia
+> Georg Ernst Stahl distinse chimicamente il sale di potassio già nel 1702, ma non isolò l'elemento: la scoperta riconosciuta è l'elettrolisi di Davy.
+
 ## Storia della scoperta
 
 La potassa deve il nome al modo in cui si otteneva: si bruciava legna, si lavava la cenere con acqua, si faceva evaporare la soluzione in un recipiente finché sul fondo restava una crosta bianca. Il nome viene dal medio olandese potaschen, la cenere del pentolone, attestato già nel Quattrocento, e da lì è passato all'inglese potash, al francese potasse e all'italiano potassa. Era una delle materie prime più diffuse d'Europa, indispensabile a saponai, vetrai e tintori.

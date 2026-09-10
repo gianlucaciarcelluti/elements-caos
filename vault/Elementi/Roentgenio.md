@@ -31,6 +31,9 @@ timeline
     1994 : Scoperta : Sigurd Hofmann, Peter Armbruster, Gottfried Münzenberg
 ```
 
+> [!info] Nota sulla cronologia
+> La data adottata è quella della sintesi, l'8 dicembre 1994, ma il riconoscimento IUPAC è del 2003: le prove del 1994 furono giudicate insufficienti nel 2001 e l'esperimento dovette essere ripetuto. La cronologia di riferimento comprimeva gli scopritori in «Hofmann et al.»: l'articolo del 1995 ha gli stessi tredici autori di quello sul darmstadtio, e qui restano i tre nomi che le fonti isolano. Il nome è ufficiale dal primo novembre 2004.
+
 ## Storia della scoperta
 
 L'8 dicembre 1994, quattro settimane dopo il darmstadtio, il gruppo di Sigurd Hofmann al GSI ottenne tre nuclei dell'elemento 111 bombardando bismuto-209 con ioni di nichel-64. Era la stessa reazione che Dubna aveva provato nel 1986 senza vedere nulla: la differenza stava nella sensibilità dell'apparato e nella pazienza con cui la si applicava.

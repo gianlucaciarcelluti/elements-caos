@@ -31,6 +31,9 @@ timeline
     3500 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> La data segna l'avvio dell'estrazione dello stagno dalla cassiterite; il metallo non ha scopritore e la sua importanza nasce dalla lega con il rame.
+
 ## Storia della scoperta
 
 Il minerale da cui si ricava è la cassiterite, biossido di stagno, un materiale scuro e pesante che si concentra nelle sabbie dei fiumi e si può raccogliere lavando la ghiaia, come si fa con l'oro. Ridurla a metallo con il carbone è relativamente facile, il che spiega perché l'estrazione dello stagno prenda avvio già intorno al 3000 a.C.

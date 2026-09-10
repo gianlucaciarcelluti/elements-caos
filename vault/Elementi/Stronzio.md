@@ -32,6 +32,9 @@ timeline
     1808 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Adair Crawford e William Cruickshank riconoscono nel 1790 che il minerale di Strontian differisce dalla witherite e contiene una terra non ancora descritta; Thomas Charles Hope ne dà nel 1793 la caratterizzazione distesa e propone il nome strontites. La cronologia adotta il 1790, l'anno del riconoscimento, e non il 1808 dell'isolamento.
+
 ## Storia della scoperta
 
 Strontian è un villaggio delle Highlands occidentali, nato attorno alle miniere di piombo aperte negli anni Venti del Settecento. Dalle sue gallerie usciva, insieme al piombo, un minerale che i minatori mettevano da parte perché non serviva a nulla: lo si vendeva ai droghieri di Edimburgo come varietà di witherite, un carbonato di bario. Nessuno aveva motivo di guardarlo da vicino, perché somigliava a qualcosa di già noto.

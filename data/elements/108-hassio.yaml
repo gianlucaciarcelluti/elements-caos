@@ -11,12 +11,11 @@ scoperta:
   luogo: Darmstadt
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: Tre atomi di hassio-265 ottenuti al GSI di Darmstadt nel 1984 da piombo-208
-    e ferro-58. Dubna aveva rivendicato l'elemento lo stesso anno su eventi di fissione spontanea,
-    ma la commissione congiunta ha giudicato conclusivo il solo rapporto tedesco. Il nome
-    viene da Hassia, nome latino dell'Assia; la proposta IUPAC del 1994 avrebbe assegnato
-    a questa casella il nome hahnium, respinto dal GSI. Nel 1963 il geologo sovietico Viktor
-    Čerdyncev aveva rivendicato un elemento 108 naturale, il «sergenio», poi smentito.
+  note_cronologia: 'La cronologia adotta il 1984 e attribuisce la scoperta al GSI: Dubna aveva
+    rivendicato l''elemento nello stesso anno, ma la commissione congiunta ha giudicato conclusivo
+    il solo rapporto tedesco. La proposta IUPAC del 1994 avrebbe assegnato a questa casella
+    il nome hahnium; hassium è definitivo dal 1997. La rivendicazione di un elemento 108 naturale,
+    il «sergenio» del 1963, non è mai stata accettata.'
   controversia: null
 proprieta:
   gruppo: 8

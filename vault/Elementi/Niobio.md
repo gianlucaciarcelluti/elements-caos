@@ -32,6 +32,9 @@ timeline
     1864 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> Il columbium annunciato da Hatchett nel 1801 era con ogni probabilità una miscela di niobio e tantalio; dal 1809 al 1846 i due elementi furono ritenuti la stessa sostanza, sulla scorta del confronto fra gli ossidi fatto da William Hyde Wollaston. Isolato nel 1864 da Christian Wilhelm Blomstrand. Il nome niobium prevalse su columbium solo nel 1949.
+
 ## Storia della scoperta
 
 Nel 1801 Charles Hatchett stava esaminando i minerali del British Museum quando si fermò su un campione etichettato come columbite, arrivato in Inghilterra dal Connecticut nel 1734 e da allora rimasto nelle collezioni. Lo fuse con carbonato di potassio, sciolse il prodotto in acqua e per precipitazione ne ricavò l'ossido di un metallo che nessuno conosceva. Chiamò l'elemento columbium, da Columbia, il nome poetico degli Stati Uniti.

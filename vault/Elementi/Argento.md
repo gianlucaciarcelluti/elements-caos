@@ -31,6 +31,9 @@ timeline
     5000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> La data convenzionale segna l'uso più antico dell'argento; la separazione dal piombo per coppellazione è documentata da cumuli di scorie in Asia Minore nel IV millennio a.C.
+
 ## Storia della scoperta
 
 Un po' di argento nativo esiste, e con ogni probabilità è così che il metallo si è fatto notare la prima volta: masse contorte di filamenti metallici lucenti che affiorano in superficie in alcune vene minerarie. Ma sono rarità, e non bastano a sostenere un uso diffuso. Fin quando l'argento resta un metallo da raccogliere, resta anche un metallo quasi assente dai corredi; comincia a contare quando lo si sa produrre.

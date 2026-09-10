@@ -31,6 +31,9 @@ timeline
     1803 : Scoperta : Smithson Tennant
 ```
 
+> [!info] Nota sulla cronologia
+> Tennant separò osmio e iridio dal residuo insolubile della platina greggia nel 1803; la lettera che ne annuncia entrambi alla Royal Society porta la data del 21 giugno 1804.
+
 ## Storia della scoperta
 
 Sciogliendo la platina greggia in acqua regia restava sempre sul fondo una polvere scura che non voleva saperne di andare in soluzione. Joseph Louis Proust la considerava grafite, e per decenni fu trattata come uno scarto. Nel 1800 il chimico inglese Smithson Tennant si era messo in società con William Hyde Wollaston per raffinare il platino, e nella divisione dei compiti si era preso la parte che sembrava senza speranza: proprio quel residuo insolubile.

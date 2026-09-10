@@ -31,6 +31,9 @@ timeline
     1950 : Scoperta : Stanley Gerald Thompson, Kenneth Street Jr., Albert Ghiorso, Glenn Seaborg
 ```
 
+> [!info] Nota sulla cronologia
+> La data è quella della sintesi, il 9 febbraio 1950. La cronologia di riferimento comprimeva la squadra in «Seaborg et al.»: l'articolo è firmato da Thompson, Street, Ghiorso e Seaborg, in quest'ordine, che mette per ultimo il nome più noto.
+
 ## Storia della scoperta
 
 Il 9 febbraio 1950, a Berkeley, Stanley Thompson, Kenneth Street Jr., Albert Ghiorso e Glenn Seaborg bombardarono con particelle alfa un bersaglio di curio-242 grande quanto un microgrammo. Ottennero circa cinquemila atomi dell'elemento 98: il quarto elemento nuovo in sei anni per lo stesso gruppo, e il secondo in due mesi dopo il berkelio.

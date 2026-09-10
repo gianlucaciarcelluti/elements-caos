@@ -31,6 +31,9 @@ timeline
     7000 a.C. : Primo uso documentato (data stimata)
 ```
 
+> [!info] Nota sulla cronologia
+> La data convenzionale indica le prime tracce di fusione del piombo dalla galena, non un atto di scoperta: il piombo non ha scopritore.
+
 ## Storia della scoperta
 
 Il minerale di partenza è la galena, solfuro di piombo, che si riconosce a colpo d'occhio per i suoi cristalli cubici grigi e brillanti. Per liberarne il metallo basta scaldarla in aria: molto meno del calore necessario al rame, e infinitamente meno di quello che chiederà il ferro. È per questo una delle prime operazioni metallurgiche riuscite, e le prime tracce risalgono al VII millennio a.C.

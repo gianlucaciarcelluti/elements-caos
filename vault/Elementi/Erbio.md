@@ -32,6 +32,9 @@ timeline
     1934 : Isolamento
 ```
 
+> [!info] Nota sulla cronologia
+> La cronologia adotta il 1843, anno in cui Mosander separò dall'ittria due terre nuove, i cui nomi finirono poi scambiati. L'ossido ragionevolmente puro fu ottenuto nel 1905 da Georges Urbain e Charles James.
+
 ## Storia della scoperta
 
 L'erbio esce dalla stessa vicenda del terbio. Nel 1843 Carl Gustaf Mosander sottopose l'ittria — la terra ricavata cinquant'anni prima dalla pietra nera di Ytterby — a precipitazioni ripetute con ammoniaca, e concluse che non era una sostanza sola ma tre: l'ittria vera e propria, e due frazioni minori che chiamò erbia e terbia.
