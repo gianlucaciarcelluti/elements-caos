@@ -1,0 +1,38 @@
+name: Proponi un approfondimento
+description: Un elemento la cui vicenda meriterebbe più spazio
+title: "[approfondimento] "
+labels: ["approfondimento"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Le note base stanno fra 800 e 1300 parole: è il formato che le tiene
+        leggibili tutte d'un fiato. Quando la vicenda di un elemento non ci sta
+        dentro, invece di allungare la nota si aggiunge un approfondimento
+        separato.
+  - type: input
+    id: elemento
+    attributes:
+      label: Elemento
+      placeholder: Fosforo
+    validations:
+      required: true
+  - type: textarea
+    id: perche
+    attributes:
+      label: Perché merita un approfondimento
+      description: >-
+        Cosa c'è nella sua storia che la nota base non può contenere: una
+        controversia di attribuzione, una vicenda umana, una conseguenza
+        storica, un dibattito scientifico ancora aperto.
+    validations:
+      required: true
+  - type: textarea
+    id: fonti
+    attributes:
+      label: Fonti
+      description: >-
+        I materiali su cui l'approfondimento potrebbe basarsi. Non è
+        obbligatorio averli tutti, ma almeno uno serve.
+    validations:
+      required: false

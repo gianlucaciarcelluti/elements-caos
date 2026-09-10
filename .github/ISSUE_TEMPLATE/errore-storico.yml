@@ -1,0 +1,43 @@
+name: Errore storico
+description: La nota racconta un fatto storico in modo scorretto
+title: "[storia] "
+labels: ["errore-storico"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per la segnalazione. Ricorda che le note in `vault/` sono
+        generate: la correzione verrà applicata al file YAML corrispondente in
+        `data/elements/` e il vault sarà rigenerato.
+  - type: input
+    id: elemento
+    attributes:
+      label: Elemento
+      description: Il nome dell'elemento, come compare nella nota.
+      placeholder: Fosforo
+    validations:
+      required: true
+  - type: textarea
+    id: dice
+    attributes:
+      label: Cosa dice la nota
+      description: Copia la frase esatta, così è possibile ritrovarla nei dati.
+    validations:
+      required: true
+  - type: textarea
+    id: dovrebbe
+    attributes:
+      label: Cosa dovrebbe dire
+      description: La versione corretta, o almeno in cosa consiste l'errore.
+    validations:
+      required: true
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Fonte
+      description: >-
+        Il link alla fonte che sostiene la correzione, e se possibile il punto
+        preciso. Una segnalazione senza fonte non è verificabile e resterà
+        aperta.
+    validations:
+      required: true

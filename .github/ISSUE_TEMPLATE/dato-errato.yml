@@ -1,0 +1,57 @@
+name: Dato errato
+description: Un valore fisico-chimico non è corretto
+title: "[dato] "
+labels: ["dato-errato"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Per i dati fisico-chimici indica sempre l'unità di misura: il vault
+        conserva le temperature in kelvin e le masse atomiche in unità di massa
+        atomica unificata.
+  - type: input
+    id: elemento
+    attributes:
+      label: Elemento
+      placeholder: Fosforo
+    validations:
+      required: true
+  - type: dropdown
+    id: campo
+    attributes:
+      label: Campo
+      description: Quale dato è sbagliato.
+      options:
+        - massa atomica
+        - configurazione elettronica
+        - gusci elettronici
+        - punto di fusione
+        - punto di ebollizione
+        - densità
+        - stati di ossidazione
+        - gruppo, periodo o blocco
+        - categoria chimica
+        - anno o luogo della scoperta
+        - altro (specificalo sotto)
+    validations:
+      required: true
+  - type: input
+    id: attuale
+    attributes:
+      label: Valore attuale
+      description: Il valore che compare adesso nella nota.
+    validations:
+      required: true
+  - type: input
+    id: corretto
+    attributes:
+      label: Valore corretto
+    validations:
+      required: true
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Fonte
+      description: Il link alla fonte che riporta il valore corretto.
+    validations:
+      required: true
