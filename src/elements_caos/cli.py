@@ -26,7 +26,7 @@ from elements_caos.render.navigazione import (
 )
 from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi_nota
 from elements_caos.render.prosa import componi_sezione
-from elements_caos.sito.pagina import rendi_elemento, url_elemento
+from elements_caos.sito.pagina import CARTELLA_STATICI, rendi_elemento, url_elemento
 from elements_caos.validazione import (
     FONTI_MIN_BASE,
     PAROLE_MAX_BASE,
@@ -195,6 +195,19 @@ def genera_vault(cartella_dati: Path, cartella_vault: Path) -> int:
     return CODICE_SUCCESSO
 
 
+def _copia_statici(destinazione: Path) -> None:
+    """Copia i fogli di stile e gli script nella cartella di uscita.
+
+    I file si copiano invece di essere inclusi nella pagina perché così il
+    browser li mette in cache una volta sola per tutte le 118 note, e perché
+    restano leggibili e correggibili come file separati.
+    """
+    destinazione.mkdir(parents=True, exist_ok=True)
+    for origine in sorted(CARTELLA_STATICI.iterdir()):
+        if origine.is_file():
+            _scrivi(destinazione / origine.name, origine.read_text(encoding="utf-8"))
+
+
 def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
     """Emette il sito pubblico a partire dagli stessi dati che generano il vault.
 
@@ -209,6 +222,8 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
     for elemento in elementi:
         contesto = costruisci_contesto(elemento, elementi, scopritori, epoche)
         _scrivi(cartella_uscita / url_elemento(elemento), rendi_elemento(contesto))
+
+    _copia_statici(cartella_uscita / "statico")
 
     print(f"Emesse {len(elementi)} pagine di elementi in {cartella_uscita}")
     return CODICE_SUCCESSO

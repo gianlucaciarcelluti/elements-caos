@@ -5,10 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block titolo %}{% endblock %}</title>
 <meta name="description" content="{% block descrizione %}{% endblock %}">
+<link rel="stylesheet" href="{{ radice }}statico/temi.css">
+<link rel="stylesheet" href="{{ radice }}statico/base.css">
+{# Caricato nella testa e non in fondo: applica il tema prima della prima
+   pittura, altrimenti chi ha scelto lo scuro vede un lampo di chiaro. #}
+<script src="{{ radice }}statico/tema.js"></script>
 </head>
 <body>
 <header class="testata">
 <a class="testata__sito" href="{{ radice }}index.html">La scoperta degli elementi</a>
+{# Nascosto finché il JS non lo mostra: senza JS non funzionerebbe, e un
+   comando che non fa nulla è peggio di un comando assente. #}
+<button type="button" id="scelta-tema" class="testata__tema" hidden aria-pressed="false">Scuro</button>
 </header>
 
 <main id="contenuto">

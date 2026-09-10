@@ -19,6 +19,7 @@ from elements_caos.render.note import ContestoNota
 from elements_caos.render.prosa import componi_sezione, conta_parole, tempo_lettura_minuti
 
 CARTELLA_TEMPLATE = Path(__file__).parent / "templates"
+CARTELLA_STATICI = Path(__file__).parent / "statico"
 
 # Prefissi degli URL. Sono quelli già pubblicati con Quartz al Task 23: il sito
 # è pubblico e i collegamenti esistenti non devono rompersi.

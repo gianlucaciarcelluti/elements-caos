@@ -1,0 +1,253 @@
+/* Impianto tipografico e di layout del sito.
+ *
+ * Font di sistema: nessuna chiamata a un CDN nel percorso di rendering. È un
+ * punto di rottura in meno e, su un sito che dichiara di non raccogliere nulla
+ * su chi legge, un tracciamento di terze parti in meno.
+ */
+
+:root {
+  --larghezza-lettura: 66ch;
+  --larghezza-pagina: 46rem;
+
+  --passo-1: 0.25rem;
+  --passo-2: 0.5rem;
+  --passo-3: 1rem;
+  --passo-4: 1.5rem;
+  --passo-5: 2.5rem;
+  --passo-6: 4rem;
+
+  --font-testo: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-titoli: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-dati: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  --raggio: 6px;
+  color-scheme: light dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--colore-fondo);
+  color: var(--colore-testo);
+  font-family: var(--font-testo);
+  /* La dimensione cresce leggermente con la finestra, entro limiti fissi: su
+   * telefono resta leggibile senza ingrandire, su schermo grande non diventa
+   * un manifesto. */
+  font-size: clamp(1.05rem, 1rem + 0.25vw, 1.2rem);
+  line-height: 1.65;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* --- Impianto della pagina ------------------------------------------------ */
+
+.testata,
+main,
+.chiusura {
+  max-width: var(--larghezza-pagina);
+  margin-inline: auto;
+  padding-inline: var(--passo-3);
+}
+
+.testata {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--passo-3);
+  padding-block: var(--passo-4);
+}
+
+.testata__tema {
+  flex: none;
+  /* 44px è la dimensione minima di un punto di contatto usabile con il
+   * pollice: sotto, il pulsante si manca. */
+  min-height: 44px;
+  padding-inline: var(--passo-3);
+  background: var(--colore-superficie);
+  color: var(--colore-testo);
+  border: 1px solid var(--colore-bordo);
+  border-radius: var(--raggio);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.testata__tema:hover {
+  border-color: var(--colore-accento);
+  color: var(--colore-accento);
+}
+
+.testata__sito {
+  font-family: var(--font-titoli);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--colore-testo-tenue);
+  text-decoration: none;
+}
+
+.testata__sito:hover {
+  color: var(--colore-accento);
+}
+
+main {
+  padding-bottom: var(--passo-6);
+}
+
+/* --- Testo ---------------------------------------------------------------- */
+
+p {
+  max-width: var(--larghezza-lettura);
+  margin-block: 0 var(--passo-3);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-titoli);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+h2 {
+  margin-block: var(--passo-5) var(--passo-3);
+  font-size: 1.4rem;
+}
+
+a {
+  color: var(--colore-accento);
+  text-underline-offset: 0.15em;
+}
+
+/* --- Scheda dell'elemento ------------------------------------------------- */
+
+.elemento__testa {
+  margin-block: var(--passo-4) var(--passo-5);
+  padding-bottom: var(--passo-3);
+  border-bottom: 1px solid var(--colore-bordo);
+}
+
+.elemento__posizione {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--colore-testo-tenue);
+}
+
+.elemento__nome {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--passo-3);
+  margin-block: var(--passo-2);
+  font-size: clamp(2rem, 1.5rem + 2.5vw, 3rem);
+}
+
+.elemento__simbolo {
+  font-family: var(--font-dati);
+  font-size: 0.45em;
+  font-weight: 400;
+  padding: var(--passo-1) var(--passo-2);
+  border: 1px solid var(--colore-bordo);
+  border-radius: var(--raggio);
+  color: var(--colore-testo-tenue);
+}
+
+.elemento__sommario {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: 0.9rem;
+  color: var(--colore-testo-tenue);
+}
+
+/* L'apertura è la frase che deve trattenere: ha il peso di un occhiello, non
+ * quello di un paragrafo qualunque. */
+.elemento__hook {
+  margin-block: var(--passo-4);
+  padding-left: var(--passo-3);
+  border-left: 3px solid var(--colore-accento);
+  font-size: 1.15em;
+  line-height: 1.5;
+  color: var(--colore-testo);
+}
+
+.elemento__catena {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--passo-3);
+  margin-block: var(--passo-6) var(--passo-5);
+  padding-top: var(--passo-3);
+  border-top: 1px solid var(--colore-bordo);
+  font-family: var(--font-titoli);
+  font-size: 0.95rem;
+}
+
+.elemento__fonti ul {
+  padding-left: var(--passo-4);
+  font-size: 0.9rem;
+  color: var(--colore-testo-tenue);
+}
+
+.elemento__fonti li {
+  margin-bottom: var(--passo-2);
+}
+
+/* --- Chiusura e avvertenza ------------------------------------------------ */
+
+.chiusura {
+  padding-block: var(--passo-5) var(--passo-6);
+  border-top: 1px solid var(--colore-bordo);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+}
+
+.avvertenza {
+  padding: var(--passo-3);
+  background: var(--colore-superficie);
+  border-radius: var(--raggio);
+}
+
+.avvertenza__titolo {
+  margin: 0 0 var(--passo-2);
+  font-weight: 700;
+  color: var(--colore-testo);
+}
+
+.avvertenza p {
+  margin: 0;
+  max-width: none;
+  line-height: 1.5;
+}
+
+.chiusura__link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--passo-3);
+  margin-top: var(--passo-3);
+}
+
+/* --- Accessibilità -------------------------------------------------------- */
+
+:focus-visible {
+  outline: 2px solid var(--colore-accento);
+  outline-offset: 2px;
+}
+
+/* Chi ha chiesto meno animazioni non deve riceverne. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

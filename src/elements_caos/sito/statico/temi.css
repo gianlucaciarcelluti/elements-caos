@@ -1,0 +1,85 @@
+/* Token di colore del sito, in due temi completi.
+ *
+ * Nessun valore è scelto a occhio: i colori d'epoca nascono da sei tonalità
+ * distribuite lungo il racconto — dal bronzo dell'antichità al rosso dell'era
+ * nucleare — e la loro luminosità è stata calcolata perché ogni coppia
+ * testo/sfondo superi 4,5:1. tests/test_sito_identita.py lo verifica: se un
+ * colore cambia e scende sotto la soglia, la suite fallisce.
+ *
+ * I commenti "tema:" delimitano i blocchi e sono la convenzione che permette
+ * al test di attribuire ogni token al tema giusto senza interpretare la
+ * cascata CSS. Non vanno rimossi.
+ */
+
+/* tema: chiaro */
+:root {
+  --colore-fondo: #fdfcfa;
+  --colore-superficie: #f4f1ec;
+  --colore-testo: #1f1d1a;
+  --colore-testo-tenue: #5c574f;
+  --colore-accento: #175a8c;
+  --colore-bordo: #ddd7cd;
+
+  --epoca-antichita-sfondo: #f7ece3;
+  --epoca-antichita-testo: #a05622;
+  --epoca-alchimia-sfondo: #f7f2e3;
+  --epoca-alchimia-testo: #82691c;
+  --epoca-pneumatica-sfondo: #e3f7ed;
+  --epoca-pneumatica-testo: #1a7a4a;
+  --epoca-elettrolisi-sfondo: #e3eff7;
+  --epoca-elettrolisi-testo: #236ea4;
+  --epoca-spettroscopia-sfondo: #ede3f7;
+  --epoca-spettroscopia-testo: #7328bd;
+  --epoca-nucleare-sfondo: #f7e3e7;
+  --epoca-nucleare-testo: #bd2841;
+}
+
+/* Il tema scuro vale sia per chi lo ha impostato nel sistema sia per chi lo
+ * sceglie qui: la scelta esplicita vince, e per questo il blocco è ripetuto.
+ */
+/* tema: scuro */
+:root[data-tema="scuro"] {
+  --colore-fondo: #161513;
+  --colore-superficie: #22201d;
+  --colore-testo: #ece8e1;
+  --colore-testo-tenue: #a9a299;
+  --colore-accento: #7ab8e0;
+  --colore-bordo: #363330;
+
+  --epoca-antichita-sfondo: #37261b;
+  --epoca-antichita-testo: #d89464;
+  --epoca-alchimia-sfondo: #37301b;
+  --epoca-alchimia-testo: #d8bb64;
+  --epoca-pneumatica-sfondo: #1b3729;
+  --epoca-pneumatica-testo: #64d89e;
+  --epoca-elettrolisi-sfondo: #1b2b37;
+  --epoca-elettrolisi-testo: #64a8d8;
+  --epoca-spettroscopia-sfondo: #291b37;
+  --epoca-spettroscopia-testo: #a874dc;
+  --epoca-nucleare-sfondo: #371b1f;
+  --epoca-nucleare-testo: #d9687b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="chiaro"]) {
+    --colore-fondo: #161513;
+    --colore-superficie: #22201d;
+    --colore-testo: #ece8e1;
+    --colore-testo-tenue: #a9a299;
+    --colore-accento: #7ab8e0;
+    --colore-bordo: #363330;
+
+    --epoca-antichita-sfondo: #37261b;
+    --epoca-antichita-testo: #d89464;
+    --epoca-alchimia-sfondo: #37301b;
+    --epoca-alchimia-testo: #d8bb64;
+    --epoca-pneumatica-sfondo: #1b3729;
+    --epoca-pneumatica-testo: #64d89e;
+    --epoca-elettrolisi-sfondo: #1b2b37;
+    --epoca-elettrolisi-testo: #64a8d8;
+    --epoca-spettroscopia-sfondo: #291b37;
+    --epoca-spettroscopia-testo: #a874dc;
+    --epoca-nucleare-sfondo: #371b1f;
+    --epoca-nucleare-testo: #d9687b;
+  }
+}
