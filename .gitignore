@@ -14,3 +14,8 @@ public/
 .superpowers/
 # Dataset esterni scaricati dall'ingest: rigenerabili, non vanno versionati.
 .cache/
+
+# Documenti di lavoro del progetto (spec, piano, ledger, prompt di ripresa):
+# restano in locale e fuori dal repository pubblico. Copia in
+# ../elements-caos-superpowers.
+docs/superpowers/
