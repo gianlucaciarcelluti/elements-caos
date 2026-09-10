@@ -1,0 +1,91 @@
+name: Validazione del vault
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Il repository diventerà pubblico: nessun job qui ha bisogno di scrivere.
+permissions:
+  contents: read
+
+jobs:
+  qualita:
+    name: Test, lint e tipi
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installa uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Installa le dipendenze
+        run: uv sync --all-extras --dev
+
+      - name: Test
+        run: uv run pytest -v
+
+      - name: Lint
+        run: uv run ruff check .
+
+      - name: Formattazione
+        run: uv run ruff format --check .
+
+      - name: Tipi
+        run: uv run mypy src
+
+  vault:
+    name: Integrità del vault
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installa uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Installa le dipendenze
+        run: uv sync --all-extras --dev
+
+      - name: Rigenera il vault
+        run: uv run elements-caos genera --dati data --vault vault
+
+      # Le note in vault/ sono generate: questo passo è ciò che impedisce di
+      # modificarle a mano, che è la regola d'oro del progetto.
+      #
+      # Si guarda `git status --porcelain` e non `git diff --exit-code`, perché
+      # il secondo ignora i file non tracciati: un elemento aggiunto ai dati
+      # senza committare la nota generata passerebbe il controllo.
+      - name: Verifica che il vault committato sia allineato ai dati
+        run: |
+          DIFFERENZE=$(git status --porcelain -- vault)
+          if [ -n "$DIFFERENZE" ]; then
+            echo "::error::Il vault committato non corrisponde ai dati."
+            echo "Le note in vault/ sono generate: modificare i file in data/ e rigenerare"
+            echo "con 'uv run elements-caos genera --dati data --vault vault'."
+            echo "$DIFFERENZE"
+            git diff -- vault
+            exit 1
+          fi
+          echo "Il vault è allineato ai dati."
+
+      - name: Valida l'integrità del vault
+        run: uv run elements-caos valida --dati data --vault vault
+
+  diagrammi:
+    name: Sintassi dei diagrammi
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Compila i diagrammi Mermaid
+        run: ./scripts/verifica_mermaid.sh
+        env:
+          PARALLELISMO: 4

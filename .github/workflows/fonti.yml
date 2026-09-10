@@ -1,0 +1,35 @@
+name: Link delle fonti
+
+# Gli URL muoiono dopo la pubblicazione, non prima: il controllo serve nel
+# tempo e non a ogni commit. Gira una volta a settimana, e si può lanciare a
+# mano quando serve.
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+# Il repository diventerà pubblico: nessun job qui ha bisogno di scrivere.
+permissions:
+  contents: read
+
+jobs:
+  fonti:
+    name: Verifica gli URL dichiarati in fonti
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installa uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Installa le dipendenze
+        run: uv sync --all-extras --dev
+
+      # Deliberatamente non bloccante: un sito temporaneamente giù non deve
+      # far fallire una pipeline che non c'entra, e la pubblicazione del vault
+      # non deve dipendere dalla salute di server terzi. Il risultato finisce
+      # nel riepilogo del run.
+      - name: Controlla i link
+        run: uv run python scripts/verifica_fonti.py --dati data
