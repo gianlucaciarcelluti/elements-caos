@@ -1,0 +1,23 @@
+{% extends "base.html.j2" %}
+
+{% block titolo %}Questa pagina si è spostata{% endblock %}
+{% block descrizione %}L'indirizzo è cambiato.{% endblock %}
+{% block testa_extra %}
+<meta http-equiv="refresh" content="0; url={{ radice }}{{ verso }}">
+<link rel="canonical" href="{{ radice }}{{ verso }}">
+{# Un reindirizzamento non va indicizzato: la pagina buona è quella di
+   destinazione, e averle entrambe negli indici le mette in concorrenza. #}
+<meta name="robots" content="noindex">
+{% endblock %}
+
+{% block contenuto %}
+<article class="contesto">
+<header class="contesto__testa">
+<h1>Questa pagina si è spostata</h1>
+<p>
+Il sito è stato ricostruito e le pagine per tag non ci sono più. Se il rinvio
+non parte da solo, <a href="{{ radice }}{{ verso }}">prosegui da qui</a>.
+</p>
+</header>
+</article>
+{% endblock %}

@@ -8,8 +8,9 @@ collegamenti già raggiungibili.
 from typing import Any
 
 from elements_caos.caricamento import ordina_per_scoperta
-from elements_caos.models import Elemento, Epoca, Scopritore, Tappa
+from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Tappa
 from elements_caos.render.diagrammi import formatta_anno, preposizione_articolata
+from elements_caos.render.note import ETICHETTE_CATEGORIA
 from elements_caos.sito.pagina import (
     ambiente_sito,
     url_elemento,
@@ -19,6 +20,12 @@ from elements_caos.sito.pagina import (
 
 URL_HOME = "index.html"
 URL_ATTRIBUZIONI = "attribuzioni.html"
+
+# Indici di cartella. Quartz li pubblicava e sono navigazione vera: senza,
+# /elementi, /epoche e /scopritori risponderebbero 404 dopo la sostituzione.
+URL_INDICE_ELEMENTI = "elementi/index.html"
+URL_INDICE_EPOCHE = "epoche/index.html"
+URL_INDICE_SCOPRITORI = "scopritori/index.html"
 
 
 def _voci_elementi(elementi: list[Elemento]) -> list[dict[str, Any]]:
@@ -80,6 +87,77 @@ def rendi_attribuzioni_sito(scopritori: dict[str, Scopritore]) -> str:
 
     modello = ambiente_sito().get_template("attribuzioni.html.j2")
     return modello.render(voci=con_ritratto, url_scopritore=url_scopritore)
+
+
+def voci_scopritori(
+    scopritori: dict[str, Scopritore], elementi: list[Elemento]
+) -> list[dict[str, Any]]:
+    """Elenca gli scopritori in ordine alfabetico, con quanti elementi hanno trovato.
+
+    Cento nomi si scorrono per lettera: l'ordine alfabetico è l'unico che
+    permette di trovarne uno che si sta cercando.
+    """
+    return [
+        {
+            "scopritore": scopritore,
+            "url": url_scopritore(scopritore),
+            "quanti": sum(1 for e in elementi if scopritore.id in e.scoperta.scopritori),
+        }
+        for scopritore in sorted(scopritori.values(), key=lambda s: s.nome.lower())
+    ]
+
+
+def rendi_indice_elementi(elementi: list[Elemento]) -> str:
+    """Compone l'indice di tutti gli elementi, raggruppati per categoria chimica.
+
+    È ciò che le pagine di tag di Quartz facevano di utile: scorrere gli
+    elementi per famiglia. La tassonomia dei tag non viene replicata, la
+    possibilità di scorrere sì, sotto un indirizzo più sensato.
+    """
+    gruppi: dict[Categoria, list[Elemento]] = {}
+    for elemento in sorted(elementi, key=lambda e: e.numero_atomico):
+        gruppi.setdefault(elemento.proprieta.categoria, []).append(elemento)
+
+    modello = ambiente_sito().get_template("indice-elementi.html.j2")
+    return modello.render(
+        totale=len(elementi),
+        gruppi=[
+            {
+                "nome": ETICHETTE_CATEGORIA[categoria],
+                "voci": _voci_elementi(voci),
+            }
+            for categoria, voci in sorted(
+                gruppi.items(), key=lambda voce: ETICHETTE_CATEGORIA[voce[0]]
+            )
+        ],
+    )
+
+
+def rendi_indice_epoche(epoche: dict[str, Epoca], elementi: list[Elemento]) -> str:
+    """Compone l'indice delle sei epoche, in ordine storico."""
+    conteggi: dict[str, int] = {}
+    for elemento in elementi:
+        conteggi[elemento.scoperta.epoca] = conteggi.get(elemento.scoperta.epoca, 0) + 1
+
+    modello = ambiente_sito().get_template("indice-epoche.html.j2")
+    return modello.render(
+        voci=[
+            {
+                "epoca": epoca,
+                "url": url_epoca(epoca.nome),
+                "quanti": conteggi.get(epoca.id, 0),
+                "inizio": formatta_anno(epoca.anno_inizio),
+                "fine": formatta_anno(epoca.anno_fine),
+            }
+            for epoca in sorted(epoche.values(), key=lambda e: e.anno_inizio)
+        ]
+    )
+
+
+def rendi_indice_scopritori(scopritori: dict[str, Scopritore], elementi: list[Elemento]) -> str:
+    """Compone l'indice alfabetico degli scopritori."""
+    modello = ambiente_sito().get_template("indice-scopritori.html.j2")
+    return modello.render(voci=voci_scopritori(scopritori, elementi), totale=len(scopritori))
 
 
 def rendi_home(elementi: list[Elemento], epoche: dict[str, Epoca], tappe: list[Tappa]) -> str:

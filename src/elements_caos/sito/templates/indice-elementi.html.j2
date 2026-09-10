@@ -1,0 +1,36 @@
+{% extends "base.html.j2" %}
+{% set radice = "../" %}
+
+{% block titolo %}Tutti gli elementi{% endblock %}
+{% block descrizione %}I {{ totale }} elementi chimici raggruppati per famiglia.{% endblock %}
+
+{% block contenuto %}
+<article class="contesto">
+<header class="contesto__testa">
+<p class="contesto__occhiello">Indice</p>
+<h1>Tutti gli elementi</h1>
+<p>
+I {{ totale }} elementi raggruppati per famiglia chimica. Per l'ordine in cui
+sono stati scoperti, che è il filo di questo sito, vedi la
+<a href="{{ radice }}cronologia-degli-elementi.html">cronologia</a>.
+</p>
+</header>
+
+{% for gruppo in gruppi %}
+<section class="contesto__elenco">
+<h2>{{ gruppo.nome }} <span class="conteggio">{{ gruppo.voci | length }}</span></h2>
+<ul class="pastiglie">
+{% for voce in gruppo.voci %}
+<li class="pastiglia epoca--{{ voce.epoca }}">
+<a href="{{ radice }}{{ voce.url }}">
+<span class="pastiglia__simbolo">{{ voce.elemento.simbolo }}</span>
+<span class="pastiglia__nome">{{ voce.elemento.nome }}</span>
+<span class="pastiglia__anno">{{ voce.anno }}</span>
+</a>
+</li>
+{% endfor %}
+</ul>
+</section>
+{% endfor %}
+</article>
+{% endblock %}

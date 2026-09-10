@@ -1103,3 +1103,55 @@ a {
   font-size: 0.85rem;
   color: var(--colore-testo-tenue);
 }
+
+/* --- Indici ---------------------------------------------------------------- */
+
+.conteggio {
+  font-family: var(--font-dati);
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--colore-testo-tenue);
+}
+
+.elenco-nomi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 0 var(--passo-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--passo-2);
+  border-bottom: 1px solid var(--colore-bordo);
+}
+
+.nome a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  font-family: var(--font-titoli);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+.nome__quanti {
+  font-family: var(--font-dati);
+  font-size: 0.75rem;
+  color: var(--colore-testo-tenue);
+}
+
+.porta h2 {
+  margin: 0 0 var(--passo-1);
+  font-size: 1.15rem;
+}
+
+.porta h2 a {
+  color: var(--epoca-testo, var(--colore-accento));
+  text-decoration: none;
+}

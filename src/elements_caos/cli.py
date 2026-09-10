@@ -29,9 +29,15 @@ from elements_caos.render.prosa import componi_sezione
 from elements_caos.sito.contesto import (
     URL_ATTRIBUZIONI,
     URL_HOME,
+    URL_INDICE_ELEMENTI,
+    URL_INDICE_EPOCHE,
+    URL_INDICE_SCOPRITORI,
     rendi_attribuzioni_sito,
     rendi_epoca_sito,
     rendi_home,
+    rendi_indice_elementi,
+    rendi_indice_epoche,
+    rendi_indice_scopritori,
     rendi_scopritore_sito,
 )
 from elements_caos.sito.cronologia import URL_CRONOLOGIA, rendi_cronologia_sito
@@ -52,6 +58,11 @@ from elements_caos.sito.pagina import (
     url_elemento,
     url_epoca,
     url_scopritore,
+)
+from elements_caos.sito.reindirizzamenti import (
+    TAG_PUBBLICATI,
+    destinazione,
+    rendi_reindirizzamento,
 )
 from elements_caos.sito.tavola import URL_TAVOLA, rendi_tavola_sito
 from elements_caos.validazione import (
@@ -289,6 +300,13 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
 
     _scrivi(cartella_uscita / URL_ATTRIBUZIONI, rendi_attribuzioni_sito(scopritori))
 
+    _scrivi(cartella_uscita / URL_INDICE_ELEMENTI, rendi_indice_elementi(elementi))
+    _scrivi(cartella_uscita / URL_INDICE_EPOCHE, rendi_indice_epoche(epoche, elementi))
+    _scrivi(
+        cartella_uscita / URL_INDICE_SCOPRITORI,
+        rendi_indice_scopritori(scopritori, elementi),
+    )
+
     itinerario = carica_itinerario(cartella_dati / "itinerario.yaml")
     if itinerario:
         _scrivi(
@@ -302,6 +320,14 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
     _scrivi(cartella_uscita / URL_RSS, rendi_rss(elementi))
     _scrivi(cartella_uscita / URL_SITEMAP, rendi_sitemap(elementi, epoche, scopritori, itinerario))
     _scrivi(cartella_uscita / URL_404, rendi_404())
+
+    # Gli indirizzi delle pagine di tag che il sito serviva con Quartz: non
+    # esistono più, ma non possono limitarsi a rispondere 404.
+    for tag in TAG_PUBBLICATI:
+        _scrivi(
+            cartella_uscita / f"{tag}/index.html",
+            rendi_reindirizzamento(tag, destinazione(tag)),
+        )
 
     _copia_statici(cartella_uscita / "statico")
 

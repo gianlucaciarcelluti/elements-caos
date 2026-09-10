@@ -162,18 +162,25 @@ Il vault è pubblicato anche come sito, su GitHub Pages. Non serve toccarlo per
 contribuire ai contenuti, ma se vuoi vedere come verrà una nota:
 
 ```bash
-scripts/costruisci_sito.sh          # costruisce in public/
-SERVI=1 scripts/costruisci_sito.sh  # costruisce e serve in locale
+uv run elements-caos sito --dati data --uscita public
+python3 -m http.server --directory public   # per aprirlo nel browser
 ```
 
-Lo script clona Quartz in `.quartz-build/` a una versione fissata, ci copia
-dentro il vault e costruisce. La prima esecuzione impiega qualche minuto perché
-scarica le dipendenze; le successive riusano il clone. Sia `public/` sia
-`.quartz-build/` sono ignorati da git.
+Il sito si genera dallo **stesso dataset** che genera il vault: sono due
+emettitori indipendenti, e il vault non cambia di un byte quando cambia il
+sito. Le pagine, i fogli di stile e gli script stanno in
+`src/elements_caos/sito/`; `public/` è ignorato da git.
 
-La home del sito è `sito/index.md`, ed è l'unica pagina scritta a mano: sta
-fuori dal vault perché in Obsidian una nota «index» sarebbe solo rumore, mentre
-senza di essa la radice del sito risponderebbe 404.
+Nessuna pagina del sito è scritta a mano, nemmeno la home: modificarne una
+significa modificare il suo template o i dati da cui nasce.
+
+### I limiti del sito sono verificati, non sperati
+
+`scripts/verifica_sito.mjs` apre otto tipi di pagina in un browser headless, a
+390 e a 1280 px, e fallisce se qualcosa esce dal viewport, se una pagina supera
+l'altezza dichiarata, se pesa più di 250 KB senza immagini, se la console
+riporta un errore o se un comando è più piccolo di quanto WCAG 2.5.8 richieda.
+Gira in CI a ogni push; in locale serve `npm install --no-save puppeteer@23.11.1`.
 
 ## Prima di aprire la pull request
 

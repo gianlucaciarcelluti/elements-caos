@@ -8,9 +8,6 @@ __pycache__/
 node_modules/
 .DS_Store
 public/
-# Clone effimero di Quartz usato per costruire il sito: scripts/costruisci_sito.sh
-# lo rifà da solo quando manca o quando è al commit sbagliato.
-.quartz-build/
 .superpowers/
 # Dataset esterni scaricati dall'ingest: rigenerabili, non vanno versionati.
 .cache/

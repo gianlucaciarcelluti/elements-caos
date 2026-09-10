@@ -23,32 +23,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Installa uv
+        uses: astral-sh/setup-uv@v5
         with:
-          node-version: '22'
+          enable-cache: true
 
-      # La cache è su ~/.npm e non su node_modules: le dipendenze si installano
-      # dentro .quartz-build, che è un clone effimero di Quartz e non esiste
-      # ancora quando la cache viene ripristinata.
-      - name: Cache delle dipendenze npm
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-quartz-${{ hashFiles('scripts/costruisci_sito.sh') }}
-          restore-keys: ${{ runner.os }}-quartz-
+      - name: Installa le dipendenze
+        run: uv sync --all-extras --dev
 
-      - name: Costruisci il sito dal vault
-        run: scripts/costruisci_sito.sh
+      # Il sito si genera dallo stesso dataset che genera il vault: niente
+      # clone di Quartz, niente npm nel percorso di pubblicazione, niente
+      # cinque minuti di costruzione.
+      - name: Costruisci il sito dal dataset
+        run: uv run elements-caos sito --dati data --uscita public
 
       - name: Verifica che il sito non sia vuoto
         run: |
           # Una costruzione che fallisce a metà può lasciare un public/ con la
           # sola home: senza questo controllo il sito verrebbe pubblicato monco.
           test -f public/index.html
-          note=$(find public -name '*.html' | wc -l)
-          echo "pagine costruite: $note"
-          if [ "$note" -lt 118 ]; then
-            echo "::error::solo $note pagine: il vault ne ha molte di più" >&2
+          pagine=$(find public -name '*.html' | wc -l)
+          echo "pagine costruite: $pagine"
+          if [ "$pagine" -lt 229 ]; then
+            echo "::error::solo $pagine pagine: ne sono attese almeno 229" >&2
             exit 1
           fi
 

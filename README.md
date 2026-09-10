@@ -65,7 +65,9 @@ Il vault non si scrive a mano: si **genera** da un dataset di file YAML, uno per
 elemento.
 
 ```
-data/elements/*.yaml   →   generatore   →   vault/Elementi/*.md
+                         ┌─►  vault/Elementi/*.md   (Obsidian)
+data/elements/*.yaml  ───┤
+                         └─►  public/**/*.html      (il sito)
 ```
 
 La generazione è deterministica: dagli stessi dati esce sempre lo stesso vault,
@@ -85,13 +87,19 @@ Serve [uv](https://docs.astral.sh/uv/) e Python 3.12.
 
 ```bash
 uv sync
-uv run elements-caos genera --dati data --vault vault
+uv run elements-caos genera --dati data --vault vault   # il vault Obsidian
+uv run elements-caos sito   --dati data --uscita public # il sito
 uv run elements-caos valida --dati data --vault vault
 ```
 
 Il comando `valida` verifica l'integrità del vault: collegamenti interni, budget
 di lettura delle note, catena cronologica senza buchi né duplicati, licenze delle
 immagini.
+
+Il sito e il vault nascono dagli stessi dati ma sono indipendenti: il sito ha
+una tavola periodica che si riempie nell'ordine della scoperta, una linea del
+tempo e un itinerario con l'avanzamento di lettura — cose che in Obsidian non
+avrebbero senso; il vault ha i wikilink e il grafo, che sul web non servono.
 
 Se vuoi contribuire, il documento da leggere è [CONTRIBUTING.md](CONTRIBUTING.md).
 

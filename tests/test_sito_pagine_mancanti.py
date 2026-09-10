@@ -204,8 +204,111 @@ def test_il_comando_emette_tutte_le_pagine(tmp_path: Path) -> None:
     # elemento o uno scopritore viene aggiunto, il test dice cosa manca invece
     # di limitarsi a un numero diverso da quello atteso.
     elementi, epoche, scopritori = _tutto()
-    servizio = 6  # home, cronologia, tavola, itinerario, attribuzioni, 404
-    atteso = len(elementi) + len(scopritori) + len(epoche) + servizio
+    servizio = 9  # home, cronologia, tavola, itinerario, attribuzioni, 404, 3 indici
+    from elements_caos.sito.reindirizzamenti import TAG_PUBBLICATI
+
+    atteso = len(elementi) + len(scopritori) + len(epoche) + servizio + len(TAG_PUBBLICATI)
 
     emesse = sorted(p.relative_to(uscita).as_posix() for p in uscita.rglob("*.html"))
     assert len(emesse) == atteso, f"emesse {len(emesse)}, attese {atteso}"
+
+
+# --- Le pagine indice --------------------------------------------------------
+
+
+def test_gli_indici_di_cartella_esistono() -> None:
+    """Quartz pubblicava /elementi, /epoche e /scopritori: erano navigazione.
+
+    Sono URL raggiungibili dal sito già pubblicato, e sostituirlo senza di
+    loro li romperebbe.
+    """
+    from elements_caos.sito.contesto import (
+        URL_INDICE_ELEMENTI,
+        URL_INDICE_EPOCHE,
+        URL_INDICE_SCOPRITORI,
+    )
+
+    assert URL_INDICE_ELEMENTI == "elementi/index.html"
+    assert URL_INDICE_EPOCHE == "epoche/index.html"
+    assert URL_INDICE_SCOPRITORI == "scopritori/index.html"
+
+
+def test_l_indice_degli_elementi_raggruppa_per_categoria() -> None:
+    """Raggruppare per categoria è ciò che le pagine di tag facevano di utile.
+
+    Quartz generava /tags/alogeno, /tags/gas-nobile e così via. Quella
+    tassonomia non viene replicata, ma la possibilità di scorrere gli elementi
+    per categoria chimica sì, sotto un indirizzo più sensato.
+    """
+    from elements_caos.sito.contesto import rendi_indice_elementi
+
+    elementi, epoche, scopritori = _tutto()
+    pagina = rendi_indice_elementi(elementi)
+
+    assert "Gas nobile" in pagina
+    assert "Metallo di transizione" in pagina
+    # Il conteggio è su un elemento interno: la classe della pastiglia porta
+    # anche il modificatore dell'epoca, e cercarla esatta non troverebbe nulla.
+    assert pagina.count("pastiglia__simbolo") == 118
+
+
+def test_l_indice_degli_scopritori_e_in_ordine_alfabetico() -> None:
+    """Cento nomi si scorrono per lettera, non per numero atomico."""
+    from elements_caos.sito.contesto import voci_scopritori
+
+    elementi, epoche, scopritori = _tutto()
+    nomi = [voce["scopritore"].nome for voce in voci_scopritori(scopritori, elementi)]
+
+    assert nomi == sorted(nomi, key=lambda n: n.lower())
+
+
+def test_l_indice_degli_scopritori_dice_quanti_elementi() -> None:
+    """Quanti elementi ha trovato ciascuno: è l'informazione che ordina la lista."""
+    from elements_caos.sito.contesto import voci_scopritori
+
+    elementi, epoche, scopritori = _tutto()
+    voci = {v["scopritore"].id: v for v in voci_scopritori(scopritori, elementi)}
+
+    assert voci["hennig-brand"]["quanti"] == 1
+
+
+# --- Reindirizzamenti dai vecchi indirizzi ----------------------------------
+
+
+def test_ogni_tag_pubblicato_ha_una_destinazione() -> None:
+    """Le pagine di tag di Quartz non esistono più, ma i loro URL sì.
+
+    La regola del piano è «ogni URL prodotto da Quartz deve esistere anche nel
+    nuovo sito, o avere un reindirizzamento». La tassonomia dei tag non viene
+    replicata — non fa parte del progetto — quindi ognuno di quegli indirizzi
+    porta alla pagina che gli somiglia di più.
+    """
+    from elements_caos.sito.reindirizzamenti import destinazione
+
+    assert destinazione("tags/gas-nobile") == "elementi/index.html"
+    assert destinazione("tags/epoca/nucleare") == "epoche/era-nucleare.html"
+    assert destinazione("tags/secolo/xvii") == "cronologia-degli-elementi.html"
+    assert destinazione("tags/millennio/40ac") == "cronologia-degli-elementi.html"
+    assert destinazione("tags/scopritore") == "scopritori/index.html"
+    assert destinazione("tags") == "elementi/index.html"
+
+
+def test_nessun_tag_resta_senza_destinazione() -> None:
+    """Tutti e quarantacinque, non quarantaquattro."""
+    from elements_caos.sito.reindirizzamenti import TAG_PUBBLICATI, destinazione
+
+    assert len(TAG_PUBBLICATI) == 45
+    for tag in TAG_PUBBLICATI:
+        assert destinazione(tag), f"{tag} non ha destinazione"
+
+
+def test_il_reindirizzamento_e_una_pagina_vera() -> None:
+    """Chi ci arriva deve capire cos'è successo, non vedere una pagina bianca."""
+    from elements_caos.sito.reindirizzamenti import rendi_reindirizzamento
+
+    pagina = rendi_reindirizzamento("tags/gas-nobile", "elementi/index.html")
+
+    assert '<meta http-equiv="refresh"' in pagina
+    assert 'rel="canonical"' in pagina
+    assert "noindex" in pagina
+    assert "elementi/index.html" in pagina
