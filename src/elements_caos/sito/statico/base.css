@@ -972,3 +972,93 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* --- Ricerca -------------------------------------------------------------- */
+
+.ricerca {
+  position: relative;
+  max-width: var(--larghezza-pagina);
+  margin-inline: auto;
+  padding-inline: var(--passo-3);
+  margin-bottom: var(--passo-4);
+}
+
+.ricerca__etichetta {
+  display: block;
+  margin-bottom: var(--passo-1);
+  font-family: var(--font-titoli);
+  font-size: 0.78rem;
+  color: var(--colore-testo-tenue);
+}
+
+.ricerca input[type="search"] {
+  width: 100%;
+  min-height: 44px;
+  padding: var(--passo-2) var(--passo-3);
+  background: var(--colore-fondo);
+  color: var(--colore-testo);
+  border: 1px solid var(--colore-bordo);
+  border-radius: var(--raggio);
+  font-family: var(--font-titoli);
+  font-size: 1rem;
+}
+
+.esiti {
+  position: absolute;
+  z-index: 10;
+  left: var(--passo-3);
+  right: var(--passo-3);
+  margin: var(--passo-1) 0 0;
+  padding: 0;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: var(--colore-fondo);
+  border: 1px solid var(--colore-bordo);
+  border-radius: var(--raggio);
+  list-style: none;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 12%);
+}
+
+.esito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--passo-2);
+  border-bottom: 1px solid var(--colore-bordo);
+}
+
+.esito:last-child {
+  border-bottom: none;
+}
+
+.esito a {
+  flex: 1;
+  /* 44px di bersaglio: l'intera riga è cliccabile, non solo il testo. */
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: var(--passo-2) var(--passo-3);
+  font-family: var(--font-titoli);
+  text-decoration: none;
+}
+
+.esito a:hover,
+.esito a:focus-visible {
+  background: var(--colore-superficie);
+}
+
+.esito__tipo {
+  padding-right: var(--passo-3);
+  font-family: var(--font-titoli);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--colore-testo-tenue);
+}
+
+.esito--vuoto {
+  padding: var(--passo-3);
+  font-family: var(--font-titoli);
+  font-size: 0.85rem;
+  color: var(--colore-testo-tenue);
+}

@@ -204,7 +204,7 @@ def test_il_comando_emette_tutte_le_pagine(tmp_path: Path) -> None:
     # elemento o uno scopritore viene aggiunto, il test dice cosa manca invece
     # di limitarsi a un numero diverso da quello atteso.
     elementi, epoche, scopritori = _tutto()
-    servizio = 5  # home, cronologia, tavola, itinerario, attribuzioni
+    servizio = 6  # home, cronologia, tavola, itinerario, attribuzioni, 404
     atteso = len(elementi) + len(scopritori) + len(epoche) + servizio
 
     emesse = sorted(p.relative_to(uscita).as_posix() for p in uscita.rglob("*.html"))

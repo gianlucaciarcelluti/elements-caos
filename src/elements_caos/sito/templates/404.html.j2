@@ -1,0 +1,37 @@
+{% extends "base.html.j2" %}
+
+{% block titolo %}Pagina non trovata{% endblock %}
+{% block descrizione %}La pagina cercata non esiste.{% endblock %}
+
+{% block contenuto %}
+<article class="contesto">
+
+<header class="contesto__testa">
+<p class="contesto__occhiello">Errore 404</p>
+<h1>Questa pagina non c'è</h1>
+<p>
+L'indirizzo che hai seguito non corrisponde a nessuna pagina. Può essere un
+collegamento vecchio, o un refuso.
+</p>
+</header>
+
+<section class="porte">
+<h2>Da dove ripartire</h2>
+<ul class="porte__voci">
+<li class="porta">
+<h3><a href="{{ radice }}{{ url_cronologia }}">La cronologia</a></h3>
+<p>Tutti i 118 elementi in ordine di scoperta.</p>
+</li>
+<li class="porta">
+<h3><a href="{{ radice }}{{ url_tavola }}">La tavola periodica</a></h3>
+<p>Se sai come si chiama l'elemento che cerchi.</p>
+</li>
+<li class="porta">
+<h3><a href="{{ radice }}{{ url_home }}">La home</a></h3>
+<p>Il punto di partenza.</p>
+</li>
+</ul>
+</section>
+
+</article>
+{% endblock %}

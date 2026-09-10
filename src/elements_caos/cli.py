@@ -35,6 +35,16 @@ from elements_caos.sito.contesto import (
     rendi_scopritore_sito,
 )
 from elements_caos.sito.cronologia import URL_CRONOLOGIA, rendi_cronologia_sito
+from elements_caos.sito.indice import (
+    URL_404,
+    URL_INDICE,
+    URL_RSS,
+    URL_SITEMAP,
+    costruisci_indice,
+    rendi_404,
+    rendi_rss,
+    rendi_sitemap,
+)
 from elements_caos.sito.itinerario import URL_ITINERARIO, rendi_itinerario_sito
 from elements_caos.sito.pagina import (
     CARTELLA_STATICI,
@@ -287,6 +297,11 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
         )
 
     _scrivi(cartella_uscita / URL_HOME, rendi_home(elementi, epoche, itinerario))
+
+    _scrivi(cartella_uscita / URL_INDICE, costruisci_indice(elementi, epoche, scopritori))
+    _scrivi(cartella_uscita / URL_RSS, rendi_rss(elementi))
+    _scrivi(cartella_uscita / URL_SITEMAP, rendi_sitemap(elementi, epoche, scopritori, itinerario))
+    _scrivi(cartella_uscita / URL_404, rendi_404())
 
     _copia_statici(cartella_uscita / "statico")
 
