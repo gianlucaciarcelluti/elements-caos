@@ -8,10 +8,14 @@ scoperta:
   scopritori:
   - yuri-oganessian
   - kenton-moody
-  luogo: null
+  luogo: Dubna
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: Squadre congiunte russe (Dubna) e americane (Livermore).
+  note_cronologia: Quattro atomi prodotti a Dubna nell'agosto 2003 da americio-243 e calcio-48,
+    nella collaborazione fra l'istituto russo e il laboratorio di Livermore. Confermato nel
+    2013 da un gruppo dell'universita di Lund al GSI e nel 2015 a Berkeley; la IUPAC ha riconosciuto
+    la scoperta nel dicembre 2015. Il nome, ufficiale dal 28 novembre 2016, viene dall'oblast'
+    di Mosca, la regione in cui si trova Dubna, e non dalla citta di Mosca.
   controversia: null
 proprieta:
   gruppo: 15
@@ -31,5 +35,157 @@ proprieta:
   punto_fusione_k: 670.0
   punto_ebollizione_k: 1400.0
   densita: 13.5
-  stati_ossidazione: []
+  stati_ossidazione:
+  - 1
+  - 3
 approfondimento: false
+contenuti:
+  hook: 'Di tutte le caselle della tavola periodica, la 115 è quella con la doppia vita più
+    netta: quattro atomi prodotti in un laboratorio russo nel 2003, e una carriera parallela,
+    cominciata prima, come carburante dei dischi volanti.'
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: Il moscovio è la casella 115, e nella cultura popolare l'«elemento 115» ha una
+      vita propria, del tutto scollegata dai quattro atomi che ne sono stati prodotti a Dubna
+      nel 2003. Vale la pena raccontare entrambe le storie, perché il contrasto fra le due
+      dice qualcosa su come funziona la scienza reale.
+    visual: Una casella di tavola periodica accanto a un fotogramma di fantascienza
+    attendibilita: documentato
+  - id: quattro_atomi
+    sezione: storia
+    testo: L'agosto del 2003 il gruppo di Jurij Oganesjan bombardò un bersaglio di americio-243
+      con ioni di calcio-48 e ottenne quattro atomi dell'elemento 115, in due isotopi. Ciascuno
+      visse circa un decimo di secondo prima di emettere una particella alfa e diventare nihonio,
+      che a sua volta decadde in roentgenio e poi giù lungo la catena.
+    visual: La camera di reazione dell'esperimento di Dubna
+    attendibilita: documentato
+  - id: due_elementi_in_un_colpo
+    sezione: storia
+    testo: Quell'esperimento produsse in realtà due elementi. Ogni atomo di 115, decadendo,
+      diventava un atomo di 113, e la collaborazione russo-americana rivendicò entrambe le
+      caselle. Per il 115 la rivendicazione ha retto; per il 113 no, perché la catena finiva
+      su nuclei mai osservati prima e non permetteva di risalire con certezza al numero atomico.
+      Dodici anni dopo la casella 113 è stata assegnata a un laboratorio giapponese che l'aveva
+      fabbricata direttamente, un atomo alla volta.
+    visual: Una catena di decadimento in cui il 115 diventa 113
+    attendibilita: documentato
+  - id: le_conferme
+    sezione: storia
+    testo: A differenza di altre caselle di questa riga, il moscovio è stato confermato in
+      fretta e da più parti. Nel 2013 un gruppo dell'università di Lund, in Svezia, ripeté
+      l'esperimento al GSI e ritrovò la stessa catena di decadimenti; altre conferme arrivarono
+      da Berkeley nel 2015. Nel dicembre di quell'anno la IUPAC riconobbe la scoperta alla
+      collaborazione russo-americana.
+    visual: Due catene di decadimento identiche misurate in laboratori diversi
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome fu proposto nel 2016 e ufficializzato il 28 novembre. Non viene dalla
+      città di Mosca ma dall''oblast'', la regione amministrativa in cui Dubna si trova: è
+      il riconoscimento del territorio che ospita l''istituto, dopo che la stessa collaborazione
+      aveva già intitolato la casella 116 al laboratorio americano.'
+    visual: Una mappa dell'oblast' di Mosca con Dubna segnata
+    attendibilita: documentato
+  - id: l_elemento_dei_dischi_volanti
+    sezione: storia
+    testo: 'L''altra storia comincia nel 1989. Un uomo di nome Bob Lazar sostenne di aver
+      lavorato in una struttura militare segreta nel Nevada su veicoli di origine extraterrestre,
+      alimentati da un elemento 115 stabile che secondo lui generava onde gravitazionali:
+      bombardato con protoni sarebbe passato all''elemento 116, e i prodotti di quel decadimento
+      avrebbero prodotto pura gravità. Nel 1989 l''elemento 115 non era ancora stato fabbricato,
+      e questo rendeva la storia inattaccabile.'
+    visual: Una fotografia notturna di una base militare nel deserto del Nevada
+    attendibilita: discusso
+  - id: che_cosa_e_successo_poi
+    sezione: storia
+    testo: 'Quattordici anni dopo l''elemento 115 è stato fatto davvero, e non assomiglia
+      in nulla al racconto: gli isotopi noti durano decine o centinaia di millesimi di secondo,
+      ne sono stati prodotti pochissimi atomi e non esiste alcun isotopo stabile né alcuna
+      previsione che ne indichi uno. Il racconto è comunque sopravvissuto all''elemento vero,
+      ed è entrato in videogiochi e serie televisive, dove l''«elemento 115» è una sostanza
+      immaginaria con proprietà a piacere.'
+    visual: Un contatore che misura centesimi di secondo
+    attendibilita: discusso
+  - id: nessuna_chimica
+    sezione: caratteristiche
+    testo: Del moscovio non è stata misurata alcuna proprietà chimica, e i valori di questa
+      nota sono calcoli. Sta nel gruppo 15, sotto azoto, fosforo, arsenico, antimonio e bismuto,
+      e le previsioni gli attribuiscono gli stati di ossidazione +1 e +3.
+    visual: Una tabella di proprietà calcolate e non misurate
+    attendibilita: documentato
+  - id: piu_tallio_che_bismuto
+    sezione: caratteristiche
+    testo: 'L''aspetto interessante è che il moscovio non dovrebbe somigliare granché al bismuto,
+      che gli sta sopra nella colonna. Lo ione a carica uno previsto per lui assomiglia piuttosto
+      a quello del tallio, che appartiene a un altro gruppo: gli effetti relativistici trattengono
+      gli elettroni esterni al punto da avvicinare elementi che la tavola tiene distanti.
+      È lo stesso fenomeno già visto sul dubnio, che negli esperimenti seguiva il niobio invece
+      del tantalio.'
+    visual: Due caselle di gruppi diversi collegate da una freccia
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'Si conoscono pochi isotopi del moscovio, e il più longevo non arriva al secondo.
+      Sono però abbastanza longevi da servire ad altro: il moscovio è la fabbrica da cui si
+      ricavano gli isotopi pesanti del nihonio e del dubnio, che nascono lungo la sua catena
+      di decadimenti e che non si saprebbero produrre in altro modo. La chimica del dubnio
+      in soluzione esiste grazie a questo.'
+    visual: Una catena di decadimenti che scende dal moscovio al dubnio
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Il moscovio non ha usi: non esiste in natura, se ne producono singoli atomi che
+      durano frazioni di secondo, e nessuna applicazione è concepibile. Ciò che se ne ricava,
+      in laboratorio, sono gli elementi in cui decade.'
+    visual: Una sala sperimentale con i rivelatori di un separatore
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'Serve poi come banco di prova per le previsioni. Il gruppo 15 comprende l''azoto
+      e il fosforo, cioè elementi la cui chimica è nota fin nei minimi dettagli; sapere quanto
+      l''ultimo membro della famiglia si scosti dagli altri misura fino a che punto le colonne
+      della tavola periodica restino uno strumento di previsione, e in questo caso la risposta
+      sembra essere: non fino in fondo.'
+    visual: La colonna del gruppo 15 dall'azoto al moscovio
+    attendibilita: documentato
+  - id: curiosita_perche_115
+    sezione: curiosita
+    testo: 'Perché proprio il 115? Nel 1989 la tavola periodica si fermava alla casella 109,
+      e tutto ciò che stava oltre era previsto ma non ancora fatto. Il 115 aveva quindi il
+      vantaggio decisivo: un nome già presente nei manuali e privo di proprietà misurate,
+      cioè lo spazio ideale per attribuirgliene di inventate. È un meccanismo ricorrente:
+      la scienza lascia caselle vuote, e le caselle vuote attirano storie.'
+    visual: Una tavola periodica del 1989 con le ultime caselle ancora vuote
+    attendibilita: documentato
+  - id: curiosita_dubna_e_mosca
+    sezione: curiosita
+    testo: 'Con il moscovio l''istituto di Dubna ha completato il proprio autoritratto nella
+      tavola periodica: il dubnio per la città, il flerovio per il laboratorio e per il suo
+      fondatore, il moscovio per la regione. Tre caselle su centodiciotto raccontano un solo
+      indirizzo, un centinaio di chilometri a nord di Mosca.'
+    visual: Le tre caselle 105, 114 e 115 evidenziate su una tavola periodica
+    attendibilita: documentato
+  pronuncia:
+  - termine: oblast'
+    ipa: ˈobləsʲtʲ
+    nota: Russo, regione amministrativa.
+composti_principali:
+- nome: Moscovio-288
+  formula: 288Mc
+  usi:
+  - capostipite della catena da cui si ricavano gli isotopi pesanti di nihonio e dubnio
+- nome: Trifluoruro di moscovio
+  formula: McF₃
+  usi:
+  - composto previsto per analogia con i trialogenuri del bismuto, mai preparato
+fonti:
+- url: https://en.wikipedia.org/wiki/Moscovium
+  titolo: Moscovium
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/115/moscovium
+  titolo: Moscovium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Materials_science_in_science_fiction
+  titolo: Materials science in science fiction
+  consultata: *id001

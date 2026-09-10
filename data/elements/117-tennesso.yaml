@@ -8,10 +8,17 @@ scoperta:
   scopritori:
   - yuri-oganessian
   - kenton-moody
-  luogo: null
+  luogo: Dubna
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: Squadre congiunte russe (Dubna, Oak Ridge, Vanderbilt, Livermore).
+  note_cronologia: Ultima casella della tavola periodica a essere stata riempita. Sei eventi
+    registrati a Dubna nel 2010 — un atomo di tennesso-294 e cinque di tennesso-293 — da berkelio-249
+    e calcio-48, nella collaborazione fra l'istituto russo, Oak Ridge, l'universita Vanderbilt
+    e il laboratorio di Livermore. Il bersaglio, ventidue milligrammi di berkelio prodotti
+    in duecentocinquanta giorni al reattore ad alto flusso di Oak Ridge, attraverso l'Atlantico
+    cinque volte prima che la dogana russa lo lasciasse entrare, nel giugno 2009. La IUPAC
+    ha riconosciuto la scoperta nel dicembre 2015; il nome, che riconosce lo stato del Tennessee,
+    e ufficiale dal 28 novembre 2016.
   controversia: null
 proprieta:
   gruppo: 17
@@ -31,5 +38,167 @@ proprieta:
   punto_fusione_k: 723.0
   punto_ebollizione_k: 883.0
   densita: 7.17
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -1
+  - 1
+  - 3
+  - 5
 approfondimento: false
+contenuti:
+  hook: Ventidue milligrammi di berkelio, prodotti in duecentocinquanta giorni di reattore,
+    con trecentotrenta giorni di vita davanti. Prima di arrivare in Russia attraversarono
+    l'Atlantico cinque volte, perché la dogana continuava a rimandarli indietro.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'Il tennesso è l''ultima casella della tavola periodica a essere stata riempita,
+      e con lui la settima riga si chiude. La sua storia non è fatta di intuizioni teoriche
+      né di dispute di priorità: è fatta di un bersaglio difficilissimo da produrre, di un
+      calendario e di un pacco che non riusciva ad arrivare a destinazione.'
+    visual: Un contenitore schermato per il trasporto di materiale radioattivo
+    attendibilita: documentato
+  - id: il_problema_del_bersaglio
+    sezione: storia
+    testo: 'Per fare l''elemento 117 con un fascio di calcio-48, che ha venti protoni, serve
+      un bersaglio con novantasette protoni: berkelio. Non è un materiale che si compri: al
+      mondo lo sanno produrre in quantità utili pochissimi impianti, e quello a cui ci si
+      rivolse è il reattore ad alto flusso di Oak Ridge, nel Tennessee; e occorre bombardare
+      curio per mesi per ricavarne qualche milligrammo.'
+    visual: Il nocciolo azzurro di un reattore di ricerca visto dall'alto
+    attendibilita: documentato
+  - id: duecentocinquanta_giorni
+    sezione: storia
+    testo: 'La produzione richiese duecentocinquanta giorni di irraggiamento e si concluse
+      alla fine del 2008, con ventidue milligrammi di berkelio-249 e un costo attorno ai seicentomila
+      dollari. Ventidue milligrammi sono un granello: la quantità che sta sulla punta di uno
+      spillo, ottenuta da un reattore nazionale in otto mesi di lavoro.'
+    visual: Una bilancia di precisione con un residuo appena visibile
+    attendibilita: documentato
+  - id: la_corsa_contro_il_tempo
+    sezione: storia
+    testo: 'Il berkelio-249 ha un''emivita di circa trecentotrenta giorni: da quando esce
+      dal reattore comincia a scomparire, e in poco meno di un anno ne resta metà. L''esperimento
+      andava quindi progettato all''indietro a partire da quella data, con il trasporto, la
+      preparazione del bersaglio e i mesi di fascio incastrati in una finestra che si stringeva
+      da sola. Ogni settimana persa era materiale perso.'
+    visual: Un calendario con una finestra temporale evidenziata
+    attendibilita: documentato
+  - id: cinque_volte_l_atlantico
+    sezione: storia
+    testo: Il materiale doveva andare da Oak Ridge a Dubna, e qui la fisica nucleare incontrò
+      la burocrazia. I funzionari doganali russi respinsero il pacco due volte per documentazione
+      incompleta, e nel giro di pochi giorni il berkelio attraversò l'Oceano Atlantico cinque
+      volte. Arrivò in Russia nel giugno del 2009 e fu trasferito subito a Dimitrovgrad, dove
+      venne trasformato in un bersaglio.
+    visual: Un pacco con etichette di materiale radioattivo su un nastro trasportatore
+    attendibilita: documentato
+  - id: il_2010
+    sezione: storia
+    testo: 'Il bombardamento cominciò poi a Dubna, e nel 2010 la collaborazione — l''istituto
+      russo, Oak Ridge, l''università Vanderbilt e il laboratorio di Livermore — annunciò
+      sei eventi, in due isotopi: un atomo di tennesso-294 e cinque di tennesso-293. La IUPAC
+      riconobbe la scoperta nel dicembre del 2015, insieme alle altre tre caselle rimaste.'
+    visual: Sei catene di decadimento allineate su un grafico
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome fu proposto nel 2016 e ufficializzato il 28 novembre, e riconosce lo stato
+      in cui si trovano Oak Ridge, l''università Vanderbilt e l''università del Tennessee.
+      La desinenza in -ine, che in italiano diventa -o, segue la regola fissata dalla IUPAC
+      per gli elementi del gruppo 17, quello degli alogeni: fluoro, cloro, bromo, iodio, astato
+      e tennesso.'
+    visual: Una mappa del Tennessee con Oak Ridge e Nashville segnate
+    attendibilita: documentato
+  - id: nessuna_chimica
+    sezione: caratteristiche
+    testo: 'Del tennesso non è stata misurata alcuna proprietà, e i valori di questa nota
+      sono calcoli. Sta nel gruppo 17 e dovrebbe quindi essere un alogeno, cioè un elemento
+      che strappa un elettrone a chi gli capita a tiro e forma sali: è il comportamento che
+      definisce la famiglia, dal fluoro in giù.'
+    visual: La colonna degli alogeni in una tavola periodica
+    attendibilita: documentato
+  - id: un_alogeno_che_non_lo_e
+    sezione: caratteristiche
+    testo: 'I calcoli dicono che non lo farà. Lo stato meno uno, quello che rende il fluoro
+      il fluoro, dovrebbe essere per il tennesso il meno comune, e il potenziale con cui acquisterebbe
+      l''elettrone risulta di segno opposto a quello di tutti gli alogeni più leggeri; gli
+      stati previsti come stabili sono invece il +1 e il +3. Perfino la geometria dovrebbe
+      cambiare: il trifluoruro di tennesso sarebbe un triangolo piatto, mentre quelli degli
+      altri alogeni hanno forma di T.'
+    visual: Due modelli molecolari a confronto, uno piatto e uno a T
+    attendibilita: discusso
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'I due isotopi noti durano ventidue e cinquantuno millesimi di secondo. Sono cifre
+      minuscole, ma più grandi di quanto le previsioni indicassero prima dell''esperimento,
+      ed è un indizio nella stessa direzione già vista sul flerovio: in questa regione qualcosa
+      tiene insieme i nuclei un po'' meglio di quanto i modelli si aspettino.'
+    visual: Un grafico che confronta emivite previste e misurate
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Il tennesso non ha usi e non ne avrà: ne esistono in tutto pochi atomi mai prodotti,
+      e ciascuno è durato pochi centesimi di secondo. Il bersaglio da cui sono nati costava
+      più di mezzo milione di dollari e ha prodotto sei eventi.'
+    visual: Un rivelatore con pochissimi segnali registrati
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'Gli alogeni sono una delle famiglie più coerenti della tavola periodica: cinque
+      elementi che si somigliano abbastanza da rendere prevedibile il sesto. Scoprire che
+      il sesto non obbedisce è esattamente il tipo di risultato per cui vale la pena spendere
+      un reattore e otto mesi di irraggiamento, perché dice dove la periodicità smette di
+      essere una legge e comincia a essere una posizione in una griglia.'
+    visual: La colonna degli alogeni con l'ultima casella staccata dalle altre
+    attendibilita: documentato
+  - id: curiosita_phelps
+    sezione: curiosita
+    testo: Fra chi lavorò alla produzione del berkelio a Oak Ridge c'era Clarice Phelps, che
+      la IUPAC riconosce come la prima donna afroamericana ad aver partecipato alla scoperta
+      di un elemento chimico. È un primato che arriva nel 2010, alla centodiciassettesima
+      casella su centodiciotto.
+    visual: Un laboratorio di radiochimica di Oak Ridge
+    attendibilita: documentato
+  - id: curiosita_cosa_viene_dopo
+    sezione: curiosita
+    testo: 'Con il tennesso la settima riga è completa, e la successiva non è ancora cominciata.
+      Per fare l''elemento 119 con il calcio-48 servirebbe un bersaglio di einsteinio, che
+      nessun reattore sa produrre in quantità utili: bisogna quindi cambiare proiettile, e
+      si tenta con titanio-50 e cromo-54, che rendono la reazione molto meno probabile. Ci
+      provano Dubna, il RIKEN e altri laboratori, finora senza risultato.'
+    visual: Una tavola periodica con una riga vuota disegnata sotto la settima
+    attendibilita: documentato
+  - id: curiosita_dall_oro_al_tennesso
+    sezione: curiosita
+    testo: 'L''ultimo elemento scoperto chiude una storia che, in questo racconto, era cominciata
+      con l''oro raccolto nei fiumi decine di migliaia di anni fa. Fra le due cose c''è tutta
+      la distanza fra il trovare e il fabbricare: l''oro esisteva e qualcuno lo vide, il tennesso
+      non esisteva e qualcuno lo fece esistere per cinquanta millesimi di secondo, sei volte.'
+    visual: Una pepita d'oro accanto a un grafico di sei eventi
+    attendibilita: documentato
+  pronuncia:
+  - termine: Tennessee
+    ipa: tɛnɪˈsiː
+    nota: Inglese americano.
+  - termine: Clarice Phelps
+    ipa: kləˈriːs fɛlps
+    nota: Inglese americano.
+composti_principali:
+- nome: Tennesso-293
+  formula: 293Ts
+  usi:
+  - l'isotopo osservato cinque volte nell'esperimento del 2010
+- nome: Trifluoruro di tennesso
+  formula: TsF₃
+  usi:
+  - composto previsto con geometria diversa da quella degli altri alogeni, mai preparato
+fonti:
+- url: https://en.wikipedia.org/wiki/Tennessine
+  titolo: Tennessine
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/117/tennessine
+  titolo: Tennessine — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Extended_periodic_table
+  titolo: Extended periodic table
+  consultata: *id001

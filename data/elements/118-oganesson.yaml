@@ -8,10 +8,16 @@ scoperta:
   scopritori:
   - yuri-oganessian
   - kenton-moody
-  luogo: null
+  luogo: Dubna
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: Squadre congiunte russe (Dubna) e americane (Livermore).
+  note_cronologia: 'Tre o quattro atomi di oganesson-294 prodotti a Dubna nel 2002 e nel 2005
+    da californio-249 e calcio-48, nella collaborazione fra l''istituto russo e il laboratorio
+    di Livermore; la IUPAC ha riconosciuto la scoperta nel dicembre 2015. Una rivendicazione
+    del 1999 del laboratorio di Berkeley, che aveva gia scelto il nome ghiorsium, e stata
+    ritirata nel 2001 e riconosciuta nel 2002 come basata su dati fabbricati da Victor Ninov.
+    Il nome, ufficiale dal 28 novembre 2016, onora Jurij Oganesjan, vivente: e il secondo
+    caso dopo il seaborgio.'
   controversia: null
 proprieta:
   gruppo: 18
@@ -31,5 +37,172 @@ proprieta:
   punto_fusione_k: null
   punto_ebollizione_k: 350.0
   densita: 4.95
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -1
+  - 0
+  - 1
+  - 2
+  - 4
+  - 6
 approfondimento: false
+contenuti:
+  hook: L'ultima casella della tavola periodica è stata annunciata nel 1999 da un laboratorio
+    che se l'era inventata, e fabbricata davvero tre anni dopo da un altro. Sta nella colonna
+    dei gas nobili e, con ogni probabilità, non è un gas.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: 'L''oganesson chiude la tavola periodica: è l''elemento con il numero atomico più
+      alto mai prodotto, l''ultima casella della settima riga e l''ultimo posto della colonna
+      dei gas nobili. Di tutte e tre queste cose, solo la prima è sicura. La riga potrebbe
+      continuare, e il gas nobile probabilmente non lo è.'
+    visual: L'angolo in basso a destra di una tavola periodica
+    attendibilita: documentato
+  - id: l_annuncio_del_1999
+    sezione: storia
+    testo: 'Nel 1999 il laboratorio di Berkeley annunciò di aver prodotto gli elementi 118
+      e 116 bombardando piombo-208 con ioni di cripton-86. Era un risultato clamoroso: una
+      reazione che nessuno riteneva praticabile, e due caselle in un colpo solo. Il gruppo
+      aveva già scelto il nome, ghiorsium, in onore di Albert Ghiorso.'
+    visual: Un annuncio scientifico su una prima pagina di giornale
+    attendibilita: documentato
+  - id: il_crollo
+    sezione: storia
+    testo: Nessun altro laboratorio riuscì a riprodurre il risultato, e non ci riuscì nemmeno
+      Berkeley rifacendo il proprio esperimento. Nel 2001 arrivò la ritrattazione; nel giugno
+      del 2002 il direttore del laboratorio annunciò che la rivendicazione si basava su dati
+      fabbricati dal primo autore, Victor Ninov, lo stesso che aveva inventato un atomo di
+      darmstadtio e uno di copernicio. Ninov fu licenziato.
+    visual: Un articolo scientifico con il timbro di ritrattazione
+    attendibilita: documentato
+  - id: cosa_ha_retto
+    sezione: storia
+    testo: 'Vale la pena notare che cosa ha funzionato. Non un''ispezione né un sospetto:
+      la frode è caduta perché il risultato non si riproduceva, prima altrove e poi in casa.
+      In un campo che lavora su una manciata di eventi e senza campioni da conservare, la
+      riproducibilità è l''unico controllo possibile, ed è la ragione per cui le regole di
+      attribuzione sono diventate così severe proprio in quegli anni.'
+    visual: Due serie di dati sperimentali che non coincidono
+    attendibilita: documentato
+  - id: la_sintesi_vera
+    sezione: storia
+    testo: 'L''oganesson vero è nato a Dubna: uno o due atomi nel 2002, altri due nel 2005,
+      bombardando californio-249 con ioni di calcio-48. In tutto tre o quattro nuclei di oganesson-294,
+      ciascuno vissuto meno di un millesimo di secondo. La IUPAC riconobbe la scoperta alla
+      collaborazione russo-americana nel dicembre del 2015, insieme alle altre tre caselle
+      rimaste.'
+    visual: La sala sperimentale di Dubna con il separatore in funzione
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Per il nome i russi avevano pensato a flyorium, per il fondatore del laboratorio,
+      e a moskovium; entrambi sono poi finiti su altre caselle. La scelta cadde su oganesson,
+      in onore di Jurij Oganesjan, che dirigeva il programma e che era ed è vivo: è il secondo
+      elemento della storia intitolato a una persona vivente, dopo il seaborgio. La desinenza
+      in -on segue la regola fissata dalla IUPAC nel 2016 per gli elementi del gruppo 18.'
+    visual: Jurij Oganesjan davanti alla tavola periodica
+    attendibilita: documentato
+  - id: chi_e_oganessian
+    sezione: storia
+    testo: Oganesjan, armeno di nascita e sovietico di formazione, ha diretto per decenni
+      il laboratorio di Dubna e ha firmato una parte cospicua dell'ultima riga della tavola.
+      È stato il suo gruppo a proporre la fusione a bassa energia che i tedeschi hanno poi
+      usato per sei caselle, ed è stato il suo gruppo a mettere a punto la strada del calcio-48
+      che ne ha riempite altre sei. Fra le due idee passano quarant'anni di lavoro sulla stessa
+      domanda.
+    visual: Il ritratto di Jurij Oganesjan in laboratorio
+    attendibilita: documentato
+  - id: un_gas_nobile_che_non_lo_e
+    sezione: caratteristiche
+    testo: 'La colonna in cui sta l''oganesson è quella degli elementi che non reagiscono
+      con nulla, e proprio questa è la previsione che i calcoli smentiscono. L''oganesson
+      dovrebbe essere sensibilmente più reattivo del radon, che già non è un modello di inerzia,
+      e dovrebbe legare a sé un elettrone in più liberando energia: un comportamento che nessun
+      altro gas nobile ha. Gli stati di ossidazione previsti arrivano fino al +6.'
+    visual: La colonna dei gas nobili con l'ultima casella evidenziata in modo diverso
+    attendibilita: documentato
+  - id: forse_solido
+    sezione: caratteristiche
+    testo: 'Il seguito è ancora più curioso. Le simulazioni gli assegnano un punto di fusione
+      attorno ai cinquanta gradi e un''ebollizione attorno ai centosettanta: se i conti sono
+      giusti, a temperatura ambiente l''oganesson sarebbe un solido. Un gas nobile solido
+      e reattivo non è più un gas nobile, e la casella 118 diventa il punto in cui una delle
+      famiglie più solide della tavola periodica smette di descrivere i propri membri.'
+    visual: Un blocco solido accanto al simbolo di un gas nobile
+    attendibilita: discusso
+  - id: perche_succede
+    sezione: caratteristiche
+    testo: La ragione è sempre la stessa, portata all'estremo. In un atomo con centodiciotto
+      protoni gli elettroni si muovono tanto in fretta che l'accoppiamento fra il loro moto
+      e il loro spin diventa determinante, e i livelli energetici si rimescolano al punto
+      che il guscio esterno chiuso perde la propria stabilità. I calcoli suggeriscono che
+      nell'oganesson gli elettroni non siano nemmeno più disposti in gusci netti, ma sfumati
+      in una distribuzione quasi uniforme.
+    visual: Il confronto fra una nuvola elettronica a gusci e una uniforme
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'Di oganesson si conosce un solo isotopo confermato, l''oganesson-294, che dura
+      sette decimi di millesimo di secondo. Nessun esperimento di chimica è pensabile con
+      questi tempi, e tutto ciò che si è detto sopra resta una previsione: di questo elemento
+      si sa molto per calcolo e quasi nulla per misura.'
+    visual: Un cronometro fermo su una frazione di millesimo di secondo
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'L''oganesson non ha usi e non ne avrà: ne esistono in tutto tre o quattro atomi
+      mai prodotti, ciascuno vissuto meno di un millesimo di secondo. Non c''è nemmeno un
+      uso di ricerca, perché non si riesce a farci nulla.'
+    visual: Un rivelatore che ha registrato in tutto pochi eventi
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: Ma la casella 118 è il luogo in cui si verifica se la tavola periodica sia una
+      legge o una buona approssimazione. Se l'ultimo gas nobile risultasse un solido reattivo,
+      la colonna smetterebbe di essere una famiglia e diventerebbe una posizione. Sapere dove
+      esattamente la periodicità si esaurisce serve a capire che cosa la periodicità sia,
+      ed è una domanda che riguarda tutta la tavola, non solo il suo angolo in basso a destra.
+    visual: Una tavola periodica con l'ultima colonna sfumata
+    attendibilita: documentato
+  - id: curiosita_due_viventi
+    sezione: curiosita
+    testo: 'Gli elementi intitolati a persone viventi sono due, e i loro protagonisti sono
+      stati per decenni su fronti opposti: Glenn Seaborg a Berkeley e Jurij Oganesjan a Dubna,
+      cioè i due laboratori che si erano contesi ogni casella dal 1958 al 1997. Le loro caselle
+      distano dodici posizioni e appartengono alla stessa riga.'
+    visual: Le caselle 106 e 118 evidenziate agli estremi della settima riga
+    attendibilita: documentato
+  - id: curiosita_ghiorsium
+    sezione: curiosita
+    testo: 'Albert Ghiorso ha partecipato alla scoperta di dodici elementi, più di chiunque
+      altro, e non ha una casella con il proprio nome. Ci è andato vicino nel 2001, quando
+      il gruppo di Berkeley voleva chiamare ghiorsium l''elemento 118: quel nome è sparito
+      insieme alla rivendicazione da cui dipendeva.'
+    visual: Albert Ghiorso davanti a una tavola periodica annotata a mano
+    attendibilita: documentato
+  pronuncia:
+  - termine: Jurij Oganesjan
+    ipa: ˈjurʲɪj ɐɡɐˈnʲesʲən
+    nota: Russo.
+  - termine: oganesson
+    ipa: oɡaneˈsson
+    nota: In italiano l'accento è sulla o finale.
+composti_principali:
+- nome: Oganesson-294
+  formula: 294Og
+  usi:
+  - l'unico isotopo confermato dell'elemento
+- nome: Fluoruro di oganesson
+  formula: OgF₄
+  usi:
+  - composto previsto dai calcoli, mai preparato
+fonti:
+- url: https://en.wikipedia.org/wiki/Oganesson
+  titolo: Oganesson
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/118/oganesson
+  titolo: Oganesson — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Noble_gas
+  titolo: Noble gas
+  consultata: *id001

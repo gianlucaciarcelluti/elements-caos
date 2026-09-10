@@ -8,10 +8,16 @@ scoperta:
   scopritori:
   - yuri-oganessian
   - kenton-moody
-  luogo: null
+  luogo: Dubna
   epoca: nucleare
   isolamento_anno: null
-  note_cronologia: Squadre congiunte russe (Dubna) e americane (Livermore).
+  note_cronologia: 'Un atomo prodotto a Dubna il 19 luglio 2000 da curio-248 e calcio-48,
+    nella collaborazione fra l''istituto russo e il laboratorio di Livermore; l''attribuzione
+    iniziale all''isotopo 292 e stata corretta in 293 nel 2002, e la IUPAC ha riconosciuto
+    la scoperta il primo giugno 2011. Il nome, adottato nel maggio 2012, riconosce il Lawrence
+    Livermore National Laboratory: Dubna avrebbe voluto per questa casella il nome della propria
+    regione, che e finito invece sulla 115. Una rivendicazione del 1999 del laboratorio di
+    Berkeley, basata su dati fabbricati, era stata ritirata.'
   controversia: null
 proprieta:
   gruppo: 16
@@ -31,5 +37,170 @@ proprieta:
   punto_fusione_k: 709.0
   punto_ebollizione_k: 1085.0
   densita: 12.9
-  stati_ossidazione: []
+  stati_ossidazione:
+  - -2
+  - 2
+  - 4
 approfondimento: false
+contenuti:
+  hook: Le ultime cinque caselle della tavola periodica sono state riempite sparando un isotopo
+    che è meno di due parti su mille del calcio naturale. Separarlo dal resto è la parte cara
+    dell'impresa.
+  beats:
+  - id: incipit_generale
+    sezione: incipit
+    testo: Con il livermorio la storia della tavola periodica cambia di nuovo mano e di nuovo
+      metodo. Le sei caselle precedenti erano tedesche e nate da urti a bassa energia; da
+      qui in avanti si va a Dubna, con una tecnica diversa e una collaborazione russo-americana
+      che porterà fino alla fine della riga.
+    visual: L'acceleratore U400 dell'istituto di Dubna
+    attendibilita: documentato
+  - id: il_2000
+    sezione: storia
+    testo: Il 19 luglio 2000 un bersaglio di curio-248 fu bombardato con ioni di calcio-48,
+      e un singolo atomo dell'elemento 116 comparve nei rivelatori. L'attribuzione iniziale,
+      corretta due anni dopo, lo assegnava a un isotopo sbagliato; la conferma definitiva
+      richiese altri esperimenti fra il 2004 e il 2006, e la IUPAC riconobbe la scoperta il
+      primo giugno 2011.
+    visual: Un singolo evento registrato in una sala controllo
+    attendibilita: documentato
+  - id: la_fusione_calda
+    sezione: storia
+    testo: Il metodo si chiama fusione calda, ed è l'opposto di quello di Darmstadt. Invece
+      di un bersaglio di piombo e di un proiettile pesante, si usa un bersaglio di attinide
+      — curio, americio, plutonio, californio — e un proiettile leggero. Il nucleo che si
+      forma nasce più caldo e smaltisce l'energia espellendo tre o quattro neutroni invece
+      di uno, il che di per sé è uno svantaggio; il vantaggio compensa abbondantemente, e
+      sta tutto nel proiettile.
+    visual: Il confronto fra due schemi di reazione, con bersagli e proiettili diversi
+    attendibilita: documentato
+  - id: perche_il_calcio_48
+    sezione: storia
+    testo: 'Il calcio-48 ha venti protoni e ventotto neutroni, due numeri che completano altrettanti
+      gusci nucleari: è un nucleo compatto e difficile da rompere, e insieme è straordinariamente
+      ricco di neutroni per un elemento così leggero. Sparato contro un attinide produce nuclei
+      che quei neutroni in eccesso se li portano dietro, e più neutroni ci sono, più il nucleo
+      prodotto resiste alla fissione. È la ragione per cui questa strada arriva dove l''altra
+      si era fermata.'
+    visual: Uno schema del nucleo di calcio-48 con i due gusci completi
+    attendibilita: documentato
+  - id: due_parti_su_mille
+    sezione: storia
+    testo: 'Il problema è procurarselo. Il calcio-48 è lo 0,187 per cento del calcio naturale,
+      e per usarlo come fascio va separato dagli altri isotopi in impianti specializzati:
+      è il materiale più costoso di tutta la catena, si consuma a ogni campagna e la sua disponibilità
+      mondiale è uno dei fattori che decidono quali esperimenti si possono davvero tentare.
+      Curiosamente non è nemmeno stabile: decade, ma con un''emivita di decine di miliardi
+      di miliardi di anni.'
+    visual: Una fiala di carbonato di calcio-48 arricchito
+    attendibilita: documentato
+  - id: come_funziona_la_collaborazione
+    sezione: storia
+    testo: 'La divisione dei compiti è rimasta la stessa per vent''anni: l''acceleratore e
+      i rivelatori stanno a Dubna, i bersagli di attinide vengono dai pochi reattori al mondo
+      capaci di produrli — quello del tennesso arriverà da Oak Ridge, negli Stati Uniti —
+      e l''analisi dei dati si fa insieme. È una collaborazione fra i due paesi che si erano
+      contesi per trent''anni ogni casella della tavola, e che da allora hanno firmato insieme
+      tutti gli elementi nuovi tranne uno, il nihonio, arrivato dal Giappone.'
+    visual: Due bandiere accanto alla porta di una sala sperimentale
+    attendibilita: documentato
+  - id: la_falsa_partenza
+    sezione: storia
+    testo: 'Nel 1999 il laboratorio di Berkeley aveva annunciato di aver prodotto gli elementi
+      118 e 116 per un''altra via. L''annuncio fu ritirato: i dati erano stati fabbricati
+      dallo stesso ricercatore che aveva inventato un atomo di darmstadtio cinque anni prima.
+      Quando il livermorio comparve davvero, un anno dopo e in Russia, la vicenda era ancora
+      aperta.'
+    visual: Un articolo scientifico con il timbro di ritrattazione
+    attendibilita: documentato
+  - id: il_nome
+    sezione: storia
+    testo: 'Il nome, adottato nel maggio del 2012, riconosce il laboratorio nazionale Lawrence
+      Livermore, in California, che alla scoperta aveva collaborato. Dubna avrebbe voluto
+      per questa casella il nome della propria regione: moscovium finì invece sulla casella
+      115, e il 116 andò al partner americano. Anche i nomi, in questa collaborazione, sono
+      stati divisi a metà.'
+    visual: L'ingresso del Lawrence Livermore National Laboratory
+    attendibilita: documentato
+  - id: nessuna_chimica
+    sezione: caratteristiche
+    testo: Del livermorio non è stata misurata alcuna proprietà, e i valori di questa nota
+      sono calcoli. Sta nel gruppo 16, sotto ossigeno, zolfo, selenio, tellurio e polonio,
+      e le previsioni gli attribuiscono come stato più stabile il +2.
+    visual: Una tabella di proprietà calcolate e non misurate
+    attendibilita: documentato
+  - id: la_coppia_inerte
+    sezione: caratteristiche
+    testo: 'Il +2 al posto del +4 o del +6 è una conseguenza di ciò che i chimici chiamano
+      effetto della coppia inerte: due degli elettroni esterni sono trattenuti così saldamente
+      da non partecipare quasi mai al legame. Nel livermorio l''effetto è portato all''estremo
+      dalla relatività, al punto che il +6 — lo stato normale dello zolfo — dovrebbe essergli
+      semplicemente precluso, e il +4 raggiungibile solo con leganti fortemente elettronegativi
+      come il fluoro.'
+    visual: La colonna del gruppo 16 con gli stati di ossidazione prevalenti
+    attendibilita: documentato
+  - id: isotopi
+    sezione: caratteristiche
+    testo: 'Si conoscono sei isotopi del livermorio e nessuno arriva al decimo di secondo:
+      il più longevo, il livermorio-293, dura una sessantina di millesimi di secondo. In vent''anni
+      ne sono stati prodotti in tutto una trentina di atomi, il che rende qualunque esperimento
+      di chimica fuori questione: il tempo per portare l''atomo dalla camera di reazione a
+      una colonna è già più lungo della sua vita.'
+    visual: Un cronometro che misura millesimi di secondo
+    attendibilita: documentato
+  - id: usi_ricerca
+    sezione: usi
+    testo: 'Il livermorio non ha usi e non ne avrà: non esiste in natura, ne esistono in tutto
+      poche decine di atomi mai prodotti e ciascuno è durato meno di un battito di ciglia.'
+    visual: Un rivelatore in attesa in una sala sperimentale
+    attendibilita: documentato
+  - id: perche_studiarlo
+    sezione: usi
+    testo: 'Il valore di questa casella sta nella strada che ha aperto. Con il calcio-48 e
+      i bersagli di attinide sono state riempite cinque delle sei caselle rimaste, dalla 114
+      alla 118, e la tavola periodica ha finito la settima riga. La stessa strada ha però
+      un limite netto: oltre il californio non esistono attinidi producibili in quantità sufficiente
+      a fare un bersaglio, e per andare oltre il 118 bisognerà cambiare ancora proiettile.'
+    visual: Una tavola periodica con le ultime sei caselle evidenziate
+    attendibilita: documentato
+  - id: curiosita_california
+    sezione: curiosita
+    testo: 'Con il livermorio la California arriva a tre caselle nella tavola periodica: il
+      berkelio per la città dell''università, il californio per lo stato e il livermorio per
+      il laboratorio di Livermore, che da Berkeley dista una cinquantina di chilometri. Un
+      solo altro luogo al mondo ha fatto meglio, e non è un laboratorio: la cava di Ytterby,
+      in Svezia, che di nomi ne ha lasciati quattro.'
+    visual: Una mappa della baia di San Francisco con Berkeley e Livermore segnate
+    attendibilita: documentato
+  - id: curiosita_trenta_atomi
+    sezione: curiosita
+    testo: 'Trenta atomi in vent''anni fa poco più di un atomo all''anno. È un ritmo che obbliga
+      a ripensare che cosa significhi «esistere» per un elemento chimico: il livermorio è
+      nella tavola periodica accanto all''ossigeno e allo zolfo, che compongono buona parte
+      del mondo, e la quantità complessiva mai esistita sulla Terra sta in un numero che si
+      può contare a voce.'
+    visual: La casella 116 accanto a quelle dell'ossigeno e dello zolfo
+    attendibilita: documentato
+  pronuncia:
+  - termine: Livermore
+    ipa: ˈlɪvərmɔːr
+    nota: Inglese americano.
+composti_principali:
+- nome: Livermorio-293
+  formula: 293Lv
+  usi:
+  - l'isotopo su cui si basa la rivendicazione del 2000
+- nome: Idruro di livermorio
+  formula: LvH₂
+  usi:
+  - composto previsto per analogia con l'idruro di polonio, mai preparato
+fonti:
+- url: https://en.wikipedia.org/wiki/Livermorium
+  titolo: Livermorium
+  consultata: &id001 2026-09-10
+- url: https://periodic-table.rsc.org/element/116/livermorium
+  titolo: Livermorium — Royal Society of Chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Calcium-48
+  titolo: Calcium-48
+  consultata: *id001
