@@ -11,7 +11,7 @@ from typing import Any
 import yaml
 from pydantic import ValidationError
 
-from elements_caos.models import Elemento, Epoca, Scopritore
+from elements_caos.models import Elemento, Epoca, Scopritore, Tappa
 
 
 class ErroreCaricamento(Exception):
@@ -70,6 +70,26 @@ def carica_epoche(percorso: Path) -> dict[str, Epoca]:
     except ValidationError as errore:
         raise ErroreCaricamento(f"dati non validi in {percorso.name}: {errore}") from errore
     return {epoca.id: epoca for epoca in epoche}
+
+
+def carica_itinerario(percorso: Path) -> list[Tappa]:
+    """Carica le tappe dell'itinerario guidato di lettura.
+
+    L'itinerario è facoltativo: se il file non esiste la cronologia viene
+    generata senza la sezione del percorso consigliato. È l'unico dei dati di
+    navigazione a esserlo, perché è una scelta redazionale su un vault già
+    completo e non una condizione perché il vault esista.
+    """
+    if not percorso.exists():
+        return []
+    dati = _leggi_yaml(percorso)
+    if not isinstance(dati, list):
+        tipo = "nessun contenuto (file vuoto)" if dati is None else type(dati).__name__
+        raise ErroreCaricamento(f"atteso un elenco in {percorso.name}, trovato {tipo}")
+    try:
+        return [Tappa.model_validate(voce) for voce in dati]
+    except ValidationError as errore:
+        raise ErroreCaricamento(f"dati non validi in {percorso.name}: {errore}") from errore
 
 
 def ordina_per_scoperta(elementi: list[Elemento]) -> list[Elemento]:

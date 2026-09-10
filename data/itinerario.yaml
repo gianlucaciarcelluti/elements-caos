@@ -1,0 +1,89 @@
+# Percorso di lettura in dodici tappe, una per svolta storica: circa un'ora
+# dall'antichità a oggi. L'ordine segue il filo del racconto e non sempre
+# l'anno di scoperta — l'uranio è nella tavola dal 1789 ma la sua tappa
+# riguarda il 1896, e per questo compare dopo l'argon.
+
+- titolo: Il metallo raccolto da terra
+  elemento: Rame
+  descrizione: >-
+    Diecimila anni prima che qualcuno pensasse alla parola "elemento", qualcuno
+    raccolse un metallo rosso e capì che poteva piegarlo. La storia comincia
+    senza chimica e senza nomi: comincia da una cosa che si trova.
+
+- titolo: L'alchimista e la luce fredda
+  elemento: Fosforo
+  descrizione: >-
+    Cercando l'oro nell'urina, Hennig Brand trova una sostanza che brilla al
+    buio: è la prima scoperta di un elemento con un luogo e una data precisi, e tutto
+    ciò che viene prima è arrivato all'uomo senza che nessuno ne registrasse
+    l'istante.
+
+- titolo: L'aria si scompone
+  elemento: Ossigeno
+  descrizione: >-
+    Per duemila anni l'aria era stata uno dei quattro elementi. In sei anni
+    diventa una miscela di gas distinti, e Lavoisier ne ricava una chimica che
+    pesa ciò che brucia invece di raccontarlo.
+
+- titolo: La pila apre i sali
+  elemento: Sodio
+  descrizione: >-
+    Davy fa passare corrente attraverso una soda fusa e ne cava un metallo che
+    nessun forno aveva mai liberato. In due anni l'elettricità aggiunge alla
+    tavola sei elementi che la chimica del fuoco non poteva raggiungere.
+
+- titolo: Una riga che non corrisponde a nulla
+  elemento: Cesio
+  descrizione: >-
+    Bunsen e Kirchhoff annunciano un elemento nuovo senza averne isolato un
+    granello: bastano due righe azzurre in uno spettro. Da qui in avanti si
+    possono scoprire elementi guardandoli, e la tavola si riempie in fretta.
+
+- titolo: L'elemento trovato nel Sole
+  elemento: Elio
+  descrizione: >-
+    Nel 1868 una riga gialla nella corona solare non corrisponde a nulla di
+    noto sulla Terra. Ci vorranno ventisette anni per trovarne un campione
+    quaggiù: l'elio è stato riconosciuto nel cielo prima che sulla Terra.
+
+- titolo: La colonna che mancava
+  elemento: Argon
+  descrizione: >-
+    Una differenza di densità dello 0,5 per cento porta a un gas che non
+    reagisce con niente, e a una colonna intera che nella tavola periodica non
+    era prevista. In sei anni si riempie quasi tutta.
+
+- titolo: La pietra che impressiona le lastre
+  elemento: Uranio
+  descrizione: >-
+    L'uranio è noto dal 1789 e per un secolo serve a tingere il vetro. Nel 1896
+    impressiona da solo una lastra fotografica chiusa nel buio, e la materia si
+    scopre capace di emettere qualcosa per conto proprio.
+
+- titolo: Tonnellate di pechblenda per un decigrammo
+  elemento: Radio
+  descrizione: >-
+    Marie e Pierre Curie inseguono un'attività residua che nessun elemento noto
+    spiega, e per isolarne un decigrammo lavorano tonnellate di scarto. Quattro anni di lavoro in un capanno senza
+    pavimento, per un decigrammo di cloruro di radio.
+
+- titolo: Il primo elemento fabbricato
+  elemento: Tecnezio
+  descrizione: >-
+    La casella 43 restava vuota perché in natura non c'è nulla da trovare. Nel
+    1937 la si riempie costruendo l'elemento in un ciclotrone: da qui in avanti
+    la tavola periodica si completa in laboratorio.
+
+- titolo: La fissione e la bomba
+  elemento: Plutonio
+  descrizione: >-
+    Un nucleo che si spezza libera energia e altri neutroni, e in pochi anni la
+    chimica degli elementi nuovi diventa un programma militare da miliardi di
+    dollari. Il plutonio è il primo elemento sintetico prodotto su scala industriale.
+
+- titolo: Il confine
+  elemento: Oganesson
+  descrizione: >-
+    L'ultima casella esiste per tre o quattro atomi vissuti meno di un
+    millesimo di secondo, e con ogni probabilità non è il gas nobile che la sua
+    colonna promette. La tavola periodica finisce qui perché più in là nessuno è ancora arrivato.

@@ -33,7 +33,7 @@ timeline
 ```
 
 > [!info] Nota sulla cronologia
-> Individuato nello spettro della cromosfera solare durante l'eclissi del 18 agosto 1868 da Pierre Jules César Janssen, e riconosciuto come elemento nuovo da Norman Lockyer, che gli diede il nome. La cronologia adotta quel 1868 e non il 1895 in cui l'elio fu trovato sulla Terra: è la sola casella della tavola datata a un'osservazione fatta fuori dal pianeta.
+> Individuato nello spettro della cromosfera solare durante l'eclissi del 18 agosto 1868 da Pierre Jules César Janssen, e riconosciuto come elemento nuovo da Norman Lockyer, che gli diede il nome. La cronologia adotta quel 1868 e non il 1895 in cui l'elio fu trovato sulla Terra: l'elemento è stato riconosciuto nello spettro del Sole ventisette anni prima che quaggiù.
 
 ## Storia della scoperta
 

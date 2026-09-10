@@ -10,6 +10,7 @@ from elements_caos.caricamento import (
     ErroreCaricamento,
     carica_elementi,
     carica_epoche,
+    carica_itinerario,
     carica_scopritori,
     ordina_per_scoperta,
 )
@@ -141,6 +142,7 @@ def genera_vault(cartella_dati: Path, cartella_vault: Path) -> int:
     elementi = carica_elementi(cartella_dati / "elements")
     scopritori = carica_scopritori(cartella_dati / "scopritori.yaml")
     epoche = carica_epoche(cartella_dati / "epoche.yaml")
+    itinerario = carica_itinerario(cartella_dati / "itinerario.yaml")
 
     note_attese: set[str] = set()
     for elemento in elementi:
@@ -169,7 +171,7 @@ def genera_vault(cartella_dati: Path, cartella_vault: Path) -> int:
 
     _scrivi(
         cartella_vault / "Cronologia degli elementi.md",
-        rendi_cronologia(elementi, epoche, [], scopritori),
+        rendi_cronologia(elementi, epoche, itinerario, scopritori),
     )
     _scrivi(cartella_vault / "Tavola periodica.md", rendi_tavola(elementi, scopritori))
     _scrivi(cartella_vault / "Attribuzioni.md", rendi_attribuzioni(scopritori))

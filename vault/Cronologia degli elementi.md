@@ -13,6 +13,36 @@ metallo raccolto in una grotta e arriva agli atomi vissuti per un millesimo di s
 Per la disposizione chimica vedi la [[Tavola periodica]]; per i crediti delle
 immagini, le [[Attribuzioni]].
 
+## Itinerario guidato
+
+Un percorso di lettura in 12 tappe, circa un'ora in tutto, per
+seguire il filo della storia senza leggere tutte le note.
+
+1. **Il metallo raccolto da terra** — [[Rame]]
+   Diecimila anni prima che qualcuno pensasse alla parola "elemento", qualcuno raccolse un metallo rosso e capì che poteva piegarlo. La storia comincia senza chimica e senza nomi: comincia da una cosa che si trova.
+2. **L'alchimista e la luce fredda** — [[Fosforo]]
+   Cercando l'oro nell'urina, Hennig Brand trova una sostanza che brilla al buio: è la prima scoperta di un elemento con un luogo e una data precisi, e tutto ciò che viene prima è arrivato all'uomo senza che nessuno ne registrasse l'istante.
+3. **L'aria si scompone** — [[Ossigeno]]
+   Per duemila anni l'aria era stata uno dei quattro elementi. In sei anni diventa una miscela di gas distinti, e Lavoisier ne ricava una chimica che pesa ciò che brucia invece di raccontarlo.
+4. **La pila apre i sali** — [[Sodio]]
+   Davy fa passare corrente attraverso una soda fusa e ne cava un metallo che nessun forno aveva mai liberato. In due anni l'elettricità aggiunge alla tavola sei elementi che la chimica del fuoco non poteva raggiungere.
+5. **Una riga che non corrisponde a nulla** — [[Cesio]]
+   Bunsen e Kirchhoff annunciano un elemento nuovo senza averne isolato un granello: bastano due righe azzurre in uno spettro. Da qui in avanti si possono scoprire elementi guardandoli, e la tavola si riempie in fretta.
+6. **L'elemento trovato nel Sole** — [[Elio]]
+   Nel 1868 una riga gialla nella corona solare non corrisponde a nulla di noto sulla Terra. Ci vorranno ventisette anni per trovarne un campione quaggiù: l'elio è stato riconosciuto nel cielo prima che sulla Terra.
+7. **La colonna che mancava** — [[Argon]]
+   Una differenza di densità dello 0,5 per cento porta a un gas che non reagisce con niente, e a una colonna intera che nella tavola periodica non era prevista. In sei anni si riempie quasi tutta.
+8. **La pietra che impressiona le lastre** — [[Uranio]]
+   L'uranio è noto dal 1789 e per un secolo serve a tingere il vetro. Nel 1896 impressiona da solo una lastra fotografica chiusa nel buio, e la materia si scopre capace di emettere qualcosa per conto proprio.
+9. **Tonnellate di pechblenda per un decigrammo** — [[Radio]]
+   Marie e Pierre Curie inseguono un'attività residua che nessun elemento noto spiega, e per isolarne un decigrammo lavorano tonnellate di scarto. Quattro anni di lavoro in un capanno senza pavimento, per un decigrammo di cloruro di radio.
+10. **Il primo elemento fabbricato** — [[Tecnezio]]
+    La casella 43 restava vuota perché in natura non c'è nulla da trovare. Nel 1937 la si riempie costruendo l'elemento in un ciclotrone: da qui in avanti la tavola periodica si completa in laboratorio.
+11. **La fissione e la bomba** — [[Plutonio]]
+    Un nucleo che si spezza libera energia e altri neutroni, e in pochi anni la chimica degli elementi nuovi diventa un programma militare da miliardi di dollari. Il plutonio è il primo elemento sintetico prodotto su scala industriale.
+12. **Il confine** — [[Oganesson]]
+    L'ultima casella esiste per tre o quattro atomi vissuti meno di un millesimo di secondo, e con ogni probabilità non è il gas nobile che la sua colonna promette. La tavola periodica finisce qui perché più in là nessuno è ancora arrivato.
+
 ## Tutti gli elementi in ordine di scoperta
 
 ### [[Antichità]]

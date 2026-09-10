@@ -21,8 +21,9 @@ seguire il filo della storia senza leggere tutte le note.
 
 {% for tappa in tappe %}
 {{ loop.index }}. **{{ tappa.titolo }}** — [[{{ tappa.elemento }}]]
-   {{ tappa.descrizione }}
+{{ '   ' if loop.index < 10 else '    ' }}{{ tappa.descrizione }}
 {% endfor %}
+
 {% endif %}
 ## Tutti gli elementi in ordine di scoperta
 

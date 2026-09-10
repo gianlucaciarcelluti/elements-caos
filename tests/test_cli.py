@@ -195,3 +195,39 @@ def test_errore_di_scrittura_produce_messaggio_e_codice_dedicato(
     assert codice == 3
     errore = capsys.readouterr().err
     assert "Elementi" in errore
+
+
+def test_cronologia_include_le_tappe_dell_itinerario(ambiente: tuple[Path, Path]) -> None:
+    """L'itinerario definito nei dati compare nella nota cronologica."""
+    dati, vault = ambiente
+    (dati / "itinerario.yaml").write_text(
+        "- titolo: L'alchimista e la luce fredda\n"
+        "  elemento: Fosforo\n"
+        "  descrizione: La prima scoperta documentata.\n",
+        encoding="utf-8",
+    )
+
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    cronologia = (vault / "Cronologia degli elementi.md").read_text(encoding="utf-8")
+
+    assert "Itinerario guidato" in cronologia
+    assert "L'alchimista e la luce fredda" in cronologia
+    assert "[[Fosforo]]" in cronologia
+
+
+def test_cronologia_senza_itinerario_non_mostra_la_sezione(ambiente: tuple[Path, Path]) -> None:
+    """L'itinerario è facoltativo: senza il file la cronologia si genera lo stesso.
+
+    Il vault deve restare generabile da un dataset minimo, e chi forka il
+    progetto per raccontare un'altra collezione di elementi non è tenuto a
+    scrivere un percorso di lettura.
+    """
+    dati, vault = ambiente
+    assert not (dati / "itinerario.yaml").exists()
+
+    codice = main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert codice == 0
+    cronologia = (vault / "Cronologia degli elementi.md").read_text(encoding="utf-8")
+    assert "Itinerario guidato" not in cronologia
