@@ -63,7 +63,7 @@ flowchart TB
 | Gruppo | 9 |
 | Periodo | 7 |
 | Blocco | d |
-| Configurazione elettronica | *[Rn] 5f¹⁴ 6d⁷ 7s² |
+| Configurazione elettronica | [Rn] 5f¹⁴ 6d⁷ 7s² |
 | Punto di fusione | dato non disponibile |
 | Punto di ebollizione | dato non disponibile |
 | Densità | 37,4 g/cm³ |

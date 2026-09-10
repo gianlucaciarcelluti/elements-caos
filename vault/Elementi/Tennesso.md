@@ -63,7 +63,7 @@ flowchart TB
 | Gruppo | 17 |
 | Periodo | 7 |
 | Blocco | p |
-| Configurazione elettronica | *[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵ |
+| Configurazione elettronica | [Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵ |
 | Punto di fusione | 449,9 °C |
 | Punto di ebollizione | 609,9 °C |
 | Densità | 7,17 g/cm³ |
