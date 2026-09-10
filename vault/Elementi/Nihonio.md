@@ -10,7 +10,7 @@ categoria: metallo_di_transizione
 gruppo: 13
 periodo: 7
 posizione_cronologica: 115
-tempo_lettura: 1
+tempo_lettura: 4
 ha_approfondimento: false
 tags: [elemento, metallo-di-transizione, epoca/nucleare, secolo/XXI]
 aliases: [Nh, Nihonium]
@@ -19,9 +19,9 @@ aliases: [Nh, Nihonium]
 # Nihonio (Nh)
 
 > [!abstract] 115° elemento scoperto — 2004
-> 
+> Il terzo atomo di nihonio arrivò nell'agosto del 2012, otto anni dopo il primo. Nel frattempo un terremoto aveva costretto il laboratorio a spegnere quasi tutto, e la squadra aveva ottenuto di tenere acceso un esperimento solo: questo.
 
-
+Il nihonio è il primo elemento scoperto e battezzato in Asia, e la sua storia è fatta soprattutto di attesa. Tre atomi in nove anni di campagne, con un fascio che ha bombardato lo stesso bersaglio per centinaia di giorni: non c'è nessuna intuizione decisiva da raccontare, solo la decisione di non smettere.
 
 ## Cronologia della scoperta
 
@@ -33,7 +33,17 @@ timeline
 
 ## Storia della scoperta
 
+Il gruppo di Kōsuke Morita, al centro Nishina del RIKEN vicino a Tokyo, scelse la via più difficile e più pulita: bombardare direttamente bismuto-209 con ioni di zinco-70, cioè fabbricare l'elemento 113 invece di raccoglierlo dai detriti di qualcos'altro. La resa attesa era bassissima, e il conto lo dice: il primo atomo arrivò il 23 luglio 2004, il secondo nell'aprile del 2005, il terzo il 12 agosto 2012.
 
+Nel frattempo la collaborazione fra Dubna e Livermore aveva prodotto l'elemento 113 per un'altra strada: non facendolo direttamente, ma osservandolo comparire nella catena di decadimenti dell'elemento 115. Anche quella era una produzione reale, e arrivava prima nel tempo.
+
+Nel dicembre del 2015 la IUPAC assegnò la scoperta al RIKEN, e la ragione fu la solidità dell'ancoraggio. La catena giapponese scendeva fino a un nucleo di dubnio il cui destino era già noto nel dettaglio, e da lì si risaliva al numero atomico senza margini; le catene di Dubna e Livermore finivano invece su nuclei mai osservati prima, e non permettevano lo stesso controllo.
+
+L'episodio che si ricorda è del 2011. Dopo il terremoto e lo tsunami del Tōhoku il prezzo dell'elettricità in Giappone salì, e il RIKEN ordinò lo spegnimento dei programmi con gli acceleratori per risparmiare. Alla squadra di Morita fu concesso di proseguire con un solo esperimento, e scelse la conferma dell'elemento 113. L'atomo del 2012 è arrivato da quella concessione.
+
+Il nome fu proposto da Morita nel marzo del 2016 e ufficializzato il 28 novembre. Nihon è uno dei due modi in cui si dice Giappone in giapponese, e significa all'incirca «origine del sole». La cerimonia si tenne a Tokyo nel marzo del 2017 alla presenza del principe ereditario Naruhito, oggi imperatore.
+
+C'era stato un precedente, e non era andato bene. Nel 1908 il chimico giapponese Masataka Ogawa aveva rivendicato un elemento nuovo e proposto di chiamarlo nipponium, dall'altro modo di dire Giappone; la rivendicazione non fu accettata, e il simbolo che vi era associato finì poi al nettunio. Un secolo dopo, quel nome non si poteva riusare, e il Giappone è entrato nella tavola periodica con la propria altra parola.
 
 ## Posizione nella tavola periodica
 
@@ -51,7 +61,11 @@ flowchart TB
 
 ## Caratteristiche
 
+Del nihonio non è stata misurata alcuna proprietà chimica, e i valori di questa nota sono calcoli. Sta nel gruppo 13, sotto boro, alluminio, gallio, indio e tallio, e le previsioni gli attribuiscono uno stato di ossidazione +1 come più stabile, con il +3 in seconda posizione.
 
+L'ordine dei due stati è la cosa interessante. Nel gruppo 13 lo stato normale è il +3: l'alluminio non ne conosce altri, e solo il tallio, in fondo alla colonna, preferisce il +1. Il nihonio dovrebbe spingere quella tendenza oltre, perché gli elettroni del guscio più esterno sono trattenuti dagli effetti relativistici e partecipano al legame con difficoltà crescente. La colonna, insomma, si rovescia man mano che si scende.
+
+Si conoscono otto isotopi del nihonio. Il più longevo è il nihonio-286, che arriva a una decina di secondi e si ottiene solo come prodotto di decadimento del moscovio; il nihonio-278 fabbricato al RIKEN dura invece qualche millesimo di secondo. La differenza è tutta nel numero di neutroni, e più ci si avvicina alla regione prevista come stabile, più ogni neutrone in più allunga la vita del nucleo.
 
 ### Dati fisico-chimici
 
@@ -67,7 +81,7 @@ flowchart TB
 | Punto di fusione | 426,9 °C |
 | Punto di ebollizione | 1156,9 °C |
 | Densità | 16,0 g/cm³ |
-| Stati di ossidazione | — |
+| Stati di ossidazione | +1, +3 |
 
 ## Struttura atomica
 
@@ -75,7 +89,29 @@ flowchart TB
 
 ## Usi e presenza in natura
 
+Il nihonio non ha usi: non esiste in natura, se ne sono prodotti in tutto pochi atomi e ciascuno è durato una frazione di secondo. Nemmeno la ricerca chimica lo usa, perché non si è ancora riusciti a farla.
 
+Quello che il nihonio ha dimostrato non riguarda la chimica ma il modo di lavorare. Ha mostrato che la via diretta, fabbricare l'elemento invece di raccoglierlo dai decadimenti di uno più pesante, resta praticabile anche dove la resa è di un atomo ogni due o tre anni, purché si accetti di aspettare. È una scelta di metodo che ha un costo enorme e un vantaggio: la catena di decadimenti che ne esce è verificabile fino in fondo.
+
+```mermaid
+flowchart LR
+    E["Nihonio"]
+    C1["Nihonio-278<br/>278Nh"]
+    E --> C1
+    U1(["l'isotopo fabbricato direttamente al RIKEN, base della rivendicazione"])
+    C1 --> U1
+    C2["Nihonio-286<br/>286Nh"]
+    E --> C2
+    U2(["anello delle catene di decadimento del moscovio"])
+    C2 --> U2
+    style E fill:#f9a825,stroke:#333,stroke-width:2px
+```
+
+## Curiosità
+
+Il nihonio è il primo elemento a essere stato scoperto e battezzato in Asia: prima di lui i nomi della tavola periodica venivano tutti da laboratori europei o nordamericani. E arriva da un paese che nella storia della chimica degli elementi aveva collezionato una sola rivendicazione, respinta, più di un secolo prima.
+
+Fra il primo e il terzo atomo di nihonio sono passati più di otto anni, e il bersaglio di bismuto è stato bombardato per un tempo complessivo che si misura in anni di fascio. È il rovescio esatto dell'immagine popolare della scoperta scientifica: nessun colpo di fortuna, nessuna intuizione improvvisa, solo una macchina accesa e qualcuno che continua a guardare i dati.
 
 ## Nella cronologia
 
@@ -86,3 +122,6 @@ Epoca: [[Era nucleare]] · Scopritore: [[Kosuke Morita]]
 
 ## Fonti
 
+- [Nihonium](https://en.wikipedia.org/wiki/Nihonium) — consultata il 10/09/2026
+- [Nihonium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/113/nihonium) — consultata il 10/09/2026
+- [RIKEN](https://en.wikipedia.org/wiki/RIKEN) — consultata il 10/09/2026
