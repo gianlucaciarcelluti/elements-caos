@@ -89,3 +89,37 @@ jobs:
         run: ./scripts/verifica_mermaid.sh
         env:
           PARALLELISMO: 4
+
+  sito:
+    name: Layout, peso e accessibilità del sito
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installa uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Installa le dipendenze
+        run: uv sync --all-extras --dev
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # La versione è fissata: senza pin il controllo si romperebbe da solo a
+      # un aggiornamento a monte, con un errore che non corrisponde a nessuna
+      # modifica del progetto. È la stessa lezione del pin di Quartz.
+      - name: Installa il browser di verifica
+        run: npm install --no-save puppeteer@23.11.1
+
+      - name: Costruisci il sito
+        run: uv run elements-caos sito --dati data --uscita public
+
+      # Verifica su otto tipi di pagina, a 390 e a 1280 px: nessun elemento
+      # oltre il viewport, altezza entro i limiti dichiarati, peso sotto i
+      # 250 KB senza immagini, nessun errore in console e comandi grandi
+      # almeno quanto WCAG 2.5.8 richiede.
+      - name: Verifica il sito nel browser
+        run: node scripts/verifica_sito.mjs public

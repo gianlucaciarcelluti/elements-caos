@@ -197,6 +197,20 @@ a {
   font-size: 0.95rem;
 }
 
+/* Precedente e successivo nella cronologia sono i comandi con cui si percorre
+ * il vault nota per nota: hanno un'area di contatto propria. */
+.elemento__catena a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: var(--passo-2);
+  text-decoration: none;
+}
+
+.elemento__catena a:hover {
+  text-decoration: underline;
+}
+
 .elemento__fonti ul {
   padding-left: var(--passo-4);
   font-size: 0.9rem;
@@ -238,8 +252,18 @@ a {
 .chiusura__link {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--passo-3);
+  gap: var(--passo-2);
   margin-top: var(--passo-3);
+}
+
+/* I collegamenti di navigazione sono comandi, non testo: hanno un'area di
+ * contatto propria. Misurato: senza, restano alti 22 px, sotto il minimo di
+ * WCAG 2.5.8. */
+.chiusura__link a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: var(--passo-2);
 }
 
 /* --- Accessibilità -------------------------------------------------------- */
@@ -292,6 +316,14 @@ a {
   margin: 0;
   font-family: var(--font-dati);
   font-size: 0.9rem;
+}
+
+/* I nomi degli scopritori dentro i dati sono collegamenti alle loro pagine, ed
+ * è da lì che ci si arriva. Restano in linea, separati da virgole, ma con
+ * abbastanza area verticale da essere un bersaglio: senza, sono alti 16 px. */
+.dati dd a {
+  display: inline-block;
+  padding-block: 4px;
 }
 
 /* --- Vicini nella tavola -------------------------------------------------- */
@@ -968,9 +1000,18 @@ a {
   color: var(--colore-testo-tenue);
 }
 
+/* Nella home le voci della legenda sono collegamenti alle epoche: devono
+ * avere l'area di contatto di un comando, non l'altezza di una riga di testo. */
 .legenda__voce a {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
   color: inherit;
   text-decoration: none;
+}
+
+.legenda__voce:has(a) {
+  padding: 0 var(--passo-2);
 }
 
 /* --- Ricerca -------------------------------------------------------------- */
