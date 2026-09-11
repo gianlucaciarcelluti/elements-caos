@@ -133,6 +133,9 @@ Negli oceani c'è oro disciolto, ma in concentrazioni dell'ordine di poche decin
 
 L'oro terrestre non si è formato sulla Terra. Nuclei così pesanti nascono negli eventi più violenti dell'universo, e la fusione di due stelle di neutroni osservata nel 2017 ne ha dato una conferma diretta attraverso la luce emessa dai detriti. Ogni fede nuziale è materia arrivata qui dopo un cataclisma stellare, inglobata nella nube da cui si è formato il sistema solare.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Oro — storia estesa]].
+
 ## Nella cronologia
 
 ← *Primo elemento della cronologia*
@@ -145,6 +148,32 @@ Epoca: [[Antichità]]
 - [Gold](https://en.wikipedia.org/wiki/Gold) — consultata il 07/09/2026
 - [Varna Necropolis](https://en.wikipedia.org/wiki/Varna_Necropolis) — consultata il 07/09/2026
 - [Varna Chalcolithic Necropolis - oldest gold treasure in the world](https://visit.varna.bg/en/varna_oldest_gold_treasure_in_the_world.html) — consultata il 07/09/2026
+- [Croesus](https://en.wikipedia.org/wiki/Croesus) — consultata il 11/09/2026
+- [Archimedes' principle](https://en.wikipedia.org/wiki/Archimedes%27_principle) — consultata il 11/09/2026
+- [Chrysopoeia](https://en.wikipedia.org/wiki/Chrysopoeia) — consultata il 11/09/2026
+- [Alchemy](https://en.wikipedia.org/wiki/Alchemy) — consultata il 11/09/2026
+- [Aqua regia](https://en.wikipedia.org/wiki/Aqua_regia) — consultata il 11/09/2026
+- [Mansa Musa](https://en.wikipedia.org/wiki/Mansa_Musa) — consultata il 11/09/2026
+- [Mask of Tutankhamun](https://en.wikipedia.org/wiki/Tutankhamun%27s_mask) — consultata il 11/09/2026
+- [Gold leaf](https://en.wikipedia.org/wiki/Gold_leaf) — consultata il 11/09/2026
+- [Atahualpa](https://en.wikipedia.org/wiki/Atahualpa) — consultata il 11/09/2026
+- [El Dorado](https://en.wikipedia.org/wiki/El_Dorado) — consultata il 11/09/2026
+- [California gold rush](https://en.wikipedia.org/wiki/California_gold_rush) — consultata il 11/09/2026
+- [Klondike Gold Rush](https://en.wikipedia.org/wiki/Klondike_Gold_Rush) — consultata il 11/09/2026
+- [Witwatersrand Gold Rush](https://en.wikipedia.org/wiki/Witwatersrand_Gold_Rush) — consultata il 11/09/2026
+- [Gold mining](https://en.wikipedia.org/wiki/Gold_mining) — consultata il 11/09/2026
+- [Gold standard](https://en.wikipedia.org/wiki/Gold_standard) — consultata il 11/09/2026
+- [Fort Knox](https://en.wikipedia.org/wiki/Fort_Knox) — consultata il 11/09/2026
+- [Bretton Woods system](https://en.wikipedia.org/wiki/Bretton_Woods_system) — consultata il 11/09/2026
+- [Nixon shock](https://en.wikipedia.org/wiki/Nixon_shock) — consultata il 11/09/2026
+- [Gold cyanidation](https://en.wikipedia.org/wiki/Gold_cyanidation) — consultata il 11/09/2026
+- [Rutherford scattering experiments](https://en.wikipedia.org/wiki/Geiger%E2%80%93Marsden_experiment) — consultata il 11/09/2026
+- [Colloidal gold](https://en.wikipedia.org/wiki/Colloidal_gold) — consultata il 11/09/2026
+- [Lycurgus Cup](https://en.wikipedia.org/wiki/Lycurgus_Cup) — consultata il 11/09/2026
+- [Artisanal mining](https://en.wikipedia.org/wiki/Artisanal_mining) — consultata il 11/09/2026
+- [Mercury poisoning](https://en.wikipedia.org/wiki/Mercury_poisoning) — consultata il 11/09/2026
+- [GW170817](https://en.wikipedia.org/wiki/GW170817) — consultata il 11/09/2026
+- [Auranofin](https://en.wikipedia.org/wiki/Auranofin) — consultata il 11/09/2026
 
 ---
 
