@@ -135,6 +135,9 @@ I Romani addolcivano il vino e la frutta conservata con il sapa, uno sciroppo ot
 
 Da qui nasce la tesi, in circolazione dall'Ottocento, che l'avvelenamento da piombo abbia causato il declino dell'Impero romano. Gli studi recenti la ridimensionano parecchio: il vasellame di piombo compare di rado negli scavi domestici, e le analisi degli scheletri non mostrano l'intossicazione diffusa e trasversale alle classi sociali che la tesi richiederebbe. Che i Romani si avvelenassero un po' è fuori discussione; che sia stato quello a far cadere l'impero è tutt'altra affermazione.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Piombo — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Rame]] (9000 a.C.)
@@ -148,6 +151,42 @@ Epoca: [[Antichità]]
 - [The Earliest Lead Object in the Levant (PLOS ONE)](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0142948) — consultata il 07/09/2026
 - [Roman lead poisoning theory](https://en.wikipedia.org/wiki/Roman_lead_poisoning_theory) — consultata il 07/09/2026
 - [Venetian ceruse](https://en.wikipedia.org/wiki/Venetian_ceruse) — consultata il 07/09/2026
+- [Galena](https://en.wikipedia.org/wiki/Galena) — consultata il 11/09/2026
+- [Isotopes of lead](https://en.wikipedia.org/wiki/Isotopes_of_lead) — consultata il 11/09/2026
+- [Cupellation](https://en.wikipedia.org/wiki/Cupellation) — consultata il 11/09/2026
+- [Laurium](https://en.wikipedia.org/wiki/Laurium) — consultata il 11/09/2026
+- [Mining in Roman Britain](https://en.wikipedia.org/wiki/Mining_in_Roman_Britain) — consultata il 11/09/2026
+- [Plumbosolvency](https://en.wikipedia.org/wiki/Plumbosolvency) — consultata il 11/09/2026
+- [Grape syrup](https://en.wikipedia.org/wiki/Grape_syrup) — consultata il 11/09/2026
+- [Lead(II) acetate](https://en.wikipedia.org/wiki/Lead%28II%29_acetate) — consultata il 11/09/2026
+- [Movable type](https://en.wikipedia.org/wiki/Movable_type) — consultata il 11/09/2026
+- [Lead came and copper foil glasswork](https://en.wikipedia.org/wiki/Lead_came_and_copper_foil_glasswork) — consultata il 11/09/2026
+- [Lead glass](https://en.wikipedia.org/wiki/Lead_glass) — consultata il 11/09/2026
+- [White lead](https://en.wikipedia.org/wiki/White_lead) — consultata il 11/09/2026
+- [Lead-glazed earthenware](https://en.wikipedia.org/wiki/Lead-glazed_earthenware) — consultata il 11/09/2026
+- [Lead paint](https://en.wikipedia.org/wiki/Lead_paint) — consultata il 11/09/2026
+- [Lead–acid battery](https://en.wikipedia.org/wiki/Lead-acid_battery) — consultata il 11/09/2026
+- [Lead shot](https://en.wikipedia.org/wiki/Lead_shot) — consultata il 11/09/2026
+- [Fishing sinker](https://en.wikipedia.org/wiki/Fishing_sinker) — consultata il 11/09/2026
+- [Radiation protection](https://en.wikipedia.org/wiki/Radiation_protection) — consultata il 11/09/2026
+- [Lead shielding](https://en.wikipedia.org/wiki/Lead_shielding) — consultata il 11/09/2026
+- [Lead poisoning](https://en.wikipedia.org/wiki/Lead_poisoning) — consultata il 11/09/2026
+- [Blood lead level](https://en.wikipedia.org/wiki/Blood_lead_level) — consultata il 11/09/2026
+- [Tetraethyllead](https://en.wikipedia.org/wiki/Tetraethyllead) — consultata il 11/09/2026
+- [Thomas Midgley Jr.](https://en.wikipedia.org/wiki/Thomas_Midgley_Jr.) — consultata il 11/09/2026
+- [Ethyl Corporation](https://en.wikipedia.org/wiki/Ethyl_Corporation) — consultata il 11/09/2026
+- [Clair Cameron Patterson](https://en.wikipedia.org/wiki/Clair_Cameron_Patterson) — consultata il 11/09/2026
+- [Uranium–lead dating](https://en.wikipedia.org/wiki/Uranium–lead_dating) — consultata il 11/09/2026
+- [Age of the Earth](https://en.wikipedia.org/wiki/Age_of_the_Earth) — consultata il 11/09/2026
+- [Ice core](https://en.wikipedia.org/wiki/Ice_core) — consultata il 11/09/2026
+- [Flint water crisis](https://en.wikipedia.org/wiki/Flint_water_crisis) — consultata il 11/09/2026
+- [Lead and Copper Rule](https://en.wikipedia.org/wiki/Lead_and_Copper_Rule) — consultata il 11/09/2026
+- [Lead service line](https://en.wikipedia.org/wiki/Lead_service_line) — consultata il 11/09/2026
+- [Lead–crime hypothesis](https://en.wikipedia.org/wiki/Lead–crime_hypothesis) — consultata il 11/09/2026
+- [Río Tinto (river)](https://en.wikipedia.org/wiki/Rio_Tinto_%28river%29) — consultata il 11/09/2026
+- [Lead smelting](https://en.wikipedia.org/wiki/Lead_smelting) — consultata il 11/09/2026
+- [Lead pipe](https://en.wikipedia.org/wiki/Lead_pipe) — consultata il 11/09/2026
+- [Stained glass](https://en.wikipedia.org/wiki/Stained_glass) — consultata il 11/09/2026
 
 ---
 
