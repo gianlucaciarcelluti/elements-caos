@@ -144,7 +144,7 @@ Epoca: [[Antichità]]
 
 - [Iron](https://en.wikipedia.org/wiki/Iron) — consultata il 07/09/2026
 - [Analysis of a prehistoric Egyptian iron bead (Meteoritics & Planetary Science, 2013)](https://onlinelibrary.wiley.com/doi/10.1111/maps.12120) — consultata il 07/09/2026
-- [Iron dagger of Tutankhamun](https://en.wikipedia.org/wiki/Iron_dagger_of_Tutankhamun) — consultata il 07/09/2026
+- [Tutankhamun's meteoric iron dagger](https://en.wikipedia.org/wiki/Tutankhamun%27s_meteoric_iron_dagger) — consultata il 07/09/2026
 - [Did Hieroglyphic Texts Reveal That Ancient Egyptians Knew Meteorites Came From the Sky?](https://www.smithsonianmag.com/science-nature/do-hieroglyphic-texts-reveal-that-ancient-egyptians-knew-meteorites-came-from-the-sky-180983039/) — consultata il 07/09/2026
 - [Smelting Conditions and Smelting Products: Experimental Insights into the Development of Iron Bloomery Furnaces (EXARC Journal)](https://exarc.net/issue-2020-2/ea/development-bloomery-furnaces) — consultata il 07/09/2026
 
