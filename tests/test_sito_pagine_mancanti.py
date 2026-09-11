@@ -185,9 +185,7 @@ def test_il_comando_emette_tutte_le_pagine(tmp_path: Path) -> None:
     from elements_caos.sito.reindirizzamenti import TAG_PUBBLICATI
 
     estese = sum(1 for e in elementi if e.contenuti_estesi is not None)
-    atteso = (
-        len(elementi) + estese + len(scopritori) + len(epoche) + servizio + len(TAG_PUBBLICATI)
-    )
+    atteso = len(elementi) + estese + len(scopritori) + len(epoche) + servizio + len(TAG_PUBBLICATI)
 
     emesse = sorted(p.relative_to(uscita).as_posix() for p in uscita.rglob("*.html"))
     assert len(emesse) == atteso, f"emesse {len(emesse)}, attese {atteso}"
