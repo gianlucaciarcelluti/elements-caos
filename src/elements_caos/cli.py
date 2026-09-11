@@ -269,9 +269,11 @@ def _copia_statici(destinazione: Path) -> None:
     restano leggibili e correggibili come file separati.
     """
     destinazione.mkdir(parents=True, exist_ok=True)
-    for origine in sorted(CARTELLA_STATICI.iterdir()):
+    # Copia binaria e ricorsiva: i font WOFF2 stanno in ``font/`` e non sono
+    # testo. Un ``read_text`` li corromperebbe senza sollevare nulla.
+    for origine in sorted(CARTELLA_STATICI.rglob("*")):
         if origine.is_file():
-            _scrivi(destinazione / origine.name, origine.read_text(encoding="utf-8"))
+            _copia_binario(origine, destinazione / origine.relative_to(CARTELLA_STATICI))
 
 
 def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:

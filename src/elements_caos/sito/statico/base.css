@@ -1,13 +1,67 @@
 /* Impianto tipografico e di layout del sito.
  *
- * Font di sistema: nessuna chiamata a un CDN nel percorso di rendering. È un
- * punto di rottura in meno e, su un sito che dichiara di non raccogliere nulla
- * su chi legge, un tracciamento di terze parti in meno.
+ * Tre famiglie servite dal sito stesso, in font/ con la licenza accanto:
+ * nessuna chiamata a un CDN nel percorso di rendering. È un punto di rottura
+ * in meno e, su un sito che dichiara di non raccogliere nulla su chi legge, un
+ * tracciamento di terze parti in meno. Sono sottoinsiemi latini WOFF2: circa
+ * 340 KB in tutto, caricati una volta e messi in cache per tutte le pagine.
+ *
+ * Fraunces per i titoli: un serif con asse ottico, che a corpo grande si
+ * scioglie e a corpo piccolo si irrobustisce. Literata per la lettura lunga:
+ * disegnato per questo. IBM Plex Mono per simboli, anni e dati: in chimica il
+ * simbolo è già monospazio.
  */
 
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("font/fraunces-normal-300-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("font/fraunces-italic-300-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Literata";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("font/literata-normal-400-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Literata";
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("font/literata-italic-400-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("font/ibm-plex-mono-normal-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("font/ibm-plex-mono-normal-500.woff2") format("woff2");
+}
+
 :root {
-  --larghezza-lettura: 66ch;
+  --larghezza-lettura: 64ch;
+  /* Le pagine di lettura stanno in una colonna; la home e le pagine con la
+   * tavola usano la larghezza piena, che è anche quella della testata. */
   --larghezza-pagina: 46rem;
+  --larghezza-piena: 74rem;
+  --gutter: clamp(16px, 4vw, 40px);
 
   --passo-1: 0.25rem;
   --passo-2: 0.5rem;
@@ -16,18 +70,21 @@
   --passo-5: 2.5rem;
   --passo-6: 4rem;
 
-  --font-testo: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
-  --font-titoli: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-dati: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --font-testo: "Literata", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-titoli: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-dati: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   --raggio: 6px;
-  color-scheme: light dark;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -38,19 +95,28 @@ body {
   /* La dimensione cresce leggermente con la finestra, entro limiti fissi: su
    * telefono resta leggibile senza ingrandire, su schermo grande non diventa
    * un manifesto. */
-  font-size: clamp(1.05rem, 1rem + 0.25vw, 1.2rem);
-  line-height: 1.65;
+  font-size: clamp(1.02rem, 0.98rem + 0.25vw, 1.15rem);
+  line-height: 1.6;
   -webkit-text-size-adjust: 100%;
+  font-variation-settings: "opsz" 14;
 }
 
-/* --- Impianto della pagina ------------------------------------------------ */
+/* --- Impaginazione -------------------------------------------------------- */
 
 .testata,
 main,
 .chiusura {
   max-width: var(--larghezza-pagina);
   margin-inline: auto;
-  padding-inline: var(--passo-3);
+  padding-inline: var(--gutter);
+}
+
+/* La testata e la chiusura sono larghe quanto la pagina più larga, così che
+ * ogni pagina apra e chiuda con gli stessi margini. */
+.testata,
+.chiusura,
+main.pagina--piena {
+  max-width: var(--larghezza-piena);
 }
 
 .testata {
@@ -58,7 +124,22 @@ main,
   align-items: center;
   justify-content: space-between;
   gap: var(--passo-3);
-  padding-block: var(--passo-4);
+  padding-block: var(--passo-3);
+  border-bottom: 1px solid var(--colore-bordo);
+}
+
+.testata__sito {
+  font-family: var(--font-titoli);
+  font-variation-settings: "opsz" 24;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--colore-testo);
+  text-decoration: none;
+}
+
+.testata__sito:hover {
+  color: var(--colore-accento);
 }
 
 .testata__tema {
@@ -67,30 +148,19 @@ main,
    * pollice: sotto, il pulsante si manca. */
   min-height: 44px;
   padding-inline: var(--passo-3);
-  background: var(--colore-superficie);
-  color: var(--colore-testo);
+  background: transparent;
+  color: var(--colore-testo-tenue);
   border: 1px solid var(--colore-bordo);
-  border-radius: var(--raggio);
-  font-family: var(--font-titoli);
-  font-size: 0.85rem;
+  border-radius: 999px;
+  font-family: var(--font-dati);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
 .testata__tema:hover {
   border-color: var(--colore-accento);
-  color: var(--colore-accento);
-}
-
-.testata__sito {
-  font-family: var(--font-titoli);
-  font-size: 0.95rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--colore-testo-tenue);
-  text-decoration: none;
-}
-
-.testata__sito:hover {
   color: var(--colore-accento);
 }
 
@@ -109,25 +179,50 @@ h1,
 h2,
 h3 {
   font-family: var(--font-titoli);
-  line-height: 1.2;
+  font-weight: 400;
+  line-height: 1.1;
   text-wrap: balance;
+}
+
+h1 {
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+  letter-spacing: -0.015em;
 }
 
 h2 {
   margin-block: var(--passo-5) var(--passo-3);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-variation-settings: "opsz" 72;
+}
+
+h3 {
+  font-variation-settings: "opsz" 40;
 }
 
 .cronologia__testa h1 {
   /* Su telefono un titolo di sette parole occupa mezza schermata: qui la
    * scala parte più bassa che nelle schede degli elementi. */
-  font-size: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem);
+  font-size: clamp(1.8rem, 1.2rem + 2.2vw, 3rem);
   margin-block: 0 var(--passo-3);
 }
 
 a {
   color: var(--colore-accento);
-  text-underline-offset: 0.15em;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+/* L'occhiello: la riga corta in monospazio sopra un titolo, che dice cosa si
+ * sta guardando — posizione, epoca, anno. Ricorre su tutto il sito. */
+.occhiello {
+  margin: 0;
+  font-family: var(--font-dati);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--colore-accento);
 }
 
 /* --- Scheda dell'elemento ------------------------------------------------- */
@@ -140,12 +235,12 @@ a {
 
 .elemento__posizione {
   margin: 0;
-  font-family: var(--font-titoli);
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-family: var(--font-dati);
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--colore-testo-tenue);
+  color: var(--colore-accento);
 }
 
 .elemento__nome {
@@ -154,23 +249,25 @@ a {
   align-items: baseline;
   gap: var(--passo-3);
   margin-block: var(--passo-2);
-  font-size: clamp(2rem, 1.5rem + 2.5vw, 3rem);
+  font-size: clamp(2.6rem, 1.8rem + 4vw, 5rem);
 }
 
 .elemento__simbolo {
   font-family: var(--font-dati);
-  font-size: 0.45em;
-  font-weight: 400;
-  padding: var(--passo-1) var(--passo-2);
-  border: 1px solid var(--colore-bordo);
+  font-size: 0.32em;
+  font-weight: 500;
+  padding: 0.25em 0.5em;
+  border: 1px solid var(--colore-accento);
   border-radius: var(--raggio);
-  color: var(--colore-testo-tenue);
+  color: var(--colore-accento);
+  letter-spacing: 0;
 }
 
 .elemento__sommario {
   margin: 0;
-  font-family: var(--font-titoli);
-  font-size: 0.9rem;
+  font-family: var(--font-dati);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
   color: var(--colore-testo-tenue);
 }
 
@@ -178,11 +275,16 @@ a {
  * quello di un paragrafo qualunque. */
 .elemento__hook {
   margin-block: var(--passo-4);
-  padding-left: var(--passo-3);
-  border-left: 3px solid var(--colore-accento);
-  font-size: 1.15em;
-  line-height: 1.5;
+  padding-left: var(--passo-4);
+  border-left: 2px solid var(--colore-accento);
+  font-family: var(--font-titoli);
+  font-variation-settings: "opsz" 72;
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(1.3rem, 1.1rem + 1.2vw, 1.9rem);
+  line-height: 1.3;
   color: var(--colore-testo);
+  max-width: 34ch;
 }
 
 .elemento__catena {
@@ -193,8 +295,8 @@ a {
   margin-block: var(--passo-6) var(--passo-5);
   padding-top: var(--passo-3);
   border-top: 1px solid var(--colore-bordo);
-  font-family: var(--font-titoli);
-  font-size: 0.95rem;
+  font-family: var(--font-dati);
+  font-size: 0.88rem;
 }
 
 /* Precedente e successivo nella cronologia sono i comandi con cui si percorre
@@ -226,20 +328,24 @@ a {
 .chiusura {
   padding-block: var(--passo-5) var(--passo-6);
   border-top: 1px solid var(--colore-bordo);
-  font-family: var(--font-titoli);
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: var(--colore-testo-tenue);
 }
 
 .avvertenza {
-  padding: var(--passo-3);
+  padding: var(--passo-3) var(--passo-4);
   background: var(--colore-superficie);
   border-radius: var(--raggio);
+  max-width: var(--larghezza-pagina);
 }
 
 .avvertenza__titolo {
   margin: 0 0 var(--passo-2);
-  font-weight: 700;
+  font-family: var(--font-dati);
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--colore-testo);
 }
 
@@ -254,6 +360,9 @@ a {
   flex-wrap: wrap;
   gap: var(--passo-2);
   margin-top: var(--passo-3);
+  font-family: var(--font-dati);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
 }
 
 /* I collegamenti di navigazione sono comandi, non testo: hanno un'area di
@@ -270,16 +379,21 @@ a {
 
 :focus-visible {
   outline: 2px solid var(--colore-accento);
-  outline-offset: 2px;
+  outline-offset: 3px;
 }
 
 /* Chi ha chiesto meno animazioni non deve riceverne. */
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   *,
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
   }
 }
 

@@ -1,7 +1,10 @@
-/* Scelta esplicita del tema, che vince sull'impostazione di sistema.
+/* Scelta esplicita del tema.
  *
- * Senza JavaScript il pulsante non compare e il sito segue il tema del
- * sistema: la scelta è una comodità in più, non una condizione per leggere.
+ * Il tema di default è quello scuro per tutti: è il buio prima della scoperta,
+ * una scelta di progetto e non un rispecchiamento del sistema (Ruling 107).
+ * Chi preferisce il chiaro lo sceglie qui, e la scelta resta. Senza
+ * JavaScript il pulsante non compare e il sito resta scuro: il tema è una
+ * comodità in più, non una condizione per leggere.
  */
 (function () {
   "use strict";
@@ -27,10 +30,6 @@
     }
   }
 
-  function sistemaEScuro() {
-    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  }
-
   function applica(tema) {
     radice.setAttribute("data-tema", tema);
     var pulsante = document.getElementById("scelta-tema");
@@ -46,7 +45,7 @@
   }
 
   var salvato = leggi();
-  applica(salvato === "chiaro" || salvato === "scuro" ? salvato : sistemaEScuro() ? "scuro" : "chiaro");
+  applica(salvato === "chiaro" ? "chiaro" : "scuro");
 
   document.addEventListener("DOMContentLoaded", function () {
     var pulsante = document.getElementById("scelta-tema");

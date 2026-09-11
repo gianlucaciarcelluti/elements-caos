@@ -167,6 +167,60 @@ def test_nessuna_dipendenza_da_font_esterni() -> None:
         assert "http://" not in testo and "https://" not in testo
 
 
+def test_i_font_sono_serviti_dal_sito() -> None:
+    """Le tre famiglie del tema arrivano da file locali, con la licenza accanto.
+
+    Il Task 26 aveva scelto i font di sistema per non dipendere da un CDN. Il
+    tema della tavola accesa introduce tre famiglie proprie, ma la ragione di
+    allora resta: i file stanno nel sito, e ``@font-face`` non punta fuori.
+    """
+    foglio = (CARTELLA_STATICI / "base.css").read_text(encoding="utf-8")
+    cartella_font = CARTELLA_STATICI / "font"
+
+    for famiglia in ("Fraunces", "Literata", "IBM Plex Mono"):
+        assert f'font-family: "{famiglia}"' in foglio, f"manca @font-face per {famiglia}"
+
+    riferimenti = re.findall(r'url\("font/([^"]+\.woff2)"\)', foglio)
+    assert len(riferimenti) >= 6, "Fraunces e Literata in tondo e corsivo, Plex Mono in due pesi"
+    for nome in riferimenti:
+        assert (cartella_font / nome).is_file(), f"{nome} è dichiarato ma non esiste"
+    assert (cartella_font / "LICENZE.md").is_file()
+
+
+def test_il_tema_scuro_e_il_default() -> None:
+    """Il buio è la scelta di progetto, non un rispecchiamento del sistema.
+
+    Il primo blocco di token è quello scuro, su ``:root`` senza condizioni; il
+    chiaro esiste per intero ed è raggiungibile con la scelta esplicita.
+    """
+    testo = (CARTELLA_STATICI / "temi.css").read_text(encoding="utf-8")
+
+    primo_scuro = testo.index("/* tema: scuro */")
+    primo_chiaro = testo.index("/* tema: chiaro */")
+    assert primo_scuro < primo_chiaro
+    assert '[data-tema="chiaro"]' in testo
+    assert "prefers-color-scheme" not in testo
+
+
+@pytest.mark.parametrize("tema", ["chiaro", "scuro"])
+def test_contrasto_dei_colori_d_epoca_sul_fondo_pagina(tema: str) -> None:
+    """Il colore d'epoca è anche l'accento della pagina: deve reggere sul fondo.
+
+    Nel tema della tavola accesa il colore d'epoca esce dalla pastiglia e
+    diventa titolo, occhiello e collegamento sul fondo della pagina e sulle
+    superfici. Ogni epoca, due fondi, due temi.
+    """
+    token = _token("temi.css")[tema]
+
+    for epoca in EPOCHE:
+        for fondo in ("--colore-fondo", "--colore-superficie"):
+            rapporto = contrasto(token[f"--epoca-{epoca}-testo"], token[fondo])
+            assert rapporto >= CONTRASTO_MINIMO, (
+                f"tema {tema}: l'epoca {epoca} su {fondo} è {rapporto:.2f}:1, "
+                f"sotto il minimo di {CONTRASTO_MINIMO}"
+            )
+
+
 def test_larghezza_di_lettura_limitata() -> None:
     """La riga non supera i 70 caratteri: è un vincolo di lettura lunga."""
     testo = (CARTELLA_STATICI / "base.css").read_text(encoding="utf-8")
@@ -189,6 +243,11 @@ def test_gli_statici_vengono_copiati_e_collegati(tmp_path: Path) -> None:
 
     assert (uscita / "statico" / "base.css").is_file()
     assert (uscita / "statico" / "temi.css").is_file()
+    # I font sono binari e stanno in una sottocartella: la copia deve
+    # trattarli come tali, byte per byte.
+    font = uscita / "statico" / "font" / "fraunces-normal-300-700.woff2"
+    assert font.is_file()
+    assert font.read_bytes() == (CARTELLA_STATICI / "font" / font.name).read_bytes()
 
     pagina = (uscita / "elementi" / "fosforo.html").read_text(encoding="utf-8")
     assert "../statico/temi.css" in pagina
