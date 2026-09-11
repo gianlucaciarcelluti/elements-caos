@@ -1080,90 +1080,389 @@ a {
   color: var(--colore-testo-tenue);
 }
 
-/* --- Home ----------------------------------------------------------------- */
+/* --- Home: la tavola accesa ----------------------------------------------- */
 
-.home__testa h1 {
-  margin-block: 0 var(--passo-3);
-  font-size: clamp(2rem, 1.5rem + 2.5vw, 3rem);
+.apertura {
+  display: grid;
+  gap: var(--passo-4);
+  padding-block: clamp(3rem, 8vw, 6rem) clamp(2rem, 5vw, 4rem);
+}
+
+.apertura__numeri b {
+  font-weight: 500;
+  color: var(--colore-testo);
+}
+
+.apertura__titolo {
+  margin: 0;
+  max-width: 18ch;
+  font-size: clamp(2.4rem, 1.6rem + 5vw, 5.6rem);
+}
+
+.apertura__titolo em {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--colore-accento);
+}
+
+.apertura__lede {
+  font-size: 1.12em;
+  color: var(--colore-testo-tenue);
+}
+
+.apertura__cue {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--passo-2);
+  margin: 0;
+  font-family: var(--font-dati);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: var(--colore-testo-tenue);
+}
+
+.apertura__cue::before {
+  content: "";
+  width: 2.5rem;
+  height: 1px;
+  background: var(--colore-accento);
+}
+
+/* Due colonne: il palco a sinistra resta fermo, i passi a destra scorrono.
+ * Su telefono il palco si fissa in alto, compatto, e i passi gli scorrono
+ * sotto. */
+.scena {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  align-items: start;
+}
+
+.palco {
+  position: sticky;
+  top: 0;
+  display: grid;
+  gap: var(--passo-3);
+  padding-block: var(--passo-3);
+  background: var(--colore-fondo);
+}
+
+.palco__lettura {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--passo-2) var(--passo-4);
+  margin: 0;
+  max-width: none;
+  min-height: 3.4rem;
+  font-family: var(--font-dati);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: var(--colore-testo-tenue);
+}
+
+.palco__anno {
+  font-family: var(--font-titoli);
+  font-variation-settings: "opsz" 144;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--colore-accento);
+  transition: color 0.5s ease;
+}
+
+.palco__conta b {
+  font-weight: 500;
+  color: var(--colore-testo);
+}
+
+.palco__ultimo {
+  color: var(--colore-testo);
+}
+
+/* La tavola del palco è la stessa griglia della pagina della tavola, senza
+ * larghezza minima: qui deve stare nella colonna, e su telefono nei 390 px.
+ * Le caselle spente hanno un rilievo appena percettibile nel buio, e si
+ * accendono con un ritardo crescente in ordine cronologico. */
+.tavola--palco {
+  min-width: 0;
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+  grid-template-rows: repeat(7, auto) 0.5rem repeat(2, auto);
+  gap: 3px;
+}
+
+.tavola--palco .casella a {
+  padding: 1px;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.55s ease,
+    border-color 0.55s ease,
+    color 0.45s ease,
+    box-shadow 0.6s ease,
+    opacity 0.45s ease;
+  transition-delay: var(--ritardo, 0ms);
+}
+
+.tavola--palco .casella__numero {
+  font-size: clamp(0.4rem, 0.6vw, 0.55rem);
+}
+
+.tavola--palco .casella__simbolo {
+  font-size: clamp(0.55rem, 1.05vw, 0.95rem);
+  font-weight: 500;
+}
+
+/* Nel palco «spenta» non è trasparenza ma buio: la casella conserva il posto
+ * e perde il colore. */
+.tavola--palco .casella--spenta a {
+  opacity: 1;
+  background: var(--colore-spenta);
+  border-color: var(--colore-spenta-bordo);
+}
+
+.tavola--palco .casella--spenta .casella__simbolo,
+.tavola--palco .casella--spenta .casella__numero {
+  color: transparent;
+}
+
+.tavola--palco .casella--ultima a {
+  box-shadow:
+    0 0 0 2px var(--epoca-testo),
+    0 0 22px color-mix(in oklab, var(--epoca-testo) 50%, transparent);
+}
+
+.striscia {
+  display: grid;
+  grid-template-columns: repeat(118, 1fr);
+  gap: 1px;
+  height: 14px;
+  align-items: end;
+}
+
+.tacca {
+  display: block;
+  height: 6px;
+  border-radius: 1px;
+  background: var(--epoca-testo);
+  opacity: 0.9;
+  transition:
+    opacity 0.4s ease,
+    height 0.4s ease;
+}
+
+.tacca--spenta {
+  opacity: 0.18;
+}
+
+.tacca--ultima {
+  height: 14px;
+}
+
+.striscia__estremi {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--passo-3);
+  color: var(--colore-testo-tenue);
+  font-weight: 400;
+}
+
+.passi {
+  display: grid;
+  padding-block: 10vh 30vh;
+}
+
+.passo {
+  display: grid;
+  align-content: center;
+  gap: var(--passo-3);
+  min-height: 78vh;
+  max-width: 42ch;
+  transition: opacity 0.5s ease;
+}
+
+.passo h2 {
+  margin: 0;
+  font-size: clamp(1.7rem, 1.2rem + 1.8vw, 2.6rem);
+  font-variation-settings: "opsz" 96;
+}
+
+.passo h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.passo h2 a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--epoca-testo);
+}
+
+.passo p {
+  margin: 0;
+  color: var(--colore-testo-tenue);
+}
+
+.passo__occhiello {
+  display: flex;
+  align-items: center;
+  gap: var(--passo-2);
+  font-family: var(--font-dati);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--epoca-testo, var(--colore-testo-tenue));
+}
+
+.passo__pallino {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--epoca-testo);
+  box-shadow: 0 0 10px var(--epoca-testo);
+}
+
+/* Solo quando lo script governa la pagina i passi non attivi si attenuano:
+ * senza script sono tutti attivi, e tutti leggibili. */
+.tavola--viva ~ .passi .passo:not(.passo--attivo) {
+  opacity: 0.5;
+}
+
+.porte h2 {
+  font-size: 1.2rem;
+  font-variation-settings: "opsz" 40;
 }
 
 .porte__voci {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: var(--passo-3);
+  gap: var(--passo-4) var(--passo-5);
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .porta {
-  padding: var(--passo-3);
-  background: var(--colore-superficie);
-  border-radius: var(--raggio);
+  padding-top: var(--passo-3);
+  border-top: 1px solid var(--colore-bordo);
 }
 
 .porta h3 {
   margin: 0 0 var(--passo-2);
-  font-family: var(--font-titoli);
-  font-size: 1.05rem;
+  font-size: 1.25rem;
+}
+
+.porta h3 a {
+  color: var(--colore-testo);
+  text-decoration: none;
+}
+
+.porta h3 a:hover {
+  color: var(--colore-accento);
 }
 
 .porta p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.95em;
   color: var(--colore-testo-tenue);
 }
 
-/* Nella home le voci della legenda sono collegamenti alle epoche: devono
- * avere l'area di contatto di un comando, non l'altezza di una riga di testo. */
-.legenda__voce a {
-  display: flex;
-  align-items: center;
-  min-height: 40px;
-  color: inherit;
-  text-decoration: none;
-}
+@media (max-width: 860px) {
+  .scena {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 
-.legenda__voce:has(a) {
-  padding: 0 var(--passo-2);
+  .palco {
+    z-index: 2;
+    gap: var(--passo-2);
+    padding-block: var(--passo-2) var(--passo-3);
+    background: linear-gradient(var(--colore-fondo) 88%, transparent);
+  }
+
+  .palco__lettura {
+    min-height: 0;
+    gap: var(--passo-2) var(--passo-3);
+  }
+
+  .palco__anno {
+    font-size: 1.8rem;
+  }
+
+  .palco__ultimo,
+  .striscia__estremi {
+    display: none;
+  }
+
+  .tavola--palco {
+    gap: 2px;
+    grid-template-rows: repeat(7, auto) 0.3rem repeat(2, auto);
+  }
+
+  .tavola--palco .casella__numero {
+    display: none;
+  }
+
+  .passi {
+    padding-block: 4vh 20vh;
+  }
+
+  .passo {
+    min-height: 60vh;
+  }
 }
 
 /* --- Ricerca -------------------------------------------------------------- */
 
+/* Allineata alla testata, sulla larghezza piena, e discreta: è un comando a
+ * disposizione, non l'apertura della pagina. */
 .ricerca {
   position: relative;
-  max-width: var(--larghezza-pagina);
+  max-width: var(--larghezza-piena);
   margin-inline: auto;
-  padding-inline: var(--passo-3);
-  margin-bottom: var(--passo-4);
+  padding-inline: var(--gutter);
+  padding-block: var(--passo-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--passo-2) var(--passo-3);
 }
 
 .ricerca__etichetta {
-  display: block;
-  margin-bottom: var(--passo-1);
-  font-family: var(--font-titoli);
-  font-size: 0.78rem;
+  font-family: var(--font-dati);
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--colore-testo-tenue);
 }
 
 .ricerca input[type="search"] {
-  width: 100%;
+  flex: 1 1 16rem;
+  max-width: 28rem;
   min-height: 44px;
   padding: var(--passo-2) var(--passo-3);
-  background: var(--colore-fondo);
+  background: var(--colore-superficie);
   color: var(--colore-testo);
   border: 1px solid var(--colore-bordo);
-  border-radius: var(--raggio);
-  font-family: var(--font-titoli);
-  font-size: 1rem;
+  border-radius: 999px;
+  font-family: var(--font-testo);
+  font-size: 0.95rem;
+}
+
+.ricerca input[type="search"]:focus {
+  border-color: var(--colore-accento);
+  outline: none;
 }
 
 .esiti {
   position: absolute;
   z-index: 10;
-  left: var(--passo-3);
-  right: var(--passo-3);
-  margin: var(--passo-1) 0 0;
+  top: 100%;
+  left: var(--gutter);
+  right: var(--gutter);
+  max-width: 40rem;
+  margin: 0;
   padding: 0;
   max-height: 60vh;
   overflow-y: auto;

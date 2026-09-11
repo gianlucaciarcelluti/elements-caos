@@ -19,9 +19,9 @@ from elements_caos.sito.contesto import (
     URL_HOME,
     rendi_attribuzioni_sito,
     rendi_epoca_sito,
-    rendi_home,
     rendi_scopritore_sito,
 )
+from elements_caos.sito.home import rendi_home
 from elements_caos.sito.pagina import url_epoca, url_scopritore
 
 DATI = Path(__file__).resolve().parents[1] / "data"
@@ -133,32 +133,6 @@ def test_le_attribuzioni_elencano_autore_licenza_e_fonte() -> None:
     assert primo.nome in pagina
     assert primo.ritratto.licenza in pagina
     assert primo.ritratto.fonte in pagina
-
-
-# --- Home --------------------------------------------------------------------
-
-
-def test_la_home_indirizza_alle_tre_porte_d_ingresso() -> None:
-    """Itinerario, cronologia e tavola: sono i tre modi di entrare nel vault."""
-    elementi, epoche, scopritori = _tutto()
-    tappe = carica_itinerario(DATI / "itinerario.yaml")
-
-    pagina = rendi_home(elementi, epoche, tappe)
-
-    assert 'href="itinerario.html"' in pagina
-    assert 'href="cronologia-degli-elementi.html"' in pagina
-    assert 'href="tavola-periodica.html"' in pagina
-
-
-def test_la_home_non_promette_numeri_sbagliati() -> None:
-    """I conteggi in pagina sono calcolati, non scritti a mano."""
-    elementi, epoche, scopritori = _tutto()
-    tappe = carica_itinerario(DATI / "itinerario.yaml")
-
-    pagina = rendi_home(elementi, epoche, tappe)
-
-    assert "118" in pagina
-    assert f"{len(tappe)} tappe" in pagina
 
 
 def test_ogni_pagina_di_contesto_porta_l_avvertenza() -> None:

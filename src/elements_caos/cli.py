@@ -41,13 +41,13 @@ from elements_caos.sito.contesto import (
     URL_INDICE_SCOPRITORI,
     rendi_attribuzioni_sito,
     rendi_epoca_sito,
-    rendi_home,
     rendi_indice_elementi,
     rendi_indice_epoche,
     rendi_indice_scopritori,
     rendi_scopritore_sito,
 )
 from elements_caos.sito.cronologia import URL_CRONOLOGIA, rendi_cronologia_sito
+from elements_caos.sito.home import rendi_home
 from elements_caos.sito.indice import (
     URL_404,
     URL_INDICE,

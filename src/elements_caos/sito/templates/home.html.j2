@@ -3,25 +3,93 @@
 
 {% block titolo %}La scoperta degli elementi{% endblock %}
 {% block descrizione %}I {{ totale }} elementi chimici raccontati nell'ordine in cui l'umanità li ha scoperti, non in quello del numero atomico.{% endblock %}
+{% block testa_extra %}<script src="{{ radice }}statico/home.js" defer></script>{% endblock %}
+{% block classe_main %} class="pagina--piena"{% endblock %}
 
 {% block contenuto %}
 <article class="home">
 
-<header class="home__testa">
-<h1>La scoperta degli elementi</h1>
-<p class="elemento__hook">
-I {{ totale }} elementi chimici nell'ordine in cui l'umanità li ha scoperti, non
-in quello del numero atomico.
+<header class="apertura">
+<p class="occhiello apertura__numeri"><b>{{ totale }}</b> elementi · <b>{{ anni_leggibili }}</b> anni · <b>{{ totale_epoche }}</b> epoche</p>
+<h1 class="apertura__titolo">La tavola periodica è il risultato. <em>Questa è la storia.</em></h1>
+<p class="apertura__lede">
+Gli elementi nell'ordine in cui l'umanità li ha scoperti, non in quello del
+numero atomico. Ogni casella si accende quando qualcuno l'ha riconosciuta:
+scorri, e guarda la tavola riempirsi come è successo davvero.
 </p>
-<p>
-È una storia che parte {{ preposizione_da }} del {{ anno_primo }} e finisce con
-{{ ultimo.nome | lower }}, che esiste per pochi atomi vissuti meno di un
-millesimo di secondo e che nessuno ha mai visto. Letta in quest'ordine, la
-tavola periodica smette di essere una griglia da memorizzare e diventa il
-racconto di come abbiamo imparato a riconoscere la materia di cui è fatto il
-mondo.
-</p>
+<p class="apertura__cue">Scorri per accendere la tavola</p>
 </header>
+
+<div class="scena">
+
+{# Il palco: fisso mentre i passi scorrono. Il markup è lo stato finale —
+   tutte le caselle accese, il conteggio completo — così senza JavaScript la
+   pagina mostra la tavola intera e resta utile. #}
+<div class="palco" aria-live="polite">
+<p class="palco__lettura">
+<span class="palco__anno" id="palco-anno">{{ anno_ultimo }}</span>
+<span class="palco__conta"><b id="palco-quanti">{{ totale }}</b> / {{ totale }} elementi</span>
+<span class="palco__ultimo" id="palco-ultimo">ultimo entrato: {{ ultimo.nome }}</span>
+</p>
+<ul class="tavola tavola--palco" id="palco-tavola" style="--righe: {{ riga_attinidi }}" aria-label="Tavola periodica, si accende nell'ordine della scoperta">
+{% for casella in caselle %}
+<li class="casella epoca--{{ casella.epoca }}"
+    style="--colonna: {{ casella.colonna }}; --riga: {{ casella.riga }}"
+    data-posizione="{{ casella.posizione }}" data-numero="{{ casella.numero_atomico }}"
+    data-anno="{{ casella.anno }}" data-nome="{{ casella.nome }}" data-epoca="{{ casella.epoca }}">
+<a href="{{ casella.url }}" title="{{ casella.descrizione }}">
+<span class="casella__numero">{{ casella.numero_atomico }}</span>
+<span class="casella__simbolo">{{ casella.simbolo }}</span>
+<span class="casella__nome-accessibile">{{ casella.descrizione }}</span>
+</a>
+</li>
+{% endfor %}
+</ul>
+{# La striscia: una tacca per elemento, sull'asse della posizione cronologica
+   e non dell'anno. È la densità della storia — dove accelera — in una riga. #}
+<div class="striscia" id="palco-striscia" aria-hidden="true">
+{% for elemento in cronologia %}
+<i class="tacca epoca--{{ elemento.scoperta.epoca }}" data-posizione="{{ loop.index }}" title="{{ elemento.nome }}, {{ formatta_anno(elemento.scoperta.anno) }}"></i>
+{% endfor %}
+</div>
+<p class="striscia__estremi occhiello"><span>1° · {{ primo.nome }}, {{ anno_primo }}</span><span>{{ totale }}° · {{ ultimo.nome }}, {{ anno_ultimo }}</span></p>
+</div>
+
+<div class="passi" id="passi">
+{% for passo in passi %}
+{% if passo.epoca %}
+<section class="passo epoca--{{ passo.id }}" data-fino="{{ passo.fino }}">
+<p class="passo__occhiello"><span class="passo__pallino"></span>{{ passo.occhiello }} · {{ passo.quanti }} elementi</p>
+<h2><a href="{{ url_epoca(passo.epoca.nome) }}">{{ passo.epoca.nome }}</a></h2>
+<p>{{ passo.epoca.descrizione }}</p>
+</section>
+{% elif passo.id == "inizio" %}
+<section class="passo" data-fino="{{ passo.fino }}">
+<p class="passo__occhiello">{{ passo.occhiello }}</p>
+<h2>La tavola è vuota</h2>
+<p>
+Non esiste il concetto di elemento, e non esisterà per quarantamila anni.
+Esistono materiali: alcuni brillano, alcuni si fondono, alcuni tagliano. È il
+punto di partenza di ogni scoperta che segue.
+</p>
+</section>
+{% else %}
+<section class="passo" data-fino="{{ passo.fino }}">
+<p class="passo__occhiello">{{ passo.occhiello }}</p>
+<h2>Questa è la griglia che si impara a scuola</h2>
+<p>
+Il numero atomico è un ordine che nessuno ha percorso: l'idrogeno viene per
+primo nella tavola, ma è il sedicesimo a essere riconosciuto. Disporre gli
+elementi per Z racconta il risultato senza il procedimento. Questo sito
+racconta il procedimento, {{ preposizione_da }} del {{ anno_primo }} a
+{{ ultimo.nome | lower }}, del {{ anno_ultimo }}.
+</p>
+</section>
+{% endif %}
+{% endfor %}
+</div>
+
+</div>
 
 <section class="porte">
 <h2>Da dove entrare</h2>
@@ -36,19 +104,8 @@ mondo.
 </li>
 <li class="porta">
 <h3><a href="tavola-periodica.html">La tavola nel tempo</a></h3>
-<p>Trascina gli anni e guarda la tavola riempirsi nell'ordine vero.</p>
+<p>Trascina gli anni tu, e guarda la tavola riempirsi nell'ordine vero.</p>
 </li>
-</ul>
-</section>
-
-<section class="porte">
-<h2>Le {{ totale_epoche }} epoche</h2>
-<ul class="legenda__voci">
-{% for epoca in epoche %}
-<li class="legenda__voce epoca--{{ epoca.id }}">
-<a href="{{ url_epoca(epoca.nome) }}">{{ epoca.nome }}</a>
-</li>
-{% endfor %}
 </ul>
 </section>
 

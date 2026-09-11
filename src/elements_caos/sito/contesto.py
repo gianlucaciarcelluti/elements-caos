@@ -8,8 +8,8 @@ collegamenti già raggiungibili.
 from typing import Any
 
 from elements_caos.caricamento import ordina_per_scoperta
-from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Tappa
-from elements_caos.render.diagrammi import formatta_anno, preposizione_articolata
+from elements_caos.models import Categoria, Elemento, Epoca, Scopritore
+from elements_caos.render.diagrammi import formatta_anno
 from elements_caos.render.note import ETICHETTE_CATEGORIA
 from elements_caos.sito.pagina import (
     ambiente_sito,
@@ -158,29 +158,3 @@ def rendi_indice_scopritori(scopritori: dict[str, Scopritore], elementi: list[El
     """Compone l'indice alfabetico degli scopritori."""
     modello = ambiente_sito().get_template("indice-scopritori.html.j2")
     return modello.render(voci=voci_scopritori(scopritori, elementi), totale=len(scopritori))
-
-
-def rendi_home(elementi: list[Elemento], epoche: dict[str, Epoca], tappe: list[Tappa]) -> str:
-    """Compone la home del sito.
-
-    I conteggi sono calcolati: una home che promette centodiciotto elementi
-    mentre il dataset ne ha altri si smentisce alla prima pagina aperta.
-    """
-    cronologia = ordina_per_scoperta(elementi)
-    ordinate = sorted(epoche.values(), key=lambda epoca: epoca.anno_inizio)
-
-    modello = ambiente_sito().get_template("home.html.j2")
-    return modello.render(
-        totale=len(elementi),
-        totale_tappe=len(tappe),
-        totale_epoche=len(ordinate),
-        epoche=ordinate,
-        primo=cronologia[0],
-        ultimo=cronologia[-1],
-        anno_primo=formatta_anno(cronologia[0].scoperta.anno),
-        anno_ultimo=formatta_anno(cronologia[-1].scoperta.anno),
-        preposizione_da=(
-            preposizione_articolata("da", cronologia[0].nome) + cronologia[0].nome.lower()
-        ),
-        url_epoca=url_epoca,
-    )
