@@ -980,7 +980,7 @@ a {
   grid-row: var(--riga);
 }
 
-.casella a {
+.casella .casella__corpo {
   /* Posizionato di proposito: il nome accessibile qui dentro è in posizione
    * assoluta e, senza un antenato posizionato, il suo blocco contenitore
    * sarebbe la pagina. Sfuggirebbe al contenitore che scorre e allargherebbe
@@ -1032,7 +1032,7 @@ a {
 /* Le caselle non ancora scoperte restano al loro posto, spente: la tavola
  * conserva la sua forma e si vede quali buchi la storia doveva ancora
  * riempire. */
-.casella--spenta a {
+.casella--spenta .casella__corpo {
   opacity: 0.12;
 }
 
@@ -1439,7 +1439,7 @@ a {
   gap: 3px;
 }
 
-.tavola--palco .casella a {
+.tavola--palco .casella .casella__corpo {
   padding: 1px;
   border: 1px solid transparent;
   transition:
@@ -1462,7 +1462,7 @@ a {
 
 /* Nel palco «spenta» non è trasparenza ma buio: la casella conserva il posto
  * e perde il colore. */
-.tavola--palco .casella--spenta a {
+.tavola--palco .casella--spenta .casella__corpo {
   opacity: 1;
   background: var(--colore-spenta);
   border-color: var(--colore-spenta-bordo);
@@ -1473,7 +1473,7 @@ a {
   color: transparent;
 }
 
-.tavola--palco .casella--ultima a {
+.tavola--palco .casella--ultima .casella__corpo {
   box-shadow:
     0 0 0 2px var(--epoca-testo),
     0 0 22px color-mix(in oklab, var(--epoca-testo) 50%, transparent);

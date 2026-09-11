@@ -38,7 +38,10 @@ const PREFISSO = "/elements-caos";
 // Le pagine campione: una per tipo. Verificarle tutte e 230 costerebbe minuti
 // senza aggiungere nulla, perché ogni tipo condivide il proprio template.
 const PAGINE = [
-  { percorso: "/index.html", nome: "home", altezzaMax: 3000 },
+  // La home è un racconto in otto passi, ciascuno alto almeno il 60% della
+  // finestra su telefono perché il palco fisso abbia il tempo di accendersi:
+  // circa 6.100 px a 390×844. È alta di proposito, e il limite lo dice.
+  { percorso: "/index.html", nome: "home", altezzaMax: 6500 },
   { percorso: "/cronologia-degli-elementi.html", nome: "cronologia", altezzaMax: 5000 },
   { percorso: "/tavola-periodica.html", nome: "tavola", altezzaMax: 2600 },
   { percorso: "/itinerario.html", nome: "itinerario", altezzaMax: 5400 },
@@ -76,6 +79,9 @@ const TIPI = {
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
   ".png": "image/png",
+  // I font si servono con il loro tipo, come fa GitHub Pages: così restano
+  // fuori dal conto del peso, che misura HTML, CSS, JS e dati.
+  ".woff2": "font/woff2",
 };
 
 function avviaServer(radice) {

@@ -37,11 +37,11 @@ scorri, e guarda la tavola riempirsi come è successo davvero.
     style="--colonna: {{ casella.colonna }}; --riga: {{ casella.riga }}"
     data-posizione="{{ casella.posizione }}" data-numero="{{ casella.numero_atomico }}"
     data-anno="{{ casella.anno }}" data-nome="{{ casella.nome }}" data-epoca="{{ casella.epoca }}">
-<a href="{{ casella.url }}" title="{{ casella.descrizione }}">
+<span class="casella__corpo" title="{{ casella.descrizione }}">
 <span class="casella__numero">{{ casella.numero_atomico }}</span>
 <span class="casella__simbolo">{{ casella.simbolo }}</span>
 <span class="casella__nome-accessibile">{{ casella.descrizione }}</span>
-</a>
+</span>
 </li>
 {% endfor %}
 </ul>

@@ -7,6 +7,7 @@ errori di misura già commessi, perché sono errori che non si vedono: uno fa
 sembrare rotto un sito sano, l'altro darebbe un falso allarme a ogni esecuzione.
 """
 
+import re
 from pathlib import Path
 
 RADICE = Path(__file__).resolve().parents[1]
@@ -140,3 +141,59 @@ def test_le_eccezioni_non_catturate_vengono_rilevate() -> None:
     uno script che si spacca a metà passava il controllo in silenzio.
     """
     assert "pageerror" in _script()
+
+
+# --- Il tema della tavola accesa (Task 38) ------------------------------------
+
+
+def test_il_server_di_verifica_serve_i_font_con_il_loro_tipo() -> None:
+    """Senza il tipo giusto i 340 KB di font finirebbero nel peso della pagina.
+
+    Lo script esclude dal conto ciò che arriva come ``font/``: se il suo
+    server locale rispondesse ``application/octet-stream`` per i WOFF2, ogni
+    pagina sforerebbe i 250 KB per una ragione che in produzione non esiste —
+    GitHub Pages serve i font con il tipo corretto.
+    """
+    script = _script()
+
+    assert '".woff2": "font/woff2"' in script
+
+
+def test_la_home_ha_un_limite_di_altezza_proprio_e_motivato() -> None:
+    """La home è un racconto in otto passi: è alta di proposito, e lo dice."""
+    script = _script()
+
+    trovata = re.search(r'nome: "home", altezzaMax: (\d+)', script)
+    assert trovata, "manca il limite della home"
+    assert 6000 <= int(trovata.group(1)) <= 7000
+
+
+def test_il_palco_non_e_una_navigazione() -> None:
+    """Le caselle del palco (home ed epoca) non sono collegamenti.
+
+    A 390 px sono larghe 18 px: un collegamento così non si preme (Ruling
+    102). Il palco è una figura; per arrivare a un elemento ci sono le
+    pastiglie e la tavola, che scorre e ha caselle da 41 px.
+    """
+    from elements_caos.caricamento import (
+        carica_elementi,
+        carica_epoche,
+        carica_itinerario,
+        carica_scopritori,
+    )
+    from elements_caos.sito.contesto import rendi_epoca_sito
+    from elements_caos.sito.home import rendi_home
+
+    dati = RADICE / "data"
+    elementi = carica_elementi(dati / "elements")
+    epoche = carica_epoche(dati / "epoche.yaml")
+    scopritori = carica_scopritori(dati / "scopritori.yaml")
+
+    for pagina in (
+        rendi_home(elementi, epoche, carica_itinerario(dati / "itinerario.yaml")),
+        rendi_epoca_sito(epoche["nucleare"], elementi, scopritori),
+    ):
+        inizio = pagina.index('class="tavola tavola--palco')
+        palco = pagina[inizio : pagina.index("</ul>", inizio)]
+        assert "<a " not in palco
+        assert palco.count('class="casella__corpo"') == 118

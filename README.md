@@ -96,8 +96,9 @@ Il comando `valida` verifica l'integrità del vault: collegamenti interni, budge
 di lettura delle note, catena cronologica senza buchi né duplicati, licenze delle
 immagini.
 
-Il sito e il vault nascono dagli stessi dati ma sono indipendenti: il sito ha
-una tavola periodica che si riempie nell'ordine della scoperta, una linea del
+Il sito e il vault nascono dagli stessi dati ma sono indipendenti: il sito
+apre con una tavola periodica spenta che si accende, epoca dopo epoca, mentre
+si scorre la storia; ha una tavola da trascinare anno per anno, una linea del
 tempo e un itinerario con l'avanzamento di lettura — cose che in Obsidian non
 avrebbero senso; il vault ha i wikilink e il grafo, che sul web non servono.
 
@@ -119,6 +120,8 @@ errore, [segnalalo](https://github.com/gianlucaciarcelluti/elements-caos/issues/
 - **Contenuti** (`data/`, `vault/`, documentazione): [CC BY-SA 4.0](LICENSE)
 - **Codice** (`src/`, `tests/`, `scripts/`): [MIT](LICENSE-CODE)
 - **Immagini**: solo pubblico dominio e CC0, con attribuzione in ogni file
+- **Font del sito** (Fraunces, Literata, IBM Plex Mono): SIL Open Font
+  License 1.1, con i crediti in `src/elements_caos/sito/statico/font/LICENZE.md`
 
 La licenza dei contenuti non è una scelta ma un obbligo: il progetto attinge a
 [Periodic-Table-JSON](https://github.com/Bowserinator/Periodic-Table-JSON)

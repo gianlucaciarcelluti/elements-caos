@@ -42,7 +42,7 @@ riempite davvero, {{ preposizione("da", primo.nome) }}{{ primo.nome | lower }} d
 <li class="casella epoca--{{ casella.epoca }}"
     style="--colonna: {{ casella.colonna }}; --riga: {{ casella.riga }}"
     data-posizione="{{ casella.posizione }}">
-<a href="{{ casella.url }}" title="{{ casella.descrizione }}">
+<a class="casella__corpo" href="{{ casella.url }}" title="{{ casella.descrizione }}">
 <span class="casella__numero">{{ casella.numero_atomico }}</span>
 <span class="casella__simbolo">{{ casella.simbolo }}</span>
 <span class="casella__anno">{{ casella.anno }}</span>
