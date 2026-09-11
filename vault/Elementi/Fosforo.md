@@ -132,6 +132,9 @@ flowchart LR
 
 *Per tradizione:* Brand finì per vendere la sua formula, ormai non più tanto segreta, al chimico tedesco Daniel Kraft, che la portò in tournée per le corti europee mostrando il fosforo luminoso come un fenomeno da meraviglia, prima ancora che ne fosse compresa la natura chimica.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Fosforo — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Bismuto]] (1500)
@@ -144,6 +147,28 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Hennig Brand]]
 - [Hennig Brand](https://en.wikipedia.org/wiki/Hennig_Brand) — consultata il 05/09/2026
 - [Phosphorus](https://en.wikipedia.org/wiki/Phosphorus) — consultata il 05/09/2026
 - [Lo strano modo di scoprire il fosforo](https://scuole.federchimica.it/elementi/lo-strano-modo-di-scoprire-il-fosforo) — consultata il 05/09/2026
+- [Ambrose Godfrey](https://en.wikipedia.org/wiki/Ambrose_Godfrey) — consultata il 11/09/2026
+- [Johann Kunckel](https://en.wikipedia.org/wiki/Johann_Kunckel) — consultata il 11/09/2026
+- [Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle) — consultata il 11/09/2026
+- [The Alchemist Discovering Phosphorus](https://en.wikipedia.org/wiki/The_Alchemist_Discovering_Phosphorus) — consultata il 11/09/2026
+- [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier) — consultata il 11/09/2026
+- [Match](https://en.wikipedia.org/wiki/Match) — consultata il 11/09/2026
+- [Phossy jaw](https://en.wikipedia.org/wiki/Phossy_jaw) — consultata il 11/09/2026
+- [Bryant & May](https://en.wikipedia.org/wiki/Bryant_%26_May) — consultata il 11/09/2026
+- [Matchgirls' strike](https://en.wikipedia.org/wiki/Matchgirls%27_strike) — consultata il 11/09/2026
+- [Allotropes of phosphorus](https://en.wikipedia.org/wiki/Allotropes_of_phosphorus) — consultata il 11/09/2026
+- [Justus von Liebig](https://en.wikipedia.org/wiki/Justus_von_Liebig) — consultata il 11/09/2026
+- [John Bennet Lawes](https://en.wikipedia.org/wiki/John_Bennet_Lawes) — consultata il 11/09/2026
+- [Guano](https://en.wikipedia.org/wiki/Guano) — consultata il 11/09/2026
+- [Guano Islands Act](https://en.wikipedia.org/wiki/Guano_Islands_Act) — consultata il 11/09/2026
+- [Nauru](https://en.wikipedia.org/wiki/Nauru) — consultata il 11/09/2026
+- [Bou Craa](https://en.wikipedia.org/wiki/Bou_Craa) — consultata il 11/09/2026
+- [White phosphorus munitions](https://en.wikipedia.org/wiki/White_phosphorus_munitions) — consultata il 11/09/2026
+- [Bombing of Hamburg in World War II](https://en.wikipedia.org/wiki/Bombing_of_Hamburg_in_World_War_II) — consultata il 11/09/2026
+- [Eutrophication](https://en.wikipedia.org/wiki/Eutrophication) — consultata il 11/09/2026
+- [Phosphorus cycle](https://en.wikipedia.org/wiki/Phosphorus_cycle) — consultata il 11/09/2026
+- [Adenosine triphosphate](https://en.wikipedia.org/wiki/Adenosine_triphosphate) — consultata il 11/09/2026
+- [Phosphorite](https://en.wikipedia.org/wiki/Phosphorite) — consultata il 11/09/2026
 
 ---
 
