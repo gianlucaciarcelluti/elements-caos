@@ -164,6 +164,867 @@ contenuti:
     visual: Grafico del decadimento del carbonio-14 sovrapposto a un profilo di scavo archeologico
     attendibilita: documentato
   pronuncia: []
+contenuti_estesi:
+  hook: Il carbonio è stato scoperto tre volte senza che nessuno se ne accorgesse
+    — come fuliggine, come carbone, come diamante — e riconosciuto una sola, a fine
+    Settecento, quando qualcuno bruciò una gemma e pesò il gas. Da allora ha dato
+    il nome alla chimica della vita, alla rivoluzione industriale, a un metodo per
+    datare il passato e alla misura con cui il pianeta conta il proprio futuro.
+  beats:
+  - id: contesto-quarto-elemento
+    sezione: contesto
+    testo: 'Nell''universo il carbonio è il quarto elemento per massa, dopo idrogeno,
+      elio e ossigeno; nella crosta terrestre solo il quindicesimo; in un corpo umano
+      il secondo, il diciotto e mezzo per cento del peso, subito dopo l''ossigeno.
+      Questa sproporzione — raro nella roccia, abbondante nella carne — è la sua storia
+      in una riga. Il carbonio ha una capacità insolita alle temperature della Terra:
+      legarsi a sé stesso in catene, anelli, reticoli, e formare polimeri stabili.
+      Dei suoi composti ne sono stati descritti circa duecento milioni, ed è una frazione
+      di quelli possibili. Prima di essere un elemento è stato una condizione: quella
+      per cui la materia, a un certo punto, ha potuto complicarsi abbastanza da vivere.'
+    attendibilita: documentato
+  - id: contesto-tre-nuclei-di-elio
+    sezione: contesto
+    testo: 'Il carbonio nasce nelle stelle da un colpo di fortuna ripetuto miliardi
+      di miliardi di volte. Quando una stella ha esaurito l''idrogeno nel nucleo si
+      contrae e si scalda; a cento milioni di gradi, sei volte il centro del Sole,
+      due nuclei di elio riescono a fondersi in berillio-8. Ma il berillio-8 è instabile
+      e si rompe in ottanta miliardesimi di miliardesimo di secondo: perché nasca
+      il carbonio, un terzo nucleo di elio deve arrivare in quell''istante e agganciarsi.
+      Il carbonio-12 che si forma è in uno stato eccitato, lo «stato di Hoyle», e
+      quasi sempre si disfa di nuovo in tre particelle alfa; solo una volta su circa
+      duemilaquattrocento decade nella forma stabile e resta. Tutto il carbonio che
+      esiste — grafite, diamante, petrolio, DNA — è passato per quella cruna.'
+    attendibilita: documentato
+  - id: contesto-la-scommessa-di-hoyle
+    sezione: contesto
+    testo: 'Che quella cruna esistesse lo disse un astronomo prima che i fisici la
+      misurassero. Nel 1953 Fred Hoyle ragionò a rovescio: il carbonio nell''universo
+      è abbondante, dunque le stelle devono fabbricarlo in quantità, dunque il nucleo
+      di carbonio-12 deve avere un livello di energia a circa 7,68 megaelettronvolt
+      che renda la fusione probabile. Andò al Caltech, nel laboratorio di William
+      Fowler, e lo disse. I fisici nucleari erano scettici; un giovane in cerca di
+      un progetto, Ward Whaling, ottenne un vecchio generatore Van de Graaff inutilizzato
+      e pochi mesi dopo trovò la risonanza a 7,65. Hoyle fu messo come primo autore.
+      Nel 1983 il Nobel per la fisica andò a Fowler, con Chandrasekhar, e Hoyle fu
+      lasciato fuori, con sorpresa di molti. Aveva previsto una proprietà del nucleo
+      di carbonio dal fatto che di carbonio ce n''è tanto.'
+    attendibilita: documentato
+  - id: contesto-il-carbone-di-chauvet
+    sezione: contesto
+    testo: 'L''uso del carbonio da cui questo vault lo fa cominciare è un disegno.
+      Il 18 dicembre 1994 tre speleologi — Eliette Brunel-Deschamps, Christian Hillaire
+      e Jean-Marie Chauvet — entrano in una grotta sulle gole dell''Ardèche e trovano
+      pareti coperte di cavalli, leoni, rinoceronti tracciati a carbone di legna.
+      Il carbone è il pigmento che si data da solo: entro il 2011 più di ottanta misure
+      al radiocarbonio, sui segni delle torce, sui disegni, sulle ossa e sui carboni
+      del pavimento, dicono due stagioni di frequentazione, trentacinquemila e trentamila
+      anni fa; con la curva di calibrazione del 2020 il disegno più antico sale a
+      trentaseimilacinquecento. In Australia, a Nawarla Gabarnmang, i disegni a carbone
+      hanno ventottomila anni. L''ocra, l''ematite, l''ossido di manganese davano
+      gli altri colori; il nero, ovunque, era legno bruciato. Ed è il nero che ci
+      dice quando.'
+    attendibilita: documentato
+  - id: contesto-i-carbonai
+    sezione: contesto
+    testo: 'Per diecimila anni il carbonio si è fabbricato così: cataste coniche di
+      legna coperte di zolle o d''argilla, con qualche apertura in basso perché entrasse
+      poca aria, accese dal fondo e lasciate covare. Il legno perde acqua e volatili
+      e resta il carbone, che brucia più caldo e più pulito. Chi lo faceva, il carbonaio,
+      viveva spesso isolato nel bosco per sorvegliare la catasta: un errore di aria
+      e il carbone diventa cenere. Con il carbone di legna si è fuso il rame, il bronzo,
+      il ferro, e si è fatta la polvere da sparo; e con esso si sono spogliati i boschi
+      dell''Europa centrale, finché la ceduazione non provò a governare il taglio
+      e la scarsità di legna non spinse verso l''altro carbone, quello di miniera.
+      La chimica della catasta è ancora quella di oggi; è cambiato tutto il resto.'
+    attendibilita: documentato
+  - id: contesto-il-diamante-indiano
+    sezione: contesto
+    testo: 'La terza faccia del carbonio viene dai fiumi dell''India. Nei depositi
+      alluvionali del Penner, del Krishna e del Godavari i diamanti si raccolgono
+      da almeno tremila anni, forse da seimila; furono icone religiose prima che gemme,
+      e punte per incidere prima ancora. I greci li chiamarono *adámas*, «indomabile»,
+      per la durezza che nessuna pietra scalfiva. Per più di duemila anni l''India
+      fu l''unica fonte del mondo, e fra il Cinquecento e il Settecento il sultanato
+      di Golconda ne fece un''industria: i suoi diamanti, carbonio puro senza tracce
+      d''azoto, restano il riferimento della limpidezza, e il francese Tavernier,
+      che nel Seicento poté esaminare il Gran Mogol, ne portò in Europa la fama. Poi
+      le miniere si esaurirono, il Brasile prese il posto dell''India dopo il 1730
+      e l''Africa dopo il 1866. Nessuno, in tutto questo tempo, sospettò che la gemma
+      fosse parente della fuliggine.'
+    attendibilita: documentato
+  - id: contesto-borrowdale
+    sezione: contesto
+    testo: 'La seconda faccia, la grafite, ha invece una data e un luogo: prima del
+      1565, forse già nel 1500, sotto il Grey Knotts nella valle di Borrowdale, in
+      Cumbria, si scopre un giacimento di un minerale nero, tenero e untuoso. I pastori
+      lo usano per marcare le pecore; si taglia a bastoncini con la sega, ed è l''unico
+      giacimento di grafite compatta di quella scala mai trovato al mondo. Lo chiamano
+      *plumbago*, minerale di piombo, perché nessuno sa che cos''è. Sotto Elisabetta
+      I diventa materia militare: con la grafite si rivestono gli stampi delle palle
+      di cannone, che escono più lisce e rotonde e volano più lontano. La Corona si
+      prende la miniera, la fa sorvegliare, e quando le scorte bastano la allaga per
+      impedire i furti. Nella vicina Keswick, intanto, con gli stessi bastoncini nasce
+      l''industria della matita.'
+    attendibilita: documentato
+  - id: contesto-la-matita
+    sezione: contesto
+    testo: 'La matita è figlia di un blocco navale. Alla fine del Settecento la Francia
+      in guerra non poteva importare i bastoncini di Borrowdale, l''unica fonte conosciuta,
+      e nel 1795 Nicolas-Jacques Conté, pittore e ufficiale dell''esercito di Napoleone,
+      trovò il modo di fare a meno del giacimento: grafite in polvere impastata con
+      argilla, tirata in bacchette e cotta in forno, con la durezza regolata dalla
+      proporzione. L''austriaco Joseph Hardtmuth, fondatore della Koh-I-Noor di Vienna,
+      ci era arrivato prima, e la sua azienda brevettò il procedimento nel 1802: è
+      ancora quello di oggi. Il nome, intanto, si era sistemato: Scheele aveva dimostrato
+      nel 1778 che plumbago, molibdena e «piombo nero» erano almeno tre minerali diversi,
+      e nel 1789 Abraham Gottlob Werner battezzò il primo *graphit*, pietra per scrivere.
+      In tedesco la matita si chiama ancora *Bleistift*, penna di piombo, e in inglese
+      la sua anima si chiama *lead*: il piombo non c''è mai stato.'
+    attendibilita: documentato
+  - id: contesto-le-pietre-nere
+    sezione: contesto
+    testo: Il carbone che sta sotto terra è stato a lungo una curiosità locale. A
+      Fushun, nella Cina nord-orientale, lo si usava per fondere il rame già intorno
+      al 1000 avanti Cristo; Marco Polo, nel Duecento, descrisse «pietre nere che
+      bruciano come legna», così abbondanti che la gente poteva farsi tre bagni caldi
+      la settimana. In Europa la prima menzione è nel trattato *Sulle pietre*, fra
+      il quarto e il terzo secolo avanti Cristo; in Britannia il carbone affiorante
+      alimentava le pire funebri dell'età del bronzo e, alla fine del secondo secolo
+      dopo Cristo, i romani sfruttavano tutti i grandi bacini d'Inghilterra e Galles.
+      Ma per millenni resta una pietra che brucia, non un'economia. Nel 1700 cinque
+      sesti del carbone del mondo si estraggono in Gran Bretagna, e la Gran Bretagna
+      sta per scoprire che cosa farne.
+    attendibilita: documentato
+  - id: contesto-il-nome
+    sezione: contesto
+    testo: 'L''elemento si riconosce a pezzi, uno per faccia. Nel 1722 Réaumur dimostra
+      che il ferro diventa acciaio assorbendo «una sostanza», senza sapere quale.
+      Nel 1779 Scheele prova che la grafite, creduta piombo, è la stessa cosa del
+      carbone di legna con un po'' di ferro dentro, perché ossidata con l''acido nitrico
+      dà il suo «acido aereo», cioè anidride carbonica. Nel 1786 Berthollet, Monge
+      e Vandermonde lo confermano bruciando la grafite nell''ossigeno come Lavoisier
+      aveva fatto col diamante, e propongono per ciò che se ne va in gas un nome,
+      *carbone*, dal latino *carbo*, il carbone di legna; nel 1789 Lavoisier lo mette
+      nella sua tavola degli elementi. Le lingue germaniche non hanno accettato il
+      latino: *Kohlenstoff*, *koolstof*, *kulstof*, «sostanza del carbone». Il nome
+      dice da dove si è partiti, e da dove si è partiti è la cosa più comune del mondo.'
+    attendibilita: documentato
+  - id: contesto-due-solidi-un-elemento
+    sezione: contesto
+    testo: 'Pochi elementi mettono in mano due solidi così diversi. La grafite è tanto
+      tenera da lasciare una striscia sulla carta, ed è da questo che prende il nome;
+      il diamante è il materiale naturale più duro che si conosca. La grafite conduce
+      bene l''elettricità, il diamante quasi niente; eppure diamante, nanotubi e grafene
+      sono, fra tutti i materiali noti, quelli che conducono meglio il calore. La
+      grafite è la forma stabile, il diamante una forma che dura solo perché ci mette
+      un''eternità a ripensarci; e a pressione atmosferica il carbonio non fonde affatto:
+      passa da solido a vapore a 3.915 kelvin, il punto di sublimazione più alto di
+      tutti gli elementi. Stessi atomi, legati in modi diversi. Che due cose così
+      opposte fossero una sola è la scoperta vera, ed è arrivata tardi perché era
+      difficile da credere.'
+    attendibilita: documentato
+  - id: vicenda-lavoisier-brucia-un-diamante
+    sezione: vicenda
+    testo: 'Nel 1772 un giovane Lavoisier, che sta per dedicarsi alla combustione
+      — la nota all''Accademia sul fosforo è del 20 ottobre di quell''anno — fa una
+      cosa che a Parigi sembra uno spreco: concentra con una lente la luce del sole
+      su un diamante chiuso in un recipiente e lo guarda sparire. La memoria si intitola
+      *Sulla distruzione del diamante col fuoco*. Il diamante non lascia acqua, come
+      non la lascia il carbone di legna, e produce lo stesso gas, quello che intorbida
+      l''acqua di calce; per grammo, la stessa quantità. La voce enciclopedica che
+      oggi lo racconta dice che Lavoisier «dimostrò che il diamante è una forma di
+      carbonio» e che introdusse con questo la possibilità dell''allotropia. La scheda
+      base di questo vault, su altre fonti, dice che si fermò un passo prima. La distanza
+      fra le due letture è raccontata più avanti; l''esperimento, comunque, è quello.'
+    attendibilita: documentato
+  - id: vicenda-wohler-e-l-urea
+    sezione: vicenda
+    testo: 'Riconosciuto l''elemento, restava da capire perché fosse diverso. Berzelius
+      aveva diviso i composti in due regni: organici quelli che solo un organismo
+      sa fabbricare, inorganici gli altri, e i chimici vitalisti prevedevano che la
+      barriera non si sarebbe mai attraversata. Nel 1828 Friedrich Wöhler scalda cianato
+      d''argento con cloruro d''ammonio, o cianato di piombo con ammoniaca, e ottiene
+      urea, un prodotto del metabolismo animale. È la reazione che i manuali citano
+      come inizio della chimica organica moderna: un composto del carbonio «della
+      vita» uscito da sali che con la vita non avevano nulla a che fare. Quello che
+      la reazione significò davvero per i contemporanei è un''altra questione, e sta
+      fra le controversie.'
+    attendibilita: documentato
+  - id: vicenda-kekule-l-omnibus
+    sezione: vicenda
+    testo: 'La chimica del carbonio diventa una grammatica con August Kekulé. Fra
+      il 1857 e il 1858, sulle spalle di Williamson, Gerhardt, Frankland, Odling,
+      Laurent e Wurtz, formula la teoria della struttura: ogni atomo ha una valenza,
+      quella del carbonio è quattro, e gli atomi di carbonio possono legarsi fra loro
+      in catene. Da quel momento una formula non è più un inventario di atomi ma un
+      disegno di chi tiene chi. Kekulé raccontò molto più tardi, nel 1890, di aver
+      visto per la prima volta gli atomi danzare e concatenarsi sull''imperiale di
+      un omnibus a cavalli, a Londra, negli anni in cui vi lavorava; la teoria uscì
+      nel maggio 1858, l''anno in cui divenne professore a Gand, prima di Bonn nel
+      1867. Fra i suoi allievi ci sono van ''t Hoff, Emil Fischer e Adolf von Baeyer:
+      la chimica organica del secolo dopo.'
+    attendibilita: documentato
+  - id: vicenda-kekule-l-anello
+    sezione: vicenda
+    testo: 'Il benzene era il problema che le catene non risolvevano: sei carboni
+      e sei idrogeni, una formula troppo povera di idrogeno per essere una catena
+      aperta, e una stabilità che non somigliava a quella delle sostanze insature.
+      Couper nel 1858 e Loschmidt nel 1861 avevano proposto strutture con più doppi
+      legami o più anelli, ma le prove erano poche. Nel gennaio del 1865 Kekulé pubblica
+      la sua: un anello di sei atomi di carbonio con legami semplici e doppi alternati,
+      e più tardi l''idea che i legami oscillino, ciascuno semplice per metà del tempo
+      e doppio per l''altra metà. Nel 1928 Linus Pauling sostituirà l''oscillazione
+      con la risonanza fra strutture quantistiche, ma l''esagono resta. Nel 1890 la
+      Società chimica tedesca celebrò i venticinque anni dell''anello con una festa
+      solenne, e fu lì che Kekulé raccontò del serpente.'
+    attendibilita: documentato
+  - id: vicenda-vant-hoff-il-tetraedro
+    sezione: vicenda
+    testo: 'Nel 1874 un olandese di ventidue anni, Jacobus Henricus van ''t Hoff,
+      pubblica un opuscolo in cui i quattro legami del carbonio non stanno più su
+      un foglio ma nello spazio, puntati verso i vertici di un tetraedro. Ne segue
+      che un carbonio con quattro sostituenti diversi può esistere in due forme speculari,
+      e che le molecole hanno una mano destra e una sinistra: nasce la stereochimica,
+      e in parallelo ci arriva Le Bel. Il solo posto che van ''t Hoff trova è alla
+      scuola veterinaria di Utrecht, e Hermann Kolbe, uno dei chimici più autorevoli
+      di Germania, lo deride per iscritto: «un dottor van ''t Hoff della scuola veterinaria
+      di Utrecht, che evidentemente non ama la ricerca chimica esatta, ha trovato
+      più comodo montare su Pegaso — preso in prestito, a quanto pare, dalla scuola
+      veterinaria». Intorno al 1880 la teoria è accettata. Nel 1901 van ''t Hoff riceve
+      il primo Nobel per la chimica.'
+    attendibilita: documentato
+  - id: vicenda-faraday-la-candela
+    sezione: vicenda
+    testo: 'Il carbonio ha avuto anche il suo maestro di scuola. Nel 1848 Michael
+      Faraday tiene alla Royal Institution sei lezioni per ragazzi intitolate *La
+      storia chimica di una candela*, dentro la serie delle lezioni di Natale che
+      lui stesso aveva fondato nel 1825 e che si tengono ancora ogni anno. La candela
+      è il pretesto per tutto: le zone della fiamma, e in quella luminosa le particelle
+      di carbonio che diventano incandescenti prima di bruciare e che sono la ragione
+      per cui una fiamma fa luce; l''idrogeno, l''ossigeno, l''azoto, l''anidride
+      carbonica prodotti e mostrati; l''acqua scomposta e ricomposta. Il fumo nero
+      di una candela che cola è carbonio che non ha trovato abbastanza aria, e il
+      bianco di una fiamma pulita è carbonio che l''ha trovata. In sei lezioni Faraday
+      spiegò a dei bambini ciò che il Settecento aveva impiegato un secolo a capire.'
+    attendibilita: documentato
+  - id: vicenda-darby-il-coke
+    sezione: vicenda
+    testo: 'Il carbonio che cambia il mondo lo fa passando per la birra. I birrai
+      inglesi avevano imparato a tostare il malto con il coke — carbone di miniera
+      cotto senz''aria fino a perdere lo zolfo — perché il carbone crudo dava alla
+      birra il suo sapore, e il carbone di legna scarseggiava; dal malto tostato più
+      chiaro nasce la *pale ale*. Abraham Darby, quacchero di Bristol, fabbricante
+      di macine per il malto e socio di una fonderia d''ottone, mette insieme le due
+      cose e nel 1709, a Coalbrookdale, alimenta un altoforno con il coke invece che
+      con il carbone di legna. Il coke regge meglio il peso, gli altiforni possono
+      farsi più alti e più grandi, e il ferro diventa a buon mercato: è una delle
+      condizioni della rivoluzione industriale. Da quel forno in poi il carbonio fossile
+      non scalda più solo le case, fa i metalli.'
+    attendibilita: documentato
+  - id: vicenda-davy-la-lampada
+    sezione: vicenda
+    testo: 'Il carbone di miniera ha un compagno invisibile, il grisù, metano che
+      si accumula nelle gallerie e che una fiamma fa esplodere. Nel 1815 il chimico
+      Humphry Davy si mette al problema e trova una soluzione elegante: chiudere la
+      fiamma dentro una rete metallica fitta, che lascia passare aria e luce ma disperde
+      il calore, così che il gas fuori dalla rete non si accende. Le sue conclusioni,
+      in una lettera che voleva privata, vengono lette a Newcastle il 3 novembre 1815;
+      la prima prova sottoterra è a Hebburn il 9 gennaio 1816. Ma un mese prima che
+      Davy presentasse la lampada alla Royal Society, un meccanico senza istruzione
+      scientifica, George Stephenson, aveva già portato la propria — l''aria entrava
+      da fori minuscoli — davanti a una fessura che soffiava grisù nella miniera di
+      Killingworth, con due testimoni. Le due lampade funzionavano; l''accusa a Stephenson
+      di aver copiato, no.'
+    attendibilita: documentato
+  - id: vicenda-edison-il-filamento
+    sezione: vicenda
+    testo: 'La luce elettrica, prima del tungsteno, è stata un filo di carbonio. Edison
+      provò il carbonio, poi il platino e altri metalli, e tornò al carbonio: il 22
+      ottobre 1879 un filamento carbonizzato resse tredici ore e mezza, e il 4 novembre
+      chiese il brevetto per una lampada con «un filamento o una striscia di carbonio
+      avvolti e collegati a fili di contatto di platino». Il brevetto elencava filo
+      di cotone e di lino, schegge di legno, carte arrotolate; la squadra scoprì poi
+      che una fibra di bambù giapponese carbonizzata durava più di milleduecento ore,
+      e nel 1880 il piroscafo Columbia fu la prima installazione. In Inghilterra Joseph
+      Swan ci era arrivato prima, con filo di cotone «pergamenato»: la sua casa a
+      Gateshead fu la prima al mondo illuminata da una lampadina, e le sue lampade
+      erano in uso quotidiano a Londra nel 1881. Il carbonio delle grotte, bruciato
+      per fare luce, ora faceva luce senza bruciare.'
+    attendibilita: documentato
+  - id: vicenda-libby-l-orologio
+    sezione: vicenda
+    testo: 'Nel 1939, a Berkeley, Martin Kamen e Samuel Ruben cercano fra gli elementi
+      della materia vivente un isotopo che duri abbastanza da servire a qualcosa,
+      e trovano il carbonio-14. Willard Libby, chimico fisico che aveva costruito
+      contatori Geiger sensibilissimi e lavorato al progetto Manhattan, capisce che
+      è un orologio: si forma di continuo nell''alta atmosfera, entra nei viventi
+      con il carbonio che respirano e mangiano, e alla loro morte comincia a decadere
+      con un tempo di dimezzamento di circa 5.730 anni. Con James Arnold prova il
+      metodo su reperti di età nota: i campioni dalle tombe dei faraoni Zoser e Snefru,
+      datate dagli egittologi al 2625 avanti Cristo più o meno 75, risultano del 2800
+      più o meno 250. I risultati escono su *Science* nel dicembre 1949; in undici
+      anni nascono più di venti laboratori; nel 1960 Libby ha il Nobel. Fino a cinquantamila
+      anni indietro, il carbonio dice quando.'
+    attendibilita: documentato
+  - id: vicenda-kroto-smalley-il-pallone
+    sezione: vicenda
+    testo: 'La quarta faccia del carbonio l''hanno trovata cercando le stelle. Harold
+      Kroto voleva capire quali catene di carbonio emettessero certe righe infrarosse
+      delle giganti rosse ricche di carbonio, e nel 1985, alla Rice University, con
+      Richard Smalley e Robert Curl usò un apparecchio che vaporizzava la grafite
+      con un laser dentro un getto di elio per fabbricare aggregati simili. Fra questi,
+      uno di sessanta atomi tornava con insistenza. Un anno prima Rohlfing, Cox e
+      Kaldor l''avevano prodotto con lo stesso metodo senza capire cosa fosse. Kroto,
+      Heath, O''Brien, Curl e Smalley capirono: sessanta carboni ai vertici di venti
+      esagoni e dodici pentagoni, la forma di un pallone da calcio, e la chiamarono
+      buckminsterfullerene dall''architetto delle cupole geodetiche, morto nel 1983.
+      Nel 1996 il Nobel per la chimica. Ce n''è un poco nella fuliggine di ogni candela:
+      era lì da sempre.'
+    attendibilita: documentato
+  - id: vicenda-iijima-i-tubi
+    sezione: vicenda
+    testo: 'Se il pallone si può allungare, diventa un tubo. Nel 1991 Sumio Iijima,
+      ai laboratori NEC in Giappone, pubblica al microscopio elettronico immagini
+      di tubi cavi di carbonio grafitico, larghi pochi nanometri, e la letteratura
+      scientifica e quella divulgativa gli attribuiscono da allora la scoperta dei
+      nanotubi; il suo articolo scatena un''ondata di entusiasmo. Nel 1993 lo stesso
+      Iijima con Ichihashi alla NEC, e Bethune con i colleghi all''IBM, trovano indipendentemente
+      che vaporizzando il carbonio insieme a ferro o cobalto si ottengono tubi a parete
+      singola: da lì la produzione diventa controllabile. Un nanotubo ha una resistenza
+      a trazione e una conducibilità termica eccezionali, e secondo la geometria con
+      cui il foglio di carbonio è arrotolato conduce come un metallo o come un semiconduttore.
+      Lo stesso atomo, chiuso a cilindro, cambia natura a seconda di come lo si chiude.'
+    attendibilita: documentato
+  - id: vicenda-geim-il-nastro-adesivo
+    sezione: vicenda
+    testo: 'Il foglio di carbonio spesso un atomo era stato teorizzato da Philip Wallace
+      nel 1947 e battezzato grafene da Hanns-Peter Boehm nel 1987, ma isolarlo pareva
+      impossibile: l''instabilità dei cristalli bidimensionali faceva pensare che
+      non potesse reggersi da solo. Nel 2004, a Manchester, Andre Geim e Konstantin
+      Novoselov ci riuscirono con del nastro adesivo. Si attacca il nastro a un cristallo
+      di grafite, si stacca, si ripiega e si stacca ancora, finché le scaglie sono
+      sottili al punto giusto, e le si deposita su un wafer di silicio ossidato dove
+      un singolo strato si vede al microscopio ottico. La «tecnica dello Scotch» valse
+      ai due il Nobel per la fisica del 2010. Geim aveva già vinto nel 2000 un Ig
+      Nobel per aver fatto levitare una rana in un campo magnetico, ed è tuttora l''unica
+      persona ad avere entrambi i premi. Il grafene è il materiale più resistente
+      mai misurato, e assorbe il 2,3 per cento della luce: un atomo di spessore, e
+      si vede a occhio nudo.'
+    attendibilita: documentato
+  - id: vicenda-hall-il-diamante-fatto
+    sezione: vicenda
+    testo: 'Fare un diamante dalla grafite è un''ossessione vecchia quanto la scoperta
+      che sono la stessa cosa: Moissan ci provò con il forno elettrico, e nel 1928
+      un rapporto concluse che nessuno, fino ad allora, ci era riuscito davvero. Il
+      primo a farcela fu un gruppo segreto di cinque persone alla ASEA, in Svezia,
+      con un progetto in codice QUINTUS avviato nel 1942: il 16 febbraio 1953, a Stoccolma,
+      in un apparecchio a sfera divisa a 8,4 gigapascal, uscirono diamanti che l''azienda
+      non annunciò. Alla General Electric di Schenectady, intanto, Bundy, Strong e
+      Tracy Hall inseguivano lo stesso risultato; una sintesi registrata non si riproduceva,
+      e il cristallo si rivelò un diamante naturale usato come seme. Il 16 dicembre
+      1954 Hall, con una pressa a «cintura» d''acciaio sopra i dieci gigapascal e
+      i duemila gradi, e la grafite sciolta nel nichel fuso, ottenne diamanti ripetibili:
+      il più grande era largo quindici centesimi di millimetro. Annunciato il 15 febbraio
+      1955, era già industria.'
+    attendibilita: documentato
+  - id: vicenda-keeling-il-respiro
+    sezione: vicenda
+    testo: 'Nel 1938 un ingegnere e meteorologo dilettante, Guy Stewart Callendar,
+      confrontò le misure di anidride carbonica fatte a Kew fra il 1898 e il 1901,
+      in media 274 parti per milione, con quelle degli Stati Uniti orientali del 1936-38,
+      in media 310, e concluse che il gas stava aumentando per colpa nostra. Nessuno
+      gli diede retta: misure sparse, luoghi diversi. Charles David Keeling, dello
+      Scripps, capì che serviva un posto solo e uno strumento solo, per sempre. Nell''Anno
+      geofisico internazionale 1957-58 ottenne dal Weather Bureau i fondi per analizzatori
+      a infrarossi al Polo Sud e sul vulcano Mauna Loa, alle Hawaii, lontano dai continenti
+      e senza vegetazione. Nel marzo 1958 la lettura fu 313 parti per milione. Nel
+      1960 pubblicò su *Tellus* le prime serie: un ciclo stagionale nitido, il pianeta
+      che inspira d''estate ed espira d''inverno, «e forse un aumento mondiale di
+      anno in anno». Diresse la misura fino alla morte, nel 2005.'
+    attendibilita: documentato
+  - id: impatto-il-vapore
+    sezione: impatto
+    testo: 'Il carbonio fossile ha sostituito i fiumi. La prima macchina capace di
+      trasmettere potenza continua a un meccanismo è quella di Thomas Newcomen, del
+      1712, e serviva soprattutto a pompare l''acqua dalle miniere: il carbone che
+      aiutava a estrarre lo bruciava. Nel 1764 James Watt separa il condensatore dal
+      cilindro e moltiplica il lavoro ottenuto per unità di combustibile; nell''Ottocento
+      le macchine a vapore fisse muovono le fabbriche della rivoluzione industriale
+      al posto delle ruote idrauliche, e la Gran Bretagna avrebbe esaurito i siti
+      per i mulini ad acqua già negli anni Trenta di quel secolo se non avesse avuto
+      il carbone. Nel 1947 i minatori britannici erano settecentocinquantamila; l''ultima
+      miniera profonda del Regno Unito ha chiuso nel 2015. Nel mondo, nel 2020, il
+      carbone dava ancora un quarto dell''energia primaria e più di un terzo dell''elettricità.
+      La macchina di Newcomen non ha mai davvero smesso di pompare.'
+    attendibilita: documentato
+  - id: impatto-l-acciaio
+    sezione: impatto
+    testo: 'L''acciaio è ferro con una quantità precisa di carbonio dentro: da cinque
+      centesimi a poco più di due per cento in peso, e in quell''intervallo sta la
+      differenza fra una lama e un chiodo. Più carbonio, e il metallo si lascia indurire
+      e irrobustire con il trattamento termico ma perde duttilità e si salda peggio;
+      meno carbonio, e resta dolce e piegabile. Réaumur nel 1722 aveva capito che
+      il ferro diventava acciaio assorbendo qualcosa; per millenni i fabbri l''avevano
+      fatto senza saperlo. Dopo Darby il carbonio entra nella siderurgia due volte:
+      come coke che riduce il minerale nell''altoforno e come impurezza da dosare
+      nel metallo. Gran parte della metallurgia moderna è il controllo di una percentuale
+      di carbonio; e il ferro, l''elemento delle rotaie e dei grattacieli, è utile
+      solo in compagnia dell''elemento delle matite.'
+    attendibilita: documentato
+  - id: impatto-il-nerofumo
+    sezione: impatto
+    testo: 'La fuliggine, addomesticata, si chiama nerofumo: carbonio quasi puro in
+      particelle minuscole, ottenuto bruciando con poca aria catrame, oli o residui
+      del petrolio. Oggi il settanta per cento del nerofumo del mondo finisce nei
+      pneumatici, dove rinforza la gomma e porta via il calore dal battistrada; un
+      altro venti in cinghie, tubi e altri articoli di gomma; il dieci restante negli
+      inchiostri, nelle vernici, nelle plastiche e, come additivo conduttore, negli
+      elettrodi delle batterie al litio. Se viene da materia vegetale, in Europa è
+      anche un colorante alimentare, l''E153. L''Agenzia internazionale per la ricerca
+      sul cancro lo classifica come possibile cancerogeno, gruppo 2B. Il nero di ogni
+      pneumatico è lo stesso nero delle grotte: legno o petrolio bruciati senza abbastanza
+      aria, e raccolti.'
+    attendibilita: documentato
+  - id: impatto-de-beers
+    sezione: impatto
+    testo: 'Al diamante la scarsità è stata costruita. Nel 1888 Cecil Rhodes, con
+      i soldi di Alfred Beit e della banca Rothschild, fonda la De Beers; quando muore,
+      nel 1902, la società controlla il novanta per cento della produzione mondiale.
+      Ernest Oppenheimer, che entra nel consiglio nel 1926 e ne prende la guida nel
+      1929, aveva enunciato il principio già nel 1910: «il buon senso ci dice che
+      l''unico modo per aumentare il valore dei diamanti è renderli scarsi, cioè ridurre
+      la produzione». Per un secolo il carbonio cristallino è stato il caso da manuale
+      di un''offerta tenuta a freno da un''unica mano. Poi il mercato si è frammentato:
+      la quota De Beers sui grezzi è scesa dal novanta per cento degli anni Ottanta
+      al 29,5 del 2019, e nel 2021 era al venticinque, pari a quella di Alrosa. La
+      scarsità, come il diamante, non era per sempre.'
+    attendibilita: documentato
+  - id: impatto-per-sempre
+    sezione: impatto
+    testo: 'La scarsità da sola non basta: bisogna che la gente voglia. Nel 1947 una
+      copywriter dell''agenzia N. W. Ayer, Frances Gerety, scrive per la De Beers
+      quattro parole, *A Diamond is Forever*, che nel 2000 la rivista *Advertising
+      Age* eleggerà miglior slogan pubblicitario del Novecento. L''idea è legare la
+      pietra all''amore e all''impegno — l''anello di fidanzamento col diamante, l''anello
+      «dell''eternità» — e funziona: la popolarità dei diamanti dal secolo scorso,
+      dice la voce che li descrive, viene dall''offerta cresciuta, dal taglio migliorato,
+      dall''economia mondiale e da campagne pubblicitarie «innovative e riuscite».
+      È la storia più strana di questo elemento: l''allotropo che nessuno sapeva fosse
+      carbonio è diventato il simbolo universale di ciò che dura, per decisione di
+      un''agenzia di pubblicità, un anno dopo la fine di una guerra.'
+    attendibilita: documentato
+  - id: impatto-il-cullinan
+    sezione: impatto
+    testo: 'Il 26 gennaio 1905 Frederick Wells, direttore di superficie della miniera
+      Premier nel Transvaal, trova a cinque metri e mezzo di profondità un diamante
+      grezzo di tremilacentosei carati, seicentoventuno grammi: il più grande di qualità
+      gemma mai rinvenuto. Il viaggio verso Londra è una lezione di teoria dei giochi:
+      un pacco scortato da detective viene chiuso con cerimonia nella cassaforte di
+      un piroscafo, ed è un falso; il vero Cullinan parte per posta raccomandata in
+      una scatola anonima. Resta invenduto due anni; nel 1907 il governo del Transvaal
+      lo compra e Louis Botha lo dona a Edoardo VII. Abraham Asscher lo ritira a Londra
+      il 23 gennaio 1908 e torna ad Amsterdam in treno e traghetto con il diamante
+      nella tasca del cappotto, mentre una nave della Marina attraversa il Mare del
+      Nord con una scatola vuota. Dal taglio escono il Cullinan I, 530,4 carati, oggi
+      nello scettro, e il Cullinan II, 317,4, nella corona imperiale. Che Joseph Asscher
+      sia svenuto al primo colpo è una storia che gli storici smentiscono.'
+    attendibilita: documentato
+  - id: impatto-il-koh-i-noor
+    sezione: impatto
+    testo: 'Il Koh-i-Noor pesa 105,6 carati ed è passato di mano fra imperi dell''Asia
+      meridionale e occidentale prima di arrivare, nel 1849, alla regina Vittoria,
+      con l''annessione del Punjab da parte della Compagnia delle Indie e sotto il
+      regno di un maragià sikh di undici anni, Duleep Singh. Il primo peso attestato
+      era di 186 carati antichi. All''Esposizione universale del 1851 il taglio opaco
+      deluse i visitatori, e il principe Alberto lo fece ritagliare a brillante ovale
+      dalla Coster di Amsterdam, perdendone quasi metà. Da allora lo hanno portato
+      solo donne della famiglia reale: si dice porti sfortuna a un uomo. L''India
+      ne ha chiesto la restituzione appena indipendente, nel 1947, e di nuovo nel
+      1953, l''anno dell''incoronazione di Elisabetta II; anche Pakistan, Iran e Afghanistan
+      l''hanno reclamato. La risposta britannica è stata ogni volta che la proprietà
+      non si discute. Un cristallo di carbonio lungo poco più di tre centimetri è
+      una questione diplomatica da tre quarti di secolo.'
+    attendibilita: documentato
+  - id: impatto-la-rivoluzione-del-radiocarbonio
+    sezione: impatto
+    testo: 'Gli storici dell''archeologia la chiamano «rivoluzione del radiocarbonio»,
+      e non esagerano: prima di Libby la preistoria si ordinava per stili e sovrapposizioni,
+      dopo si data in anni. La fine dell''ultima glaciazione, l''inizio del Neolitico
+      e dell''età del bronzo regione per regione, e la possibilità di confrontare
+      eventi lontani migliaia di chilometri hanno una cronologia comune solo per via
+      del carbonio-14. Il metodo ha dovuto correggersi da solo: negli anni Sessanta
+      Hans Suess, contando gli anelli degli alberi, mostrò che il carbonio atmosferico
+      non era stato costante e costruì la curva di calibrazione, oggi lunga quasi
+      quattordicimila anni. E ha risolto questioni che non erano di archeologi: ha
+      confermato l''antichità dei rotoli del Mar Morto, e nel 1988 tre laboratori
+      indipendenti hanno datato il lino della Sindone di Torino al Trecento. Sono
+      le stesse pitture a carbone di Chauvet: il carbonio che ha fatto il disegno
+      racconta quando l''ha fatto.'
+    attendibilita: documentato
+  - id: impatto-il-gas-senza-odore
+    sezione: impatto
+    testo: 'Il carbonio che brucia male uccide senza avvertire. Il monossido, un solo
+      atomo di ossigeno invece di due, si lega all''emoglobina con un''affinità circa
+      duecentoquaranta volte maggiore di quella dell''ossigeno, e il sangue smette
+      di trasportare aria pur essendo rosso. Che il gas agisse sul sangue lo intuirono
+      James Watt e Thomas Beddoes nel 1793, studiando i vapori di carbone come possibile
+      medicina, e lo confermò Claude Bernard fra il 1846 e il 1857. Nel 1911 Haldane
+      introdusse nelle miniere i canarini e i topi bianchi, che cedono prima degli
+      uomini: il canarino delle miniere britanniche è stato sostituito da un rilevatore
+      elettronico solo nel 1986. Negli Stati Uniti fa ancora più di quattrocento morti
+      l''anno fuori dagli incendi e oltre ventimila accessi al pronto soccorso, soprattutto
+      d''inverno e per i generatori portatili accesi durante un blackout; i sintomi
+      somigliano a un''influenza. È il prezzo di ogni fiamma chiusa in una stanza.'
+    attendibilita: documentato
+  - id: impatto-la-pila-di-grafite
+    sezione: impatto
+    testo: 'Il primo reattore nucleare della storia era una catasta di grafite. Sotto
+      le tribune di uno stadio di Chicago, in un vecchio campo da squash, Enrico Fermi
+      e una trentina di persone impilarono quarantacinquemila blocchi di grafite ultrapura,
+      trecentotrenta tonnellate, con dentro quasi cinque tonnellate di uranio metallico
+      e quarantuno di ossido; nessuna schermatura, nessun raffreddamento, perché il
+      2 dicembre 1942 la reazione a catena si sostenne a circa mezzo watt. La grafite
+      serviva a rallentare i neutroni, e il dettaglio decisivo era la sua purezza:
+      boro e cadmio, in tracce, li divorano. I tedeschi avevano misurato una grafite
+      sporca, l''avevano scartata e si erano condannati all''acqua pesante, rara e
+      cara; Szilard e Fermi, dopo una prima prova fallita, avevano chiesto ai fornitori
+      quali impurezze contenesse di solito e le avevano fatte togliere. La differenza
+      fra i due programmi atomici è stata, in parte, una domanda sul carbonio.'
+    attendibilita: documentato
+  - id: impatto-arrhenius
+    sezione: impatto
+    testo: 'Che il carbonio bruciato scaldi il pianeta lo si è calcolato prima di
+      misurarlo. Nel 1896 Svante Arrhenius, cercando di spiegare le glaciazioni, si
+      chiese se i gas dell''atmosfera potessero rendere conto della differenza fra
+      un''era glaciale e un interglaciale; partendo da Fourier, Tyndall e Pouillet,
+      e usando le osservazioni infrarosse della Luna fatte da Langley e Very a Pittsburgh,
+      stimò quanto calore l''anidride carbonica e il vapore trattengano. Ne ricavò
+      una regola: se l''«acido carbonico» cresce in progressione geometrica, la temperatura
+      cresce quasi in progressione aritmetica — ogni raddoppio, lo stesso aumento
+      — e la formula che la esprime, un logaritmo del rapporto fra le concentrazioni,
+      è ancora in uso. Concluse anche che le emissioni umane, dal carbone e dalle
+      altre combustioni, erano abbastanza grandi da riscaldare la Terra. Era il 1896;
+      la conclusione è al centro della scienza del clima.'
+    attendibilita: documentato
+  - id: impatto-quattrocentotrentadue
+    sezione: impatto
+    testo: 'La curva di Keeling non si è mai fermata. Nel 2026 l''anidride carbonica
+      nell''aria è a 432 parti per milione, il cinquantaquattro per cento in più delle
+      280 che erano rimaste stabili per i diecimila anni precedenti la metà del Settecento,
+      e cresce di circa due parti e mezzo l''anno: è il valore più alto da quattordici
+      milioni di anni, tra i quattromila del Cambriano e i centottanta delle glaciazioni
+      recenti. Il carbone da solo ha emesso nel 2024 più di quindici miliardi di tonnellate
+      di anidride carbonica, oltre un quarto di tutti i gas serra, e si stima che
+      causi ottocentomila morti premature l''anno; nel 2023 i combustibili fossili
+      davano ancora il settantasette per cento dell''energia primaria del mondo, e
+      più del settanta per cento dei gas serra umani è anidride carbonica uscita dal
+      bruciarli. Il carbonio delle piante del Carbonifero, riportato in aria in due
+      secoli, è la misura in cui oggi si conta il futuro.'
+    attendibilita: documentato
+  - id: impatto-i-diamanti-della-guerra
+    sezione: impatto
+    testo: 'Il carbonio più prezioso ha pagato guerre. Negli anni Novanta e Duemila
+      i diamanti estratti nelle zone di conflitto — Angola, Costa d''Avorio, Sierra
+      Leone, Liberia, Guinea — hanno finanziato ribellioni e milizie, e la parola
+      «diamanti insanguinati» è entrata nelle lingue. In Sierra Leone il Fronte rivoluzionario
+      unito, che si fece conoscere per le amputazioni degli arti ai civili, prese
+      il controllo delle aree diamantifere e ne usò i proventi per armarsi; la Liberia
+      di Charles Taylor lo sosteneva anche attraverso quel commercio, e nel 2001 il
+      Consiglio di sicurezza dell''ONU le vietò l''esportazione di grezzi. Taylor
+      sarebbe stato condannato nel 2012 a cinquant''anni per crimini di guerra. Nel
+      2003, su raccomandazione del rapporto Fowler e con una risoluzione dell''Assemblea
+      generale, nasce il Processo di Kimberley: un certificato che dovrebbe garantire
+      che ogni diamante grezzo non abbia pagato un fucile. Se ci riesca è un''altra
+      questione.'
+    attendibilita: documentato
+  - id: controversie-chi-ha-capito-il-diamante
+    sezione: controversie
+    testo: 'Chi ha dimostrato che il diamante è carbonio? Le voci enciclopediche in
+      inglese sono nette: Lavoisier, nel 1772, «dimostrò che il diamante è una forma
+      di carbonio»; Tennant, nel 1797, «ripeté ed estese» l''esperimento. La scheda
+      base di questo vault, che segue una ricostruzione storica dedicata a Tennant,
+      dice altro: Lavoisier osservò che diamante e carbone danno lo stesso gas ma
+      si limitò a classificarli entrambi fra i combustibili, e fu Tennant, nel 1796,
+      a chiudere la questione pesando — masse uguali di diamante e di carbone danno
+      masse uguali di anidride carbonica. Anche l''anno di Tennant oscilla, 1796 o
+      1797. Le due letture non si escludono: dipende da cosa si chiama «dimostrare»,
+      se l''osservazione o la misura che la rende inevitabile. Il vault tiene la seconda,
+      e la dichiara. Tennant, a cui la voce riconosce di aver «contribuito alla prova»,
+      avrebbe poi scoperto l''osmio e l''iridio: un uomo che pesava bene.'
+    attendibilita: discusso
+  - id: controversie-la-data-del-carbone
+    sezione: controversie
+    testo: 'La data con cui il carbonio entra in questo vault, ventiseimila anni fa,
+      è quella della cronologia di riferimento, e la scheda base la dichiara convenzionale.
+      Chauvet la contraddice di diecimila anni: i disegni a carbone più antichi sono
+      datati a trentaseimilacinquecento anni fa. Ma anche Chauvet è discussa. Pettitt
+      e Bahn hanno sostenuto che le date al radiocarbonio non tornano con la sequenza
+      degli stili, che non si sa da dove venga il carbone usato per disegnare — legno
+      vecchio dà date vecchie — e che le superfici esposte possono essere contaminate;
+      gli studi stilistici hanno risposto mostrando incisioni gravettiane sovrapposte
+      ai disegni neri, che dunque sono più antichi. La discussione è istruttiva perché
+      riguarda proprio lo strumento: si data il carbonio con il carbonio, e la domanda
+      «quando è stato bruciato questo legno» non è la stessa di «quando qualcuno ci
+      ha disegnato». Il vault tiene la convenzione e rimanda qui.'
+    attendibilita: discusso
+  - id: controversie-il-mito-di-wohler
+    sezione: controversie
+    testo: 'La versione dei manuali è che nel 1828 l''urea di Wöhler uccise il vitalismo.
+      Le fonti dell''epoca non la sostengono: lo storico Peter Ramberg ha chiamato
+      «mito di Wöhler» il racconto, e ne ha trovato l''origine in una storia divulgativa
+      della chimica del 1931 che, «ignorando ogni pretesa di accuratezza storica»,
+      fece di Wöhler un crociato «che tentò e ritentò di sintetizzare un prodotto
+      naturale che confutasse il vitalismo, finché un pomeriggio avvenne il miracolo».
+      Nella sua pubblicazione Wöhler descriveva una reazione dei cianati, non una
+      crociata. E il vitalismo non morì: fra il 1833 e il 1844 Johannes Müller scrisse
+      il manuale di fisiologia più autorevole del secolo, e vi resta vitalista. Il
+      caso vale per tutta la storia del carbonio: le date delle svolte sono spesso
+      date di racconto, messe a posteriori dove la storia ha bisogno di un giorno.
+      Il 1828 resta un anno importante; il «pomeriggio» è del 1931.'
+    attendibilita: discusso
+  - id: controversie-il-serpente-di-kekule
+    sezione: controversie
+    testo: 'Il serpente che si morde la coda è fra gli aneddoti più famosi della chimica,
+      e fra i più incerti. Kekulé lo raccontò nel 1890, venticinque anni dopo l''articolo
+      sul benzene, a una festa in suo onore: in un dormiveglia vide catene di atomi
+      attorcigliarsi come serpenti, e uno afferrare la propria coda. Quattro anni
+      prima, nel 1886, una rivista parodistica — i *Rendiconti della Società chimica
+      assetata* — aveva disegnato il benzene come sei scimmie che si tengono in cerchio.
+      Alcuni storici pensano che la parodia prendesse in giro un aneddoto già in giro
+      a voce; altri, che il serpente del 1890 sia una risposta alle scimmie, cioè
+      un''invenzione. Se il ricordo è vero, i dettagli lo collocano all''inizio del
+      1862. C''è poi un fatto strano nella sua giovinezza: fu chiamato a testimoniare
+      a un processo in cui figurava un anello con due serpenti, d''oro e di platino,
+      che si mordevano la coda. Il benzene resta un esagono; il sogno è, letteralmente,
+      materia di discussione.'
+    attendibilita: discusso
+  - id: controversie-la-lampada-che-uccideva
+    sezione: controversie
+    testo: 'La lampada di Davy ha due controversie, e la seconda è peggiore della
+      prima. La prima è la priorità: Stephenson fu accusato di aver rubato l''idea
+      a Davy, perché la sua lampada compiuta fu mostrata dopo il discorso alla Royal
+      Society; un comitato locale d''inchiesta lo scagionò, dimostrando che aveva
+      lavorato per conto proprio. La seconda è l''effetto. Davy aveva scritto che
+      con la sua invenzione le esplosioni si sarebbero evitate; nei trent''anni successivi
+      il grisù uccise centotrentasette persone nelle sole miniere di Whitehaven, e
+      nel 1835 una commissione parlamentare concluse che la lampada aveva fatto aumentare
+      gli incidenti: aveva incoraggiato a lavorare cantieri e gallerie prima chiusi
+      per pericolo, e la rete nuda si danneggiava — un solo filo rotto o arrugginito,
+      e la protezione non c''era più. Lo stesso anno a Wallsend un''esplosione uccise
+      centodue fra uomini e ragazzi. Una sicurezza in più, spesa fino all''ultimo
+      margine, è una sicurezza in meno.'
+    attendibilita: documentato
+  - id: controversie-di-chi-e-il-filamento
+    sezione: controversie
+    testo: 'Il filamento di carbonio è stato più litigato in tribunale che in laboratorio.
+      Nel 1883 un giudice stabilì che i brevetti di Edison poggiavano su ciò che William
+      Sawyer aveva fatto prima ed erano nulli; la causa continuò per anni, e il 6
+      ottobre 1889 un altro giudice riconobbe valida la rivendicazione di Edison su
+      «un filamento di carbonio ad alta resistenza». Nel 1893 un certo Heinrich Göbel
+      sostenne di aver fatto la prima lampadina nel 1854, con bambù carbonizzato,
+      fili di platino e vuoto spinto: quattro corti espressero dubbi, ma il brevetto
+      di Edison scadde prima di una sentenza definitiva, e una ricerca del 2007 ha
+      concluso che le lampade di Göbel degli anni Cinquanta sono un''invenzione. Gli
+      storici elencano una serie di inventori prima di Swan e di Edison, e attribuiscono
+      a quest''ultimo non il primo filamento ma la prima soluzione praticabile: materiale,
+      vuoto, alta resistenza e un intero sistema per distribuire la corrente. Il carbonio
+      l''avevano acceso in molti; uno lo vendette.'
+    attendibilita: documentato
+  - id: controversie-chi-ha-visto-i-tubi
+    sezione: controversie
+    testo: 'Chi ha scoperto i nanotubi è una questione che la rivista *Carbon* ha
+      affrontato in un editoriale nel 2006, e la risposta non è «Iijima». Nel 1952
+      due ricercatori sovietici, Radushkevich e Lukyanovich, pubblicarono sul *Giornale
+      di chimica fisica* russo immagini nitide di tubi di carbonio larghi cinquanta
+      nanometri. Nessuno se ne accorse: l''articolo era in russo, e la stampa sovietica
+      arrivava poco e male in Occidente durante la guerra fredda. La linea temporale
+      che gli autori dell''editoriale ricostruiscono risale molto prima del 1991,
+      e il merito di Iijima resta quello, non piccolo, di aver acceso l''interesse
+      di tutti. Il caso dice qualcosa sulla parola «scoperta» che questo elemento
+      continua a mettere in crisi: vedere una cosa e far sì che il mondo la veda sono
+      due atti diversi, e la storia ricorda quasi sempre il secondo. Per il carbonio,
+      che è stato visto da tutti e riconosciuto tardi, vale dall''inizio.'
+    attendibilita: discusso
+  - id: controversie-il-certificato
+    sezione: controversie
+    testo: Il Processo di Kimberley è stato abbandonato nel 2011 da chi l'aveva voluto.
+      Global Witness, l'organizzazione londinese che fra le prime aveva portato i
+      diamanti dei conflitti all'attenzione del mondo e il cui rapporto *A Rough Trade*
+      aveva ispirato in parte il film *Blood Diamond*, uscì dallo schema dichiarando
+      che non era riuscito a fermare il flusso. Nel 2010 il monitore del Processo
+      aveva raccomandato di lasciar vendere come «liberi da conflitto» i diamanti
+      dei campi contesi di Marange, in Zimbabwe, e le ONG avevano chiesto invano di
+      ridefinire cosa sia un diamante di conflitto. Nel 2013 un'inchiesta del *World
+      Policy Journal* mostrò che almeno tre miliardi e mezzo di dollari di diamanti
+      certificati, da Angola e Congo, erano passati per paradisi fiscali anch'essi
+      certificati, Dubai e Svizzera. Il commercio mondiale di grezzi vale, nel 2023,
+      circa centododici milioni di carati. Il certificato dice da dove viene una pietra;
+      non dice chi ci ha guadagnato.
+    attendibilita: documentato
+  - id: controversie-l-impronta
+    sezione: controversie
+    testo: «Impronta di carbonio» è una parola che ha una storia. Compare per la prima
+      volta nel 1999 in una rivista di cucina vegetariana della BBC; a metà degli
+      anni Duemila — la stessa voce che la racconta dà il 2004 in un punto e il 2005
+      in un altro — la compagnia petrolifera BP affida all'agenzia Ogilvy una grande
+      campagna che invita ciascuno a calcolare la propria impronta personale e a mettersi
+      «a dieta di carbonio». Il concetto si diffonde da lì. I critici sostengono che
+      lo scopo fosse spostare la responsabilità dalle imprese e dalle istituzioni
+      alle scelte di vita individuali, e Geoffrey Supran e Naomi Oreskes, di Harvard,
+      scrivono che nozioni come questa «ci azzoppano e ci mettono i paraocchi» rispetto
+      alla natura sistemica della crisi climatica. Che ogni consumo abbia un costo
+      in carbonio è vero; chi abbia interesse a farcelo contare da soli è una domanda
+      che vale la pena tenere accanto alla calcolatrice.
+    attendibilita: documentato
+  - id: controversie-rimettere-il-carbonio-sotto-terra
+    sezione: controversie
+    testo: 'Se il problema è il carbonio tirato fuori, la soluzione più ovvia è rimetterlo
+      dentro, e da trent''anni si prova. Il primo impianto su larga scala con stoccaggio
+      dedicato e monitorato è quello del giacimento di gas di Sleipner, in Norvegia,
+      dal 1996. Nel 2023 la cattura e lo stoccaggio trattengono circa quarantacinque
+      milioni di tonnellate di anidride carbonica l''anno, lo 0,1 per cento delle
+      emissioni mondiali; i modelli dell''IPCC e dell''Agenzia internazionale per
+      l''energia ne prevedono un miliardo entro il 2030 e diversi miliardi entro il
+      2050, e i governi hanno speso circa trenta miliardi di dollari in sussidi per
+      la cattura e per l''idrogeno da fossili. La controversia è nell''uso: circa
+      l''ottanta per cento del gas catturato ogni anno viene iniettato in giacimenti
+      di petrolio esauriti per spremerne altro petrolio. Il carbonio torna sotto terra,
+      e ne fa uscire dell''altro.'
+    attendibilita: documentato
+  - id: controversie-chi-ha-messo-mano-al-carbonio
+    sezione: controversie
+    testo: 'La risonanza che Hoyle aveva previsto lo turbò per il resto della vita.
+      Scrisse che «un''interpretazione di buon senso dei fatti suggerisce che una
+      superintelligenza abbia messo mano alla fisica, oltre che alla chimica e alla
+      biologia, e che in natura non esistano forze cieche degne di questo nome», e
+      che i numeri gli sembravano «così schiaccianti da mettere questa conclusione
+      quasi fuori discussione». Il principio antropico — noi osserviamo un universo
+      che produce carbonio perché solo un universo così poteva produrre osservatori
+      — è stato invocato per spiegare, senza superintelligenze, perché le risonanze
+      nucleari siano disposte con tanta precisione da fabbricare carbonio e ossigeno
+      in abbondanza. La discussione è aperta e non è di chimica: è su che cosa conti
+      come spiegazione. Che l''elemento della vita esista per un livello energetico
+      di 7,65 megaelettronvolt è un fatto; cosa significhi, ciascuno lo decide da
+      sé.'
+    attendibilita: discusso
+  - id: eredita-l-impulso-delle-bombe
+    sezione: eredita
+    testo: Le bombe atomiche hanno lasciato un segno nel carbonio di tutti i viventi,
+      e la scienza l'ha trasformato in uno strumento. Le centinaia di test nucleari
+      in atmosfera, dal 1945 e con più intensità dal 1950 fino al Trattato di messa
+      al bando parziale del 1963, hanno quasi raddoppiato la concentrazione di carbonio-14
+      nell'aria dell'emisfero nord; e poiché ogni cellula si costruisce con il carbonio
+      che mangia, l'impulso è scritto nei tessuti di chiunque sia vissuto in quegli
+      anni, e da allora scende. Con questa firma Kirsty Spalding ha dimostrato che
+      i neuroni non si rinnovano nel corso della vita, e che il numero di cellule
+      adipose si fissa nell'infanzia e nell'adolescenza, con un dieci per cento sostituito
+      ogni anno. La stessa curva data i resti umani in medicina legale e perfino l'annata
+      di certi vini. L'orologio di Libby, sballato dalla bomba, è diventato un secondo
+      orologio.
+    attendibilita: documentato
+  - id: eredita-il-pallone-fra-le-stelle
+    sezione: eredita
+    testo: 'Kroto era partito dalle stelle e alle stelle il pallone è tornato. Il
+      C60 neutro è stato osservato nelle nebulose planetarie e in stelle di vari tipi,
+      e la sua forma ionizzata, C60 con una carica positiva, è stata identificata
+      nel mezzo interstellare come responsabile di alcune delle «bande interstellari
+      diffuse», righe di assorbimento nel vicino infrarosso che gli astronomi vedevano
+      da decenni negli spettri delle stelle lontane senza sapere a che molecola attribuirle.
+      Quanto alle applicazioni terrestri, la voce che lo descrive è onesta: dopo quarant''anni
+      di studio intenso ne sono state trovate poche. Il fullerene è così: una scoperta
+      che ha aperto un campo — nanotubi, grafene, la chimica delle gabbie — più che
+      riempirlo, e che ha risolto un enigma astronomico quasi per caso. Il pallone
+      di carbonio viaggia fra le stelle, e sta in ogni fuliggine.'
+    attendibilita: documentato
+  - id: eredita-il-diamante-a-prezzo-di-costo
+    sezione: eredita
+    testo: 'Il diamante è un bene di lusso che la chimica ha svalutato. La General
+      Electric produsse i primi cristalli sintetici di qualità gemma nel 1970, un
+      carato in una settimana di crescita; per decenni la De Beers li combatté, e
+      nel 2018 cambiò strategia lanciando un proprio marchio di gioielli con diamanti
+      da laboratorio, Lightbox. Nel maggio 2025 lo ha chiuso: i prezzi all''ingrosso
+      dei diamanti coltivati per gioielleria erano crollati di circa il novanta per
+      cento, «vicino al costo di produzione», e la società ha dichiarato di tornare
+      ai diamanti naturali, riservando la sua controllata Element Six agli usi industriali.
+      Un''iscrizione al laser, invisibile a occhio nudo e leggibile a dieci ingrandimenti,
+      distingue oggi i cristalli coltivati da quelli scavati: chimicamente sono identici.
+      La scarsità di Oppenheimer era una scelta, e la chimica l''ha revocata; resta
+      da vedere se lo slogan della Gerety le sopravviva.'
+    attendibilita: documentato
+  - id: eredita-il-foglio-piu-forte
+    sezione: eredita
+    testo: 'Il grafene è il materiale più forte mai messo alla prova: una resistenza
+      a trazione intrinseca di 130 gigapascal e una rigidità vicina a un terapascal,
+      in un foglio che pesa meno di un milligrammo al metro quadrato. È anche, con
+      il diamante e i nanotubi, il miglior conduttore di calore che si conosca. La
+      strada dalla scaglia sul nastro adesivo al prodotto è ancora aperta, e per i
+      nanotubi le applicazioni vere sono ancora «in sviluppo», con l''ascensore spaziale
+      onestamente classificato come «altamente speculativo». Ma la grafite delle matite
+      ha insegnato una cosa che vale più di un prodotto: che la stessa materia, tagliata
+      a uno spessore diverso, è un''altra materia. Il carbonio, che ha passato la
+      storia a farsi scambiare per tre sostanze, si è rivelato capace di esserne quante
+      ne vogliamo.'
+    attendibilita: documentato
+  - id: eredita-la-fine-del-carbone
+    sezione: eredita
+    testo: 'Il carbone che ha fatto la rivoluzione industriale sta uscendo di scena
+      nei paesi che l''hanno cominciata e continua altrove. La Gran Bretagna, che
+      nel 1700 ne estraeva cinque sesti del totale mondiale, ha chiuso l''ultima miniera
+      profonda nel 2015; molti paesi, nella transizione energetica, l''hanno ridotto
+      o eliminato. La Cina è il primo produttore di carbone e il primo consumatore
+      di energia del mondo, e il carbone le fornisce il sessanta per cento dell''energia
+      primaria; eppure si stima che due quinti delle sue centrali a carbone siano
+      in perdita. Con una differenza rispetto a ogni altra miniera: quando chiude
+      una miniera di rame, il rame resta nelle cose; quando chiude una miniera di
+      carbone, il carbone è già in aria. La prima fonte di anidride carbonica del
+      pianeta è la pietra nera di Marco Polo.'
+    attendibilita: documentato
+  - id: eredita-la-quantita-costante
+    sezione: eredita
+    testo: 'C''è un fatto semplice sotto tutta questa storia: sulla Terra la quantità
+      di carbonio non cambia. Alle condizioni terrestri un elemento non si trasforma
+      in un altro, se non per la radioattività rara come quella del carbonio-14, e
+      dunque tutto il carbonio del pianeta è sempre lo stesso, che si sposti fra la
+      roccia, l''oceano, l''aria e i viventi. Circa cinquecento miliardi di tonnellate
+      ne stanno fuori terra nelle piante; una parte minuscola sta in noi, il diciotto
+      e mezzo per cento del nostro peso. Il carbonio del carbone di Chauvet, quello
+      della candela di Faraday, quello del filamento di Edison e quello che esce dal
+      tubo di scappamento sono lo stesso carbonio, e l''unica cosa che l''umanità
+      ha fatto è spostarlo, sempre più in fretta, da sotto terra a sopra. Il ciclo
+      del carbonio non è una metafora: è la contabilità di un elemento che non si
+      crea e non si distrugge, e che noi abbiamo imparato a muovere prima di imparare
+      a contarlo.'
+    attendibilita: documentato
+  - id: eredita-le-tre-facce-in-cifre
+    sezione: eredita
+    testo: 'Le tre facce antiche del carbonio hanno ciascuna un''industria. La grafite
+      naturale: un milione e centomila tonnellate nel 2010, di cui ottocentomila dalla
+      Cina, centotrentamila dall''India, settantaseimila dal Brasile, per refrattari,
+      batterie al litio, fonderie, lubrificanti e, ancora, matite. Il diamante: dalla
+      scoperta dei giacimenti primari in Sudafrica negli anni Settanta dell''Ottocento
+      ne sono stati estratti più di quattro miliardi e mezzo di carati; la Russia
+      ne produceva quasi un quinto nel 2005, e la miniera australiana di Argyle è
+      arrivata a essere la fonte singola più grande, con quattordici milioni di carati
+      nel 2018. Il nerofumo: nei pneumatici di ogni auto del mondo. E poi c''è la
+      faccia che non si vede perché è dappertutto, il carbonio dei combustibili, dei
+      polimeri, dei farmaci, del cibo: il carbonio non ha mai avuto bisogno di essere
+      riconosciuto per essere comprato e venduto.'
+    attendibilita: documentato
+  - id: eredita-scoprire-cio-che-si-ha-in-mano
+    sezione: eredita
+    testo: 'Il carbonio insegna che cosa significhi scoprire. Gli uomini di Chauvet
+      lo tenevano in mano e lo usavano; i pastori di Borrowdale ci marcavano le pecore;
+      i sultani di Golconda lo incastonavano; nessuno di loro sapeva di avere a che
+      fare con la stessa sostanza, e nessuno ne aveva bisogno. L''elemento è nato
+      quando qualcuno ha pesato un gas e ha trovato che due cose opposte davano lo
+      stesso numero. Da allora ogni sua scoperta è stata di questo tipo: non un oggetto
+      nuovo ma un modo nuovo di guardare l''oggetto di sempre — la fuliggine che contiene
+      palloni, la matita che contiene un foglio spesso un atomo, l''aria che contiene
+      il conto del carbone bruciato. Il carbonio non è stato scoperto in un anno;
+      viene riscoperto ogni volta che si trova un modo di contarlo. E il primo modo,
+      quello di Tennant, era una bilancia.'
+    attendibilita: documentato
 composti_principali:
 - nome: Anidride carbonica
   formula: CO2
@@ -197,3 +1058,141 @@ fonti:
 - url: https://www.sciencedirect.com/science/article/pii/S0187893X15000373
   titolo: Smithson Tennant (Educación Química)
   consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Diamond
+  titolo: Diamond
+  consultata: &id001 2026-09-11
+- url: https://en.wikipedia.org/wiki/Graphite
+  titolo: Graphite
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Charcoal
+  titolo: Charcoal
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_black
+  titolo: Carbon black
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Coal
+  titolo: Coal
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Coke_(fuel)
+  titolo: Coke (fuel)
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Pencil
+  titolo: Pencil
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Borrowdale
+  titolo: Borrowdale
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Chauvet_Cave
+  titolo: Chauvet Cave
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Cave_painting
+  titolo: Cave painting
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Golconda_diamonds
+  titolo: Golconda diamonds
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Antoine_Lavoisier
+  titolo: Antoine Lavoisier
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Wöhler_synthesis
+  titolo: Wöhler synthesis
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Vitalism
+  titolo: Vitalism
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/August_Kekulé
+  titolo: August Kekulé
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Jacobus_Henricus_van_'t_Hoff
+  titolo: Jacobus Henricus van 't Hoff
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/The_Chemical_History_of_a_Candle
+  titolo: The Chemical History of a Candle
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Abraham_Darby_I
+  titolo: Abraham Darby I
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Steam_engine
+  titolo: Steam engine
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_steel
+  titolo: Carbon steel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Davy_lamp
+  titolo: Davy lamp
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Incandescent_light_bulb
+  titolo: Incandescent light bulb
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Willard_Libby
+  titolo: Willard Libby
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Radiocarbon_dating
+  titolo: Radiocarbon dating
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bomb_pulse
+  titolo: Bomb pulse
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Buckminsterfullerene
+  titolo: Buckminsterfullerene
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_nanotube
+  titolo: Carbon nanotube
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Graphene
+  titolo: Graphene
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Andre_Geim
+  titolo: Andre Geim
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Synthetic_diamond
+  titolo: Synthetic diamond
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Triple-alpha_process
+  titolo: Triple-alpha process
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Fred_Hoyle
+  titolo: Fred Hoyle
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Svante_Arrhenius
+  titolo: Svante Arrhenius
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Keeling_Curve
+  titolo: Keeling Curve
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_dioxide_in_Earth's_atmosphere
+  titolo: Carbon dioxide in Earth's atmosphere
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Fossil_fuel
+  titolo: Fossil fuel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_cycle
+  titolo: Carbon cycle
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_footprint
+  titolo: Carbon footprint
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_capture_and_storage
+  titolo: Carbon capture and storage
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Carbon_monoxide_poisoning
+  titolo: Carbon monoxide poisoning
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Chicago_Pile-1
+  titolo: Chicago Pile-1
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/De_Beers
+  titolo: De Beers
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Cullinan_Diamond
+  titolo: Cullinan Diamond
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Koh-i-Noor
+  titolo: Koh-i-Noor
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Blood_diamond
+  titolo: Blood diamond
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Kimberley_Process_Certification_Scheme
+  titolo: Kimberley Process Certification Scheme
+  consultata: *id001

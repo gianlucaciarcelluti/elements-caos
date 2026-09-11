@@ -135,6 +135,9 @@ flowchart LR
 
 Una minima frazione del carbonio terrestre è carbonio-14, isotopo radioattivo che si forma di continuo nell'alta atmosfera e decade con un tempo di dimezzamento di circa 5700 anni. Sul metodo di datazione che ne deriva, messo a punto nel 1949, si regge quasi tutta la cronologia della preistoria recente: comprese, con una certa ironia, le date di quelle pitture rupestri tracciate con il carbone.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Carbonio — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Oro]] (40000 a.C.)
@@ -147,6 +150,52 @@ Epoca: [[Antichità]]
 - [Carbon](https://en.wikipedia.org/wiki/Carbon) — consultata il 07/09/2026
 - [Smithson Tennant](https://en.wikipedia.org/wiki/Smithson_Tennant) — consultata il 07/09/2026
 - [Smithson Tennant (Educación Química)](https://www.sciencedirect.com/science/article/pii/S0187893X15000373) — consultata il 07/09/2026
+- [Diamond](https://en.wikipedia.org/wiki/Diamond) — consultata il 11/09/2026
+- [Graphite](https://en.wikipedia.org/wiki/Graphite) — consultata il 11/09/2026
+- [Charcoal](https://en.wikipedia.org/wiki/Charcoal) — consultata il 11/09/2026
+- [Carbon black](https://en.wikipedia.org/wiki/Carbon_black) — consultata il 11/09/2026
+- [Coal](https://en.wikipedia.org/wiki/Coal) — consultata il 11/09/2026
+- [Coke (fuel)](https://en.wikipedia.org/wiki/Coke_%28fuel%29) — consultata il 11/09/2026
+- [Pencil](https://en.wikipedia.org/wiki/Pencil) — consultata il 11/09/2026
+- [Borrowdale](https://en.wikipedia.org/wiki/Borrowdale) — consultata il 11/09/2026
+- [Chauvet Cave](https://en.wikipedia.org/wiki/Chauvet_Cave) — consultata il 11/09/2026
+- [Cave painting](https://en.wikipedia.org/wiki/Cave_painting) — consultata il 11/09/2026
+- [Golconda diamonds](https://en.wikipedia.org/wiki/Golconda_diamonds) — consultata il 11/09/2026
+- [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier) — consultata il 11/09/2026
+- [Wöhler synthesis](https://en.wikipedia.org/wiki/Wöhler_synthesis) — consultata il 11/09/2026
+- [Vitalism](https://en.wikipedia.org/wiki/Vitalism) — consultata il 11/09/2026
+- [August Kekulé](https://en.wikipedia.org/wiki/August_Kekulé) — consultata il 11/09/2026
+- [Jacobus Henricus van 't Hoff](https://en.wikipedia.org/wiki/Jacobus_Henricus_van_'t_Hoff) — consultata il 11/09/2026
+- [The Chemical History of a Candle](https://en.wikipedia.org/wiki/The_Chemical_History_of_a_Candle) — consultata il 11/09/2026
+- [Abraham Darby I](https://en.wikipedia.org/wiki/Abraham_Darby_I) — consultata il 11/09/2026
+- [Steam engine](https://en.wikipedia.org/wiki/Steam_engine) — consultata il 11/09/2026
+- [Carbon steel](https://en.wikipedia.org/wiki/Carbon_steel) — consultata il 11/09/2026
+- [Davy lamp](https://en.wikipedia.org/wiki/Davy_lamp) — consultata il 11/09/2026
+- [Incandescent light bulb](https://en.wikipedia.org/wiki/Incandescent_light_bulb) — consultata il 11/09/2026
+- [Willard Libby](https://en.wikipedia.org/wiki/Willard_Libby) — consultata il 11/09/2026
+- [Radiocarbon dating](https://en.wikipedia.org/wiki/Radiocarbon_dating) — consultata il 11/09/2026
+- [Bomb pulse](https://en.wikipedia.org/wiki/Bomb_pulse) — consultata il 11/09/2026
+- [Buckminsterfullerene](https://en.wikipedia.org/wiki/Buckminsterfullerene) — consultata il 11/09/2026
+- [Carbon nanotube](https://en.wikipedia.org/wiki/Carbon_nanotube) — consultata il 11/09/2026
+- [Graphene](https://en.wikipedia.org/wiki/Graphene) — consultata il 11/09/2026
+- [Andre Geim](https://en.wikipedia.org/wiki/Andre_Geim) — consultata il 11/09/2026
+- [Synthetic diamond](https://en.wikipedia.org/wiki/Synthetic_diamond) — consultata il 11/09/2026
+- [Triple-alpha process](https://en.wikipedia.org/wiki/Triple-alpha_process) — consultata il 11/09/2026
+- [Fred Hoyle](https://en.wikipedia.org/wiki/Fred_Hoyle) — consultata il 11/09/2026
+- [Svante Arrhenius](https://en.wikipedia.org/wiki/Svante_Arrhenius) — consultata il 11/09/2026
+- [Keeling Curve](https://en.wikipedia.org/wiki/Keeling_Curve) — consultata il 11/09/2026
+- [Carbon dioxide in Earth's atmosphere](https://en.wikipedia.org/wiki/Carbon_dioxide_in_Earth's_atmosphere) — consultata il 11/09/2026
+- [Fossil fuel](https://en.wikipedia.org/wiki/Fossil_fuel) — consultata il 11/09/2026
+- [Carbon cycle](https://en.wikipedia.org/wiki/Carbon_cycle) — consultata il 11/09/2026
+- [Carbon footprint](https://en.wikipedia.org/wiki/Carbon_footprint) — consultata il 11/09/2026
+- [Carbon capture and storage](https://en.wikipedia.org/wiki/Carbon_capture_and_storage) — consultata il 11/09/2026
+- [Carbon monoxide poisoning](https://en.wikipedia.org/wiki/Carbon_monoxide_poisoning) — consultata il 11/09/2026
+- [Chicago Pile-1](https://en.wikipedia.org/wiki/Chicago_Pile-1) — consultata il 11/09/2026
+- [De Beers](https://en.wikipedia.org/wiki/De_Beers) — consultata il 11/09/2026
+- [Cullinan Diamond](https://en.wikipedia.org/wiki/Cullinan_Diamond) — consultata il 11/09/2026
+- [Koh-i-Noor](https://en.wikipedia.org/wiki/Koh-i-Noor) — consultata il 11/09/2026
+- [Blood diamond](https://en.wikipedia.org/wiki/Blood_diamond) — consultata il 11/09/2026
+- [Kimberley Process Certification Scheme](https://en.wikipedia.org/wiki/Kimberley_Process_Certification_Scheme) — consultata il 11/09/2026
 
 ---
 
