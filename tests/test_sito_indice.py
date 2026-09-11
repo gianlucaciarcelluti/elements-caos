@@ -153,7 +153,10 @@ def test_la_sitemap_e_xml_valido_e_completa() -> None:
 
     indirizzi = [u.find(f"{spazio}loc").text for u in radice.findall(f"{spazio}url")]
 
-    assert len(indirizzi) == len(elementi) + len(scopritori) + len(epoche) + 5
+    # Home, cronologia, tavola, attribuzioni, itinerario; più una storia
+    # estesa per ogni elemento che l'ha già scritta (Task 24).
+    estese = sum(1 for e in elementi if e.contenuti_estesi is not None)
+    assert len(indirizzi) == len(elementi) + estese + len(scopritori) + len(epoche) + 5
     assert f"{BASE_URL}/" in indirizzi
     assert all(i.startswith(BASE_URL) for i in indirizzi)
 

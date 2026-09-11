@@ -13,19 +13,25 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from markupsafe import Markup, escape
 
-from elements_caos.models import Elemento, Scopritore, Sezione
+from elements_caos.models import Elemento, Scopritore, Sezione, SezioneEstesa
 from elements_caos.render.atomo_svg import nome_file_atomo
 from elements_caos.render.avvertenza import AVVERTENZA_IA
 from elements_caos.render.diagrammi import Vicini, formatta_anno, preposizione_articolata
 from elements_caos.render.note import (
     ETICHETTE_CATEGORIA,
+    TITOLI_SEZIONE_ESTESA,
     ContestoNota,
     formatta_configurazione_elettronica,
     formatta_decimale,
     formatta_stato_ossidazione,
     kelvin_in_celsius,
 )
-from elements_caos.render.prosa import componi_sezione, conta_parole, tempo_lettura_minuti
+from elements_caos.render.prosa import (
+    componi_sezione,
+    componi_sezione_estesa,
+    conta_parole,
+    tempo_lettura_minuti,
+)
 
 CARTELLA_TEMPLATE = Path(__file__).parent / "templates"
 CARTELLA_STATICI = Path(__file__).parent / "statico"
@@ -251,5 +257,43 @@ def rendi_elemento(contesto: ContestoNota) -> str:
         url_elemento=url_elemento,
         url_approfondimento=url_approfondimento,
         url_scopritore=url_scopritore,
+        url_epoca=url_epoca,
+    )
+
+
+def rendi_approfondimento_sito(contesto: ContestoNota) -> str:
+    """Compone la pagina HTML della storia estesa di un elemento.
+
+    Nasce con il primo approfondimento scritto (Task 24): la scheda vi rimanda
+    già tramite ``url_approfondimento``. Le sezioni vuote non compaiono, come
+    nel vault. Deterministica come le altre pagine.
+    """
+    elemento = contesto.elemento
+    contenuti = elemento.contenuti_estesi
+    if contenuti is None:
+        raise ValueError(
+            f"{elemento.nome}: contenuti_estesi assenti, nessuna storia estesa da emettere"
+        )
+
+    sezioni = [
+        {
+            "titolo": TITOLI_SEZIONE_ESTESA[sezione],
+            "corpo": paragrafi_html(componi_sezione_estesa(contenuti, sezione)),
+        }
+        for sezione in SezioneEstesa
+        if contenuti.beats_per_sezione(sezione)
+    ]
+    parole = conta_parole(" ".join(beat.testo for beat in contenuti.beats) + " " + contenuti.hook)
+
+    modello = ambiente_sito().get_template("approfondimento.html.j2")
+    return modello.render(
+        elemento=elemento,
+        contesto=contesto,
+        hook=contenuti.hook,
+        sezioni=sezioni,
+        minuti=tempo_lettura_minuti(parole),
+        anno_leggibile=formatta_anno(elemento.scoperta.anno),
+        preposizione_del=preposizione_articolata("de", elemento.nome) + elemento.nome.lower(),
+        url_elemento=url_elemento,
         url_epoca=url_epoca,
     )

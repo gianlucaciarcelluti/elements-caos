@@ -5,7 +5,11 @@ si verifica che la pagina di un elemento sia completa, corretta e riproducibile,
 non che sia bella. L'aspetto arriva con l'identità visiva.
 """
 
+import html
+import re
 from pathlib import Path
+
+import pytest
 
 from elements_caos.caricamento import carica_elementi, carica_epoche, carica_scopritori
 from elements_caos.models import Elemento
@@ -13,6 +17,7 @@ from elements_caos.render.note import costruisci_contesto
 from elements_caos.sito.pagina import (
     URL_ELEMENTI,
     paragrafi_html,
+    rendi_approfondimento_sito,
     rendi_elemento,
     slug,
     url_approfondimento,
@@ -445,3 +450,89 @@ def test_lo_script_del_capitolo_esiste_ed_e_collegato() -> None:
     script = (statici / "capitolo.js").read_text(encoding="utf-8")
     assert "prefers-reduced-motion" in script
     assert "IntersectionObserver" in script
+
+
+# --- La storia estesa nel sito (Task 24, Step 6) --------------------------------
+
+
+def _fosforo_con_estesi() -> tuple[Elemento, list[Elemento]]:
+    """Il fosforo di prova con un approfondimento minimo innestato."""
+    from elements_caos.models import BeatEsteso, ContenutiEstesi, SezioneEstesa
+
+    elementi = _elementi()
+    estesi = ContenutiEstesi(
+        hook="Una storia più lunga, che comincia prima di Brand.",
+        beats=[
+            BeatEsteso(id="c1", sezione=SezioneEstesa.CONTESTO, testo="Il Seicento."),
+            BeatEsteso(
+                id="v1",
+                sezione=SezioneEstesa.VICENDA,
+                testo="Brand era un ex soldato.",
+                attendibilita="tradizionale",  # type: ignore[arg-type]
+            ),
+            BeatEsteso(id="e1", sezione=SezioneEstesa.EREDITA, testo="Oggi il fosforo manca."),
+        ],
+    )
+    fosforo = elementi[0].model_copy(update={"contenuti_estesi": estesi})
+    return fosforo, [fosforo, *elementi[1:]]
+
+
+def _storia_estesa_fosforo() -> str:
+    fosforo, elementi = _fosforo_con_estesi()
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+    return rendi_approfondimento_sito(costruisci_contesto(fosforo, elementi, scopritori, epoche))
+
+
+def test_la_storia_estesa_e_un_capitolo_con_le_sue_sezioni() -> None:
+    """Stesso capitolo della scheda: barra, colore d'epoca, sezioni nell'ordine del piano."""
+    pagina = _storia_estesa_fosforo()
+
+    assert "<title>Fosforo — storia estesa</title>" in pagina
+    assert pagina.count("<h1") == 1
+    assert 'class="capitolo epoca--alchimia contesto-epoca"' in pagina
+    assert 'id="capitolo-progresso"' in pagina
+    intestazioni = [html.unescape(h) for h in re.findall(r"<h2>([^<]+)</h2>", pagina)]
+    assert intestazioni[:3] == [
+        "Il contesto scientifico dell'epoca",
+        "La vicenda umana",
+        "L'eredità contemporanea",
+    ]
+    assert "Le controversie" not in pagina
+    assert "<em>Per tradizione:</em> Brand era un ex soldato." in pagina
+
+
+def test_la_storia_estesa_rimanda_alla_scheda_e_porta_l_avvertenza() -> None:
+    pagina = _storia_estesa_fosforo()
+
+    assert 'href="../elementi/fosforo.html"' in pagina
+    assert "intelligenza artificiale" in pagina
+    assert "https://esempio.it/fosforo" in pagina
+
+
+def test_la_storia_estesa_rifiuta_un_elemento_senza_contenuti_estesi() -> None:
+    elementi = _elementi()
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+
+    with pytest.raises(ValueError, match="contenuti_estesi"):
+        rendi_approfondimento_sito(costruisci_contesto(elementi[0], elementi, scopritori, epoche))
+
+
+def test_il_comando_sito_emette_la_storia_estesa_solo_se_scritta(tmp_path: Path) -> None:
+    """Sul dataset di prova nessuna; sul dataset vero, quella del fosforo."""
+    from elements_caos.cli import main
+
+    uscita = tmp_path / "prova"
+    main(["sito", "--dati", str(DATI_PROVA), "--uscita", str(uscita)])
+    assert not (uscita / "elementi" / "fosforo-storia-estesa.html").exists()
+
+    dati_reali = Path(__file__).resolve().parents[1] / "data"
+    uscita_reale = tmp_path / "reale"
+    main(["sito", "--dati", str(dati_reali), "--uscita", str(uscita_reale)])
+    estesa = uscita_reale / "elementi" / "fosforo-storia-estesa.html"
+    assert estesa.is_file()
+    scheda = (uscita_reale / "elementi" / "fosforo.html").read_text(encoding="utf-8")
+    assert "fosforo-storia-estesa.html" in scheda
+    sitemap = (uscita_reale / "sitemap.xml").read_text(encoding="utf-8")
+    assert "elementi/fosforo-storia-estesa.html" in sitemap

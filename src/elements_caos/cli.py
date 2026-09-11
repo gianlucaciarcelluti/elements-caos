@@ -61,7 +61,9 @@ from elements_caos.sito.indice import (
 from elements_caos.sito.itinerario import URL_ITINERARIO, rendi_itinerario_sito
 from elements_caos.sito.pagina import (
     CARTELLA_STATICI,
+    rendi_approfondimento_sito,
     rendi_elemento,
+    url_approfondimento,
     url_elemento,
     url_epoca,
     url_scopritore,
@@ -290,6 +292,12 @@ def genera_sito(cartella_dati: Path, cartella_uscita: Path) -> int:
     for elemento in elementi:
         contesto = costruisci_contesto(elemento, elementi, scopritori, epoche)
         _scrivi(cartella_uscita / url_elemento(elemento), rendi_elemento(contesto))
+        # La storia estesa segue il fatto, come nel vault: solo se scritta.
+        if elemento.contenuti_estesi is not None:
+            _scrivi(
+                cartella_uscita / url_approfondimento(elemento),
+                rendi_approfondimento_sito(contesto),
+            )
         # Lo schema a gusci è l'unica figura della scheda ed è generato da noi:
         # la sua palette è già verificata sui due temi (atomo_svg).
         _scrivi(

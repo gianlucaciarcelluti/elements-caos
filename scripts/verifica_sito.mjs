@@ -46,6 +46,10 @@ const PAGINE = [
   { percorso: "/tavola-periodica.html", nome: "tavola", altezzaMax: 2600 },
   { percorso: "/itinerario.html", nome: "itinerario", altezzaMax: 5400 },
   { percorso: "/elementi/oganesson.html", nome: "elemento", altezzaMax: 8000 },
+  // La storia estesa è un saggio di 7-11 mila parole (Task 24), letto in
+  // tre quarti d'ora: a 390 px sono decine di schermate, di proposito. Il
+  // limite (misurato: 32.000 px a 7.400 parole) copre il massimo del budget.
+  { percorso: "/elementi/fosforo-storia-estesa.html", nome: "storia-estesa", altezzaMax: 50000 },
   { percorso: "/scopritori/hennig-brand.html", nome: "scopritore", altezzaMax: 2600 },
   { percorso: "/epoche/era-nucleare.html", nome: "epoca", altezzaMax: 3400 },
   { percorso: "/404.html", nome: "404", altezzaMax: 2400 },

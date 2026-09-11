@@ -1,0 +1,63 @@
+{% extends "base.html.j2" %}
+{% set radice = "../" %}
+
+{% block titolo %}{{ elemento.nome }} — storia estesa{% endblock %}
+{% block descrizione %}La vicenda completa {{ preposizione_del }}: {{ minuti }} minuti di lettura.{% endblock %}
+{% block testa_extra %}<script src="{{ radice }}statico/capitolo.js" defer></script>{% endblock %}
+
+{% block contenuto %}
+{# La storia estesa è un capitolo lungo: stessa barra fissa e stesso colore
+   d'epoca della scheda, con la sola prosa e il ritorno alla scheda in cima e
+   in fondo. #}
+<article class="capitolo epoca--{{ contesto.epoca.id }} contesto-epoca" id="capitolo" data-minuti="{{ minuti }}">
+
+<div class="capitolo__barra">
+<p class="capitolo__barra-in">
+<span><a href="{{ radice }}{{ url_elemento(elemento) }}">{{ elemento.nome }}</a> · storia estesa · <a href="{{ radice }}{{ url_epoca(contesto.epoca.nome) }}">{{ contesto.epoca.nome }}</a></span>
+<span id="capitolo-lettura">{{ minuti }} min</span>
+</p>
+<div class="progresso" aria-hidden="true"><i id="capitolo-progresso"></i></div>
+</div>
+
+<header class="elemento__testa">
+<p class="elemento__posizione">Storia estesa · {{ contesto.posizione_cronologica }}° elemento scoperto</p>
+<h1 class="elemento__nome">
+{{ elemento.nome }}
+<span class="elemento__simbolo">{{ elemento.simbolo }}</span>
+</h1>
+<p class="elemento__sommario">
+<span>{{ anno_leggibile }}{% if elemento.scoperta.luogo %} · {{ elemento.scoperta.luogo }}{% endif %}</span>
+<span>{{ minuti }} {{ "minuto" if minuti == 1 else "minuti" }} di lettura</span>
+<span><a href="{{ radice }}{{ url_elemento(elemento) }}">← La scheda {{ preposizione_del }}</a></span>
+</p>
+</header>
+
+<p class="elemento__hook">{{ hook }}</p>
+
+{% for sezione in sezioni %}
+<section class="elemento__sezione rivela">
+<h2>{{ sezione.titolo }}</h2>
+{{ sezione.corpo }}
+</section>
+{% endfor %}
+
+<nav class="elemento__catena" aria-label="Per continuare">
+<a class="catena__precedente" href="{{ radice }}{{ url_elemento(elemento) }}">
+<small>← Torna alla scheda</small>
+{{ elemento.nome }}</a>
+<a class="catena__successivo" href="{{ radice }}{{ url_epoca(contesto.epoca.nome) }}">
+<small>L'epoca →</small>
+{{ contesto.epoca.nome }}</a>
+</nav>
+
+<section class="elemento__fonti">
+<h2>Fonti</h2>
+<ul>
+{% for fonte in elemento.fonti %}
+<li><a href="{{ fonte.url }}">{{ fonte.titolo }}</a> — consultata il {{ fonte.consultata.strftime('%d/%m/%Y') }}</li>
+{% endfor %}
+</ul>
+</section>
+
+</article>
+{% endblock %}

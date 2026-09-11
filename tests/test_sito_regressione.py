@@ -73,6 +73,7 @@ def test_lo_script_copre_ogni_tipo_di_pagina() -> None:
         "/tavola-periodica.html",
         "/itinerario.html",
         "/elementi/",
+        "storia-estesa",
         "/scopritori/",
         "/epoche/",
         "/404.html",

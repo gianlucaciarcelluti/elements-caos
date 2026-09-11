@@ -15,7 +15,13 @@ from elements_caos.render.diagrammi import formatta_anno
 from elements_caos.sito.contesto import URL_ATTRIBUZIONI, URL_HOME
 from elements_caos.sito.cronologia import URL_CRONOLOGIA
 from elements_caos.sito.itinerario import URL_ITINERARIO
-from elements_caos.sito.pagina import ambiente_sito, url_elemento, url_epoca, url_scopritore
+from elements_caos.sito.pagina import (
+    ambiente_sito,
+    url_approfondimento,
+    url_elemento,
+    url_epoca,
+    url_scopritore,
+)
 from elements_caos.sito.tavola import URL_TAVOLA
 
 BASE_URL = "https://gianlucaciarcelluti.github.io/elements-caos"
@@ -157,6 +163,9 @@ def rendi_sitemap(
     if tappe:
         indirizzi.append(f"{BASE_URL}/{URL_ITINERARIO}")
     indirizzi.extend(f"{BASE_URL}/{url_elemento(e)}" for e in elementi)
+    indirizzi.extend(
+        f"{BASE_URL}/{url_approfondimento(e)}" for e in elementi if e.contenuti_estesi is not None
+    )
     indirizzi.extend(
         f"{BASE_URL}/{url_scopritore(s)}" for s in sorted(scopritori.values(), key=lambda s: s.nome)
     )
