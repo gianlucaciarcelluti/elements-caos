@@ -8,7 +8,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
 from elements_caos.caricamento import ordina_per_scoperta
-from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Sezione
+from elements_caos.models import Categoria, Elemento, Epoca, Scopritore, Sezione, SezioneEstesa
 from elements_caos.render.atomo_svg import nome_file_atomo
 from elements_caos.render.avvertenza import AVVERTENZA_IA
 from elements_caos.render.diagrammi import (
@@ -20,12 +20,27 @@ from elements_caos.render.diagrammi import (
     diagramma_timeline,
     formatta_anno,
 )
-from elements_caos.render.prosa import componi_sezione, conta_parole, tempo_lettura_minuti
+from elements_caos.render.prosa import (
+    componi_sezione,
+    componi_sezione_estesa,
+    conta_parole,
+    tempo_lettura_minuti,
+)
 
 CARTELLA_TEMPLATE = Path(__file__).parent / "templates"
 
 # Differenza fra la scala Kelvin e la scala Celsius.
 ZERO_ASSOLUTO_CELSIUS = 273.15
+
+# Titoli delle sezioni dell'approfondimento, nell'ordine in cui la nota le
+# dispone: è l'ordine dell'enum, che è quello del piano.
+TITOLI_SEZIONE_ESTESA = {
+    SezioneEstesa.CONTESTO: "Il contesto scientifico dell'epoca",
+    SezioneEstesa.VICENDA: "La vicenda umana",
+    SezioneEstesa.IMPATTO: "L'impatto industriale e sociale",
+    SezioneEstesa.CONTROVERSIE: "Le controversie",
+    SezioneEstesa.EREDITA: "L'eredità contemporanea",
+}
 
 ETICHETTE_CATEGORIA = {
     Categoria.METALLO_ALCALINO: "Metallo alcalino",
@@ -329,3 +344,52 @@ def rendi_nota(contesto: ContestoNota) -> str:
 def nome_file_nota(elemento: Elemento) -> str:
     """Restituisce il nome del file Markdown della nota di un elemento."""
     return f"{elemento.nome}.md"
+
+
+def titolo_approfondimento(elemento: Elemento) -> str:
+    """Titolo della nota estesa: è anche il bersaglio del wikilink nella nota base."""
+    return f"{elemento.nome} — storia estesa"
+
+
+def nome_file_approfondimento(elemento: Elemento) -> str:
+    """Restituisce il nome del file Markdown dell'approfondimento di un elemento."""
+    return f"{titolo_approfondimento(elemento)}.md"
+
+
+def rendi_approfondimento(contesto: ContestoNota) -> str:
+    """Compone la nota estesa di un elemento a partire da ``contenuti_estesi``.
+
+    Le sezioni senza beat non lasciano un'intestazione vuota: non ogni
+    elemento ha controversie da raccontare. Deterministico come la nota base.
+    """
+    elemento = contesto.elemento
+    contenuti = elemento.contenuti_estesi
+    if contenuti is None:
+        raise ValueError(
+            f"{elemento.nome}: contenuti_estesi assenti, nessun approfondimento da rendere"
+        )
+
+    sezioni = [
+        (TITOLI_SEZIONE_ESTESA[sezione], componi_sezione_estesa(contenuti, sezione))
+        for sezione in SezioneEstesa
+    ]
+    parole = sum(conta_parole(testo) for _, testo in sezioni)
+    nomi_scopritori = [scopritore.nome for scopritore in contesto.scopritori]
+
+    tags = [
+        "approfondimento",
+        f"epoca/{elemento.scoperta.epoca}",
+        _tag_periodo_storico(elemento.scoperta.anno),
+    ]
+
+    modello = ambiente_template().get_template("approfondimento.md.j2")
+    return modello.render(
+        elemento=elemento,
+        epoca=contesto.epoca,
+        posizione_cronologica=contesto.posizione_cronologica,
+        tempo_lettura=tempo_lettura_minuti(parole),
+        tags=tags,
+        wikilink_scopritori=[f"[[{nome}]]" for nome in nomi_scopritori],
+        anno_leggibile=formatta_anno(elemento.scoperta.anno),
+        sezioni=sezioni,
+    )

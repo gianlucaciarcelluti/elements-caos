@@ -15,7 +15,7 @@ from elements_caos.caricamento import (
     ordina_per_scoperta,
 )
 from elements_caos.ingest.ritratti import licenza_ammessa
-from elements_caos.models import Sezione
+from elements_caos.models import Sezione, SezioneEstesa
 from elements_caos.render.atomo_svg import nome_file_atomo, rendi_atomo_svg
 from elements_caos.render.navigazione import (
     rendi_attribuzioni,
@@ -24,8 +24,15 @@ from elements_caos.render.navigazione import (
     rendi_scopritore,
     rendi_tavola,
 )
-from elements_caos.render.note import costruisci_contesto, nome_file_nota, rendi_nota
-from elements_caos.render.prosa import componi_sezione
+from elements_caos.render.note import (
+    costruisci_contesto,
+    nome_file_approfondimento,
+    nome_file_nota,
+    rendi_approfondimento,
+    rendi_nota,
+    titolo_approfondimento,
+)
+from elements_caos.render.prosa import componi_sezione, componi_sezione_estesa
 from elements_caos.sito.contesto import (
     URL_ATTRIBUZIONI,
     URL_HOME,
@@ -67,8 +74,11 @@ from elements_caos.sito.reindirizzamenti import (
 from elements_caos.sito.tavola import URL_TAVOLA, rendi_tavola_sito
 from elements_caos.validazione import (
     FONTI_MIN_BASE,
+    FONTI_MIN_ESTESO,
     PAROLE_MAX_BASE,
+    PAROLE_MAX_ESTESO,
     PAROLE_MIN_BASE,
+    PAROLE_MIN_ESTESO,
     Gravita,
     Problema,
     verifica_budget_parole,
@@ -184,12 +194,24 @@ def genera_vault(cartella_dati: Path, cartella_vault: Path) -> int:
     itinerario = carica_itinerario(cartella_dati / "itinerario.yaml")
 
     note_attese: set[str] = set()
+    approfondimenti_attesi: set[str] = set()
     for elemento in elementi:
         contesto = costruisci_contesto(elemento, elementi, scopritori, epoche)
         nome = nome_file_nota(elemento)
         note_attese.add(nome)
         _scrivi(cartella_vault / "Elementi" / nome, rendi_nota(contesto))
+        # L'approfondimento segue il fatto (contenuti_estesi scritti), non
+        # l'intenzione (approfondimento: true): la cartella nasce con il primo
+        # e il vault resta completo anche quando nessuno è ancora stato scritto.
+        if elemento.contenuti_estesi is not None:
+            nome_esteso = nome_file_approfondimento(elemento)
+            approfondimenti_attesi.add(nome_esteso)
+            _scrivi(
+                cartella_vault / "Approfondimenti" / nome_esteso,
+                rendi_approfondimento(contesto),
+            )
     _rimuovi_orfane(cartella_vault / "Elementi", note_attese)
+    _rimuovi_orfane(cartella_vault / "Approfondimenti", approfondimenti_attesi)
 
     epoche_attese: set[str] = set()
     for epoca in epoche.values():
@@ -361,7 +383,21 @@ def valida_vault(cartella_dati: Path, cartella_vault: Path, salta_budget: bool) 
                 )
             )
 
-        if salta_budget or elemento.contenuti is None:
+        # L'approfondimento alza il minimo di fonti: quattro, perché un testo
+        # di quarantacinque minuti non può reggersi sulle due della nota base.
+        # Il controllo porta il nome della nota estesa, così chi legge l'errore
+        # sa quale delle due note dell'elemento lo ha causato.
+        estesi = elemento.contenuti_estesi
+        if estesi is not None and len(elemento.fonti) < FONTI_MIN_ESTESO:
+            problemi.append(
+                Problema(
+                    gravita=Gravita.ERRORE,
+                    contesto=titolo_approfondimento(elemento),
+                    messaggio=(f"{len(elemento.fonti)} fonti, minimo richiesto {FONTI_MIN_ESTESO}"),
+                )
+            )
+
+        if salta_budget:
             continue
 
         # Il budget si misura sulla PROSA REDAZIONALE, cioe' sui beat, non sul
@@ -371,15 +407,29 @@ def valida_vault(cartella_dati: Path, cartella_vault: Path, salta_budget: bool) 
         # E' anche la stessa base su cui il rendering calcola tempo_lettura:
         # le due misure devono coincidere, altrimenti la nota dichiara un tempo
         # e la validazione ne verifica un altro.
-        prosa = "\n\n".join(componi_sezione(elemento.contenuti, sezione) for sezione in Sezione)
-        problemi.extend(
-            verifica_budget_parole(
-                elemento.nome,
-                prosa,
-                PAROLE_MIN_BASE,
-                PAROLE_MAX_BASE,
+        if elemento.contenuti is not None:
+            prosa = "\n\n".join(componi_sezione(elemento.contenuti, sezione) for sezione in Sezione)
+            problemi.extend(
+                verifica_budget_parole(
+                    elemento.nome,
+                    prosa,
+                    PAROLE_MIN_BASE,
+                    PAROLE_MAX_BASE,
+                )
             )
-        )
+
+        if estesi is not None:
+            prosa_estesa = "\n\n".join(
+                componi_sezione_estesa(estesi, sezione) for sezione in SezioneEstesa
+            )
+            problemi.extend(
+                verifica_budget_parole(
+                    titolo_approfondimento(elemento),
+                    prosa_estesa,
+                    PAROLE_MIN_ESTESO,
+                    PAROLE_MAX_ESTESO,
+                )
+            )
 
     errori = [p for p in problemi if p.gravita is Gravita.ERRORE]
     for problema in problemi:

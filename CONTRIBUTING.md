@@ -108,6 +108,19 @@ Non è una formalità di stile: è quello che tiene la nota nel formato «una
 lettura, una sera», ed è la ragione per cui gli elementi che meritano di più
 ottengono un approfondimento separato invece di una nota lunga il doppio.
 
+## Gli approfondimenti
+
+Un elemento con `approfondimento: true` può avere un blocco `contenuti_estesi`,
+con la stessa forma di `contenuti` (un `hook` e i `beats`) ma sezioni proprie:
+`contesto` (il contesto scientifico dell'epoca), `vicenda` (la vicenda umana
+dello scopritore), `impatto` (industriale e sociale), `controversie` ed
+`eredita` (contemporanea). Da quel blocco il generatore produce
+`Approfondimenti/<Nome> — storia estesa.md`, e la nota base vi rimanda.
+
+L'approfondimento sta fra **7000 e 11000 parole** e richiede **almeno quattro
+fonti**; `valida` verifica entrambi. Le sezioni senza beat non compaiono: non
+ogni elemento ha controversie da raccontare.
+
 ## Il requisito delle fonti
 
 **Ogni affermazione dev'essere sostenuta dalla fonte che linki.** Non «una fonte

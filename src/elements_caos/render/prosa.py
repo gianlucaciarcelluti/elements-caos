@@ -7,8 +7,17 @@ percepisce alcuna frammentazione.
 
 import math
 import re
+from collections.abc import Iterable
 
-from elements_caos.models import Attendibilita, Contenuti, Sezione
+from elements_caos.models import (
+    Attendibilita,
+    Beat,
+    BeatEsteso,
+    Contenuti,
+    ContenutiEstesi,
+    Sezione,
+    SezioneEstesa,
+)
 
 # Velocità di lettura media in italiano, usata per stimare il tempo di lettura.
 PAROLE_AL_MINUTO = 230
@@ -35,18 +44,29 @@ def _normalizza(testo: str) -> str:
     return _SPAZI_MULTIPLI.sub(" ", testo).strip()
 
 
-def componi_sezione(contenuti: Contenuti, sezione: Sezione) -> str:
-    """Compone in prosa continua i beat appartenenti alla sezione indicata.
+def _componi_paragrafi(beats: Iterable[Beat | BeatEsteso]) -> str:
+    """Compone in prosa continua una sequenza di beat, uno per paragrafo.
 
-    Ogni beat diventa un paragrafo. I beat la cui attendibilità non è
-    documentata vengono introdotti da una formula di cautela.
+    I beat la cui attendibilità non è documentata vengono introdotti da una
+    formula di cautela. È la regola comune alla nota base e all'approfondimento:
+    cambia la sezione a cui i beat appartengono, non il modo di leggerli.
     """
     paragrafi: list[str] = []
-    for beat in contenuti.beats_per_sezione(sezione):
+    for beat in beats:
         testo = _normalizza(beat.testo)
         formula = FORMULE_CAUTELA.get(beat.attendibilita)
         paragrafi.append(f"{formula} {testo}" if formula else testo)
     return "\n\n".join(paragrafi)
+
+
+def componi_sezione(contenuti: Contenuti, sezione: Sezione) -> str:
+    """Compone in prosa continua i beat della nota base appartenenti alla sezione."""
+    return _componi_paragrafi(contenuti.beats_per_sezione(sezione))
+
+
+def componi_sezione_estesa(contenuti: ContenutiEstesi, sezione: SezioneEstesa) -> str:
+    """Compone in prosa continua i beat dell'approfondimento appartenenti alla sezione."""
+    return _componi_paragrafi(contenuti.beats_per_sezione(sezione))
 
 
 def conta_parole(testo: str) -> int:

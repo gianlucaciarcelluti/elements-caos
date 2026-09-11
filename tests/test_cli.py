@@ -1,9 +1,13 @@
 """Test dell'interfaccia a riga di comando."""
 
 import shutil
+from collections.abc import Callable
+from datetime import date
 from pathlib import Path
+from typing import Any
 
 import pytest
+import yaml
 
 from elements_caos.cli import main
 
@@ -231,3 +235,119 @@ def test_cronologia_senza_itinerario_non_mostra_la_sezione(ambiente: tuple[Path,
     assert codice == 0
     cronologia = (vault / "Cronologia degli elementi.md").read_text(encoding="utf-8")
     assert "Itinerario guidato" not in cronologia
+
+
+# --- Approfondimenti -------------------------------------------------------
+
+
+def _modifica_fosforo(dati: Path, modifica: Callable[[dict[str, Any]], None]) -> None:
+    """Applica una modifica al fosforo di prova passando dal parser YAML."""
+    fosforo = dati / "elements" / "015-fosforo.yaml"
+    documento = yaml.safe_load(fosforo.read_text(encoding="utf-8"))
+    modifica(documento)
+    fosforo.write_text(yaml.safe_dump(documento, allow_unicode=True), encoding="utf-8")
+
+
+def _aggiungi_contenuti_estesi(dati: Path, parole_per_beat: int = 10, beat: int = 4) -> None:
+    """Innesta nel fosforo di prova un blocco ``contenuti_estesi`` di lunghezza controllata."""
+    testo = " ".join(["parola"] * parole_per_beat)
+
+    def _innesta(documento: dict[str, Any]) -> None:
+        documento["contenuti_estesi"] = {
+            "hook": "Una storia più lunga.",
+            "beats": [
+                {"id": f"beat-{i}", "sezione": "contesto", "testo": testo} for i in range(beat)
+            ],
+        }
+
+    _modifica_fosforo(dati, _innesta)
+
+
+def _aggiungi_fonti(dati: Path, quante: int) -> None:
+    """Aggiunge al fosforo di prova il numero richiesto di fonti fittizie."""
+
+    def _innesta(documento: dict[str, Any]) -> None:
+        documento["fonti"].extend(
+            {
+                "url": f"https://esempio.it/extra-{i}",
+                "titolo": f"Fonte extra {i}",
+                "consultata": date(2026, 9, 5),
+            }
+            for i in range(quante)
+        )
+
+    _modifica_fosforo(dati, _innesta)
+
+
+def test_genera_non_crea_approfondimenti_senza_contenuti_estesi(
+    ambiente: tuple[Path, Path],
+) -> None:
+    """``approfondimento: true`` da solo non produce alcuna nota estesa."""
+    dati, vault = ambiente
+
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert not (vault / "Approfondimenti").exists()
+
+
+def test_genera_crea_l_approfondimento_quando_scritto(ambiente: tuple[Path, Path]) -> None:
+    """Con ``contenuti_estesi`` la nota estesa compare in ``Approfondimenti/`` e la
+    nota base la linka; il vault resta integro (nessun wikilink rotto)."""
+    dati, vault = ambiente
+    _aggiungi_contenuti_estesi(dati)
+    _aggiungi_fonti(dati, 2)
+
+    codice = main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert codice == 0
+    estesa = vault / "Approfondimenti" / "Fosforo — storia estesa.md"
+    assert estesa.exists()
+    assert "[[Fosforo — storia estesa]]" in (vault / "Elementi" / "Fosforo.md").read_text(
+        encoding="utf-8"
+    )
+    assert main(["valida", "--dati", str(dati), "--vault", str(vault), "--salta-budget"]) == 0
+
+
+def test_genera_rimuove_gli_approfondimenti_orfani(ambiente: tuple[Path, Path]) -> None:
+    """Un approfondimento che i dati non generano più viene tolto dal vault."""
+    dati, vault = ambiente
+    _aggiungi_contenuti_estesi(dati)
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    orfana = vault / "Approfondimenti" / "Elemento Inventato — storia estesa.md"
+    orfana.write_text("residuo", encoding="utf-8")
+
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    assert not orfana.exists()
+
+
+def test_valida_applica_il_budget_esteso(
+    ambiente: tuple[Path, Path], capsys: pytest.CaptureFixture[str]
+) -> None:
+    """Un approfondimento troppo corto è un errore, con il nome della nota estesa."""
+    dati, vault = ambiente
+    _aggiungi_contenuti_estesi(dati)
+    _aggiungi_fonti(dati, 2)
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    codice = main(["valida", "--dati", str(dati), "--vault", str(vault)])
+
+    uscita = capsys.readouterr().out
+    assert codice == 1
+    assert "Fosforo — storia estesa: 40 parole, sotto il minimo di 7000" in uscita
+
+
+def test_valida_richiede_quattro_fonti_all_approfondimento(
+    ambiente: tuple[Path, Path], capsys: pytest.CaptureFixture[str]
+) -> None:
+    """Con l'approfondimento scritto, le due fonti della nota base non bastano più."""
+    dati, vault = ambiente
+    _aggiungi_contenuti_estesi(dati)
+    main(["genera", "--dati", str(dati), "--vault", str(vault)])
+
+    codice = main(["valida", "--dati", str(dati), "--vault", str(vault), "--salta-budget"])
+
+    uscita = capsys.readouterr().out
+    assert codice == 1
+    assert "Fosforo — storia estesa: 2 fonti, minimo richiesto 4" in uscita

@@ -26,6 +26,22 @@ class Sezione(StrEnum):
     CURIOSITA = "curiosita"
 
 
+class SezioneEstesa(StrEnum):
+    """Sezione dell'approfondimento a cui appartiene un beat narrativo.
+
+    L'approfondimento non replica la struttura della nota base: le sue
+    sezioni (storia, usi, curiosità) descrivono una scheda di cinque minuti,
+    non un saggio di quarantacinque. Le cinque sezioni qui sotto sono quelle
+    del piano, nell'ordine in cui la nota le dispone.
+    """
+
+    CONTESTO = "contesto"  # il contesto scientifico dell'epoca
+    VICENDA = "vicenda"  # la vicenda umana dello scopritore
+    IMPATTO = "impatto"  # l'impatto industriale e sociale
+    CONTROVERSIE = "controversie"
+    EREDITA = "eredita"  # l'eredità contemporanea
+
+
 class Attendibilita(StrEnum):
     """Grado di attendibilità storica di un beat narrativo.
 
@@ -62,18 +78,42 @@ class Categoria(StrEnum):
     ATTINIDE = "attinide"
 
 
-class Beat(BaseModel):
+class _BeatBase(BaseModel):
     """Unità narrativa minima: una sola idea, autonoma e leggibile da sola.
 
     I beat sono concatenati in prosa continua nella nota Markdown. La
     segmentazione resta nei dati per consentire riusi del vault in altri formati.
+
+    La sezione di appartenenza la dichiarano le due classi concrete, perché
+    la nota base e l'approfondimento hanno sezioni diverse e un beat non deve
+    poter finire nella struttura sbagliata.
     """
 
     id: str
-    sezione: Sezione
     testo: str
     visual: str | None = None
     attendibilita: Attendibilita = Attendibilita.DOCUMENTATO
+
+
+class Beat(_BeatBase):
+    """Beat della nota base."""
+
+    sezione: Sezione
+
+
+class BeatEsteso(_BeatBase):
+    """Beat dell'approfondimento."""
+
+    sezione: SezioneEstesa
+
+
+def _verifica_id_univoci(beats: list[Beat] | list[BeatEsteso]) -> None:
+    """Solleva se due beat dello stesso blocco di contenuti condividono l'id."""
+    visti: set[str] = set()
+    for beat in beats:
+        if beat.id in visti:
+            raise ValueError(f"identificativo di beat duplicato: {beat.id!r}")
+        visti.add(beat.id)
 
 
 class Pronuncia(BaseModel):
@@ -94,14 +134,32 @@ class Contenuti(BaseModel):
     @model_validator(mode="after")
     def _verifica_id_beat_univoci(self) -> Self:
         """Verifica che non esistano beat con id duplicato nello stesso elemento."""
-        visti: set[str] = set()
-        for beat in self.beats:
-            if beat.id in visti:
-                raise ValueError(f"identificativo di beat duplicato: {beat.id!r}")
-            visti.add(beat.id)
+        _verifica_id_univoci(self.beats)
         return self
 
     def beats_per_sezione(self, sezione: Sezione) -> list[Beat]:
+        """Restituisce i beat della sezione indicata, nell'ordine dichiarato."""
+        return [beat for beat in self.beats if beat.sezione is sezione]
+
+
+class ContenutiEstesi(BaseModel):
+    """Contenuti dell'approfondimento di un elemento, organizzati in beat.
+
+    Stessa forma dei ``Contenuti`` della nota base — un hook, i beat, le
+    pronunce — ma sui beat dell'approfondimento, che hanno sezioni proprie.
+    """
+
+    hook: str
+    beats: list[BeatEsteso] = Field(default_factory=list)
+    pronuncia: list[Pronuncia] = Field(default_factory=list)
+
+    @model_validator(mode="after")
+    def _verifica_id_beat_univoci(self) -> Self:
+        """Verifica che non esistano beat con id duplicato nello stesso approfondimento."""
+        _verifica_id_univoci(self.beats)
+        return self
+
+    def beats_per_sezione(self, sezione: SezioneEstesa) -> list[BeatEsteso]:
         """Restituisce i beat della sezione indicata, nell'ordine dichiarato."""
         return [beat for beat in self.beats if beat.sezione is sezione]
 
@@ -179,7 +237,7 @@ class Elemento(BaseModel):
     proprieta: Proprieta
     approfondimento: bool = False
     contenuti: Contenuti | None = None
-    contenuti_estesi: Contenuti | None = None
+    contenuti_estesi: ContenutiEstesi | None = None
     composti_principali: list[Composto] = Field(default_factory=list)
     fonti: list[Fonte] = Field(default_factory=list)
 

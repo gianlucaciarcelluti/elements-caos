@@ -1,0 +1,40 @@
+---
+titolo: {{ elemento.nome }} — storia estesa
+tipo: approfondimento
+elemento: {{ elemento.nome }}
+simbolo: {{ elemento.simbolo }}
+numero_atomico: {{ elemento.numero_atomico }}
+anno_scoperta: {{ elemento.scoperta.anno }}
+epoca: {{ epoca.nome }}
+posizione_cronologica: {{ posizione_cronologica }}
+tempo_lettura: {{ tempo_lettura }}
+tags: [{{ tags | join(', ') }}]
+---
+
+# {{ elemento.nome }} — storia estesa
+
+> [!abstract] Approfondimento di [[{{ elemento.nome }}]] — {{ posizione_cronologica }}° elemento scoperto, {{ anno_leggibile }}
+> {{ elemento.contenuti_estesi.hook }}
+
+{% for titolo, testo in sezioni %}
+{% if testo %}
+## {{ titolo }}
+
+{{ testo }}
+
+{% endif %}
+{% endfor %}
+## Per continuare
+
+← Torna a [[{{ elemento.nome }}]], la nota base.
+
+Epoca: [[{{ epoca.nome }}]]{% if wikilink_scopritori %} · {{ "Scopritori" if wikilink_scopritori | length > 1 else "Scopritore" }}: {{ wikilink_scopritori | join(', ') }}{% endif %}
+
+
+## Fonti
+
+{% for fonte in elemento.fonti %}
+- [{{ fonte.titolo }}]({{ fonte.url | url_markdown }}) — consultata il {{ fonte.consultata.strftime('%d/%m/%Y') }}
+{% endfor %}
+
+{{ avvertenza_ia }}

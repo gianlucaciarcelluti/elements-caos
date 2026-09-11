@@ -8,13 +8,16 @@ from pydantic import ValidationError
 from elements_caos.models import (
     Attendibilita,
     Beat,
+    BeatEsteso,
     Categoria,
     Contenuti,
+    ContenutiEstesi,
     Elemento,
     Fonte,
     Proprieta,
     Scoperta,
     Sezione,
+    SezioneEstesa,
 )
 
 
@@ -256,4 +259,66 @@ def test_id_beat_duplicati_rifiutati() -> None:
                     attendibilita=Attendibilita.DOCUMENTATO,
                 ),
             ],
+        )
+
+
+def test_contenuti_estesi_usano_sezioni_proprie() -> None:
+    """L'approfondimento ha una struttura sua, non quella della nota base.
+
+    Le sezioni della nota base (storia, usi, curiosità) non descrivono un
+    testo di quarantacinque minuti: l'approfondimento si articola in contesto
+    scientifico dell'epoca, vicenda umana, impatto, controversie ed eredità.
+    """
+    contenuti = ContenutiEstesi(
+        hook="Un approfondimento.",
+        beats=[
+            BeatEsteso(id="c1", sezione=SezioneEstesa.CONTESTO, testo="Primo."),
+            BeatEsteso(id="v1", sezione=SezioneEstesa.VICENDA, testo="Secondo."),
+            BeatEsteso(id="c2", sezione=SezioneEstesa.CONTESTO, testo="Terzo."),
+        ],
+    )
+    assert [b.id for b in contenuti.beats_per_sezione(SezioneEstesa.CONTESTO)] == ["c1", "c2"]
+    assert [s.value for s in SezioneEstesa] == [
+        "contesto",
+        "vicenda",
+        "impatto",
+        "controversie",
+        "eredita",
+    ]
+
+
+def test_beat_esteso_rifiuta_le_sezioni_della_nota_base() -> None:
+    """Una sezione della nota base dentro l'approfondimento è un errore di dati."""
+    with pytest.raises(ValidationError, match="sezione"):
+        BeatEsteso(id="x", sezione="storia", testo="Fuori posto.")  # type: ignore[arg-type]
+
+
+def test_id_beat_estesi_duplicati_rifiutati() -> None:
+    """La regola degli id univoci vale anche per l'approfondimento."""
+    with pytest.raises(ValidationError, match="duplicat"):
+        ContenutiEstesi(
+            hook="Test.",
+            beats=[
+                BeatEsteso(id="stesso", sezione=SezioneEstesa.CONTESTO, testo="Primo."),
+                BeatEsteso(id="stesso", sezione=SezioneEstesa.VICENDA, testo="Secondo."),
+            ],
+        )
+
+
+def test_contenuti_estesi_dell_elemento_sono_del_tipo_esteso() -> None:
+    """``contenuti_estesi`` accetta solo la struttura dell'approfondimento."""
+    with pytest.raises(ValidationError, match="sezione"):
+        Elemento(
+            numero_atomico=15,
+            simbolo="P",
+            nome="Fosforo",
+            nome_en="Phosphorus",
+            scoperta=_scoperta_valida(),
+            proprieta=_proprieta_valide(),
+            approfondimento=True,
+            contenuti_estesi={  # type: ignore[arg-type]
+                "hook": "x",
+                "beats": [{"id": "b", "sezione": "storia", "testo": "y"}],
+            },
+            fonti=[],
         )

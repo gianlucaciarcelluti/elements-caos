@@ -7,14 +7,16 @@ import pytest
 import yaml
 
 from elements_caos.caricamento import carica_elementi, carica_epoche, carica_scopritori
-from elements_caos.models import Contenuti, Elemento
+from elements_caos.models import BeatEsteso, ContenutiEstesi, Elemento, SezioneEstesa
 from elements_caos.render.note import (
     _tag_periodo_storico,
     costruisci_contesto,
     formatta_configurazione_elettronica,
     formatta_decimale,
     kelvin_in_celsius,
+    nome_file_approfondimento,
     nome_file_nota,
+    rendi_approfondimento,
     rendi_nota,
 )
 
@@ -311,7 +313,7 @@ def test_nota_collega_l_approfondimento_quando_scritto() -> None:
     """
     elementi = carica_elementi(DATI_PROVA / "elements")
     con_estesi = elementi[0].model_copy(
-        update={"contenuti_estesi": Contenuti(hook="Un approfondimento più lungo.")}
+        update={"contenuti_estesi": ContenutiEstesi(hook="Un approfondimento più lungo.")}
     )
     elementi_aggiornati = [con_estesi, *elementi[1:]]
 
@@ -443,3 +445,118 @@ def test_nota_accorda_l_etichetta_degli_scopritori_al_numero() -> None:
 
     assert "· Scopritori: " in nota
     assert "· Scopritore: " not in nota
+
+
+# --- Approfondimento -------------------------------------------------------
+
+
+def _contenuti_estesi_di_prova() -> ContenutiEstesi:
+    """Un approfondimento minimo con un beat per ciascuna sezione tranne le controversie."""
+    return ContenutiEstesi(
+        hook="Una storia più lunga, che comincia prima di Brand.",
+        beats=[
+            BeatEsteso(
+                id="contesto-alchimia",
+                sezione=SezioneEstesa.CONTESTO,
+                testo="Nel Seicento la chimica è ancora alchimia.",
+            ),
+            BeatEsteso(
+                id="vicenda-brand",
+                sezione=SezioneEstesa.VICENDA,
+                testo="Brand era un ex soldato con una moglie ricca.",
+                attendibilita="tradizionale",  # type: ignore[arg-type]
+            ),
+            BeatEsteso(
+                id="impatto-fiammiferi",
+                sezione=SezioneEstesa.IMPATTO,
+                testo="I fiammiferi al fosforo bianco avvelenarono le operaie.",
+            ),
+            BeatEsteso(
+                id="eredita-fertilizzanti",
+                sezione=SezioneEstesa.EREDITA,
+                testo="Oggi il fosforo è un collo di bottiglia dell'agricoltura.",
+            ),
+        ],
+    )
+
+
+def _approfondimento_fosforo() -> str:
+    """Genera l'approfondimento del fosforo innestando i contenuti estesi di prova."""
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    con_estesi = elementi[0].model_copy(update={"contenuti_estesi": _contenuti_estesi_di_prova()})
+    elementi_aggiornati = [con_estesi, *elementi[1:]]
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+    return rendi_approfondimento(
+        costruisci_contesto(con_estesi, elementi_aggiornati, scopritori, epoche)
+    )
+
+
+def test_nome_file_approfondimento() -> None:
+    """Il file dell'approfondimento porta il nome che la nota base linka."""
+    elementi = carica_elementi(DATI_PROVA / "elements")
+
+    assert nome_file_approfondimento(elementi[0]) == "Fosforo — storia estesa.md"
+
+
+def test_approfondimento_ha_frontmatter_di_tipo_approfondimento() -> None:
+    """Il frontmatter distingue l'approfondimento dalla nota base e la richiama."""
+    frontmatter = _frontmatter(_approfondimento_fosforo())
+
+    assert frontmatter["tipo"] == "approfondimento"
+    assert frontmatter["titolo"] == "Fosforo — storia estesa"
+    assert frontmatter["elemento"] == "Fosforo"
+    assert frontmatter["simbolo"] == "P"
+    assert frontmatter["numero_atomico"] == 15
+    assert isinstance(frontmatter["tempo_lettura"], int)
+    assert "approfondimento" in frontmatter["tags"]  # type: ignore[operator]
+
+
+def test_approfondimento_rimanda_alla_nota_base() -> None:
+    """L'approfondimento è una deviazione: si deve poter tornare alla nota base."""
+    nota = _approfondimento_fosforo()
+
+    assert nota.count("[[Fosforo]]") >= 1
+    assert "# Fosforo — storia estesa" in nota
+
+
+def test_approfondimento_dispone_le_sezioni_proprie_e_salta_le_vuote() -> None:
+    """Le cinque sezioni compaiono nell'ordine del piano; una sezione senza beat non lascia
+    un'intestazione vuota (qui le controversie)."""
+    nota = _approfondimento_fosforo()
+
+    intestazioni = [riga for riga in nota.splitlines() if riga.startswith("## ")]
+    assert intestazioni[:4] == [
+        "## Il contesto scientifico dell'epoca",
+        "## La vicenda umana",
+        "## L'impatto industriale e sociale",
+        "## L'eredità contemporanea",
+    ]
+    assert "## Le controversie" not in nota
+    assert "Nel Seicento la chimica è ancora alchimia." in nota
+    assert "*Per tradizione:* Brand era un ex soldato" in nota
+
+
+def test_approfondimento_rifiuta_un_elemento_senza_contenuti_estesi() -> None:
+    """Senza contenuti estesi non c'è nulla da rendere: è un errore del chiamante."""
+    elementi = carica_elementi(DATI_PROVA / "elements")
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+    contesto = costruisci_contesto(elementi[0], elementi, scopritori, epoche)
+
+    with pytest.raises(ValueError, match="contenuti_estesi"):
+        rendi_approfondimento(contesto)
+
+
+def test_approfondimento_riporta_fonti_e_avvertenza() -> None:
+    """Anche l'approfondimento chiude con le fonti e con l'avvertenza sull'IA."""
+    nota = _approfondimento_fosforo()
+
+    assert "## Fonti" in nota
+    assert "https://esempio.it/fosforo" in nota
+    assert "intelligenza artificiale" in nota
+
+
+def test_approfondimento_e_deterministico() -> None:
+    """Stessa proprietà della nota base: byte per byte a parità di dati."""
+    assert _approfondimento_fosforo() == _approfondimento_fosforo()
