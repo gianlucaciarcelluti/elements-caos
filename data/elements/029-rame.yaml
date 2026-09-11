@@ -177,6 +177,903 @@ contenuti:
       rame del mondo antico, tanto che il metallo stesso prese il nome dal luogo.'
     attendibilita: tradizionale
   pronuncia: []
+contenuti_estesi:
+  hook: 'Il rame non ha uno scopritore perché è arrivato prima della scoperta: prima
+    del fuoco che fonde, prima della scrittura, prima dell''idea stessa di metallo.
+    La sua storia è quella di chi l''ha raccolto in un fiume, battuto a freddo, strappato
+    a una montagna svedese, fasciato sotto le navi, teso sotto l''oceano, nazionalizzato
+    con un voto unanime, e di chi ci ha trovato dentro il sangue azzurro dei polpi
+    e i superconduttori.'
+  beats:
+  - id: contesto-prima-della-scoperta
+    sezione: contesto
+    testo: 'Prima del rame l''umanità conosceva due soli metalli, e nessuno dei due
+      le aveva insegnato nulla: l''oro, che si raccoglie e non si trasforma, e il
+      ferro delle meteoriti, che cade dal cielo e non si trova a volerlo. Il rame
+      è il primo metallo che si lascia fare qualcosa. Affiora nativo, in pepite e
+      vene, di un rosa pallido che scurisce in fretta al rosso e poi al nero o al
+      verde; è tenero, fra 2,5 e 3 nella scala di Mohs, e sotto il martello non si
+      spezza ma si stende. La sequenza con cui l''uomo l''ha domato è la stessa ovunque:
+      prima la battitura a freddo, poi la ricottura che gli restituisce la docilità,
+      poi la fusione dal minerale, infine la colata in forma. Quattro gesti, e nessuno
+      di essi ha una data.'
+    attendibilita: documentato
+  - id: contesto-shanidar-e-cayonu
+    sezione: contesto
+    testo: 'Le prime tracce stanno in due luoghi a poche centinaia di chilometri l''uno
+      dall''altro, ai piedi dei monti che chiudono a nord la Mesopotamia. Nella grotta
+      di Shanidar, nel Kurdistan iracheno, perline di rame datate all''8700 avanti
+      Cristo; a Çayönü Tepesi, nell''Anatolia sud-orientale, oggetti di rame nativo
+      battuto a freddo fra il 7200 e il 6600, fra cui uno che somiglia a un amo e
+      uno a un punteruolo. Nel 2026 gli scavi di Çayönü hanno restituito qualcosa
+      di più di un oggetto: un''officina di circa cinque metri quadrati, del 6900-6800
+      avanti Cristo, con malachite grezza, semilavorata e finita, perline di rame,
+      un piano di lavoro lastricato e i fori dei pali di una tettoia. Non un ritrovamento
+      occasionale ma un posto dove si lavorava il rame, con un mestiere, nel Neolitico
+      preceramico.'
+    attendibilita: documentato
+  - id: contesto-grandi-laghi
+    sezione: contesto
+    testo: 'Dall''altra parte del mondo, e senza alcun contatto, la stessa cosa succede
+      sui Grandi Laghi. Intorno al lago Superiore il rame nativo affiora in vene pure
+      al novantanove per cento e in pepite nei greti, sull''Isle Royale, sulla penisola
+      di Keweenaw, lungo il fiume Brule; e le popolazioni del periodo arcaico, dal
+      6500 avanti Cristo, lo scaldano, lo ricuociono e lo martellano in punte di lancia,
+      coltelli, punteruoli, asce. Il piombo intrappolato nei sedimenti dei laghi del
+      Michigan dice che l''estrazione era già cominciata verso il 6000. Il cimitero
+      della Old Copper Culture a Oconto, nel Wisconsin, è stato riscoperto nel giugno
+      del 1952 da un ragazzo di tredici anni che giocando in una vecchia cava ha dissotterrato
+      ossa umane. Il rame americano non conosce la fusione: è metallurgia senza forno,
+      per ottomila anni, fino alle lastre dei Mississippiani.'
+    attendibilita: documentato
+  - id: contesto-balcani-fusione
+    sezione: contesto
+    testo: 'Il fuoco arriva nei Balcani. A Pločnik e a Belovode, in Serbia, le scorie
+      e i residui di fusione più antichi che si conoscano risalgono a un periodo fra
+      il 5500 e il 5000 avanti Cristo: sono le genti della cultura di Vinča, che cavano
+      il minerale su larga scala a Rudna Glava e lo fondono. Ma la cosa sorprendente
+      è quanto poco lo facciano. Solo una frazione del minerale estratto diventa metallo,
+      e il metallo diventa ornamenti e ninnoli, non attrezzi: gli attrezzi restano
+      di selce scheggiata, di osso, di corno. Il grosso della malachite, probabilmente,
+      finiva in polvere, per colorare la ceramica o il corpo. La prima fusione della
+      storia non è nata per fare strumenti migliori: è nata, come quasi tutto ciò
+      che conta, per fare cose belle.'
+    attendibilita: documentato
+  - id: contesto-il-nome-di-un-eta
+    sezione: contesto
+    testo: 'Per un secolo gli archeologi hanno litigato su come chiamare quell''epoca
+      in cui si usava il rame ma non ancora il bronzo. La divisione in tre età — pietra,
+      bronzo, ferro — non aveva posto per essa. Negli anni Settanta dell''Ottocento
+      l''ungherese Ferenc Pulszky, davanti ai grandi oggetti di rame del bacino dei
+      Carpazi, propose un''età del rame; nel 1881 John Evans riconobbe che il rame
+      precede quasi sempre il bronzo e ne fece un periodo di transizione; nel 1884
+      Gaetano Chierici la ribattezzò in italiano *eneolitica*, e verso il 1900 molti
+      ripiegarono su *calcolitica*, dal greco *chalkós*, rame, e *líthos*, pietra.
+      Nessun nome ha vinto del tutto, e il concetto stesso ha perso terreno: in alcune
+      regioni l''età del rame coincide con il Neolitico da un capo all''altro. Il
+      rame ha dato il nome a un''età e poi se l''è vista contestare.'
+    attendibilita: documentato
+  - id: contesto-bronzo-per-caso
+    sezione: contesto
+    testo: 'Il bronzo, all''inizio, nessuno l''ha voluto. Il rame fuso da certi minerali
+      dei Balcani, ricchi di silicio e di arsenico, usciva più duro del rame puro
+      senza che nessuno sapesse perché: è il «bronzo naturale», in uso corrente già
+      intorno al 5500 avanti Cristo. Le leghe di rame e arsenico, dal colore argenteo,
+      più resistenti, con un punto di fusione più basso e più facili da lavorare,
+      hanno i primi manufatti conosciuti a Tal-i-Iblis, sull''altopiano iranico, fra
+      il 3800 e il 3400. La lega deliberata con lo stagno — quella che chiamiamo bronzo
+      — arriva circa quattromila anni dopo la scoperta della fusione e duemila dopo
+      il bronzo naturale. Un''età intera prende il nome da una miscela che per due
+      millenni era stata un caso. Ed è nell''età del bronzo, non prima, che compare
+      la scrittura.'
+    attendibilita: documentato
+  - id: contesto-nahal-mishmar
+    sezione: contesto
+    testo: 'Nel 1961 una spedizione guidata da Pessah Bar-Adon trova, in una grotta
+      sul Nahal Mishmar, nel deserto di Giuda vicino al Mar Morto, un fagotto avvolto
+      in una stuoia di paglia e nascosto sotto i detriti di una fessura: quattrocentoquarantadue
+      oggetti, di cui quattrocentoventinove di rame, più sei di ematite, uno di pietra,
+      cinque d''avorio di ippopotamo e uno d''avorio d''elefante. Il carbonio della
+      stuoia li data almeno al 3500 avanti Cristo. Corone, scettri, «bacchette» con
+      teste di capra: nulla di utile, tutto di prezioso. Sembrano raccolti in fretta.
+      Da allora si discute se fossero gli arredi del tempio calcolitico di Ein Gedi,
+      undici chilometri più a sud, seppelliti per non farli profanare, o il magazzino
+      di un mercante. Quel che non si discute è la maestria: a quella data, nel Levante,
+      il rame era già un linguaggio.'
+    attendibilita: documentato
+  - id: contesto-timna
+    sezione: contesto
+    testo: 'Una cosa è raccogliere il rame dove affiora, un''altra scavarlo. La valle
+      di Timna, nel deserto a nord di Eilat, è uno dei luoghi più antichi in cui si
+      sia fatto il secondo: il minerale vi si estrae dal sesto o quinto millennio
+      avanti Cristo, e la miniera vera e propria, non il solo affioramento, dal quarto.
+      Gli egizi vi tenevano un santuario della dea Hathor e portavano a casa il rame
+      per gli ornamenti ma soprattutto per tagliare la pietra: una lama di rame e
+      della sabbia fanno una sega. Beno Rothenberg, che scavò la valle dal 1959 al
+      1990, vi contò diecimila miniere e campi di fusione con forni e incisioni rupestri.
+      Lo Stato d''Israele ha riaperto l''estrazione nel 1955, l''ha chiusa nel 1976
+      e l''ha ripresa nel 1980: la stessa roccia, seimila anni dopo, serve ancora.'
+    attendibilita: documentato
+  - id: contesto-blu-e-venere
+    sezione: contesto
+    testo: 'Il rame è anche il colore del pigmento che si considera il primo mai sintetizzato.
+      Il blu egizio, un silicato di calcio e rame, entra in uso verso il 3250 avanti
+      Cristo e colora per più di tre millenni le ceramiche invetriate d''Egitto; Vitruvio
+      ne dà la ricetta — minerali di rame o bronzo, calce, un fondente come il natron
+      — e la chimica moderna l''ha confermata. Poi, nel quarto secolo dopo Cristo,
+      il segreto si perde. Per i greci è *chalkós*, per i romani *aes*, e quando serve
+      distinguerlo dalle sue leghe *aes Cyprium*, il metallo di Cipro, che si accorcia
+      in *cuprum*. Gli alchimisti lo assegnano a Venere: perché lucido e buono per
+      gli specchi, perché Cipro era sacra ad Afrodite, e perché fra i sette metalli
+      e i sette astri erranti Venere è la più luminosa dopo il Sole e la Luna, come
+      il rame è il più desiderabile dopo l''oro e l''argento.'
+    attendibilita: documentato
+  - id: contesto-uluburun
+    sezione: contesto
+    testo: 'Nell''estate del 1982 un pescatore di spugne di Yalıkavak, Mehmet Çakir,
+      descrive a un archeologo dei «biscotti di metallo con le orecchie» visti sul
+      fondo davanti al capo di Uluburun, in Turchia. Sono lingotti a pelle di bue,
+      e sotto c''è una nave della fine del XIV secolo avanti Cristo. Undici campagne
+      dal 1984 al 1994, ventiduemilaquattrocentotredici immersioni, e un carico che
+      prima si conosceva solo dai testi e dalle pitture delle tombe egizie: dieci
+      tonnellate di rame in trecentocinquantaquattro lingotti a pelle di bue e centoventuno
+      a focaccia, quasi tutto rame di Cipro secondo gli isotopi del piombo, più circa
+      una tonnellata di stagno, la proporzione giusta per undici tonnellate di bronzo.
+      È il carico che le lettere di Amarna elencano fra i doni dei re. Il rame, nel
+      Mediterraneo dell''età del bronzo, viaggiava da sovrano a sovrano.'
+    attendibilita: documentato
+  - id: contesto-great-orme
+    sezione: contesto
+    testo: 'All''altro capo d''Europa, sul promontorio del Great Orme in Galles, quattromila
+      anni fa si apre una miniera che oggi si visita. Si cavava malachite con pietre
+      e attrezzi d''osso, nel calcare; si stima che ne siano uscite fino a millesettecentosessanta
+      tonnellate di rame, abbastanza per circa duemila tonnellate di bronzo. Il periodo
+      migliore va dal 1700 al 1400 avanti Cristo, e verso il 1600 in Britannia non
+      restava aperta nessun''altra miniera di rame: nessuna reggeva il confronto.
+      Ad Alderley Edge, nel Cheshire, il carbonio data l''estrazione fra il 2280 e
+      il 1890. Sono numeri da industria, ottenuti senza metallo negli attrezzi. Chi
+      scavava il rame del Great Orme lo faceva con la pietra, come chi aveva scavato
+      il primo, tremila anni prima, in Anatolia.'
+    attendibilita: documentato
+  - id: contesto-africa-e-ande
+    sezione: contesto
+    testo: 'Che il rame valga meno dell''oro non è una legge di natura. Nell''Africa
+      subsahariana, dalle prime miniere di Agadez intorno al 2000 avanti Cristo fino
+      ai primi dell''Ottocento, il rame fu considerato più prezioso e più prestigioso
+      dell''oro e dell''argento: si scambiava in tutto il continente e aveva funzioni
+      religiose, politiche, sociali, mentre i giacimenti d''oro restarono ignorati
+      fino all''arrivo dei mercanti arabi e portoghesi. Nelle Ande il manufatto più
+      antico è una maschera di rame del 1000 avanti Cristo trovata in Argentina; la
+      metallurgia peruviana comincia verso il 500 e diventa produzione su larga scala
+      con la cultura Sicán, intorno al 900 dopo Cristo. E a Cahokia, sul Mississippi,
+      fra il 1000 e il 1300 si battono lastre di rame dei Grandi Laghi con la tecnica
+      di sempre: martello e ricottura. Ogni continente ha avuto la sua età del rame,
+      e nessuna somiglia all''altra.'
+    attendibilita: documentato
+  - id: vicenda-otzi-il-ritrovamento
+    sezione: vicenda
+    testo: 'Il rame non ha uno scopritore, ma ha un uomo che lo teneva in mano quando
+      è morto. Il 19 settembre 1991 due turisti tedeschi, Helmut ed Erika Simon, vedono
+      un corpo affiorare dal ghiaccio a tremiladuecentodieci metri, nelle Alpi Venoste,
+      sul confine fra Austria e Italia. Nei giorni successivi, mentre il maltempo
+      rimanda il recupero, Reinhold Messner e Hans Kammerlander esaminano i suoi oggetti
+      — vestiti di pelle, contenitori di corteccia di betulla, un''ascia — e Messner,
+      vedendo un disegno dell''ascia, suggerisce che quel morto sia molto più vecchio
+      di quanto si pensa. Viene tolto dal ghiaccio il 23 settembre. È Ötzi, vissuto
+      fra il 3275 e il 3230 avanti Cristo circa, la mummia naturale più antica d''Europa,
+      con una punta di freccia nella spalla sinistra: qualcuno l''ha ucciso. Oggi
+      sta a Bolzano, e con lui la sua ascia.'
+    attendibilita: documentato
+  - id: vicenda-otzi-l-ascia
+    sezione: vicenda
+    testo: 'L''ascia ha un manico di tasso lungo sessanta centimetri, lavorato con
+      cura, con un gomito ad angolo retto in cima; la lama, lunga nove centimetri
+      e mezzo, è rame al 99,7 per cento, ottenuta per colata e mai indurita a martello,
+      incastrata nella forcella del legno e legata con pece di betulla e strisce di
+      cuoio. Il filo sporge dalla legatura e porta i segni di aver tagliato e spaccato:
+      era uno strumento, e un possesso di valore, e un segno di rango. Il dettaglio
+      più sorprendente è venuto nel 2017: benché nelle Alpi si estraesse rame già
+      al tempo di Ötzi, il metallo di quella lama viene dalla Toscana meridionale.
+      Un uomo morto a tremila metri sul confine austriaco impugnava rame che aveva
+      attraversato mezza penisola. Cinquemila anni fa il rame aveva già rotte, e le
+      rotte erano lunghe.'
+    attendibilita: documentato
+  - id: vicenda-falun-la-montagna
+    sezione: vicenda
+    testo: 'A Falun, in Svezia, una montagna di rame ha retto un regno. La si scava
+      dal decimo secolo, di sicuro dal 1080; un documento del 16 giugno 1288 registra
+      la cessione di un ottavo della miniera, ed è il documento in cui si legge per
+      la prima volta una cosa nuova: i minatori liberi ne possedevano quote, in proporzione
+      ai forni che avevano, e quella struttura è l''antenata della società per azioni.
+      La Stora Enso, che ne discende, viene spesso chiamata la società per azioni
+      più antica ancora in attività. Nel Seicento la Grande Montagna di Rame produce
+      fino a due terzi del rame consumato in Europa, con il picco del 1650 sopra le
+      tremila tonnellate; paga le guerre della Svezia potenza, il Consiglio del regno
+      la chiama «il tesoro e la roccaforte della nazione», e la moneta svedese si
+      regge sul rame. Un impero, per un secolo, ha avuto la forma di un buco.'
+    attendibilita: documentato
+  - id: vicenda-falun-il-crollo
+    sezione: vicenda
+    testo: 'Nell''estate del 1687 la montagna comincia a rombare. Il metallo era stato
+      cavato per mezzo millennio senza una mappa d''insieme né un''idea di quanto
+      reggesse la roccia, e la vigilia di mezza estate il diaframma fra i pozzi principali
+      cede: una parte enorme della miniera sprofonda. Nessuno muore, perché quella
+      è una delle due sole giornate dell''anno in cui i minatori non scendono; l''altra
+      è Natale. Il cratere che si apre è la Grande Fossa che si vede oggi. Linneo,
+      che la visitò, descrisse uomini che salivano scale traballanti con il sudore
+      che colava «come acqua da un bagno», e concluse che Falun era «una delle grandi
+      meraviglie della Svezia, ma orribile quanto l''inferno». La miniera sopravvisse
+      al crollo: passò al ferro, al legname, al rosso di Falun, la vernice, perfino
+      a cinque tonnellate d''oro dal 1881. L''ultima mina è esplosa l''8 dicembre
+      1992.'
+    attendibilita: documentato
+  - id: vicenda-rio-tinto
+    sezione: vicenda
+    testo: 'In Andalusia un fiume scorre rosso per cinquanta chilometri, acido, carico
+      di ferro e di metalli, e si chiama per questo Río Tinto. Lungo le sue rive si
+      scava dal 3000 avanti Cristo: tartessi e iberi, poi fenici, greci, romani, visigoti,
+      mori. Abbandonate e riscoperte nel 1556, riaperte dallo Stato spagnolo nel 1724
+      e gestite male, le miniere vanno all''asta il 14 febbraio 1873: le compra per
+      tre milioni e seicentottantamila sterline un sindacato guidato dallo scozzese
+      Hugh Matheson, con la Deutsche Bank al cinquantasei per cento, a un prezzo che
+      poi si giudicò molto sotto il valore e con la rinuncia perpetua della Spagna
+      a ogni diritto sulla produzione. La Rio Tinto Company nasce il 29 marzo; dal
+      1877 al 1891 è il primo produttore di rame del mondo. Il fiume, intanto, è diventato
+      un laboratorio: la sua chimica si confronta con quella delle rocce di Marte.'
+    attendibilita: documentato
+  - id: vicenda-rio-tinto-1888
+    sezione: vicenda
+    testo: 'La compagnia calcinava la pirite all''aria aperta, e i fumi tossici avvelenavano
+      i campi. Contadini e minatori, che di solito stavano su fronti opposti, si ritrovarono
+      insieme, con qualche anarchico locale. Il 4 febbraio 1888 diverse migliaia di
+      persone marciano sul municipio di Riotinto per consegnare al sindaco le loro
+      petizioni; la Guardia Civil, temendo la folla, apre il fuoco: almeno tredici
+      morti e trentacinque feriti. Una protesta di massa contro l''inquinamento, e
+      finisce nel sangue. Il rame moderno comincia così, con una domanda che tornerà
+      identica in Giappone pochi anni dopo e nel Montana un secolo dopo: quanto vale
+      un fiume, quanto valgono i campi, rispetto a ciò che c''è sotto.'
+    attendibilita: documentato
+  - id: vicenda-copperopolis
+    sezione: vicenda
+    testo: 'Per quasi due secoli, dai primi del Settecento alla fine dell''Ottocento,
+      il rame del mondo si fondeva in una valle del Galles. Lungo il fiume Tawe, a
+      Swansea, le fonderie ricevevano minerale dalla Cornovaglia e dal Devon e poi
+      dalle Americhe, dall''Africa, dall''Australia; la città si chiamò Copperopolis,
+      e i suoi fonditori divennero così abili a recuperare oro e argento dai minerali
+      complessi che negli anni Cinquanta dell''Ottocento l''Arizona e nei Sessanta
+      il Colorado spedivano i concentrati fin lì. Uno di quei fonditori, Charles Saint
+      Lambert, portò intorno al 1830 i forni a riverbero in Cile: il rame cileno decollò,
+      dal 1850 al 1870 fu il primo del mondo, in certi anni il sessanta per cento
+      della produzione, e il dazio sulle esportazioni più di metà delle entrate dello
+      Stato. Lambert aveva seminato, in Cile, la rovina della propria fonderia gallese.'
+    attendibilita: documentato
+  - id: vicenda-navi-alarm
+    sezione: vicenda
+    testo: 'Le navi di legno, nei mari caldi, venivano mangiate. La teredine forava
+      lo scafo, le alghe lo rallentavano, e la Royal Navy provava ogni rimedio: catrame,
+      pece, lamine di piombo. Fasciare la carena di rame lo aveva proposto Charles
+      Perry nel 1708, e il Navy Board aveva detto di no per il costo. Nel 1761 la
+      fregata Alarm torna dalle Indie Occidentali in condizioni così pietose che si
+      decide di rivestirle tutto il fondo. Funziona oltre ogni attesa: il rame in
+      acqua di mare forma una pellicola velenosa di ossicloruro che tiene lontani
+      vermi ed erbe, e la nave resta veloce. Ma nel 1766 il rame va tolto, perché
+      i bulloni di ferro dello scafo si stanno sbriciolando: nessuno capisce ancora
+      che due metalli diversi in acqua salata fanno una pila. La chimica che avrebbe
+      spiegato il guasto era di là da venire; la Dolphin, intanto, era già partita
+      fasciata di rame per un viaggio di esplorazione.'
+    attendibilita: documentato
+  - id: vicenda-navi-middleton
+    sezione: vicenda
+    testo: 'La decisione la prese la guerra. Nel 1778 la Francia entra nel conflitto
+      americano contro la Gran Bretagna, nel 1779 la Spagna, nel 1780 l''Olanda: tre
+      rivali insieme, e Charles Middleton, controllore della Marina, scrive che la
+      flotta è «in inferiorità numerica in ogni stazione». Non c''è tempo per costruire
+      navi nuove; c''è il rame, che permette a quelle esistenti di restare in mare
+      molto più a lungo senza tornare in bacino a farsi pulire. Le navi fasciate,
+      ancora mai provate, vincono con Rodney alle Saintes nel 1782; poi i bulloni
+      tornano a corrodersi, finché si trova la lega giusta — rame e zinco — e nel
+      1786 l''Ammiragliato fa ribullonare, a un costo enorme, ogni nave della flotta.
+      I Lloyd''s assicuravano a premio più basso gli scafi fasciati, perché erano
+      i meglio tenuti: da lì viene *copper-bottomed*, che in inglese è rimasto sinonimo
+      di qualità. Il Cutty Sark porta ancora il suo rivestimento di metallo Muntz.'
+    attendibilita: documentato
+  - id: vicenda-michigan
+    sezione: vicenda
+    testo: 'L''industria del rame degli Stati Uniti nasce riscoprendo una delle miniere
+      più antiche del mondo. Nel 1667 il missionario Claude Allouez annota che gli
+      indiani del lago Superiore tengono care le pepite di rame; a Claude Dablon mostrano
+      il masso di Ontonagon, una tonnellata e mezza di rame nativo sulla riva di un
+      fiume. Nel 1841 il rapporto del geologo Douglass Houghton, nel 1843 il trattato
+      di La Pointe, la pubblicità del masso portato a est e un ufficio federale delle
+      terre minerarie a Copper Harbor scatenano la corsa. I cercatori trovano il rame
+      per terra, e i pozzi abbandonati dagli indigeni millenni prima li guidano ai
+      giacimenti migliori: la Cliff, dal 1845, è la prima miniera che rende. Arrivano
+      i minatori della Cornovaglia. Dagli anni Ottanta dell''Ottocento alla Grande
+      Depressione gli Stati Uniti producono da un terzo a metà del rame nuovo del
+      mondo, e il Keweenaw regge finché Butte, con i suoi solfuri, non lo eclissa.'
+    attendibilita: documentato
+  - id: vicenda-butte
+    sezione: vicenda
+    testo: 'Butte, nel Montana, era un campo d''argento quando Marcus Daly ci arrivò
+      nel 1876 per conto dei fratelli Walker. Nel 1880 vende la sua parte e compra
+      con i soldi di Hearst, Haggin e Tevis di San Francisco una miniera che si chiama
+      Anaconda: sotto l''argento c''è rame, e nel giro di pochi anni Butte è il più
+      grande produttore del mondo. L''aria si riempie di fumo solforoso, e Daly sposta
+      la fonderia a trenta miglia, in una città che si chiama Anaconda anche lei;
+      la ciminiera è ancora lì. Nel 1899 si allea con Henry Rogers e William Rockefeller
+      della Standard Oil e crea la Amalgamated Copper, uno dei grandi trust del secolo
+      nuovo; muore l''anno dopo. Nel 1915 la società riprende il nome Anaconda e domina
+      Butte per i settantacinque anni successivi, quarta azienda del mondo alla fine
+      degli anni Venti. Sono gli anni in cui tre uomini — Daly, William Clark, Augustus
+      Heinze — si fanno la guerra per una collina, e li chiamano i Re del Rame.'
+    attendibilita: documentato
+  - id: vicenda-bingham
+    sezione: vicenda
+    testo: 'Nel 1848 due fratelli, Sanford e Thomas Bingham, trovano minerale di rame
+      in un canyon dello Utah e lo dicono a Brigham Young, che consiglia di lasciar
+      perdere: i coloni mormoni devono prima sopravvivere. Quarant''anni dopo Enos
+      Wall lavora concessioni con il due per cento di rame, una miseria per l''epoca;
+      nel 1903 si mette in società con l''ingegnere Daniel Jackling, e nel 1904 Jackling
+      prende la decisione che cambia l''industria: invece di seguire le vene ricche
+      in galleria, sbancare a cielo aperto tutta la montagna povera con pale a vapore
+      e ferrovie. Si scava dal 1906; nel 1912 è «il più grande complesso minerario
+      industriale del mondo». La fossa di Bingham Canyon è oggi profonda più di milleduecento
+      metri e larga quattro chilometri, e ha dato più rame di qualunque altra miniera
+      della storia, oltre diciassette milioni di tonnellate; la possiede la Rio Tinto.
+      Da allora il rame si estrae così, dai porfidi con meno dell''uno per cento,
+      muovendo montagne.'
+    attendibilita: documentato
+  - id: vicenda-chuquicamata
+    sezione: vicenda
+    testo: 'A Chuquicamata, nel deserto cileno a duemilaottocentocinquanta metri,
+      il rame si scava da quando esiste qualcuno che lo scavi. Nel 1899 in un pozzo
+      antico è stato trovato l''Uomo di Rame, un minatore morto intorno al 550 dopo
+      Cristo, intrappolato da un crollo; nel 1536 gli uomini di Diego de Almagro si
+      fecero dare dagli indigeni ferri di cavallo di rame. La miniera moderna nasce
+      nel 1910, quando un ingegnere americano, Bradley, trova il modo di trattare
+      i minerali ossidati poveri e lo propone all''industriale Albert Burrage, che
+      non ha i capitali e va dai Guggenheim: le loro stime parlano di seicentonovanta
+      milioni di tonnellate al 2,58 per cento. Poi arriva la Anaconda, con la città,
+      la centrale a Tocopilla, l''impianto degli ossidi. Nel 1951 un giovane Che Guevara
+      la visita e la descrive nei diari della motocicletta: «una bellezza senza grazia,
+      imponente e glaciale». Dal 2019 la fossa scende sottoterra.'
+    attendibilita: documentato
+  - id: vicenda-cile-il-voto
+    sezione: vicenda
+    testo: 'Il rame, nell''Ottocento, aveva fatto più di metà delle entrate dello
+      Stato cileno; nel Novecento le grandi miniere erano americane. Il processo comincia
+      negli anni Cinquanta con Ibáñez, e alle elezioni del 1970 l''esproprio integrale
+      è uno dei temi centrali: due candidati su tre lo hanno in programma, il terzo
+      vuole una versione negoziata più rapida. Vince Salvador Allende, e all''inizio
+      del 1971 manda al Congresso un emendamento costituzionale che trasferisce allo
+      Stato tutte le miniere, presenti e future. L''11 luglio 1971 il Congresso lo
+      approva all''unanimità — destra, centro e sinistra insieme — e il 16 luglio
+      la legge 17.450 entra in vigore: è il Giorno della Dignità Nazionale. Le tre
+      grandi miniere, Chuquicamata, El Salvador ed El Teniente, appartenevano alla
+      Anaconda e alla Kennecott. Su una cosa sola, in quel paese diviso, erano tutti
+      d''accordo: che il rame fosse cileno.'
+    attendibilita: documentato
+  - id: vicenda-ashio
+    sezione: vicenda
+    testo: 'In Giappone la miniera di Ashio, aperta nel 1610 e subito miniera dello
+      shogunato, passa nel 1877 a Furukawa Ichibei che la modernizza: nel 1884 fa
+      il ventisei per cento del rame giapponese, a fine secolo il quaranta. A valle,
+      lungo il fiume Watarase, i bachi da seta muoiono mangiando le foglie dei gelsi,
+      l''acqua cambia colore, tremila pescatori restano senza pesce, le piene avvelenano
+      e soffocano i raccolti. Shōzō Tanaka, eletto alla Dieta nel 1890, chiede dal
+      1891 di chiudere la miniera; il governo non risponde. Nel 1897 i contadini marciano
+      due volte su Tokyo, quattromila la seconda, e il ministro Enomoto, andato a
+      vedere, istituisce una commissione d''inchiesta, emana la terza ordinanza per
+      la prevenzione dell''inquinamento minerario e si dimette. Tanaka lascia la Dieta
+      e nel 1901 tenta di consegnare una supplica direttamente all''imperatore Meiji:
+      non ci riesce, ma i giornali la pubblicano. La soluzione dello Stato fu un bacino
+      di espansione al posto del villaggio di Yanaka, raso al suolo nel 1907. Oggi
+      è una zona umida protetta; da lì è nato l''ambientalismo giapponese.'
+    attendibilita: documentato
+  - id: vicenda-millardet
+    sezione: vicenda
+    testo: 'La vite europea, nella seconda metà dell''Ottocento, stava morendo di
+      malattie arrivate dall''America insieme ai vitigni importati: la fillossera
+      e, dietro di lei, la peronospora, un fungo che disfa le foglie. Alexis Millardet,
+      professore di botanica a Bordeaux, girando per i vigneti nota che i filari lungo
+      le strade sono sani mentre tutti gli altri sono malati. Chiede in giro: quei
+      filari erano stati spruzzati con solfato di rame e calce per scoraggiare i passanti
+      dal mangiare l''uva, perché la miscela si vede ed è amara. Un rimedio contro
+      i ladri, non contro il fungo. Millardet lo prova a Château Dauzac con Ernest
+      David, il direttore tecnico, e pubblica nel 1885: è la poltiglia bordolese,
+      che si spruzza ancora oggi. In America Latina, dove la United Fruit la usò dal
+      1922 sulle banane, la chiamavano *perico*, pappagallino, perché tingeva di blu
+      i braccianti da capo a piedi.'
+    attendibilita: documentato
+  - id: impatto-un-eta-intera
+    sezione: impatto
+    testo: 'Il rame dà il nome a due età della storia umana, la sua e, in lega con
+      lo stagno, quella del bronzo; il ferro a una sola. Una cultura appartiene all''età
+      del bronzo se fonde il proprio rame e lo lega con stagno o arsenico, oppure
+      se commercia per procurarsi bronzo da chi lo fa: la definizione dice già che
+      il rame creò non solo strumenti ma reti. Nel Vecchio Mondo l''età del bronzo
+      è cominciata quasi ovunque entro il 3000 avanti Cristo — nell''Europa sud-orientale
+      fra il 3700 e il 3300, nel Nord-Ovest verso il 2500 — ed è finita con il ferro,
+      fra il 2000 e il 1000 nel Vicino Oriente, verso il 600 nel Nord Europa. Dentro
+      quei confini nasce la scrittura. E il ferro stesso, probabilmente, è figlio
+      del rame: la fusione dell''uno ha insegnato a fondere l''altro. L''elemento
+      senza scopritore è quello che ha reso possibile scoprire il resto.'
+    attendibilita: documentato
+  - id: impatto-roma
+    sezione: impatto
+    testo: 'Roma pesa il rame prima di contarlo. Dal sesto al terzo secolo avanti
+      Cristo i romani usano come moneta pezzi grezzi di rame, valutati per il metallo
+      che sono; a poco a poco la forma e l''aspetto contano più del peso, e nasce
+      la moneta. Cesare fa coniare le sue in ottone, la lega di rame e zinco che i
+      romani producono di proposito per cementazione dalla calamina; Augusto in leghe
+      di rame, piombo e stagno. Sotto quelle monete c''è un''industria: si stima che
+      l''estrazione e la fusione romane del rame arrivassero a quindicimila tonnellate
+      l''anno, una scala che nessuno raggiungerà più fino alla rivoluzione industriale,
+      con le province più scavate in Hispania, a Cipro e nell''Europa centrale. Il
+      Río Tinto era loro, e le monete di rame sono la parte più piccola di ciò che
+      ne fecero.'
+    attendibilita: documentato
+  - id: impatto-cavo-1858
+    sezione: impatto
+    testo: 'Il rame ha unito i continenti prima di illuminarli. Il cavo transatlantico
+      del 1858 aveva un''anima di sette fili di rame ritorti, quattro strati di guttaperca,
+      canapa catramata e dieci fili d''acciaio. William Thomson, il futuro Lord Kelvin,
+      aveva esaminato nel 1857 di sua iniziativa campioni di quell''anima, tutti nominalmente
+      uguali, e trovato resistenze che variavano fino al doppio: il rame non era abbastanza
+      puro né abbastanza uniforme. Ma la fabbricazione era già avviata, l''elettricista
+      Whitehouse voleva un cavo più sottile e Cyrus Field scelse l''opzione meno cara.
+      Il 16 agosto 1858 la regina Vittoria telegrafa al presidente Buchanan; il segnale
+      peggiora di giorno in giorno, e dopo tre settimane Whitehouse, per farlo andare
+      più in fretta, gli applica una tensione eccessiva e lo brucia. Il primo filo
+      fra Europa e America è morto perché il suo rame non era stato controllato.'
+    attendibilita: documentato
+  - id: impatto-lo-standard
+    sezione: impatto
+    testo: 'La lezione fu imparata. Il cavo del 1866, quello che funzionò, aveva sette
+      fili di rame «molto puro», settantatré chilogrammi per chilometro, e approdò
+      a Heart''s Content, Terranova, per restarci. Da quel momento la purezza del
+      rame è una questione di misura, e nel 1913 la Commissione elettrotecnica internazionale
+      la rende una unità: lo standard IACS fissa la conducibilità del rame commerciale
+      ricotto a 58 milioni di siemens al metro a venti gradi e la chiama cento per
+      cento. Ogni conduttore del mondo si misura da allora in percentuale di rame.
+      La cosa curiosa è che il rame stesso ha superato il proprio standard: la raffinazione
+      è migliorata tanto che il rame elettrolitico di oggi, puro almeno al 99,90 per
+      cento, conduce al 101 per cento IACS. Solo l''argento conduce meglio.'
+    attendibilita: documentato
+  - id: impatto-raffinazione
+    sezione: impatto
+    testo: 'Il rame puro lo fa l''elettricità che lui stesso trasporta. Il metallo
+      che esce dal forno è rame «blister», al 99 per cento, e per un conduttore non
+      basta. Nella cella elettrolitica l''anodo di blister sta in una soluzione di
+      solfato di rame al tre o quattro per cento e acido solforico fra il dieci e
+      il sedici, con una tensione minuscola, fra 0,2 e 0,4 volt: il rame si scioglie
+      all''anodo e si deposita al catodo, puro, mentre ciò che è più nobile di lui
+      — argento, oro, selenio, tellurio — non si scioglie e cade sul fondo come fango
+      anodico, un sottoprodotto che si vende. Il primo impianto moderno è la Norddeutsche
+      Affinerie di Amburgo, dal 1876. Da allora ogni tonnellata di rame elettrico
+      è passata per una vasca dove il rame sporco si scioglie e il rame pulito rinasce,
+      atomo per atomo, dall''altra parte.'
+    attendibilita: documentato
+  - id: impatto-dove-finisce
+    sezione: impatto
+    testo: 'Dove finisce il rame, oggi, lo dicono tre numeri: il sessanta per cento
+      in fili e cavi elettrici, il venti in tetti e tubature, il quindici in macchine
+      industriali; le leghe, bronzo e ottone, che per cinque millenni sono state il
+      rame, valgono ormai il cinque per cento. È il rovescio della storia: il metallo
+      delle asce e delle campane è diventato il metallo che non si vede, chiuso nei
+      muri, negli avvolgimenti dei motori, nelle schede. Resta il conduttore preferito
+      in quasi ogni categoria di impianto, tranne le linee aeree ad alta tensione,
+      dove l''alluminio, più leggero, vince. E due usi antichi resistono: la vernice
+      al rame sotto le barche, erede della fasciatura della Royal Navy, e la pentola
+      di rame in cui gli albumi si montano meglio.'
+    attendibilita: documentato
+  - id: impatto-la-statua
+    sezione: impatto
+    testo: 'La Statua della Libertà è un guscio di rame spesso due millimetri e mezzo.
+      Bartholdi aveva visto sul Lago Maggiore il Sancarlone, ventitré metri di san
+      Carlo Borromeo in lamine di rame sbalzate su un''armatura di ferro, e scelse
+      il rame per la sua Libertà per tre ragioni concrete: costa meno del bronzo e
+      della pietra, pesa meno, si trasporta. Viollet-le-Duc fissò tecnica e materiale
+      — fogli di rame scaldati e battuti con martelli di legno — e Gustave Eiffel
+      disegnò l''ossatura. Quarantasei metri, il doppio del Sancarlone; novantunomila
+      chilogrammi di rame necessari, di cui cinquantottomila donati dall''industriale
+      Eugène Secrétan. Inaugurata il 28 ottobre 1886, la statua è ciò che il rame
+      sa fare: stendersi sottile, prendere forma sotto un martello, e restare.'
+    attendibilita: documentato
+  - id: impatto-la-patina
+    sezione: impatto
+    testo: 'La statua era color rame opaco, e poco dopo il 1900 cominciò a diventare
+      verde. Nel 1902 i giornali ne parlano, nel 1906 la patina la copre tutta, e
+      il Congresso, convinto che sia corrosione, stanzia sessantaduemilaottocento
+      dollari per ridipingerla dentro e fuori. La protesta pubblica è forte, e il
+      Genio dell''esercito studia la patina prima di toccarla: conclude che protegge
+      la pelle di rame, «addolcisce i contorni della statua e la rende bella». La
+      si dipinge solo dentro. È la chimica del rame all''aperto: lo strato verde di
+      carbonati e solfati che si forma in decenni è una corazza, non una ferita, e
+      sotto di esso un tetto di rame in campagna perde meno di quattro decimi di millimetro
+      in duecento anni. Il tetto del duomo di Hildesheim è del 1280 ed è ancora lì;
+      i romani avevano coperto di rame il Pantheon. Il verde è la firma di ciò che
+      dura.'
+    attendibilita: documentato
+  - id: impatto-sangue-azzurro
+    sezione: impatto
+    testo: 'Il rame è entrato nella vita quando la vita ha incontrato l''ossigeno.
+      La facilità con cui passa da Cu(I) a Cu(II) e ritorno ne fa il metallo delle
+      reazioni con l''ossigeno: sta nella citocromo c ossidasi, l''ultima proteina
+      della catena con cui ogni cellula con nucleo respira; nella plastocianina, una
+      proteina blu al centro della fotosintesi; nelle superossido dismutasi che disinnescano
+      i radicali. Un corpo umano ne contiene fra 1,4 e 2,1 milligrammi per chilo.
+      E nei polpi, nelle chiocciole, nei granchi a ferro di cavallo, il rame fa il
+      lavoro che in noi fa il ferro: l''emocianina trasporta l''ossigeno, ed è incolore
+      quando lo lascia e blu quando lo prende, per cui quegli animali hanno il sangue
+      azzurro. Il rame nei molluschi l''aveva rilevato Bartolomeo Bizio nel 1833;
+      la proteina l''ha isolata Léon Fredericq nel 1878, da un polpo comune.'
+    attendibilita: documentato
+  - id: impatto-wilson
+    sezione: impatto
+    testo: 'Il rame che serve alla vita, se non si riesce a espellerlo, uccide. La
+      malattia di Wilson colpisce circa una persona su trentamila: una mutazione del
+      gene ATP7B, ereditata da entrambi i genitori, guasta la proteina che scarica
+      il rame in eccesso nella bile, e il metallo si accumula nel fegato e nel cervello.
+      Il segno che la tradisce è un anello bruno intorno alla cornea, l''anello di
+      Kayser-Fleischer: rame depositato nell''occhio, visibile a chi sa guardare.
+      Samuel Alexander Kinnier Wilson, neurologo, la descrisse nel 1912, cervello
+      e fegato insieme; per oltre quarant''anni si poté solo diagnosticarla, finché
+      nel 1956 John Walshe scoprì che la penicillamina, presa per bocca, chela il
+      rame e lo porta fuori. Oggi si cura con i chelanti, con lo zinco che ne blocca
+      l''assorbimento, e con la dieta: niente pentole di rame, per chi ne ha già troppo.'
+    attendibilita: documentato
+  - id: impatto-burq-e-il-colera
+    sezione: impatto
+    testo: 'Nel 1852, durante un''epidemia di colera, il medico francese Victor Burq
+      si accorse che chi lavorava il rame moriva molto meno degli altri, e passò anni
+      a raccoglierne le prove; nel 1867 le presentò alle Accademie delle scienze e
+      di medicina, sostenendo che portare rame a contatto con la pelle proteggesse
+      dal colera. Aveva ragione sul fatto e non sul perché: l''effetto oligodinamico,
+      la tossicità degli ioni metallici per le cellule viventi anche a concentrazioni
+      bassissime, fu descritto solo nel 1893. Un secolo e mezzo dopo, nel 2008, l''Agenzia
+      per la protezione dell''ambiente degli Stati Uniti ha registrato duecentosettantaquattro
+      leghe di rame come materiali antimicrobici, sulla base di prove che uccidono
+      più del 99,9 per cento dello stafilococco resistente alla meticillina entro
+      due ore. Le maniglie degli ospedali stanno tornando di rame, come le mani degli
+      operai di Burq.'
+    attendibilita: documentato
+  - id: impatto-la-spirale
+    sezione: impatto
+    testo: 'Un uso del rame che nessuna età del bronzo avrebbe immaginato è dentro
+      il corpo delle donne. Nel 1967 l''ostetrico americano Howard Tatum disegna un
+      dispositivo intrauterino di plastica a forma di T, che fallisce nel diciotto
+      per cento dei casi: inutilizzabile. Poco dopo un medico cileno, Jaime Zipper,
+      scopre che l''alpacca — la lega di rame, nichel e zinco — ha un effetto spermicida
+      dovuto al rame che contiene, e avvolge la T in una guaina di rame: il fallimento
+      scende all''uno per cento. I modelli degli anni Settanta, con più superficie
+      di rame, superano stabilmente il novantanove per cento di efficacia; il TCu
+      380A, approvato negli Stati Uniti nel 1984, dura fino a dodici anni ed è ancora
+      il più raccomandato. Nessun ormone, solo ioni di rame: è fra i contraccettivi
+      più efficaci che esistano e il più efficace di quelli d''emergenza.'
+    attendibilita: documentato
+  - id: impatto-berkeley-pit
+    sezione: impatto
+    testo: 'A Butte, dove i Re del Rame si erano fatti la guerra, la Anaconda aprì
+      nel 1955 una fossa a cielo aperto, il Berkeley Pit, lunga un miglio, larga mezzo,
+      profonda cinquecentoquaranta metri. Il 22 aprile 1982 la ARCO, che l''aveva
+      rilevata, la chiuse e spense le pompe della miniera Kelley, millecentocinquanta
+      metri sotto la superficie. L''acqua, che quelle pompe avevano tenuto fuori,
+      cominciò a salire attraverso la roccia, sciogliendone i metalli: oggi il pozzo
+      è pieno per duecentosettanta metri di un''acqua a pH fra 4,1 e 4,5, come la
+      birra o i pomodori, carica di rame, arsenico, cadmio, zinco e acido solforico.
+      Dal 1983 è nella lista Superfund dei siti da bonificare, dal 2019 un impianto
+      la tratta perché non arrivi alla falda. Si può visitare, da una piattaforma
+      panoramica: la vista è il conto del rame.'
+    attendibilita: documentato
+  - id: impatto-il-salario-del-cile
+    sezione: impatto
+    testo: 'Il colpo di Stato del 1973 rovesciò Allende ma non la nazionalizzazione.
+      La giunta di Pinochet, per quanto sostenuta dagli Stati Uniti, tenne le miniere
+      allo Stato e si limitò a pagare alla Anaconda oltre duecentocinquanta milioni
+      di dollari di indennizzo; nel 1976 nacque la Codelco, la Corporación Nacional
+      del Cobre, da ciò che era stato espropriato. È ancora pubblica, per il sentimento
+      popolare e perché rende: paga le imposte, versa tutti i dividendi al governo,
+      aggiunge il dieci per cento sul valore delle esportazioni, e in un anno buono
+      come il 2007 ha girato al Tesoro sette miliardi e quattrocento milioni di dollari.
+      Nel 2025 ha prodotto un milione e trecentotrentaduemila tonnellate, seconda
+      impresa del rame nel mondo, in un paese che da solo fa almeno un terzo del rame
+      mondiale. Il voto unanime del 1971 è sopravvissuto al governo che lo volle e
+      a quello che lo rovesciò.'
+    attendibilita: documentato
+  - id: controversie-shanidar-la-data
+    sezione: controversie
+    testo: Anche il primo oggetto di rame ha due date. Le fonti divulgative italiane,
+      e con esse la scheda base di questo vault, collocano il pendaglio della grotta
+      di Shanidar a circa dodicimila anni fa; la voce inglese di Wikipedia, che cita
+      lo scavo dei Solecki, dà per le perline di rame di Shanidar l'8700 avanti Cristo,
+      cioè circa diecimilasettecento anni fa. Millecinquecento anni di scarto non
+      sono un refuso, e nessuna delle fonti consultate spiega l'altra. Qui si è scelto
+      di non scegliere. La scheda base tiene la data che circola in italiano, dichiarandola
+      approssimativa; questo approfondimento dà quella della fonte inglese; e chi
+      vuole la verità deve andare al rapporto di scavo, che è quello che le date di
+      questo genere chiedono sempre.
+    attendibilita: discusso
+  - id: controversie-dove-nasce-il-fuoco
+    sezione: controversie
+    testo: 'Dove si è fusa la prima volta una roccia per tirarne fuori un metallo?
+      La risposta da manuale era il Vicino Oriente; gli scavi serbi di Pločnik e Belovode,
+      dal 2007, hanno spostato le prove più antiche nei Balcani e anticipato l''età
+      del rame di cinquecento anni, «probabilmente da qualche parte vicino a questa
+      regione», come scrive con prudenza la voce che li descrive. La questione è se
+      la fusione sia stata inventata una volta e diffusa, o inventata più volte. Le
+      date della stessa enciclopedia dicono che almeno fuori dall''Eurasia fu inventata
+      da capo: in Cina prima del 2800 avanti Cristo, in America centrale verso il
+      600 dopo Cristo, in Africa occidentale nel nono o decimo secolo. Se popoli senza
+      contatti ci sono arrivati da soli, la domanda «chi è stato il primo» somiglia
+      sempre di più a una domanda sbagliata, e l''assenza di uno scopritore del rame
+      smette di essere una lacuna.'
+    attendibilita: discusso
+  - id: controversie-otzi-fonditore
+    sezione: controversie
+    testo: 'Chi era l''uomo con l''ascia? Nei suoi capelli si sono trovati livelli
+      alti di rame e di arsenico, e questo, insieme alla lama purissima, ha fatto
+      ipotizzare che Ötzi fondesse rame di mestiere: l''arsenico accompagna spesso
+      i minerali di rame, e le prime leghe erano di rame e arsenico. Ma la stessa
+      voce che riferisce l''ipotesi la chiama «speculazione», e l''ascia dice anche
+      il contrario. Era un possesso di valore e un segno di rango, e il suo rame veniva
+      dalla Toscana meridionale, non dai giacimenti alpini che pure al suo tempo si
+      sfruttavano, e da un fonditore locale ci si aspetterebbe metallo locale. Le
+      letture possibili sono almeno tre — un artigiano del metallo, un uomo importante
+      che lo esibiva, un uomo che portava un bene di scambio — e nessuna esclude le
+      altre. Il rame ci dice da dove veniva l''ascia; su chi la impugnava tace.'
+    attendibilita: discusso
+  - id: controversie-il-regresso-dei-grandi-laghi
+    sezione: controversie
+    testo: 'Sui Grandi Laghi il rame fa una cosa che i modelli del progresso non prevedono:
+      si ritira. Per millenni le genti della Old Copper Culture avevano fatto di rame
+      punte di lancia, coltelli, asce, ami; verso il 1000 avanti Cristo gli oggetti
+      utili spariscono e il metallo si restringe a gioielli e segni di rango. Gli
+      archeologi lo chiamano, con un''espressione che è già un giudizio, «devoluzione
+      tecnomica», e ne discutono la causa. L''ipotesi corrente è sociale: gerarchie
+      più complesse, e il rame che diventa ciò che distingue chi comanda. Un''altra,
+      che dà il titolo a uno studio del 2018, è funzionale: chiedersi se gli attrezzi
+      di rame nativo fossero davvero migliori di quelli di selce. La seconda lettura
+      è scomoda perché suggerisce che il rame sia stato abbandonato per una scelta
+      ragionevole, non per un declino. Nel resto del mondo il rame ha portato al bronzo;
+      qui ha portato agli orecchini, e forse era la scelta giusta.'
+    attendibilita: discusso
+  - id: controversie-cipro-o-rame
+    sezione: controversie
+    testo: 'Che *cuprum* venga da Cipro è certo; da dove venga Cipro, no. L''etimologia
+      del nome dell''isola è sconosciuta e le ipotesi si contraddicono: il cipresso
+      (*kypárissos*), l''albero dell''henné (*kýpros*), oppure una parola eteocipriota
+      per il rame, o ancora le voci sumeriche *zubar*, rame, e *kubar*, bronzo. Se
+      una di queste ultime fosse vera, il cerchio si chiuderebbe in modo curioso:
+      l''isola si chiamerebbe «rame» per i suoi giacimenti, e il rame si chiamerebbe
+      «di Cipro» per l''isola, cioè il metallo avrebbe preso il nome da sé stesso
+      passando per un luogo. È il genere di domanda che i dizionari chiudono con un
+      «forse». Quello che l''inglese *copper*, attestato dal XII secolo, conserva
+      è comunque l''idea romana: non un elemento, ma la roba di cui sono fatte le
+      cose, e il posto da cui arrivava.'
+    attendibilita: discusso
+  - id: controversie-le-miniere-di-salomone
+    sezione: controversie
+    testo: 'Le miniere di re Salomone esistono, o almeno esiste il cartello. Negli
+      anni Trenta l''archeologo americano Nelson Glueck attribuì il rame di Timna
+      a Salomone, decimo secolo avanti Cristo, battezzò «Pilastri di Salomone» le
+      colonne di arenaria della valle e «Miniere di re Salomone» il sito: l''ipotesi
+      non resse, il nome sì. Beno Rothenberg, scavando dal 1959, datò i campi di fusione
+      alla tarda età del bronzo, quattordicesimo-dodicesimo secolo, sulla base del
+      santuario egizio di Hathor, e Salomone uscì di scena. Poi, dal 2009, Erez Ben-Yosef
+      ha ridatato le scorie con il radiocarbonio su campioni a vita breve e con l''archeomagnetismo:
+      l''attività maggiore è dell''undicesimo-nono secolo, cioè proprio l''epoca in
+      cui la Bibbia colloca Davide e Salomone. Solo che i minatori, a quanto pare,
+      erano edomiti, i nemici biblici d''Israele. Glueck aveva sbagliato per la ragione
+      giusta e Rothenberg aveva ragione per il campione sbagliato: il rame di Timna
+      è tornato al decimo secolo, ma non a Salomone.'
+    attendibilita: discusso
+  - id: controversie-il-seggio-di-clark
+    sezione: controversie
+    testo: 'William Andrews Clark voleva essere senatore quanto voleva il rame, e
+      usò il proprio giornale, il *Butte Miner*, per arrivarci. Nel 1899, quando i
+      senatori degli Stati Uniti erano ancora eletti dai parlamenti statali, si scoprì
+      che aveva comprato i voti dei deputati del Montana; il Senato si rifiutò di
+      farlo sedere. Ci riprovò, ce la fece, e servì un solo mandato «senza distinguersi»
+      dal 1901 al 1907. La vicenda dei Re del Rame è istruttiva perché non c''è nulla
+      di eccezionale nel loro metallo: è il denaro del rame che compra legislature,
+      giornali, la scelta della capitale dello Stato, la costruzione di una ferrovia
+      privata per rompere il monopolio di un''altra. Il diciassettesimo emendamento,
+      ratificato nel 1913, tolse l''elezione dei senatori ai parlamenti degli Stati
+      e la diede al voto popolare; la sua storia cita il caso di Clark fra le elezioni
+      «comprate e vendute», pur ricordando chi giudica quel timore esagerato. Il rame
+      di Butte è, in piccola parte, una delle ragioni per cui gli americani votano
+      i loro senatori.'
+    attendibilita: documentato
+  - id: controversie-i-profitti-eccessivi
+    sezione: controversie
+    testo: 'L''unanimità del 1971 finì ai dettagli. L''esproprio doveva pagare le
+      miniere al valore di libro, ma il governo Allende introdusse nel calcolo l''idea
+      dei «profitti eccessivi»: si stabilì che il dodici per cento era il tasso di
+      profitto normale delle compagnie nel mondo, e che sopra quella soglia Anaconda
+      e Kennecott avevano guadagnato in Cile, dal 1955 al 1970, settecentosettantaquattro
+      milioni di dollari. La deduzione superava il valore delle proprietà, e nell''ottobre
+      1971 il Controllore generale stabilì che per Chuquicamata, El Salvador ed El
+      Teniente le compagnie americane non avrebbero ricevuto nulla. Fu la base dichiarata
+      di un boicottaggio economico internazionale che isolò il Cile e aggravò una
+      polarizzazione già estrema. Qui le fonti si dividono su quanto quel conflitto
+      abbia pesato nel colpo di Stato del 1973, e la voce che si cita segnala essa
+      stessa che l''affermazione manca di riferimenti: il nesso è plausibile, non
+      dimostrato. Che il rame fosse al centro, invece, non lo nega nessuno.'
+    attendibilita: discusso
+  - id: controversie-le-oche-di-butte
+    sezione: controversie
+    testo: 'Nel 1996 dal Berkeley Pit furono recuperate trecentoquarantadue carcasse
+      di oche delle nevi. La ARCO, custode del pozzo, negò che fosse stata l''acqua:
+      un''infezione da aspergillo, disse, forse da un fungo del grano, e portò le
+      autopsie di un''università del Colorado; lo Stato del Montana le contestò con
+      le proprie analisi, che mostravano esofagi ustionati e piagati dall''acqua acida
+      e metallica. Vent''anni dopo, il 28 novembre 2016, una tempesta fece posare
+      nel pozzo più di sessantamila oche; si tentò di cacciarle, ne morirono fra tre
+      e quattromila, e il rapporto del Servizio federale per la fauna del 2017 disse
+      quello che nel 1996 era stato negato: erano morte per aver bevuto. Da allora
+      sul bordo del pozzo ci sono macchine del rumore e cannoni a propano, e chi si
+      posa viene cacciato con spari, laser e droni. Il rame ha dato a Butte un secolo
+      di ricchezza e un lago che uccide chi ci si posa; la discussione, ogni volta,
+      è su chi paga.'
+    attendibilita: documentato
+  - id: controversie-il-rame-biologico
+    sezione: controversie
+    testo: 'La poltiglia bordolese pone all''agricoltura biologica una domanda che
+      non ha ancora risolto. È «naturale» nel senso che il rame è un elemento e la
+      calce è calce, e per questo è l''unica sostanza ammessa in biologico che abbia
+      insieme un forte effetto biocida e un ampio spettro d''azione: senza di essa
+      i viticoltori biologici non saprebbero come fare. Ma il rame non si degrada.
+      Spruzzato ogni anno per decenni si accumula nel suolo, avvelena lombrichi, pesci
+      e bestiame, si concentra negli organismi. L''Unione Europea ne limita l''uso
+      in diciotto paesi su ventisette; fra quelli che non lo limitano c''è l''Italia.
+      Un pesticida di centoquarant''anni, scoperto per tenere lontani i ladri d''uva,
+      è oggi il caso più chiaro in cui «biologico» e «innocuo» non sono la stessa
+      parola.'
+    attendibilita: documentato
+  - id: controversie-il-rivale-alluminio
+    sezione: controversie
+    testo: 'Il rame ha un rivale che pesa un terzo e costa meno, e la questione di
+      quando usarlo è stata pagata in incendi. Sulle linee di trasmissione ad alta
+      tensione l''alluminio ha vinto da un secolo: i tralicci reggono metà del peso
+      a parità di corrente. Ma nei primi anni Sessanta, in Nord America, con un boom
+      edilizio e il prezzo del rame alle stelle, si cominciò a cablare intere case
+      con filo di alluminio di grado elettrico, usando prese e interruttori progettati
+      per il rame. L''alluminio si dilata in modo diverso dalla vite d''acciaio che
+      lo stringe, e con le installazioni fatte male i contatti si allentano e scaldano:
+      alla fine del decennio i guasti erano ovunque, e le case bruciavano. La Commissione
+      per la sicurezza dei prodotti lo mise agli atti, e ancora oggi una casa con
+      quel cablaggio fatica a trovare un''assicurazione. Le leghe nuove hanno risolto
+      il problema tecnico; la fiducia, nelle pareti domestiche, è tornata al rame.'
+    attendibilita: documentato
+  - id: eredita-la-transizione
+    sezione: eredita
+    testo: Il metallo dell'età del bronzo è uno di quelli di cui la transizione energetica
+      ha fame. Nel 2024 il mondo ha prodotto circa ventidue milioni e ottocentomila
+      tonnellate di rame; più di metà della domanda è cinese, e la Cina è dal 2008
+      il primo importatore. Ogni cosa che sostituisce un motore a combustione o una
+      caldaia con un filo — un'auto elettrica, una turbina eolica, un pannello, una
+      linea che porta corrente dove prima c'era gas — chiede rame, e le proiezioni
+      danno una domanda cresciuta della metà entro il 2040. Nel maggio 2024 il prezzo
+      alla Borsa dei metalli di Londra ha superato per la prima volta gli undicimila
+      dollari la tonnellata. Il rame è stato per millenni il metallo degli utensili
+      e poi quello dell'elettricità; adesso è il metallo del modo in cui il mondo
+      prova a smettere di bruciare.
+    attendibilita: documentato
+  - id: eredita-quanto-ne-resta
+    sezione: eredita
+    testo: 'Il rame si usa da almeno diecimila anni, ma più del novantacinque per
+      cento di tutto quello mai estratto è uscito dalla terra dopo il 1900. Ce n''è
+      moltissimo — centomila miliardi di tonnellate nel primo chilometro di crosta,
+      cinque milioni di anni al ritmo attuale — e pochissimo che convenga cavare:
+      le stime delle riserve sfruttabili vanno da venticinque a sessanta anni, secondo
+      quanto si suppone che cresca la domanda, e il tenore medio dei minerali è sceso
+      sotto lo 0,6 per cento, sei chili di rame in una tonnellata di roccia. Per questo
+      si guardano i noduli polimetallici sul fondo del Pacifico, fra tremila e seimilacinquecento
+      metri, e per questo il riciclo copre già un terzo della domanda. Il rame si
+      ricicla senza perdere qualità, ed è il terzo metallo più riciclato dopo ferro
+      e alluminio: si stima che l''ottanta per cento di tutto quello mai estratto
+      sia ancora in uso. L''ascia di Ötzi, rifusa, condurrebbe come un filo nuovo.'
+    attendibilita: documentato
+  - id: eredita-i-cuprati
+    sezione: eredita
+    testo: 'Nel 1986 due ricercatori dell''IBM, Georg Bednorz e Alex Müller, trovano
+      che un ossido di lantanio, bario e rame diventa superconduttore a 35 kelvin,
+      ben sopra il record di 23; il Nobel per la fisica arriva l''anno dopo. Poco
+      dopo l''ossido di ittrio, bario e rame — YBCO, «uno-due-tre» dalle proporzioni
+      dei metalli — arriva a 93 kelvin, cioè sopra il punto di ebollizione dell''azoto
+      liquido, ed è la prima volta. Quarant''anni dopo i cuprati sono ancora i superconduttori
+      a temperatura più alta con cui si possano fare fili e magneti, e nessuno sa
+      davvero perché funzionino: la teoria che spiega tutti gli altri qui non basta.
+      Il metallo dei fili è diventato, dentro un ossido, il metallo dei fili senza
+      resistenza.'
+    attendibilita: documentato
+  - id: eredita-superfici-che-uccidono
+    sezione: eredita
+    testo: 'La proprietà che Burq aveva intuito nel colera è diventata un materiale
+      da costruzione. Le duecentosettantaquattro leghe registrate nel 2008 come antimicrobiche
+      — rami, ottoni, bronzi — sono pensate per le «superfici di contatto»: maniglie,
+      corrimano, piani, rubinetterie. Il colibacillo O157, che sull''acciaio inossidabile
+      sopravvive per settimane, sul rame è morto per più del 99,9 per cento in una
+      o due ore; lo stesso vale per lo stafilococco resistente e per il *Clostridioides
+      difficile*, e l''effetto è intrinseco a tutte le leghe provate. Il limite è
+      estetico e culturale: il rame si ossida, si scurisce, e per un secolo l''igiene
+      è stata bianca e lucida. La patina che ha salvato la Statua della Libertà è
+      la stessa che fa sembrare sporca una maniglia pulitissima. Il primo metallo
+      lavorato chiede agli ospedali di cambiare idea su come si vede la pulizia.'
+    attendibilita: documentato
+  - id: eredita-il-cile-oggi
+    sezione: eredita
+    testo: 'Il Cile è ancora il primo produttore di rame del mondo, con almeno un
+      terzo del totale, e fornisce agli Stati Uniti il settanta per cento del rame
+      raffinato che importano. Il tentativo di fare del rame ciò che l''OPEC ha fatto
+      del petrolio — il Consiglio dei paesi esportatori fondato nel 1967 da Cile,
+      Perù, Zaire e Zambia — non ha mai avuto quel peso, anche perché il secondo produttore,
+      gli Stati Uniti, non ne fece parte, e si è sciolto nel 1988: il rame non è mai
+      stato un''arma. Chuquicamata, la fossa che Guevara trovò glaciale, ha cominciato
+      nel 2019 a scendere in galleria, perché a cielo aperto non conviene più; nel
+      2024 ha dato duecentottantanovemila tonnellate, quinta miniera del paese. Il
+      rame che nel 1536 ferrava i cavalli di Almagro regge ancora il Cile, e lo regge
+      da sempre più in profondità.'
+    attendibilita: documentato
+  - id: eredita-il-rame-rubato
+    sezione: eredita
+    testo: 'C''è un indicatore del prezzo del rame che non sta in nessuna borsa: i
+      furti. Quando il metallo sale, spariscono i cavi di terra delle ferrovie, le
+      tubature delle case, le targhe commemorative, le croci dei cimiteri, e il danno
+      è quasi sempre incommensurabile con il bottino. Nel luglio 2013, nella Bassa
+      Austria, centosessanta metri di cavo — duecentocinquanta chili, meno di mille
+      euro al rottamaio — rubati da una sottostazione ferroviaria hanno guastato elettronica
+      per centoquarantamila euro; altrove i treni si fermano, la corrente salta, e
+      chi taglia un cavo sbagliato diventa il percorso più breve verso terra. È l''eredità
+      meno nobile e più precisa del rame: un metallo che vale abbastanza da essere
+      rubato, che non si distingue una volta fuso, e che sta ovunque, a portata di
+      mano, dentro le cose da cui dipendiamo.'
+    attendibilita: documentato
+  - id: eredita-il-rame-nel-piatto
+    sezione: eredita
+    testo: 'A un adulto servono nove decimi di milligrammo di rame al giorno, secondo
+      l''Istituto di medicina americano, e non più di dieci — cinque per l''autorità
+      europea — perché l''intervallo fra necessario e tossico, per questo metallo,
+      è stretto. Lo danno ostriche, fegato, noci del Brasile, melassa, cacao, pepe
+      nero, e una dieta normale lo fornisce senza pensarci: la carenza colpisce i
+      neonati sottopeso, chi ha difetti genetici come la malattia di Menkes, chi non
+      assorbe. È un oligoelemento essenziale per ogni pianta e ogni animale, ma non
+      per tutti i microrganismi, e proprio lì sta la ragione per cui le superfici
+      di rame uccidono i batteri e non noi. Il primo metallo che l''umanità ha lavorato
+      era già dentro di lei, a due milligrammi per chilo, a far respirare le cellule;
+      ci abbiamo messo diecimila anni ad accorgercene, e la prima traccia nota è del
+      1833, in un mollusco.'
+    attendibilita: documentato
+  - id: eredita-i-tetti
+    sezione: eredita
+    testo: 'Il modo più antico di lasciare rame ai posteri è metterlo in alto. Le
+      porte del tempio di Amon-Ra a Karnak erano rivestite di rame; nel terzo secolo
+      avanti Cristo un tempio dello Sri Lanka aveva tegole di rame; il Pantheon nel
+      27 avanti Cristo, una copertura di rame. Il tetto del duomo di Hildesheim, posato
+      nel 1280, è ancora al suo posto; quello di Kronborg, il castello di Amleto,
+      dal 1585. Per secoli il rame fu riservato a chiese, palazzi pubblici, università,
+      perché costava e perché durava: un tetto di rame sopravvive di regola alla struttura
+      che lo regge. I tetti verdi delle città europee vengono da qui, e il verde è
+      anche il colore di una promessa: quando il tetto scenderà, il rame tornerà in
+      fonderia intero, come torna da sempre. Quasi niente di ciò che si costruisce
+      può dire lo stesso.'
+    attendibilita: documentato
+  - id: eredita-nessun-nome
+    sezione: eredita
+    testo: 'Alla fine resta la cosa da cui si è partiti: il rame non ha un nome da
+      ricordare. Ha invece un''officina di cinque metri quadrati scavata nel 2026
+      in Anatolia, dove novemila anni fa qualcuno lavorava la malachite sotto una
+      tettoia; un ragazzo di tredici anni che nel 1952 trova ossa in una cava del
+      Wisconsin; un pescatore di spugne che descrive biscotti con le orecchie; un
+      uomo morto con un''ascia toscana sul confine austriaco; un professore di botanica
+      che chiede perché i filari lungo la strada siano sani. Gli altri elementi hanno
+      una data e una persona, e la loro storia si racconta da lì. Quella del rame
+      si può raccontare solo così, per accumulo, e questo la rende più simile alla
+      storia della tecnica in generale — che raramente ha un inventore e sempre ha
+      molti utenti — di quanto lo sia qualunque scoperta con un nome sopra. Il primo
+      metallo è anche il più onesto sul modo in cui le cose vengono davvero imparate.'
+    attendibilita: documentato
 composti_principali:
 - nome: Solfato di rame
   formula: CuSO4
@@ -200,3 +1097,132 @@ fonti:
 - url: https://www.campanologia.it/contenuto/pagine/02-ARS/ARS-C01-Archeologia-Fusoria/ARS-C01-09-Archeometallurgia-Rame.htm
   titolo: Archeometallurgia del Rame
   consultata: 2026-09-05
+- url: https://en.wikipedia.org/wiki/Native_copper
+  titolo: Native copper
+  consultata: &id001 2026-09-11
+- url: https://en.wikipedia.org/wiki/Copper_extraction
+  titolo: Copper extraction
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Çayönü
+  titolo: Çayönü
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Old_Copper_Complex
+  titolo: Old Copper complex
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Pločnik
+  titolo: Pločnik
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Vinča_culture
+  titolo: Vinča culture
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Chalcolithic
+  titolo: Chalcolithic
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bronze
+  titolo: Bronze
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bronze_Age
+  titolo: Bronze Age
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Nahal_Mishmar_hoard
+  titolo: Nahal Mishmar hoard
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Timna_Valley
+  titolo: Timna Valley
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Uluburun_shipwreck
+  titolo: Uluburun shipwreck
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Great_Orme
+  titolo: Great Orme
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Cyprus
+  titolo: Cyprus
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Egyptian_blue
+  titolo: Egyptian blue
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ötzi
+  titolo: Ötzi
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Falun_Mine
+  titolo: Falun Mine
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Rio_Tinto_(river)
+  titolo: Rio Tinto (river)
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Rio_Tinto_(corporation)
+  titolo: Rio Tinto (corporation)
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Swansea
+  titolo: Swansea
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Copper_sheathing
+  titolo: Copper sheathing
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Copper_mining_in_Michigan
+  titolo: Copper mining in Michigan
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Copper_Kings
+  titolo: Copper Kings
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bingham_Canyon_Mine
+  titolo: Bingham Canyon Mine
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Chuquicamata
+  titolo: Chuquicamata
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Chilean_nationalization_of_copper
+  titolo: Chilean nationalization of copper
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Codelco
+  titolo: Codelco
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ashio_Copper_Mine
+  titolo: Ashio Copper Mine
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bordeaux_mixture
+  titolo: Bordeaux mixture
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable
+  titolo: Transatlantic telegraph cable
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Copper_conductor
+  titolo: Copper conductor
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Statue_of_Liberty
+  titolo: Statue of Liberty
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Copper_in_architecture
+  titolo: Copper in architecture
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hemocyanin
+  titolo: Hemocyanin
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Copper_in_biology
+  titolo: Copper in biology
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Wilson's_disease
+  titolo: Wilson's disease
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Antimicrobial_properties_of_copper
+  titolo: Antimicrobial properties of copper
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Copper_IUD
+  titolo: Copper IUD
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Berkeley_Pit
+  titolo: Berkeley Pit
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Aluminum_building_wiring
+  titolo: Aluminum building wiring
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Cuprate_superconductor
+  titolo: Cuprate superconductor
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Metal_theft
+  titolo: Metal theft
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Seventeenth_Amendment_to_the_United_States_Constitution
+  titolo: Seventeenth Amendment to the United States Constitution
+  consultata: *id001

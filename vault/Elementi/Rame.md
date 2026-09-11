@@ -127,6 +127,9 @@ Il rame è anche un oligoelemento essenziale per il corpo umano: entra in enzimi
 
 *Per tradizione:* Il nome latino "cuprum", da cui deriva il simbolo Cu, viene da "aes cyprium", cioè "metallo di Cipro": l'isola fu per secoli una delle principali fonti di rame del mondo antico, tanto che il metallo stesso prese il nome dal luogo.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Rame — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Carbonio]] (26000 a.C.)
@@ -139,6 +142,49 @@ Epoca: [[Antichità]]
 - [Copper](https://en.wikipedia.org/wiki/Copper) — consultata il 05/09/2026
 - [Il rame, diecimila anni di utilizzi diversi](https://www.meccanicanews.com/2022/10/26/il-rame-diecimila-anni-di-utilizzi-diversi/) — consultata il 05/09/2026
 - [Archeometallurgia del Rame](https://www.campanologia.it/contenuto/pagine/02-ARS/ARS-C01-Archeologia-Fusoria/ARS-C01-09-Archeometallurgia-Rame.htm) — consultata il 05/09/2026
+- [Native copper](https://en.wikipedia.org/wiki/Native_copper) — consultata il 11/09/2026
+- [Copper extraction](https://en.wikipedia.org/wiki/Copper_extraction) — consultata il 11/09/2026
+- [Çayönü](https://en.wikipedia.org/wiki/Çayönü) — consultata il 11/09/2026
+- [Old Copper complex](https://en.wikipedia.org/wiki/Old_Copper_Complex) — consultata il 11/09/2026
+- [Pločnik](https://en.wikipedia.org/wiki/Pločnik) — consultata il 11/09/2026
+- [Vinča culture](https://en.wikipedia.org/wiki/Vinča_culture) — consultata il 11/09/2026
+- [Chalcolithic](https://en.wikipedia.org/wiki/Chalcolithic) — consultata il 11/09/2026
+- [Bronze](https://en.wikipedia.org/wiki/Bronze) — consultata il 11/09/2026
+- [Bronze Age](https://en.wikipedia.org/wiki/Bronze_Age) — consultata il 11/09/2026
+- [Nahal Mishmar hoard](https://en.wikipedia.org/wiki/Nahal_Mishmar_hoard) — consultata il 11/09/2026
+- [Timna Valley](https://en.wikipedia.org/wiki/Timna_Valley) — consultata il 11/09/2026
+- [Uluburun shipwreck](https://en.wikipedia.org/wiki/Uluburun_shipwreck) — consultata il 11/09/2026
+- [Great Orme](https://en.wikipedia.org/wiki/Great_Orme) — consultata il 11/09/2026
+- [Cyprus](https://en.wikipedia.org/wiki/Cyprus) — consultata il 11/09/2026
+- [Egyptian blue](https://en.wikipedia.org/wiki/Egyptian_blue) — consultata il 11/09/2026
+- [Ötzi](https://en.wikipedia.org/wiki/Ötzi) — consultata il 11/09/2026
+- [Falun Mine](https://en.wikipedia.org/wiki/Falun_Mine) — consultata il 11/09/2026
+- [Rio Tinto (river)](https://en.wikipedia.org/wiki/Rio_Tinto_%28river%29) — consultata il 11/09/2026
+- [Rio Tinto (corporation)](https://en.wikipedia.org/wiki/Rio_Tinto_%28corporation%29) — consultata il 11/09/2026
+- [Swansea](https://en.wikipedia.org/wiki/Swansea) — consultata il 11/09/2026
+- [Copper sheathing](https://en.wikipedia.org/wiki/Copper_sheathing) — consultata il 11/09/2026
+- [Copper mining in Michigan](https://en.wikipedia.org/wiki/Copper_mining_in_Michigan) — consultata il 11/09/2026
+- [Copper Kings](https://en.wikipedia.org/wiki/Copper_Kings) — consultata il 11/09/2026
+- [Bingham Canyon Mine](https://en.wikipedia.org/wiki/Bingham_Canyon_Mine) — consultata il 11/09/2026
+- [Chuquicamata](https://en.wikipedia.org/wiki/Chuquicamata) — consultata il 11/09/2026
+- [Chilean nationalization of copper](https://en.wikipedia.org/wiki/Chilean_nationalization_of_copper) — consultata il 11/09/2026
+- [Codelco](https://en.wikipedia.org/wiki/Codelco) — consultata il 11/09/2026
+- [Ashio Copper Mine](https://en.wikipedia.org/wiki/Ashio_Copper_Mine) — consultata il 11/09/2026
+- [Bordeaux mixture](https://en.wikipedia.org/wiki/Bordeaux_mixture) — consultata il 11/09/2026
+- [Transatlantic telegraph cable](https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable) — consultata il 11/09/2026
+- [Copper conductor](https://en.wikipedia.org/wiki/Copper_conductor) — consultata il 11/09/2026
+- [Statue of Liberty](https://en.wikipedia.org/wiki/Statue_of_Liberty) — consultata il 11/09/2026
+- [Copper in architecture](https://en.wikipedia.org/wiki/Copper_in_architecture) — consultata il 11/09/2026
+- [Hemocyanin](https://en.wikipedia.org/wiki/Hemocyanin) — consultata il 11/09/2026
+- [Copper in biology](https://en.wikipedia.org/wiki/Copper_in_biology) — consultata il 11/09/2026
+- [Wilson's disease](https://en.wikipedia.org/wiki/Wilson's_disease) — consultata il 11/09/2026
+- [Antimicrobial properties of copper](https://en.wikipedia.org/wiki/Antimicrobial_properties_of_copper) — consultata il 11/09/2026
+- [Copper IUD](https://en.wikipedia.org/wiki/Copper_IUD) — consultata il 11/09/2026
+- [Berkeley Pit](https://en.wikipedia.org/wiki/Berkeley_Pit) — consultata il 11/09/2026
+- [Aluminum building wiring](https://en.wikipedia.org/wiki/Aluminum_building_wiring) — consultata il 11/09/2026
+- [Cuprate superconductor](https://en.wikipedia.org/wiki/Cuprate_superconductor) — consultata il 11/09/2026
+- [Metal theft](https://en.wikipedia.org/wiki/Metal_theft) — consultata il 11/09/2026
+- [Seventeenth Amendment to the United States Constitution](https://en.wikipedia.org/wiki/Seventeenth_Amendment_to_the_United_States_Constitution) — consultata il 11/09/2026
 
 ---
 
