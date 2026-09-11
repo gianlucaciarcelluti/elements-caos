@@ -16,7 +16,7 @@ from markupsafe import Markup, escape
 from elements_caos.models import Elemento, Scopritore, Sezione
 from elements_caos.render.atomo_svg import nome_file_atomo
 from elements_caos.render.avvertenza import AVVERTENZA_IA
-from elements_caos.render.diagrammi import Vicini, formatta_anno
+from elements_caos.render.diagrammi import Vicini, formatta_anno, preposizione_articolata
 from elements_caos.render.note import (
     ETICHETTE_CATEGORIA,
     ContestoNota,
@@ -61,6 +61,15 @@ def slug(testo: str) -> str:
 def url_elemento(elemento: Elemento) -> str:
     """URL della pagina di un elemento."""
     return f"{URL_ELEMENTI}/{slug(elemento.nome)}.html"
+
+
+def url_approfondimento(elemento: Elemento) -> str:
+    """URL della storia estesa di un elemento (Task 24, Step 6).
+
+    Definito qui perché la scheda vi rimanda già: la pagina nasce con il primo
+    approfondimento scritto, e i due devono concordare sull'indirizzo.
+    """
+    return f"{URL_ELEMENTI}/{slug(elemento.nome)}-storia-estesa.html"
 
 
 def url_scopritore(scopritore: Scopritore) -> str:
@@ -227,8 +236,20 @@ def rendi_elemento(contesto: ContestoNota) -> str:
         dati=dati_elemento(elemento),
         vicini=celle_vicine(contesto.vicini),
         anno_leggibile=formatta_anno(elemento.scoperta.anno),
+        anno_precedente=(
+            formatta_anno(contesto.precedente_cronologico.scoperta.anno)
+            if contesto.precedente_cronologico
+            else ""
+        ),
+        anno_successivo=(
+            formatta_anno(contesto.successivo_cronologico.scoperta.anno)
+            if contesto.successivo_cronologico
+            else ""
+        ),
+        preposizione_del=preposizione_articolata("de", elemento.nome) + elemento.nome.lower(),
         file_atomo=nome_file_atomo(elemento),
         url_elemento=url_elemento,
+        url_approfondimento=url_approfondimento,
         url_scopritore=url_scopritore,
         url_epoca=url_epoca,
     )

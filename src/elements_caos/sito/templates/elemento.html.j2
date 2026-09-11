@@ -3,9 +3,20 @@
 
 {% block titolo %}{{ elemento.nome }}{% endblock %}
 {% block descrizione %}{{ elemento.nome }} ({{ elemento.simbolo }}), {{ contesto.posizione_cronologica }}° elemento scoperto.{% endblock %}
+{% block testa_extra %}<script src="{{ radice }}statico/capitolo.js" defer></script>{% endblock %}
 
 {% block contenuto %}
-<article class="elemento">
+{# La scheda è un capitolo: il racconto entra per primo, i dati si svelano
+   quando servono, e l'epoca dell'elemento è il colore della pagina. #}
+<article class="capitolo epoca--{{ contesto.epoca.id }} contesto-epoca" id="capitolo" data-minuti="{{ minuti }}">
+
+<div class="capitolo__barra">
+<p class="capitolo__barra-in">
+<span><b>{{ contesto.posizione_cronologica }}°</b> elemento scoperto · <a href="{{ radice }}{{ url_epoca(contesto.epoca.nome) }}">{{ contesto.epoca.nome }}</a></span>
+<span id="capitolo-lettura">{{ minuti }} min</span>
+</p>
+<div class="progresso" aria-hidden="true"><i id="capitolo-progresso"></i></div>
+</div>
 
 <header class="elemento__testa">
 <p class="elemento__posizione">{{ contesto.posizione_cronologica }}° elemento scoperto</p>
@@ -14,9 +25,16 @@
 <span class="elemento__simbolo">{{ elemento.simbolo }}</span>
 </h1>
 <p class="elemento__sommario">
-Numero atomico {{ elemento.numero_atomico }} ·
-<a href="{{ radice }}{{ url_epoca(contesto.epoca.nome) }}">{{ contesto.epoca.nome }}</a> ·
-{{ minuti }} {{ "minuto" if minuti == 1 else "minuti" }} di lettura
+<span>Numero atomico {{ elemento.numero_atomico }}</span>
+<span>{{ anno_leggibile }}{% if elemento.scoperta.luogo %} · {{ elemento.scoperta.luogo }}{% endif %}</span>
+{% if contesto.scopritori %}
+<span>
+{% for scopritore in contesto.scopritori %}
+<a href="{{ radice }}{{ url_scopritore(scopritore) }}">{{ scopritore.nome }}</a>{{ ", " if not loop.last }}
+{% endfor %}
+</span>
+{% endif %}
+<span>{{ minuti }} {{ "minuto" if minuti == 1 else "minuti" }} di lettura</span>
 </p>
 </header>
 
@@ -24,43 +42,37 @@ Numero atomico {{ elemento.numero_atomico }} ·
 <p class="elemento__hook">{{ hook }}</p>
 {% endif %}
 
+<div class="elemento__incipit">
 {{ incipit }}
+</div>
 
 {% for sezione in sezioni %}
-<section class="elemento__sezione">
+<section class="elemento__sezione rivela">
 <h2>{{ sezione.titolo }}</h2>
 {{ sezione.corpo }}
 </section>
 {% endfor %}
 
-<section class="elemento__scheda">
-<h2>La scoperta</h2>
-<dl class="dati">
-<div class="dati__voce"><dt>Anno</dt><dd>{{ anno_leggibile }}</dd></div>
-{% if elemento.scoperta.luogo %}
-<div class="dati__voce"><dt>Luogo</dt><dd>{{ elemento.scoperta.luogo }}</dd></div>
+{% if elemento.scoperta.controversia %}
+<aside class="questione rivela">
+<p class="occhiello">Questione aperta</p>
+<p>{{ elemento.scoperta.controversia }}</p>
+</aside>
 {% endif %}
-{% if contesto.scopritori %}
-<div class="dati__voce">
-<dt>{{ "Scopritori" if contesto.scopritori | length > 1 else "Scopritore" }}</dt>
-<dd>
-{% for scopritore in contesto.scopritori %}
-<a href="{{ radice }}{{ url_scopritore(scopritore) }}">{{ scopritore.nome }}</a>{{ ", " if not loop.last }}
-{% endfor %}
-</dd>
-</div>
-{% endif %}
-</dl>
-</section>
 
-<section class="elemento__scheda">
-<h2>Dati</h2>
+{# Da qui in poi i dati: dentro <details>, che funziona senza JavaScript.
+   Chiusi di default è una scelta di lettura — il capitolo finisce con il
+   racconto, e chi vuole i numeri li apre. #}
+<div class="svela-gruppo rivela">
+
+<details class="svela">
+<summary>Dati fisico-chimici <small>svela</small></summary>
 {% include "_dati.html.j2" %}
-</section>
+</details>
 
 {% if vicini %}
-<section class="elemento__scheda">
-<h2>Posizione nella tavola periodica</h2>
+<details class="svela">
+<summary>Posizione nella tavola periodica <small>svela</small></summary>
 {# Griglia in HTML e non un diagramma: il testo resta selezionabile, un
    lettore di schermo lo annuncia e la disposizione si adatta alla larghezza. #}
 <ul class="vicini">
@@ -80,20 +92,20 @@ Numero atomico {{ elemento.numero_atomico }} ·
 <p class="vicini__legenda">
 Sopra e sotto: stesso gruppo. A sinistra e a destra: stesso periodo.
 </p>
-</section>
+</details>
 {% endif %}
 
-<section class="elemento__scheda">
-<h2>Struttura atomica</h2>
+<details class="svela">
+<summary>Struttura atomica <small>svela</small></summary>
 <figure class="atomo">
-<img src="{{ radice }}immagini/{{ file_atomo }}" alt="Schema dei gusci elettronici del {{ elemento.nome | lower }}" width="360" height="360">
+<img src="{{ radice }}immagini/{{ file_atomo }}" alt="Schema dei gusci elettronici del {{ elemento.nome | lower }}" width="360" height="360" loading="lazy">
 <figcaption>Gusci elettronici: {{ elemento.proprieta.gusci | join(", ") }}</figcaption>
 </figure>
-</section>
+</details>
 
 {% if elemento.composti_principali %}
-<section class="elemento__scheda">
-<h2>Composti principali</h2>
+<details class="svela">
+<summary>Composti principali <small>svela</small></summary>
 <ul class="composti">
 {% for composto in elemento.composti_principali %}
 <li class="composti__voce">
@@ -104,17 +116,31 @@ Sopra e sotto: stesso gruppo. A sinistra e a destra: stesso periodo.
 </li>
 {% endfor %}
 </ul>
-</section>
+</details>
+{% endif %}
+
+</div>
+
+{% if elemento.contenuti_estesi %}
+<aside class="approfondimento rivela">
+<p class="occhiello">Storia estesa</p>
+<p><a href="{{ radice }}{{ url_approfondimento(elemento) }}">La vicenda completa {{ preposizione_del }} →</a></p>
+<p class="approfondimento__hook">{{ elemento.contenuti_estesi.hook }}</p>
+</aside>
 {% endif %}
 
 <nav class="elemento__catena" aria-label="Elementi vicini nella cronologia">
 {% if contesto.precedente_cronologico %}
 <a class="catena__precedente" href="{{ radice }}{{ url_elemento(contesto.precedente_cronologico) }}">
-← {{ contesto.precedente_cronologico.nome }}</a>
+<small>← {{ contesto.posizione_cronologica - 1 }}° · {{ anno_precedente }}</small>
+{{ contesto.precedente_cronologico.nome }}</a>
+{% else %}
+<span></span>
 {% endif %}
 {% if contesto.successivo_cronologico %}
 <a class="catena__successivo" href="{{ radice }}{{ url_elemento(contesto.successivo_cronologico) }}">
-{{ contesto.successivo_cronologico.nome }} →</a>
+<small>{{ contesto.posizione_cronologica + 1 }}° · {{ anno_successivo }} →</small>
+{{ contesto.successivo_cronologico.nome }}</a>
 {% endif %}
 </nav>
 

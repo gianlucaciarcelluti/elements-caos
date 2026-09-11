@@ -15,6 +15,7 @@ from elements_caos.sito.pagina import (
     paragrafi_html,
     rendi_elemento,
     slug,
+    url_approfondimento,
     url_elemento,
 )
 
@@ -344,3 +345,103 @@ def test_nessun_diagramma_da_rendere_nel_browser() -> None:
     pagina = _pagina_fosforo()
 
     assert "mermaid" not in pagina.lower()
+
+
+# --- La scheda è un capitolo (Task 36) ----------------------------------------
+
+
+def _pagina_di(elemento: Elemento, elementi: list[Elemento]) -> str:
+    """Rende la pagina di un elemento nel contesto dell'elenco dato."""
+    scopritori = carica_scopritori(DATI_PROVA / "scopritori.yaml")
+    epoche = carica_epoche(DATI_PROVA / "epoche.yaml")
+    return rendi_elemento(costruisci_contesto(elemento, elementi, scopritori, epoche))
+
+
+def test_il_capitolo_porta_il_colore_della_sua_epoca() -> None:
+    """L'articolo dichiara l'epoca e la promuove ad accento della pagina."""
+    pagina = _pagina_fosforo()
+
+    assert 'class="capitolo epoca--alchimia contesto-epoca"' in pagina
+
+
+def test_la_barra_fissa_dice_dove_sei_e_quanto_manca() -> None:
+    """Posizione cronologica, epoca e minuti restano in vista mentre si legge."""
+    pagina = _pagina_fosforo()
+
+    barra = pagina[pagina.index('class="capitolo__barra"') : pagina.index("<h1")]
+    assert "1° elemento scoperto" in barra
+    assert "Alchimia e primo moderno" in barra
+    assert 'id="capitolo-lettura"' in barra
+    assert 'id="capitolo-progresso"' in barra
+
+
+def test_il_racconto_viene_prima_dei_dati() -> None:
+    """Hook, incipit e storia precedono i dati, che si svelano su richiesta."""
+    pagina = _pagina_fosforo()
+
+    assert pagina.index('class="elemento__hook"') < pagina.index("Storia della scoperta")
+    assert pagina.index("Storia della scoperta") < pagina.index("<details")
+    assert "<summary" in pagina
+    dati = pagina[pagina.index("<details") :]
+    assert "<dt>Massa atomica</dt>" in dati
+    assert 'class="atomo"' in dati
+
+
+def test_i_dati_della_scoperta_stanno_sotto_il_titolo() -> None:
+    """Anno, luogo e scopritore sono l'occhiello della scheda, non una sezione a parte."""
+    pagina = _pagina_fosforo()
+
+    testa = pagina[pagina.index("<h1") : pagina.index('class="elemento__hook"')]
+    assert "1669" in testa
+    assert "Amburgo" in testa
+    assert "Hennig Brand" in testa
+    assert "<h2>La scoperta</h2>" not in pagina
+
+
+def test_il_riquadro_della_storia_estesa_segue_il_fatto() -> None:
+    """Compare solo quando l'approfondimento è scritto, e punta al suo URL."""
+    from elements_caos.models import ContenutiEstesi
+
+    elementi = _elementi()
+    assert 'class="approfondimento' not in _pagina_di(elementi[0], elementi)
+
+    con_estesi = elementi[0].model_copy(
+        update={"contenuti_estesi": ContenutiEstesi(hook="La vicenda completa.")}
+    )
+    pagina = _pagina_di(con_estesi, [con_estesi, *elementi[1:]])
+    assert 'class="approfondimento' in pagina
+    assert url_approfondimento(con_estesi) in pagina
+    assert url_approfondimento(con_estesi) == "elementi/fosforo-storia-estesa.html"
+
+
+def test_la_catena_riporta_gli_anni_dei_vicini() -> None:
+    """Precedente e successivo portano l'anno: si vede quanto tempo è passato."""
+    dati_reali = Path(__file__).resolve().parents[1] / "data"
+    elementi = carica_elementi(dati_reali / "elements")
+    scopritori = carica_scopritori(dati_reali / "scopritori.yaml")
+    epoche = carica_epoche(dati_reali / "epoche.yaml")
+    from elements_caos.caricamento import ordina_per_scoperta
+    from elements_caos.render.diagrammi import formatta_anno
+
+    cronologia = ordina_per_scoperta(elementi)
+    indice = next(i for i, e in enumerate(cronologia) if e.simbolo == "P")
+    precedente, successivo = cronologia[indice - 1], cronologia[indice + 1]
+
+    pagina = rendi_elemento(costruisci_contesto(cronologia[indice], elementi, scopritori, epoche))
+
+    catena = pagina[pagina.index('class="elemento__catena"') : pagina.index("</nav>")]
+    assert precedente.nome in catena
+    assert formatta_anno(precedente.scoperta.anno) in catena
+    assert successivo.nome in catena
+    assert formatta_anno(successivo.scoperta.anno) in catena
+
+
+def test_lo_script_del_capitolo_esiste_ed_e_collegato() -> None:
+    """Avanzamento di lettura e rivelazione: migliorie, non condizioni."""
+    pagina = _pagina_fosforo()
+    statici = Path(__file__).resolve().parents[1] / "src" / "elements_caos" / "sito" / "statico"
+
+    assert 'src="../statico/capitolo.js"' in pagina
+    script = (statici / "capitolo.js").read_text(encoding="utf-8")
+    assert "prefers-reduced-motion" in script
+    assert "IntersectionObserver" in script
