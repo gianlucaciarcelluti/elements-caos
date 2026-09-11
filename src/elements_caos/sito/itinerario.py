@@ -44,6 +44,7 @@ def tappe_con_elemento(tappe: list[Tappa], elementi: list[Elemento]) -> list[dic
                 "numero": numero,
                 "tappa": tappa,
                 "elemento": elemento,
+                "epoca": elemento.scoperta.epoca if elemento else None,
                 "minuti": _minuti_elemento(elemento),
                 "url": url_elemento(elemento) if elemento else "",
             }

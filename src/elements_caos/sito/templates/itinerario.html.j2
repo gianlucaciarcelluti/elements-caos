@@ -34,7 +34,7 @@ Lo stato resta nel tuo browser: non viene inviato da nessuna parte.
 
 <ol class="tappe">
 {% for voce in voci %}
-<li class="tappa" id="tappa-{{ voce.numero }}" data-tappa="{{ voce.numero }}">
+<li class="tappa{% if voce.epoca %} epoca--{{ voce.epoca }}{% endif %}" id="tappa-{{ voce.numero }}" data-tappa="{{ voce.numero }}">
 <div class="tappa__testa">
 <span class="tappa__numero">{{ voce.numero }}</span>
 <h2 class="tappa__titolo">{{ voce.tappa.titolo }}</h2>

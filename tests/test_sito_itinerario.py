@@ -101,7 +101,7 @@ def test_la_pagina_e_completa_senza_javascript() -> None:
     """Senza stato salvato si vedono tutte le tappe, non una pagina vuota."""
     pagina = _pagina()
 
-    assert pagina.count('class="tappa"') == 12
+    assert pagina.count('class="tappa ') + pagina.count('class="tappa"') == 12
     assert "Rame" in pagina
     assert "Oganesson" in pagina
 

@@ -8,6 +8,7 @@
 <article class="cronologia">
 
 <header class="cronologia__testa">
+<p class="occhiello">{{ totale }} elementi · in ordine di scoperta</p>
 <h1>La scoperta degli elementi, in ordine di tempo</h1>
 <p class="cronologia__sommario">
 Tutti i {{ totale }} elementi nell'ordine in cui l'umanità li ha incontrati, non
@@ -26,7 +27,7 @@ posto: per cinquant'anni, fra il Seicento e il Settecento, non si scopre nulla.
    testo, un lettore di schermo li annuncia e non serve alcuna libreria. #}
 <dl class="istogramma">
 {% for secchiello in secchielli %}
-<div class="istogramma__barra">
+<div class="istogramma__barra{% if secchiello.epoca %} epoca--{{ secchiello.epoca }}{% endif %}">
 <dt>{{ secchiello.etichetta }}</dt>
 <dd>
 <span class="istogramma__riempimento" style="--quota: {{ (secchiello.quantita / massimo * 100) | round(1) }}%"></span>
@@ -46,8 +47,8 @@ posto: per cinquant'anni, fra il Seicento e il Settecento, non si scopre nulla.
 {% for gruppo in gruppi %}
 <section class="epoca epoca--{{ gruppo.epoca.id }}" id="{{ gruppo.epoca.id }}">
 <header class="epoca__testa">
+<p class="epoca__estremi occhiello"><span class="passo__pallino"></span>{{ gruppo.primo }} — {{ gruppo.ultimo }} · {{ gruppo.elementi | length }} elementi</p>
 <h2><a href="{{ url_epoca(gruppo.epoca.nome) }}">{{ gruppo.epoca.nome }}</a></h2>
-<p class="epoca__estremi">{{ gruppo.primo }} — {{ gruppo.ultimo }} · {{ gruppo.elementi | length }} elementi</p>
 </header>
 {# Pastiglie in griglia e non righe di tabella: a 390 px ne stanno tre per
    riga, e le 118 voci occupano un decimo dello spazio che serviva prima. #}

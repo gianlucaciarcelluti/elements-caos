@@ -53,13 +53,34 @@ def voci_per_epoca(elementi: list[Elemento], epoche: dict[str, Epoca]) -> list[d
     ]
 
 
-def densita_scoperte(elementi: list[Elemento]) -> list[dict[str, Any]]:
+def _epoca_dell_anno(anno: int, epoche: dict[str, Epoca] | None) -> str | None:
+    """L'epoca in cui cade un anno, per colorare la barra del suo periodo.
+
+    Le epoche si toccano (la fine dell'una è l'inizio dell'altra): l'anno di
+    confine appartiene all'epoca che vi inizia. Senza epoche non c'è colore.
+    """
+    if not epoche:
+        return None
+    ordinate = sorted(epoche.values(), key=lambda epoca: epoca.anno_inizio)
+    scelta = ordinate[0]
+    for epoca in ordinate:
+        if epoca.anno_inizio <= anno:
+            scelta = epoca
+    return scelta.id
+
+
+def densita_scoperte(
+    elementi: list[Elemento], epoche: dict[str, Epoca] | None = None
+) -> list[dict[str, Any]]:
     """Conta le scoperte per periodo, per l'istogramma della pagina.
 
     I periodi senza scoperte restano nell'elenco con quantità zero: i vuoti
     sono informazione. Fra il 1675 e il 1725 non si scopre nulla, e comprimere
     quel silenzio darebbe l'impressione di una storia continua, che è
     esattamente il contrario di quello che è successo.
+
+    Con le epoche, ogni periodo porta l'identificativo dell'epoca in cui
+    inizia: è il colore della sua barra.
     """
     anni = [elemento.scoperta.anno for elemento in elementi]
     ultimo = max(anni) if anni else INIZIO_ISTOGRAMMA
@@ -70,6 +91,7 @@ def densita_scoperte(elementi: list[Elemento]) -> list[dict[str, Any]]:
             "fine": INIZIO_ISTOGRAMMA - 1,
             "etichetta": f"fino al {INIZIO_ISTOGRAMMA}",
             "quantita": sum(1 for anno in anni if anno < INIZIO_ISTOGRAMMA),
+            "epoca": _epoca_dell_anno(min(anni) if anni else INIZIO_ISTOGRAMMA - 1, epoche),
         }
     ]
 
@@ -81,6 +103,7 @@ def densita_scoperte(elementi: list[Elemento]) -> list[dict[str, Any]]:
                 "fine": fine,
                 "etichetta": f"{inizio}-{fine}",
                 "quantita": sum(1 for anno in anni if inizio <= anno <= fine),
+                "epoca": _epoca_dell_anno(inizio, epoche),
             }
         )
 
@@ -89,7 +112,7 @@ def densita_scoperte(elementi: list[Elemento]) -> list[dict[str, Any]]:
 
 def rendi_cronologia_sito(elementi: list[Elemento], epoche: dict[str, Epoca]) -> str:
     """Compone la pagina HTML della linea del tempo."""
-    secchielli = densita_scoperte(elementi)
+    secchielli = densita_scoperte(elementi, epoche)
     massimo = max((s["quantita"] for s in secchielli), default=0) or 1
 
     modello = ambiente_sito().get_template("cronologia.html.j2")

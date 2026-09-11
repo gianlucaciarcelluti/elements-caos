@@ -17,6 +17,7 @@ from elements_caos.sito.pagina import (
     url_epoca,
     url_scopritore,
 )
+from elements_caos.sito.tavola import RIGA_ATTINIDI, caselle
 
 URL_HOME = "index.html"
 URL_ATTRIBUZIONI = "attribuzioni.html"
@@ -51,6 +52,11 @@ def rendi_epoca_sito(
     return modello.render(
         epoca=epoca,
         voci=_voci_elementi(suoi),
+        # La tavola intera con accese le sole caselle di quest'epoca: lo
+        # stesso palco della home, fermo su un'epoca.
+        caselle=caselle(elementi),
+        totale=len(elementi),
+        riga_attinidi=RIGA_ATTINIDI,
         inizio=formatta_anno(epoca.anno_inizio),
         fine=formatta_anno(epoca.anno_fine),
     )

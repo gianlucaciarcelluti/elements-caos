@@ -843,7 +843,8 @@ a {
   width: var(--quota);
   min-width: 2px;
   height: 0.75rem;
-  background: var(--colore-accento);
+  /* Il colore dell'epoca in cui il periodo inizia; senza epoca, l'accento. */
+  background: var(--epoca-testo, var(--colore-accento));
   border-radius: 2px;
 }
 
@@ -885,7 +886,9 @@ a {
 }
 
 .epoca__testa h2 {
-  margin-bottom: var(--passo-1);
+  margin-block: var(--passo-1) var(--passo-3);
+  font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem);
+  font-variation-settings: "opsz" 96;
 }
 
 .epoca__testa h2 a {
@@ -894,10 +897,11 @@ a {
 }
 
 .epoca__estremi {
-  margin: 0 0 var(--passo-3);
-  font-family: var(--font-titoli);
-  font-size: 0.85rem;
-  color: var(--colore-testo-tenue);
+  display: flex;
+  align-items: center;
+  gap: var(--passo-2);
+  margin: var(--passo-5) 0 0;
+  color: var(--epoca-testo);
 }
 
 /* Tre per riga a 390 px: le 118 voci occupano un decimo dello spazio che
@@ -1186,8 +1190,9 @@ a {
   flex: none;
   font-family: var(--font-dati);
   font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--colore-accento);
+  font-weight: 500;
+  /* Il numero della tappa porta il colore dell'epoca del suo elemento. */
+  color: var(--epoca-testo, var(--colore-accento));
 }
 
 .tappa__titolo {
@@ -1245,12 +1250,29 @@ a {
 
 .contesto__occhiello {
   margin: 0;
-  font-family: var(--font-titoli);
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-family: var(--font-dati);
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--epoca-testo, var(--colore-testo-tenue));
+  color: var(--epoca-testo, var(--colore-accento));
+}
+
+.contesto__testa .occhiello {
+  display: flex;
+  align-items: center;
+  gap: var(--passo-2);
+}
+
+/* La tavola nella pagina d'epoca: il palco della home fermato su un'epoca. */
+.epoca__tavola {
+  margin: var(--passo-5) 0;
+}
+
+.epoca__tavola figcaption {
+  margin-top: var(--passo-2);
+  color: var(--colore-testo-tenue);
+  font-weight: 400;
 }
 
 .contesto__anagrafica {

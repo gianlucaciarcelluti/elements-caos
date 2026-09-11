@@ -5,13 +5,32 @@
 {% block descrizione %}{{ epoca.descrizione }}{% endblock %}
 
 {% block contenuto %}
-<article class="contesto epoca--{{ epoca.id }}">
+<article class="capitolo-epoca epoca--{{ epoca.id }} contesto-epoca">
 
 <header class="contesto__testa">
-<p class="contesto__occhiello">Epoca · {{ inizio }} — {{ fine }}</p>
+<p class="occhiello"><span class="passo__pallino"></span>Epoca · {{ inizio }} — {{ fine }}</p>
 <h1>{{ epoca.nome }}</h1>
 <p class="elemento__hook">{{ epoca.descrizione }}</p>
 </header>
+
+{# La tavola intera, con accese le sole caselle riempite in quest'epoca: si
+   vede in un colpo d'occhio cosa ha aggiunto e cosa mancava ancora. Statica,
+   senza script: il palco della home fermato qui. #}
+<figure class="epoca__tavola">
+<ul class="tavola tavola--palco" style="--righe: {{ riga_attinidi }}" aria-label="Le caselle della tavola periodica riempite in quest'epoca">
+{% for casella in caselle %}
+<li class="casella epoca--{{ casella.epoca }}{% if casella.epoca != epoca.id %} casella--spenta{% endif %}"
+    style="--colonna: {{ casella.colonna }}; --riga: {{ casella.riga }}">
+<a href="{{ radice }}{{ casella.url }}" title="{{ casella.descrizione }}">
+<span class="casella__numero">{{ casella.numero_atomico }}</span>
+<span class="casella__simbolo">{{ casella.simbolo }}</span>
+<span class="casella__nome-accessibile">{{ casella.descrizione }}</span>
+</a>
+</li>
+{% endfor %}
+</ul>
+<figcaption class="occhiello">{{ voci | length }} delle {{ totale }} caselle</figcaption>
+</figure>
 
 <section class="contesto__elenco">
 <h2>{{ voci | length }} elementi, in ordine di scoperta</h2>

@@ -6,6 +6,7 @@ quali la sostituzione romperebbe altrettanti collegamenti. Qui si verifica che
 ci siano e che portino il loro contenuto.
 """
 
+import re
 from pathlib import Path
 
 from elements_caos.caricamento import (
@@ -69,8 +70,10 @@ def test_la_pagina_d_epoca_elenca_i_suoi_elementi_in_ordine() -> None:
 
     pagina = rendi_epoca_sito(epoche["antichita"], elementi, scopritori)
 
-    assert pagina.index("Oro") < pagina.index("Arsenico")
-    assert 'href="../elementi/oro.html"' in pagina
+    # L'elenco, non la tavola che lo precede: quella è per numero atomico.
+    elenco = pagina[pagina.index('class="contesto__elenco"') :]
+    assert elenco.index("Oro") < elenco.index("Arsenico")
+    assert 'href="../elementi/oro.html"' in elenco
 
 
 def test_ogni_elemento_appartiene_a_un_epoca_esistente() -> None:
@@ -286,3 +289,57 @@ def test_il_reindirizzamento_e_una_pagina_vera() -> None:
     assert 'rel="canonical"' in pagina
     assert "noindex" in pagina
     assert "elementi/index.html" in pagina
+
+
+# --- Il tema della tavola accesa (Task 37) ------------------------------------
+
+
+def test_la_pagina_d_epoca_apre_con_la_sua_porzione_di_tavola() -> None:
+    """La tavola intera, con accese solo le caselle che l'epoca ha riempito.
+
+    È lo stesso palco della home fermato su un'epoca: si vede in un colpo
+    d'occhio cosa quell'epoca ha aggiunto e cosa mancava ancora.
+    """
+    elementi, epoche, scopritori = _tutto()
+    epoca = epoche["elettrolisi"]
+
+    pagina = rendi_epoca_sito(epoca, elementi, scopritori)
+
+    assert 'class="capitolo-epoca epoca--elettrolisi contesto-epoca"' in pagina
+    inizio = pagina.index('class="tavola tavola--palco')
+    tavola = pagina[inizio : pagina.index("</ul>", inizio)]
+    caselle = re.findall(r'<li class="casella epoca--(\w+)( casella--spenta)?"', tavola)
+    assert len(caselle) == 118
+    for id_epoca, spenta in caselle:
+        assert bool(spenta) == (id_epoca != "elettrolisi"), id_epoca
+    assert "21 delle 118 caselle" in pagina
+
+
+def test_l_istogramma_colora_ogni_periodo_con_la_sua_epoca() -> None:
+    """Ogni barra dell'istogramma porta il colore dell'epoca del suo periodo."""
+    from elements_caos.sito.cronologia import densita_scoperte
+
+    elementi, epoche, _ = _tutto()
+
+    secchielli = densita_scoperte(elementi, epoche)
+
+    assert secchielli[0]["epoca"] == "antichita"
+    per_inizio = {s["inizio"]: s["epoca"] for s in secchielli}
+    assert per_inizio[1650] == "alchimia"
+    assert per_inizio[1800] == "elettrolisi"
+    assert per_inizio[1950] == "nucleare"
+    assert all(s["epoca"] in epoche for s in secchielli)
+
+
+def test_le_tappe_dell_itinerario_portano_il_colore_del_loro_elemento() -> None:
+    """La tappa sul fosforo è color alchimia, quella sul plutonio color era nucleare."""
+    from elements_caos.sito.itinerario import rendi_itinerario_sito
+
+    elementi, _, _ = _tutto()
+    tappe = carica_itinerario(DATI / "itinerario.yaml")
+
+    pagina = rendi_itinerario_sito(tappe, elementi)
+
+    for tappa in tappe:
+        elemento = next(e for e in elementi if e.nome == tappa.elemento)
+        assert f'class="tappa epoca--{elemento.scoperta.epoca}"' in pagina, tappa.titolo
