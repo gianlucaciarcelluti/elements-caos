@@ -131,6 +131,9 @@ Per trent'anni l'idrogeno ha sollevato i dirigibili, finché nel 1937 l'incendio
 
 Sotto pressioni di milioni di atmosfere si prevede che l'idrogeno diventi un metallo, conduttore di elettricità come il rame. Nessuno è ancora riuscito a dimostrarlo in laboratorio in modo che la comunità accetti senza riserve, ma la questione non è accademica: se la previsione è giusta, buona parte dell'interno di Giove è fatta di idrogeno metallico liquido, ed è quella la sorgente del suo campo magnetico gigantesco.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Idrogeno — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Fosforo]] (1669)
@@ -144,6 +147,37 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Robert Boyle]]
 - [Timeline of hydrogen technologies](https://en.wikipedia.org/wiki/Timeline_of_hydrogen_technologies) — consultata il 07/09/2026
 - [Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle) — consultata il 07/09/2026
 - [Henry Cavendish](https://en.wikipedia.org/wiki/Henry_Cavendish) — consultata il 07/09/2026
+- [Cavendish experiment](https://en.wikipedia.org/wiki/Cavendish_experiment) — consultata il 14/09/2026
+- [Hydrogenation](https://en.wikipedia.org/wiki/Hydrogenation) — consultata il 14/09/2026
+- [Hydrogen atom](https://en.wikipedia.org/wiki/Hydrogen_atom) — consultata il 14/09/2026
+- [Bohr model](https://en.wikipedia.org/wiki/Bohr_model) — consultata il 14/09/2026
+- [Hydrogen spectral series](https://en.wikipedia.org/wiki/Hydrogen_spectral_series) — consultata il 14/09/2026
+- [Balmer series](https://en.wikipedia.org/wiki/Balmer_series) — consultata il 14/09/2026
+- [Isotopes of hydrogen](https://en.wikipedia.org/wiki/Isotopes_of_hydrogen) — consultata il 14/09/2026
+- [Deuterium](https://en.wikipedia.org/wiki/Deuterium) — consultata il 14/09/2026
+- [Heavy water](https://en.wikipedia.org/wiki/Heavy_water) — consultata il 14/09/2026
+- [Tritium](https://en.wikipedia.org/wiki/Tritium) — consultata il 14/09/2026
+- [Big Bang nucleosynthesis](https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis) — consultata il 14/09/2026
+- [Proton–proton chain](https://en.wikipedia.org/wiki/Proton–proton_chain) — consultata il 14/09/2026
+- [Stellar nucleosynthesis](https://en.wikipedia.org/wiki/Stellar_nucleosynthesis) — consultata il 14/09/2026
+- [Hydrogen line](https://en.wikipedia.org/wiki/Hydrogen_line) — consultata il 14/09/2026
+- [Metallic hydrogen](https://en.wikipedia.org/wiki/Metallic_hydrogen) — consultata il 14/09/2026
+- [Jupiter](https://en.wikipedia.org/wiki/Jupiter) — consultata il 14/09/2026
+- [Hydrogen bond](https://en.wikipedia.org/wiki/Hydrogen_bond) — consultata il 14/09/2026
+- [Haber process](https://en.wikipedia.org/wiki/Haber_process) — consultata il 14/09/2026
+- [Fritz Haber](https://en.wikipedia.org/wiki/Fritz_Haber) — consultata il 14/09/2026
+- [History of the Haber process](https://en.wikipedia.org/wiki/History_of_the_Haber_process) — consultata il 14/09/2026
+- [Nitrogen fixation](https://en.wikipedia.org/wiki/Nitrogen_fixation) — consultata il 14/09/2026
+- [Hindenburg disaster](https://en.wikipedia.org/wiki/Hindenburg_disaster) — consultata il 14/09/2026
+- [LZ 129 Hindenburg](https://en.wikipedia.org/wiki/LZ_129_Hindenburg) — consultata il 14/09/2026
+- [Hydrogen economy](https://en.wikipedia.org/wiki/Hydrogen_economy) — consultata il 14/09/2026
+- [Hydrogen vehicle](https://en.wikipedia.org/wiki/Hydrogen_vehicle) — consultata il 14/09/2026
+- [Green hydrogen](https://en.wikipedia.org/wiki/Green_hydrogen) — consultata il 14/09/2026
+- [Hydrogen production](https://en.wikipedia.org/wiki/Hydrogen_production) — consultata il 14/09/2026
+- [Electrolysis of water](https://en.wikipedia.org/wiki/Electrolysis_of_water) — consultata il 14/09/2026
+- [Fuel cell](https://en.wikipedia.org/wiki/Fuel_cell) — consultata il 14/09/2026
+- [Hydrogen storage](https://en.wikipedia.org/wiki/Hydrogen_storage) — consultata il 14/09/2026
+- [Hydrogen embrittlement](https://en.wikipedia.org/wiki/Hydrogen_embrittlement) — consultata il 14/09/2026
 
 ---
 

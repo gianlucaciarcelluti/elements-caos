@@ -180,6 +180,827 @@ contenuti:
   - termine: Hindenburg
     ipa: ˈhɪndn̩bʊʁk
     nota: Alla tedesca.
+contenuti_estesi:
+  hook: 'L''idrogeno è un protone e un elettrone: non esiste niente di più semplice,
+    ed è di questo che è fatto tre quarti dell''universo. Sulla Terra, però, non se
+    ne trova quasi allo stato libero, e ci sono voluti due secoli e mezzo fra il primo
+    che lo ha prodotto e il primo che ha capito che cosa fosse. Quest''ultimo era
+    un uomo così schivo da parlare con le domestiche solo per biglietti scritti, e
+    che di quasi tutto ciò che scoprì non disse niente a nessuno: le sue carte, aperte
+    un secolo dopo, contenevano cinque leggi che oggi portano il nome
+    di altri.'
+  beats:
+  - id: contesto-quanto
+    sezione: contesto
+    testo: 'Quanto idrogeno ci sia nell''universo dipende da come lo si conta, e le
+      due risposte raccontano cose diverse. In massa costituisce circa il settantacinque
+      per cento della materia normale — quella fatta di atomi, non la materia oscura
+      — ed è il dato che si cita di solito. Per numero di atomi, però, si supera il
+      novanta per cento: su dieci atomi nell''universo, più di nove sono idrogeno.
+      La differenza fra le due cifre è tutta nell''elio, che pesa quattro volte tanto.
+      Gli astrofisici lo distinguono perfino con due sigle a seconda dello stato:
+      H I quando è neutro nel mezzo interstellare, H II quando è ionizzato.'
+    attendibilita: documentato
+  - id: contesto-bigbang
+    sezione: contesto
+    testo: 'L''idrogeno non è stato fabbricato dalle stelle: c''era già, e le stelle
+      lo consumano. La nucleosintesi primordiale, nei primi minuti dell''universo,
+      lascia una composizione che si può riassumere in due cifre: circa il settantacinque
+      per cento di idrogeno e il venticinque per cento di elio-4 in massa. Tutto il
+      resto è rumore statistico — un nucleo su centomila è deuterio o elio-3, uno
+      su un miliardo è litio-7. La tavola periodica come la conosciamo è venuta dopo,
+      costruita dentro le stelle a partire da quella materia prima; l''idrogeno è
+      il materiale con cui è cominciato tutto, e ne resta ancora la maggior parte.'
+    attendibilita: documentato
+  - id: contesto-stelle
+    sezione: contesto
+    testo: 'Nelle stelle l''idrogeno non è solo abbondante: è il combustibile. Nelle
+      stelle di massa minore la fusione procede attraverso la catena protone-protone,
+      mentre in quelle più massicce del Sole passa per il ciclo CNO, in cui carbonio,
+      azoto e ossigeno fanno da catalizzatori senza consumarsi. Le nubi molecolari
+      di idrogeno sono associate alla formazione stellare, e i pianeti giganti gassosi
+      ne sono fatti in larga parte. È una sostanza che sta contemporaneamente all''inizio
+      della storia cosmica e dentro il motore di ogni stella accesa.'
+    attendibilita: documentato
+  - id: contesto-riga-21cm
+    sezione: contesto
+    testo: 'C''è un modo per vedere l''idrogeno anche dove non c''è niente da vedere,
+      ed è una delle idee più eleganti dell''astronomia. L''idrogeno neutro emette
+      una radiazione a ventuno centimetri di lunghezza d''onda, corrispondente a 1420
+      megahertz, prodotta da una transizione fra due livelli energetici molto ravvicinati
+      dello stato fondamentale: è un evento rarissimo per il singolo atomo, ma l''idrogeno
+      nell''universo è così tanto che il segnale complessivo si misura senza difficoltà.
+      È la frequenza con cui si sonda l''idrogeno primordiale, quello che sta nelle
+      nubi fredde dove nessuna stella illumina niente. L''elemento più semplice ha
+      un canale radio tutto suo.'
+    attendibilita: documentato
+  - id: contesto-mappa-galassia
+    sezione: contesto
+    testo: 'Quella riga radio ha fatto una cosa che nessun telescopio ottico poteva
+      fare: ci ha mostrato la forma della galassia in cui viviamo. Le onde a ventuno
+      centimetri attraversano le grandi nubi di polvere interstellare che alla luce
+      visibile sono opache, e quindi permettono di vedere attraverso il disco galattico
+      invece che fermarsi al primo ostacolo. L''esistenza della riga fu prevista dall''olandese
+      Hendrik van de Hulst nel 1944 e osservata per la prima volta nel 1951 da Edward
+      Purcell e dal suo studente Harold Ewen; dopo il 1952 le prime mappe dell''idrogeno
+      neutro della Galassia rivelarono per la prima volta la struttura a spirale della
+      Via Lattea. Sapevamo che forma ha la nostra galassia da meno di ottant''anni,
+      e lo sappiamo grazie all''idrogeno.'
+    attendibilita: documentato
+  - id: contesto-atomo-risolto
+    sezione: contesto
+    testo: 'La semplicità dell''idrogeno non è un dettaglio estetico ma la ragione
+      per cui la fisica atomica esiste. Un protone e un elettrone formano un problema
+      a due corpi, e per questo è l''unico atomo le cui equazioni quantistiche si
+      risolvono esattamente, senza approssimazioni: i livelli energetici e le righe
+      spettrali escono dal calcolo con una precisione verificabile. Tutta la chimica
+      teorica degli altri elementi si costruisce per analogia a partire da questo
+      unico caso risolto esattamente: ogni altro atomo si tratta con metodi approssimati,
+      tarati su di esso.'
+    attendibilita: documentato
+  - id: contesto-bohr
+    sezione: contesto
+    testo: 'Le righe spettrali dell''idrogeno non sono una curiosità da laboratorio:
+      sono state il banco di prova su cui si è giocata la fisica atomica. L''idrogeno
+      eccitato emette a lunghezze d''onda precise e ripetibili, raggruppate in serie;
+      quella che cade nel visibile porta il nome di Johann Balmer, che nel 1885 ne
+      ricavò la formula per via empirica. All''inizio del Novecento ci si aspettava
+      che un modello riuscito dell''atomo dovesse rendere conto di quelle molte righe,
+      riassunte nelle formule di Balmer e di Rydberg. Il modello che Niels Bohr sviluppò
+      fra il 1911 e il 1918, costruendo sulla scoperta del nucleo fatta da Rutherford,
+      ci riuscì: gli elettroni occupano orbite discrete e ogni salto fra due orbite
+      emette o assorbe una quantità precisa di energia. La transizione dal terzo al
+      secondo livello dà la prima riga della serie di Balmer, che per l''idrogeno
+      è un fotone di 656 nanometri, cioè luce rossa. È la riga che gli astronomi chiamano
+      H-alfa.'
+    attendibilita: documentato
+  - id: contesto-posizione
+    sezione: contesto
+    testo: 'Dove mettere l''idrogeno nella tavola periodica è un problema che la tavola
+      stessa ammette di non aver risolto: il gruppo in cui sta si chiama, letteralmente,
+      «gruppo 1: idrogeno e metalli alcalini». Non è uno di loro, sta lì accanto.
+      La ragione della perplessità è che si comporta in due modi opposti a seconda
+      della compagnia. Nei composti ionici può presentarsi come catione positivo,
+      l''idrone, che pur essendo saldamente legato alle molecole d''acqua governa
+      il comportamento delle soluzioni acquose — è quello che si misura con il pH
+      — oppure come anione negativo, l''idruro. Quest''ultimo si osserva di rado,
+      perché tende a strappare protoni ai solventi liberando idrogeno molecolare.'
+    attendibilita: documentato
+  - id: contesto-ricombinazione
+    sezione: contesto
+    testo: 'C''è un momento preciso in cui l''idrogeno come lo conosciamo comincia
+      a esistere, e non coincide con il Big Bang. Per i primi trecentosettantamila
+      anni l''universo fu un plasma troppo caldo perché gli elettroni potessero restare
+      legati ai protoni; quando l''espansione lo ebbe raffreddato abbastanza, si formarono
+      gli atomi neutri di idrogeno. È lo stesso istante in cui l''universo diventa
+      trasparente alla luce, perché i fotoni smettono di urtare elettroni liberi:
+      la radiazione cosmica di fondo che i telescopi misurano oggi viene da lì. Più
+      tardi, quando le prime stelle si accesero, buona parte dell''idrogeno del mezzo
+      intergalattico venne nuovamente ionizzato.'
+    attendibilita: documentato
+  - id: contesto-leggerezza
+    sezione: contesto
+    testo: 'Allo stato libero l''idrogeno non esiste come atomo singolo ma come molecola
+      biatomica, e questa molecola è il gas più leggero che si conosca. Da lì discendono
+      insieme il suo fascino e i suoi problemi: solleva i palloni perché pesa poco,
+      sfugge dai recipienti perché le sue molecole sono minuscole, e per liquefarlo
+      bisogna scendere a una ventina di gradi sopra lo zero assoluto, il che rende
+      lo stoccaggio in forma liquida un''impresa costosa. È leggerissimo in massa
+      e ingombrante in volume, e quasi tutta la storia tecnologica dell''idrogeno
+      è il tentativo di aggirare questa contraddizione.'
+    attendibilita: documentato
+  - id: vicenda-boyle
+    sezione: vicenda
+    testo: 'La ricetta per produrre idrogeno è nota da secoli prima che qualcuno sapesse
+      che cosa stesse producendo. Robert Boyle, intorno al 1671, descrive con precisione
+      l''aria che si sviluppa versando olio di vitriolo — acido solforico — sulla
+      limatura di ferro, ed è ancora oggi il modo da manuale di ottenerlo in laboratorio.
+      Ma nel quadro concettuale del Seicento quella era aria comune modificata da
+      qualcosa, non una sostanza nuova: mancava la categoria mentale in cui metterla.
+      Boyle registra il fenomeno e passa oltre, senza sospettare di avere in mano
+      il materiale di cui è fatto tre quarti dell''universo.'
+    attendibilita: documentato
+  - id: vicenda-boyle-scettico
+    sezione: vicenda
+    testo: Eppure Boyle non era un dilettante, e la cosa rende il mancato riconoscimento
+      più istruttivo. Dieci anni prima di quell'esperimento, nel Chimico scettico
+      del 1661, aveva criticato apertamente gli esperimenti con cui «i volgari spagiristi
+      sogliono sforzarsi di dimostrare che il loro Sale, Zolfo e Mercurio siano i
+      veri Principi delle Cose» — cioè demolisce la triade di Paracelso che questo
+      vault ha incontrato raccontando lo zolfo e il mercurio. Per Boyle la chimica
+      era la scienza della composizione delle sostanze, non un'appendice alle arti
+      dell'alchimista o del medico; sosteneva che gli elementi fossero i costituenti
+      non scomponibili dei corpi materiali e distingueva le miscele dai composti.
+      Aveva insomma la definizione moderna di elemento dieci anni prima di produrre
+      l'idrogeno, e non ricondusse l'una all'altro.
+    attendibilita: documentato
+  - id: vicenda-cavendish-1766
+    sezione: vicenda
+    testo: 'Il riconoscimento arriva quasi un secolo dopo, e si deve a Henry Cavendish.
+      Nel 1766 presenta alla Royal Society una memoria intitolata On Factitious Airs
+      — sulle arie fittizie, cioè prodotte artificialmente — in cui tratta quell''aria
+      infiammabile come una sostanza a sé: ne descrive la densità e osserva che bruciando
+      forma acqua. Sono due passaggi diversi e ugualmente decisivi. Pesare un gas
+      significa trattarlo come materia e non come qualità dell''aria; mostrare che
+      la sua combustione produce acqua significa togliere all''acqua lo statuto di
+      elemento. Lavoisier riprodusse poi l''esperimento e diede all''elemento il nome
+      che porta.'
+    attendibilita: documentato
+  - id: vicenda-il-nome
+    sezione: vicenda
+    testo: 'Sul chi e sul quando, per una volta, le schede sono nette: la scoperta
+      e il primo isolamento sono attribuiti a Cavendish nel 1766, il nome a Lavoisier
+      nel 1783. Fu quest''ultimo, ripetendo con Laplace il risultato di Cavendish
+      sulla formazione di acqua nella combustione, a identificare la sostanza come
+      elemento e a chiamarla con una parola greca che significa «generatore d''acqua».
+      Contrariamente a quanto accadde con l''ossigeno, qui il nome è azzeccato: l''idrogeno
+      l''acqua la genera davvero. I due elementi che Lavoisier battezzò sono gli stessi
+      due che compongono l''acqua, e solo per uno dei due il nome ha retto alla prova
+      dei fatti.'
+    attendibilita: documentato
+  - id: vicenda-lettura-sbagliata
+    sezione: vicenda
+    testo: 'C''è però un punto in cui anche Cavendish sbaglia, ed è istruttivo perché
+      mostra quanto pesi la teoria che si ha in testa. Bruciando idrogeno in aria
+      deflogisticata — cioè in ossigeno, come si sarebbe detto poco dopo — ottenne
+      acqua pura. La conclusione che ne trasse non fu che l''acqua veniva sintetizzata
+      a partire dai due gas, ma che la combustione dell''idrogeno la facesse condensare
+      dall''aria, dove già si trovava. Alcuni fisici arrivarono a interpretare l''idrogeno
+      come flogisto puro. Aveva in mano l''esperimento che demolisce l''acqua come
+      elemento e lo lesse dentro la cornice che stava per crollare: esattamente come
+      Scheele con l''ossigeno, raccontato in un altro approfondimento di questo vault.'
+    attendibilita: documentato
+  - id: vicenda-discusso-acqua
+    sezione: vicenda
+    testo: 'Da quel risultato nacque una contesa di priorità che porta un nome proprio,
+      la «controversia dell''acqua», e che ha la stessa struttura di quella sull''ossigeno.
+      Cavendish comunicò le proprie conclusioni a Priestley entro il marzo del 1783,
+      ma le pubblicò solo l''anno successivo; nel 1783 l''inventore scozzese James
+      Watt pubblicò un articolo sulla composizione dell''acqua, e ne seguì una disputa
+      su chi avesse fatto la scoperta per primo. Comunicare a voce a un collega non
+      è pubblicare, e pubblicare non è capire: sono tre atti distinti, e la storia
+      della scienza premia ora l''uno ora l''altro a seconda di chi scrive. Questo
+      approfondimento registra la controversia senza scioglierla.'
+    attendibilita: discusso
+  - id: vicenda-conversione
+    sezione: vicenda
+    testo: 'Nel 1787 Cavendish fu fra i primi fuori dalla Francia a convertirsi alla
+      nuova teoria antiflogistica di Lavoisier, pur restando scettico sulla sua nomenclatura
+      e obiettando in particolare all''idea che il calore avesse una base materiale.
+      Su quel punto aveva ragione, e da molto tempo: fin dagli anni Sessanta del Settecento
+      spiegava il calore come risultato del moto della materia. La teoria generale
+      che ne sviluppò conteneva il principio della conservazione del calore — che
+      sarebbe stato poi compreso come un caso della conservazione dell''energia —
+      e perfino il concetto, senza il nome, dell''equivalente meccanico del calore.
+      Anche questa, naturalmente, restò in un cassetto.'
+    attendibilita: documentato
+  - id: vicenda-chi-era
+    sezione: vicenda
+    testo: 'Vale la pena fermarsi su chi fosse quest''uomo, perché la sua figura non
+      somiglia a nessun''altra di questo vault. Henry Cavendish nacque a Nizza nel
+      1731 e morì a Londra nel 1810; ereditò due fortune così grandi che Jean Baptiste
+      Biot lo definì «il più ricco di tutti i dotti e il più dotto di tutti i ricchi».
+      Alla sua morte era il maggior depositante della Banca d''Inghilterra. Non aveva
+      bisogno di una cattedra, di un mecenate né di un premio: poteva permettersi
+      di fare ricerca per sé, e fu esattamente quello che fece — con conseguenze che
+      la storia della scienza sta ancora contabilizzando.'
+    attendibilita: documentato
+  - id: vicenda-timidezza
+    sezione: vicenda
+    testo: La sua timidezza è documentata in dettagli che sembrano inventati e non
+      lo sono. Era a disagio in società e la evitava quando poteva; riusciva a parlare
+      con una persona alla volta, e solo se la conosceva ed era un uomo. Conversava
+      pochissimo, vestiva sempre un abito fuori moda e non sviluppò legami personali
+      profondi al di fuori della famiglia. Con le domestiche comunicava soltanto per
+      mezzo di biglietti scritti, e secondo un resoconto fece aggiungere alla propria
+      casa una scala di servizio per non incontrare la governante, perché era particolarmente
+      intimidito dalle donne. Era taciturno, solitario e considerato da molti eccentrico.
+    attendibilita: documentato
+  - id: vicenda-parlare-nel-vuoto
+    sezione: vicenda
+    testo: 'Il suo unico sbocco sociale era il club della Royal Society, i cui membri
+      cenavano insieme prima delle riunioni settimanali. Cavendish non mancava quasi
+      mai, ed era profondamente rispettato dai contemporanei; ma avvicinarlo richiedeva
+      una procedura. Agli ospiti si consigliava di girargli attorno e poi parlare
+      come se si stesse parlando «nel vuoto»: se le osservazioni erano scientificamente
+      degne, si poteva ricevere una risposta borbottata. Più probabilmente, annotano
+      le fonti, Cavendish non rispondeva affatto. I resoconti contemporanei della
+      sua personalità hanno portato commentatori moderni, fra cui Oliver Sacks, a
+      ipotizzare che fosse autistico.'
+    attendibilita: documentato
+  - id: vicenda-la-casa
+    sezione: vicenda
+    testo: 'La disposizione della sua casa dice tutto quello che si può dire su una
+      vita. Solo una frazione dello spazio era riservata alla comodità personale:
+      la biblioteca era in un edificio staccato, le stanze superiori e il prato servivano
+      all''osservazione astronomica, e il salotto — la stanza che in ogni casa dell''epoca
+      era destinata a ricevere — era un laboratorio, con una forgia nella stanza adiacente.
+      Un uomo che poteva permettersi qualunque cosa aveva destinato la casa agli strumenti
+      e tenuto per sé quel che avanzava.'
+    attendibilita: documentato
+  - id: vicenda-residuo
+    sezione: vicenda
+    testo: 'C''è un episodio che dice tutto sulla qualità del suo lavoro. Dai propri
+      esperimenti Cavendish concluse che l''aria comune è fatta di una parte di aria
+      deflogisticata — ossigeno — mescolata a quattro di aria flogisticata, cioè azoto:
+      una composizione sostanzialmente corretta. Nel farlo notò però un piccolo residuo
+      che non riusciva a far reagire e che non sapeva spiegare, e lo annotò invece
+      di ignorarlo. Negli anni Novanta dell''Ottocento, un secolo più tardi, i fisici
+      britannici William Ramsay e Lord Rayleigh capirono che quel residuo problematico
+      era un gas inerte appena scoperto, l''argon. Cavendish non aveva sbagliato:
+      aveva misurato qualcosa che nessuno era in grado di identificare.'
+    attendibilita: documentato
+  - id: vicenda-metodo
+    sezione: vicenda
+    testo: 'Le fonti descrivono il suo metodo in termini che oggi suonano ovvi e all''epoca
+      non lo erano affatto: esperimenti quantitativi rigorosi, strumenti e procedure
+      standardizzati, risultati concepiti per essere riproducibili, media dei risultati
+      di più prove, identificazione delle fonti di errore e correzione per esse. È
+      la ricetta del metodo sperimentale moderno, applicata nel Settecento da un uomo
+      che non doveva convincere nessuno. La bilancia che usava, opera di un artigiano
+      di nome Harrison, fu la prima delle bilance di precisione del suo secolo, accurata
+      quanto quella di Lavoisier — della quale si è stimata una sensibilità di una
+      parte su quattrocentomila.'
+    attendibilita: documentato
+  - id: vicenda-maxwell
+    sezione: vicenda
+    testo: 'Il prezzo di quel carattere lo ha pagato la storia della scienza, e il
+      conto è stato presentato solo un secolo dopo. A causa del proprio comportamento
+      asociale e riservato, Cavendish evitava spesso di pubblicare, e molte delle
+      sue scoperte non le comunicò nemmeno ai colleghi. Alla fine dell''Ottocento,
+      molto dopo la sua morte, James Clerk Maxwell esaminò le sue carte e vi trovò
+      osservazioni e risultati per i quali il merito era stato attribuito ad altri.
+      Non uno o due: un intero capitolo di fisica e di chimica, scritto e messo in
+      un cassetto.'
+    attendibilita: documentato
+  - id: vicenda-elenco
+    sezione: vicenda
+    testo: 'L''elenco di ciò che Cavendish aveva scoperto o anticipato senza dirlo
+      merita di essere letto per intero, perché ogni voce è un nome che gli studenti
+      imparano associato a qualcun altro. La legge delle proporzioni reciproche di
+      Richter. La legge di Ohm. La legge di Dalton sulle pressioni parziali. I principi
+      della conduttività elettrica, compresa la legge di Coulomb. La legge di Charles
+      sui gas. Cinque leggi che portano cinque cognomi diversi, e nessuno di quei
+      cognomi è il suo. Non per furto: per silenzio.'
+    attendibilita: documentato
+  - id: vicenda-calore
+    sezione: vicenda
+    testo: 'E non è finita nell''Ottocento. Un manoscritto intitolato «Heat», datato
+      in via provvisoria fra il 1783 e il 1790, descrive una teoria meccanica del
+      calore; era rimasto sconosciuto ed è stato analizzato solo all''inizio del ventunesimo
+      secolo. Lo storico della scienza Russell McCormmach ha proposto che «Heat» sia
+      l''unica opera del Settecento che prefiguri la termodinamica. Duecentodieci
+      anni fra la scrittura e la lettura: il manoscritto era lì tutto il tempo, e
+      la disciplina che avrebbe potuto nascerne è stata costruita da capo da altri,
+      un secolo più tardi.'
+    attendibilita: documentato
+  - id: vicenda-pesare-la-terra
+    sezione: vicenda
+    testo: 'L''impresa per cui è più giustamente ricordato non riguarda l''idrogeno
+      ma la gravità, e ha una qualità che la rende quasi assurda: Cavendish pesò la
+      Terra da dentro una stanza. Fra il 1797 e il 1798 realizzò il primo esperimento
+      capace di misurare la forza di gravità fra masse in laboratorio, e il primo
+      a fornire valori accurati per quella che oggi chiamiamo costante gravitazionale.
+      Nelle convenzioni dell''epoca la costante non compariva esplicitamente: il risultato
+      fu espresso come densità relativa della Terra, che è poi equivalente alla sua
+      massa. La domanda «quanto pesa il pianeta» ha ricevuto la sua prima risposta
+      seria da una bilancia di torsione dentro una cassa di legno.'
+    attendibilita: documentato
+  - id: vicenda-lo-strumento
+    sezione: vicenda
+    testo: 'Lo strumento è di una semplicità che sconcerta. Due piccole sfere di piombo
+      appese alle estremità di un''asta di legno lunga sei piedi, sospesa al centro
+      da un sottile filo di torsione; il tutto protetto dalle correnti d''aria dentro
+      una cassa di legno. Due masse grandi, appese a un sostegno separato, attirano
+      le piccole e fanno ruotare l''asta di pochissimo; la rotazione si legge su scale
+      a nonio poste alle due estremità. Spostando le masse grandi dall''altra parte,
+      l''asta ruota nell''altro senso. È tutto qui: due palle di piombo, un filo e
+      la pazienza di misurare uno spostamento minuscolo senza che una corrente d''aria
+      lo rovini.'
+    attendibilita: documentato
+  - id: vicenda-precisione
+    sezione: vicenda
+    testo: 'Il risultato regge il confronto con due secoli di strumentazione successiva.
+      Cavendish trovò che la densità della Terra era 5,448 volte quella dell''acqua,
+      con un''incertezza dichiarata di trentatré millesimi; il valore accettato oggi
+      è 5,514. Convertito in unità moderne, il suo dato dà per la costante gravitazionale
+      un valore che differisce di appena l''uno per cento da quello raccomandato dal
+      CODATA nel 2014. C''è anche un dettaglio che lo rende più umano: nell''articolo
+      pubblicato comparve il valore errato 5,480, per un semplice errore aritmetico
+      che Francis Baily scoprì soltanto nel 1821.'
+    attendibilita: documentato
+  - id: impatto-haber
+    sezione: impatto
+    testo: L'uso che ha cambiato il mondo più di ogni altro non riguarda l'energia
+      ma il cibo. L'azoto atmosferico è inerte e le piante non lo sanno usare; per
+      renderlo disponibile bisogna fissarlo, cioè combinarlo con l'idrogeno in ammoniaca,
+      e la reazione richiede pressioni e temperature che l'Ottocento non sapeva ottenere.
+      Il processo Haber-Bosch le ottiene, e da lì escono i fertilizzanti azotati.
+      È la ragione per cui la quota maggiore dell'idrogeno prodotto nel mondo non
+      finisce in un motore ma in un reattore chimico.
+    attendibilita: documentato
+  - id: impatto-prima-di-haber
+    sezione: impatto
+    testo: 'Per capire che cosa significhi fissare l''azoto bisogna sapere dove lo
+      si prendeva prima. Le due fonti erano il guano peruviano, i cui giacimenti —
+      dodici milioni e mezzo di tonnellate — si esaurirono nel giro di qualche decennio
+      dopo aver fatto la fortuna economica del Perù, e il salnitro del deserto di
+      Atacama, nitrato di sodio, che serviva tanto come fertilizzante quanto, convertito
+      in acido nitrico, come precursore di esplosivi potenti come la nitroglicerina
+      e la dinamite. Quel doppio uso rese quei depositi una posta strategica: nel
+      1879 Bolivia, Cile e Perù entrarono in guerra per il possesso dell''Atacama,
+      in quella che è passata alla storia come la Guerra del Salnitro.'
+    attendibilita: documentato
+  - id: impatto-piu-importante
+    sezione: impatto
+    testo: 'Il processo Haber-Bosch chiude quella dipendenza da un colpo solo, rendendo
+      economicamente conveniente fissare l''azoto atmosferico sotto forma di ammoniaca.
+      Le fonti storiche non usano mezzi termini nel valutarlo: consente la sintesi
+      industriale tanto dei fertilizzanti azotati quanto di vari esplosivi, ed è probabilmente
+      il più importante processo industriale sviluppato nel corso del ventesimo secolo.
+      L''ambivalenza è nella frase stessa, e non è un caso: la stessa ammoniaca che
+      concima un campo, ossidata, diventa acido nitrico, e l''acido nitrico è la strada
+      per gli esplosivi. Il pane e le bombe escono dallo stesso impianto.'
+    attendibilita: documentato
+  - id: impatto-catalizzatore
+    sezione: impatto
+    testo: La difficoltà tecnica sta tutta nel catalizzatore, e il modo in cui lo
+      si fabbrica dice quanto sia delicato l'equilibrio. Si parte da magnetite ad
+      alta purezza, la si porta a circa tremilacinquecento gradi e la si raffredda
+      rapidamente per ottenere il precursore giusto; poi la si riduce solo in parte,
+      così che ogni granello resti fatto di un nucleo di magnetite, un guscio di wüstite
+      e uno strato esterno di ferro metallico. Il trucco è che durante la riduzione
+      il materiale conserva quasi tutto il proprio volume, e ne risulta una struttura
+      altamente porosa con una superficie enorme. Il ferro raccontato in un altro
+      approfondimento di questo vault è qui in veste di catalizzatore, e il suo rendimento
+      dipende da come è stato raffreddato.
+    attendibilita: documentato
+  - id: impatto-meta-di-noi
+    sezione: impatto
+    testo: 'Quanto conti quella reazione lo dice una cifra che andrebbe ripetuta più
+      spesso: quasi il cinquanta per cento dell''azoto presente nei tessuti umani
+      proviene dal processo Haber-Bosch. Metà degli atomi di azoto del corpo di chi
+      legge è passata per un impianto chimico. Le fonti chiamano quel processo il
+      «detonatore dell''esplosione demografica», perché ha consentito alla popolazione
+      mondiale di passare da 1,6 miliardi nel 1900 a 7,7 miliardi nel novembre 2018.
+      È l''unico caso in cui una singola reazione chimica compare, nelle fonti, come
+      spiegazione della demografia mondiale.'
+    attendibilita: documentato
+  - id: impatto-costo-haber
+    sezione: impatto
+    testo: 'Il conto di quella abbondanza si paga in due valute. La prima è energia:
+      nel 2018 il processo produceva duecentotrenta milioni di tonnellate di ammoniaca
+      anidra all''anno e consumava fra il tre e il cinque per cento della produzione
+      mondiale di gas naturale, perché è dal metano che si ricava l''idrogeno necessario.
+      La seconda è ambientale: l''efficienza d''uso dell''azoto in agricoltura è tipicamente
+      inferiore al cinquanta per cento, e il dilavamento dai campi dell''azoto fissato
+      industrialmente altera gli habitat biologici. Metà di quello che spargiamo non
+      arriva alle piante e finisce nelle acque.'
+    attendibilita: documentato
+  - id: impatto-haber-uomo
+    sezione: impatto
+    testo: 'L''uomo che rese possibile quel processo è una delle figure più difficili
+      della storia della scienza. Fritz Haber ricevette il Nobel per la chimica nel
+      1918 per la sintesi dell''ammoniaca, ed è stato definito uno degli scienziati
+      e dei chimici industriali più importanti della storia umana. Lo stesso Haber,
+      nazionalista tedesco dichiarato, è considerato il «padre della guerra chimica»
+      per gli anni di lavoro pionieristico dedicati a sviluppare e trasformare in
+      armi il cloro e altri gas velenosi durante la prima guerra mondiale: fu lui
+      a proporre per primo l''uso del cloro, più pesante dell''aria, per rompere lo
+      stallo delle trincee nella seconda battaglia di Ypres.'
+    attendibilita: documentato
+  - id: impatto-haber-fine
+    sezione: impatto
+    testo: La conclusione della sua storia è di quelle che nessuna narrazione morale
+      riesce a ordinare. Il lavoro di Haber fu poi usato, senza il suo coinvolgimento
+      diretto, per sviluppare il pesticida Zyklon B, impiegato per uccidere più di
+      un milione di ebrei nelle camere a gas durante la Shoah. Haber era ebreo. Dopo
+      l'ascesa dei nazisti al potere, nel 1933, si dimise dal proprio incarico; già
+      in cattive condizioni di salute, passò del tempo in vari paesi e morì a Basilea
+      nel gennaio del 1934. L'idrogeno combinato con l'azoto ha nutrito metà del mondo
+      e il chimico che lo ha reso possibile è morto in esilio, mentre la sua chimica
+      veniva usata per sterminare il suo popolo.
+    attendibilita: documentato
+  - id: impatto-idrogenazione
+    sezione: impatto
+    testo: 'C''è un impiego dell''idrogeno che quasi tutti hanno in cucina senza saperlo.
+      L''industria alimentare idrogena gli oli vegetali per trasformarli in grassi
+      solidi o semisolidi, adatti a creme spalmabili, dolciumi, prodotti da forno
+      e margarina. Il meccanismo è semplice: gli oli vegetali sono fatti di acidi
+      grassi polinsaturi, cioè con più doppi legami fra atomi di carbonio, e l''idrogenazione
+      ne elimina una parte, alzando il punto di fusione del prodotto. Un liquido diventa
+      una pasta perché gli si aggiunge idrogeno. La stessa reazione, applicata ai
+      composti nitro, dà le ammine, e da lì l''anilina che sta alla base dell''industria
+      dei coloranti.'
+    attendibilita: documentato
+  - id: impatto-hindenburg
+    sezione: impatto
+    testo: 'L''immagine che il pubblico associa all''idrogeno risale però al 6 maggio
+      1937. Il dirigibile LZ 129 Hindenburg — capofila della sua classe, la più lunga
+      macchina volante mai costruita e il più grande dirigibile per volume dell''involucro
+      — prese fuoco mentre tentava l''attracco al pilone di ormeggio di Lakehurst,
+      nel New Jersey. A bordo c''erano novantasette persone, trentasei passeggeri
+      e sessantuno membri d''equipaggio; i morti furono trentacinque a bordo più uno
+      a terra, e sessantadue persone sopravvissero. Le riprese cinematografiche fecero
+      il resto: l''epoca dei dirigibili passeggeri finì in poche decine di secondi
+      di pellicola.'
+    attendibilita: documentato
+  - id: impatto-akron
+    sezione: impatto
+    testo: 'C''è un dato che rimette le cose in proporzione e che quasi nessuno conosce.
+      Quello dello Hindenburg è il disastro di dirigibile più ricordato, ma non è
+      il peggiore: poco più del doppio delle vittime — settantatré persone su settantasei
+      a bordo — erano morte quattro anni prima, il 4 aprile 1933, quando il dirigibile
+      da ricognizione della marina statunitense USS Akron precipitò in mare al largo
+      della costa del New Jersey. L''Akron era gonfiato a elio. Il gas inerte non
+      lo aveva salvato, e quel disastro non ha chiuso nessuna epoca perché non c''erano
+      cineprese ad aspettarlo all''ormeggio.'
+    attendibilita: documentato
+  - id: impatto-discusso-vernice
+    sezione: impatto
+    testo: 'Sulla causa dell''incendio esiste una tesi alternativa che va riportata
+      con precisione, perché viene spesso citata male. Nel 1996 lo scienziato della
+      NASA in pensione Addison Bain propose l''ipotesi della vernice incendiaria:
+      il composto usato per trattare il rivestimento del dirigibile sarebbe stato
+      la causa del fuoco, e lo Hindenburg sarebbe bruciato anche se fosse stato riempito
+      di elio. L''ipotesi riguarda però l''innesco e la propagazione del fronte di
+      fiamma, non la provenienza della maggior parte del materiale che bruciava: una
+      volta partito l''incendio, l''idrogeno deve chiaramente avere bruciato. La tesi
+      è dibattuta, e chi la cita per dire che «non fu colpa dell''idrogeno» le fa
+      dire più di quanto affermi.'
+    attendibilita: discusso
+  - id: controversie-discusso-metallico
+    sezione: controversie
+    testo: 'Nel 1935 i fisici Eugene Wigner e Hillard Bell Huntington previdero che
+      sotto una pressione immensa, che stimarono intorno alle duecentocinquantamila
+      atmosfere, l''idrogeno avrebbe mostrato proprietà metalliche: invece di molecole
+      distinte si sarebbe formata una fase con un reticolo solido di protoni e gli
+      elettroni delocalizzati in tutto il volume, che è esattamente la definizione
+      di un metallo. La stima iniziale della pressione necessaria si rivelò poi troppo
+      bassa, e da allora produrre idrogeno metallico in laboratorio è stato descritto
+      come «il sacro Graal della fisica delle alte pressioni». Gli annunci si sono
+      susseguiti e altrettante volte sono stati contestati: a quelle pressioni il
+      campione è minuscolo e distinguere il metallo da un artefatto è difficilissimo.'
+    attendibilita: discusso
+  - id: controversie-giove
+    sezione: controversie
+    testo: 'La questione non è accademica, perché quella fase si ritiene esista in
+      grandi quantità là dove nessuno può andare a verificarla. Si pensa che la struttura
+      interna di Giove consista in un mantello esterno di idrogeno metallico fluido
+      attorno a un nucleo diffuso di materiale più denso, e che sia proprio in quel
+      fluido conduttore che si generano le correnti responsabili del campo magnetico
+      del pianeta: il più forte del sistema solare e la seconda struttura contigua
+      per dimensioni dopo l''eliosfera. Una sostanza prevista dalla teoria nel 1935,
+      mai prodotta in laboratorio in modo indiscusso, e alla quale si attribuisce
+      il magnetismo del pianeta più grande che abbiamo.'
+    attendibilita: discusso
+  - id: controversie-infragilimento
+    sezione: controversie
+    testo: 'C''è un problema che rende l''idrogeno difficile da maneggiare più dell''infiammabilità,
+      e si chiama infragilimento. Gli atomi di idrogeno sono piccoli abbastanza da
+      permeare i metalli solidi, e una volta assorbiti abbassano lo sforzo necessario
+      perché una cricca si inneschi e si propaghi: il metallo perde duttilità e cede
+      sotto carichi che avrebbe retto. Colpisce gli acciai, il ferro, il nichel, il
+      titanio, il cobalto e le loro leghe, mentre rame, alluminio e acciai inossidabili
+      sono in genere meno sensibili; ed è massimo, negli acciai, proprio intorno alla
+      temperatura ambiente. I fatti essenziali sono noti dall''Ottocento, il che rende
+      meno sorprendente che non si possa semplicemente riempire di idrogeno la rete
+      del gas esistente.'
+    attendibilita: documentato
+  - id: controversie-colori
+    sezione: controversie
+    testo: Nel dibattito sull'energia l'idrogeno viene classificato per colori, e
+      conviene conoscerli perché è lì che si gioca tutto. Grigio è quello ricavato
+      per reforming a vapore del gas naturale, che produce molta anidride carbonica;
+      blu è lo stesso processo con cattura e stoccaggio del carbonio, che ne produce
+      poca ma richiede reti di stoccaggio che in gran parte non esistono; nero e marrone
+      sono quelli da carbone e lignite, con emissioni altissime; verde è quello ottenuto
+      per elettrolisi dell'acqua con elettricità rinnovabile. Ci sono anche il turchese,
+      dalla pirolisi del metano, che lascia carbonio solido invece che gassoso, e
+      il rosso, da calore nucleare. Sette colori, la stessa formula chimica, implicazioni
+      climatiche opposte.
+    attendibilita: documentato
+  - id: controversie-perche-grigio
+    sezione: controversie
+    testo: 'La ragione per cui quasi tutto l''idrogeno del mondo è ancora grigio non
+      è l''inerzia ma la termodinamica, ed è bene dirla chiaramente. Ricavare idrogeno
+      dal metano non richiede energia aggiuntiva oltre al combustibile fossile stesso,
+      perché quella energia è già nella molecola; scomporre l''acqua, invece, richiede
+      un ingresso di elettricità o di calore che qualcuno deve produrre. Il primo
+      processo è in discesa, il secondo in salita. A questo si aggiunge un dettaglio
+      che le fonti annotavano al 2020: il passaggio di sequestro del carbonio, quello
+      che dovrebbe trasformare l''idrogeno grigio in blu, non era in uso commerciale.'
+    attendibilita: documentato
+  - id: controversie-elettrolisi
+    sezione: controversie
+    testo: 'La strada opposta — non bruciare idrogeno per fare acqua ma scindere l''acqua
+      per fare idrogeno — ha una storia che corre parallela a quella dell''elettricità,
+      e la segue a pochi passi di distanza. Nel 1789 Jan Rudolph Deiman e Adriaan
+      Paets van Troostwijk scomposero l''acqua usando una macchina elettrostatica
+      e degli elettrodi d''oro dentro una bottiglia di Leida. Nel 1800 Alessandro
+      Volta inventò la pila, e poche settimane dopo gli inglesi William Nicholson
+      e Anthony Carlisle la usarono per elettrolizzare l''acqua: la prima cosa che
+      si fece con la prima sorgente stabile di corrente continua fu spezzare una molecola
+      d''acqua. L''elettrolisi diventò un metodo economico per produrre idrogeno solo
+      nel 1869, con la macchina di Zénobe Gramme.'
+    attendibilita: documentato
+  - id: controversie-sovratensione
+    sezione: controversie
+    testo: 'Il vantaggio dell''elettrolisi è chiaro: la reazione di scissione dell''acqua
+      non produce gas serra, quindi l''impronta emissiva può essere inferiore a quella
+      dei processi che ricavano idrogeno dai fossili. Il problema è l''efficienza,
+      e ha una radice fisica precisa: elettrolizzare acqua pura richiede energia in
+      eccesso, sotto forma di sovratensione, per superare varie barriere di attivazione.
+      Senza quel surplus la reazione procede lentamente o non procede affatto. Massimizzare
+      l''efficienza elettrica e ridurre il costo dei materiali degli elettrolizzatori
+      è oggi uno dei problemi di ricerca centrali dell''ingegneria chimica e della
+      scienza dei materiali: non è una questione di volontà politica, è una questione
+      di catalizzatori.'
+    attendibilita: documentato
+  - id: controversie-grove
+    sezione: controversie
+    testo: 'L''idea di ricavare elettricità direttamente dall''idrogeno, senza passare
+      da una fiamma, ha quasi due secoli. Le prime celle a combustibile furono inventate
+      da Sir William Grove, fisico e avvocato gallese, che ne scrisse in una lettera
+      dell''ottobre 1838 pubblicata in dicembre: usava lastre di ferro, rame e porcellana
+      e una soluzione di solfato di rame e acido diluito. Sulla stessa rivista, in
+      una lettera scritta nel dicembre di quell''anno, interveniva un chimico tedesco
+      che questo vault ha già incontrato: Christian Friedrich Schönbein, lo stesso
+      che nel 1839 avrebbe isolato l''ozono e gli avrebbe dato il nome. Due lettere
+      sulla stessa rivista, e due pezzi della storia dell''ossigeno e dell''idrogeno.'
+    attendibilita: documentato
+  - id: controversie-celle
+    sezione: controversie
+    testo: 'Una cella a combustibile si distingue da una batteria per un dettaglio
+      che cambia tutto: la batteria contiene già dentro di sé le sostanze da cui ricava
+      energia, la cella invece va alimentata dall''esterno e produce elettricità finché
+      le si forniscono combustibile e ossigeno. Il primo uso commerciale arrivò quasi
+      un secolo dopo Grove, con la cella idrogeno-ossigeno di Francis Thomas Bacon
+      nel 1932; la cella alcalina che porta il suo nome alimenta i programmi spaziali
+      della NASA dalla metà degli anni Sessanta, fornendo energia a satelliti e capsule.
+      L''efficienza energetica si colloca in genere fra il quaranta e il sessanta
+      per cento, e recuperando il calore di scarto in cogenerazione può arrivare all''ottantacinque.'
+    attendibilita: documentato
+  - id: controversie-stoccaggio
+    sezione: controversie
+    testo: 'Il problema pratico dell''idrogeno non è produrlo ma tenerlo da qualche
+      parte, e le cifre dicono perché. Nei veicoli si usano serbatoi in composito
+      di carbonio a trecentocinquanta bar, e più spesso a settecento: settecento volte
+      la pressione atmosferica dentro un recipiente che viaggia su strada. L''alternativa
+      è liquefarlo, il che richiede di scendere a meno duecentocinquantatré gradi
+      — il gas naturale liquefatto, per confronto, si conserva a meno centosessantadue
+      — e comporta una perdita di efficienza che nel caso migliore è di circa il tredici
+      per cento dell''energia contenuta. Nessuna delle due strade è comoda, ed è questo,
+      più dell''infiammabilità, a frenarne l''uso diffuso.'
+    attendibilita: documentato
+  - id: controversie-fughe
+    sezione: controversie
+    testo: 'C''è poi un dato che raramente entra nel dibattito pubblico e che dovrebbe.
+      Essendo la molecola più piccola che esista, l''idrogeno sfugge facilmente dai
+      recipienti e durante i travasi: una parte di quello che si produce si perde
+      per strada, inevitabilmente. E l''idrogeno disperso non è neutro per il clima.
+      Non contribuisce direttamente all''effetto serra, ma se ne stima un potenziale
+      di riscaldamento globale a cento anni pari a 11,6 con un''incertezza di 2,8,
+      perché interferisce con processi atmosferici come l''ossidazione del metano
+      e la produzione di ozono troposferico. Un vettore energetico che perde per strada
+      un gas con un potenziale climatico di undici volte quello dell''anidride carbonica
+      va progettato con attenzione.'
+    attendibilita: documentato
+  - id: controversie-automobili
+    sezione: controversie
+    testo: 'Sulle automobili il verdetto del mercato è già arrivato, e le cifre non
+      lasciano molto spazio all''interpretazione. Alla fine del 2022 nel mondo erano
+      stati venduti 70.200 veicoli leggeri a celle a combustibile, contro ventisei
+      milioni di veicoli elettrici a batteria; nel 2023, negli Stati Uniti, 3.143
+      auto a idrogeno contro 380.000 elettriche. Le fonti annotano che, con la rapida
+      crescita dei veicoli elettrici e della relativa tecnologia di accumulo e infrastruttura,
+      lo spazio globale per l''idrogeno nelle automobili si sta riducendo rispetto
+      alle attese di un tempo. Il primo veicolo stradale a celle a combustibile, per
+      inciso, fu il Chevrolet Electrovan presentato dalla General Motors nel 1966:
+      sono sessant''anni di promesse.'
+    attendibilita: documentato
+  - id: controversie-98-per-cento
+    sezione: controversie
+    testo: 'C''è poi il dato che rende molte discussioni oziose finché non cambia:
+      al 2019 il novantotto per cento dell''idrogeno prodotto nel mondo veniva dal
+      reforming a vapore del metano, che emette anidride carbonica. Le alternative
+      esistono — elettrolisi dell''acqua, vie termochimiche o pirolitiche a partire
+      da materie prime rinnovabili — ma al momento sono costose. Finché quel novantotto
+      per cento non scende, discutere se l''idrogeno sia un combustibile pulito significa
+      discutere di una sostanza che nella pratica è un derivato del gas naturale.
+      Il vantaggio ambientale non sta nella molecola: sta in come la si è fatta.'
+    attendibilita: documentato
+  - id: controversie-bockris
+    sezione: controversie
+    testo: 'L''espressione «economia dell''idrogeno» ha una data e un luogo di nascita
+      che dicono qualcosa: John Bockris la usò in una conferenza del 1970 al centro
+      tecnico della General Motors. La sua idea era un''economia in cui l''idrogeno,
+      sostenuto da energia nucleare e solare, avrebbe risposto alle preoccupazioni
+      crescenti per l''esaurimento dei combustibili fossili e l''inquinamento — e,
+      dettaglio che vale la pena sottolineare perché il dibattito attuale lo dimentica,
+      facendo da vettore energetico «per gli usi finali in cui l''elettrificazione
+      non fosse adatta». Nella formulazione originaria, l''idrogeno era il complemento
+      dell''elettricità, non il suo concorrente.'
+    attendibilita: documentato
+  - id: controversie-discusso-economia
+    sezione: controversie
+    testo: 'Su dove convenga davvero usarlo le prove sono più nette di come il dibattito
+      pubblico le racconta, e vale la pena riportarle. Una rassegna di trentadue studi
+      indipendenti da interessi commerciali, dedicata all''idrogeno per riscaldare
+      gli edifici, ha trovato che sul piano economico e climatico regge molto male
+      il confronto con le reti di teleriscaldamento, con l''elettrificazione del riscaldamento
+      tramite pompe di calore, con il solare termico, con il recupero del calore di
+      scarto e con le misure di efficienza energetica. Le cifre spiegano perché: a
+      causa delle inefficienze di produzione, sostituire il gas naturale con idrogeno
+      blu richiederebbe tre volte tanto metano, e usare idrogeno verde richiederebbe
+      due o tre volte l''elettricità che consumerebbe una pompa di calore. Restano
+      gli usi in cui alternative dirette non esistono — l''ammoniaca, le raffinerie,
+      l''acciaio — e lì il consenso è ampio.'
+    attendibilita: discusso
+  - id: eredita-deuterio
+    sezione: eredita
+    testo: 'L''idrogeno ha un secondo isotopo stabile, il deuterio, il cui nucleo
+      contiene un neutrone oltre al protone; il nome viene dal greco deuteros, «secondo».
+      Lo scoprì il chimico americano Harold Urey nel 1931, producendo insieme ad altri
+      campioni di acqua pesante in cui l''isotopo era fortemente concentrato, e nel
+      1934 ne ebbe il Nobel. La quasi totalità del deuterio presente in natura fu
+      sintetizzata nel Big Bang 13,8 miliardi di anni fa, e da allora il rapporto
+      è rimasto quello: circa ventisei nuclei di deuterio ogni milione di nuclei di
+      idrogeno. Le stelle ne producono, ma lo distruggono subito in reazioni di fusione:
+      quello che c''è è quasi tutto reliquia.'
+    attendibilita: documentato
+  - id: eredita-acqua-pesante
+    sezione: eredita
+    testo: 'La differenza di massa fra i due isotopi — uno contro due — è la più grande
+      che esista fra isotopi di uno stesso elemento, e produce un effetto che negli
+      altri elementi non si osserva: le proprietà chimiche cambiano in modo misurabile.
+      L''acqua fatta con deuterio al posto dell''idrogeno ordinario si chiama acqua
+      pesante, congela e bolle a temperature diverse da quella comune e rallenta le
+      reazioni biologiche. Negli altri elementi sostituire un isotopo con un altro
+      non cambia praticamente nulla; nell''idrogeno raddoppiare la massa del nucleo
+      si sente, perché quel nucleo è quasi tutto l''atomo.'
+    attendibilita: documentato
+  - id: eredita-vemork
+    sezione: eredita
+    testo: 'Quell''acqua è anche il motivo per cui un isotopo dell''idrogeno è finito
+      dentro la seconda guerra mondiale. Nel 1934 la Norsk Hydro costruì a Vemork,
+      in Norvegia, il primo impianto commerciale per l''acqua pesante, che arrivò
+      a produrne quattro chilogrammi al giorno; dal 1940 lo stabilimento passò sotto
+      controllo tedesco, e gli Alleati decisero di distruggerlo per ostacolare lo
+      sviluppo di armi nucleari da parte della Germania. Il primo tentativo, l''operazione
+      Freshman di fine 1942, fallì: entrambi gli alianti si schiantarono e gli incursori
+      morirono nello schianto o furono poi giustiziati dai tedeschi. Un liquido che
+      differisce dall''acqua comune per un neutrone per molecola è costato vite umane
+      prima ancora di finire in un reattore.'
+    attendibilita: documentato
+  - id: eredita-fusione
+    sezione: eredita
+    testo: 'La reazione che accende il Sole è la catena protone-protone, che domina
+      alla temperatura del suo nucleo, quindici milioni e mezzo di gradi, e nelle
+      stelle di massa non superiore alla sua. C''è però un dettaglio che spiega perché
+      le stelle durino miliardi di anni invece di esplodere in una settimana: il primo
+      passaggio è rarissimo. Quando due protoni si scontrano, il risultato più comune
+      è un diprotone, che decade quasi immediatamente in due protoni; solo di rado
+      si forma un deutone, che è il passo necessario per proseguire. La conversione
+      di idrogeno in elio è lentissima proprio per questo, ed è quella lentezza a
+      rendere possibile una biosfera.'
+    attendibilita: documentato
+  - id: eredita-trizio
+    sezione: eredita
+    testo: 'Il terzo isotopo dell''idrogeno si chiama trizio, dal greco per «terzo»,
+      e ha due neutroni accanto al protone. È raro fino all''assurdo: l''abbondanza
+      naturale è dell''ordine di uno su un miliardo di miliardi di atomi di idrogeno.
+      Ed è radioattivo, con un''emivita di poco più di dodici anni, al termine dei
+      quali decade in elio-3. Quei due dati insieme spiegano perché esista in quantità
+      così piccole: anche se se ne formasse in continuazione, sparirebbe nel giro
+      di qualche decennio. È l''unico isotopo radioattivo dell''idrogeno che si trovi
+      in natura — in laboratorio se ne sono sintetizzati altri, ancora più pesanti,
+      che durano frazioni infinitesime di secondo — e la fusione controllata ne ha
+      bisogno proprio perché è quello che reagisce più facilmente.'
+    attendibilita: documentato
+  - id: eredita-fusione-terra
+    sezione: eredita
+    testo: 'Riprodurre quella reazione sulla Terra in modo controllato è il problema
+      tecnologico aperto da più tempo e con più risorse impegnate della storia recente,
+      e non si affronta con l''idrogeno ordinario: gli impianti sperimentali usano
+      deuterio e trizio, perché la loro reazione ha una soglia energetica accessibile.
+      Il trizio, però, è radioattivo e in natura praticamente non esiste: va prodotto.
+      L''elemento più semplice e più abbondante dell''universo mette a disposizione
+      l''energia più grande dietro la barriera tecnica più alta, e per arrivarci bisogna
+      fabbricare uno dei suoi isotopi più rari.'
+    attendibilita: documentato
+  - id: eredita-legame-idrogeno
+    sezione: eredita
+    testo: C'è infine un'eredità che non riguarda l'elemento ma un legame che porta
+      il suo nome, ed è forse la più pervasiva di tutte. Il legame a idrogeno si forma
+      quando un atomo di idrogeno legato a un atomo elettronegativo viene attratto
+      da un altro atomo elettronegativo che possiede una coppia solitaria di elettroni
+      — l'azoto delle ammine e delle ammidi, l'ossigeno dell'acqua e dei carbossilati.
+      È a quel legame che si devono il punto di ebollizione anomalamente alto dell'acqua,
+      la stabilizzazione delle strutture delle proteine e degli acidi nucleici, e
+      proprietà essenziali di materiali come la carta, la lana e gli idrogel.
+    attendibilita: documentato
+  - id: eredita-cerniera
+    sezione: eredita
+    testo: 'Nei sistemi biologici quei legami fanno un lavoro che nessun legame più
+      forte potrebbe fare: mediano il riconoscimento molecolare, la catalisi enzimatica
+      e la replicazione del DNA. Il punto è la debolezza. Le coppie di basi del DNA
+      sono tenute insieme da legami a idrogeno, e proprio per questo la doppia elica
+      si può aprire per essere copiata e richiudere subito dopo: se fossero legami
+      covalenti, replicare il genoma richiederebbe di spezzare la molecola. La vita
+      usa l''idrogeno soprattutto come cerniera, e una cerniera funziona solo se tiene
+      abbastanza e non troppo.'
+    attendibilita: documentato
+  - id: eredita-niente-affatto
+    sezione: eredita
+    testo: 'Anche le sue posizioni religiose erano considerate eccentriche per l''epoca:
+      passava per agnostico, e il suo biografo George Wilson liquidò la questione
+      con una frase che vale come ritratto: «Quanto alla religione di Cavendish, egli
+      non era proprio niente». In un secolo in cui quasi ogni uomo di scienza britannico
+      teneva a dichiarare la propria fede — Boyle era un anglicano devoto e scriveva
+      di teologia, Priestley era un pastore — Cavendish non dichiarava nulla, di nessun
+      genere. C''è però un dettaglio che lo rende improvvisamente umano: collezionava
+      mobili pregiati, e comprò fra le altre cose una serie di dieci sedie intarsiate
+      in legno di raso con divano abbinato.'
+    attendibilita: documentato
+  - id: eredita-dove-fu-pesato-il-mondo
+    sezione: eredita
+    testo: 'Di quell''uomo restano due monumenti, ed entrambi portano la firma di
+      chi gli ha restituito il merito. Il primo è una consuetudine: davanti alla casa
+      in cui aveva condotto l''esperimento della bilancia di torsione, i passanti
+      indicavano l''edificio e dicevano ai figli che lì era stato pesato il mondo.
+      Il secondo è un''istituzione: il laboratorio di fisica dell''Università di Cambridge
+      fu intitolato Cavendish Laboratory da James Clerk Maxwell, che ne fu il primo
+      titolare di cattedra e ammiratore dichiarato di quel lavoro, grazie a una donazione
+      di un discendente della famiglia. È lo stesso Maxwell che aveva curato la pubblicazione
+      delle ricerche elettriche rimaste nei cassetti e dei suoi scritti scientifici.'
+    attendibilita: documentato
+  - id: eredita-ferro-e-vapore
+    sezione: eredita
+    testo: 'Vale la pena notare come Lavoisier si procurasse l''idrogeno per i propri
+      esperimenti sulla conservazione della massa, perché la reazione chiude un cerchio
+      con un altro approfondimento di questo vault. Faceva passare un flusso d''acqua
+      attraverso un tubo di ferro incandescente scaldato nel fuoco: a quella temperatura
+      il ferro strappa l''ossigeno alle molecole d''acqua, ossidandosi, e libera idrogeno.
+      È la stessa chimica che governa la ruggine, condotta a caldo e letta all''incontrario:
+      non il ferro che si guasta, ma l''acqua che si scompone. Duecentocinquant''anni
+      dopo, la siderurgia che cerca di decarbonizzarsi usa idrogeno per strappare
+      l''ossigeno al minerale di ferro: la stessa coppia di elementi, con i ruoli
+      invertiti.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'Resta la figura da cui siamo partiti. Henry Cavendish scoprì l''idrogeno,
+      pesò la Terra con due palle di piombo e un filo, anticipò cinque leggi che portano
+      il nome di altri e scrisse un manoscritto sulla termodinamica che nessuno lesse
+      per due secoli. Non pubblicò quasi nulla di tutto questo perché non gli interessava,
+      o perché parlare gli costava troppo, o per entrambe le ragioni. La scienza è
+      un''impresa collettiva e funziona solo se i risultati circolano: la storia di
+      Cavendish è il controesempio che lo dimostra, perché tutto quello che lui aveva
+      già trovato è stato ritrovato da capo, da altri, con altri decenni di lavoro.
+      L''elemento più semplice dell''universo è stato riconosciuto da un uomo a cui,
+      per parlare, bisognava rivolgersi nel vuoto.'
+    attendibilita: documentato
 composti_principali:
 - nome: Acqua
   formula: H2O
@@ -214,3 +1035,96 @@ fonti:
 - url: https://en.wikipedia.org/wiki/Henry_Cavendish
   titolo: Henry Cavendish
   consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Cavendish_experiment
+  titolo: Cavendish experiment
+  consultata: &id001 2026-09-14
+- url: https://en.wikipedia.org/wiki/Hydrogenation
+  titolo: Hydrogenation
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_atom
+  titolo: Hydrogen atom
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bohr_model
+  titolo: Bohr model
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_spectral_series
+  titolo: Hydrogen spectral series
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Balmer_series
+  titolo: Balmer series
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Isotopes_of_hydrogen
+  titolo: Isotopes of hydrogen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Deuterium
+  titolo: Deuterium
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Heavy_water
+  titolo: Heavy water
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Tritium
+  titolo: Tritium
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis
+  titolo: Big Bang nucleosynthesis
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Proton–proton_chain
+  titolo: Proton–proton chain
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Stellar_nucleosynthesis
+  titolo: Stellar nucleosynthesis
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_line
+  titolo: Hydrogen line
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Metallic_hydrogen
+  titolo: Metallic hydrogen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Jupiter
+  titolo: Jupiter
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_bond
+  titolo: Hydrogen bond
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Haber_process
+  titolo: Haber process
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Fritz_Haber
+  titolo: Fritz Haber
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/History_of_the_Haber_process
+  titolo: History of the Haber process
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Nitrogen_fixation
+  titolo: Nitrogen fixation
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hindenburg_disaster
+  titolo: Hindenburg disaster
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/LZ_129_Hindenburg
+  titolo: LZ 129 Hindenburg
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_economy
+  titolo: Hydrogen economy
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_vehicle
+  titolo: Hydrogen vehicle
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Green_hydrogen
+  titolo: Green hydrogen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_production
+  titolo: Hydrogen production
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Electrolysis_of_water
+  titolo: Electrolysis of water
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Fuel_cell
+  titolo: Fuel cell
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_storage
+  titolo: Hydrogen storage
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hydrogen_embrittlement
+  titolo: Hydrogen embrittlement
+  consultata: *id001
