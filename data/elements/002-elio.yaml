@@ -170,6 +170,786 @@ contenuti:
   - termine: clevite
     ipa: kleˈvite
     nota: Dal nome del chimico Per Teodor Cleve.
+contenuti_estesi:
+  hook: 'Il 18 agosto 1868, a Guntur, nell''India britannica, un astronomo francese
+    puntò lo spettroscopio sulla cromosfera di un''eclissi totale e registrò una riga
+    gialla che non apparteneva a nessuna sostanza conosciuta. Non se ne accorse subito:
+    la riga era lì, nei suoi dati, e nessuno la commentò. Ventisette anni dopo quello
+    stesso elemento uscì da un minerale di uranio trattato con acido, in un laboratorio
+    di Londra. Nel frattempo era stato battezzato con il nome del Sole, da un astronomo
+    che non conosceva le convenzioni dei chimici e gli diede per sbaglio la desinenza
+    dei metalli.'
+  beats:
+  - id: contesto-ventiquattro
+    sezione: contesto
+    testo: 'Per capire l''elio bisogna cominciare da una sproporzione. È il secondo
+      elemento più leggero e il secondo più abbondante dell''universo osservabile,
+      dopo l''idrogeno: costituisce circa il ventiquattro per cento della massa elementare
+      totale, il che significa più di dodici volte la massa di tutti gli elementi
+      più pesanti messi insieme. Tutto il resto della tavola periodica — il carbonio
+      di cui siamo fatti, l''ossigeno che respiriamo, il ferro dei pianeti, l''oro
+      e l''uranio — sta in un due per cento della materia atomica dell''universo.
+      La stessa proporzione si ritrova nel Sole e in Giove. L''universo è fatto di
+      idrogeno ed elio, e tutto il resto è un residuo.'
+    attendibilita: documentato
+  - id: contesto-primi-minuti
+    sezione: contesto
+    testo: 'Quella proporzione non è stata costruita dalle stelle: era già lì prima
+      che esistessero. Nei primi minuti dopo il Big Bang l''universo restò abbastanza
+      caldo e denso perché le reazioni di fusione procedessero, e il deuterio che
+      si era formato fuse in nuclei più pesanti — trizio, elio-3, elio-4, litio-7.
+      A quel punto intervenne una proprietà decisiva: l''elio-4 ha un''energia di
+      legame elevata, e questo significa che una volta formato è difficile smontarlo
+      per incorporarne i costituenti in nuclei più pesanti. La nucleosintesi primordiale
+      si fermò lì. Il modello standard prevede che alla fine di quel processo l''universo
+      fosse composto per circa il settantacinque per cento di idrogeno e per il venticinque
+      per cento di elio-4 in massa: all''incirca le proporzioni che osserviamo ancora
+      oggi. Quel rapporto fra i due elementi più leggeri è un fossile dei primi minuti
+      di esistenza del cosmo.'
+    attendibilita: documentato
+  - id: contesto-rarita
+    sezione: contesto
+    testo: 'Sulla Terra la situazione si capovolge nel modo più netto. Il secondo
+      elemento dell''universo è presente nella nostra atmosfera a una concentrazione
+      in volume di appena 5,2 parti per milione. Il dato curioso è che questa concentrazione
+      resta bassa e piuttosto costante nonostante la produzione continua di elio nuovo,
+      e la ragione è che quasi tutto l''elio atmosferico sfugge nello spazio attraverso
+      diversi processi. Il pianeta non lo trattiene: è troppo leggero perché la gravità
+      terrestre riesca a tenerlo. Con una sola eccezione geografica interessante —
+      nell''eterosfera, cioè in una parte dell''alta atmosfera, elio e idrogeno sono
+      gli elementi più abbondanti. Sopra le nostre teste, abbastanza in alto, la composizione
+      dell''universo torna a farsi sentire.'
+    attendibilita: documentato
+  - id: contesto-perche-inerte
+    sezione: contesto
+    testo: 'La ragione ultima di tanta indifferenza sta in due numeri. La configurazione
+      elettronica dell''elio è 1s²: due soli elettroni, che riempiono completamente
+      il primo e unico guscio disponibile. Per strappargliene uno occorrono 2372,3
+      chilojoule per mole, e per il secondo 5250,5. Per avere un termine di paragone
+      dentro la stessa famiglia: al neon ne bastano 2080, all''argon 1520, e a scendere
+      lungo la colonna la cifra cala fino ai 1037 dello xenon, perché più l''atomo
+      è grande più gli elettroni esterni sono lontani dal nucleo e meno sono trattenuti.
+      I gas nobili hanno il potenziale di ionizzazione più alto di ciascun periodo,
+      e l''elio è il primo di tutti. Non avendo né elettroni da cedere a un costo
+      ragionevole né posti liberi dove accoglierne, i suoi stati di ossidazione comuni
+      sono, alla lettera, nessuno. Con un raggio atomico di 31 picometri è anche l''atomo
+      più piccolo dopo quello di idrogeno: minuscolo, compiuto e insensibile a quasi
+      tutto.'
+    attendibilita: documentato
+  - id: contesto-discusso-inerzia
+    sezione: contesto
+    testo: 'Su un punto vale la pena essere precisi, perché la formulazione corrente
+      — e anche la nota base di questo vault — dice che l''elio è l''elemento meno
+      reattivo della tavola periodica. La voce enciclopedica dedicata all''elemento
+      afferma qualcosa di leggermente diverso: che l''elio è il secondo gas nobile
+      meno reattivo dopo il neon, e dunque il secondo elemento meno reattivo in assoluto.
+      La differenza non cambia la sostanza — in condizioni standard l''elio è chimicamente
+      inerte e monoatomico, senza composti stabili — ma cambia il primato. È un buon
+      esempio di come i superlativi sopravvivano per inerzia anche quando la fonte
+      li attribuisce a qualcun altro: per trovare il campione assoluto dell''indifferenza
+      chimica bisogna scendere di una casella nella colonna dei gas nobili.'
+    attendibilita: discusso
+  - id: contesto-discusso-elettronegativita
+    sezione: contesto
+    testo: 'Su una proprietà le fonti non concordano, e la discrepanza è istruttiva.
+      La scheda della voce dedicata all''elio riporta, alla riga dell''elettronegatività
+      sulla scala di Pauling, l''indicazione «nessun dato»: coerente con l''idea che
+      non abbia senso misurare quanto attragga elettroni un atomo che non forma legami.
+      La tabella comparativa della voce sui gas nobili, però, un valore ce l''ha e
+      lo assegna: 4,16 per l''elio e 4,79 per il neon — valori che, in quella tabella,
+      sono i due più alti dell''intera colonna dei gas nobili. Sono due modi diversi
+      di trattare la stessa grandezza — rifiutarsi di attribuirla in assenza di composti,
+      oppure calcolarla per via teorica — e questo vault si limita a registrare che
+      convivono nelle fonti senza che l''una smentisca l''altra.'
+    attendibilita: discusso
+  - id: contesto-attraversa
+    sezione: contesto
+    testo: 'L''altra proprietà che definisce l''elio è la sua capacità di passare
+      dovunque. A causa della massa atomica relativamente bassa, la sua conducibilità
+      termica, il suo calore specifico e la velocità del suono al suo interno sono,
+      in fase gassosa, maggiori che in qualunque altro gas tranne l''idrogeno. Per
+      queste ragioni e per le piccole dimensioni delle sue molecole monoatomiche,
+      l''elio diffonde attraverso i solidi a una velocità tripla rispetto all''aria
+      e pari a circa il sessantacinque per cento di quella dell''idrogeno. Un atomo
+      di elio non ha bisogno di un buco per uscire da un contenitore: gli basta il
+      materiale del contenitore.'
+    attendibilita: documentato
+  - id: contesto-righe-scure
+    sezione: contesto
+    testo: 'La scoperta dell''elio è possibile soltanto perché qualcuno, mezzo secolo
+      prima, aveva imparato a leggere la luce. Nel 1814 il fisico tedesco Joseph von
+      Fraunhofer osservò nello spettro ottico del Sole una serie di righe scure, che
+      da lui presero il nome. Sono righe di assorbimento: si formano quando gli atomi
+      presenti nell''atmosfera solare assorbono la luce emessa dalla fotosfera sottostante.
+      In altre parole, ogni riga scura è l''impronta di qualcosa che sta fra noi e
+      la sorgente, e che si è preso per sé una precisa porzione di luce. Fraunhofer
+      le catalogò senza sapere che cosa fossero; le battezzò con lettere, e proprio
+      quelle lettere torneranno quando qualcuno chiamerà D3 la riga dell''elio.'
+    attendibilita: documentato
+  - id: contesto-bunsen-kirchhoff
+    sezione: contesto
+    testo: Il passo decisivo arrivò negli anni Sessanta dell'Ottocento, cioè pochissimo
+      prima dell'eclissi indiana. Furono i fisici tedeschi Robert Bunsen e Gustav
+      Kirchhoff a cominciare l'attribuzione sistematica degli spettri agli elementi
+      chimici, scoprendo che le righe di Fraunhofer corrispondono alle righe di emissione
+      osservate nelle sorgenti luminose di laboratorio. Applicando le tecniche ottiche
+      di Fraunhofer, il bruciatore perfezionato da Bunsen e una procedura sperimentale
+      sistematica, stabilirono il legame fra gli elementi chimici e i loro inconfondibili
+      schemi spettrali. Da quel momento una riga di luce diventa una firma, e l'analisi
+      spettrochimica si apre insieme al laboratorio e all'astrofisica. L'elio sarà
+      il primo elemento che quella firma identificherà prima ancora che qualcuno ne
+      possieda un campione.
+    attendibilita: documentato
+  - id: contesto-cromosfera
+    sezione: contesto
+    testo: Lo strato di Sole in cui l'elio fu trovato merita una presentazione, anche
+      perché il suo nome viene dalla stessa persona. La cromosfera — letteralmente
+      «sfera di colore», dal greco χρῶμα, colore, e σφαῖρα, sfera — è il secondo strato
+      dell'atmosfera di una stella, collocato sopra la fotosfera e sotto la regione
+      di transizione e la corona. Emette prevalentemente la luce rosso cupo della
+      riga spettrale H-alfa, ed è quella che durante un'eclissi totale appare come
+      un anello rossastro attorno al disco nero della Luna. Il nome lo propose Norman
+      Lockyer, dopo osservazioni solari sistematiche, proprio per distinguere quello
+      strato dalla fotosfera che emette luce bianca. Lo stesso uomo ha dunque battezzato
+      sia il luogo sia la sostanza che vi trovò.
+    attendibilita: documentato
+  - id: vicenda-guntur
+    sezione: vicenda
+    testo: 'La scoperta comincia con qualcosa che nessuno notò. Il 18 agosto 1868,
+      osservando l''eclissi totale da Guntur, nello stato di Madras — oggi Andhra
+      Pradesh — nell''India britannica, Pierre Jules César Janssen vide righe brillanti
+      nello spettro della cromosfera, e da quelle dedusse che la cromosfera è gassosa:
+      già di per sé un risultato importante. Fra quelle righe ce n''era una gialla,
+      che in seguito sarebbe stata misurata a 587,49 nanometri. Era la prima volta
+      che quella riga veniva osservata, e una delle possibili spiegazioni era un elemento
+      non ancora scoperto sulla Terra. Ma la fonte è esplicita su un punto che vale
+      più di molti aneddoti: quella riga era presente nello spettro e non fu notata
+      né commentata sul momento. Il primo uomo che vide l''elio non si accorse di
+      averlo visto.'
+    attendibilita: documentato
+  - id: vicenda-pallone
+    sezione: vicenda
+    testo: 'Per capire che razza di uomo fosse Janssen conviene guardare che cosa
+      fece due anni dopo. Aveva partecipato a una lunga serie di spedizioni per osservare
+      le eclissi — Trani nel 1867, Guntur nel 1868, poi Algeri nel 1870, il Siam,
+      le isole Caroline, e ancora la Spagna nel 1905, a settantasette anni. Ma nel
+      1870 Parigi era sotto assedio. Janssen non rinunciò: per vedere quell''eclissi
+      fuggì dalla città assediata a bordo di un pallone aerostatico. Il cielo, quel
+      giorno, gli fu oscurato dalle nuvole. Vale la pena tenere a mente questa immagine
+      quando si parla di scienza ottocentesca: un uomo che scavalca in mongolfiera
+      le linee di un assedio e poi non vede nulla.'
+    attendibilita: documentato
+  - id: vicenda-lockyer
+    sezione: vicenda
+    testo: 'Il passo che Janssen non fece lo fece un inglese. Norman Lockyer osservò
+      la stessa riga da Londra e la battezzò D3, perché cadeva accanto alle righe
+      D1 e D2 del sodio nel catalogo di Fraunhofer. La riga non poteva essere spiegata
+      da alcuna sostanza allora conosciuta, e Lockyer ne trasse la conclusione che
+      gli altri esitavano a trarre: se non è nulla di noto, allora è un elemento del
+      Sole ignoto sulla Terra. Lo chiamò elio, dal greco ἥλιος, sole. Era un''affermazione
+      di una temerarietà notevole — postulare l''esistenza di una sostanza che nessuno
+      aveva toccato, pesato o raccolto, sulla sola base di una banda di luce.'
+    attendibilita: documentato
+  - id: vicenda-stesso-giorno
+    sezione: vicenda
+    testo: 'Il merito è condiviso per una circostanza che ha del romanzesco. L''osservazione
+      della riga gialla era stata fatta prima da Janssen, durante l''eclissi del 18
+      agosto; ma i due articoli — quello del francese che l''aveva vista per primo
+      e quello dell''inglese che aveva capito che cosa fosse — arrivarono all''Accademia
+      francese delle scienze lo stesso giorno. Per questo Janssen e Lockyer ricevono
+      di norma un credito congiunto. In una serie di approfondimenti dove il merito
+      è quasi sempre conteso, rivendicato o strappato, l''elio offre il caso opposto:
+      due uomini che non si erano accordati su nulla e che la posta arbitrò alla pari.'
+    attendibilita: documentato
+  - id: vicenda-desinenza
+    sezione: vicenda
+    testo: 'Il nome porta impressa una svista che è diventata permanente. La desinenza
+      -io, in inglese -ium, è insolita per un gas: la convenzione chimica la riserva
+      agli elementi metallici. La spiegazione più probabile è disarmante nella sua
+      semplicità: Lockyer era un astronomo e non conosceva le convenzioni dei chimici.
+      Si dice talvolta che al battesimo abbia partecipato anche il chimico inglese
+      Edward Frankland, il che renderebbe la svista inspiegabile; ma è poco probabile,
+      perché Frankland dubitava dell''esistenza stessa di questo nuovo elemento. Così
+      un gas nobile, che non forma composti stabili con nulla, porta il nome di un
+      metallo, e nessuno lo ha mai corretto.'
+    attendibilita: documentato
+  - id: vicenda-vesuvio
+    sezione: vicenda
+    testo: 'C''è un capitolo italiano che di solito si salta. Nel 1881 il fisico Luigi
+      Palmieri rilevò l''elio sulla Terra per la prima volta, riconoscendone la riga
+      D3 mentre analizzava un materiale sublimato durante una recente eruzione del
+      Vesuvio. Il titolo della sua comunicazione all''Accademia delle Scienze Fisiche
+      e Matematiche di Napoli dice tutto senza giri di parole: «La riga dell''Helium
+      apparsa in una recente sublimazione vesuviana». Quattordici anni prima di Ramsay,
+      l''elemento del Sole era stato visto in una fumarola napoletana. Non bastò a
+      cambiare la storia ufficiale della scoperta: vedere una riga in un campione
+      è meno conclusivo che tenere in mano il gas, e la scoperta formale è rimasta
+      datata 1895.'
+    attendibilita: documentato
+  - id: vicenda-ramsay
+    sezione: vicenda
+    testo: 'L''isolamento vero arrivò il 26 marzo 1895, e arrivò per sbaglio. William
+      Ramsay trattò con acidi minerali la clevite — una varietà di uraninite con almeno
+      il dieci per cento di terre rare — ma non stava cercando l''elio: cercava l''argon,
+      che aveva scoperto l''anno prima. Separati dall''azoto e dall''ossigeno i gas
+      liberati dall''acido solforico, notò una riga gialla brillante che corrispondeva
+      alla D3 osservata nello spettro del Sole. Chi in questo vault ha seguito le
+      storie dell''idrogeno e dell''azoto ha già incontrato Ramsay proprio a proposito
+      dell''argon: è la terza volta che quel filone di ricerca produce un elemento,
+      e la seconda volta che quello che trova non è quello che cercava.'
+    attendibilita: documentato
+  - id: vicenda-uppsala
+    sezione: vicenda
+    testo: 'Anche qui la scoperta è affollata, come lo era stata per l''ossigeno e
+      per l''azoto. La scoperta formale dell''elemento è attribuita al 1895 e a tre
+      chimici: William Ramsay, Per Teodor Cleve e Nils Abraham Langlet, che trovarono
+      l''elio emanare dal minerale di uranio clevite. Una nota di dettaglio dice qualcosa
+      su come la scienza riscrive le proprie categorie: la clevite oggi non è più
+      considerata una specie mineralogica a sé, ma una varietà di uraninite. Il minerale
+      che ha dato all''umanità l''elio terrestre, e che portava il nome di uno dei
+      suoi scopritori, si è poi rivelato non essere un minerale distinto.'
+    attendibilita: documentato
+  - id: vicenda-colonna-nuova
+    sezione: vicenda
+    testo: 'Conviene dire che cosa comportò, per la chimica, quella stagione di ricerche.
+      Dopo che lui e Rayleigh ebbero identificato l''argon, Ramsay passò a studiare
+      gli altri gas atmosferici, e il suo lavoro di isolamento — argon, elio, neon,
+      cripton e xenon — portò allo sviluppo di una sezione nuova della tavola periodica.
+      Non un elemento in più in una casella vuota: una colonna intera che nessuno
+      aveva previsto. Nel 1904 Ramsay ricevette il Nobel per la chimica «per i suoi
+      servizi nella scoperta degli elementi gassosi inerti dell''aria», e nello stesso
+      anno Rayleigh ricevette quello per la fisica per la scoperta dell''argon. L''elio
+      è l''unico della serie che non fu trovato nell''aria, e l''unico che era già
+      stato battezzato da ventisette anni quando Ramsay lo prese in mano.'
+    attendibilita: documentato
+  - id: vicenda-dilettante
+    sezione: vicenda
+    testo: 'Vale la pena sapere chi fosse, nel 1868, l''uomo che postulò un elemento
+      nuovo. Norman Lockyer era un impiegato pubblico: lavorò per alcuni anni al War
+      Office britannico, dopo una scolarizzazione convenzionale integrata da viaggi
+      in Svizzera e in Francia. Alla scienza era arrivato attraverso il padre, che
+      era stato un pioniere del telegrafo elettrico, ed era un appassionato astronomo
+      dilettante con un interesse particolare per il Sole. Solo nel 1885, diciassette
+      anni dopo la scoperta, sarebbe diventato il primo professore di fisica astronomica
+      al mondo, al Royal College of Science di South Kensington. L''uomo che disse
+      all''Europa scientifica che nel Sole c''era una sostanza sconosciuta non aveva,
+      in quel momento, alcuna cattedra da difendere.'
+    attendibilita: documentato
+  - id: vicenda-dexter
+    sezione: vicenda
+    testo: 'La scoperta che ha reso possibile tutto il resto avvenne per via di un
+      fallimento. Nel 1903 una trivellazione petrolifera a Dexter, in Kansas, produsse
+      un geyser di gas che non voleva bruciare: da un punto di vista commerciale,
+      un pozzo inutile. Il geologo Erasmus Haworth ne raccolse campioni e li portò
+      all''Università del Kansas a Lawrence, dove con l''aiuto dei chimici Hamilton
+      Cady e David McFarland scoprì che quel gas era per il settantadue per cento
+      azoto, per il quindici metano, per l''uno idrogeno e per il dodici per cento
+      qualcosa di non identificabile. Analizzando meglio, Cady e McFarland trovarono
+      che l''1,84 per cento del campione era elio. Era la prova che, nonostante la
+      rarità complessiva sulla Terra, l''elio si trovava concentrato in grandi quantità
+      sotto le Grandi Pianure americane, estraibile come sottoprodotto del gas naturale.
+      Un pozzo che non prendeva fuoco valeva più di uno che bruciava, solo che ci
+      vollero anni per capirlo.'
+    attendibilita: documentato
+  - id: impatto-onnes
+    sezione: impatto
+    testo: 'Il 10 luglio 1908, a Leida, Heike Kamerlingh Onnes fu il primo a liquefare
+      l''elio. Ci riuscì con diversi stadi di pre-raffreddamento e con il ciclo Hampson-Linde,
+      basato sull''effetto Joule-Thomson, portando la temperatura al punto di ebollizione
+      dell''elio: meno duecentosessantanove gradi, cioè 4,2 kelvin. Poi abbassò la
+      pressione sul liquido e arrivò vicino a 1,5 kelvin, la temperatura più bassa
+      mai registrata sulla Terra fino a quel momento. Nel 1913 gli valse il Nobel
+      per la fisica. L''elio era stato l''ultimo gas a resistere alla liquefazione,
+      e con la sua caduta si aprì un territorio di temperature che nessuno aveva mai
+      esplorato.'
+    attendibilita: documentato
+  - id: impatto-keesom
+    sezione: impatto
+    testo: 'Onnes, dopo avere liquefatto l''elio, provò a solidificarlo abbassando
+      ancora la temperatura, e fallì: a pressione atmosferica l''elio non solidifica,
+      per quanto lo si raffreddi. Ci riuscì un suo allievo, Willem Hendrik Keesom,
+      che nel 1926 ottenne un centimetro cubo di elio solido applicando una pressione
+      esterna aggiuntiva. Un centimetro cubo, cioè quanto un dado da gioco: per ottenerlo
+      era servito schiacciare l''unico elemento che il freddo da solo non riesce a
+      fermare. La comunicazione preliminare di quel risultato uscì su Nature nel luglio
+      di quell''anno — ancora una volta la rivista di Lockyer.'
+    attendibilita: documentato
+  - id: impatto-non-congela
+    sezione: impatto
+    testo: 'C''è una proprietà dell''elio che vale la pena enunciare con precisione,
+      perché è l''unica del suo genere in tutta la tavola periodica. A differenza
+      di qualunque altro elemento, l''elio resta liquido fino allo zero assoluto.
+      Non si tratta di una questione di raffreddamento insufficiente: è un effetto
+      diretto della meccanica quantistica. L''energia di punto zero del sistema —
+      l''agitazione residua che i principi quantistici impongono anche in assenza
+      totale di calore — è troppo alta perché il congelamento possa avvenire. Per
+      solidificarlo bisogna schiacciarlo: servono pressioni superiori a circa venticinque
+      atmosfere. Togliere tutto il calore concepibile non basta, perché ciò che tiene
+      in movimento quegli atomi non è calore.'
+    attendibilita: documentato
+  - id: impatto-superconduttivita
+    sezione: impatto
+    testo: 'Il territorio di temperature aperto dalla liquefazione conteneva subito
+      qualcosa che nessuno si aspettava. L''8 aprile 1911, sempre a Leida, Onnes stava
+      studiando la resistenza elettrica del mercurio a temperature criogeniche usando
+      come refrigerante proprio l''elio liquido che aveva prodotto tre anni prima.
+      A 4,2 kelvin osservò che la resistenza spariva di colpo. Era la superconduttività,
+      e il suo significato è difficile da esagerare: una corrente elettrica che circola
+      in un anello di filo superconduttore può persistere indefinitamente senza alcuna
+      sorgente di alimentazione. Questo vault ha già raccontato il mercurio; vale
+      la pena sapere che il metallo liquido a temperatura ambiente è anche il materiale
+      in cui, raffreddato dall''elemento più freddo di tutti, si è vista per la prima
+      volta la corrente che non si ferma mai.'
+    attendibilita: documentato
+  - id: impatto-due-liquidi
+    sezione: impatto
+    testo: 'L''elio liquido non è una sostanza sola: sono due, e si comportano in
+      modo opposto. Sotto il punto di ebollizione di 4,22 kelvin e sopra il cosiddetto
+      punto lambda, che sta a 2,1768 kelvin, l''elio-4 è un normale liquido incolore
+      che i fisici chiamano elio I. Si comporta come gli altri liquidi criogenici:
+      bolle quando lo si scalda e si contrae quando lo si raffredda. Sotto il punto
+      lambda, però, smette di bollire e comincia a espandersi man mano che la temperatura
+      scende ancora. Già l''elio I ha una stranezza che complica la vita di chi ci
+      lavora: il suo indice di rifrazione è 1,026, tipico di un gas, e questo rende
+      la sua superficie così difficile da vedere che per individuarla si ricorre a
+      galleggianti di polistirolo.'
+    attendibilita: documentato
+  - id: impatto-rollin
+    sezione: impatto
+    testo: 'Sotto il punto lambda si entra nell''elio II, ed è qui che la materia
+      smette di comportarsi come ci aspettiamo. A differenza dei liquidi ordinari,
+      l''elio II si arrampica lungo le superfici per raggiungere un livello uguale:
+      se si immerge un recipiente aperto in un bagno di elio II, dopo poco i due livelli
+      si sono pareggiati, perché il liquido è salito lungo la parete, ha scavalcato
+      il bordo ed è sceso dall''altra parte. Lo fa muovendosi in una pellicola spessa
+      trenta nanometri, e indipendentemente dal materiale della superficie: si chiama
+      film di Rollin, dal nome di Bernard V. Rollin che per primo lo caratterizzò.
+      Un recipiente non sigillato non trattiene l''elio II: il liquido risale i fianchi
+      finché non raggiunge una zona più calda, dove evapora. Fra questo comportamento
+      e la capacità di sfuggire rapidamente da aperture minuscole, l''elio II è estremamente
+      difficile da confinare.'
+    attendibilita: documentato
+  - id: impatto-secondo-suono
+    sezione: impatto
+    testo: 'Il modello con cui i fisici descrivono l''elio II è già di per sé strano:
+      il superfluido si comporta come se fosse una miscela di due componenti, una
+      normale con tutte le proprietà di un fluido ordinario e una superfluida con
+      viscosità nulla ed entropia nulla. Sotto un kelvin l''elio è quasi interamente
+      superfluido. Da questa struttura a due componenti nasce un fenomeno che non
+      ha equivalenti nella materia ordinaria: si possono generare onde di densità
+      della componente normale, simili alle comuni onde sonore, e siccome quella densità
+      dipende dalla temperatura, quelle onde sono anche onde di temperatura. Si chiama
+      secondo suono. In un superfluido il caldo e il freddo si propagano come un suono,
+      in onde che attraversano il liquido e si riflettono.'
+    attendibilita: documentato
+  - id: impatto-fontana
+    sezione: impatto
+    testo: 'Fra i comportamenti dell''elio II ce n''è uno che si può mostrare a chiunque
+      e che nessuno dimentica. Si prende un tubo capillare chiuso a un''estremità
+      da un cosiddetto superleak — un tappo poroso che lascia passare solo la componente
+      superfluida — lo si immerge in un bagno di elio superfluido e lo si scalda.
+      L''elio risale il tubo e schizza fuori come una fontana. La causa sta nel fatto
+      che sulla componente superfluida agisce un termine di forza dovuto al gradiente
+      del potenziale chimico: scaldare da un lato genera un flusso verso quel lato.
+      È l''esatto contrario dell''intuizione — di norma il calore fa scappare le cose
+      — e basta una candela per far zampillare un liquido verso l''alto.'
+    attendibilita: documentato
+  - id: impatto-discusso-kapitsa
+    sezione: impatto
+    testo: 'La scoperta della superfluidità merita un paragrafo a parte, perché è
+      controversa in due modi diversi. La si attribuisce al 1937 e a Pëtr Kapitsa,
+      che vi arrivò indipendentemente da John F. Allen e Don Misener; la teoria macroscopica
+      poi accettata fu sviluppata da Lev Landau nel 1941. Il primo punto è che il
+      Nobel per quella scoperta andò al solo Kapitsa, e non a chi ci era arrivato
+      insieme a lui. Il secondo è più vertiginoso: la fonte riporta che Onnes osservò
+      probabilmente la transizione di fase superfluida il 2 agosto 1911 — lo stesso
+      giorno in cui osservò la superconduttività nel mercurio. Avrebbe avuto due scoperte
+      epocali in una giornata sola, e ne riconobbe una.'
+    attendibilita: discusso
+  - id: impatto-a-cosa-serve
+    sezione: impatto
+    testo: Vale la pena guardare il bilancio degli usi, perché smentisce l'immagine
+      che tutti abbiamo in testa. La produzione mondiale è stimata intorno ai trentadue
+      milioni di chilogrammi l'anno, e la voce più grossa — circa il trentadue per
+      cento nel 2014 — sono le applicazioni criogeniche, in gran parte il raffreddamento
+      dei magneti superconduttori delle risonanze magnetiche e degli spettrometri
+      NMR. Seguono la pressurizzazione e lo spurgo dei sistemi e il mantenimento di
+      atmosfere controllate, con un diciotto per cento ciascuno, poi la saldatura
+      con il tredici, la rivelazione delle fughe con il quattro e le miscele respiratorie
+      con il due. I palloncini, che sono l'uso più noto dell'elio, sono una parte
+      minore del totale. La sostanza che associamo alle feste di compleanno serve
+      soprattutto a fare diagnosi negli ospedali.
+    attendibilita: documentato
+  - id: impatto-atmosfere
+    sezione: impatto
+    testo: 'Il filo che unisce quasi tutti questi impieghi è sempre lo stesso: l''elio
+      serve dove occorre che non succeda nulla. Fa da gas protettivo nella crescita
+      dei cristalli di silicio e di germanio, nella produzione del titanio e dello
+      zirconio, e nella gascromatografia, e in ogni caso il motivo che la fonte indica
+      è uno solo — perché è inerte. Le applicazioni industriali di questo tipo, messe
+      insieme alla pressurizzazione e alla saldatura ad arco, assorbono metà del gas
+      prodotto. Chi ha seguito in questo vault la storia dell''azoto riconoscerà lo
+      schema: anche là due terzi della produzione servivano semplicemente a riempire
+      uno spazio senza reagire. Con una differenza che conta, però, e che si vedrà
+      fra poco: l''azoto lo si prende dall''aria, che ne è piena, mentre l''elio bisogna
+      andarlo a cercare sottoterra.'
+    attendibilita: documentato
+  - id: impatto-cercafughe
+    sezione: impatto
+    testo: 'Un impiego minore per volume ma insostituibile discende direttamente dalla
+      capacità dell''elio di infilarsi ovunque. Poiché l''atomo è piccolo e diffonde
+      attraverso i solidi meglio di quasi tutto, lo si usa per trovare le perdite:
+      si mette in pressione un impianto con elio e si cerca dove esce. Nel bilancio
+      statunitense del 2014 la rivelazione delle fughe pesa per il quattro per cento
+      del consumo, una fetta piccola accanto alla criogenia; ma è la fetta che permette
+      di certificare la tenuta di un impianto a vuoto o di un serbatoio. Il difetto
+      che rende l''elio difficilissimo da immagazzinare è esattamente ciò che lo rende
+      il migliore a scovare i difetti degli altri.'
+    attendibilita: documentato
+  - id: impatto-immersione
+    sezione: impatto
+    testo: 'L''approfondimento dell''azoto si chiudeva osservando che il rimedio alla
+      narcosi è togliere l''azoto. Visto dalla parte opposta, quel rimedio ha un nome
+      ed è l''elio, che entra nelle miscele respiratorie in sostituzione di una parte
+      dell''azoto per due ragioni distinte: ridurre l''effetto narcotico del gas respirato
+      in profondità e ridurre il lavoro respiratorio, cioè la fatica di muovere un
+      gas denso dentro e fuori dai polmoni. Il bilanciamento è un problema economico
+      oltre che fisiologico: l''azoto costa poco ma è narcotico, l''elio non è narcotico
+      e alleggerisce la respirazione ma costa di più e può aumentare la dispersione
+      di calore. La miscela di elio e ossigeno senza azoto si chiama heliox e si usa
+      nelle immersioni commerciali profonde, dove spesso viene riciclata proprio per
+      risparmiare la componente costosa.'
+    attendibilita: documentato
+  - id: impatto-hpns
+    sezione: impatto
+    testo: 'Il seguito della storia è un piccolo capolavoro di ironia fisiologica.
+      Sostituito l''azoto con l''elio per eliminare la narcosi, oltre i centotrenta
+      metri circa compare un disturbo diverso: la sindrome nervosa da alta pressione,
+      che si manifesta respirando heliox a quelle profondità. E il modo per prevenirla
+      è rimettere nella miscela un po'' di azoto — quello stesso azoto che si era
+      tolto. Da qui il trimix, miscela a tre componenti: elio, azoto e ossigeno, con
+      le proporzioni aggiustate secondo la profondità. I meccanismi per cui il trimix
+      previene i sintomi della sindrome furono dimostrati a partire dal 1979 da un
+      gruppo guidato da Peter B. Bennett al laboratorio iperbarico del Duke University
+      Medical Center. Nessuno dei due gas inerti va bene da solo: la soluzione è la
+      dose giusta di entrambi i problemi.'
+    attendibilita: documentato
+  - id: controversie-sette-per-cento
+    sezione: controversie
+    testo: 'Il punto da cui discende tutto il resto è che l''elio non si prende dall''aria.
+      L''elio radiogenico prodotto sottoterra dal decadimento di torio e uranio resta
+      intrappolato insieme al gas naturale, in concentrazioni che arrivano fino al
+      sette per cento in volume, e da lì viene estratto commercialmente con una distillazione
+      frazionata a bassa temperatura. Il confronto con l''azoto, raccontato in questo
+      vault poche pagine fa, è istruttivo: quello si ricava dall''aria, che ne è piena
+      ovunque sul pianeta e che nessuno può requisire. L''elio invece si trova soltanto
+      dove un giacimento di gas naturale è abbastanza ricco da rendere conveniente
+      separarlo. Una risorsa diffusa e una risorsa puntiforme hanno politiche diverse,
+      e non per scelta di nessuno.'
+    attendibilita: documentato
+  - id: controversie-non-rinnovabile
+    sezione: controversie
+    testo: 'L''elio è una risorsa non rinnovabile in un senso più radicale del petrolio
+      o del rame. Di quelli, almeno, ciò che si consuma resta sul pianeta in qualche
+      forma; l''elio terrestre invece, una volta rilasciato nell''atmosfera, sfugge
+      prontamente nello spazio. Non si ricicla perché non si recupera: se ne va. Le
+      stime correnti indicano che le disponibilità stiano diminuendo rapidamente.
+      Va però detto — e la fonte lo dice — che alcuni studi suggeriscono il quadro
+      opposto: l''elio prodotto in profondità dal decadimento radioattivo potrebbe
+      accumularsi nei giacimenti di gas naturale in quantità maggiori del previsto,
+      in certi casi liberato dall''attività vulcanica. Il bilancio fra ciò che si
+      forma sotto e ciò che scappa sopra non è chiuso.'
+    attendibilita: documentato
+  - id: controversie-storia-politica
+    sezione: controversie
+    testo: 'La politica dell''elio è vecchia quanto il suo uso industriale, e nasce
+      dalla guerra. Nel 1914 se ne discusse in Gran Bretagna e negli Stati Uniti come
+      sostituto dell''idrogeno nei palloni di sbarramento e negli aeromobili; il primo
+      sviluppo importante della produzione fu lo Helium Conservation Act del 3 marzo
+      1925, che istituì un programma di produzione e vendita sotto il controllo di
+      un ente centralizzato, lo United States Bureau of Mines. Nello stesso periodo
+      si scoprì che l''elio consentiva ai subacquei di restare sott''acqua più a lungo
+      e di risalire più in fretta, il che aggiunse un''applicazione alla lista. Quanto
+      ai timori di penuria, non sono affatto recenti: già nel 1982 si discuteva da
+      più punti di vista della possibilità di una carenza di elio. Il dibattito ha
+      quarant''anni e non ha ancora prodotto un''istituzione che se ne occupi.'
+    attendibilita: documentato
+  - id: controversie-primo-dirigibile
+    sezione: controversie
+    testo: Il salto di scala che rese l'elio una materia prima strategica ha una cifra
+      che lo racconta meglio di ogni commento. Su suggerimento di Sir Richard Threlfall,
+      durante la Prima guerra mondiale la Marina degli Stati Uniti finanziò tre piccoli
+      impianti sperimentali, con l'obiettivo di rifornire i palloni di sbarramento
+      di un gas più leggero dell'aria e non infiammabile. Quel programma produsse
+      in tutto cinquemilasettecento metri cubi di elio al novantadue per cento — e
+      il confronto è sbalorditivo, perché prima di allora se n'era ottenuto complessivamente
+      meno di un metro cubo. Parte di quel gas riempì il primo dirigibile a elio del
+      mondo, il C-7 della Marina statunitense, che il 1º dicembre 1921 compì il viaggio
+      inaugurale da Hampton Roads, in Virginia, a Bolling Field a Washington. Il primo
+      dirigibile rigido a elio, la USS Shenandoah, sarebbe volato quasi due anni dopo,
+      nel settembre 1923.
+    attendibilita: documentato
+  - id: controversie-riserva
+    sezione: controversie
+    testo: 'Quello stoccaggio ebbe presto un luogo fisico, ed è una cupola di roccia
+      in Texas. La Riserva nazionale dell''elio arrivò a contenere oltre un miliardo
+      di metri cubi di gas — circa centosettanta milioni di chilogrammi — conservati
+      nel giacimento geologico naturale del Bush Dome, a una ventina di chilometri
+      da Amarillo. Era nata per una ragione militare del tutto ottocentesca: rifornire
+      di gas le aeronavi. Poi la tecnologia dei dirigibili morì, e la riserva trovò
+      un secondo scopo negli anni Cinquanta, come fonte strategica di refrigerante
+      durante la Guerra fredda e la corsa allo spazio. Uno Stato aveva messo da parte
+      un gas per far volare i palloni e si ritrovò ad avere in mano ciò che serviva
+      per raffreddare i magneti.'
+    attendibilita: documentato
+  - id: controversie-hindenburg-progetto
+    sezione: controversie
+    testo: 'La conseguenza più celebre di una politica sull''elio riguarda un dirigibile
+      che fu progettato per un gas e costretto a volare con un altro. L''elio era
+      stato scelto fin dall''inizio come gas di sollevamento dello Hindenburg, per
+      la ragione più semplice possibile: era il più sicuro, perché non è infiammabile.
+      Esisteva però un divieto statunitense all''esportazione, stabilito dallo Helium
+      Control Act del 1927, e i tedeschi progettarono comunque l''aeronave per l''elio,
+      confidando di riuscire a convincere il governo americano a concedere una licenza.
+      Quando i progettisti appresero che il National Munitions Control Board rifiutava
+      di revocare il divieto, dovettero riprogettare lo Hindenburg per l''idrogeno
+      infiammabile, l''unico altro gas più leggero dell''aria in grado di fornire
+      una portanza sufficiente.'
+    attendibilita: documentato
+  - id: controversie-hindenburg-fumatori
+    sezione: controversie
+    testo: 'Come si conviva con quella scelta lo dice un dettaglio che sembra uscito
+      da una commedia. Lo Hindenburg aveva una sala fumatori a bordo, ed era tenuta
+      in pressione per impedire l''ingresso di eventuale idrogeno sfuggito; vi si
+      accedeva dal bar adiacente attraverso una porta girevole a camera stagna, e
+      il barista controllava ogni passeggero in uscita per assicurarsi che non portasse
+      fuori una sigaretta o una pipa accesa. Il 6 maggio 1937, in atterraggio alla
+      base navale di Lakehurst nel New Jersey, l''aeronave prese fuoco. A bordo c''erano
+      novantasette persone fra passeggeri ed equipaggio: ne morirono trentacinque,
+      più una persona a terra, e sessantadue sopravvissero. Contrariamente all''impressione
+      che lascia il filmato, la maggioranza di chi era a bordo si salvò.'
+    attendibilita: documentato
+  - id: controversie-svendita
+    sezione: controversie
+    testo: 'Poi lo Stato decise di uscirne, e il modo in cui lo fece è al centro di
+      una polemica che dura ancora. Lo Helium Privatization Act, in vigore dal 9 ottobre
+      1996, autorizzava accordi con soggetti privati per il recupero e la cessione
+      dell''elio sulle terre federali: in sostanza, la messa in vendita dello stoccaggio
+      nazionale, che il Congresso stabilì di smaltire entro il 2015. L''effetto sui
+      prezzi fu quello che ci si poteva attendere — scesero — e con essi, secondo
+      i critici, ogni incentivo a non sprecare. Il fisico Robert Coleman Richardson,
+      premio Nobel, scriveva nel 2010 che il prezzo di mercato dell''elio aveva favorito
+      usi dissipativi, i palloncini in testa a tutti, e che per eliminare lo spreco
+      eccessivo quel prezzo andrebbe moltiplicato per venti. Vendere in fretta una
+      riserva strategica è il modo più rapido per insegnare a un mercato che una cosa
+      rara non vale molto.'
+    attendibilita: documentato
+  - id: controversie-geopolitica
+    sezione: controversie
+    testo: 'Le conseguenze si leggono nella cronaca degli ultimi vent''anni. Fra il
+      2004 e il 2006 furono costruiti impianti a Ras Laffan in Qatar e a Skikda in
+      Algeria, e l''Algeria divenne rapidamente il secondo produttore mondiale; fra
+      il 2002 e il 2007 il prezzo dell''elio raddoppiò. Nel 2012 la Riserva nazionale
+      statunitense rappresentava ancora il trenta per cento dell''elio mondiale, e
+      si prevedeva che si esaurisse nel 2018. Nel 2013 il Qatar avviò la più grande
+      unità di produzione del mondo — e nel 2017 la crisi diplomatica che isolò il
+      paese colpì gravemente quella produzione. È il genere di notizia che di solito
+      si legge a proposito del petrolio: qui riguarda il gas che raffredda le risonanze
+      magnetiche degli ospedali di mezzo pianeta.'
+    attendibilita: documentato
+  - id: controversie-ricerca
+    sezione: controversie
+    testo: 'L''effetto meno visibile della penuria è anche il più definitivo, perché
+      non riguarda i prezzi ma le carriere. Le carenze intermittenti e i rincari hanno
+      spinto gli utilizzatori a cercare modi per risparmiare elio; ma una mancanza
+      di forniture può colpire direttamente chi fa ricerca, e comportare la perdita
+      di materiali e di apparecchiature — un magnete superconduttore che si riscalda
+      non è un esperimento rimandato, è un esperimento distrutto. La conseguenza che
+      la fonte registra è quella che dovrebbe far riflettere di più: alcune istituzioni
+      si stanno allontanando dall''assumere nuovi docenti in aree di ricerca che richiedono
+      l''uso di elio liquido. Non si rinuncia a un esperimento: si rinuncia a un intero
+      filone, e si smette di formare le persone che lo avrebbero portato avanti.'
+    attendibilita: documentato
+  - id: controversie-nature
+    sezione: controversie
+    testo: 'Nel 2012 William Nuttall e alcuni colleghi pubblicarono un intervento
+      dal titolo perentorio — «Stop squandering helium», smettete di sperperare l''elio
+      — proponendo la creazione di un''Agenzia internazionale dell''elio che costruisse
+      un mercato sostenibile della sostanza. La rivista che ospitò quell''appello
+      era Nature. Vale la pena fermarsi un istante su questa circostanza, perché è
+      una di quelle che la storia produce senza alcuna intenzione. Nature fu fondata
+      nell''autunno del 1869, un anno dopo la riga gialla di Guntur, e a fondarla
+      e dirigerla per primo fu Norman Lockyer: lo stesso uomo che all''elio aveva
+      dato il nome. Centoquarantatré anni dopo, sulle pagine della rivista che aveva
+      creato, si discuteva di come evitare di finire l''elemento che aveva battezzato.'
+    attendibilita: documentato
+  - id: eredita-particella-alfa
+    sezione: eredita
+    testo: 'C''è un''identità che spiega da sola perché l''elio si trovi nei minerali
+      di uranio, e che ci volle un po'' a riconoscere. Ernest Rutherford aveva coniato
+      il termine «particella alfa» studiando la radiazione dell''uranio: quella radiazione
+      mostrava due caratteri diversi, e lui chiamò alfa il primo e beta il secondo,
+      più penetrante. Dopo altri cinque anni di lavoro sperimentale, Rutherford e
+      Hans Geiger stabilirono che «la particella alfa, dopo aver perso la propria
+      carica positiva, è un atomo di elio». Una particella alfa è un nucleo di elio
+      doppiamente ionizzato, né più né meno. E poiché la maggior parte dell''elio
+      gassoso terrestre deriva proprio dal decadimento alfa di torio e uranio, con
+      successiva cattura di elettroni dalla materia circostante, ne segue una conclusione
+      che vale la pena formulare per intero: l''elio che compriamo è radioattività
+      fossile. Ogni atomo è stato sparato fuori da un nucleo pesante, dentro una roccia,
+      in un tempo geologico.'
+    attendibilita: documentato
+  - id: eredita-elio-tre
+    sezione: eredita
+    testo: L'elio ha un secondo isotopo stabile che è insieme rarissimo e molto discusso.
+      L'elio-3 ha due protoni e un solo neutrone, in un nucleo che i fisici chiamano
+      helione, e la sua abbondanza naturale è dello 0,000137 per cento nell'atmosfera
+      terrestre, contro lo 0,01 per cento nel sistema solare. La sua esistenza fu
+      proposta nel 1934 dal fisico nucleare australiano Mark Oliphant, che lavorava
+      al Cavendish Laboratory di Cambridge. Il motivo per cui se ne parla spesso è
+      che si ritiene sia più abbondante sulla Luna che sulla Terra, depositato nello
+      strato superiore del regolite dal vento solare nel corso di miliardi di anni
+      — pur restando meno abbondante che nei giganti gassosi del sistema solare. È
+      una delle poche ragioni economiche concrete che vengono addotte per tornare
+      sulla Luna a scavare.
+    attendibilita: documentato
+  - id: eredita-collo-di-bottiglia
+    sezione: eredita
+    testo: 'Se l''universo si fosse fermato all''idrogeno e all''elio, non ci sarebbe
+      nessuno a raccontarlo. Il passaggio successivo è ostacolato da un collo di bottiglia
+      che vale la pena guardare da vicino. Nel nucleo delle stelle l''elio si accumula
+      come prodotto della catena protone-protone e del ciclo CNO; ma quando due nuclei
+      di elio-4 fondono producono berillio-8, che è altamente instabile e ridecade
+      in nuclei più piccoli con un''emivita di 8,19 per dieci alla meno diciassette
+      secondi. Perché si formi qualcosa di più pesante, entro quella frazione di tempo
+      incomprensibilmente breve deve arrivare una terza particella alfa e fondersi
+      con il berillio-8. Perché questo accada abbastanza spesso serve che la stella,
+      esaurito l''idrogeno del nucleo, si contragga e si scaldi fino a cento milioni
+      di kelvin: sei volte la temperatura del centro del Sole.'
+    attendibilita: documentato
+  - id: eredita-stato-di-hoyle
+    sezione: eredita
+    testo: 'Anche superato quell''ostacolo, il risultato è appeso a un filo sottilissimo.
+      Il carbonio-12 che si forma è in uno stato eccitato di risonanza, detto stato
+      di Hoyle, e quasi sempre ridecade in tre particelle alfa: solo una volta su
+      circa duemilaquattrocento libera energia e si assesta nella forma stabile del
+      carbonio-12. Che quella risonanza esista è una coincidenza numerica impressionante
+      — l''energia di berillio-8 più elio-4 corrisponde quasi esattamente a quella
+      di uno stato eccitato del carbonio-12 — e fu Fred Hoyle a prevederne l''esistenza
+      prima che venisse osservata, sulla base di una necessità fisica: senza di essa,
+      il carbonio non potrebbe formarsi nelle stelle. Hoyle, in sostanza, dedusse
+      una proprietà del nucleo atomico dal fatto di esistere lui stesso per poterla
+      dedurre.'
+    attendibilita: documentato
+  - id: eredita-orologio-stellare
+    sezione: eredita
+    testo: 'Visto su scala cosmica, l''elio è l''orologio con cui le stelle misurano
+      la propria vita. Le stelle evolvono perché cambia la loro composizione nel corso
+      dell''esistenza: prima bruciano idrogeno, e allora stanno sulla sequenza principale;
+      poi bruciano elio, e sono stelle del ramo orizzontale; poi via via elementi
+      più pesanti. La nucleosintesi stellare è la creazione degli elementi chimici
+      per fusione nucleare dentro le stelle, e va avanti dalla formazione originaria
+      di idrogeno, elio e litio nel Big Bang. La teoria fu proposta da Fred Hoyle
+      nel 1946 e da lui raffinata nel 1954: lo stesso Hoyle che, per far quadrare
+      i conti del carbonio, aveva dovuto postulare una risonanza nucleare che nessuno
+      aveva ancora visto.'
+    attendibilita: documentato
+  - id: eredita-pickering
+    sezione: eredita
+    testo: 'Una seconda volta, l''elio ha fatto il mestiere che gli era riuscito meglio:
+      comparire dove non lo si aspettava e costringere qualcuno a cambiare idea. Nel
+      1896 Edward Charles Pickering pubblicò l''osservazione di righe fino ad allora
+      sconosciute nello spettro della stella ζ Puppis — righe che oggi sappiamo prodursi
+      nelle stelle di Wolf-Rayet e in altre stelle calde. Pickering le attribuì a
+      una forma nuova di idrogeno, dotata di livelli di transizione semi-interi, e
+      nel 1912 Alfred Fowler riuscì a produrre righe simili da una miscela di idrogeno
+      ed elio, confermando quella interpretazione. Per sedici anni, dunque, la spiegazione
+      corrente fu che esistesse un idrogeno anomalo.'
+    attendibilita: documentato
+  - id: eredita-bohr
+    sezione: eredita
+    testo: 'A smontare quella spiegazione fu la teoria, non un''osservazione nuova.
+      Nel 1913 Niels Bohr pubblicò la sua trilogia sulla struttura atomica, e vi incluse
+      un riesame della serie di Pickering-Fowler come prova centrale a sostegno del
+      proprio modello. Il ragionamento era netto: il suo modello non ammette transizioni
+      semi-intere — e non le ammette nemmeno la meccanica quantistica — quindi Pickering
+      e Fowler si sbagliavano, e quelle righe andavano attribuite non a un idrogeno
+      strano ma all''elio ionizzato. Fowler fu inizialmente scettico e alla fine si
+      convinse; entro il 1915 gli spettroscopisti avevano trasferito definitivamente
+      quella serie dall''idrogeno all''elio. Il lavoro di Bohr su quelle righe dimostrò
+      la necessità di riesaminare problemi che sembravano già risolti dentro le teorie
+      classiche, e fornì una conferma importante della sua teoria atomica. Chi ha
+      letto in questo vault l''approfondimento dell''idrogeno ritrova qui il modello
+      di Bohr da un''angolazione diversa: là spiegava le righe dell''idrogeno, qui
+      dimostra che certe righe non erano affatto dell''idrogeno.'
+    attendibilita: documentato
+  - id: eredita-acido-piu-forte
+    sezione: eredita
+    testo: 'L''inerzia dell''elio non è però assoluta come il senso comune suggerisce,
+      e la sua eccezione più notevole è un capolavoro di paradosso. L''elio ha valenza
+      zero ed è chimicamente non reattivo in tutte le condizioni normali; sottoposto
+      a scarica luminescente, a bombardamento elettronico o ridotto a plasma, però,
+      forma composti instabili detti eccimeri con tungsteno, iodio, fluoro, zolfo
+      e fosforo, e per questa via sono stati creati composti come HeNe e WHe₂ e ioni
+      molecolari come HeH⁺. Quest''ultimo è stabile nel suo stato fondamentale ed
+      è estremamente reattivo: è il più forte acido di Brønsted conosciuto, tanto
+      che può esistere solo isolato, perché protona qualunque molecola o controanione
+      incontri. L''elemento più restio a combinarsi di tutta la chimica ordinaria
+      produce, legandosi all''idrogeno, la sostanza più avida di cedere un protone
+      che si conosca.'
+    attendibilita: documentato
+  - id: eredita-centoventi-tonnellate
+    sezione: eredita
+    testo: 'Una cifra sola basta a dare la misura di quanto la fisica contemporanea
+      dipenda da questo gas: i magneti superconduttori del Large Hadron Collider sono
+      raffreddati con centoventi tonnellate di elio liquido. La macchina con cui abbiamo
+      cercato il bosone di Higgs è, vista da un certo angolo, il più grande frigorifero
+      mai costruito. Lo stesso principio scoperto da Onnes nel 1911 — resistenza che
+      sparisce al freddo estremo — regge oggi la risonanza magnetica ospedaliera,
+      la spettroscopia di risonanza magnetica nucleare, la magnetoencefalografia e
+      gli acceleratori di particelle. In tutti questi casi ciò che rende possibile
+      la macchina non è un materiale nuovo: è il solo elemento capace di stare liquido
+      abbastanza vicino allo zero assoluto.'
+    attendibilita: documentato
+  - id: eredita-voce
+    sezione: eredita
+    testo: 'L''effetto per cui l''elio è più noto al pubblico è anche quello più frainteso.
+      Respirando elio le corde vocali vibrano esattamente come quando la laringe è
+      piena d''aria, e dunque la frequenza fondamentale — ciò che chiamiamo altezza
+      del suono — non cambia affatto. Quel che cambia è che l''amplificazione favorisce
+      le frequenze alte, e ne risulta una modifica del timbro: una qualità vocale
+      nasale, da papera. Non si parla più acuto, si parla diverso. Esiste anche l''effetto
+      opposto, che abbassa le frequenze di risonanza, e lo si ottiene inalando un
+      gas denso come l''esafluoruro di zolfo o lo xenon.'
+    attendibilita: documentato
+  - id: eredita-asfissia
+    sezione: eredita
+    testo: 'Va detto, perché la voce enciclopedica gli dedica spazio e perché la leggerezza
+      del contesto in cui l''elio compare induce a sottovalutarlo: inalarlo in eccesso
+      è pericoloso. L''elio è un asfissiante semplice — non è tossico, semplicemente
+      prende il posto dell''ossigeno — e come nell''azoto liquido il rischio sta proprio
+      nell''assenza di segnali d''allarme. La fonte elenca inoltre casi di barotrauma
+      legati all''inalazione diretta da bombole in pressione, che è cosa diversa dal
+      respirare il contenuto di un palloncino. Il gas che fa ridere le feste di compleanno
+      è classificato come gas sotto pressione, e la ragione per cui le etichette lo
+      segnalano non è burocratica.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'Nessun altro elemento ha una storia costruita così interamente su un rovesciamento.
+      L''elio è il secondo componente dell''universo e una presenza da 5,2 parti per
+      milione nella nostra atmosfera; è stato trovato in cielo ventisette anni prima
+      che quaggiù; porta il nome del Sole e la desinenza di un metallo, affibbiatagli
+      da un astronomo distratto; è il più inerte dei gas e produce l''acido più forte
+      che si conosca; è il residuo di un decadimento radioattivo e serve a fare diagnosi
+      negli ospedali; resta liquido a una temperatura alla quale ogni altra cosa è
+      ferma, e per solidificarlo bisogna schiacciarlo. E soprattutto: è l''unica sostanza
+      che consumiamo davvero in modo definitivo, perché una volta liberata se ne va
+      dal pianeta. Ogni palloncino che sfugge di mano a un bambino restituisce all''universo
+      un po'' di ciò che il pianeta aveva trattenuto per caso — atomi sparati fuori
+      da un nucleo di uranio, rimasti intrappolati in una roccia per ere geologiche,
+      e ora liberi di tornare là dove quell''elemento è la norma e noi siamo l''eccezione.'
+    attendibilita: documentato
 composti_principali:
 - nome: Elio liquido
   formula: He
@@ -191,3 +971,72 @@ fonti:
 - url: https://en.wikipedia.org/wiki/Superfluid_helium-4
   titolo: Superfluid helium-4
   consultata: *id001
+- url: https://en.wikipedia.org/wiki/Pierre_Janssen
+  titolo: Pierre Janssen
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Norman_Lockyer
+  titolo: Norman Lockyer
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/William_Ramsay
+  titolo: William Ramsay
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Heike_Kamerlingh_Onnes
+  titolo: Heike Kamerlingh Onnes
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Chromosphere
+  titolo: Chromosphere
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Fraunhofer_lines
+  titolo: Fraunhofer lines
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/History_of_spectroscopy
+  titolo: History of spectroscopy
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Noble_gas
+  titolo: Noble gas
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Helium-3
+  titolo: Helium-3
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Liquid_helium
+  titolo: Liquid helium
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Superfluidity
+  titolo: Superfluidity
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Superconductivity
+  titolo: Superconductivity
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Alpha_particle
+  titolo: Alpha particle
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis
+  titolo: Big Bang nucleosynthesis
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Stellar_nucleosynthesis
+  titolo: Stellar nucleosynthesis
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Triple-alpha_process
+  titolo: Triple-alpha process
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/National_Helium_Reserve
+  titolo: National Helium Reserve
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Helium_Privatization_Act_of_1996
+  titolo: Helium Privatization Act of 1996
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Helium_storage_and_conservation
+  titolo: Helium storage and conservation
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Hindenburg_disaster
+  titolo: Hindenburg disaster
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/LZ_129_Hindenburg
+  titolo: LZ 129 Hindenburg
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Trimix_(breathing_gas)
+  titolo: Trimix (breathing gas)
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Nature_(journal)
+  titolo: Nature (journal)
+  consultata: 2026-09-14

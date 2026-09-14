@@ -119,6 +119,9 @@ La voce stridula di chi respira elio non dipende dalle corde vocali, che vibrano
 
 I dirigibili tedeschi degli anni Trenta erano progettati per l'elio, ma gli Stati Uniti, che ne erano allora l'unico produttore, ne vietarono l'esportazione: lo Hindenburg volò a idrogeno, che è più leggero e infiammabile, e nel 1937 bruciò in trentasette secondi. È uno dei casi in cui la disponibilità di un elemento ha deciso la storia di una tecnologia.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Elio — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Indio]] (1863)
@@ -131,6 +134,29 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[Pierre Janssen]], [[N
 - [Helium](https://en.wikipedia.org/wiki/Helium) — consultata il 09/09/2026
 - [Helium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/2/helium) — consultata il 09/09/2026
 - [Superfluid helium-4](https://en.wikipedia.org/wiki/Superfluid_helium-4) — consultata il 09/09/2026
+- [Pierre Janssen](https://en.wikipedia.org/wiki/Pierre_Janssen) — consultata il 14/09/2026
+- [Norman Lockyer](https://en.wikipedia.org/wiki/Norman_Lockyer) — consultata il 14/09/2026
+- [William Ramsay](https://en.wikipedia.org/wiki/William_Ramsay) — consultata il 14/09/2026
+- [Heike Kamerlingh Onnes](https://en.wikipedia.org/wiki/Heike_Kamerlingh_Onnes) — consultata il 14/09/2026
+- [Chromosphere](https://en.wikipedia.org/wiki/Chromosphere) — consultata il 14/09/2026
+- [Fraunhofer lines](https://en.wikipedia.org/wiki/Fraunhofer_lines) — consultata il 14/09/2026
+- [History of spectroscopy](https://en.wikipedia.org/wiki/History_of_spectroscopy) — consultata il 14/09/2026
+- [Noble gas](https://en.wikipedia.org/wiki/Noble_gas) — consultata il 14/09/2026
+- [Helium-3](https://en.wikipedia.org/wiki/Helium-3) — consultata il 14/09/2026
+- [Liquid helium](https://en.wikipedia.org/wiki/Liquid_helium) — consultata il 14/09/2026
+- [Superfluidity](https://en.wikipedia.org/wiki/Superfluidity) — consultata il 14/09/2026
+- [Superconductivity](https://en.wikipedia.org/wiki/Superconductivity) — consultata il 14/09/2026
+- [Alpha particle](https://en.wikipedia.org/wiki/Alpha_particle) — consultata il 14/09/2026
+- [Big Bang nucleosynthesis](https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis) — consultata il 14/09/2026
+- [Stellar nucleosynthesis](https://en.wikipedia.org/wiki/Stellar_nucleosynthesis) — consultata il 14/09/2026
+- [Triple-alpha process](https://en.wikipedia.org/wiki/Triple-alpha_process) — consultata il 14/09/2026
+- [National Helium Reserve](https://en.wikipedia.org/wiki/National_Helium_Reserve) — consultata il 14/09/2026
+- [Helium Privatization Act of 1996](https://en.wikipedia.org/wiki/Helium_Privatization_Act_of_1996) — consultata il 14/09/2026
+- [Helium storage and conservation](https://en.wikipedia.org/wiki/Helium_storage_and_conservation) — consultata il 14/09/2026
+- [Hindenburg disaster](https://en.wikipedia.org/wiki/Hindenburg_disaster) — consultata il 14/09/2026
+- [LZ 129 Hindenburg](https://en.wikipedia.org/wiki/LZ_129_Hindenburg) — consultata il 14/09/2026
+- [Trimix (breathing gas)](https://en.wikipedia.org/wiki/Trimix_%28breathing_gas%29) — consultata il 14/09/2026
+- [Nature (journal)](https://en.wikipedia.org/wiki/Nature_%28journal%29) — consultata il 14/09/2026
 
 ---
 
