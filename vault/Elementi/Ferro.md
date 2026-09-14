@@ -133,6 +133,9 @@ Un corpo umano adulto contiene circa quattro grammi di ferro, per la maggior par
 
 Che il primo ferro venisse dal cielo è rimasto scritto nelle lingue. Dalla XIX dinastia in Egitto compare per il ferro l'espressione biA n pt, che vale letteralmente «ferro del cielo», e i segni proposti per la parola sumerica corrispondente contengono anch'essi il segno del cielo. Sono parole coniate da chi vedeva cadere il metallo e non aveva altro modo di procurarselo, e sopravvivono nei testi molto dopo che i forni avevano reso la questione irrilevante.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Ferro — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Piombo]] (7000 a.C.)
@@ -147,6 +150,46 @@ Epoca: [[Antichità]]
 - [Tutankhamun's meteoric iron dagger](https://en.wikipedia.org/wiki/Tutankhamun%27s_meteoric_iron_dagger) — consultata il 07/09/2026
 - [Did Hieroglyphic Texts Reveal That Ancient Egyptians Knew Meteorites Came From the Sky?](https://www.smithsonianmag.com/science-nature/do-hieroglyphic-texts-reveal-that-ancient-egyptians-knew-meteorites-came-from-the-sky-180983039/) — consultata il 07/09/2026
 - [Smelting Conditions and Smelting Products: Experimental Insights into the Development of Iron Bloomery Furnaces (EXARC Journal)](https://exarc.net/issue-2020-2/ea/development-bloomery-furnaces) — consultata il 07/09/2026
+- [Iron peak](https://en.wikipedia.org/wiki/Iron_peak) — consultata il 14/09/2026
+- [Rust](https://en.wikipedia.org/wiki/Rust) — consultata il 14/09/2026
+- [Hemoglobin](https://en.wikipedia.org/wiki/Hemoglobin) — consultata il 14/09/2026
+- [Iron meteorite](https://en.wikipedia.org/wiki/Iron_meteorite) — consultata il 14/09/2026
+- [Supernova nucleosynthesis](https://en.wikipedia.org/wiki/Supernova_nucleosynthesis) — consultata il 14/09/2026
+- [Earth's inner core](https://en.wikipedia.org/wiki/Earth's_inner_core) — consultata il 14/09/2026
+- [Earth's outer core](https://en.wikipedia.org/wiki/Earth's_outer_core) — consultata il 14/09/2026
+- [Banded iron formation](https://en.wikipedia.org/wiki/Banded_iron_formation) — consultata il 14/09/2026
+- [Bloomery](https://en.wikipedia.org/wiki/Bloomery) — consultata il 14/09/2026
+- [Ferrous metallurgy](https://en.wikipedia.org/wiki/Ferrous_metallurgy) — consultata il 14/09/2026
+- [Iron Age](https://en.wikipedia.org/wiki/Iron_Age) — consultata il 14/09/2026
+- [Iron pillar of Delhi](https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi) — consultata il 14/09/2026
+- [Wootz steel](https://en.wikipedia.org/wiki/Wootz_steel) — consultata il 14/09/2026
+- [Damascus steel](https://en.wikipedia.org/wiki/Damascus_steel) — consultata il 14/09/2026
+- [Crucible steel](https://en.wikipedia.org/wiki/Crucible_steel) — consultata il 14/09/2026
+- [Blast furnace](https://en.wikipedia.org/wiki/Blast_furnace) — consultata il 14/09/2026
+- [Abraham Darby I](https://en.wikipedia.org/wiki/Abraham_Darby_I) — consultata il 14/09/2026
+- [The Iron Bridge](https://en.wikipedia.org/wiki/The_Iron_Bridge) — consultata il 14/09/2026
+- [Puddling (metallurgy)](https://en.wikipedia.org/wiki/Puddling_%28metallurgy%29) — consultata il 14/09/2026
+- [Wrought iron](https://en.wikipedia.org/wiki/Wrought_iron) — consultata il 14/09/2026
+- [Cast iron](https://en.wikipedia.org/wiki/Cast_iron) — consultata il 14/09/2026
+- [Bessemer process](https://en.wikipedia.org/wiki/Bessemer_process) — consultata il 14/09/2026
+- [Henry Bessemer](https://en.wikipedia.org/wiki/Henry_Bessemer) — consultata il 14/09/2026
+- [Steel](https://en.wikipedia.org/wiki/Steel) — consultata il 14/09/2026
+- [Steel industry in China](https://en.wikipedia.org/wiki/Steel_industry_in_China) — consultata il 14/09/2026
+- [Widmanstätten pattern](https://en.wikipedia.org/wiki/Widmanstätten_pattern) — consultata il 14/09/2026
+- [Steelmaking](https://en.wikipedia.org/wiki/Steelmaking) — consultata il 14/09/2026
+- [Electric arc furnace](https://en.wikipedia.org/wiki/Electric_arc_furnace) — consultata il 14/09/2026
+- [Direct reduced iron](https://en.wikipedia.org/wiki/Direct_reduced_iron) — consultata il 14/09/2026
+- [Stainless steel](https://en.wikipedia.org/wiki/Stainless_steel) — consultata il 14/09/2026
+- [Low-background steel](https://en.wikipedia.org/wiki/Low-background_steel) — consultata il 14/09/2026
+- [Iron in biology](https://en.wikipedia.org/wiki/Iron_in_biology) — consultata il 14/09/2026
+- [Human iron metabolism](https://en.wikipedia.org/wiki/Human_iron_metabolism) — consultata il 14/09/2026
+- [Iron-deficiency anemia](https://en.wikipedia.org/wiki/Iron-deficiency_anemia) — consultata il 14/09/2026
+- [Lucky iron fish](https://en.wikipedia.org/wiki/Lucky_iron_fish) — consultata il 14/09/2026
+- [Ferritin](https://en.wikipedia.org/wiki/Ferritin) — consultata il 14/09/2026
+- [Iron fertilization](https://en.wikipedia.org/wiki/Iron_fertilization) — consultata il 14/09/2026
+- [Scaly-foot gastropod](https://en.wikipedia.org/wiki/Scaly-foot_gastropod) — consultata il 14/09/2026
+- [Iron in folklore](https://en.wikipedia.org/wiki/Iron_in_folklore) — consultata il 14/09/2026
+- [Curie temperature](https://en.wikipedia.org/wiki/Curie_temperature) — consultata il 14/09/2026
 
 ---
 

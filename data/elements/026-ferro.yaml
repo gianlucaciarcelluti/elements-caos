@@ -180,6 +180,788 @@ contenuti:
     visual: Geroglifico egizio per il ferro accanto a una scia meteorica notturna
     attendibilita: documentato
   pronuncia: []
+contenuti_estesi:
+  hook: 'Il ferro è il posto dove l''universo smette di guadagnarci. Fino a lui la
+    fusione dei nuclei libera energia, da lui in poi la consuma: è la cenere termodinamica
+    delle stelle, e il motivo per cui una stella massiccia che arriva a fabbricarlo
+    è già condannata. Sulla Terra è il primo elemento per massa, sta quasi tutto nel
+    nucleo del pianeta e ci tiene in vita due volte, con il campo magnetico che devia
+    il vento solare e con l''atomo che porta l''ossigeno nel sangue. Il paradosso
+    è che l''umanità ci è arrivata per ultima, e che il primo ferro che ha lavorato
+    non veniva dalla Terra ma dal cielo.'
+  beats:
+  - id: contesto-picco
+    sezione: contesto
+    testo: 'Sul grafico che mostra quanto sono abbondanti gli elementi nel sistema
+      solare c''è una gobba, un massimo locale che sporge dalla curva discendente,
+      e si chiama picco del ferro: comprende cromo, manganese, ferro, cobalto e nichel.
+      La ragione di quella gobba sta nel bilancio energetico della fusione nucleare.
+      Per tutti gli elementi più leggeri del ferro, fondere due nuclei insieme libera
+      energia; per il ferro e per tutti quelli più pesanti, fonderli ne consuma. Il
+      ferro è la riga che separa le due metà della tavola periodica dal punto di vista
+      energetico, ed è il motivo per cui è così comune: una volta prodotto, nessun
+      processo di fusione lo consuma per ricavarne energia.'
+    attendibilita: documentato
+  - id: contesto-non-proprio-il-ferro
+    sezione: contesto
+    testo: 'Si legge spesso che il ferro-56 è il nucleo più stabile che esista, e
+      non è esatto. Il grafico dell''energia di legame per nucleone sale ripido fino
+      a un massimo che cade vicino al nichel, e poi scende lentamente; il ferro-58
+      e il nichel-62 hanno un''energia di legame per nucleone ancora più alta del
+      ferro-56. Non se ne trova in giro perché non si riescono a produrre in quantità:
+      servirebbero più neutroni di quanti la materia stellare normalmente metta a
+      disposizione, e nessuno dei due può nascere dal processo alfa, perché i loro
+      numeri di massa non sono multipli di quattro. Il ferro vince quindi non per
+      stabilità assoluta ma per accessibilità: è il nucleo più stabile fra quelli
+      che una stella sa davvero fabbricare.'
+    attendibilita: documentato
+  - id: contesto-supernova
+    sezione: contesto
+    testo: 'Il ferro che si trova nell''universo viene in gran parte dalle supernove,
+      attraverso una strada indiretta che vale la pena seguire. Nell''esplosione,
+      la fusione dell''ossigeno e del silicio produce in enormi quantità nuclei vicini
+      al ferro, e in particolare il nichel-56, che è il prodotto termodinamicamente
+      più favorito nel nucleo delle stelle massicce. Quel nichel è radioattivo e decade:
+      prima in cobalto, poi in ferro. Il ferro dell''emoglobina di chi legge, e quello
+      delle rotaie su cui passano i treni, è passato per lo stadio di nichel dentro
+      l''onda d''urto di una stella che esplodeva.'
+    attendibilita: documentato
+  - id: contesto-geodinamo
+    sezione: contesto
+    testo: Sotto i piedi di chiunque, a qualche migliaio di chilometri, c'è uno strato
+      fluido spesso circa 2.260 chilometri fatto in prevalenza di ferro e nichel,
+      a temperature che vicino al nucleo interno arrivano fra i 3.700 e i 7.700 gradi.
+      Quel fluido, per via del calore, convette in modo turbolento, e la teoria della
+      dinamo vede nelle correnti che vi si formano la sorgente principale del campo
+      magnetico terrestre. Là sotto il campo medio è stimato in 2,5 millitesla, cinquanta
+      volte più intenso di quello che si misura in superficie. La bussola funziona
+      perché un oceano di ferro liquido si rimescola.
+    attendibilita: documentato
+  - id: contesto-nucleo-cresce
+    sezione: contesto
+    testo: 'Il pianeta si sta raffreddando, e al confine fra nucleo esterno e nucleo
+      interno il ferro liquido congela. Il nucleo solido cresce così a spese di quello
+      fluido, a un ritmo stimato in un millimetro all''anno. Detto in millimetri sembra
+      niente; detto in massa, sono circa ottantamila tonnellate di ferro che solidificano
+      ogni secondo. È una delle cifre più spiazzanti della geofisica, perché lo stesso
+      fenomeno si può descrivere come impercettibile o come imponente a seconda dell''unità
+      di misura che si sceglie: un millimetro all''anno oppure ottantamila tonnellate
+      al secondo. Non c''è però da temere che il motore si fermi: una stima colloca il
+      congelamento completo del nucleo fra novantuno miliardi di anni, molto dopo che il
+      Sole si sarà espanso, avrà sterilizzato la superficie del pianeta e si sarà spento.'
+    attendibilita: documentato
+  - id: contesto-bif
+    sezione: contesto
+    testo: 'Il ferro che l''umanità estrae, però, non viene dal nucleo: viene da rocce
+      sedimentarie a strati alternati di ossidi di ferro e selce povera di ferro,
+      spesse fino a diverse centinaia di metri e estese lateralmente per centinaia
+      di chilometri. Si chiamano formazioni ferrifere a bande, sono quasi tutte di
+      età precambriana, e si ritiene che registrino l''ossigenazione degli oceani
+      terrestri. Il meccanismo è questo: i cianobatteri fotosintetici cominciarono
+      a produrre ossigeno, l''ossigeno si combinò con il ferro disciolto nell''acqua
+      marina formando ossidi insolubili, e quegli ossidi precipitarono sul fondo strato
+      dopo strato.'
+    attendibilita: documentato
+  - id: contesto-ruggine-antica
+    sezione: contesto
+    testo: 'La conseguenza merita di essere detta per intero: quelle formazioni valgono
+      più del sessanta per cento delle riserve mondiali di ferro e forniscono la maggior
+      parte del minerale che oggi si estrae. Alcune delle rocce più antiche della
+      Terra, formatesi circa 3.700 milioni di anni fa, sono associate a formazioni
+      di questo tipo; le prime furono riconosciute nel Michigan settentrionale nel
+      1844. Ogni grattacielo, ogni rotaia e ogni automobile vengono quindi da ruggine
+      depositata sul fondo di oceani precambriani quando un gas nuovo cominciò a riempire
+      il mondo. L''industria del ferro lavora lo scarto della prima grande crisi ecologica
+      del pianeta.'
+    attendibilita: documentato
+  - id: contesto-soglia-termica
+    sezione: contesto
+    testo: 'C''è un numero che spiega da solo perché l''età del ferro sia arrivata
+      dopo quella del bronzo, e non è una questione di ingegno. Il ferro è per massa
+      l''elemento più comune della Terra e il quarto per abbondanza nella crosta:
+      materia prima non ne mancava. Ma ricavare metallo utilizzabile dai suoi minerali
+      richiede fornaci capaci di raggiungere i 1.500 gradi, circa cinquecento in più
+      di quelli che bastano per fondere il rame. Cinquecento gradi, in un mondo in
+      cui il calore si ottiene con carbone di legna e mantici, sono un abisso tecnologico:
+      separano due epoche, e per superarlo servirono millenni di perfezionamenti nei
+      forni, non un''intuizione.'
+    attendibilita: documentato
+  - id: contesto-perche-arrugginisce
+    sezione: contesto
+    testo: 'Il difetto congenito del ferro merita una spiegazione, perché non è ovvio
+      che un metallo debba comportarsi così. L''alluminio, il rame e lo stagno, ossidandosi,
+      formano strati di ossido stabili che aderiscono al metallo e lo proteggono:
+      la corrosione si ferma da sola. La ruggine no. È fatta di idrossidi di ferro,
+      che a differenza degli ossidi non aderiscono alla massa metallica: si formano,
+      si sfaldano, cadono, e sotto resta ferro fresco pronto a ossidarsi a sua volta.
+      Per questo la ruggine è friabile e sfogliosa e non offre alcuna protezione a
+      ciò che sta sotto, e per questo, dato abbastanza tempo in presenza di acqua
+      e ossigeno, una massa di ferro può convertirsi interamente in ruggine. Il sale
+      accelera tutto, ed è il motivo per cui il mare divora le navi.'
+    attendibilita: documentato
+  - id: contesto-acciaio-cosa-e
+    sezione: contesto
+    testo: 'Quanto al metallo in sé, la cosa che più conta sapere è che il ferro puro
+      non serve quasi a niente: è troppo tenero. Ciò che l''umanità chiama ferro e
+      usa per costruire è quasi sempre una lega con il carbonio, e la quantità di
+      carbonio decide tutto. Poco carbonio dà un metallo duttile che si forgia e si
+      salda; un po'' di più dà acciaio, che si può temprare e diventa duro; molto
+      di più dà ghisa, che si cola facilmente nelle forme ma è fragile e non si forgia.
+      La storia tecnica del ferro è, per intero, la storia di come gli esseri umani
+      abbiano imparato a controllare quanta di quella sostanza nera resta dentro il
+      metallo.'
+    attendibilita: documentato
+  - id: vicenda-prima-del-forno
+    sezione: vicenda
+    testo: 'Per quasi quattromila anni il ferro fu un metallo da vetrina. Chi lo possedeva
+      lo aveva raccolto dal cielo — frammenti di meteoriti già metallici, lavorabili
+      a martello a freddo — e lo montava accanto all''oro e ai lapislazzuli. Non era
+      una scelta estetica ma una necessità: nessuno sapeva tirare fuori il ferro dalla
+      roccia. La difficoltà non stava nel trovarlo, perché i minerali ferrosi sono
+      ovunque, ma nel liberarlo dall''ossigeno a cui è legato. Serviva un''idea diversa
+      dalla fusione, e ci vollero millenni per arrivarci.'
+    attendibilita: documentato
+  - id: vicenda-widmanstatten
+    sezione: vicenda
+    testo: 'Che un pezzo di ferro venga dal cielo si riconosce, e il modo in cui lo
+      si riconosce è di per sé una storia. Le meteoriti ferrose sono spesso costituite
+      da un unico cristallo di lega ferro-nichel, o da pochi cristalli che possono
+      misurare metri: cristalli di quelle dimensioni sono rarissimi nei metalli terrestri,
+      e si formano soltanto per raffreddamento estremamente lento da uno stato fuso
+      nel vuoto dello spazio, quando il sistema solare si stava formando. Durante
+      quel raffreddamento, dentro il reticolo cristallino precipita una seconda fase
+      che cresce secondo angoli fissati dal reticolo stesso, fino a riempirlo di strutture
+      ad aghi e a nastri visibili a occhio nudo: un fine intreccio di due leghe chiamate
+      kamacite e taenite. Sono le figure di Widmanstätten, e la loro presenza è la
+      firma di un''origine extraterrestre, perché nessun metallo raffreddato sulla
+      Terra ha avuto il tempo di formarle.'
+    attendibilita: documentato
+  - id: vicenda-quaranta-volte
+    sezione: vicenda
+    testo: 'Quanto valesse quel metallo lo dice un tasso di cambio. Nei primi secoli
+      del II millennio avanti Cristo gli Ittiti barattavano ferro con l''Assiria contro
+      argento, e il rapporto era di quaranta volte il peso del ferro. Quaranta parti
+      d''argento per una di ferro: le fonti annotano che il metallo era probabilmente
+      molto costoso, forse più dell''oro. È una cifra che conviene tenere in mente
+      quando si pensa al ferro come al materiale dozzinale per eccellenza, quello
+      dei chiodi e delle grate: per un lunghissimo tratto della storia umana è stato
+      l''esatto contrario.'
+    attendibilita: documentato
+  - id: vicenda-thule
+    sezione: vicenda
+    testo: 'Il ferro caduto dal cielo non fu solo una faccenda di faraoni. In Artide,
+      il popolo Thule della Groenlandia ricavava utensili dai frammenti del meteorite
+      di Cape York: arpioni, coltelli, le lame semilunari chiamate ulu. La tecnica
+      era essenziale e ostinata — pezzetti di metallo grandi come un pisello, martellati
+      a freddo fino a ridurli in dischi e poi montati su un manico d''osso — e quegli
+      oggetti diventavano a loro volta merce di scambio con altri popoli artici. Due
+      capi del mondo, la valle del Nilo e la Groenlandia, con la stessa idea: se il
+      metallo non si può fabbricare, si raccoglie dove è caduto.'
+    attendibilita: documentato
+  - id: vicenda-bassofuoco
+    sezione: vicenda
+    testo: 'La soluzione fu il bassofuoco, un forno che non fonde il metallo ma glielo
+      strappa di dosso. Dentro una camera di argilla si alternano strati di carbone
+      di legna e minerale, si soffia aria con i mantici e si porta il tutto a una
+      temperatura che resta sotto il punto di fusione del ferro. Il carbone che brucia
+      in difetto d''aria produce monossido di carbonio, e il monossido di carbonio
+      ruba l''ossigeno agli ossidi di ferro: il metallo si libera allo stato solido,
+      mescolato alla scoria, e si raccoglie sul fondo in una massa spugnosa. Non esce
+      un lingotto: esce una spugna sporca, che va poi battuta a lungo e a caldo per
+      spremerne fuori le impurità.'
+    attendibilita: documentato
+  - id: vicenda-perche-vince
+    sezione: vicenda
+    testo: 'Il ferro dei primi bassofuochi era, va detto, un metallo mediocre: più
+      molle di un buon bronzo, pieno di scorie, irregolare. Vinse comunque, e vinse
+      per una ragione che non ha niente a che fare con la qualità. Il bronzo richiede
+      rame e stagno, e lo stagno è raro e va portato da lontanissimo lungo rotte che
+      una guerra o un crollo politico possono interrompere; i minerali di ferro invece
+      affiorano quasi dappertutto. Il ferro non dipende dal commercio a lunga distanza,
+      e questa è la ragione per cui può armare un esercito intero o mettere un vomere
+      di metallo in mano a ogni contadino.'
+    attendibilita: documentato
+  - id: vicenda-cementazione
+    sezione: vicenda
+    testo: 'Il ferro di bassofuoco era troppo molle per fare buone lame, e la soluzione
+      arrivò insieme al passaggio dal bronzo al ferro: la carburazione. Il problema
+      era che la spugna un po'' di carbonio lo conteneva, ma la successiva lavorazione
+      a caldo lo ossidava quasi tutto. I fabbri del Medio Oriente scoprirono che il
+      pezzo già finito poteva essere reso molto più duro scaldandolo in un letto di
+      carbone di legna e poi temperandolo in acqua o in olio. Il risultato è un oggetto
+      stratificato: gli strati esterni diventano acciaio, cioè lega di ferro e carburi,
+      mentre il cuore resta ferro meno fragile. Una lama dura fuori e tenace dentro,
+      ottenuta senza sapere nulla di carbonio né di reticoli cristallini.'
+    attendibilita: documentato
+  - id: vicenda-discusso-origini
+    sezione: vicenda
+    testo: 'Su chi abbia inventato la siderurgia si raccontano due storie, e le fonti
+      consultate smontano entrambe. La prima, tradizionale, l''attribuisce agli Ittiti
+      dell''Anatolia del tardo bronzo: avrebbero mantenuto un monopolio sulla lavorazione
+      del ferro, ci avrebbero fondato il proprio impero, e la conoscenza si sarebbe
+      diffusa quando i Popoli del Mare distrussero quell''impero. Non è più la posizione
+      prevalente degli studiosi, perché dell''asserito monopolio ittita non esiste
+      evidenza archeologica: gli oggetti di ferro dell''Anatolia del bronzo ci sono,
+      ma sono di numero paragonabile a quelli trovati in Egitto e altrove nello stesso
+      periodo, e solo pochi erano armi. La seconda teoria, più recente, dice che a
+      spingere la tecnologia del ferro fu l''interruzione delle rotte commerciali
+      del rame e dello stagno dopo il crollo degli imperi di fine bronzo. Anche qui,
+      però, nessuna evidenza archeologica nota indica una penuria di bronzo o di stagno
+      nella prima età del ferro, e gli oggetti di bronzo restarono abbondanti. Questo
+      approfondimento riporta entrambe le spiegazioni e nessuna delle due come acquisita.'
+    attendibilita: discusso
+  - id: vicenda-colonna-delhi
+    sezione: vicenda
+    testo: 'Che quei fabbri fossero tutt''altro che primitivi lo dimostra un oggetto
+      che sta ancora in piedi a Delhi: una colonna di ferro di oltre sei tonnellate,
+      la cui iscrizione più antica è di un re Chandra, identificato di norma con l''imperatore
+      Gupta Chandragupta II. Archeologi e scienziati dei materiali se ne occupano
+      da tempo per una ragione precisa: non arrugginisce. La resistenza viene da uno
+      strato uniforme di idrogeno fosfato di ferro cristallino idrato che si forma
+      sul metallo, ricco di fosforo, e lo protegge dal clima di Delhi. La colonna
+      è stata definita una testimonianza dell''alto livello di abilità raggiunto dagli
+      antichi fabbri indiani nell''estrazione e nella lavorazione del ferro.'
+    attendibilita: documentato
+  - id: vicenda-wootz
+    sezione: vicenda
+    testo: 'L''altro capolavoro indiano è un acciaio, e nasce nell''India meridionale
+      verso la metà del I millennio avanti Cristo. Il wootz è un acciaio da crogiolo
+      ad alto tenore di carbonio, riconoscibile da un disegno a bande, e si otteneva
+      scaldando minerale di magnetite insieme a una fonte di carbonio dentro un crogiolo
+      di argilla sigillato, posto in un forno a carbone di legna: il sigillo serviva
+      a eliminare completamente la scoria, cioè a risolvere alla radice il difetto
+      delle spugne di bassofuoco. Il carbonio veniva da bambù e da foglie di piante
+      come l''avārai. In Sri Lanka si usava per lo stesso scopo un forno a vento particolare,
+      alimentato dai monsoni. Il prodotto si esportava in tutto il mondo conosciuto
+      sotto forma di pani di ferro acciaioso.'
+    attendibilita: documentato
+  - id: vicenda-discusso-damasco
+    sezione: vicenda
+    testo: Da quei pani, esportati verso il Medio Oriente, nacquero le lame che l'Europa
+      chiamò damasco, celebri per il disegno ondulato in superficie. Poi la tecnica
+      si perse, e sul perché le fonti offrono spiegazioni concorrenti senza sceglierne
+      una. Può darsi che siano venuti a mancare i materiali giusti, perché il minerale
+      proveniva da regioni particolari o conteneva elementi in traccia che altrove
+      non c'erano; può darsi che sia andata perduta la tecnica dei cicli termici controllati
+      dopo la forgiatura iniziale, senza i quali il disegno non compare; e può darsi
+      che abbiano contribuito le tasse sulla produzione e i divieti di esportazione
+      imposti dal Raj britannico, che disarticolarono l'estrazione e la lavorazione.
+      Le tre ipotesi non si escludono, e questo approfondimento le riporta tutte perché
+      nessuna delle fonti consultate le gerarchizza.
+    attendibilita: discusso
+  - id: vicenda-altoforno
+    sezione: vicenda
+    testo: 'Il passo successivo fu costruire forni più alti e soffiare più aria, fino
+      a superare la temperatura a cui il ferro, caricandosi di carbonio, diventa liquido.
+      È l''altoforno, e cambia la natura del prodotto: non più una spugna solida da
+      battere, ma metallo fuso che si cola. Il guaio è che quel metallo, la ghisa,
+      contiene troppo carbonio ed è fragile: serve un secondo passaggio per toglierne
+      la maggior parte. Per secoli in Europa si usò carbone di legna, che serviva
+      anche a evitare che lo zolfo del carbon fossile contaminasse il metallo; il
+      passaggio al coke, cioè al carbon fossile depurato proprio da quello zolfo,
+      legò definitivamente il ferro al carbone di miniera.'
+    attendibilita: documentato
+  - id: vicenda-puddellaggio
+    sezione: vicenda
+    testo: 'Il secondo passaggio, per tutta la prima industrializzazione, si chiamò
+      puddellaggio, e consisteva nel rimestare la ghisa fusa in un forno a riverbero
+      finché il carbonio non se ne andava e il metallo, purificandosi, diventava pastoso
+      e si rapprendeva in una palla da estrarre. Era un lavoro brutale e, cosa più
+      importante per la storia industriale, non scalabile: il limite era quanto un
+      uomo riuscisse a maneggiare. Le cifre lo dicono meglio di qualunque descrizione.
+      Una carica media di forno a puddellare pesava fra i trecentosessanta e i quattrocentodieci
+      chilogrammi; una carica di convertitore Bessemer, quindici tonnellate corte,
+      cioè tredicimilaseicento chilogrammi. Per produrre di più non c''era altro modo
+      che costruire altri forni e assumere altri uomini.'
+    attendibilita: documentato
+  - id: vicenda-joseph-hall
+    sezione: vicenda
+    testo: 'Il perfezionamento più importante di quel processo lo inventò un puddellatore,
+      non un ingegnere. Joseph Hall, a Tipton, cominciò ad aggiungere alla carica
+      rottame di ferro, e poi provò con le scaglie di ossido che si staccano dal metallo
+      lavorato. Il risultato fu spettacolare: il forno si mise a bollire violentemente,
+      perché gli ossidi di ferro reagivano con il carbonio disciolto nella ghisa liberando
+      bolle di monossido di carbonio. Con sua sorpresa, la palla che ne usciva dava
+      buon ferro. Il metodo prese il nome di puddellaggio a umido, o più prosaicamente
+      «bollitura». Restava un difetto costoso che nessuno risolse mai: fino al quindici
+      per cento del ferro se ne andava via con la scoria.'
+    attendibilita: documentato
+  - id: vicenda-bessemer-origine
+    sezione: vicenda
+    testo: 'La svolta che rese l''acciaio una merce comune nacque da un problema di
+      artiglieria. Allo scoppio della guerra di Crimea molti industriali e inventori
+      inglesi si interessarono alla tecnologia militare, e Henry Bessemer raccontò
+      nella sua autobiografia del 1890 che la sua invenzione gli venne da una conversazione
+      con Napoleone III, nel 1854, sull''acciaio necessario per cannoni migliori.
+      Le parole che usò sono quelle di chi sa di aver vissuto un momento: quella conversazione
+      «fu la scintilla che accese una delle più grandi rivoluzioni che il secolo presente
+      avesse da registrare, perché durante la mia corsa solitaria in carrozza quella
+      notte, da Vincennes a Parigi, decisi di tentare quel che potevo per migliorare
+      la qualità del ferro nella fabbricazione dei cannoni». All''epoca l''acciaio
+      serviva solo per coltelleria e utensili: per i cannoni costava troppo.'
+    attendibilita: documentato
+  - id: vicenda-bessemer-idea
+    sezione: vicenda
+    testo: 'L''idea, vista oggi, ha l''eleganza delle cose ovvie dopo. Invece di rimestare
+      a mano la ghisa per ore, si soffia aria attraverso il metallo fuso: l''ossigeno
+      dell''aria brucia le impurità e soprattutto il carbonio in eccesso. Il passaggio
+      non richiede combustibile aggiuntivo, perché è l''ossidazione stessa del carbonio
+      a produrre calore e a mantenere fluida la massa. La «soffiata» durava all''inizio
+      una ventina di minuti: il tempo di una pausa, per un lavoro che fino a quel
+      momento richiedeva ore di braccia.'
+    attendibilita: documentato
+  - id: vicenda-fallimento
+    sezione: vicenda
+    testo: 'Il metodo, però, non funzionava. Bessemer cedette la licenza a quattro
+      maestri ferrai per ventisettemila sterline complessive, e quelli non riuscirono
+      a produrre l''acciaio promesso: era «marcio a caldo e marcio a freddo», secondo
+      il giudizio del suo amico William Clay. Bessemer dovette ricomprarsi le licenze
+      per trentaduemilacinquecento sterline, cioè perdendoci. Aveva capito che il
+      problema stava nelle impurità del ferro e che la chiave era sapere quando interrompere
+      il soffio, così da bruciare le impurità lasciando la quantità giusta di carbonio;
+      ma nonostante avesse speso decine di migliaia di sterline in esperimenti, la
+      risposta non la trovò.'
+    attendibilita: documentato
+  - id: vicenda-mushet
+    sezione: vicenda
+    testo: 'A trovarla fu un altro. Robert Forester Mushet aveva condotto migliaia
+      di esperimenti alla ferriera di Darkhill, nella Foresta di Dean, e dimostrò
+      che la quantità di carbonio si poteva controllare rovesciando il problema: invece
+      di cercare di fermare il soffio al momento esatto, si toglie dal ferro quasi
+      tutto il carbonio, e poi se ne rimette dentro una quantità precisa insieme al
+      manganese, sotto forma di una lega chiamata spiegeleisen. Il prodotto finito
+      migliorò di qualità e divenne più malleabile. È la soluzione che rese industriale
+      il processo Bessemer, e non fu di Bessemer.'
+    attendibilita: documentato
+  - id: vicenda-goransson
+    sezione: vicenda
+    testo: 'L''altro contributo decisivo venne dalla Svezia. Il maestro ferraio Göran
+      Fredrik Göransson fu il primo a produrre buon acciaio con quel processo, e solo
+      dopo molti tentativi: ci riuscì perché disponeva di ghisa al carbone di legna
+      più pura di quella inglese. Furono i suoi risultati a suggerire a Bessemer di
+      provare con un ferro più puro, ricavato dall''ematite del Cumberland. Due delle
+      tre gambe su cui si regge il processo che porta il nome di un solo uomo appartengono
+      dunque ad altri: il materiale giusto a uno svedese, il controllo del carbonio
+      a un inglese della Foresta di Dean.'
+    attendibilita: documentato
+  - id: vicenda-mary
+    sezione: vicenda
+    testo: 'Il conto finale fu molto sbilanciato. Dalle royalties sul suo processo
+      Bessemer incassò una somma complessiva che superava abbondantemente il milione
+      di sterline. Mushet non ricevette nulla, e nel 1866 era indigente e malato.
+      Quell''anno sua figlia Mary, sedici anni, andò a Londra da sola per affrontare
+      Bessemer nei suoi uffici e sostenere che il successo di lui si fondava sui risultati
+      del lavoro di suo padre. Bessemer decise di versare a Mushet una pensione annua
+      di trecento sterline, cifra assai considerevole, e continuò a pagarla per oltre
+      vent''anni: forse, annota la fonte, per tenere i Mushet lontani da un''azione
+      legale.'
+    attendibilita: documentato
+  - id: vicenda-discusso-kelly
+    sezione: vicenda
+    testo: 'Anche la paternità dell''idea è contesa, e le fonti lo dicono apertamente.
+      L''inventore americano William Kelly avrebbe scoperto un procedimento analogo
+      in modo indipendente nel 1851, cinque anni prima del brevetto di Bessemer, e
+      nel 1857 gli fu riconosciuto un brevetto di priorità; ma la rivendicazione è
+      controversa. Kelly stesso sosteneva che puddellatori inglesi avessero visitato
+      il suo impianto e potessero averne parlato in patria al ritorno. C''è poi una
+      terza pista: secondo la ricostruzione di Wagner, Kelly potrebbe essersi ispirato
+      a tecniche introdotte da operai siderurgici cinesi che aveva assunto nel 1854.
+      Le fonti consultate suggeriscono che il processo di Kelly fosse meno sviluppato
+      e meno efficace di quello di Bessemer, ma nessuna scioglie la questione della
+      priorità, e questo approfondimento non la scioglie al posto loro.'
+    attendibilita: discusso
+  - id: impatto-era-moderna
+    sezione: impatto
+    testo: 'Con il processo Bessemer comincia, dicono le fonti senza esitazione, l''era
+      moderna della siderurgia. La materia prima era la ghisa d''altoforno, e il metodo
+      permise di produrre acciaio in grandi quantità e a basso costo; la conseguenza
+      immediata fu che l''acciaio dolce prese il posto del ferro pudellato in quasi
+      tutti gli usi in cui quest''ultimo era stato impiegato fino ad allora. Non si
+      tratta di un miglioramento incrementale: un materiale che si faceva a braccia,
+      caro e in piccoli lotti, diventa un materiale che esce dalle fabbriche a tonnellate.'
+    attendibilita: documentato
+  - id: impatto-fosforo
+    sezione: impatto
+    testo: 'Restava un limite che tagliava fuori interi paesi: il fosforo. Il convertitore
+      rivestito di materiale acido non riesce a eliminarlo, e il fosforo rende l''acciaio
+      fragile a freddo; questo significava che i giacimenti fosforosi — larga parte
+      di quelli europei continentali — non erano utilizzabili. La soluzione arrivò
+      dagli inglesi Percy Gilchrist e Sidney Gilchrist Thomas, che rivestirono il
+      convertitore con un materiale basico, dolomite o magnesite, capace di catturare
+      il fosforo nella scoria. Il processo Bessemer basico, o Gilchrist-Thomas, aprì
+      all''acciaio economico i minerali che fino a quel momento erano stati considerati
+      inservibili, e ridisegnò la geografia industriale del continente.'
+    attendibilita: documentato
+  - id: impatto-ossigeno
+    sezione: impatto
+    testo: L'Ottocento aggiunse il processo Siemens-Martin, che affiancava il Bessemer
+      e nella forma originaria consisteva nel fondere insieme rottami di ferro pudellato
+      e ghisa. Entrambi i metodi furono poi resi obsoleti dal processo Linz-Donawitz,
+      messo a punto nel 1952, che sostituisce l'aria con ossigeno puro soffiato dall'alto.
+      Le fonti sono nette nel definire la siderurgia a ossigeno superiore ai metodi
+      precedenti, ed è la tecnologia con cui si fa la maggior parte dell'acciaio vergine
+      ancora oggi.
+    attendibilita: documentato
+  - id: impatto-acciaio-prebellico
+    sezione: impatto
+    testo: 'C''è una conseguenza di quel passaggio all''aria che quasi nessuno immaginava
+      e che oggi ha un nome tecnico: l''acciaio a basso fondo. È l''acciaio prodotto
+      prima della detonazione delle prime bombe nucleari, fra gli anni Quaranta e
+      Cinquanta, e lo si ricava da navi demolite, da relitti recuperati e da altri
+      manufatti di quell''epoca. Serve come schermatura per i rivelatori di particelle
+      e per i contatori a corpo intero, perché l''acciaio più moderno è contaminato
+      da tracce di ricaduta radioattiva: è stato fatto soffiando dentro il metallo
+      fuso l''aria di un pianeta in cui si erano fatte esplodere bombe atomiche. Per
+      certi strumenti, l''unico acciaio abbastanza pulito è quello che giaceva in
+      fondo al mare.'
+    attendibilita: documentato
+  - id: impatto-scapa-flow
+    sezione: impatto
+    testo: 'La fonte storica di quell''acciaio ha un nome che suona come un romanzo:
+      Scapa Flow. Alla fine della prima guerra mondiale la marina tedesca autoaffondò
+      lì una cinquantina di navi anziché consegnarle alla Royal Navy, e quegli scafi
+      sono stati per decenni una delle provviste di acciaio pre-atomico. La contaminazione
+      dell''acciaio moderno viene dai radionuclidi che l''aria contiene, il cobalto-60
+      fra questi, e che finiscono nel metallo insieme all''aria soffiata nel convertitore.
+      C''è però un finale che raramente si racconta: il fondo radioattivo di origine
+      umana, salito a 0,11 millisievert l''anno sopra il naturale, ha cominciato a
+      scendere nel 1963 con il trattato sulla messa al bando parziale degli esperimenti
+      nucleari, e nel 2008 era a 0,005. Per la maggior parte degli usi, l''acciaio
+      speciale non serve più.'
+    attendibilita: documentato
+  - id: impatto-discusso-relitti
+    sezione: impatto
+    testo: 'Resta una questione aperta e sgradevole. Relitti della seconda guerra
+      mondiale nel Mare di Giava e nel Mar Cinese Meridionale occidentale, acque relativamente
+      basse, sono stati saccheggiati illegalmente. Sul movente le fonti divergono:
+      secondo una lettura l''obiettivo sarebbe proprio l''acciaio a basso fondo, secondo
+      altri, fra cui il ricercatore di crimini marittimi e archeologo Andrew Brockman,
+      è più probabile che si tratti di recupero convenzionale di rottame. Le due spiegazioni
+      hanno implicazioni molto diverse su chi stia comprando, e nessuna delle fonti
+      consultate la chiude.'
+    attendibilita: discusso
+  - id: impatto-geografia
+    sezione: impatto
+    testo: 'La geografia dell''acciaio è una cartina della potenza industriale, e
+      si è spostata tre volte. Nell''Ottocento i maggiori produttori europei erano
+      gli stati tedeschi; per quasi tutto il Novecento il centro fu americano, fra
+      Pittsburgh, Bethlehem in Pennsylvania e Cleveland in Ohio. Oggi il centro è
+      la Cina, che nel 2023 ha prodotto il cinquantaquattro per cento dell''acciaio
+      mondiale: più della metà di tutto il metallo strutturale del pianeta esce da
+      un solo paese. Chi voglia capire dove si è spostato il peso del mondo negli
+      ultimi due secoli può smettere di leggere i trattati e guardare questa sola
+      serie di numeri.'
+    attendibilita: documentato
+  - id: impatto-cina-ghisa
+    sezione: impatto
+    testo: 'La colata del ferro, però, l''Europa la impara con duemila anni di ritardo.
+      I più antichi manufatti di ghisa conosciuti risalgono all''ottavo secolo avanti
+      Cristo e sono stati trovati dagli archeologi in quello che oggi è lo Jiangsu,
+      in Cina, dove la ghisa serviva a produrre in serie armi da guerra, attrezzi
+      agricoli ed elementi architettonici. In Europa bisogna aspettare il Quattrocento,
+      quando la si impiega per cannoni e palle in Borgogna, in Francia e nell''Inghilterra
+      della Riforma: le quantità richieste dall''artiglieria imposero una produzione
+      su larga scala. La ghisa contiene dall''1,8 al 4 per cento di carbonio e resta
+      fragile, ma fonde a temperatura relativamente bassa, cola bene nelle forme e
+      si lavora benissimo alla macchina utensile: difetti e pregi che ne hanno deciso
+      tutti gli impieghi.'
+    attendibilita: documentato
+  - id: impatto-cina-oggi
+    sezione: impatto
+    testo: 'Il caso cinese merita qualche riga in più, perché mostra cosa significhi
+      spostare il centro di gravità di un''industria. Piccola e ostacolata dalle guerre
+      per tutta la prima metà del Novecento, la siderurgia cinese si espanse rapidamente
+      dopo le riforme di mercato del 1978 e divenne la maggiore del mondo verso la
+      fine degli anni Novanta. La crescita ha portato con sé i problemi della propria
+      scala: debito elevato, volatilità dei mercati, pressioni ambientali. L''aumento
+      delle esportazioni fra il 2023 e il 2024 ha prodotto sovraccapacità globale,
+      calo dei prezzi e dazi, tanto che il governo ha fermato le autorizzazioni per
+      nuovi impianti, spinto gli investimenti all''estero e avviato la dismissione
+      delle aziende in perdita, quelle che in gergo si chiamano «zombie».'
+    attendibilita: documentato
+  - id: impatto-ponte
+    sezione: impatto
+    testo: 'Prima ancora dell''acciaio di massa, il ferro colato aveva già cambiato
+      il modo di costruire. Il passaggio decisivo fu di Abraham Darby, che nel 1709
+      mise a punto un metodo per produrre ghisa in altoforno alimentato a coke invece
+      che a carbone di legna. L''idea non gli venne da una ferriera: da apprendista
+      a Birmingham aveva visto usare il coke nei forni da malto, dove serviva a impedire
+      che lo zolfo del carbone contaminasse la birra e a risparmiare il più scarso
+      carbone di legna. Le fonti chiamano quel metodo un passo avanti maggiore nella
+      produzione del ferro come materia prima della rivoluzione industriale. Il monumento
+      di quella trasformazione sta sul fiume Severn, in Shropshire, in una gola dove
+      carbone, minerale di ferro, calcare e argilla refrattaria affiorano vicino alla
+      superficie: il Ponte di Ferro, progettato da Thomas Farnolls Pritchard, costruito
+      da Abraham Darby III fra il novembre 1777 e il luglio 1779 e aperto il primo
+      gennaio 1781 con una luce di poco più di trenta metri. Fu il primo grande ponte
+      al mondo fatto di ghisa, e il suo successo avviò l''uso della ghisa come materiale
+      strutturale.'
+    attendibilita: documentato
+  - id: impatto-scala
+    sezione: impatto
+    testo: 'L''altoforno è una macchina che non si ferma, e il motivo è che è difficile
+      da accendere e da spegnere: il bassofuoco lavorava a lotti, l''altoforno lavora
+      in continuo per lunghi periodi. Dall''alto si caricano senza sosta coke, minerale
+      e fondente calcareo; dal basso si soffia aria calda attraverso una corona di
+      tubi chiamati ugelli. Quello che accade dentro è uno scambio in controcorrente:
+      la colonna di materiale scende mentre i gas caldi e ricchi di monossido di carbonio
+      salgono, e la reazione avviene lungo tutta l''altezza del forno. Il calcare
+      serve a catturare la silice, con cui forma silicati che galleggiano sul metallo
+      fuso come scoria. E c''è la differenza decisiva rispetto al bassofuoco: qui
+      il carbonio assorbito abbassa il punto di fusione sotto quello del ferro puro,
+      e il metallo cola davvero.'
+    attendibilita: documentato
+  - id: impatto-inossidabile
+    sezione: impatto
+    testo: 'L''ultima grande aggiunta alla famiglia risolve il difetto congenito del
+      ferro, e lo fa con una soglia precisa: dal 10,5 per cento di cromo in su, l''acciaio
+      diventa inossidabile. Il meccanismo si chiama passivazione ed è elegante. Il
+      cromo reagisce con l''ossigeno dell''aria — e basta anche il poco ossigeno disciolto
+      nell''acqua — formando spontaneamente una pellicola di ossido di cromo inerte
+      e microscopicamente sottile, che blocca la diffusione dell''ossigeno verso il
+      metallo sottostante e impedisce alla corrosione di propagarsi in profondità.
+      La cosa notevole è che quel film si ripara da solo, anche quando viene graffiato:
+      è esattamente il contrario della ruggine, che si sfoglia e lascia scoperto metallo
+      fresco. Da lì vengono pentole, posate, strumenti chirurgici, elettrodomestici
+      e rivestimenti d''architettura.'
+    attendibilita: documentato
+  - id: controversie-ossigeno
+    sezione: controversie
+    testo: 'Il ferro nel corpo umano fa un lavoro che richiede un equilibrio delicatissimo:
+      deve legare l''ossigeno abbastanza saldamente da raccoglierlo nei polmoni, ma
+      abbastanza debolmente da mollarlo nei tessuti. Se il legame fosse più forte
+      l''ossigeno non verrebbe mai rilasciato; se fosse più debole non verrebbe mai
+      caricato. L''atomo di ferro dell''eme sta esattamente in quella finestra.'
+    attendibilita: documentato
+  - id: controversie-cooperativita
+    sezione: controversie
+    testo: 'Il congegno con cui quel singolo atomo lavora è di una finezza meccanica
+      che vale la pena descrivere. Quando l''ossigeno si lega all''eme, tira l''atomo
+      di ferro dentro il piano dell''anello porfirinico, e quel minuscolo spostamento
+      trascina con sé la proteina in un cambiamento di forma. La conseguenza è che
+      le altre tre unità dell''emoglobina diventano più disponibili a legare ossigeno
+      a loro volta: il legame, in gergo, è cooperativo. È il motivo per cui l''emoglobina
+      si carica quasi tutta insieme dove l''ossigeno abbonda e si scarica quasi tutta
+      insieme dove scarseggia, invece di rilasciarlo poco per volta lungo il percorso.
+      Un atomo di ferro che si sposta di una frazione di nanometro governa la distribuzione
+      dell''ossigeno in tutto il corpo.'
+    attendibilita: documentato
+  - id: controversie-discusso-stato
+    sezione: controversie
+    testo: 'C''è perfino un disaccordo su quale ferro sia, in quel momento. La descrizione
+      classica vuole che nell''ossiemoglobina il ferro stia nello stato di ossidazione
+      +2. Il problema è che il complesso fra ossigeno e ferro dell''eme è diamagnetico,
+      cioè non risente di un campo magnetico, mentre sia l''ossigeno sia il ferro(II)
+      ad alto spin sono paramagnetici: i conti non tornano. Le prove sperimentali,
+      annota la fonte, suggeriscono con forza che nell''ossiemoglobina il ferro dell''eme
+      sia in realtà nello stato +3, con l''ossigeno presente come anione superossido
+      oppure in un complesso covalente a trasferimento di carica. È una di quelle
+      discrepanze che restano nei manuali per comodità didattica molto dopo che i
+      dati hanno detto un''altra cosa.'
+    attendibilita: discusso
+  - id: controversie-tossico
+    sezione: controversie
+    testo: 'La stessa reattività che rende il ferro utile lo rende pericoloso. Il
+      ferro libero catalizza la formazione di specie chimiche che danneggiano cellule
+      e tessuti, e il corpo umano non ha un modo regolato di liberarsi del ferro in
+      eccesso: può controllarne l''assorbimento, non l''eliminazione. Di qui la stranezza
+      di questo elemento in medicina: è insieme all''origine di una carenza che riguarda
+      più di un miliardo di persone e una sostanza il cui accumulo provoca malattia.
+      Non esiste una dose che vada bene per tutti, e il ferro è uno dei pochi nutrienti
+      in cui prendere un integratore senza sapere se serve è una cattiva idea.'
+    attendibilita: documentato
+  - id: controversie-riciclo-corpo
+    sezione: controversie
+    testo: 'Il corpo umano risolve il problema del ferro con la stessa strategia che
+      l''industria ha adottato per l''acciaio: lo ricicla. Ogni giorno servono venti
+      milligrammi di ferro per fabbricare globuli rossi nuovi, e gran parte di quel
+      ferro viene recuperata dai globuli rossi vecchi demoliti. La regolazione è asimmetrica
+      e vale la pena notarlo: l''assorbimento dal cibo è controllato, cellula per
+      cellula, dagli enterociti che rivestono l''intestino; la perdita invece non
+      è regolata affatto, e avviene per sfaldamento dell''epitelio, sudore, ferite
+      ed emorragie. Fra gli enzimi che governano l''uscita del ferro dagli enterociti
+      ce n''è uno che porta un nome quanto mai appropriato: efestina, dal dio fabbro.'
+    attendibilita: documentato
+  - id: controversie-anemia
+    sezione: controversie
+    testo: 'Le cifre della carenza sono enormi e poco conosciute. L''anemia da carenza
+      di ferro ha interessato circa 1,48 miliardi di persone nel 2015, e si stima
+      che la carenza alimentare di ferro causi all''incirca metà di tutti i casi di
+      anemia nel mondo; le più colpite sono le donne e i bambini piccoli. C''è però
+      anche una buona notizia dentro i numeri: i decessi attribuiti all''anemia da
+      carenza di ferro erano circa 54.000 nel 2015, contro i 213.000 del 1990. La
+      condizione resta diffusissima, ma è diventata molto meno letale nel giro di
+      una generazione.'
+    attendibilita: documentato
+  - id: controversie-anchilostomi
+    sezione: controversie
+    testo: 'La causa principale dell''anemia da carenza di ferro nel mondo, però,
+      non è quella che verrebbe in mente per prima. Non è la dieta povera: è una malattia
+      parassitaria, l''elmintiasi, e in particolare l''infestazione da anchilostomi.
+      Questi vermi si attaccano alla mucosa dell''intestino tenue e provocano insieme
+      infiammazione e perdita cronica di sangue, e con il sangue se ne va il ferro.
+      L''Organizzazione Mondiale della Sanità stima che circa due miliardi di persone
+      nel mondo siano infettate da elminti trasmessi attraverso il suolo. È un promemoria
+      su quanto spesso un problema che sembra nutrizionale sia in realtà un problema
+      di servizi igienici.'
+    attendibilita: documentato
+  - id: controversie-discusso-pesce
+    sezione: controversie
+    testo: 'Un caso recente mostra quanto quella distinzione conti. Nel 2008 operatori
+      sanitari canadesi svilupparono in Cambogia un lingotto di ghisa a forma di pesce
+      da mettere nella pentola durante la cottura, perché cedesse ferro all''acqua
+      e al cibo: un''idea semplice, a basso costo, per un paese in cui intorno al
+      2010 il sessanta per cento circa delle donne incinte era anemico. L''oggetto
+      ebbe enorme popolarità. Una ricerca pubblicata nel 2017 trovò però che il lingotto
+      non aveva alcun effetto sull''anemia causata da fattori diversi dalla carenza
+      di ferro, e ne sconsigliò quindi l''uso in Cambogia e in altri paesi dove la
+      maggior parte delle anemie non è dovuta a carenza di ferro e sono frequenti
+      i disordini genetici dell''emoglobina. Le fonti non concordano sul valore complessivo
+      dell''iniziativa; concordano sul fatto che curare la malattia sbagliata non
+      funziona.'
+    attendibilita: discusso
+  - id: controversie-martin
+    sezione: controversie
+    testo: 'C''è poi una controversia che riguarda il clima, e nasce da una battuta.
+      In vaste zone dell''oceano l''acqua contiene nutrienti in abbondanza ma pochissima
+      clorofilla, perché manca il ferro: gli oceanografi le chiamano regioni ad alto
+      contenuto di nutrienti e bassa clorofilla. L''ipotesi che il ferro fosse il
+      fattore limitante risaliva agli anni Trenta, ma fu l''oceanografo John Martin
+      dei laboratori marini di Moss Landing a riportarla al centro del dibattito con
+      le proprie analisi. Nel 1988, a Woods Hole, sintetizzò la faccenda con una frase
+      diventata famosa: «Datemi mezza petroliera di ferro e vi darò un''era glaciale».
+      Quella battuta ha spinto un decennio di ricerche.'
+    attendibilita: documentato
+  - id: controversie-discusso-fertilizzazione
+    sezione: controversie
+    testo: L'idea è spargere ferro in mare per innescare fioriture di fitoplancton
+      che assorbano anidride carbonica e la portino in fondo all'oceano morendo, e
+      resta controversa. Vale la pena riportare il bilancio delle prove come lo danno
+      le fonti, perché è più sfumato di come lo si cita da entrambe le parti. Le preoccupazioni
+      ecologiche per una fertilizzazione su larga scala sono state individuate nella
+      letteratura scientifica, soprattutto negli studi di modellizzazione; alcuni
+      hanno sollevato la possibilità teorica che le fioriture in decomposizione contribuiscano
+      a impoverire di ossigeno le acque sottostanti. D'altra parte, in nessuno dei
+      tredici principali test sul campo è stato osservato un danno ecologico come
+      mortalità animale o effetti a cascata sulle reti trofiche. Il nodo, come sempre
+      nella geoingegneria, è che i modelli spaventano e gli esperimenti sono troppo
+      piccoli per rassicurare.
+    attendibilita: discusso
+  - id: controversie-folklore
+    sezione: controversie
+    testo: 'Prima che fosse un materiale da costruzione, il ferro è stato per secoli
+      un amuleto, e l''espressione che lo designa in questo ruolo è «ferro freddo»:
+      si riteneva che respingesse, contenesse o ferisse fantasmi, fate, streghe e
+      altre creature soprannaturali malevole. Le forme che quella credenza ha preso
+      sono concrete e ancora visibili. Un ferro di cavallo inchiodato alla porta doveva
+      allontanare gli spiriti maligni, e più tardi è diventato semplicemente un portafortuna;
+      una recinzione di ferro attorno a un cimitero doveva trattenere le anime dei
+      morti; un coltello di ferro sepolto sotto l''ingresso di casa doveva impedire
+      alle streghe di entrare. L''espressione è passata alla letteratura: «Cold Iron»
+      è il titolo di una poesia di Rudyard Kipling, nella raccolta Rewards and Fairies
+      del 1910, dove il termine vale poeticamente per «arma».'
+    attendibilita: documentato
+  - id: eredita-emissioni
+    sezione: eredita
+    testo: 'Il conto ambientale di tutto questo è pesante e va detto con le cifre.
+      La siderurgia è una delle industrie manifatturiere più grandi del mondo ed è
+      anche fra le più intense per consumo di energia ed emissioni: le stime la danno
+      intorno al sette per cento delle emissioni globali di gas serra al 2024, e altre
+      fonti la collocano all''otto. Non è un problema di impianti mal tenuti: è la
+      chimica del processo, perché nell''altoforno il carbonio serve a strappare l''ossigeno
+      al minerale e il prodotto di quella reazione è anidride carbonica per definizione.
+      Le vie di uscita indicate sono tre: sostituire il coke con l''idrogeno, riciclare
+      di più, catturare e stoccare il carbonio.'
+    attendibilita: documentato
+  - id: eredita-riciclo
+    sezione: eredita
+    testo: 'La contropartita è che l''acciaio si ricicla, e si ricicla bene: è uno
+      dei materiali più riciclati del mondo, con un tasso superiore al sessanta per
+      cento a livello globale e dell''ottantatré per cento negli Stati Uniti nel 2008.
+      Lo strumento è il forno elettrico ad arco, che scalda la carica con l''arco
+      che scocca fra elettrodi di grafite e il metallo, raggiunge i milleottocento
+      gradi e nelle taglie industriali arriva a quattrocento tonnellate. C''è però
+      un limite strutturale da tenere presente: poiché si produce più acciaio di quanto
+      se ne rottami, il materiale riciclato copre circa il quaranta per cento del
+      totale. Finché il mondo cresce, il rottame non può bastare.'
+    attendibilita: documentato
+  - id: eredita-idrogeno
+    sezione: eredita
+    testo: 'Per l''acciaio vergine, quello che il rottame non basta a coprire, la
+      via che si sta aprendo ha un nome che suona familiare: ferro a riduzione diretta,
+      detto anche — e non è un caso — ferro spugna. Sono processi allo stato solido
+      che riducono gli ossidi a ferro metallico sotto il punto di fusione, fra gli
+      ottocento e i milleduecento gradi, usando un gas riducente al posto del coke.
+      Se quel gas contiene carbonio l''anidride carbonica resta; se è idrogeno, il
+      sottoprodotto della reazione è acqua e non se ne produce affatto. La siderurgia
+      tornerebbe così al principio del bassofuoco — ridurre senza fondere — dopo averlo
+      abbandonato per secoli in favore dell''altoforno.'
+    attendibilita: documentato
+  - id: eredita-lumaca
+    sezione: eredita
+    testo: 'Che il ferro sia un materiale da costruzione non è un''idea solo umana.
+      Sulle bocche idrotermali dell''Oceano Indiano, fra i 2.400 e i 2.900 metri di
+      profondità, vive una chiocciola chiamata Chrysomallon squamiferum, nota anche
+      come pangolino di mare o lumaca vulcano. La sua conchiglia ha una costruzione
+      unica, a tre strati, e lo strato esterno è fatto di solfuri di ferro; il piede
+      è coperto di scaglie mineralizzate. Nel 2019 è stata dichiarata in pericolo
+      nella lista rossa dell''IUCN, e con un primato amaro: è la prima specie a esservi
+      inserita per i rischi derivanti dall''estrazione mineraria in acque profonde
+      nel proprio habitat. Un animale corazzato di ferro minacciato da chi va sul
+      fondo a cercare metalli.'
+    attendibilita: documentato
+  - id: eredita-ferritina
+    sezione: eredita
+    testo: 'Dentro gli organismi, il problema di un elemento tanto utile quanto reattivo
+      si risolve con la custodia. La ferritina immagazzina il ferro e lo rilascia
+      in modo controllato, tenendolo in forma solubile e non tossica, e la producono
+      quasi tutti gli esseri viventi: archei, batteri, alghe, piante superiori, animali.
+      Negli esseri umani funziona come cuscinetto nelle due direzioni, contro la carenza
+      e contro il sovraccarico. Ha anche un risvolto pratico che chiunque abbia fatto
+      un esame del sangue conosce: la ferritina del plasma è un indicatore indiretto
+      del ferro immagazzinato nel corpo, e per questo la ferritina sierica si usa
+      come test diagnostico sia per l''anemia da carenza sia per il sovraccarico.
+      Il modo in cui la vita ha risolto il problema è così antico da essere comune
+      a tutti i rami dell''albero.'
+    attendibilita: documentato
+  - id: eredita-quantita
+    sezione: eredita
+    testo: 'Nessun altro metallo regge il confronto, e la cifra è netta: il ferro
+      è di gran lunga il più usato di tutti i metalli e rappresenta oltre il novanta
+      per cento della produzione metallica mondiale. Il novanta per cento significa
+      che tutto il resto — alluminio, rame, zinco, nichel, i metalli preziosi, le
+      terre rare di cui si parla tanto — si divide il decimo che avanza. La ragione
+      che le fonti indicano è prosaica: costa poco ed è resistente, e questa combinazione
+      lo rende la scelta ovvia ogni volta che si deve sopportare uno sforzo o trasmettere
+      una forza. Macchinari e macchine utensili, rotaie, automobili, scafi di navi,
+      tondini d''armatura del cemento, ossature portanti degli edifici.'
+    attendibilita: documentato
+  - id: eredita-magnetismo
+    sezione: eredita
+    testo: 'La seconda eredità è invisibile e altrettanto pervasiva. Il ferromagnetismo
+      del ferro nasce da un fatto microscopico semplice da enunciare: sotto una certa
+      temperatura gli spin magnetici vicini si allineano paralleli fra loro spontaneamente,
+      senza bisogno di alcun campo applicato dall''esterno. Sopra quella soglia, che
+      si chiama temperatura di Curie, l''allineamento si perde e gli spin si orientano
+      a caso, a meno che non si applichi un campo. Su quel comportamento collettivo
+      si regge la conversione fra energia elettrica ed energia meccanica: i nuclei
+      dei trasformatori, gli statori e i rotori dei motori, i generatori delle centrali.
+      Si può togliere il ferro dagli edifici sostituendolo con cemento e legno; toglierlo
+      dalla rete elettrica è tutta un''altra faccenda.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'Resta il paradosso da cui siamo partiti. Il ferro è il punto in cui la
+      fusione smette di rendere, la cenere che si accumula nel cuore delle stelle
+      massicce finché il fuoco non ha più niente da bruciare e la stella collassa;
+      ed è insieme il metallo con cui l''umanità ha costruito quasi tutto quello che
+      ha costruito, l''atomo che le porta l''ossigeno nel sangue e il fluido che le
+      tiene un campo magnetico sopra la testa. La fine della storia energetica di
+      una stella è l''inizio di tutto il resto. Il primo ferro che gli esseri umani
+      hanno tenuto in mano era caduto dal cielo, e nel dirlo le lingue antiche erano
+      più precise di quanto sapessero: quel metallo viene davvero da lassù, tutto
+      quanto, anche quello che oggi si cava dalle miniere.'
+    attendibilita: documentato
 composti_principali:
 - nome: Ematite
   formula: Fe2O3
@@ -217,3 +999,123 @@ fonti:
   titolo: 'Smelting Conditions and Smelting Products: Experimental Insights into the Development
     of Iron Bloomery Furnaces (EXARC Journal)'
   consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Iron_peak
+  titolo: Iron peak
+  consultata: &id001 2026-09-14
+- url: https://en.wikipedia.org/wiki/Rust
+  titolo: Rust
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Hemoglobin
+  titolo: Hemoglobin
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Iron_meteorite
+  titolo: Iron meteorite
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Supernova_nucleosynthesis
+  titolo: Supernova nucleosynthesis
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Earth's_inner_core
+  titolo: Earth's inner core
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Earth's_outer_core
+  titolo: Earth's outer core
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Banded_iron_formation
+  titolo: Banded iron formation
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bloomery
+  titolo: Bloomery
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ferrous_metallurgy
+  titolo: Ferrous metallurgy
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Iron_Age
+  titolo: Iron Age
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi
+  titolo: Iron pillar of Delhi
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Wootz_steel
+  titolo: Wootz steel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Damascus_steel
+  titolo: Damascus steel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Crucible_steel
+  titolo: Crucible steel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Blast_furnace
+  titolo: Blast furnace
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Abraham_Darby_I
+  titolo: Abraham Darby I
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/The_Iron_Bridge
+  titolo: The Iron Bridge
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Puddling_(metallurgy)
+  titolo: Puddling (metallurgy)
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Wrought_iron
+  titolo: Wrought iron
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Cast_iron
+  titolo: Cast iron
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Bessemer_process
+  titolo: Bessemer process
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Henry_Bessemer
+  titolo: Henry Bessemer
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Steel
+  titolo: Steel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Steel_industry_in_China
+  titolo: Steel industry in China
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Widmanstätten_pattern
+  titolo: Widmanstätten pattern
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Steelmaking
+  titolo: Steelmaking
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Electric_arc_furnace
+  titolo: Electric arc furnace
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Direct_reduced_iron
+  titolo: Direct reduced iron
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Stainless_steel
+  titolo: Stainless steel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Low-background_steel
+  titolo: Low-background steel
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Iron_in_biology
+  titolo: Iron in biology
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Human_iron_metabolism
+  titolo: Human iron metabolism
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Iron-deficiency_anemia
+  titolo: Iron-deficiency anemia
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Lucky_iron_fish
+  titolo: Lucky iron fish
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ferritin
+  titolo: Ferritin
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Iron_fertilization
+  titolo: Iron fertilization
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Scaly-foot_gastropod
+  titolo: Scaly-foot gastropod
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Iron_in_folklore
+  titolo: Iron in folklore
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Curie_temperature
+  titolo: Curie temperature
+  consultata: *id001
