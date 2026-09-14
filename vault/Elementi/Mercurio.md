@@ -132,6 +132,9 @@ Il simbolo Hg non c'entra nulla con il nome italiano: viene da hydrargyrum, lati
 
 L'espressione inglese matto come un cappellaio ha una base occupazionale precisa. Dalla metà del Settecento la feltratura dei cappelli usava una soluzione di nitrato mercurico, e i lavoranti esposti per anni ai vapori sviluppavano tremori, timidezza patologica e irritabilità estrema: un quadro clinico che porta il nome di eretismo mercuriale. Negli Stati Uniti la pratica fu vietata solo nel dicembre del 1941.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Mercurio — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Zolfo]] (2000 a.C.)
@@ -145,6 +148,36 @@ Epoca: [[Antichità]]
 - [Flowing rivers of mercury (Chemistry World)](https://www.chemistryworld.com/features/flowing-rivers-of-mercury/8122.article) — consultata il 07/09/2026
 - [Mercury as a Geophysical Tracer Gas: Emissions from the Emperor Qin Tomb in Xi'an Studied by Laser Radar (Scientific Reports, 2020)](https://www.nature.com/articles/s41598-020-67305-x) — consultata il 07/09/2026
 - [Elixirs of Immortal Life Were a Deadly Obsession (JSTOR Daily)](https://daily.jstor.org/elixir-immortal-life-deadly-obsessions/) — consultata il 07/09/2026
+- [Relativistic quantum chemistry](https://en.wikipedia.org/wiki/Relativistic_quantum_chemistry) — consultata il 14/09/2026
+- [Cinnabar](https://en.wikipedia.org/wiki/Cinnabar) — consultata il 14/09/2026
+- [Vermilion](https://en.wikipedia.org/wiki/Vermilion) — consultata il 14/09/2026
+- [Patio process](https://en.wikipedia.org/wiki/Patio_process) — consultata il 14/09/2026
+- [Pan amalgamation](https://en.wikipedia.org/wiki/Pan_amalgamation) — consultata il 14/09/2026
+- [Potosí](https://en.wikipedia.org/wiki/Potosí) — consultata il 14/09/2026
+- [Cerro Rico](https://en.wikipedia.org/wiki/Cerro_Rico) — consultata il 14/09/2026
+- [Mit'a](https://en.wikipedia.org/wiki/Mit'a) — consultata il 14/09/2026
+- [Almadén](https://en.wikipedia.org/wiki/Almadén) — consultata il 14/09/2026
+- [Silver mining](https://en.wikipedia.org/wiki/Silver_mining) — consultata il 14/09/2026
+- [Minamata disease](https://en.wikipedia.org/wiki/Minamata_disease) — consultata il 14/09/2026
+- [Minamata Bay](https://en.wikipedia.org/wiki/Minamata_Bay) — consultata il 14/09/2026
+- [Minamata Convention on Mercury](https://en.wikipedia.org/wiki/Minamata_Convention_on_Mercury) — consultata il 14/09/2026
+- [Four Big Pollution Diseases of Japan](https://en.wikipedia.org/wiki/Four_Big_Pollution_Diseases_of_Japan) — consultata il 14/09/2026
+- [Mercury poisoning](https://en.wikipedia.org/wiki/Mercury_poisoning) — consultata il 14/09/2026
+- [Methylmercury](https://en.wikipedia.org/wiki/Methylmercury) — consultata il 14/09/2026
+- [Dimethylmercury](https://en.wikipedia.org/wiki/Dimethylmercury) — consultata il 14/09/2026
+- [Karen Wetterhahn](https://en.wikipedia.org/wiki/Karen_Wetterhahn) — consultata il 14/09/2026
+- [Erethism](https://en.wikipedia.org/wiki/Erethism) — consultata il 14/09/2026
+- [Hatmaking](https://en.wikipedia.org/wiki/Hatmaking) — consultata il 14/09/2026
+- [Mercury-in-glass thermometer](https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer) — consultata il 14/09/2026
+- [Chloralkali process](https://en.wikipedia.org/wiki/Chloralkali_process) — consultata il 14/09/2026
+- [Castner–Kellner process](https://en.wikipedia.org/wiki/Castner–Kellner_process) — consultata il 14/09/2026
+- [Amalgam (dentistry)](https://en.wikipedia.org/wiki/Amalgam_%28dentistry%29) — consultata il 14/09/2026
+- [Dental amalgam controversy](https://en.wikipedia.org/wiki/Dental_amalgam_controversy) — consultata il 14/09/2026
+- [Artisanal mining](https://en.wikipedia.org/wiki/Artisanal_mining) — consultata il 14/09/2026
+- [Gold extraction](https://en.wikipedia.org/wiki/Gold_extraction) — consultata il 14/09/2026
+- [Mercury cycle](https://en.wikipedia.org/wiki/Mercury_cycle) — consultata il 14/09/2026
+- [Fluorescent lamp](https://en.wikipedia.org/wiki/Fluorescent_lamp) — consultata il 14/09/2026
+- [Mercury (mythology)](https://en.wikipedia.org/wiki/Mercury_%28mythology%29) — consultata il 14/09/2026
 
 ---
 
