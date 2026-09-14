@@ -118,6 +118,9 @@ Il decadimento del potassio-40 in argon-40 è alla base della datazione potassio
 
 Il residuo che Cavendish aveva registrato nel 1785 corrisponde, nelle proporzioni, proprio all'argon dell'aria: aveva in mano il dato giusto e nessuna teoria in cui metterlo. Rayleigh e Ramsay, un secolo dopo, hanno rifatto il suo esperimento sapendo che cosa cercare, ed è la differenza fra registrare un'anomalia e scoprirla.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Argon — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Disprosio]] (1886)
@@ -130,6 +133,20 @@ Epoca: [[Spettroscopia e radioattività]] · Scopritori: [[William Ramsay]], [[L
 - [Argon](https://en.wikipedia.org/wiki/Argon) — consultata il 09/09/2026
 - [Argon — Royal Society of Chemistry](https://periodic-table.rsc.org/element/18/argon) — consultata il 09/09/2026
 - [K–Ar dating](https://en.wikipedia.org/wiki/K%E2%80%93Ar_dating) — consultata il 09/09/2026
+- [John William Strutt, 3rd Baron Rayleigh](https://en.wikipedia.org/wiki/John_William_Strutt,_3rd_Baron_Rayleigh) — consultata il 14/09/2026
+- [William Ramsay](https://en.wikipedia.org/wiki/William_Ramsay) — consultata il 14/09/2026
+- [Henry Cavendish](https://en.wikipedia.org/wiki/Henry_Cavendish) — consultata il 14/09/2026
+- [Noble gas](https://en.wikipedia.org/wiki/Noble_gas) — consultata il 14/09/2026
+- [Argon compounds](https://en.wikipedia.org/wiki/Argon_compounds) — consultata il 14/09/2026
+- [Argon fluorohydride](https://en.wikipedia.org/wiki/Argon_fluorohydride) — consultata il 14/09/2026
+- [Neil Bartlett (chemist)](https://en.wikipedia.org/wiki/Neil_Bartlett_%28chemist%29) — consultata il 14/09/2026
+- [Potassium-40](https://en.wikipedia.org/wiki/Potassium-40) — consultata il 14/09/2026
+- [Radiometric dating](https://en.wikipedia.org/wiki/Radiometric_dating) — consultata il 14/09/2026
+- [Argon–argon dating](https://en.wikipedia.org/wiki/Argon–argon_dating) — consultata il 14/09/2026
+- [Gas tungsten arc welding](https://en.wikipedia.org/wiki/Gas_tungsten_arc_welding) — consultata il 14/09/2026
+- [Insulated glazing](https://en.wikipedia.org/wiki/Insulated_glazing) — consultata il 14/09/2026
+- [Inductively coupled plasma](https://en.wikipedia.org/wiki/Inductively_coupled_plasma) — consultata il 14/09/2026
+- [Inductively coupled plasma mass spectrometry](https://en.wikipedia.org/wiki/Inductively_coupled_plasma_mass_spectrometry) — consultata il 14/09/2026
 
 ---
 

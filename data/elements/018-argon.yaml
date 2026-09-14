@@ -168,6 +168,805 @@ contenuti:
   - termine: argos
     ipa: arˈɡos
     nota: Greco antico, «pigro».
+contenuti_estesi:
+  hook: 'L''azoto ricavato dall''aria pesava lo 0,5 per cento più di quello ricavato
+    dai composti chimici. Non era un errore di misura: la differenza resisteva a ogni
+    ripetizione, e tenne occupati due scienziati per mesi. Dentro quella terza cifra
+    decimale c''era un gas che costituisce quasi l''uno per cento dell''aria che respiriamo,
+    che nessuno aveva mai visto in un secolo di chimica dei gas, e che avrebbe costretto
+    la tavola periodica a farsi una colonna nuova. Lo si trovò non facendolo reagire
+    — non reagisce con nulla — ma mettendolo su una bilancia.'
+  beats:
+  - id: contesto-quanto-ce-ne
+    sezione: contesto
+    testo: 'Prima di raccontare come lo si è trovato conviene stabilire quanto ce
+      ne sia, perché è la cifra che rende la storia quasi incredibile. L''argon è
+      il terzo gas più abbondante dell''atmosfera terrestre: lo 0,934 per cento in
+      volume, l''1,288 per cento in massa. Messo a confronto con ciò che di solito
+      consideriamo componente dell''aria, è più del doppio del vapore acqueo — che
+      in media sta intorno alle quattromila parti per milione, pur variando moltissimo
+      — ed è ventitré volte più abbondante dell''anidride carbonica. Rispetto al neon,
+      l''altro gas nobile dell''aria, è più di cinquecento volte più comune. In ogni
+      respiro che facciamo c''è circa un per cento di un elemento che per tutto l''Ottocento
+      nessun chimico ha mai visto.'
+    attendibilita: documentato
+  - id: contesto-argon-terrestre
+    sezione: contesto
+    testo: 'C''è però una particolarità che distingue l''argon da ogni altro gas nobile,
+      e riguarda la sua provenienza. Quasi tutto l''argon dell''atmosfera terrestre
+      è argon-40 radiogenico, derivato dal decadimento del potassio-40 nella crosta:
+      il 99,6 per cento di quello che respiriamo è, letteralmente, cenere radioattiva
+      risalita dal sottosuolo. Nell''universo, invece, l''isotopo di gran lunga più
+      comune è l''argon-36, perché è il più facilmente prodotto dalla nucleosintesi
+      stellare nelle supernove. La conseguenza è vertiginosa: l''argon che c''è sulla
+      Terra non è lo stesso argon che c''è nel cosmo. Confrontare le proporzioni fra
+      gli isotopi di un corpo celeste significa quindi leggere quanto potassio abbia
+      avuto e per quanto tempo — una firma geologica scritta in un gas che non reagisce
+      con niente.'
+    attendibilita: documentato
+  - id: contesto-proprieta
+    sezione: contesto
+    testo: 'Le sue proprietà fisiche compongono un ritratto coerente. È incolore,
+      inodore, non infiammabile e non tossico, allo stato solido come liquido come
+      gassoso; è chimicamente inerte nella maggior parte delle condizioni e a temperatura
+      ambiente non forma alcun composto stabile confermato. Per strappargli un elettrone
+      servono 1520,6 chilojoule per mole — meno che all''elio, di cui questo vault
+      ha appena raccontato la storia, ma pur sempre una cifra che lo colloca fra gli
+      atomi più restii a cedere qualcosa. Un dettaglio meno prevedibile riguarda l''acqua:
+      l''argon vi si scioglie all''incirca quanto l''ossigeno, ed è due volte e mezzo
+      più solubile dell''azoto. Anche l''acqua che beviamo, insomma, contiene un po''
+      di questo gas che non fa nulla.'
+    attendibilita: documentato
+  - id: contesto-ottetto
+    sezione: contesto
+    testo: 'La ragione di tanta indifferenza si legge in una riga di configurazione
+      elettronica. L''argon ha il guscio esterno occupato da otto elettroni — l''ottetto
+      completo, 3s² 3p⁶ sopra il nocciolo del neon — e questo lo rende stabile e resistente
+      a legarsi con altri elementi. È la stessa spiegazione che vale per tutta la
+      famiglia: l''inerzia dei gas nobili, cioè la loro tendenza a non reagire con
+      altre sostanze chimiche, deriva dal fatto che il loro guscio di valenza è pieno,
+      e un guscio pieno toglie ogni ragione di partecipare a una reazione. Di composti
+      dei gas nobili se ne conoscono in tutto poche centinaia. E la fonte formula
+      in modo cristallino il principio che regge quasi tutti gli usi industriali di
+      questo elemento: l''inerzia dei gas nobili li rende utili ogni volta che le
+      reazioni chimiche sono indesiderate.'
+    attendibilita: documentato
+  - id: contesto-la-famiglia
+    sezione: contesto
+    testo: 'La colonna che l''argon ha costretto ad aprire conta oggi sei membri certi
+      e un settimo discusso: elio, neon, argon, cripton, xenon, radon e, in certi
+      casi, oganesson. I primi sei sono in condizioni standard gas monoatomici incolori
+      e inodori, con reattività chimica bassissima e punti di ebollizione criogenici
+      — tutti sotto i 165 kelvin, perché la forza intermolecolare fra atomi di gas
+      nobile è la debolissima dispersione di London: atomi che non hanno nulla da
+      offrirsi fanno fatica persino a restare liquidi. Il caso dell''oganesson è il
+      più curioso e chiude il cerchio in modo beffardo: per effetti relativistici
+      si prevede che sia solido in condizioni standard e abbastanza reattivo da non
+      qualificarsi funzionalmente come «nobile». La colonna nata per accogliere ciò
+      che non reagisce finisce, in fondo, con un elemento che forse reagisce.'
+    attendibilita: documentato
+  - id: contesto-come-chiamarli
+    sezione: contesto
+    testo: 'Anche il nome della famiglia ha una storia, e l''argon ne ha fatto scartare
+      uno. L''espressione «gas nobile» traduce il sostantivo tedesco Edelgas, usato
+      per la prima volta nel 1900 da Hugo Erdmann per indicarne l''estrema scarsa
+      reattività, in analogia con i metalli nobili, che altrettanto poco reagiscono.
+      Si è detto a lungo anche «gas inerti», ma l''etichetta è ormai sconsigliata,
+      perché di composti dei gas nobili oggi se ne conoscono parecchi. Si è provato
+      pure con «gas rari», e qui entra in scena il nostro: quel termine è inesatto
+      proprio perché l''argon costituisce una parte tutt''altro che trascurabile dell''atmosfera
+      terrestre, lo 0,94 per cento in volume e l''1,3 in massa. Il gas che nessuno
+      vedeva è troppo abbondante per lasciarsi chiamare raro.'
+    attendibilita: documentato
+  - id: contesto-bartlett
+    sezione: contesto
+    testo: 'Per sessantotto anni i gas nobili furono considerati incapaci di formare
+      composti, e la fine di quel dogma si deve a una coincidenza numerica notata
+      da un uomo solo. Nel 1962 Neil Bartlett, insieme al dottorando Derek Lohmann,
+      scoprì che una miscela di esafluoruro di platino gassoso e ossigeno formava
+      un solido rosso, che si rivelò essere esafluoroplatinato di diossigenile. Bartlett
+      si accorse che l''energia di ionizzazione dell''ossigeno molecolare, 1175 chilojoule
+      per mole, era molto vicina a quella dello xenon, 1170. Le sue parole, riportate
+      dalla fonte, hanno la brevità delle intuizioni vere: «Immediatamente mi resi
+      conto che i gas nobili più pesanti avevano potenziali di ionizzazione simili
+      a quello dell''O₂». Se l''esafluoruro di platino strappava un elettrone all''ossigeno,
+      doveva poterlo strappare anche allo xenon.'
+    attendibilita: documentato
+  - id: contesto-harf
+    sezione: contesto
+    testo: 'L''argon resistette altri trentotto anni. Il suo unico composto noto è
+      il fluoroidruro di argon, HArF, e la scoperta è attribuita a un gruppo di scienziati
+      finlandesi guidati da Markku Räsänen, che ne diedero annuncio il 24 agosto 2000
+      — sulle pagine di Nature, ancora una volta la rivista fondata da Lockyer. Quella
+      scoperta fece riconoscere che anche l''argon può formare composti debolmente
+      legati, pur non essendo il primo composto ottenuto con un gas nobile. La misura
+      della sua fragilità sta in un solo numero: è stabile fino a diciassette kelvin,
+      e sopra i meno duecentocinquantasei gradi si decompone. Esiste, ma soltanto
+      in un mondo che noi non abitiamo.'
+    attendibilita: documentato
+  - id: contesto-punto-triplo
+    sezione: contesto
+    testo: 'C''è un compito che l''argon svolge e che nessun altro elemento potrebbe
+      svolgere altrettanto bene, e discende proprio dalla sua indifferenza. La temperatura
+      del suo punto triplo — 83,8058 kelvin, alla pressione di 68,89 kilopascal —
+      è un punto fisso di definizione nella Scala Internazionale di Temperatura del
+      1990. Un punto triplo è la condizione in cui solido, liquido e vapore coesistono
+      in equilibrio, e si verifica a una temperatura e a una pressione uniche per
+      ogni sostanza: è quindi un riferimento naturale, riproducibile in qualunque
+      laboratorio del mondo senza doverlo confrontare con un campione. Perché funzioni,
+      però, la sostanza deve essere ottenibile pura e non deve reagire con il contenitore
+      né alterarsi nel tempo. L''elemento che per un secolo era rimasto invisibile
+      perché non fa nulla è oggi uno dei chiodi a cui l''umanità appende la propria
+      scala delle temperature.'
+    attendibilita: documentato
+  - id: vicenda-cavendish
+    sezione: vicenda
+    testo: 'La storia comincia centonove anni prima della scoperta, e comincia con
+      un dato giusto che nessuno seppe dove mettere. Nel 1785 Henry Cavendish fece
+      scoccare scintille elettriche nell''aria per far combinare i suoi componenti,
+      e una volta determinate le quantità di aria flogisticata — cioè azoto — e di
+      aria deflogisticata — cioè ossigeno — gli restava un volume di gas che non aveva
+      reagito, pari a un centoventesimo del volume originario di azoto. Non lo nascose
+      e non lo arrotondò: lo registrò. Le sue misure accurate lo portarono alla conclusione
+      che «l''aria comune consiste di una parte di aria deflogisticata mescolata a
+      quattro di flogisticata». Negli anni Novanta dell''Ottocento, circa un secolo
+      dopo, Ramsay e Rayleigh capirono che di quel residuo problematico era responsabile
+      il gas inerte che avevano appena scoperto. La fonte chiude la questione con
+      cinque parole che sono una riabilitazione postuma: non aveva commesso un errore.'
+    attendibilita: documentato
+  - id: vicenda-chi-era-cavendish
+    sezione: vicenda
+    testo: 'L''approfondimento dell''idrogeno aveva presentato Henry Cavendish come
+      l''uomo che scoprì moltissimo e non pubblicò quasi nulla; il residuo del 1785
+      è il caso più clamoroso di quella reticenza, e vale la pena completare il ritratto.
+      Aveva ereditato due fortune tanto grandi che Jean Baptiste Biot lo definì «il
+      più ricco di tutti i sapienti e il più sapiente dei ricchi», e alla morte risultava
+      il maggiore depositante della Banca d''Inghilterra. Era però profondamente timido:
+      a disagio in società, la evitava quando poteva, riusciva a parlare con una persona
+      sola alla volta e soltanto se la conosceva ed era un uomo. Con le domestiche
+      comunicava unicamente tramite biglietti, e secondo un racconto fece aggiungere
+      alla propria casa una scala sul retro per non incontrare la governante. Il suo
+      unico sbocco sociale era il club della Royal Society, e agli ospiti che volessero
+      rivolgergli la parola si consigliava di avvicinarglisi e poi parlare «come nel
+      vuoto». Un uomo così non corre a proclamare di aver trovato un centoventesimo
+      di gas inspiegabile.'
+    attendibilita: documentato
+  - id: vicenda-newall-hartley
+    sezione: vicenda
+    testo: 'E Cavendish non fu l''unico ad arrivarci vicino. L''argon fu incontrato
+      anche nel 1882, per opera di ricerche indipendenti di H. F. Newall e W. N. Hartley:
+      ciascuno dei due osservò righe nuove nello spettro di emissione dell''aria.
+      Dodici anni prima della scoperta ufficiale, dunque, due persone avevano davanti
+      agli occhi la firma spettrale di un elemento sconosciuto e non ne fecero nulla.
+      Sono già due occasioni mancate, e la terza — quella buona — stava per cominciare
+      con una bilancia.'
+    attendibilita: documentato
+  - id: vicenda-la-discrepanza
+    sezione: vicenda
+    testo: 'Tutto comincia da una differenza che quasi chiunque altro avrebbe archiviato
+      come errore sperimentale. Prima ancora di isolare il gas, Rayleigh e Ramsay
+      avevano stabilito che l''azoto prodotto a partire da composti chimici era dello
+      0,5 per cento più leggero di quello ricavato dall''atmosfera. La fonte lo dice
+      con una sobrietà che vale la pena riportare: la differenza era lieve, ma abbastanza
+      importante da attrarre la loro attenzione per molti mesi. Molti mesi su mezzo
+      punto percentuale. La conclusione a cui arrivarono è quella che nessuno aveva
+      tratto prima: che nell''aria ci fosse un altro gas mescolato all''azoto.'
+    attendibilita: documentato
+  - id: vicenda-chi-era-rayleigh
+    sezione: vicenda
+    testo: 'Conviene sapere chi fosse l''uomo che si intestardì su quel mezzo punto
+      percentuale, perché aiuta a capire perché non lasciò perdere. John William Strutt,
+      terzo barone Rayleigh, era un fisico britannico e un pari ereditario; aveva
+      studiato sotto James Clerk Maxwell, George Stokes ed Edward Routh, e fra i suoi
+      allievi ci sarebbe stato J. J. Thomson. Nel 1871 aveva pubblicato il primo trattamento
+      teorico della diffusione elastica della luce da parte di particelle molto più
+      piccole della lunghezza d''onda: il fenomeno che oggi porta il suo nome e che
+      spiega perché il cielo è azzurro. Era, insomma, uno che di proprietà dell''aria
+      si intendeva già parecchio. Nel 1904 avrebbe ricevuto il Nobel per la fisica
+      proprio per la scoperta dell''argon.'
+    attendibilita: documentato
+  - id: vicenda-rifare-cavendish
+    sezione: vicenda
+    testo: 'Il modo in cui cercarono quel gas è insieme moderno e antiquario: rifecero
+      l''esperimento di centonove anni prima. L''argon fu isolato dall''aria per la
+      prima volta nel 1894, allo University College di Londra, rimuovendo da un campione
+      di aria pulita l''ossigeno, l''anidride carbonica, l''acqua e l''azoto; e il
+      primo modo in cui ci riuscirono fu replicare proprio l''esperimento di Cavendish.
+      Intrappolarono una miscela di aria atmosferica e ossigeno aggiuntivo in una
+      provetta capovolta sopra una grande quantità di soluzione alcalina diluita —
+      nell''esperimento originale era idrossido di potassio — e vi fecero passare
+      una corrente elettrica attraverso fili isolati da tubi di vetro a U.'
+    attendibilita: documentato
+  - id: vicenda-il-residuo
+    sezione: vicenda
+    testo: 'La scintilla faceva combinare l''azoto con l''ossigeno, e i prodotti venivano
+      assorbiti dalla soluzione alcalina: il volume del gas diminuiva, e si continuava
+      per ore. A un certo punto il volume smetteva di calare e restava visibile per
+      almeno un''ora o due, mentre le righe spettrali dell''azoto sparivano dall''analisi.
+      L''ossigeno rimasto veniva fatto reagire con pirogallato alcalino, e quel che
+      restava era un gas apparentemente non reattivo che chiamarono argon. Si noti
+      il metodo: esattamente come per l''azoto di Rutherford, raccontato altrove in
+      questo vault, l''elemento non fu ottenuto aggiungendo qualcosa ma togliendo
+      tutto il resto — con la differenza che stavolta il residuo non era una sostanza
+      sola.'
+    attendibilita: documentato
+  - id: vicenda-discusso-magnesio
+    sezione: vicenda
+    testo: 'Su come esattamente si sia proceduto le fonti non dicono tutte la stessa
+      cosa, e la divergenza merita di essere segnalata anziché appianata. La nota
+      base di questo vault racconta che i due lavorarono per due strade distinte:
+      Rayleigh con le scintille elettriche in presenza di ossigeno e di una soluzione
+      alcalina, e Ramsay facendo passare ripetutamente l''azoto atmosferico su magnesio
+      incandescente, che lo assorbe formando nitruro. È una ricostruzione diffusa
+      e coerente con la chimica dell''epoca. La voce enciclopedica dedicata all''elemento,
+      però, descrive un solo procedimento, quello per replica dell''esperimento di
+      Cavendish, e non nomina mai il magnesio. Questo approfondimento si attiene a
+      ciò che la fonte consultata afferma, e registra che sul secondo metodo le due
+      ricostruzioni non coincidono: non perché una sia falsa, ma perché quanto si
+      legge qui dev''essere sostenuto dalla fonte che si cita.'
+    attendibilita: discusso
+  - id: vicenda-il-nome
+    sezione: vicenda
+    testo: 'Il nome è una presa d''atto, e quasi un''ammissione di sconfitta. Argon
+      viene dal greco antico ἀργόν, forma del neutro singolare di ἀργός, che significa
+      «pigro» o «inattivo», in riferimento al fatto che l''elemento non subisce quasi
+      alcuna reazione chimica. La fonte aggiunge un dettaglio che dice molto sull''effetto
+      che fece: questa proprietà del primo gas nobile a essere scoperto impressionò
+      chi lo battezzò. Val la pena confrontarlo con l''elio, raccontato in queste
+      pagine poco fa: quello prese il nome dal Sole, dal luogo grandioso in cui era
+      stato trovato; questo prende il nome da ciò che si rifiuta di fare. Due gas
+      nobili, due battesimi opposti — l''uno celebra dove sta, l''altro constata che
+      non combina nulla.'
+    attendibilita: documentato
+  - id: vicenda-mendeleev
+    sezione: vicenda
+    testo: 'Il problema che l''argon pose non era dove metterlo: era che mancava il
+      posto. Con quella scoperta si capì che dalla tavola periodica mancava una classe
+      intera di gas. La conferma arrivò dall''autorità più alta possibile: nel 1902
+      Dmitrij Mendeleev, avendo accettato le prove relative all''elio e all''argon,
+      incluse questi gas nobili come gruppo zero nella propria disposizione degli
+      elementi. Non un ripensamento marginale: l''uomo che aveva costruito la tavola
+      sulla capacità degli elementi di combinarsi le aggiunse una colonna di elementi
+      che non si combinano. Ramsay intanto proseguiva la ricerca per distillazione
+      frazionata dell''aria liquida e nel 1898 scopriva cripton, neon e xenon, battezzandoli
+      con le parole greche per «nascosto», «nuovo» e «straniero».'
+    attendibilita: documentato
+  - id: vicenda-moseley
+    sezione: vicenda
+    testo: 'Il problema più profondo che l''argon pose non fu trovargli una colonna,
+      ma che il suo peso non tornava. La predominanza dell''argon-40 radiogenico fa
+      sì che il peso atomico standard dell''argon terrestre sia maggiore di quello
+      dell''elemento che lo segue, il potassio — un fatto che al momento della scoperta
+      risultava sconcertante. Mendeleev aveva disposto gli elementi in ordine di peso
+      atomico, ma l''inerzia dell''argon imponeva di collocarlo prima del reattivissimo
+      metallo alcalino: le due regole davano risposte opposte. A sciogliere il nodo
+      fu più tardi Henry Moseley, dimostrando che la tavola periodica è in realtà
+      ordinata per numero atomico e non per peso. È forse il lascito più grande di
+      questo elemento: un gas che non reagisce con nulla ha contribuito a far capire
+      su che cosa sia davvero costruita la tavola periodica.'
+    attendibilita: documentato
+  - id: vicenda-due-nobel
+    sezione: vicenda
+    testo: 'Il riconoscimento arrivò nel 1904 e fu doppio, in un modo che descrive
+      con precisione come la scoperta era stata fatta. A Ramsay andò il Nobel per
+      la chimica, con la motivazione «in riconoscimento dei suoi servizi nella scoperta
+      degli elementi gassosi inerti dell''aria»; allo stesso Rayleigh, suo collaboratore,
+      andò nello stesso anno il Nobel per la fisica, per la scoperta dell''argon.
+      Due premi diversi, due discipline diverse, un solo gas. La divisione non è burocratica:
+      rispecchia il fatto che l''anomalia fu trovata pesando — mestiere da fisico
+      — e che il gas fu separato e identificato per via chimica. Nell''approfondimento
+      dell''elio questa coppia di premi era comparsa di sfuggita; qui è il punto di
+      arrivo, perché l''argon è l''elemento per cui furono assegnati.'
+    attendibilita: documentato
+  - id: vicenda-come-finirono
+    sezione: vicenda
+    testo: 'Le due carriere si chiusero in modo molto diverso, e il contrasto dice
+      qualcosa sui due mestieri. Rayleigh, nato a Maldon nel 1842, divenne trentanovesimo
+      presidente della Royal Society dal 1905 al 1908 e cancelliere dell''Università
+      di Cambridge dal 1908 fino alla morte, avvenuta a Witham nel 1919 a settantasei
+      anni: onorificenze, cariche accademiche, l''Ordine al Merito, un''intera famiglia
+      di fenomeni fisici che porta il suo nome. Ramsay, nato a Glasgow nel 1852, insegnò
+      a Glasgow, a Bristol e infine allo University College di Londra dal 1887 al
+      1913, e morì a High Wycombe nel 1916, a soli sessantatré anni. La voce enciclopedica
+      lo ricorda anzitutto per aver scoperto i gas nobili, e subito dopo per il grasso
+      Ramsay, che porta il suo nome come la scuola intitolatagli a Hazlemere e come
+      il dipartimento di ingegneria chimica che lo University College London gli dedicò
+      nel 1923. Morì di tumore nasale, e gli fu eretto un monumento nell''abbazia
+      di Westminster. Il chimico che ha aggiunto una colonna alla tavola periodica
+      è ricordato anche per un grasso da laboratorio, ed è un accostamento che gli
+      somiglia.'
+    attendibilita: documentato
+  - id: impatto-distillazione
+    sezione: impatto
+    testo: 'L''approfondimento dell''azoto si era chiuso promettendo di tornare nell''impianto
+      di separazione dell''aria da un''altra porta, ed eccola. L''argon si estrae
+      industrialmente per distillazione frazionata dell''aria liquida in un''unità
+      criogenica, e il principio è di una semplicità meccanica: l''azoto liquido bolle
+      a 77,3 kelvin, l''argon a 87,3 e l''ossigeno liquido a 90,2. Dieci gradi separano
+      un prodotto dall''altro, e l''argon esce esattamente in mezzo ai due gas di
+      cui questo vault ha già raccontato la storia. La produzione mondiale si aggira
+      sulle settecentomila tonnellate l''anno. Nessuno lo estrae da un giacimento
+      e nessuno lo compra da un paese: lo si prende dall''aria, dovunque si trovi
+      un impianto.'
+    attendibilita: documentato
+  - id: impatto-quattro-ragioni
+    sezione: impatto
+    testo: 'Le ragioni per cui lo si usa sono quattro, e la fonte le elenca con una
+      franchezza che vale la pena riportare intera. L''argon è un gas chimicamente
+      inerte. È l''alternativa più economica quando l''azoto non è sufficientemente
+      inerte. Ha una bassa conducibilità termica. E ha proprietà elettroniche — ionizzazione,
+      spettro di emissione — desiderabili per certe applicazioni. Poi arriva l''ammissione
+      che ridimensiona tutto: anche gli altri gas nobili andrebbero ugualmente bene
+      per la maggior parte di questi impieghi. Il primato dell''argon non è chimico
+      ma economico: è l''unico gas nobile che l''atmosfera contenga in quantità tale
+      da renderlo a buon mercato. Chi lavora con l''argon ha scelto il gas che costa
+      meno, fra quelli che non fanno nulla.'
+    attendibilita: documentato
+  - id: impatto-storia-saldatura
+    sezione: impatto
+    testo: Che l'argon fosse indispensabile lo si capisce meglio guardando quarant'anni
+      di tentativi falliti. L'idea di saldare in atmosfera inerte venne a C. L. Coffin
+      nel 1890 — quattro anni prima che l'argon fosse scoperto — ma ancora ai primi
+      del Novecento saldare materiali non ferrosi come l'alluminio e il magnesio restava
+      difficile, perché questi metalli reagiscono rapidamente con l'aria e il risultato
+      erano cordoni porosi e pieni di scorie. I procedimenti con elettrodi rivestiti
+      di flusso non proteggevano a sufficienza la zona di saldatura dalla contaminazione.
+      La soluzione arrivò all'inizio degli anni Trenta con l'impiego di gas inerti
+      in bombola, e pochi anni dopo un processo a corrente continua con schermatura
+      gassosa comparve nell'industria aeronautica per saldare il magnesio. Un'idea
+      rimasta impraticabile per una generazione aspettava, senza saperlo, che qualcuno
+      trovasse il gas giusto e imparasse a imbottigliarlo.
+    attendibilita: documentato
+  - id: impatto-saldatura
+    sezione: impatto
+    testo: 'Il procedimento che ne nacque porta il gas nel nome: saldatura TIG, cioè
+      tungsten inert gas — e si chiama heliarc quando al posto dell''argon si usa
+      l''elio. È un processo ad arco con elettrodo di tungsteno non consumabile, in
+      cui la zona di saldatura e l''elettrodo sono protetti dall''ossidazione e da
+      ogni contaminazione atmosferica da un gas di schermatura inerte. Dà all''operatore
+      un controllo maggiore rispetto alle tecniche concorrenti e permette saldature
+      più resistenti e di qualità più alta. Negli anni Cinquanta alcuni provarono
+      a sostituire l''atmosfera costosa di argon ed elio con l''anidride carbonica:
+      si rivelò inaccettabile per alluminio e magnesio perché peggiorava la qualità
+      del cordone, e qualunque gas contenente un composto dell''ossigeno contamina
+      rapidamente l''elettrodo di tungsteno. Sotto l''arco, l''unica cosa che si può
+      permettere di stare attorno al metallo fuso è qualcosa che non abbia nulla da
+      offrirgli. È anche l''impiego che assorbe la quota maggiore di quelle settecentomila
+      tonnellate l''anno.'
+    attendibilita: documentato
+  - id: impatto-alte-temperature
+    sezione: impatto
+    testo: 'C''è una frase nella voce enciclopedica che spiega, meglio di qualunque
+      elenco, perché l''argon serva: lo si usa nei processi industriali ad alta temperatura
+      «dove sostanze ordinariamente non reattive diventano reattive». È il punto cruciale.
+      A temperatura ambiente moltissimi materiali convivono tranquillamente con l''aria;
+      a mille gradi non più. L''esempio che la fonte porta è illuminante: nei forni
+      elettrici a grafite si crea un''atmosfera di argon per impedire alla grafite
+      di bruciare — cioè per impedire al carbonio di fare la cosa più naturale del
+      mondo in presenza di ossigeno. Lo stesso principio vale per lo spegnimento degli
+      incendi dove l''acqua o la schiuma danneggerebbero apparecchiature di valore:
+      nelle sale server si spegne con bombole di argon, che soffoca la fiamma senza
+      bagnare nulla.'
+    attendibilita: documentato
+  - id: impatto-doppi-vetri
+    sezione: impatto
+    testo: 'L''idea del doppio vetro è più vecchia dell''argon, e nacque dove serviva
+      davvero. Il primo uso documentato risale forse alla Siberia, dove Henry Seebohm
+      lo osservò nel 1877 come una necessità ormai consolidata nella zona di Enisejsk,
+      dove le temperature invernali scendono regolarmente sotto i cinquanta gradi
+      sottozero. Diciassette anni prima che l''argon venisse scoperto, dei contadini
+      siberiani avevano già capito che il segreto dell''isolamento non è il vetro
+      ma lo spazio fra i due vetri, perché è l''intercapedine a fornire la maggior
+      parte dell''effetto isolante. Quello spazio può essere riempito d''aria, ma
+      si usa spesso l''argon perché isola assai meglio. La tecnologia esisteva e aspettava:
+      mancava solo il gas giusto da metterci dentro, e quel gas stava tutto intorno,
+      nell''aria che passava dalle fessure.'
+    attendibilita: documentato
+  - id: impatto-vetri
+    sezione: impatto
+    testo: 'Il motivo per cui proprio l''argon isola meglio dell''aria non ha nulla
+      a che vedere con l''inerzia, ed è una delle poche volte in cui questo elemento
+      conta per quello che è e non per quello che non fa. Il trasferimento convettivo
+      del calore in un gas dipende dalla viscosità e dal calore specifico, e i gas
+      monoatomici come argon, cripton e xenon hanno un vantaggio strutturale: alle
+      temperature ordinarie non trasportano calore nei modi rotazionali, perché un
+      atomo singolo non ha nulla da far ruotare. Ne risulta una capacità termica inferiore
+      a quella dei gas poliatomici. In cifre: l''argon ha una conducibilità termica
+      pari al sessantasette per cento di quella dell''aria, e il cripton circa la
+      metà di quella dell''argon. Il cripton isolerebbe meglio, ma è un elemento in
+      tracce e costa estrarlo; l''argon è quasi l''uno per cento dell''atmosfera e
+      si isola industrialmente a costo moderato. Ancora una volta vince l''abbondanza,
+      non la prestazione.'
+    attendibilita: documentato
+  - id: impatto-luce
+    sezione: impatto
+    testo: 'Nelle lampadine a incandescenza l''argon ha il compito di non far bruciare
+      il filamento, preservandolo dall''ossidazione alle alte temperature: è presente
+      per impedire una reazione, come quasi sempre. Ma c''è un secondo gruppo di impieghi
+      in cui viene usato «per il modo specifico in cui ionizza ed emette luce», e
+      qui smette di essere trasparente e diventa protagonista. Le lampade a scarica
+      riempite di argon puro danno una luce lilla-violetta; con argon e un po'' di
+      mercurio, luce blu. Gli stessi principi reggono le sfere al plasma, i laser
+      a ioni argon blu e verdi e la calorimetria nella fisica sperimentale delle particelle.
+      E nell''industria dei semiconduttori l''argon serve alla deposizione di film
+      sottili per polverizzazione catodica e alla pulizia dei wafer. Quel che ci sta
+      intorno, nella fabbricazione dei circuiti integrati, è spesso un''atmosfera
+      di argon.'
+    attendibilita: documentato
+  - id: impatto-laboratorio
+    sezione: impatto
+    testo: 'In laboratorio l''argon è il gas con cui si fabbrica il nulla. Le linee
+      di Schlenk e le glovebox lo usano come atmosfera inerte: nelle seconde ricircola
+      su appositi filtri per mantenere un ambiente privo di ossigeno, di azoto e di
+      umidità, dentro il quale si manipolano sostanze che all''aria non sopravviverebbero.
+      Ed è qui che si misura la differenza fra i due gas inerti economici: l''argon
+      è preferito all''azoto, che costa meno, nei casi in cui l''azoto potrebbe reagire
+      con i reagenti o con l''apparecchiatura. L''azoto, come questo vault ha raccontato,
+      è inerte solo finché nessuno lo costringe; l''argon non lo è mai. Lo stesso
+      gas fa poi da vettore nella gascromatografia e nella spettrometria di massa
+      con ionizzazione electrospray, è la scelta obbligata per il plasma della spettroscopia
+      ICP, ed è preferito per il rivestimento dei campioni destinati al microscopio
+      elettronico a scansione.'
+    attendibilita: documentato
+  - id: impatto-plasma
+    sezione: impatto
+    testo: 'L''applicazione più spettacolare è quella in cui l''argon smette di essere
+      pigro perché lo si costringe. Nel plasma accoppiato induttivamente l''argon
+      viene ionizzato in una torcia che raggiunge temperature tipicamente fra i 5.500
+      e i 6.500 kelvin: valori paragonabili a quelli della superficie del Sole, la
+      cui fotosfera sta fra i 4.500 e i 6.000. La temperatura elevata permette di
+      atomizzare le molecole e quindi di determinare molti elementi; per una sessantina
+      di essi il grado di ionizzazione nella torcia supera il novanta per cento. È
+      lo strumento standard per misurare gli elementi in tracce, e il ruolo dell''argon
+      vi è perfettamente coerente con tutto il resto della sua storia: serve a rendere
+      misurabili gli altri senza comparire nel risultato. Chi ha letto l''approfondimento
+      dell''elio ricorderà che la spettroscopia nacque leggendo la luce del Sole;
+      qui un pezzetto di Sole viene acceso in laboratorio per leggere la materia.'
+    attendibilita: documentato
+  - id: impatto-icp-ms
+    sezione: impatto
+    testo: 'Vale la pena dire che cosa si riesca a fare, concretamente, con quella
+      torcia. Gli strumenti più avanzati consentono di scandire ogni elemento dal
+      litio-6 all''ossido di uranio-256 in meno di un quarto di secondo: in un battito
+      di ciglia la macchina passa in rassegna quasi tutta la tavola periodica. La
+      rapidità di scansione, l''ampio intervallo dinamico e l''ampio intervallo di
+      masse la rendono ideale per misurare concentrazioni ignote e rapporti isotopici
+      in campioni che hanno subito una preparazione minima — acqua di mare, urine,
+      rocce digerite. Gli usi di maggior volume stanno però nel campo medico e forense,
+      in particolare la tossicologia: un medico può richiedere un dosaggio dei metalli
+      sospettando un avvelenamento da metalli pesanti, e chi lavora in stabilimenti
+      dove l''esposizione ai metalli è inevitabile — una fabbrica di batterie, per
+      dire — è tenuto dal datore di lavoro a farsi analizzare periodicamente sangue
+      o urine.'
+    attendibilita: documentato
+  - id: impatto-medicina
+    sezione: impatto
+    testo: 'In medicina l''argon compare in tre vesti diverse, e in una di esse ha
+      ucciso. La criochirurgia, e in particolare la crioablazione, usa argon liquido
+      per distruggere tessuti come le cellule tumorali; i laser blu ad argon si impiegano
+      in chirurgia per saldare arterie, distruggere tumori e correggere difetti oculari.
+      Esiste poi una procedura detta coagulazione potenziata ad argon, una forma di
+      elettrochirurgia a fascio di plasma: comporta il rischio di produrre un''embolia
+      gassosa, e la fonte registra che ha causato la morte di almeno un paziente.
+      Un uso sperimentale, infine, lega l''argon alle due storie che questo vault
+      ha già raccontato: nella miscela respiratoria o di decompressione chiamata Argox
+      si è provato a sostituire con esso l''azoto, per accelerare l''eliminazione
+      dell''azoto disciolto nel sangue.'
+    attendibilita: documentato
+  - id: controversie-supposedly
+    sezione: controversie
+    testo: 'Che l''annuncio non fosse accolto come una buona notizia lo si legge in
+      un titolo di giornale. Rayleigh e Ramsay presentarono il lavoro alla Royal Society
+      fra il 1894 e il 1895 con un titolo asciutto e impegnativo — «Argon, a New Constituent
+      of the Atmosphere», argon, un nuovo componente dell''atmosfera — e la versione
+      estesa occupò cinquantaquattro pagine delle Philosophical Transactions. Il 3
+      marzo 1895 il New York Times ne diede notizia con una formula che vale più di
+      molte ricostruzioni: «About Argon, the Inert; The New Element Supposedly Found
+      in the Atmosphere». Quel «supposedly», presumibilmente, è il termometro dell''accoglienza:
+      sostenere che nell''aria — la sostanza più studiata del secolo — si nascondesse
+      un intero elemento che nessuno aveva notato sembrava, a molti, semplicemente
+      troppo.'
+    attendibilita: documentato
+  - id: controversie-perche-nessuno
+    sezione: controversie
+    testo: 'Resta da rispondere alla domanda che questa storia pone a ogni pagina:
+      com''è possibile che per un secolo nessuno si sia accorto di un gas che costituisce
+      quasi l''uno per cento dell''aria. La risposta sta nel metodo della chimica
+      pneumatica, ed è quasi una lezione di epistemologia. Quella chimica identificava
+      i gas facendoli reagire: si assorbiva l''ossigeno con una sostanza, l''anidride
+      carbonica con un''altra, e ciò che restava veniva chiamato con il nome della
+      cosa che ci si aspettava di trovare. Un gas che non reagisce con niente non
+      lascia tracce in un''analisi condotta a forza di reazioni: viene semplicemente
+      incorporato nel residuo e battezzato azoto. Cavendish lo vide perché misurava
+      volumi, Rayleigh perché misurava pesi, Newall e Hartley perché guardavano uno
+      spettro. Tutte e tre le volte a rivelarlo non fu la chimica ma la fisica — cioè
+      l''unico approccio che non chiede a una sostanza di fare qualcosa per ammettere
+      che esiste.'
+    attendibilita: documentato
+  - id: controversie-simbolo
+    sezione: controversie
+    testo: Un dettaglio minuscolo di storia della nomenclatura dice quanto a lungo
+      l'argon sia rimasto una faccenda irrisolta. Fino al 1957 il suo simbolo chimico
+      non era Ar ma semplicemente «A», e il cambiamento arrivò con la pubblicazione,
+      da parte della IUPAC, dell'opera Nomenclature of Inorganic Chemistry. Sessantatré
+      anni dopo la scoperta, dunque, l'elemento aveva ancora il simbolo provvisorio
+      che gli era stato assegnato quando non si sapeva bene che cosa fosse. Chi consulta
+      letteratura chimica anteriore a quella data trova una A solitaria dove oggi
+      ci aspettiamo Ar, ed è uno dei pochi casi in cui il simbolo di un elemento è
+      cambiato in epoca moderna.
+    attendibilita: documentato
+  - id: controversie-assunzioni
+    sezione: controversie
+    testo: 'Prima di fidarsi ciecamente di una data geologica conviene sapere su che
+      cosa poggia, perché la catena di assunzioni è più lunga di quanto il risultato
+      lasci intendere. La quantità di potassio-40 non viene quasi mai misurata direttamente:
+      si misura il più comune potassio-39 e si moltiplica per il rapporto accettato
+      fra i due isotopi. Si misura poi quanto argon-40 sia presente, per valutare
+      quale parte dell''argon totale sia di origine atmosferica anziché prodotta dal
+      decadimento — perché l''aria, che contiene quasi un per cento di argon, contamina
+      qualunque campione. E tutto il metodo riposa su un''assunzione di fondo che
+      la fonte definisce ben fondata e comune a ogni datazione radiometrica: che il
+      nuclide padre decada a un ritmo indipendente dal proprio stato fisico, senza
+      risentire di differenze di pressione o temperatura. Una data geologica non è
+      una lettura: è il risultato di un ragionamento a più passaggi, ciascuno dei
+      quali si può discutere.'
+    attendibilita: documentato
+  - id: controversie-temperatura-chiusura
+    sezione: controversie
+    testo: 'Il punto più delicato ha un nome tecnico ed è la temperatura di chiusura,
+      detta anche temperatura di blocco: rappresenta la temperatura sotto la quale
+      il minerale diventa un sistema chiuso per gli isotopi che si studiano. Sopra
+      quella soglia il reticolo cristallino lascia scappare per diffusione il nuclide
+      figlio accumulato nel tempo, e l''orologio isotopico torna a zero; man mano
+      che il minerale si raffredda la struttura cristallina si forma e la diffusione
+      diventa più difficile. La conseguenza pratica è che una datazione potassio-argon
+      non misura quando la roccia si è formata, ma quando si è raffreddata sotto quella
+      soglia. Una roccia riscaldata da un evento successivo — un''intrusione magmatica,
+      un metamorfismo — può quindi restituire una data più giovane della propria,
+      e non perché lo strumento sbagli: perché ha misurato esattamente quello che
+      doveva misurare, cioè l''ultima volta che quel minerale ha chiuso la porta all''argon.'
+    attendibilita: documentato
+  - id: controversie-asfissiante
+    sezione: controversie
+    testo: 'Il pericolo dell''argon è esattamente la sua virtù, vista dal lato sbagliato.
+      Non è tossico, ma è il trentotto per cento più denso dell''aria, e per questo
+      è considerato un asfissiante pericoloso negli ambienti chiusi: si accumula in
+      basso e sposta l''ossigeno. È difficile da rilevare perché incolore, inodore
+      e insapore — le tre qualità che un secolo prima lo avevano reso invisibile ai
+      chimici. Un incidente del 1994, in cui un uomo morì asfissiato dopo essere entrato
+      in un tratto di tubatura petrolifera in costruzione riempito di argon, in Alaska,
+      mostra quanto siano concreti i rischi delle perdite dalle bombole negli spazi
+      confinati. Il rischio è lo stesso già incontrato con l''azoto liquido: l''organismo
+      non ha alcun allarme per la mancanza di ossigeno, perché il riflesso di soffocamento
+      risponde all''anidride carbonica.'
+    attendibilita: documentato
+  - id: controversie-pollame
+    sezione: controversie
+    testo: 'C''è un impiego dell''argon che mette a disagio e che vale la pena riportare
+      come lo riporta la fonte, senza attenuarlo. L''industria avicola lo usa per
+      asfissiare i volatili, sia negli abbattimenti di massa dopo un''epidemia sia
+      come metodo di macellazione presentato come più umano dello stordimento elettrico.
+      Il meccanismo sfrutta una proprietà fisica: l''argon è più denso dell''aria
+      e sposta l''ossigeno vicino al suolo. La stessa inerzia che lo rende adatto
+      al contatto con gli alimenti fa poi da seconda funzione, perché sostituendo
+      l''ossigeno all''interno dell''animale morto ne prolunga la conservabilità.
+      Lo stesso gas uccide e conserva, e lo fa con un unico gesto: togliere l''ossigeno
+      senza reagire con nulla.'
+    attendibilita: documentato
+  - id: controversie-doping
+    sezione: controversie
+    testo: 'Un gas nobile che finisce nella lista antidoping sembra una contraddizione
+      in termini, e invece è successo. Alcuni atleti hanno usato l''argon come agente
+      dopante per simulare condizioni ipossiche: respirando una miscela povera di
+      ossigeno l''organismo reagisce come farebbe in quota, e aumenta la produzione
+      di globuli rossi. Nel 2014 l''Agenzia mondiale antidoping ha aggiunto argon
+      e xenon all''elenco delle sostanze e dei metodi proibiti. La fonte però aggiunge
+      una precisazione che rende la norma quasi paradossale: al momento non esiste
+      un test affidabile per rilevarne l''abuso. È proibito qualcosa che non si sa
+      come cercare — ed è, in fondo, l''ennesima forma dello stesso problema: come
+      si dimostra la presenza di una sostanza che non lascia tracce chimiche di sé.'
+    attendibilita: documentato
+  - id: controversie-primato-economico
+    sezione: controversie
+    testo: 'Vale la pena tirare una somma che nessuna delle voci consultate formula
+      esplicitamente ma che tutte lasciano intendere riga dopo riga: il successo industriale
+      dell''argon non dipende da una sua superiorità. Le fonti sono esplicite nel
+      dire che altri gas nobili andrebbero ugualmente bene per la maggior parte delle
+      applicazioni, ma che l''argon è di gran lunga il più economico perché si trova
+      naturalmente nell''aria; e che nelle finestre isolanti il cripton isolerebbe
+      meglio, essendo però un elemento in tracce, costoso da estrarre. Si arriva così
+      a una conclusione che ha qualcosa di istruttivo sul modo in cui le tecnologie
+      scelgono i propri materiali. L''argon domina non perché sia il migliore, ma
+      perché è l''unico membro abbastanza comune della sua famiglia. La stessa abbondanza
+      che lo aveva reso invisibile — un per cento uniforme dovunque, che non spicca
+      da nessuna parte — è ciò che oggi lo rende l''unico gas nobile che l''industria
+      possa permettersi in quantità.'
+    attendibilita: documentato
+  - id: eredita-datare
+    sezione: eredita
+    testo: 'Conviene collocare la datazione potassio-argon dentro la storia più ampia
+      a cui appartiene, perché il protagonista è ancora una volta uno che abbiamo
+      già incontrato. La datazione radiometrica di minerali e rocce fu inaugurata
+      da Ernest Rutherford nel 1906 e da Bertram Boltwood nel 1907; Rutherford l''aveva
+      concepita nel 1905 proprio come un metodo per determinare l''età della Terra.
+      È lo stesso uomo che, come racconta l''approfondimento dell''elio, aveva stabilito
+      che la particella alfa è un atomo di elio: prima capisce che cosa il decadimento
+      produce, poi che quel prodotto è un orologio. Da allora le tecniche sono migliorate
+      enormemente — lo spettrometro di massa, inventato negli anni Quaranta, entrò
+      nella datazione radiometrica negli anni Cinquanta, e oggi si può datare un campione
+      grande quanto un nanogrammo. La datazione radiometrica è ormai la fonte principale
+      di informazione sull''età assoluta delle rocce, delle forme di vita fossili
+      e della Terra stessa.'
+    attendibilita: documentato
+  - id: eredita-orologio
+    sezione: eredita
+    testo: 'L''inerzia dell''argon, che per un secolo lo aveva reso invisibile, è
+      diventata la base di uno degli strumenti più potenti delle scienze della Terra.
+      La datazione potassio-argon si fonda sulla misura del prodotto di decadimento
+      radioattivo di un isotopo del potassio in argon. Il potassio è comune in molti
+      materiali — feldspati, miche, minerali argillosi, tefriti, evaporiti — e il
+      potassio-40, con un''emivita di 1,248 miliardi di anni, ne costituisce circa
+      centodiciassette parti per milione, il che rende ogni roccia contenente potassio
+      debolmente radioattiva. Il meccanismo che fa da orologio è di una eleganza quasi
+      meccanica: l''argon-40 prodotto dal decadimento può sfuggire dalla roccia fusa,
+      ma comincia ad accumularsi quando la roccia solidifica e ricristallizza. L''orologio
+      si azzera al raffreddamento e da quel momento conta.'
+    attendibilita: documentato
+  - id: eredita-olduvai
+    sezione: eredita
+    testo: 'Le conseguenze si vedono meglio guardando che cosa ha datato. Il metodo
+      trova la massima utilità nelle applicazioni geologiche — è stato determinante
+      per costruire la scala temporale delle inversioni di polarità geomagnetica —
+      ma ha un ruolo importante anche in archeologia. Un''applicazione archeologica
+      è stata delimitare l''età dei depositi della gola di Olduvai datando le colate
+      laviche sopra e sotto di essi: non si data il reperto, si datano i due strati
+      che lo racchiudono, e l''età resta incastrata in mezzo. Lo stesso metodo è risultato
+      indispensabile in altri siti dell''Africa orientale con una storia di attività
+      vulcanica, come Hadar in Etiopia. Sono i luoghi dove si è ricostruita l''origine
+      della nostra specie, e le date che leggiamo sui cartellini dei musei vengono
+      da lì: da un gas inerte rimasto intrappolato in una roccia che si raffreddava.'
+    attendibilita: documentato
+  - id: eredita-ar-ar
+    sezione: eredita
+    testo: 'Il metodo ha poi avuto un erede più raffinato, che porta nel nome due
+      volte lo stesso elemento. La geocronologia argon-argon confronta due isotopi
+      dell''argon anziché argon e potassio, e ha il vantaggio di non richiedere la
+      determinazione del potassio: un''analisi in meno, e un errore in meno. Permette
+      inoltre di verificare gli errori insiti nella datazione potassio-argon. Il presupposto
+      resta lo stesso — che la roccia trattenga tutto il proprio argon-40 dopo essersi
+      raffreddata sotto la temperatura di chiusura — ma i metodi moderni di analisi
+      consentono di indagare singole regioni dei cristalli, e questo permette di distinguere
+      cristalli formatisi e raffreddatisi durante eventi diversi. Dentro una sola
+      roccia si leggono più orologi, ciascuno fermatosi a un''ora diversa.'
+    attendibilita: documentato
+  - id: eredita-dinosauri
+    sezione: eredita
+    testo: Che questi orologi vadano tarati, e che tararli abbia conseguenze vistose,
+      lo dimostra una vicenda recente. La datazione argon-argon mostrava una lieve
+      discrepanza rispetto ad altri metodi; il lavoro di Kuiper e colleghi ha stabilito
+      che occorre una correzione dello 0,65 per cento. Sembra poco, ed è esattamente
+      lo stesso ordine di grandezza della discrepanza dello 0,5 per cento da cui questa
+      intera storia è cominciata. Applicata alle scale dei tempi geologici, però,
+      quella frazione sposta l'estinzione del Cretaceo-Paleogene — quella in cui si
+      estinsero i dinosauri — da 65,0 o 65,5 milioni di anni fa a 66,0-66,1 milioni.
+      Un milione di anni in più, comparso per una correzione alla seconda cifra decimale.
+      L'argon ha il vizio di nascondere cose grandi dentro numeri piccoli.
+    attendibilita: documentato
+  - id: eredita-isotopi
+    sezione: eredita
+    testo: 'Vale la pena guardare l''intero corredo isotopico, perché racconta in
+      cifre la storia già raccontata a parole. Gli isotopi stabili sono tre: l''argon-40
+      con il 99,6 per cento, l''argon-36 con lo 0,334 e l''argon-38 con lo 0,063.
+      Tutto il resto esiste in tracce e decade: l''argon-37 in trentacinque giorni,
+      l''argon-39 in poco più di trecento anni, l''argon-41 in centonove minuti, e
+      l''argon-42, che è sintetico, in trentatré anni. Quel 99,6 per cento è il numero
+      da tenere a mente: significa che l''argon terrestre è quasi interamente il prodotto
+      di un decadimento avvenuto sottoterra, e che la composizione isotopica dell''aria
+      che respiriamo è una misura indiretta di quanto potassio radioattivo contenga
+      il pianeta sotto i nostri piedi.'
+    attendibilita: documentato
+  - id: eredita-altri-mondi
+    sezione: eredita
+    testo: 'Il confronto con gli altri corpi del sistema solare rende l''anomalia
+      terrestre visibile in modo quasi brutale. L''argon prodotto direttamente dalla
+      nucleosintesi stellare è dominato dall''argon-36, e infatti l''argon solare,
+      misurato nel vento solare, ne contiene l''84,6 per cento; nelle atmosfere dei
+      pianeti esterni il rapporto fra i tre isotopi 36, 38 e 40 è di 8400 a 1600 a
+      1. Sulla Terra le proporzioni sono rovesciate: l''argon-36 primordiale è appena
+      31,5 parti per milione in volume dell''atmosfera, paragonabile al neon. E le
+      atmosfere di Marte, di Mercurio e di Titano, la maggiore luna di Saturno, contengono
+      argon prevalentemente come argon-40, cioè radiogenico come il nostro. Leggere
+      la firma isotopica dell''argon di un pianeta significa sapere se quel mondo
+      ha avuto una crosta con potassio e il tempo per degassarla.'
+    attendibilita: documentato
+  - id: eredita-nebulosa
+    sezione: eredita
+    testo: 'Nel 2013 l''argon ha aggiunto alla propria storia un primato che sembra
+      fatto apposta per chiuderla in bellezza. L''argon-36, sotto forma di ioni idruro
+      di argon — l''argonio, ArH⁺ — è stato rilevato nel mezzo interstellare associato
+      alla supernova della Nebulosa del Granchio, e si è trattato della prima molecola
+      di un gas nobile mai individuata nello spazio. Vale la pena notare l''isotopo:
+      non il 40 radiogenico che domina l''aria terrestre, ma il 36, quello prodotto
+      dalla nucleosintesi stellare. L''elemento che sulla Terra è cenere di potassio,
+      là fuori è ciò che resta di una supernova. Lo stesso elemento, i due isotopi,
+      due storie che non si incontrano mai: una comincia in una stella che esplode,
+      l''altra in un atomo di potassio che decade dentro una roccia.'
+    attendibilita: documentato
+  - id: eredita-clatrati
+    sezione: eredita
+    testo: 'Esiste poi un modo in cui l''argon si lega a qualcosa senza formare un
+      vero composto chimico: si fa intrappolare. Con il ghiaccio forma un idrato di
+      clatrato, cioè una struttura in cui le molecole d''acqua costruiscono gabbie
+      che ospitano gli atomi di argon senza condividere elettroni con essi. La forma
+      cristallina di quelle gabbie cambia con la pressione — cubica fino a 0,6 gigapascal,
+      tetragonale fra 0,7 e 1,1, ortorombica a corpo centrato fra 1,1 e 6,0 — e oltre
+      i 6,1 gigapascal il clatrato si converte in argon solido e in una fase esotica
+      del ghiaccio. A pressione atmosferica resta stabile sotto i 147 kelvin. C''è
+      anche un effetto minore ma curioso: l''argon disciolto in acqua ne fa salire
+      il pH a 8,0, apparentemente riducendo il numero di atomi di ossigeno disponibili
+      a legare protoni. Non reagisce, ma occupa spazio — e occupare spazio, in chimica,
+      è già fare qualcosa.'
+    attendibilita: documentato
+  - id: eredita-materia-oscura
+    sezione: eredita
+    testo: 'L''ultimo mestiere che l''argon ha imparato è il più ambizioso di tutti:
+      fare da bersaglio a ciò che forse non esiste. L''argon liquido si usa come bersaglio
+      negli esperimenti sui neutrini e nelle ricerche dirette di materia oscura. L''idea
+      è che l''interazione fra le ipotetiche WIMP e un nucleo di argon produca luce
+      di scintillazione, rilevata da tubi fotomoltiplicatori; rivelatori a due fasi,
+      con argon anche gassoso, servono a captare gli elettroni ionizzati prodotti
+      nell''urto. Le proprietà che lo rendono adatto sono tre, e la terza è la solita:
+      ha una resa di luce di scintillazione elevata, circa cinquantuno fotoni per
+      kiloelettronvolt; è trasparente alla propria luce di scintillazione; ed è relativamente
+      facile da purificare. Un gas che non reagisce con nulla è anche un gas che non
+      sporca la misura.'
+    attendibilita: documentato
+  - id: eredita-archivi
+    sezione: eredita
+    testo: 'C''è un episodio che chiude un conto aperto nell''approfondimento precedente,
+      e lo chiude a favore dell''argon. Dal 2002 gli Archivi Nazionali statunitensi
+      conservano documenti come la Dichiarazione d''Indipendenza e la Costituzione
+      dentro teche riempite di argon, per inibirne il degrado. La ragione per cui
+      è preferibile all''elio, usato nei cinquant''anni precedenti, è precisamente
+      quella raccontata a proposito dell''elio: quel gas sfugge attraverso i pori
+      intermolecolari della maggior parte dei contenitori e va rabboccato regolarmente.
+      L''atomo più piccolo dopo l''idrogeno non sa stare in una scatola; quello più
+      pigro sì. Per custodire i documenti fondativi di una repubblica serviva un gas
+      che non reagisse con la carta e che, soprattutto, non se ne andasse.'
+    attendibilita: documentato
+  - id: eredita-conservare
+    sezione: eredita
+    testo: 'Lo stesso principio vale, con dignità minore ma diffusione assai maggiore,
+      per un gran numero di cose che compriamo. L''argon ha un codice europeo da additivo
+      alimentare, E938, e serve ad allungare la vita dei contenuti: l''ossidazione
+      all''aria, l''idrolisi e le altre reazioni chimiche che degradano i prodotti
+      vengono rallentate o del tutto impedite. Prodotti chimici e farmaceutici ad
+      alta purezza sono talvolta confezionati e sigillati sotto argon. In enologia
+      si usa per creare una barriera contro l''ossigeno alla superficie del liquido,
+      dato che l''ossigeno guasta il vino alimentando sia il metabolismo microbico
+      — per esempio dei batteri acetici — sia la normale chimica di ossidoriduzione.
+      E ancora: propellente nelle bombolette spray, conservante per vernici, poliuretano
+      e pitture, spostando l''aria per preparare un contenitore allo stoccaggio. Un
+      elemento che non fa nulla si è ritagliato un mestiere preciso: impedire agli
+      altri di fare qualcosa.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'La storia dell''argon si regge tutta su una simmetria che vale la pena
+      enunciare per intero. Fu trovato perché qualcuno si rifiutò di arrotondare uno
+      0,5 per cento; fu ignorato per un secolo perché non fa nulla, e proprio perché
+      non fa nulla è diventato indispensabile — protegge il metallo fuso sotto l''arco,
+      isola le finestre, conserva la Costituzione di una repubblica, fabbrica il vuoto
+      nei laboratori, definisce un punto fisso della scala delle temperature e fa
+      da bersaglio a una materia che forse non esiste. Il suo nome significa «pigro»
+      ed è l''unico elemento battezzato per un difetto. Eppure quel difetto ha prodotto
+      due Nobel, una colonna nuova nella tavola periodica e, attraverso l''anomalia
+      del suo peso, la scoperta che la tavola non era ordinata come Mendeleev credeva.
+      E poi l''orologio: l''argon intrappolato in una roccia che si raffredda ci dice
+      quando sono morti i dinosauri e quando vivevano i nostri antenati in Africa
+      orientale. Un gas che rifiuta di partecipare a qualunque cosa accada è finito
+      a fare da testimone di tutto ciò che è accaduto.'
+    attendibilita: documentato
 composti_principali:
 - nome: Argon gassoso
   formula: Ar
@@ -188,3 +987,45 @@ fonti:
 - url: https://en.wikipedia.org/wiki/K%E2%80%93Ar_dating
   titolo: K–Ar dating
   consultata: *id001
+- url: https://en.wikipedia.org/wiki/John_William_Strutt,_3rd_Baron_Rayleigh
+  titolo: John William Strutt, 3rd Baron Rayleigh
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/William_Ramsay
+  titolo: William Ramsay
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Henry_Cavendish
+  titolo: Henry Cavendish
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Noble_gas
+  titolo: Noble gas
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Argon_compounds
+  titolo: Argon compounds
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Argon_fluorohydride
+  titolo: Argon fluorohydride
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Neil_Bartlett_(chemist)
+  titolo: Neil Bartlett (chemist)
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Potassium-40
+  titolo: Potassium-40
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Radiometric_dating
+  titolo: Radiometric dating
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Argon–argon_dating
+  titolo: Argon–argon dating
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Gas_tungsten_arc_welding
+  titolo: Gas tungsten arc welding
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Insulated_glazing
+  titolo: Insulated glazing
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Inductively_coupled_plasma
+  titolo: Inductively coupled plasma
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Inductively_coupled_plasma_mass_spectrometry
+  titolo: Inductively coupled plasma mass spectrometry
+  consultata: 2026-09-14
