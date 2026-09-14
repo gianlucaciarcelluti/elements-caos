@@ -140,6 +140,9 @@ Nel 1884, per completare il Washington Monument, gli Stati Uniti scelsero una pu
 
 Si racconta spessissimo che Napoleone III riservasse posate di alluminio agli ospiti più illustri, lasciando l'oro agli altri commensali. L'aneddoto compare ovunque e viene riportato sempre nella stessa forma, senza che le fonti risalgano a un documento dell'epoca: conviene trattarlo come un racconto ben costruito più che come un fatto accertato. Che l'imperatore finanziasse le ricerche di Deville sull'alluminio, quello sì, è documentato.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Alluminio — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Calcio]] (1739)
@@ -155,6 +158,21 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Johann Heinrich Pott]]
 - [The Cast Aluminum Cap on the Washington Monument (Metallography, Microstructure, and Analysis)](https://doi.org/10.1007/s13632-012-0032-x) — consultata il 07/09/2026
 - [Timeline of chemical element discoveries](https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries) — consultata il 07/09/2026
 - [Topping Off the Tip: How Aluminum Found Its Way onto the Washington Monument (Prologue Magazine, National Archives)](https://www.archives.gov/publications/prologue/2014/summer/aluminum-tip-monument) — consultata il 07/09/2026
+- [Charles Martin Hall](https://en.wikipedia.org/wiki/Charles_Martin_Hall) — consultata il 14/09/2026
+- [Paul Héroult](https://en.wikipedia.org/wiki/Paul_Héroult) — consultata il 14/09/2026
+- [Hans Christian Ørsted](https://en.wikipedia.org/wiki/Hans_Christian_Ørsted) — consultata il 14/09/2026
+- [Friedrich Wöhler](https://en.wikipedia.org/wiki/Friedrich_Wöhler) — consultata il 14/09/2026
+- [Hall–Héroult process](https://en.wikipedia.org/wiki/Hall–Héroult_process) — consultata il 14/09/2026
+- [Bayer process](https://en.wikipedia.org/wiki/Bayer_process) — consultata il 14/09/2026
+- [Bauxite](https://en.wikipedia.org/wiki/Bauxite) — consultata il 14/09/2026
+- [Red mud](https://en.wikipedia.org/wiki/Red_mud) — consultata il 14/09/2026
+- [Ajka alumina plant accident](https://en.wikipedia.org/wiki/Ajka_alumina_plant_accident) — consultata il 14/09/2026
+- [Aluminium recycling](https://en.wikipedia.org/wiki/Aluminium_recycling) — consultata il 14/09/2026
+- [Aluminium oxide](https://en.wikipedia.org/wiki/Aluminium_oxide) — consultata il 14/09/2026
+- [Aluminium foil](https://en.wikipedia.org/wiki/Aluminium_foil) — consultata il 14/09/2026
+- [Corundum](https://en.wikipedia.org/wiki/Corundum) — consultata il 14/09/2026
+- [Anodizing](https://en.wikipedia.org/wiki/Anodizing) — consultata il 14/09/2026
+- [Alum](https://en.wikipedia.org/wiki/Alum) — consultata il 14/09/2026
 
 ---
 

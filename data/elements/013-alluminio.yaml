@@ -187,6 +187,765 @@ contenuti:
   - termine: Paul Héroult
     ipa: pɔl eʁu
     nota: Alla francese, con la t finale muta.
+contenuti_estesi:
+  hook: 'Nel 1884 la punta del Washington Monument fu fatta di alluminio perché era
+    un lusso: cento once di metallo pagate quanto l''argento, esposte da Tiffany prima
+    dell''installazione perché i visitatori potessero dire di esserci passati sopra.
+    Due anni dopo, due ragazzi di ventidue anni — uno in Ohio, uno in Normandia, nati
+    lo stesso anno e destinati a morire lo stesso anno — scoprirono indipendentemente
+    lo stesso procedimento, e quel lusso finì. Nessun elemento ha mai fatto un capitombolo
+    simile, e la ragione è che l''alluminio non era raro: era soltanto impossibile
+    da tirare fuori.'
+  beats:
+  - id: contesto-ottopercento
+    sezione: contesto
+    testo: 'La prima cosa da fissare è l''abbondanza, perché è ciò che rende assurda
+      tutta la storia che segue. Nella crosta terrestre l''alluminio è l''elemento
+      metallico più abbondante in assoluto — l''8,23 per cento in massa — e il terzo
+      fra tutti gli elementi, dopo l''ossigeno e il silicio. Un gran numero dei silicati
+      che compongono la crosta lo contiene. C''è poi un dettaglio che spiega perché
+      se ne trovi più qui che altrove: nell''universo in generale l''alluminio è in
+      proporzione minore, e la ragione è che forma facilmente l''ossido e resta legato
+      nelle rocce della crosta, mentre i metalli meno reattivi sono sprofondati verso
+      il nucleo. Il mantello terrestre, per confronto, ne contiene solo il 2,38 per
+      cento. La stessa reattività che lo ha reso introvabile per millenni è ciò che
+      lo ha lasciato a portata di mano.'
+    attendibilita: documentato
+  - id: contesto-mai-nativo
+    sezione: contesto
+    testo: 'A causa della sua forte affinità per l''ossigeno, però, l''alluminio non
+      si trova quasi mai allo stato elementare: sta negli ossidi o nei silicati. I
+      feldspati, il gruppo di minerali più comune della crosta, sono allumosilicati;
+      e l''elemento compare anche nel berillo, nella criolite, nel granato, nello
+      spinello e nel turchese. Le impurezze nell''allumina danno le gemme: il cromo
+      produce il rubino, il ferro lo zaffiro. L''alluminio metallico nativo è invece
+      estremamente raro e si trova solo come fase minore in ambienti a bassa fugacità
+      di ossigeno, per esempio all''interno di certi vulcani. Ecco il punto che la
+      storia dell''elemento rende drammatico: un metallo che sta ovunque non si è
+      mai presentato da solo. Il rame, l''oro, il ferro dei meteoriti si potevano
+      raccogliere; l''alluminio no, mai, nemmeno una volta in tutta la preistoria.'
+    attendibilita: documentato
+  - id: contesto-cinque-nanometri
+    sezione: contesto
+    testo: 'La contraddizione più vistosa dell''alluminio è che un metallo reattivissimo
+      non si corrode, e la si risolve in cinque nanometri. A temperatura ambiente
+      si forma spontaneamente uno strato di ossido di quello spessore — cinque miliardesimi
+      di metro — che protegge il metallo sottostante da ulteriore corrosione da parte
+      dell''ossigeno, dell''acqua o degli acidi diluiti; il fenomeno si chiama passivazione.
+      La conseguenza più controintuitiva è che l''alluminio non viene attaccato dagli
+      acidi ossidanti, il che consente di usarlo per conservare reagenti come l''acido
+      nitrico e l''acido solforico concentrato. Non è però invulnerabile: l''acido
+      cloridrico caldo e concentrato lo fa reagire con l''acqua sviluppando idrogeno,
+      l''idrossido di sodio o di potassio in soluzione lo attacca già a temperatura
+      ambiente formando alluminati — in queste condizioni la passivazione protettiva
+      è trascurabile — l''acqua regia lo scioglie, e lo corrodono i cloruri disciolti,
+      per esempio il comune sale.'
+    attendibilita: documentato
+  - id: contesto-leghe
+    sezione: contesto
+    testo: 'Va detto subito, perché altrimenti la storia dell''alluminio si capisce
+      male: il metallo puro è quasi inutile. È piuttosto tenero e privo di resistenza,
+      e nella maggior parte delle applicazioni si usano leghe. Il salto è enorme e
+      si misura in una sola grandezza: il carico di snervamento dell''alluminio puro
+      sta fra 7 e 11 megapascal, quello delle leghe fra 200 e 600. Fino a cinquanta
+      volte tanto. Quello che resta al metallo puro sono le qualità di lavorazione
+      — è duttile, con un allungamento percentuale fra il cinquanta e il settanta
+      per cento, malleabile, facile da trafilare, estrudere, lavorare a macchina e
+      colare. L''alluminio non è forte come l''acciaio né altrettanto rigido, ma la
+      bassa densità compensa nell''aerospaziale e in ogni applicazione dove conti
+      il rapporto fra leggerezza e resistenza.'
+    attendibilita: documentato
+  - id: contesto-elettricita
+    sezione: contesto
+    testo: 'Sul piano elettrico l''alluminio ha una qualità che gli ha fatto vincere
+      una gara secolare contro il rame. È un eccellente conduttore termico ed elettrico,
+      e la quantità di alluminio necessaria a portare la stessa corrente del rame
+      pesa soltanto la metà: sulle linee ad alta tensione, dove ogni chilometro di
+      cavo va sospeso fra due tralicci, quel dimezzamento decide tutto. Ci sono poi
+      due proprietà meno note. La prima è che l''alluminio è capace di superconduttività,
+      con una temperatura critica di 1,2 kelvin e un campo magnetico critico di circa
+      cento gauss. La seconda è una coppia di comportamenti opposti verso il magnetismo:
+      essendo paramagnetico, i campi magnetici statici lo lasciano essenzialmente
+      indifferente, ma l''elevata conducibilità elettrica fa sì che i campi magnetici
+      alternati lo influenzino fortemente, inducendovi correnti parassite. Un campo
+      statico non lo smuove, uno alternato lo agita.'
+    attendibilita: documentato
+  - id: contesto-allume
+    sezione: contesto
+    testo: 'Per millenni l''umanità ha maneggiato un composto dell''alluminio senza
+      sospettare che contenesse un metallo. La storia dell''elemento è stata plasmata
+      dall''uso dell''allume, di cui il primo documento scritto risale al V secolo
+      avanti Cristo ed è di Erodoto. Gli antichi lo usavano come mordente per la tintura,
+      in medicina, nella lavorazione chimica e come rivestimento ignifugo per il legno,
+      a protezione delle fortezze dagli incendi appiccati dal nemico. Del metallo,
+      nulla. E quel sale era merce politica: nel 1461 Giovanni da Castro scrisse al
+      proprio padrino, papa Pio II, di aver trovato una ricca fonte di allume a Tolfa,
+      vicino a Roma, con un argomento che è insieme mineralogia e geopolitica — «se
+      darai ordine di assoldare operai, costruire forni e fondere il minerale, fornirai
+      allume a tutta l''Europa e il Turco perderà tutti i suoi profitti. Andranno
+      invece a te».'
+    attendibilita: documentato
+  - id: contesto-etimologia
+    sezione: contesto
+    testo: 'Il nome dell''elemento si può far risalire, parola dopo parola, fino a
+      una sensazione sulla lingua. Aluminium e aluminum derivano da alumine, un termine
+      ormai obsoleto per l''allumina; alumine è un prestito dal francese, che a sua
+      volta lo trasse da alumen, il nome latino classico dell''allume, il minerale
+      da cui l''allumina si ricavava. E alumen risale alla radice protoindoeuropea
+      *alu-, che significa «amaro» oppure «birra». Il metallo più prodotto fra i non
+      ferrosi, quello degli aerei e delle lattine, porta dunque un nome che in ultima
+      analisi descrive un sapore: quello aspro e astringente di un sale che si metteva
+      sulla lingua per riconoscerlo — e non è una ricostruzione: descrivendo nel 1746
+      i propri cristalli, Pott li dice «notevolmente astringenti, con un retrogusto
+      un po'' dolce». I chimici del Settecento assaggiavano.'
+    attendibilita: documentato
+  - id: contesto-discusso-vetro
+    sezione: contesto
+    testo: 'Si legge spesso che i Romani conoscessero l''alluminio, e la storia merita
+      di essere raccontata insieme alla sua smentita. Petronio, nel Satyricon, riferisce
+      che un vetro insolito fu presentato all''imperatore: gettato sul pavimento non
+      si ruppe ma si deformò soltanto, e fu riportato alla forma originaria con un
+      martello; saputo dall''inventore che nessun altro sapeva produrre quel materiale,
+      l''imperatore lo fece giustiziare perché non diminuisse il prezzo dell''oro.
+      Varianti compaiono in Plinio il Vecchio, che però annotava come la storia circolasse
+      «per frequente ripetizione più che per autenticità». Il punto decisivo è un
+      altro: sia Petronio sia Plinio parlano di vetro, non di metallo. L''attribuzione
+      all''alluminio sembra nascere da un errore di traduzione del generale francese
+      de Béville, citato apertamente da Deville nel 1864, che avrebbe inteso l''espressione
+      aurum pro luto habere — «avere l''oro come fango» — leggendo lutum come «argilla»
+      anziché come sporcizia. Una nota a piè di pagina sbagliata, e per un secolo
+      e mezzo i Romani hanno avuto l''alluminio.'
+    attendibilita: discusso
+  - id: vicenda-la-terra
+    sezione: vicenda
+    testo: 'La data di scoperta dell''alluminio, il 1746, si riferisce a un lavoro
+      che non produsse alcun metallo, e conviene ricostruire la catena per intero
+      perché nessuno dei protagonisti sapeva dove stava andando. Nel 1739 il chimico
+      francese Jean Gello dimostrò che la terra contenuta nell''argilla e quella che
+      si ottiene facendo reagire un alcali sull''allume sono identiche. Nel 1746 il
+      tedesco Johann Heinrich Pott mostrò che il precipitato ottenuto versando un
+      alcali in una soluzione di allume era diverso dalla calce e dal gesso: una terra
+      nuova, distinta da quelle note. Nel 1754 Andreas Sigismund Marggraf la sintetizzò
+      facendo bollire argilla in acido solforico e aggiungendo potassa, e ne descrisse
+      i sali — cloruro, nitrato, acetato. Guyton de Morveau le diede nel 1782 il nome
+      francese alumine. E nel 1789 Lavoisier avanzò l''ipotesi che terre come quella
+      fossero ossidi di metalli non ancora isolati. Cinquant''anni per arrivare a
+      sospettare che lì dentro ci fosse un metallo, e altri trentasei per vederlo.'
+    attendibilita: documentato
+  - id: vicenda-i-falliti
+    sezione: vicenda
+    testo: 'Che quel metallo esistesse fu chiaro presto; tirarlo fuori si rivelò un
+      altro paio di maniche, e l''elenco delle sconfitte porta firme grandissime.
+      Lavoisier nel 1794 e Louis-Bernard Guyton de Morveau nel 1795 scorrere, perché
+      sono quasi tutte firmate da nomi grandissimi. Lavoisier nel 1794 e Louis-Bernard
+      Guyton de Morveau nel 1795 fusero l''allumina ottenendo uno smalto bianco in
+      un fuoco di carbone alimentato a ossigeno puro, e non trovarono alcun metallo.
+      L''americano Robert Hare nel 1802 la fuse con un cannello ossidrico, ottenne
+      di nuovo lo smalto e di nuovo nessun metallo. Poi tocca a Humphry Davy, e la
+      sua è una serie di quattro tentativi che si leggono come un''ostinazione: nel
+      1807 elettrolizzò l''allumina con batterie alcaline, ma la lega che ne uscì
+      conteneva potassio e sodio e non aveva modo di separarli; scaldò allora l''allumina
+      con il potassio, ottenendo ossido di potassio e nessun metallo; nel 1808 stabilì
+      che l''allumina si decompone nell''arco elettrico, ma il metallo si legava al
+      ferro e neanche allora riuscì a dividerli; provò infine a raccoglierlo su ferro,
+      e ancora una volta non riuscì a separare il metallo agognato.'
+    attendibilita: documentato
+  - id: vicenda-tre-nomi
+    sezione: vicenda
+    testo: A Davy, che il metallo non riuscì mai a ottenerlo, toccò però di dargli
+      il nome, e lo fece due volte. Nel 1808 propose alumium; nel 1812 corresse in
+      aluminum, producendo così il nome moderno. Altri scienziati usarono la grafia
+      aluminium, con quella sillaba in più che allinea la parola alla serie di sodium,
+      potassium, magnesium; e la forma di Davy tornò in uso negli Stati Uniti nei
+      decenni successivi. Ecco perché ancora oggi l'inglese ha due grafie legittime
+      dello stesso elemento, e perché l'italiano, che dice alluminio, sta di fatto
+      dalla parte del resto del mondo e non da quella di chi lo battezzò. Tre nomi
+      in quattro anni per una sostanza che nessuno aveva ancora in mano.
+    attendibilita: documentato
+  - id: vicenda-chi-era-orsted
+    sezione: vicenda
+    testo: 'Vale la pena ricordare chi fosse l''uomo che nel 1825 annunciò l''alluminio,
+      perché per lui quella fu una faccenda laterale. Cinque anni prima, nel 1820,
+      Hans Christian Ørsted aveva pubblicato la scoperta che l''ago di una bussola
+      viene deviato dal nord magnetico da una corrente elettrica vicina, confermando
+      una relazione diretta fra elettricità e magnetismo: è il fatto che gli è valso
+      l''intitolazione di un''unità di misura, l''oersted. La fonte smonta anche la
+      leggenda che circola sul come: la storia spesso riportata secondo cui vi sarebbe
+      arrivato per caso durante una lezione è un mito, perché cercava quel legame
+      fin dal 1818. Nel 1819 era stato inoltre il primo a estrarre la piperina, il
+      composto del pepe. Un uomo del genere annuncia un metallo nuovo e poi torna
+      alle proprie cose; l''alluminio, per lui, non era la vita.'
+    attendibilita: documentato
+  - id: vicenda-orsted
+    sezione: vicenda
+    testo: 'L''annuncio arrivò nel 1825 e lo fece un fisico, non un chimico: Hans
+      Christian Ørsted, davanti alla Reale Accademia Danese delle Scienze e delle
+      Lettere. Le sue parole, riportate dalla fonte, sono l''esatto opposto di un
+      proclama: «Questo amalgama si separa rapidamente all''aria e, per distillazione
+      in atmosfera inerte, dà un grumo di metallo che per colore e lucentezza somiglia
+      in qualche modo allo stagno». Somiglia in qualche modo allo stagno — è tutto
+      quello che si sentiva di dire. Il lavoro fu poi esteso dal chimico tedesco Friedrich
+      Wöhler, e proprio quella cautela nel descrivere il proprio campione è il motivo
+      per cui la priorità di Ørsted resta discussa fino a oggi, come la nota base
+      di questo elemento racconta per esteso.'
+    attendibilita: documentato
+  - id: vicenda-centoundici-anni
+    sezione: vicenda
+    testo: C'è un dato che da solo spiega perché la priorità di Ørsted sia rimasta
+      discussa per un secolo e mezzo, e che è più clamoroso di qualunque polemica.
+      Ørsted pubblicò i propri risultati sull'isolamento dell'alluminio in forma di
+      piccole particelle; ebbene, nessun altro ricercatore riuscì a replicare quelle
+      osservazioni fino al 1936. Centoundici anni durante i quali l'esperimento che
+      fonda la scoperta di un elemento non riusciva a nessuno. Oggi a Ørsted viene
+      comunque attribuita la scoperta. I suoi risultati furono poi sviluppati da Friedrich
+      Wöhler — col permesso di Ørsted, annota la fonte, in un raro caso di passaggio
+      di consegne cordiale in una disciplina fatta di rivendicazioni — che ne modificò
+      i metodi sostituendo il potassio metallico all'amalgama di potassio. Wöhler,
+      nel corso della carriera, avrebbe studiato più di venticinque elementi chimici.
+    attendibilita: documentato
+  - id: vicenda-deville
+    sezione: vicenda
+    testo: 'Poiché il metodo di Wöhler non produceva grandi quantità, il metallo restò
+      raro e il suo costo superò quello dell''oro: nel 1852 l''alluminio si vendeva
+      a trentaquattro dollari l''oncia contro i diciannove dell''oro. Il primo a stabilire
+      un metodo di fabbricazione fu Henri Étienne Sainte-Claire Deville, che annunciò
+      un procedimento industriale nel 1854 all''Accademia delle Scienze di Parigi.
+      Nella prefazione al suo libro del 1859 scrisse una frase che descrive con esattezza
+      il problema di quell''epoca: il suo primo pensiero era stato di aver messo le
+      mani su un metallo intermedio che avrebbe trovato il proprio posto negli usi
+      e nei bisogni dell''uomo «quando avessimo trovato il modo di portarlo fuori
+      dal laboratorio dei chimici e metterlo nell''industria». È lo stesso libro che
+      un ragazzo normanno di quindici anni avrebbe letto qualche anno dopo.'
+    attendibilita: documentato
+  - id: vicenda-la-lezione
+    sezione: vicenda
+    testo: 'Il seguito della storia comincia da due adolescenti, e conviene raccontarli
+      uno per volta. Charles Martin Hall si iscrisse all''Oberlin College nel 1880,
+      a sedici anni, e nel secondo trimestre seguì con notevole interesse una lezione
+      del professor Frank Fanning Jewett sull''alluminio. Jewett mostrò alla classe
+      un campione del metallo che si era procurato da Friedrich Wöhler a Gottinga
+      — il Wöhler che aveva rifatto e perfezionato il lavoro di Ørsted — e osservò
+      che «se qualcuno inventasse un processo con cui l''alluminio possa essere prodotto
+      su scala commerciale, non solo sarebbe un benefattore del mondo, ma potrebbe
+      anche mettere insieme per sé una grande fortuna». Sei anni dopo quel ragazzo
+      lo inventò, nella legnaia annessa a casa propria, e ottenne entrambe le cose.
+      Un campione passato di mano da Wöhler a Jewett e mostrato a lezione: è tutta
+      la catena della trasmissione del sapere, in un oggetto solo.'
+    attendibilita: documentato
+  - id: vicenda-il-trattato
+    sezione: vicenda
+    testo: Di Héroult si sa con precisione da dove venne l'idea, ed è una di quelle
+      storie che fanno pensare al valore di un libro capitato nelle mani giuste. A
+      quindici anni lesse il trattato di Henri Sainte-Claire Deville sull'alluminio.
+      A quell'epoca il metallo costava quanto l'argento ed era usato per lo più in
+      oggetti di lusso e gioielleria. Héroult volle renderlo più economico — così
+      la fonte, con una semplicità quasi infantile — e ci riuscì sette anni dopo,
+      scoprendo nel 1886 il processo elettrolitico. Un adolescente legge un libro
+      di chimica, decide che una cosa costa troppo, e a ventidue anni ha cambiato
+      il prezzo di un metallo per sempre.
+    attendibilita: documentato
+  - id: vicenda-due-gemelli
+    sezione: vicenda
+    testo: 'La coincidenza è tale che se la si trovasse in un romanzo sembrerebbe
+      forzata. Charles Martin Hall nacque in Ohio il 6 dicembre 1863 e morì in Florida
+      il 27 dicembre 1914, a cinquantun anni. Paul Louis-Toussaint Héroult nacque
+      a Thury-Harcourt, in Normandia, il 10 aprile 1863, e morì ad Antibes il 9 maggio
+      1914, anche lui a cinquantun anni. Nel 1886, ventiduenni entrambi, scoprirono
+      indipendentemente lo stesso procedimento per produrre alluminio a basso costo,
+      uno per ciascuna sponda dell''Atlantico. La voce enciclopedica dedicata a Hall
+      usa un''espressione che vale la pena riportare per intero: l''alluminio divenne
+      così il primo metallo a raggiungere un uso diffuso dopo la scoperta preistorica
+      del ferro. Non un metallo nuovo fra i tanti: il primo dopo millenni.'
+    attendibilita: documentato
+  - id: vicenda-julia
+    sezione: vicenda
+    testo: 'Il lavoro di Hall si faceva in una legnaia, e non da solo. Hall dovette
+      fabbricarsi da sé la maggior parte dell''apparato e preparare i propri reagenti,
+      e fu assistito dalla sorella maggiore Julia Brainerd Hall, chimica anche lei,
+      vissuta dal 1859 al 1925, che — dice la fonte senza mezzi termini — lo aiutò
+      nelle sue ricerche. L''invenzione di base gli riuscì il 23 febbraio 1886: far
+      passare una corrente elettrica attraverso un bagno di allumina disciolta in
+      criolite, con il risultato che sul fondo della storta si forma una pozza di
+      alluminio. Il 9 luglio dello stesso anno depositò il primo brevetto. Il processo
+      porta il nome di Hall e di Héroult; di Julia Brainerd Hall, che nella scheda
+      enciclopedica del fratello compare alla voce «famiglia», non porta il nome nulla.'
+    attendibilita: documentato
+  - id: impatto-napoleone
+    sezione: impatto
+    testo: 'Il salto industriale di Deville fu reso possibile da un finanziamento
+      pubblico di cui conviene conoscere l''entità e il movente. Napoleone III gli
+      promise un sussidio illimitato per la ricerca sull''alluminio, e in totale Deville
+      spese trentaseimila franchi francesi: venti volte il reddito annuo di una famiglia
+      comune. L''interesse dell''imperatore non era scientifico ma militare — voleva
+      che armi, elmetti, corazze e altro equipaggiamento per l''esercito francese
+      fossero fatti del nuovo metallo leggero e lucente. La svolta tecnica fu sostituire
+      il potassio di Wöhler con il sodio, più conveniente e meno costoso, per ridurre
+      il cloruro di alluminio; così Deville riuscì a produrre un lingotto. All''Esposizione
+      Universale del 1855 dodici piccoli lingotti furono esposti per la prima volta
+      al pubblico, presentati con una formula che dice tutto sull''effetto che facevano:
+      «l''argento dall''argilla». Quanto al celebre banchetto con le posate d''alluminio
+      riservate agli ospiti più illustri e l''oro per gli altri, la fonte usa una
+      formula prudente — si dice che l''abbia tenuto — ed è la stessa cautela che
+      la nota base di questo elemento raccomanda.'
+    attendibilita: documentato
+  - id: impatto-il-piu-grande-pezzo
+    sezione: impatto
+    testo: 'Per misurare che cosa fosse l''alluminio prima del 1886 basta un dato
+      sulla punta del Washington Monument. Quel pezzo pesava 2,85 chilogrammi — poco
+      più di un pacco di zucchero — e all''epoca, nel 1884, era il più grande pezzo
+      di alluminio mai fuso. Il più grande al mondo. Due anni dopo lo stesso metallo
+      sarebbe colato a tonnellate dalle celle elettrolitiche. Della stessa stagione
+      è un altro dettaglio che dice bene il clima: quando l''industriale britannico
+      Isaac Lowthian Bell, che produsse alluminio dal 1860 al 1874, inaugurò la propria
+      fabbrica, salutò la folla sventolando un cappello di alluminio, costoso e unico
+      nel suo genere. Un cappello di metallo come oggetto da esibire.'
+    attendibilita: documentato
+  - id: impatto-criolite
+    sezione: impatto
+    testo: 'L''idea che risolve ottant''anni di fallimenti è di una semplicità che
+      spiega perché venne in mente a due ventiduenni e non ai loro maestri. L''ossido
+      di alluminio fonde a 2072 gradi, e a quella temperatura elettrolizzarlo è impraticabile;
+      l''elettrolisi di un sale di alluminio in soluzione acquosa non funziona, perché
+      gli ioni idronio riossidano subito il metallo. La soluzione è sciogliere l''allumina
+      in criolite fusa — esafluoroalluminato di sodio, che da solo fonde a 1009 gradi
+      — abbassando così il punto di fusione a valori praticabili. L''operazione industriale
+      avviene fra i 940 e i 980 gradi e produce alluminio con una purezza fra il 99,5
+      e il 99,8 per cento. Non si è trovato un modo più potente di strappare l''ossigeno:
+      si è trovato un solvente.'
+    attendibilita: documentato
+  - id: impatto-anodi-consumati
+    sezione: impatto
+    testo: 'C''è un dettaglio della chimica di quella cella che spiega perché l''alluminio
+      produca anidride carbonica anche quando l''elettricità è pulita. Le reazioni
+      avvengono a elettrodi di carbonio, e l''ossigeno strappato all''allumina non
+      se ne va come ossigeno: si combina con il carbonio dell''anodo. La reazione
+      complessiva consuma dunque tre atomi di carbonio ogni due di alluminio prodotti,
+      e in pratica all''anodo si forma assai più anidride carbonica che monossido.
+      La fonte del carbonio è generalmente coke, cioè combustibile fossile. Gli anodi,
+      insomma, non sono attrezzature ma reagenti: si consumano e vanno sostituiti.
+      Quanto alla criolite, è stata scelta non solo per il basso punto di fusione
+      ma per una combinazione di virtù che nessun''altra sostanza offriva — scioglie
+      bene l''allumina, conduce elettricità, si dissocia elettroliticamente a tensione
+      più alta dell''allumina e, alle temperature di esercizio, è meno densa dell''alluminio,
+      cosicché il metallo fuso si raccoglie sul fondo.'
+    attendibilita: documentato
+  - id: impatto-quanta-corrente
+    sezione: impatto
+    testo: 'Le cifre di quel processo spiegano perché l''alluminio venga chiamato
+      elettricità solidificata. Attraverso la cella passa corrente continua a bassa
+      tensione, sotto i cinque volt, ma con intensità fra i centomila e i trecentomila
+      ampere: l''alluminio liquido si deposita al catodo mentre l''ossigeno dell''allumina
+      si combina con il carbonio dell''anodo. Il fabbisogno energetico teorico minimo
+      è di 6,23 chilowattora per chilogrammo di alluminio, ma nella pratica ne servono
+      comunemente 15,37: due volte e mezzo il minimo termodinamico. E le celle non
+      si spengono mai. Negli stabilimenti lavorano ventiquattro ore al giorno perché
+      il materiale fuso non solidifichi, e la temperatura si mantiene proprio grazie
+      alla resistenza elettrica del bagno. Fermare una fonderia di alluminio non significa
+      sospendere la produzione: significa che dentro le vasche si solidifica tutto.'
+    attendibilita: documentato
+  - id: impatto-bauxite
+    sezione: impatto
+    testo: 'Il minerale da cui tutto dipende porta il nome di un villaggio provenzale.
+      La bauxite fu scoperta nel 1821 dal geologo francese Pierre Berthier vicino
+      a Les Baux, in Provenza: quattro anni prima che Ørsted annunciasse di aver ottenuto
+      il metallo, qualcuno aveva già in mano la roccia da cui l''avremmo cavato per
+      sempre. Oggi il maggior produttore mondiale è la Guinea, seguita da Australia
+      e Cina. Si estrae quasi sempre a cielo aperto, perché sta a ridosso della superficie
+      del terreno con poca o nessuna copertura sovrastante — il che rende l''estrazione
+      economica e la cicatrice sul paesaggio molto ampia. Fra il settanta e l''ottanta
+      per cento della produzione mondiale di bauxite secca viene lavorata prima in
+      allumina e poi in alluminio per elettrolisi. La fonte annota anche la via d''uscita:
+      un maggiore riciclo dell''alluminio, che richiede meno energia elettrica, può
+      estendere considerevolmente le riserve mondiali di bauxite.'
+    attendibilita: documentato
+  - id: impatto-bayer
+    sezione: impatto
+    testo: 'Prima dell''elettrolisi c''è un secondo processo, meno noto ma altrettanto
+      indispensabile, e si regge su una proprietà curiosa. Gli ossidi e gli idrossidi
+      di alluminio sono anfoteri: si comportano cioè sia da acidi sia da basi. La
+      solubilità dell''alluminio in acqua è bassissima, ma aumenta notevolmente sia
+      a pH alto sia a pH basso, ed è su questo che il processo Bayer fa leva. La bauxite
+      viene scaldata in un recipiente a pressione insieme a una soluzione di idrossido
+      di sodio, la soda caustica, fra i 150 e i 200 gradi: a quelle temperature l''alluminio
+      si scioglie come alluminato di sodio, e ciò che non si scioglie — il fango rosso
+      — viene separato per filtrazione. Poi si raffredda il liquido e vi si aggiungono,
+      come innesco, cristallini di idrossido di alluminio provenienti da estrazioni
+      precedenti, attorno ai quali il prodotto precipita. Oltre il novanta per cento
+      dell''allumina così ottenuta finisce nel processo Hall-Héroult.'
+    attendibilita: documentato
+  - id: impatto-ventimila-dollari
+    sezione: impatto
+    testo: 'Fra l''invenzione e l''industria ci fu un passaggio che poteva non avvenire.
+      Non trovando finanziatori in Ohio, Hall andò a Pittsburgh, dove entrò in contatto
+      con il metallurgista Alfred E. Hunt. Attorno a loro si raccolse un gruppo che
+      vale la pena elencare per capire dov''erano i capitali in America nel 1888:
+      il socio di Hunt al Pittsburgh Testing Laboratory, il suo capo chimico, il dirigente
+      della Carbon Steel Company insieme al suo responsabile vendite, e un sovrintendente
+      di stabilimento della Carnegie Steel Company. Misero insieme ventimila dollari
+      e fondarono la Pittsburgh Reduction Company, poi ribattezzata Aluminum Company
+      of America e infine abbreviata in Alcoa. Ventimila dollari, raccolti in gran
+      parte fra gente dell''acciaio, per il metallo che avrebbe conteso all''acciaio
+      il secolo successivo.'
+    attendibilita: documentato
+  - id: impatto-la-curva
+    sezione: impatto
+    testo: 'La traiettoria della produzione mondiale è una delle curve più ripide
+      della storia industriale, e vale la pena leggerla tutta di seguito. Nel 1884
+      il mondo intero produsse 3,6 tonnellate di alluminio: quanto un''automobile
+      di oggi. Nel 1900, quattordici anni dopo Hall e Héroult, erano 6.800 tonnellate.
+      Nel 1916 si superavano le centomila l''anno. Nel 1954 si arrivava a 2.810.000
+      tonnellate, e in quell''anno l''alluminio divenne il metallo non ferroso più
+      prodotto al mondo, superando il rame — che in questo vault ha un approfondimento
+      tutto suo e diecimila anni di vantaggio. Il prezzo reale, nel frattempo, scendeva
+      senza sosta: da quattordicimila dollari a tonnellata nel 1900 a 2.340 nel 1948,
+      in dollari del 1998. Da metallo da vetrina a commodity in cinquant''anni.'
+    attendibilita: documentato
+  - id: impatto-volare
+    sezione: impatto
+    testo: 'Il legame fra alluminio e volo comincia subito e non si è più interrotto.
+      Il Wright Flyer usava alluminio leggero legato con rame per aumentarne la resistenza:
+      il primo aeroplano della storia conteneva già una lega d''alluminio, nel 1903.
+      Lo stesso anno veniva inventato il duralluminio, destinato all''aviazione. Il
+      bronzo d''alluminio trovava impiego in nastri flessibili, lamiere e fili, largamente
+      usati nella cantieristica navale e aeronautica. E durante la Prima guerra mondiale
+      i principali governi richiesero grandi forniture di alluminio per cellule aeronautiche
+      leggere e robuste, arrivando spesso a sovvenzionare le fabbriche e i necessari
+      sistemi di alimentazione elettrica. Uno Stato che finanzia centrali elettriche
+      per avere metallo è una cosa che si era vista per pochissime materie prime.'
+    attendibilita: documentato
+  - id: impatto-guerra
+    sezione: impatto
+    testo: 'Nella Seconda guerra mondiale l''alluminio diventò materiale strategico
+      di importanza estrema, e la misura di quanto lo fosse sta in due episodi. Il
+      primo: gli inglesi raccoglievano le pentole nelle case per farne aerei, e nel
+      1941 la produzione superò per la prima volta il milione di tonnellate metriche.
+      Il secondo è una frase che ancora oggi colpisce per la brutalità. L''Alcoa —
+      erede della Pittsburgh Reduction Company di Hall e allora monopolista della
+      produzione statunitense — non stava ampliando la propria capacità produttiva;
+      e nel 1941 il Segretario degli Interni degli Stati Uniti dichiarò: «Se l''America
+      perde la guerra, può ringraziare la Aluminum Corporation of America». Nel 1939,
+      del resto, il maggior produttore mondiale di alluminio era la Germania.'
+    attendibilita: documentato
+  - id: impatto-dove-sta-oggi
+    sezione: impatto
+    testo: 'Vale la pena guardare gli impieghi principali insieme alle ragioni che
+      la fonte associa a ciascuno, perché ogni volta la motivazione è diversa. Nei
+      trasporti — automobili, aerei, camion, vagoni ferroviari, navi, biciclette,
+      veicoli spaziali — si usa per la bassa densità, la durabilità e la resistenza
+      alla corrosione. Negli imballaggi, cioè lattine e fogli, per tre motivi che
+      riguardano il contatto con il cibo: è atossico, non adsorbente e non produce
+      schegge. Nell''edilizia — finestre, porte, rivestimenti, cavi, coperture — la
+      questione è esplicitamente economica: l''acciaio costa meno, e l''alluminio
+      si impiega quando contano la leggerezza, la resistenza alla corrosione o particolari
+      esigenze progettuali. In quasi tutti questi casi non si tratta di alluminio
+      puro ma di leghe con rame, zinco, magnesio, manganese e silicio, il duralluminio
+      fra le più note.'
+    attendibilita: documentato
+  - id: controversie-elettricita-solidificata
+    sezione: controversie
+    testo: 'Che l''alluminio sia elettricità solidificata non è una metafora: è una
+      voce di bilancio, e si vede nella geografia della produzione. La Cina ha aumentato
+      la propria quota grazie ad abbondanza di risorse, energia a basso costo e incentivi
+      governativi, portando la propria quota di consumo dal due per cento del 1972
+      al quaranta per cento del 2010. Negli Stati Uniti, in Europa occidentale e in
+      Giappone l''alluminio viene invece consumato soprattutto in trasporti, ingegneria,
+      costruzioni e imballaggio. La prova del legame con la corrente è arrivata nel
+      2021, quando i prezzi dei metalli industriali come l''alluminio sono saliti
+      a livelli quasi record perché le carenze energetiche in Cina facevano aumentare
+      il costo dell''elettricità. Un metallo il cui prezzo si muove quando manca la
+      corrente dall''altra parte del mondo non è una merce come le altre: è energia
+      in forma solida, spedita via nave.'
+    attendibilita: documentato
+  - id: controversie-emissioni
+    sezione: controversie
+    testo: 'La produzione di alluminio pone problemi ambientali a ogni passo del processo,
+      e il principale è l''emissione di gas serra. Quei gas hanno due origini distinte,
+      che vale la pena tenere separate. La prima è il consumo elettrico delle fonderie:
+      il processo Hall-Héroult consuma energia elettrica in quantità sostanziale,
+      e la fase di elettrolisi può produrre quantità significative di anidride carbonica
+      se l''elettricità viene da fonti a elevate emissioni. Questa parte del problema,
+      in linea di principio, si risolve cambiando la fonte. La seconda è più insidiosa
+      perché è intrinseca alla chimica del procedimento: i sottoprodotti di lavorazione,
+      fra cui i più potenti sono i perfluorocarburi — tetrafluoruro di carbonio ed
+      esafluoroetano — generati proprio nella fusione. Quelli non dipendono da dove
+      prendi la corrente.'
+    attendibilita: documentato
+  - id: controversie-fanghi-rossi
+    sezione: controversie
+    testo: 'Il conto ambientale dell''alluminio comincia molto prima dell''elettrolisi,
+      ed è una montagna. Il residuo di bauxite — il nome tecnico corrente, anche se
+      tutti lo chiamano fango rosso — è lo scarto industriale generato trasformando
+      la bauxite in allumina con il processo Bayer, che produce oltre il novantasette
+      per cento dell''allumina mondiale. È composto di vari ossidi, fra cui quelli
+      di ferro che gli danno il colore. Per ogni tonnellata di allumina se ne producono
+      da una a una e mezza di fango rosso, con una media globale di 1,23. Tradotto
+      in cifre assolute: nel 2023 la produzione di allumina ha superato i 142 milioni
+      di tonnellate, generando circa 170 milioni di tonnellate di fango rosso. Ogni
+      anno. E quel materiale è fortemente alcalino: se non viene stoccato adeguatamente,
+      costituisce un pericolo ambientale significativo.'
+    attendibilita: documentato
+  - id: controversie-ajka
+    sezione: controversie
+    testo: Che cosa significhi «stoccato inadeguatamente» lo ha mostrato l'Ungheria
+      occidentale. Il 4 ottobre 2010, alle 12:25, l'angolo nordoccidentale della diga
+      del bacino numero dieci dello stabilimento di allumina di Ajka cedette, liberando
+      circa un milione di metri cubi di rifiuto liquido dai laghi di fango rosso.
+      Il fango uscì come un'onda alta uno o due metri e sommerse diverse località
+      vicine, fra cui il villaggio di Kolontár e la cittadina di Devecser. Morirono
+      dieci persone; i feriti furono quattrocentosei, di cui centoventi in modo grave.
+      Circa quaranta chilometri quadrati di territorio furono inizialmente colpiti,
+      e il 7 ottobre la colata raggiunse il Danubio. Sulla causa del cedimento, annota
+      la scheda, le conclusioni sono rimaste inconcludenti.
+    attendibilita: documentato
+  - id: controversie-alzheimer
+    sezione: controversie
+    testo: 'Il sospetto più diffuso sull''alluminio riguarda la malattia di Alzheimer,
+      e va riferito con precisione perché la formulazione conta. L''alluminio è stato
+      sospettato di esserne una possibile causa; la ricerca su questo punto è andata
+      avanti per oltre quarant''anni e, al 2018, non ha trovato prove valide di un
+      effetto causale. Non è un''assoluzione definitiva né una condanna: è l''esito
+      di quattro decenni di indagine che non hanno confermato l''ipotesi. Il Dipartimento
+      della Salute statunitense classifica l''alluminio come non cancerogeno. Nel
+      1988, a Camelford, in Cornovaglia, l''acqua potabile fu contaminata con solfato
+      di alluminio per diverse settimane; la relazione finale sull''incidente, nel
+      2013, concluse che era improbabile che ciò avesse causato problemi di salute
+      a lungo termine. Una piccola percentuale di persone ha invece allergie da contatto
+      documentate.'
+    attendibilita: documentato
+  - id: controversie-biologia
+    sezione: controversie
+    testo: 'C''è un''assenza che colpisce: nonostante sia l''elemento metallico più
+      abbondante della crosta, l''alluminio ha pochissime funzioni note in biologia,
+      e nessun essere vivente è noto metabolizzarne i sali. La ragione è chimica e
+      riguarda l''acqua: al pH fra 6 e 9, quello della maggior parte delle acque naturali,
+      l''alluminio precipita come idrossido e non è quindi disponibile. La fonte aggiunge
+      un''osservazione generale che vale la pena riportare: la maggior parte degli
+      elementi che si comportano così non ha ruolo biologico oppure è tossica. Si
+      conosce però un''eccezione, ed è magnifica: l''anfipode abissale Hirondellea
+      gigas, un crostaceo che si riveste di un gel di idrossido di alluminio per impedire
+      che il proprio esoscheletro calcareo si dissolva alle profondità sotto l''orizzonte
+      di compensazione dei carbonati. L''unico essere vivente che abbia trovato un
+      uso per questo metallo lo usa come impermeabile contro il mare.'
+    attendibilita: documentato
+  - id: controversie-biodegradazione
+    sezione: controversie
+    testo: 'Un problema che si pone per ogni materiale industriale è che fine faccia
+      quando lo si abbandona, e qui la risposta è scoraggiante: la biodegradazione
+      dell''alluminio metallico è estremamente rara. La maggior parte degli organismi
+      che lo corrodono non lo attacca né lo consuma direttamente, ma produce scarti
+      corrosivi che agiscono su di esso. Esistono eccezioni, e una ha del bizzarro:
+      il fungo Geotrichum candidum può consumare l''alluminio dei compact disc. Sul
+      versante vegetale si osserva invece un adattamento: alcune piante tollerano
+      l''alluminio rilasciando composti organici che legano i cationi dannosi, e si
+      ritiene che il sorgo abbia lo stesso meccanismo di tolleranza. Ma un mondo che
+      produce decine di milioni di tonnellate l''anno di un metallo che quasi nulla
+      sa smontare ha, in prospettiva, un solo strumento serio: rifonderlo.'
+    attendibilita: documentato
+  - id: controversie-julia-credito
+    sezione: controversie
+    testo: 'C''è una questione di attribuzione che questa storia lascia aperta, e
+      conviene formularla con le parole esatte delle fonti per non dire più di quanto
+      si sappia. La voce enciclopedica dedicata a Charles Martin Hall afferma due
+      cose: che nel fabbricarsi l''apparato e nel preparare i reagenti «fu assistito
+      dalla sorella maggiore Julia Brainerd Hall», e che una delle sue sorelle era
+      la chimica Julia Brainerd Hall, «che lo aiutò nelle sue ricerche». Nella scheda
+      biografica del fratello, Julia compare alla voce «famiglia». Quanto quell''aiuto
+      abbia pesato sull''invenzione le fonti qui consultate non lo quantificano, e
+      questo approfondimento non può stabilirlo. Si può però registrare un fatto semplice:
+      era una chimica di formazione, lavorò a quegli esperimenti, e il procedimento
+      porta il nome di due uomini nati nello stesso anno. Fra le cose che una storia
+      della chimica può fare c''è almeno quella di non lasciare i nomi fuori dal racconto.'
+    attendibilita: documentato
+  - id: eredita-riciclo-storia
+    sezione: eredita
+    testo: 'Il riciclo dell''alluminio non è una conquista ambientalista recente:
+      è nato praticamente insieme all''industria. Nel 1904, diciotto anni dopo Hall
+      e Héroult, negli Stati Uniti venivano costruiti i primi due impianti per il
+      riciclo delle lattine di alluminio, uno a Chicago e uno a Cleveland. Il volume
+      crebbe in modo significativo quando le risorse metalliche si fecero scarse durante
+      la Prima guerra mondiale: il governo statunitense fece campagna perché i civili
+      donassero vecchi oggetti — pentole, padelle, barche, veicoli, giocattoli — da
+      rifondere per costruire velivoli. Il motivo per cui si riciclava, allora, non
+      era ecologico ma economico e militare; il vantaggio energetico era lo stesso
+      di oggi, semplicemente contava per ragioni diverse.'
+    attendibilita: documentato
+  - id: eredita-riciclo
+    sezione: eredita
+    testo: 'Se la produzione primaria è il peccato originale dell''alluminio, il riciclo
+      è la sua redenzione, e le cifre sono di quelle che cambiano il giudizio su una
+      materia. Rifondere rottami di alluminio richiede soltanto il cinque per cento
+      dell''energia necessaria a produrne di nuovo dal minerale grezzo: per ogni chilogrammo
+      riciclato se ne risparmiano diciannove ventesimi. Non è un margine di efficienza,
+      è un ordine di grandezza. Nel 2022 gli Stati Uniti hanno prodotto 3,86 tonnellate
+      di alluminio secondario per ogni tonnellata di primario, e l''alluminio secondario
+      ha rappresentato il trentaquattro per cento della nuova offerta totale, importazioni
+      comprese. I contenitori per bevande usati sono la componente maggiore del rottame
+      lavorato, e la maggior parte di essi torna a essere lattine di alluminio: lo
+      stesso oggetto, di nuovo, quasi senza costo energetico.'
+    attendibilita: documentato
+  - id: eredita-fango-riuso
+    sezione: eredita
+    testo: 'Sui centosettanta milioni di tonnellate annue di fango rosso si lavora,
+      e qualche progresso c''è. Un trattamento sempre più diffuso è la filtrazione,
+      che produce un pannello con un''umidità fra il ventitré e il ventisette per
+      cento; quel pannello può essere lavato con acqua o vapore per ridurne l''alcalinità
+      prima di essere trasportato e stoccato come materiale semi-essiccato. In quella
+      forma il residuo è ideale per il riuso, perché è meno alcalino, costa meno trasportarlo
+      ed è più facile da maneggiare — e il residuo di bauxite prodotto per filtropressatura
+      e condizionamento è classificato come non pericoloso dalla direttiva quadro
+      europea sui rifiuti. La quantità prodotta ha inoltre spinto scienziati e raffinatori
+      a cercargli impieghi: si è guardato a esso come possibile fonte di vanadio,
+      e un uso concreto è nella produzione ceramica. Non è ancora una soluzione, ma
+      è la differenza fra un rifiuto e un materiale.'
+    attendibilita: documentato
+  - id: eredita-corindone
+    sezione: eredita
+    testo: 'C''è un modo in cui l''ossido di alluminio è entrato nella storia umana
+      millenni prima del metallo, ed è la gioielleria. Il corindone è la forma cristallina
+      dell''ossido di alluminio, tipicamente con tracce di ferro, titanio, vanadio
+      e cromo, ed è un minerale che forma le rocce. In sé è trasparente; sono le impurezze
+      a colorarlo, e da quelle nascono i nomi che conosciamo: il cromo dà il rubino,
+      il ferro lo zaffiro, e si chiama zaffiro qualunque corindone che non sia rosso.
+      La varietà nera e granulare, mescolata a magnetite ed ematite, è lo smeriglio.
+      E c''è un primato che merita di essere detto: il corindone ha durezza 9 sulla
+      scala di Mohs, ed è il minerale che quel grado definisce. Sotto il diamante
+      non c''è nulla di più duro. Il metallo più tenero che si possieda, quando si
+      combina con l''ossigeno, produce la seconda sostanza più dura della natura.'
+    attendibilita: documentato
+  - id: eredita-rubini-sintetici
+    sezione: eredita
+    testo: 'Le tracce di cromo danno al rubino non solo il caratteristico rosso profondo
+      ma anche le sue qualità laser, e questo doppio dono ha aperto una carriera industriale
+      che pochi associano all''alluminio. Nel 1902 Auguste Verneuil annunciò il proprio
+      metodo di fusione a fiamma per far crescere rubini sintetici, descrivendolo
+      in dettaglio due anni dopo: diventava così possibile produrre commercialmente
+      corindone monocristallino. Nello stesso giro d''anni i forni elettrici rendevano
+      possibile la produzione commerciale di abrasivi in allumina fusa, e fra la fine
+      degli anni Venti e i primi anni Trenta si diffondevano le ceramiche ad alto
+      tenore di allumina, fra le cui prime applicazioni figurano gli isolatori delle
+      candele d''accensione e le attrezzature da laboratorio. Lo stesso ossido che
+      per secoli era stato un ostacolo — la gabbia da cui non si riusciva a cavare
+      il metallo — diventava gemma, abrasivo e isolante.'
+    attendibilita: documentato
+  - id: eredita-anodizzazione
+    sezione: eredita
+    testo: 'L''industria ha poi imparato a fare di proposito, e in grande, quello
+      che il metallo fa da sé in cinque nanometri. L''anodizzazione è un processo
+      di passivazione elettrolitica che serve ad aumentare lo spessore dello strato
+      di ossido naturale sulla superficie di un pezzo metallico, e si chiama così
+      perché il pezzo da trattare fa da elettrodo anodico di una cella elettrolitica.
+      Aumenta la resistenza alla corrosione e all''usura e offre alle vernici un''adesione
+      migliore del metallo nudo. C''è anche un versante estetico, e spiega i colori
+      degli oggetti che abbiamo in mano ogni giorno: i rivestimenti spessi sono porosi
+      e possono assorbire coloranti, mentre quelli sottili danno colore per interferenza
+      di film sottile. Su scala industriale l''anodizzazione fu usata per la prima
+      volta nel 1923, per proteggere dalla corrosione parti in duralluminio di idrovolanti.'
+    attendibilita: documentato
+  - id: eredita-foglio
+    sezione: eredita
+    testo: 'Il foglio di alluminio che tutti abbiamo in cucina nasconde due dettagli
+      che quasi nessuno conosce. Il primo è una data: nel 1911 la ditta Tobler, di
+      Berna, cominciò a incartare in alluminio le proprie tavolette di cioccolato,
+      compresa quella triangolare che si chiama Toblerone. Venticinque anni dopo Hall
+      e Héroult, il metallo che era costato quanto l''argento serviva a incartare
+      i dolci. Il secondo dettaglio risponde a una domanda che chiunque si è posto:
+      perché un lato è lucido e l''altro opaco. È difficile realizzare rulli con una
+      luce abbastanza fine per gli spessori del foglio — quello domestico standard
+      è 0,016 millimetri, e si arriva comunemente fino a sei micrometri — e per evitare
+      strappi, aumentare la produzione e controllare lo spessore, nell''ultimo passaggio
+      sotto i 0,025 millimetri si laminano due fogli insieme. Le facce che toccano
+      il rullo restano lucide, quelle che si toccano fra loro restano opache.'
+    attendibilita: documentato
+  - id: eredita-allume-oggi
+    sezione: eredita
+    testo: 'C''è un capitolo di questa storia che non si è mai chiuso, ed è quello
+      da cui era cominciata. L''allume di potassio, il sale che Erodoto citava nel
+      V secolo avanti Cristo, è ancora largamente in uso: nel trattamento delle acque,
+      in medicina, in cosmesi, nella preparazione degli alimenti — sta nel lievito
+      in polvere e nelle conserve sottaceto — e per rendere ignifughi carta e tessuti,
+      esattamente come gli antichi lo usavano sul legno delle fortezze. Serve ancora
+      da flocculante per chiarificare i liquidi torbidi, da mordente nella tintura
+      e nella concia. Chi si è tagliato radendosi conosce forse la pietra di allume
+      dei barbieri, usata per fermare il sangue; e in tutto il Sud-est asiatico insulare
+      è noto come tawas, antitraspirante e deodorante tradizionale. Il metallo è arrivato
+      nel 1825 e in centocinquant''anni ha conquistato il mondo; il suo sale, intanto,
+      continuava a fare le stesse cose che faceva da venticinque secoli.'
+    attendibilita: documentato
+  - id: eredita-heroult-acciaio
+    sezione: eredita
+    testo: 'Dei due gemelli industriali, Héroult ebbe una seconda vita che quasi nessuno
+      gli accredita. Il suo contributo più importante dopo l''elettrolisi dell''alluminio
+      fu il primo forno elettrico ad arco commercialmente valido per l''acciaio, nel
+      1900; il forno Héroult sostituì gradualmente le grandi fonderie tradizionali
+      nella produzione di diversi tipi di acciaio. Nel 1905 fu invitato negli Stati
+      Uniti come consulente tecnico di varie aziende, in particolare della United
+      States Steel Corporation e della Halcomb Steel, che installò il primo forno
+      Héroult in America. L''uomo che aveva reso l''alluminio economico abbastanza
+      da insidiare l''acciaio passò gli ultimi anni a insegnare agli americani come
+      fare l''acciaio meglio. E anche il forno ad arco, in fondo, è la stessa idea
+      del 1886 applicata a un altro metallo: far passare moltissima corrente attraverso
+      qualcosa finché non diventa liquido.'
+    attendibilita: documentato
+  - id: eredita-da-dove-viene
+    sezione: eredita
+    testo: 'Resta da dire da dove venga, prima ancora della crosta terrestre. L''alluminio
+      ha un solo isotopo stabile, l''alluminio-27, ed è il diciottesimo nucleo più
+      abbondante dell''universo; nel sistema solare la sua abbondanza per particella
+      è di 3,15 parti per milione, il che ne fa il dodicesimo elemento in assoluto
+      e il terzo fra quelli di numero atomico dispari, dopo idrogeno e azoto. La sua
+      origine è violenta e precisa: viene creato quasi interamente dopo la fusione
+      del carbonio nelle stelle massicce destinate a diventare supernove di tipo II.
+      Quella fusione produce magnesio-26 che, catturando protoni e neutroni liberi,
+      diventa alluminio; quantità minori si formano nei gusci di combustione dell''idrogeno
+      delle stelle evolute. Il metallo delle lattine e degli infissi è cenere di stelle
+      che sono esplose.'
+    attendibilita: documentato
+  - id: eredita-alluminio-26
+    sezione: eredita
+    testo: 'Esiste poi un secondo isotopo, presente solo in tracce, che ha trovato
+      un mestiere. L''alluminio-26 decade con un''emivita di 717.000 anni, e proprio
+      la sua radioattività lo rende utilizzabile per la datazione radiometrica. Chi
+      ha letto in queste pagine la storia dell''argon riconoscerà il principio: un
+      orologio nucleare che si legge contando quanto ne è rimasto. Con una differenza
+      di scala che vale la pena notare — l''argon-40 viene dal potassio-40, che ha
+      un''emivita di oltre un miliardo di anni e serve a datare le ere geologiche;
+      l''alluminio-26, con settecentomila anni, misura tempi mille volte più brevi.
+      Ogni isotopo radioattivo è un orologio tarato su una scala diversa, e per leggere
+      la storia della Terra servono tutti.'
+    attendibilita: documentato
+  - id: eredita-oggi
+    sezione: eredita
+    testo: 'Dove sia arrivato oggi quel metallo da vetrina lo dicono due cifre e uno
+      spostamento geografico. Nella seconda metà del Novecento l''alluminio è entrato
+      nei trasporti e negli imballaggi, è diventato una commodity di scambio negli
+      anni Settanta, e la produzione ha cominciato a spostarsi dai paesi sviluppati
+      a quelli in via di sviluppo: entro il 2010 la Cina aveva accumulato una quota
+      particolarmente ampia sia nella produzione sia nel consumo. La produzione mondiale
+      ha continuato a crescere fino a raggiungere 58.500.000 tonnellate metriche nel
+      2015. E c''è un dato finale che vale come riassunto dell''intera storia: la
+      produzione di alluminio supera quella di tutti gli altri metalli non ferrosi
+      messi insieme. Nel 1884 il mondo ne produceva 3,6 tonnellate all''anno; centotrentuno
+      anni dopo, più di tutti gli altri metalli non ferrosi sommati.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'L''alluminio è l''unico elemento la cui storia sia una storia di ingegneria
+      e non di scoperta. Non è mai stato raro: costituisce l''8,23 per cento della
+      crosta terrestre, più di ogni altro metallo. Non è mai stato nascosto: sta nell''argilla,
+      nei feldspati, nell''allume che i tintori usavano ai tempi di Erodoto. Era semplicemente
+      legato all''ossigeno troppo strettamente perché qualcuno potesse separarlo,
+      e per liberarlo è servito qualcosa che prima non esisteva — non una teoria nuova,
+      ma la corrente elettrica in quantità industriale. Ecco perché il prezzo è crollato
+      in quarant''anni da oltre quello dell''oro a quello di una merce qualunque:
+      non si era trovato un giacimento, si era trovata una presa di corrente. E il
+      conto si paga ancora oggi, in 15,37 chilowattora per ogni chilogrammo e in 170
+      milioni di tonnellate annue di fango rosso. L''unica risposta seria che abbiamo
+      trovato è rifonderlo, perché quel gesto costa il cinque per cento dell''energia
+      e restituisce lo stesso metallo. Di tutti gli elementi raccontati in queste
+      pagine, l''alluminio è quello che dimostra meglio una cosa scomoda: che la disponibilità
+      di una sostanza non dipende da quanta ce n''è, ma da quanta energia siamo disposti
+      a spendere per averla.'
+    attendibilita: documentato
 composti_principali:
 - nome: Ossido di alluminio (allumina)
   formula: Al2O3
@@ -231,3 +990,48 @@ fonti:
   titolo: 'Topping Off the Tip: How Aluminum Found Its Way onto the Washington Monument (Prologue
     Magazine, National Archives)'
   consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Charles_Martin_Hall
+  titolo: Charles Martin Hall
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Paul_Héroult
+  titolo: Paul Héroult
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Hans_Christian_Ørsted
+  titolo: Hans Christian Ørsted
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Friedrich_Wöhler
+  titolo: Friedrich Wöhler
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Hall–Héroult_process
+  titolo: Hall–Héroult process
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Bayer_process
+  titolo: Bayer process
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Bauxite
+  titolo: Bauxite
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Red_mud
+  titolo: Red mud
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Ajka_alumina_plant_accident
+  titolo: Ajka alumina plant accident
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Aluminium_recycling
+  titolo: Aluminium recycling
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Aluminium_oxide
+  titolo: Aluminium oxide
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Aluminium_foil
+  titolo: Aluminium foil
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Corundum
+  titolo: Corundum
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Anodizing
+  titolo: Anodizing
+  consultata: 2026-09-14
+- url: https://en.wikipedia.org/wiki/Alum
+  titolo: Alum
+  consultata: 2026-09-14
