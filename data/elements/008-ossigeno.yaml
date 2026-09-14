@@ -199,6 +199,821 @@ contenuti:
   - termine: Joseph Priestley
     ipa: ˈdʒoʊzəf ˈpriːstli
     nota: All'inglese; la seconda sillaba è quasi muta.
+contenuti_estesi:
+  hook: 'Per duemila anni l''aria è stata un elemento: una delle quattro sostanze
+    semplici di cui tutto è fatto. Poi, nel giro di tre anni e in tre paesi diversi,
+    tre uomini isolano lo stesso gas senza sapere l''uno dell''altro, e la contesa
+    su chi lo abbia scoperto non si è mai chiusa, perché ciascuno dei tre fece una
+    cosa diversa: uno lo ottenne per primo, uno lo pubblicò per primo, uno lo capì.
+    Ne esce l''elemento più abbondante della crosta terrestre, il nome sbagliato che
+    porta ancora, e la fine di una teoria che aveva spiegato il fuoco per un secolo
+    intero.'
+  beats:
+  - id: contesto-abbondanza
+    sezione: contesto
+    testo: 'L''ossigeno è l''elemento più abbondante della crosta terrestre e ne costituisce
+      quasi la metà, ma quasi mai lo si incontra da solo: sta dentro ossidi, cioè
+      dentro l''acqua, l''anidride carbonica, gli ossidi di ferro e i silicati che
+      formano gran parte delle rocce. È un non metallo altamente reattivo e un ossidante
+      potente, capace di formare ossidi con la maggior parte degli elementi e con
+      moltissimi composti. La roccia su cui si cammina è, in buona parte, ossigeno
+      legato a qualcos''altro; la parte libera, quella che si respira, è l''eccezione
+      e non la regola.'
+    attendibilita: documentato
+  - id: contesto-numeri
+    sezione: contesto
+    testo: 'Le proporzioni dell''ossigeno meritano di essere messe in fila, perché
+      cambiano a seconda di dove si guarda e ogni cifra racconta qualcosa. Nell''universo
+      è il terzo elemento per abbondanza dopo idrogeno ed elio, con un distacco enorme
+      dai due capoclassifica ma altrettanto enorme su chi segue: nella Via Lattea
+      l''idrogeno vale 739.000 parti per milione in massa e l''elio 240.000, l''ossigeno
+      10.400 e il carbonio, quarto, 4.600. Lo stesso Sole è ossigeno per lo 0,9 per
+      cento della propria massa. Sulla Terra le quote salgono: il 49,2 per cento della
+      crosta in massa, l''88,8 per cento degli oceani. Nell''atmosfera, invece, è
+      secondo dopo l''azoto e vale il 20,8 per cento del volume, cioè il 23,1 per
+      cento della massa.'
+    attendibilita: documentato
+  - id: contesto-va-rifornito
+    sezione: contesto
+    testo: 'C''è una conseguenza di quella reattività che vale la pena mettere a fuoco
+      subito, perché rovescia l''intuizione comune. L''ossigeno è troppo reattivo
+      per restare libero nell''aria: se non venisse continuamente rifornito, sparirebbe,
+      legandosi a tutto ciò che trova. Il rifornimento è opera dell''attività fotosintetica
+      degli autotrofi — cianobatteri, alghe dotate di cloroplasti, piante terrestri
+      — e non si interrompe mai. L''atmosfera che respiriamo non è uno stato di equilibrio
+      raggiunto una volta per tutte: è un flusso, mantenuto da organismi che lavorano
+      in continuazione.'
+    attendibilita: documentato
+  - id: contesto-diradicale
+    sezione: contesto
+    testo: 'La molecola che respiriamo ha una configurazione elettronica che, sui
+      manuali, è un caso da segnalare. Nel suo stato fondamentale l''ossigeno molecolare
+      ha due elettroni spaiati, il che ne fa un esempio insolito di diradicale stabile
+      e di uso comune: i radicali, di norma, sono specie fugaci e aggressive, mentre
+      questo sta nell''aria da miliardi di anni. La ragione sta in due orbitali molecolari
+      π di pari energia: le regole di Hund impongono che i due elettroni li occupino
+      separatamente e con spin paralleli invece di accoppiarsi, ed è da lì che viene
+      anche il paramagnetismo dell''ossigeno, cioè il fatto che l''ossigeno liquido
+      resti appeso fra i poli di una calamita.'
+    attendibilita: documentato
+  - id: contesto-singoletto
+    sezione: contesto
+    testo: 'Quei due orbitali semipieni hanno carattere antilegante, e la conseguenza
+      si vede nel confronto con il vicino di casa. Occupandoli, i due elettroni abbassano
+      l''ordine di legame della molecola da tre a due: l''azoto, che quegli stessi
+      orbitali li lascia vuoti, ha il triplo legame e per questo è quasi inerte, mentre
+      l''ossigeno ne ha uno doppio. Esiste però anche lo stato in cui i due elettroni
+      si accoppiano, ed è l''ossigeno di singoletto: molto più reattivo del normale
+      e metastabile. La stessa molecola, con la stessa formula, in una configurazione
+      elettronica diversa diventa un''altra cosa.'
+    attendibilita: documentato
+  - id: contesto-azzurro
+    sezione: contesto
+    testo: 'C''è un dettaglio estetico che quasi nessuno si aspetta: l''ossigeno ha
+      un colore, solo che alle temperature ordinarie non si vede. Allo stato gassoso
+      è incolore, come l''aria di cui fa parte; ma liquido e solido è azzurro pallido,
+      un celeste tenue che non dipende da impurità ma dalla molecola stessa. Per vederlo
+      bisogna scendere sotto i centottantatré gradi sotto zero, e a quel punto l''ossigeno
+      mostra due proprietà insieme: il colore e il magnetismo, perché è proprio in
+      quello stato che si può sospendere fra i poli di una calamita. Il gas di cui
+      è fatto un quinto dell''aria, raffreddato abbastanza, diventa un liquido azzurro
+      che risponde ai magneti.'
+    attendibilita: documentato
+  - id: contesto-tre-isotopi
+    sezione: contesto
+    testo: 'Dal punto di vista nucleare l''ossigeno è semplice e monotono: quasi tutto
+      quello che esiste è ossigeno-16, che da solo vale il 99,8 per cento del totale,
+      mentre l''ossigeno-18 si ferma allo 0,2 e l''ossigeno-17 a meno di un ventesimo
+      di punto. Sembra un dettaglio da tabella, e invece quella minoranza di atomi
+      pesanti è uno strumento centrale delle scienze della Terra: le molecole d''acqua
+      con l''isotopo più leggero evaporano un po'' più facilmente e precipitano un
+      po'' meno, cosicché l''acqua dolce e il ghiaccio polare contengono meno ossigeno-18
+      dell''aria e dell''acqua di mare. È questa disparità a permettere di studiare
+      gli andamenti storici della temperatura analizzando le carote di ghiaccio. Il
+      termometro del Quaternario è fatto contando atomi rari di ossigeno.'
+    attendibilita: documentato
+  - id: vicenda-aria-reagente
+    sezione: vicenda
+    testo: 'Il cambiamento concettuale che rende possibile tutto il resto ha un nome:
+      chimica pneumatica, l''area di ricerca che fra Seicento, Settecento e primo
+      Ottocento si occupò delle proprietà fisiche dei gas, del loro rapporto con le
+      reazioni chimiche e, in ultima analisi, della composizione della materia. L''idea
+      nuova, attorno a cui nacque un intero campo della filosofia naturale, è che
+      l''aria fosse un reagente. Prima di allora l''aria era considerata soprattutto
+      una sostanza statica, che non reagiva e semplicemente esisteva: lo sfondo davanti
+      a cui le cose accadevano. Lavoisier e gli altri chimici pneumatici insistettero
+      sul contrario, cioè che l''aria fosse dinamica, influenzata da ciò che brucia
+      e capace a sua volta di influenzare le proprietà delle sostanze.'
+    attendibilita: documentato
+  - id: vicenda-flogisto
+    sezione: vicenda
+    testo: 'Per capire perché sia stato così difficile riconoscere l''ossigeno bisogna
+      prendere sul serio la teoria che lo rendeva invisibile. Il flogisto — dal greco
+      phlogistón, «che brucia», da phlóx, fiamma — era una sostanza che si supponeva
+      contenuta nei corpi combustibili e liberata durante la combustione: bruciare
+      significava deflogisticarsi, cedendo all''aria il proprio flogisto. La teoria
+      tentava di spiegare insieme la combustione e l''arrugginimento, cioè quello
+      che oggi chiamiamo collettivamente ossidazione, e per questo era ambiziosa e
+      utile. Aveva un solo problema, ma serio: l''aumento di massa che accompagnava
+      quei processi.'
+    attendibilita: documentato
+  - id: vicenda-becher-stahl
+    sezione: vicenda
+    testo: 'La teoria ha una genealogia precisa. Nel 1669 Johann Joachim Becher propose
+      l''esistenza di una terra pinguis, l''elemento che conferiva alle sostanze le
+      proprietà oleose, sulfuree o combustibili e che si liberava bruciando. Becher
+      ebbe poca parte nel flogisto come lo conosciamo, ma ebbe una grande influenza
+      sul proprio allievo: nel 1703 Georg Ernst Stahl, professore di medicina e chimica
+      a Halle, ribattezzò la terra pinguis del maestro con il nome di flogisto, ed
+      è in questa forma che la teoria ebbe probabilmente la sua massima influenza.
+      Il termine, peraltro, non l''aveva inventato nemmeno lui: risulta già in uso
+      nel 1606, e con un significato molto simile.'
+    attendibilita: documentato
+  - id: vicenda-flogisto-utile
+    sezione: vicenda
+    testo: 'Sarebbe però sbagliato archiviare il flogisto come una superstizione che
+      ritardò il progresso, e le fonti sono esplicite su questo punto: fu proprio
+      la teoria del flogisto a condurre agli esperimenti che sfociarono nell''identificazione
+      dell''ossigeno intorno al 1771 e nel suo battesimo nel 1777. Priestley cercava
+      aria deflogisticata perché credeva nel flogisto, e trovandola dimostrò che il
+      flogisto non serviva. È il modo in cui le teorie sbagliate sono utili: non perché
+      siano vere, ma perché dicono dove guardare, e a volte quello che si trova guardando
+      lì le distrugge.'
+    attendibilita: documentato
+  - id: vicenda-discusso-sendivogius
+    sezione: vicenda
+    testo: 'Prima ancora di arrivare ai tre nomi che tutti conoscono, va registrato
+      un quarto contendente che la maggior parte dei racconti omette. La voce dedicata
+      all''elemento afferma che l''ossigeno fu isolato dall''alchimista Michael Sendivogius
+      prima del 1604, quasi due secoli prima di chiunque altro, e la stessa scheda
+      lo elenca fra gli scopritori accanto a Scheele. Subito dopo, però, aggiunge
+      che si ritiene comunemente che l''elemento sia stato scoperto in modo indipendente
+      da Scheele e da Priestley. Le due affermazioni convivono nella stessa fonte,
+      ed è un caso istruttivo: isolare un gas e riconoscerlo come elemento sono atti
+      diversi, e la storia della scienza premia quasi sempre il secondo. Questo approfondimento
+      registra la rivendicazione seicentesca senza assegnarle la scoperta, e senza
+      toglierla a chi la detiene per consenso.'
+    attendibilita: discusso
+  - id: vicenda-mayow
+    sezione: vicenda
+    testo: 'C''è poi un precursore che la contesa settecentesca ha completamente oscurato,
+      e la cui vicenda merita più di una nota a piè di pagina. John Mayow, medico
+      inglese vissuto fra il 1641 e il 1679 ed eletto alla Royal Society su proposta
+      di Robert Hooke, precedette Priestley e Lavoisier di un secolo nel riconoscere
+      l''esistenza dell''ossigeno — lo chiamava spiritus nitro-aereus — come entità
+      separata e distinta dalla massa generale dell''aria. Non si fermò lì: colse
+      il ruolo che quello spirito aereo svolge nella combustione e, soprattutto, nell''aumento
+      di peso delle calci dei metalli rispetto ai metalli stessi. Aveva individuato
+      l''anomalia che un secolo dopo avrebbe fatto crollare il flogisto, prima ancora
+      che il flogisto fosse stato formulato da Stahl.'
+    attendibilita: documentato
+  - id: vicenda-mayow-respirazione
+    sezione: vicenda
+    testo: Mayow arrivò anche più in là, applicando l'idea alla fisiologia. Riteneva
+      che il calore animale nascesse dall'unione delle particelle nitro-aeree respirate
+      dall'aria con le particelle combustibili presenti nel sangue, e che il cuore,
+      essendo un muscolo, cessi di battere quando la respirazione si arresta. È, con
+      il lessico sbagliato, una descrizione sostanzialmente corretta del rapporto
+      fra respirazione ed energia, e la stessa fonte gli riconosce una descrizione
+      anatomica notevolmente esatta del meccanismo respiratorio. Morì a Londra nel
+      1679, a poco meno di quarant'anni; il suo spiritus nitro-aereus fu dimenticato
+      e andò riscoperto da capo, con un altro nome, un secolo più tardi.
+    attendibilita: documentato
+  - id: vicenda-scheele
+    sezione: vicenda
+    testo: 'Il primo a tenere in mano il gas, per consenso quasi generale, è un farmacista
+      svedese. Carl Wilhelm Scheele lo produsse scaldando ossido mercurico e vari
+      nitrati fra il 1771 e il 1772, e ne descrisse alcune proprietà. Poi non pubblicò
+      per anni, e la ragione che le fonti danno non è la pigrizia né la segretezza:
+      non riusciva a interpretare il proprio lavoro dentro la cornice della teoria
+      del flogisto. È il punto più interessante di tutta la vicenda. Scheele aveva
+      in mano il risultato e gli mancava la lingua per dirlo, perché l''unica lingua
+      disponibile era quella che rendeva il risultato incomprensibile.'
+    attendibilita: documentato
+  - id: vicenda-scheele-chi-era
+    sezione: vicenda
+    testo: 'Vale la pena fermarsi su chi fosse quest''uomo, perché la sua figura smentisce
+      l''idea che la chimica del Settecento fosse affare di gentiluomini con rendite.
+      Scheele nacque a Stralsund, nella Pomerania svedese, nel 1742, e a quattordici
+      anni fu mandato a Göteborg come apprendista farmacista; preferì parlare tedesco
+      anziché svedese per tutta la vita, perché il tedesco era la lingua corrente
+      fra i farmacisti svedesi. Lavorando dietro un banco di farmacia identificò il
+      molibdeno, il tungsteno, il bario, l''azoto e il cloro, oltre all''ossigeno,
+      e scoprì gli acidi tartarico, ossalico, urico, lattico e citrico, più il fluoridrico,
+      il cianidrico e l''arsenico. Le fonti riassumono la cosa in una frase che vale
+      più di un elogio: ottenne risultati prolifici e importanti senza la costosa
+      attrezzatura di laboratorio a cui era abituato il suo contemporaneo parigino
+      Antoine Lavoisier.'
+    attendibilita: documentato
+  - id: vicenda-verde-di-scheele
+    sezione: vicenda
+    testo: 'Del suo nome porta traccia anche un colore, e il colore dice qualcosa
+      sull''epoca. Il verde di Scheele, noto anche come arsenito di rame o verde svedese,
+      è un pigmento a base di arsenico altamente tossico, che nell''Ottocento finì
+      nelle carte da parati, nei tessuti e perfino nei giocattoli. Le schede moderne
+      lo trattano con i limiti di esposizione che si riservano ai cancerogeni. È un
+      promemoria su che cosa significasse essere chimici in quel secolo: si scoprivano
+      sostanze utili e sostanze letali con gli stessi gesti, spesso senza sapere in
+      quale delle due categorie si stesse lavorando, e a volte la risposta arrivava
+      dopo la morte di chi le aveva trovate.'
+    attendibilita: documentato
+  - id: vicenda-scheele-morte
+    sezione: vicenda
+    testo: 'Morì il 21 maggio 1786 a Köping, a quarantatré anni, e la causa che i
+      medici indicarono chiude un cerchio con l''elemento raccontato poco prima in
+      questo vault: avvelenamento da mercurio, dopo una vita passata a lavorare come
+      chimico. Non era una fatalità isolata ma il rischio del mestiere, in un''epoca
+      in cui assaggiare e annusare le sostanze faceva parte del metodo e nessuno indossava
+      protezioni. L''uomo che per primo tenne in mano l''aria di fuoco fu ucciso dalle
+      altre arie che aveva respirato per trent''anni.'
+    attendibilita: documentato
+  - id: vicenda-aria-di-fuoco
+    sezione: vicenda
+    testo: 'Quando finalmente pubblicò, nel 1777, Scheele lo fece dopo aver letto
+      del lavoro di Priestley, due anni prima. Chiamò il gas «aria di fuoco», e il
+      nome ha una motivazione precisa e onesta: era, a quel tempo, l''unico agente
+      noto capace di sostenere la combustione. Non è una metafora poetica, è una definizione
+      operativa data da qualcuno che descriveva quello che vedeva senza pretendere
+      di spiegarlo. Le fonti annotano che, pur non essendo riuscito a cogliere il
+      significato della propria scoperta, il suo lavoro fu essenziale all''abbandono
+      della teoria del flogisto.'
+    attendibilita: documentato
+  - id: vicenda-priestley
+    sezione: vicenda
+    testo: 'Nell''agosto del 1774, a Bowood House nel Wiltshire, nel laboratorio messo
+      a disposizione da Lord Shelburne di cui era bibliotecario e precettore, il pastore
+      dissidente Joseph Priestley isolò un''aria che gli parve del tutto nuova. L''esperimento
+      è rimasto famoso per la sua semplicità: concentrare i raggi del sole con una
+      lente su un campione di ossido mercurico. Provò il gas sui topi, che lo sorpresero
+      sopravvivendo parecchio a lungo nell''ambiente chiuso, e lo chiamò «aria deflogisticata»,
+      cioè aria a cui il flogisto era stato tolto. Non ebbe modo di approfondire subito,
+      perché stava per partire per un viaggio in Europa con il suo protettore.'
+    attendibilita: documentato
+  - id: vicenda-parigi
+    sezione: vicenda
+    testo: 'Quel viaggio è il momento in cui la storia dell''ossigeno cambia rotta.
+      A Parigi, Priestley replicò l''esperimento davanti ad altri, e fra questi c''era
+      Antoine Lavoisier. Tornato in Inghilterra scrisse a diverse persone del nuovo
+      gas trovato in agosto, una di quelle lettere fu letta ad alta voce alla Royal
+      Society, e la memoria che ne seguì — «An Account of further Discoveries in Air»
+      — uscì sulle Philosophical Transactions. È questa la pubblicazione che gli vale,
+      in molte ricostruzioni, la priorità: non la prima preparazione del gas, ma la
+      prima stampa.'
+    attendibilita: documentato
+  - id: vicenda-discusso-quando
+    sezione: vicenda
+    testo: 'C''è un''obiezione che di solito non entra nei riassunti e che invece
+      meriterebbe di starci, perché sposta la domanda invece di rispondervi. La memoria
+      di Priestley narrava la scoperta in ordine cronologico, riportando i lunghi
+      intervalli fra un esperimento e l''altro e i propri iniziali smarrimenti; per
+      questa ragione, annota la fonte, è difficile stabilire quando esattamente Priestley
+      abbia «scoperto» l''ossigeno. Le virgolette sono nell''originale, e fanno un
+      lavoro preciso: suggeriscono che la scoperta non sia stata un istante ma un
+      processo, e che pretendere di datarla al giorno significhi già aver deciso che
+      cosa si sta cercando.'
+    attendibilita: discusso
+  - id: vicenda-tre-primati
+    sezione: vicenda
+    testo: 'A questo punto si possono mettere in fila i tre primati, ed è chiaro perché
+      nessuno dei tre annulli gli altri. Scheele fu il primo a isolare il gas, pur
+      avendo pubblicato dopo Priestley. Priestley fu il primo a pubblicare, pur avendo
+      chiamato quel gas «aria deflogisticata» e pur non avendolo riconosciuto come
+      elemento chimico. Lavoisier fu il primo a descriverlo come «l''aria stessa intera
+      e senza alterazione», cioè il primo a spiegarlo senza ricorrere al flogisto.
+      Tre uomini, tre primati diversi, e una sola domanda mal posta: chi ha scoperto
+      l''ossigeno dipende interamente da che cosa si decide che significhi scoprire.'
+    attendibilita: documentato
+  - id: vicenda-discusso-data-nome
+    sezione: vicenda
+    testo: Anche sulla data del battesimo le fonti divergono, e la divergenza va dichiarata.
+      La nota base di questo vault colloca nel 1779 il momento in cui Lavoisier assegna
+      il nome oxygène; la voce consultata data invece al 1777 sia il riconoscimento
+      dell'ossigeno come elemento chimico sia l'attribuzione del nome, e lo ripete
+      nella scheda riassuntiva. Le due cose non sono incompatibili — un termine può
+      comparire in una memoria letta in un anno e in una pubblicazione a stampa in
+      un altro, e il sistema di nomenclatura che lo fissò definitivamente è del 1787
+      — ma le fonti non esplicitano quale passaggio stanno datando. Questo approfondimento
+      segue il 1777 e lascia la questione aperta.
+    attendibilita: discusso
+  - id: vicenda-la-bilancia
+    sezione: vicenda
+    testo: 'Ciò che Lavoisier fece e che agli altri non era venuto in mente non è
+      un esperimento nuovo: è una contabilità. Pesare tutto ciò che entra e tutto
+      ciò che esce da una reazione, recipiente compreso, e confrontare i totali. Fatto
+      questo, il paradosso che la teoria del flogisto aveva sempre aggirato diventa
+      impossibile da ignorare: un metallo che arrostisce dovrebbe perdere flogisto
+      e invece pesa di più, e quel peso in più corrisponde esattamente a quello che
+      l''aria del recipiente ha perduto. Non si perde niente, si combina. Il flogisto
+      non viene confutato da un argomento: diventa superfluo, che nella storia delle
+      idee è una morte peggiore.'
+    attendibilita: documentato
+  - id: vicenda-marie-anne
+    sezione: vicenda
+    testo: 'Nel laboratorio dell''Arsenale, però, non c''era un uomo solo. Marie-Anne
+      Pierrette Paulze aveva sposato Lavoisier nel dicembre del 1771, a tredici anni,
+      e le circostanze meritano di essere dette: aveva ricevuto una proposta di matrimonio
+      dal conte d''Amerval, cinquantenne, e il padre, minacciato di perdere il proprio
+      posto alla Ferma generale se si fosse opposto, sventò l''unione offrendo la
+      mano della figlia a un collega — Lavoisier — che accettò. Da quel matrimonio
+      combinato per evitarne un altro nacque una collaborazione tutt''altro che decorativa:
+      ricevette una formazione chimica formale da Bucquet e Gingembre, colleghi del
+      marito, fu per un periodo allieva del pittore Jacques-Louis David — che avrebbe
+      poi ritratto i coniugi — e usò le proprie competenze linguistiche per redigere
+      i lavori del marito e portarli a un pubblico internazionale. Le fonti le riconoscono
+      un ruolo cardine nella traduzione di diverse opere scientifiche e la dicono
+      strumentale alla standardizzazione del metodo scientifico. La maggior parte
+      del lavoro di ricerca svolto in quel laboratorio, annotano, fu in realtà uno
+      sforzo congiunto dei due.'
+    attendibilita: documentato
+  - id: vicenda-kirwan
+    sezione: vicenda
+    testo: 'Il contributo più notevole di Marie-Anne alla caduta del flogisto ha un
+      titolo preciso: la traduzione dell''«Essay on Phlogiston and the Constitution
+      of Acids» di Richard Kirwan, che era una difesa della teoria avversaria. Lei
+      non si limitò a tradurlo: lo criticò mentre lo traduceva, aggiungendo note a
+      piè di pagina e segnalando gli errori di chimica lungo tutto il testo. È un''operazione
+      intellettuale, non un servizio di segreteria, e permise al circolo di Lavoisier
+      di smontare l''opera avversaria punto per punto. Nell''edizione originale non
+      fu accreditata come traduttrice; comparve solo in quelle successive. Tradusse
+      inoltre, per uso personale del marito, lavori di Priestley, di Cavendish e di
+      altri: senza quel lavoro, Lavoisier non avrebbe saputo che cosa stessero facendo
+      gli inglesi.'
+    attendibilita: documentato
+  - id: vicenda-moti-birmingham
+    sezione: vicenda
+    testo: 'Le vite dei due protagonisti superstiti finiscono entrambe travolte dalla
+      Rivoluzione francese, ma da lati opposti. Priestley la sosteneva, e questo,
+      unito alla sua posizione di dissidente religioso, gli costò tutto. Dal 14 al
+      17 luglio 1791 a Birmingham scoppiarono i moti che portano il suo nome: cominciarono
+      con l''assalto al Royal Hotel, dove era in corso un banchetto organizzato per
+      manifestare sostegno ai rivoluzionari francesi, e proseguirono con la chiesa
+      e la casa di Priestley. In quattro giorni i rivoltosi attaccarono o bruciarono
+      quattro cappelle dissidenti, ventisette case e diverse attività commerciali.
+      L''uomo che aveva regalato al mondo l''aria deflogisticata dovette lasciare
+      la città, e alla fine il paese.'
+    attendibilita: documentato
+  - id: vicenda-priestley-chi-era
+    sezione: vicenda
+    testo: 'Anche Priestley, come Scheele, non era un chimico e basta. Era un pastore
+      unitariano, filosofo naturale, teologo separatista, grammatico, insegnante e
+      teorico politico liberale, e pubblicò oltre centocinquanta opere. Alla chimica
+      dei gas diede molto più dell''ossigeno: le fonti gli attribuiscono la scoperta
+      di altri nove gas, fra cui il monossido di carbonio, l''ossido nitrico, il protossido
+      d''azoto, l''ammoniaca, l''anidride solforosa e il tetrossido di diazoto, oltre
+      alla scoperta del ciclo del carbonio. Era membro della Royal Society dal 1766
+      e aveva ricevuto la medaglia Copley nel 1772, due anni prima dell''esperimento
+      con la lente.'
+    attendibilita: documentato
+  - id: vicenda-priestley-fuga
+    sezione: vicenda
+    testo: 'Dopo i moti, l''Inghilterra diventò per lui un paese inabitabile. I figli
+      Harry e Joseph partirono per l''America nell''agosto del 1793; lui li seguì
+      con la moglie imbarcandosi sulla Sansom a Gravesend il 7 aprile 1794. Il tempismo
+      fu provvidenziale: cinque settimane dopo la sua partenza, il governo di William
+      Pitt cominciò ad arrestare i radicali per diffamazione sediziosa, dando luogo
+      ai celebri processi per tradimento di quello stesso anno. Priestley morì in
+      Pennsylvania, a Northumberland, nel 1804. C''è una coincidenza che vale la pena
+      notare: mentre lui attraversava l''Atlantico per sfuggire a chi lo accusava
+      di simpatie rivoluzionarie, a Parigi la Rivoluzione stava per uccidere l''uomo
+      che aveva capito il suo gas.'
+    attendibilita: documentato
+  - id: vicenda-terrore
+    sezione: vicenda
+    testo: 'Lavoisier la Rivoluzione la subì. Nel 1793, per la sua posizione di primo
+      piano nella Ferma generale — il consorzio privato che riscuoteva imposte per
+      la corona — fu bollato come traditore durante il Terrore; il padre di Marie-Anne,
+      anch''egli membro di rilievo della Ferma, fu arrestato per motivi analoghi.
+      Il 28 novembre 1793 Lavoisier si consegnò e fu imprigionato a Port Libre. Per
+      tutta la durata della detenzione la moglie andò a trovarlo regolarmente e si
+      batté per la sua liberazione. Non servì: nel maggio del 1794 furono ghigliottinati
+      entrambi, il marito e il padre, lo stesso giorno.'
+    attendibilita: documentato
+  - id: vicenda-coffinhal
+    sezione: vicenda
+    testo: 'Alla richiesta di risparmiare Lavoisier in nome dei suoi contributi alla
+      scienza, la risposta attribuita al giudice Coffinhal è diventata una delle frasi
+      più citate nella storia del rapporto fra potere e sapere: «La Repubblica non
+      ha bisogno di scienziati né di chimici; il corso della giustizia non può essere
+      sospeso». Il matematico Lagrange commentò l''esecuzione con parole altrettanto
+      memorabili: «È bastato loro un istante per far cadere questa testa, e cent''anni
+      forse non basteranno a produrne una simile». Vale la pena aggiungere una nota
+      che raramente si legge: lo stesso Coffinhal fu giustiziato meno di tre mesi
+      dopo, travolto dalla reazione termidoriana.'
+    attendibilita: documentato
+  - id: vicenda-biglietto
+    sezione: vicenda
+    testo: 'Un anno e mezzo dopo l''esecuzione, il governo francese riabilitò completamente
+      Lavoisier. Durante il Terrore bianco i suoi beni furono consegnati alla vedova,
+      e con essi un breve biglietto il cui testo è l''epilogo più asciutto che questa
+      storia potesse avere: «Alla vedova di Lavoisier, ingiustamente condannato».
+      Marie-Anne aveva perso in un giorno il marito e il padre, era rimasta senza
+      mezzi per la confisca del proprio denaro e dei propri beni, e il nuovo governo
+      aveva sequestrato tutti i quaderni e le attrezzature di laboratorio di Lavoisier.
+      Nonostante questi ostacoli organizzò la pubblicazione delle sue memorie finali,
+      le Mémoires de Chimie, raccolta dei lavori suoi e dei colleghi che dimostravano
+      i principi della nuova chimica. Nella copia originale scrisse una prefazione
+      in cui attaccava i rivoluzionari e i contemporanei che riteneva responsabili
+      della morte del marito: quella prefazione non entrò nella pubblicazione finale.'
+    attendibilita: documentato
+  - id: vicenda-discusso-battito
+    sezione: vicenda
+    testo: 'Circola infine un racconto che vale la pena riportare proprio per dire
+      che non regge. Vuole che Lavoisier, salito sul patibolo, si fosse accordato
+      con un assistente per continuare a sbattere le palpebre dopo la decapitazione,
+      così da misurare quanto a lungo la testa conservasse coscienza: l''ultimo esperimento
+      di un uomo che aveva passato la vita a misurare. In alcune varianti l''osservatore
+      è addirittura Lagrange. Le fonti classificano la storia come apocrifa e notano
+      che non compare nei resoconti contemporanei della morte di Lavoisier. È un aneddoto
+      troppo bello per essere vero, ed è istruttivo che sia sopravvissuto lo stesso:
+      anche la storia della scienza ha i suoi miti, e resistono per la stessa ragione
+      per cui resistono tutti, perché raccontano bene una cosa giusta.'
+    attendibilita: discusso
+  - id: impatto-rivoluzione
+    sezione: impatto
+    testo: 'Quello che l''ossigeno ha prodotto non è una scoperta ma una riformulazione
+      dell''intera disciplina, e gli storici la chiamano rivoluzione chimica. Il suo
+      esito sono due cose insieme: la legge di conservazione della massa e la teoria
+      della combustione basata sull''ossigeno. Fra i fattori che vi portarono, le
+      fonti indicano anzitutto le forme di analisi gravimetrica emerse dall''alchimia
+      e i nuovi tipi di strumenti sviluppati in ambito medico e industriale. Non fu
+      quindi un''idea che scese dall''alto: fu quel che accade quando una disciplina
+      impara a pesare bene e scopre che i conti non tornano.'
+    attendibilita: documentato
+  - id: impatto-nomenclatura
+    sezione: impatto
+    testo: 'Il lascito più duraturo di quella svolta non è una scoperta ma un vocabolario.
+      Nel 1787 Lavoisier presentò all''accademia, insieme a Louis-Bernard Guyton de
+      Morveau, Claude-Louis Berthollet e Antoine François de Fourcroy, un programma
+      di riforma della nomenclatura chimica, perché a quel tempo un sistema razionale
+      di nomi praticamente non esisteva. Il risultato, la Méthode de nomenclature
+      chimique, introdusse un sistema legato inestricabilmente alla nuova teoria dell''ossigeno:
+      il nome del composto doveva dire di che cosa è fatto. Lo stesso Lavoisier contribuì
+      alla costruzione del sistema metrico e scrisse il primo elenco esteso di elementi,
+      nel quale previde l''esistenza del silicio.'
+    attendibilita: documentato
+  - id: impatto-discusso-conservazione
+    sezione: impatto
+    testo: 'Anche il principio che di solito si attribuisce a Lavoisier senza esitare,
+      la conservazione della massa, ha una genealogia più affollata di quanto i manuali
+      lascino intendere. Le fonti segnalano che Michail Lomonosov aveva espresso idee
+      simili già nel 1748 e le aveva dimostrate sperimentalmente, e che fra coloro
+      le cui intuizioni precedono il lavoro di Lavoisier vanno annoverati anche Jean
+      Rey, Joseph Black e Henry Cavendish. Non è una sottrazione di merito: enunciare
+      un principio, dimostrarlo e renderlo il fondamento operativo di una disciplina
+      sono cose diverse, e Lavoisier fece la terza. Ma è la stessa struttura che abbiamo
+      visto per l''ossigeno, e vale la pena notarlo: nella storia della scienza la
+      priorità è quasi sempre più affollata del racconto che se ne fa.'
+    attendibilita: discusso
+  - id: impatto-discusso-lavoisier-padre
+    sezione: impatto
+    testo: 'Anche l''attribuzione di quella rivoluzione è cambiata, e vale la pena
+      registrarlo perché tocca il modo stesso in cui raccontiamo la scienza. Durante
+      l''Ottocento e il Novecento la trasformazione fu accreditata al lavoro di Antoine
+      Lavoisier, che da allora porta il titolo di padre della chimica moderna. Gli
+      studi recenti sulla storia della chimica della prima età moderna la leggono
+      però diversamente: come un insieme di cambiamenti graduali nella teoria e nella
+      pratica chimica emersi nell''arco di due secoli. Le due letture non si escludono
+      del tutto — un processo lungo può avere un momento di svolta e una persona che
+      lo compie — ma cambiano parecchio il posto che si assegna al singolo, e questo
+      approfondimento le riporta entrambe.'
+    attendibilita: discusso
+  - id: impatto-aria-miscela
+    sezione: impatto
+    testo: 'Il risultato che chiude davvero la questione non riguarda l''ossigeno
+      ma l''aria. Nel lavoro del 1777 Lavoisier dimostrò che l''aria è una miscela
+      di due gas: uno, che chiamò «aria vitale», essenziale alla combustione e alla
+      respirazione, e un altro, che battezzò azote dal greco per «senza vita», che
+      non sosteneva né l''una né l''altra. Duemila anni di aria-elemento finiscono
+      lì, in una frase. Il secondo gas in inglese è poi diventato nitrogen, mentre
+      il francese e diverse altre lingue europee — fra cui la nostra, con azoto —
+      hanno conservato il nome che Lavoisier gli aveva dato.'
+    attendibilita: documentato
+  - id: impatto-davy
+    sezione: impatto
+    testo: 'L''errore contenuto nel nome fu smontato con precisione e con nome e data:
+      furono chimici come Sir Humphry Davy, nel 1812, a stabilire che Lavoisier aveva
+      torto, e l''esempio che lo dimostra è l''acido cloridrico, un acido forte che
+      di ossigeno non ne contiene affatto. A quel punto, però, il nome era troppo
+      saldamente stabilito per poterlo cambiare. C''è anche un dettaglio che dice
+      molto sulle rivalità nazionali della scienza: la parola entrò nella lingua inglese
+      nonostante l''opposizione degli scienziati inglesi e nonostante l''inglese Priestley
+      avesse isolato il gas per primo. Il francese vinse la nomenclatura anche in
+      casa d''altri.'
+    attendibilita: documentato
+  - id: impatto-nome-sbagliato
+    sezione: impatto
+    testo: 'Il nome che l''elemento porta è un errore fossilizzato, e la sua etimologia
+      lo dichiara apertamente: viene dal greco oxýs, che significa acido e letteralmente
+      «aguzzo», dal sapore degli acidi, unito al suffisso -genès, «generatore». Generatore
+      di acidi: perché Lavoisier era convinto che ogni acido dovesse contenerlo. L''ipotesi
+      era ragionevole, dato quel che si conosceva allora, e si rivelò sbagliata. Il
+      nome però era già entrato in tutte le lingue d''Europa, e nessuno lo ha più
+      tolto: l''italiano ossigeno è la traduzione fedele di una tesi che nessun chimico
+      sostiene più.'
+    attendibilita: documentato
+  - id: impatto-liquefazione
+    sezione: impatto
+    testo: 'Un secolo dopo, l''ossigeno produce una seconda contesa di priorità, questa
+      volta misurata in giorni. Il 22 dicembre 1877 lo svizzero Raoul Pierre Pictet
+      telegrafò all''Accademia delle scienze di Parigi annunciando di aver ottenuto
+      ossigeno liquido, con un metodo a cascata: evaporare anidride solforosa liquida
+      per liquefare anidride carbonica, evaporare quella per raffreddare l''ossigeno
+      abbastanza da liquefarlo a sua volta. Appena due giorni più tardi il francese
+      Louis Paul Cailletet annunciò un proprio metodo. In entrambi i casi si erano
+      prodotte solo poche gocce, insufficienti per qualunque analisi seria.'
+    attendibilita: documentato
+  - id: impatto-linde
+    sezione: impatto
+    testo: 'La prima liquefazione in stato stabile è del 29 marzo 1883 e si deve ai
+      polacchi Zygmunt Wróblewski e Karol Olszewski, dell''Università Jagellonica;
+      nel 1891 lo scozzese James Dewar riuscì a produrne abbastanza da poterlo studiare.
+      Il salto industriale arriva nel 1895, quando il tedesco Carl von Linde e il
+      britannico William Hampson mettono a punto, in modo indipendente l''uno dall''altro,
+      il primo processo commercialmente valido. Da lì in avanti l''ossigeno smette
+      di essere un oggetto di laboratorio e diventa una merce: si separa dall''aria
+      in quantità industriali, e tutto ciò che segue — la siderurgia a ossigeno, la
+      saldatura, i razzi, gli ospedali — dipende da quella disponibilità.'
+    attendibilita: documentato
+  - id: impatto-acciaio
+    sezione: impatto
+    testo: 'L''industria che ne consuma di più è la siderurgia, ed è un uso che questo
+      vault ha già incontrato dall''altro lato. Nel convertitore si soffia ossigeno
+      attraverso la ghisa fusa per abbassarne il tenore di carbonio e trasformarla
+      in acciaio dolce; il processo si chiama basico perché vi si aggiungono fondenti
+      di ossido di calcio o dolomite, che sono basi chimiche, per rimuovere le impurità
+      e proteggere il rivestimento. Il convertitore LD — dalle città austriache di
+      Linz e Donawitz — fu inventato nel 1948 dall''ingegnere svizzero Robert Durrer
+      e commercializzato fra il 1952 e il 1953: è una versione perfezionata del convertitore
+      Bessemer in cui, al posto dell''aria, si soffia ossigeno. Tutta la differenza
+      fra i due sta nell''aver separato dall''aria la parte che serve.'
+    attendibilita: documentato
+  - id: impatto-produttivita
+    sezione: impatto
+    testo: 'Le conseguenze economiche di quel passaggio si misurano con una cifra
+      che vale la pena riportare per intero. Il convertitore a ossigeno ridusse il
+      costo di capitale degli impianti e il tempo di fusione, e aumentò la produttività
+      del lavoro; fra il 1920 e il 2000 il fabbisogno di manodopera dell''industria
+      siderurgica è diminuito di un fattore mille, partendo da più di tre ore-uomo
+      per tonnellata. Mille volte in ottant''anni: è il tipo di salto che spiega insieme
+      perché l''acciaio sia diventato economico e perché le città siderurgiche si
+      siano svuotate. L''ossigeno non ha soltanto cambiato un processo chimico, ha
+      riscritto il rapporto fra un''industria e le persone che ci lavoravano.'
+    attendibilita: documentato
+  - id: impatto-razzi
+    sezione: impatto
+    testo: 'L''ossigeno liquido è un liquido azzurrino trasparente, leggermente più
+      denso dell''acqua, e fortemente paramagnetico: versato vicino a una potente
+      calamita a ferro di cavallo, resta sospeso fra i poli. Ha un rapporto di espansione
+      di uno a ottocentosessantuno, il che significa che un litro di liquido diventa
+      quasi novecento litri di gas — la ragione per cui conviene trasportarlo così.
+      Fu usato come comburente nel primo razzo a propellente liquido, inventato da
+      Robert Goddard nel 1926, e da allora non ha mai smesso: è tuttora il comburente
+      criogenico più comune per la propulsione spaziale, di solito in combinazione
+      con idrogeno liquido, cherosene o metano. Nello spazio non c''è aria da cui
+      prenderlo, e quindi bisogna portarselo.'
+    attendibilita: documentato
+  - id: controversie-goe
+    sezione: controversie
+    testo: 'L''ossigeno libero nell''atmosfera non c''è sempre stato, ed è forse il
+      fatto meno intuitivo di tutta la sua storia. Per circa un miliardo e mezzo di
+      anni, fra 3,85 e 2,45 miliardi di anni fa, nell''atmosfera non ce n''era praticamente
+      affatto, e gli oceani erano in gran parte anossici. Poi cominciò a esserci,
+      prodotto dai cianobatteri, e la sua comparsa fu un problema serio per la biosfera
+      di allora, che era in maggioranza anaerobica: l''ossigeno libero è altamente
+      reattivo e ossida i composti organici, a cominciare dal materiale genetico.
+      Per gli organismi dell''epoca non era aria: era un veleno nuovo che appariva
+      ovunque.'
+    attendibilita: documentato
+  - id: controversie-come-ando
+    sezione: controversie
+    testo: 'Il meccanismo è ricostruito con una certa precisione, ed è più lento e
+      più cupo di come lo si riassume. I cianobatteri svilupparono la fotosintesi
+      basata sulla clorofilla, che libera ossigeno come sottoprodotto della scissione
+      dell''acqua; l''ossigeno prodotto in continuazione consumò via via tutta la
+      capacità riducente della superficie terrestre — il ferro ferroso, lo zolfo,
+      l''idrogeno solforato, il metano atmosferico — e per farlo impiegò quasi un
+      miliardo di anni. È il motivo per cui il ferro che estraiamo oggi sta in rocce
+      sedimentarie a bande: prima di accumularsi in atmosfera, l''ossigeno dovette
+      finire di arrugginire il pianeta. Il cambiamento ossidativo dell''ambiente,
+      aggravato da una glaciazione globale, devastò i tappeti microbici della superficie
+      terrestre.'
+    attendibilita: documentato
+  - id: controversie-mitocondri
+    sezione: controversie
+    testo: 'Da quella catastrofe, però, viene tutto il resto. L''adattamento successivo
+      degli archei sopravvissuti passò per una simbiogenesi con proteobatteri aerobici
+      — organismi capaci di usare l''ossigeno invece di subirlo — che divennero endosimbionti
+      e poi mitocondri; e da lì, ipotizzano le fonti, potrebbe essere nata la vita
+      eucariotica, cioè quella a cui appartengono funghi, piante e animali. Ogni cellula
+      del corpo di chi legge contiene i discendenti di batteri che imparavano a gestire
+      un veleno nuovo due miliardi di anni fa. La soluzione al problema dell''ossigeno
+      non fu resistergli: fu assumere chi lo sapeva usare.'
+    attendibilita: documentato
+  - id: controversie-cloud
+    sezione: controversie
+    testo: 'Come si fa a sapere che cosa conteneva l''aria due miliardi di anni fa,
+      visto che non se ne conservano campioni? La comprensione scientifica di quando
+      e come l''atmosfera terrestre sia passata da debolmente riducente a fortemente
+      ossidante comincia in larga parte dal lavoro del geologo americano Preston Cloud,
+      negli anni Settanta, ed è un bell''esempio di deduzione indiretta. Cloud osservò
+      che i sedimenti detritici più antichi di circa due miliardi di anni contengono
+      granuli di pirite, uraninite e siderite: minerali che contengono forme ridotte
+      di ferro o di uranio e che nei sedimenti più recenti non si trovano, perché
+      in un''atmosfera ossidante si ossidano rapidamente. Quei granuli sono sopravvissuti
+      solo perché, quando si depositarono, non c''era ossigeno a distruggerli.'
+    attendibilita: documentato
+  - id: controversie-discusso-estinzione
+    sezione: controversie
+    testo: 'Quanto vasta sia stata quella strage è però una questione più delicata
+      di come la si racconta di solito, compresa la nota base di questo vault, che
+      la definisce la più vasta estinzione della storia del pianeta. La fonte consultata
+      è più cauta e spiega perché. Si ritiene che l''evento abbia costituito un''estinzione
+      di massa, ma la Grande Ossidazione non viene tipicamente contata negli elenchi
+      convenzionali delle grandi estinzioni, per due motivi: la enorme difficoltà
+      di censire l''abbondanza di organismi microscopici e l''età estrema dei resti
+      fossili di quel periodo. A questo si aggiunge che quegli elenchi sono implicitamente
+      limitati al Fanerozoico, cioè agli ultimi cinquecento milioni di anni, e quindi
+      escludono per costruzione tutto ciò che è successo prima. Quel che si può dire
+      con qualche solidità viene dalla geochimica degli isotopi nei minerali solfatici,
+      interpretata come indicazione di una riduzione della biosfera superiore all''ottanta
+      per cento.'
+    attendibilita: discusso
+  - id: controversie-tossicita
+    sezione: controversie
+    testo: 'Che l''ossigeno sia tossico non è una provocazione retorica ma una condizione
+      clinica con un nome proprio e due eponimi. Respirato a pressioni parziali elevate
+      provoca danno cellulare e, nei casi gravi, morte; gli effetti si vedono soprattutto
+      nel sistema nervoso centrale, nei polmoni e negli occhi. Storicamente la forma
+      nervosa è stata chiamata effetto Paul Bert e quella polmonare effetto Lorrain
+      Smith, dai ricercatori che le descrissero per primi alla fine dell''Ottocento.
+      Riguarda tre categorie precise: i subacquei, i pazienti che ricevono ossigeno
+      supplementare ad alte concentrazioni e chi si sottopone a ossigenoterapia iperbarica.
+      È lo stesso paradosso incontrato con il ferro e con il mercurio: la sostanza
+      che tiene in vita e quella che avvelena sono la stessa, e a separarle c''è solo
+      una quantità.'
+    attendibilita: documentato
+  - id: controversie-ipossia-silenziosa
+    sezione: controversie
+    testo: 'C''è un modo in cui la carenza di ossigeno diventa particolarmente insidiosa,
+      e la pandemia lo ha reso noto a molti: l''ipossia silenziosa, chiamata anche
+      ipossia felice. È una carenza generalizzata di ossigeno che non si accompagna
+      a fame d''aria: il paziente ha valori gravemente bassi e non si sente mancare
+      il respiro, quindi non chiede aiuto. È stata riconosciuta come complicanza della
+      COVID-19, ma non è una novità di quella malattia: si conosce anche nella polmonite
+      deambulante, nel mal di montagna e nelle immersioni con autorespiratore a circuito
+      chiuso. Il corpo umano, contrariamente a quanto si crede, non ha un sensore
+      diretto per l''ossigeno che manca: reagisce soprattutto all''anidride carbonica
+      che si accumula, e quando i due segnali si scollegano l''allarme non suona.'
+    attendibilita: documentato
+  - id: controversie-ros
+    sezione: controversie
+    testo: 'Il danno però non viene solo dalle dosi eccessive: una quota nasce dal
+      normale metabolismo. Dall''ossigeno molecolare, dall''acqua e dall''acqua ossigenata
+      si formano sostanze chiamate specie reattive dell''ossigeno — il superossido,
+      il radicale ossidrile, l''ossigeno di singoletto, il radicale idroperossile
+      — e sono ovunque, proprio perché si producono facilmente dall''ossigeno, che
+      è abbondante. La cosa interessante è che la biologia non le tratta solo come
+      scorie: le fonti registrano che funzionano da segnali cellulari e da intermedi
+      nel comportamento redox dell''ossigeno, oltre a incidere sul processo di invecchiamento.
+      Non sono un difetto del sistema: sono una parte del sistema, che il sistema
+      deve tenere sotto controllo.'
+    attendibilita: documentato
+  - id: controversie-combustione-lenta
+    sezione: controversie
+    testo: 'C''è un modo di guardare la respirazione che rende evidente perché l''ossigeno
+      stia al centro di tutto. Tecnicamente, dicono le fonti, la respirazione cellulare
+      è una reazione di combustione: gli stessi reagenti e gli stessi prodotti di
+      una fiamma. È però una combustione insolita, per il rilascio lento e controllato
+      dell''energia lungo una serie di passaggi invece che in un colpo solo. Una cellula,
+      in sostanza, brucia zucchero senza prendere fuoco, e ci riesce spezzettando
+      la reazione in decine di tappe ciascuna delle quali cede un poco di energia
+      a un vettore chimico, l''ATP.'
+    attendibilita: documentato
+  - id: controversie-discusso-atp
+    sezione: controversie
+    testo: 'Su quanta energia se ne ricavi, però, i manuali dicono una cosa e i conti
+      un''altra, ed è una discrepanza che vale la pena riportare perché riguarda un
+      numero che moltissimi ricordano da scuola. I libri di biologia affermano spesso
+      che si producono trentotto molecole di ATP per ogni molecola di glucosio ossidata:
+      due dalla glicolisi, due dal ciclo di Krebs, circa trentaquattro dalla catena
+      di trasporto degli elettroni. Quella resa massima, annotano le stesse fonti,
+      non viene però mai raggiunta del tutto, per le perdite dovute alle membrane
+      e per il costo di trasportare piruvato e ADP dentro la matrice mitocondriale;
+      le stime correnti si collocano intorno a ventinove o trenta, e altre tabelle
+      danno trenta o trentadue. Il trentotto dei manuali è un massimo teorico che
+      la cellula non tocca mai.'
+    attendibilita: discusso
+  - id: eredita-scoperta-ozono
+    sezione: eredita
+    testo: 'Anche la seconda forma dell''ossigeno ha la sua contesa di priorità, con
+      lo stesso schema della prima. Nel 1785 il chimico olandese Martinus van Marum,
+      facendo scoccare scintille elettriche sopra dell''acqua, notò un odore insolito
+      e lo attribuì alle reazioni elettriche, senza rendersi conto di aver prodotto
+      ozono. Mezzo secolo più tardi Christian Friedrich Schönbein notò lo stesso odore
+      pungente e lo riconobbe come quello che segue spesso un fulmine; nel 1839 riuscì
+      a isolare il gas e lo chiamò ozone, dal greco ozein, «puzzare». Per questa ragione
+      la scoperta è generalmente attribuita a lui. Ancora una volta: chi produce una
+      sostanza senza capirla non la scopre, e chi le dà il nome se la porta a casa.'
+    attendibilita: documentato
+  - id: eredita-ozono
+    sezione: eredita
+    testo: 'La seconda forma dell''ossigeno, quella a tre atomi, ha avuto nel Novecento
+      una carriera politica: è finita dentro un trattato internazionale. L''ozono
+      stratosferico assorbe la parte più energetica della radiazione ultravioletta,
+      e la sua riduzione per opera di sostanze di sintesi — i clorofluorocarburi,
+      usati in refrigerazione e nelle bombolette — è diventata negli anni Ottanta
+      un problema ambientale globale. La molecola è la stessa che al livello del suolo
+      è un inquinante aggressivo per polmoni e foglie: non è buona in alto e cattiva
+      in basso, fa la stessa cosa nei due posti, cioè reagire con quello che trova.
+      Cambia solo che cosa trova.'
+    attendibilita: documentato
+  - id: eredita-montreal
+    sezione: eredita
+    testo: La risposta a quel problema è il documento che segue, ed è una storia che
+      vale la pena raccontare accanto a quelle meno consolanti di questo vault. Il
+      Protocollo di Montreal fu firmato il 16 settembre 1987 ed entrò in vigore il
+      primo gennaio 1989; oggi è stato ratificato da centonovantotto parti, centonovantasette
+      stati più l'Unione Europea, il che ne fa il primo trattato universalmente ratificato
+      nella storia delle Nazioni Unite. Il mondo ha eliminato il novantotto per cento
+      delle sostanze lesive dell'ozono contenute in quasi cento prodotti chimici pericolosi,
+      e ogni paese risulta in regola con gli obblighi. L'ex segretario generale Kofi
+      Annan lo ha definito forse il singolo accordo internazionale di maggior successo
+      mai raggiunto.
+    attendibilita: documentato
+  - id: eredita-buco-si-chiude
+    sezione: eredita
+    testo: 'L''esito, che è la parte che di solito manca nei racconti sull''ambiente,
+      si misura in anni e in previsioni. Come risultato del protocollo il buco dell''ozono
+      sopra l''Antartide si sta lentamente riprendendo, e le proiezioni indicano che
+      lo strato tornerà ai livelli del 1980 intorno al 2040 su gran parte del mondo
+      e intorno al 2066 sull''Antartide. Sono tempi lunghi, e dicono due cose insieme:
+      che il danno chimico all''atmosfera ha un''inerzia di decenni, e che quando
+      si smette davvero di produrre la sostanza responsabile il sistema si ripara.
+      Il secondo punto non è scontato, ed è il motivo per cui questa vicenda viene
+      citata ogni volta che si discute di clima.'
+    attendibilita: documentato
+  - id: eredita-ciclo
+    sezione: eredita
+    testo: 'Sul piano biologico l''ossigeno è al centro di due reazioni che sono l''una
+      l''inversa dell''altra e che insieme tengono in moto la biosfera. La fotosintesi
+      usa l''energia della luce per scindere l''acqua e costruire zuccheri dall''anidride
+      carbonica, liberando ossigeno come sottoprodotto; la respirazione cellulare
+      fa il percorso contrario, usando l''ossigeno per demolire quegli stessi zuccheri
+      e ricavarne energia, e restituendo acqua e anidride carbonica. Non è un equilibrio
+      statico ma un ciclo alimentato dal sole: l''ossigeno che respiriamo viene dalla
+      scissione dell''acqua operata da organismi fotosintetici, e a loro torna sotto
+      forma di anidride carbonica.'
+    attendibilita: documentato
+  - id: eredita-medicina
+    sezione: eredita
+    testo: 'In medicina l''ossigeno è a tutti gli effetti un farmaco, con indicazioni,
+      dosaggi e controindicazioni: si somministra per correggere l''ipossia, e come
+      ogni farmaco ha una finestra terapeutica oltre la quale fa danno. La sua catena
+      di fornitura, però, è insolita per un medicinale, perché la materia prima è
+      l''aria e l''impianto che la separa è grande come una fabbrica. È il motivo
+      per cui, quando la domanda cresce improvvisamente, non basta produrre di più:
+      servono bombole, camion, valvole e personale, cioè una logistica che non si
+      improvvisa.'
+    attendibilita: documentato
+  - id: eredita-separazione
+    sezione: eredita
+    testo: Il modo in cui oggi si ottiene l'ossigeno è, a pensarci, il rovesciamento
+      esatto del problema settecentesco. Scheele e Priestley dovevano fabbricarlo
+      scaldando ossido di mercurio; l'industria moderna lo estrae dall'aria per distillazione
+      frazionata, raffreddandola fino a liquefarla e poi separando i componenti alle
+      rispettive temperature di ebollizione. Dallo stesso impianto escono azoto e
+      argon, e — con almeno due colonne di distillazione — i gas rari neon, kripton
+      e xeno, per i quali quella è di fatto l'unica fonte praticabile; si recupera
+      anche elio. Da sostanza da produrre con una reazione chimica, l'ossigeno è diventato
+      una sostanza da separare per via fisica da ciò che ci circonda.
+    attendibilita: documentato
+  - id: eredita-farmaco-essenziale
+    sezione: eredita
+    testo: 'La conferma che l''ossigeno sia a tutti gli effetti un medicinale, e non
+      un presidio ambientale, sta in due fatti. Il primo è cronologico: l''uso medico
+      dell''ossigeno si diffuse intorno al 1917 ed è oggi il trattamento ospedaliero
+      più comune del mondo sviluppato. Il secondo è formale: l''Organizzazione Mondiale
+      della Sanità lo include nel proprio elenco dei farmaci essenziali. Comparirvi
+      significa essere considerato indispensabile, non semplicemente utile. È anche
+      il motivo per cui la sua indisponibilità conta come un''emergenza sanitaria
+      e non come un disservizio logistico: quando manca l''ossigeno in un ospedale
+      manca un farmaco salvavita, con la differenza che questo non si può stoccare
+      in una scatola su uno scaffale.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'Di tutta questa storia resta una lezione che riguarda meno la chimica
+      e più il modo in cui la conoscenza si forma. Tre uomini ottennero lo stesso
+      gas in tre paesi nel giro di tre anni, e ciascuno ne fece qualcosa di diverso:
+      uno lo isolò e non seppe come dirlo, uno lo pubblicò e lo interpretò male fino
+      alla fine, uno lo capì e gli diede un nome sbagliato che usiamo ancora. Nessuno
+      dei tre ebbe una vita tranquilla: uno morì a quarantatré anni avvelenato dalle
+      sostanze che studiava, uno vide bruciarsi la casa da una folla e dovette lasciare
+      il paese, uno finì sotto la ghigliottina. E la sostanza per cui si contendevano
+      il merito era già lì da due miliardi di anni, prodotta da batteri che l''avevano
+      scaricata nell''aria come rifiuto, uccidendo quasi tutto quello che allora era
+      vivo.'
+    attendibilita: documentato
 composti_principali:
 - nome: Acqua
   formula: H2O
@@ -236,3 +1051,84 @@ fonti:
 - url: https://en.wikipedia.org/wiki/Antoine_Lavoisier
   titolo: Antoine Lavoisier
   consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Triplet_oxygen
+  titolo: Triplet oxygen
+  consultata: &id001 2026-09-14
+- url: https://en.wikipedia.org/wiki/Joseph_Priestley
+  titolo: Joseph Priestley
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Scheele's_green
+  titolo: Scheele's green
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Silent_hypoxia
+  titolo: Silent hypoxia
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Singlet_oxygen
+  titolo: Singlet oxygen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Allotropes_of_oxygen
+  titolo: Allotropes of oxygen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Isotopes_of_oxygen
+  titolo: Isotopes of oxygen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Phlogiston_theory
+  titolo: Phlogiston theory
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Chemical_revolution
+  titolo: Chemical revolution
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Pneumatic_chemistry
+  titolo: Pneumatic chemistry
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/John_Mayow
+  titolo: John Mayow
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Marie-Anne_Paulze_Lavoisier
+  titolo: Marie-Anne Paulze Lavoisier
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Priestley_Riots
+  titolo: Priestley Riots
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Great_Oxidation_Event
+  titolo: Great Oxidation Event
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Geological_history_of_oxygen
+  titolo: Geological history of oxygen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Photosynthesis
+  titolo: Photosynthesis
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Cellular_respiration
+  titolo: Cellular respiration
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Reactive_oxygen_species
+  titolo: Reactive oxygen species
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ozone
+  titolo: Ozone
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ozone_layer
+  titolo: Ozone layer
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Ozone_depletion
+  titolo: Ozone depletion
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Montreal_Protocol
+  titolo: Montreal Protocol
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Oxygen_therapy
+  titolo: Oxygen therapy
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Oxygen_toxicity
+  titolo: Oxygen toxicity
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Liquid_oxygen
+  titolo: Liquid oxygen
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Air_separation
+  titolo: Air separation
+  consultata: *id001
+- url: https://en.wikipedia.org/wiki/Basic_oxygen_steelmaking
+  titolo: Basic oxygen steelmaking
+  consultata: *id001

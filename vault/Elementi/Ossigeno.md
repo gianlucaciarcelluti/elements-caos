@@ -135,6 +135,9 @@ L'ossigeno libero nell'atmosfera non c'è sempre stato: è un rifiuto. Per almen
 
 L'uomo che ha dato il nome all'ossigeno fu ghigliottinato nel maggio 1794. Non per la sua chimica, ma perché era stato azionista della Ferma generale, la società privata che riscuoteva le imposte indirette per la corona: durante il Terrore quel ruolo bastò a farlo condannare. Aveva cinquant'anni. Il matematico Lagrange commentò che era bastato un istante per far cadere quella testa e che cent'anni forse non sarebbero bastati a produrne una simile.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Ossigeno — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Manganese]] (1770)
@@ -149,6 +152,33 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Carl Wilhelm Scheele]]
 - [Carl Wilhelm Scheele](https://en.wikipedia.org/wiki/Carl_Wilhelm_Scheele) — consultata il 07/09/2026
 - [Carl Wilhelm Scheele — the Uppsala chemist who discovered oxygen and chlorine](https://www.uu.se/en/about-uu/history/prominent-people/carl-scheele) — consultata il 07/09/2026
 - [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier) — consultata il 07/09/2026
+- [Triplet oxygen](https://en.wikipedia.org/wiki/Triplet_oxygen) — consultata il 14/09/2026
+- [Joseph Priestley](https://en.wikipedia.org/wiki/Joseph_Priestley) — consultata il 14/09/2026
+- [Scheele's green](https://en.wikipedia.org/wiki/Scheele's_green) — consultata il 14/09/2026
+- [Silent hypoxia](https://en.wikipedia.org/wiki/Silent_hypoxia) — consultata il 14/09/2026
+- [Singlet oxygen](https://en.wikipedia.org/wiki/Singlet_oxygen) — consultata il 14/09/2026
+- [Allotropes of oxygen](https://en.wikipedia.org/wiki/Allotropes_of_oxygen) — consultata il 14/09/2026
+- [Isotopes of oxygen](https://en.wikipedia.org/wiki/Isotopes_of_oxygen) — consultata il 14/09/2026
+- [Phlogiston theory](https://en.wikipedia.org/wiki/Phlogiston_theory) — consultata il 14/09/2026
+- [Chemical revolution](https://en.wikipedia.org/wiki/Chemical_revolution) — consultata il 14/09/2026
+- [Pneumatic chemistry](https://en.wikipedia.org/wiki/Pneumatic_chemistry) — consultata il 14/09/2026
+- [John Mayow](https://en.wikipedia.org/wiki/John_Mayow) — consultata il 14/09/2026
+- [Marie-Anne Paulze Lavoisier](https://en.wikipedia.org/wiki/Marie-Anne_Paulze_Lavoisier) — consultata il 14/09/2026
+- [Priestley Riots](https://en.wikipedia.org/wiki/Priestley_Riots) — consultata il 14/09/2026
+- [Great Oxidation Event](https://en.wikipedia.org/wiki/Great_Oxidation_Event) — consultata il 14/09/2026
+- [Geological history of oxygen](https://en.wikipedia.org/wiki/Geological_history_of_oxygen) — consultata il 14/09/2026
+- [Photosynthesis](https://en.wikipedia.org/wiki/Photosynthesis) — consultata il 14/09/2026
+- [Cellular respiration](https://en.wikipedia.org/wiki/Cellular_respiration) — consultata il 14/09/2026
+- [Reactive oxygen species](https://en.wikipedia.org/wiki/Reactive_oxygen_species) — consultata il 14/09/2026
+- [Ozone](https://en.wikipedia.org/wiki/Ozone) — consultata il 14/09/2026
+- [Ozone layer](https://en.wikipedia.org/wiki/Ozone_layer) — consultata il 14/09/2026
+- [Ozone depletion](https://en.wikipedia.org/wiki/Ozone_depletion) — consultata il 14/09/2026
+- [Montreal Protocol](https://en.wikipedia.org/wiki/Montreal_Protocol) — consultata il 14/09/2026
+- [Oxygen therapy](https://en.wikipedia.org/wiki/Oxygen_therapy) — consultata il 14/09/2026
+- [Oxygen toxicity](https://en.wikipedia.org/wiki/Oxygen_toxicity) — consultata il 14/09/2026
+- [Liquid oxygen](https://en.wikipedia.org/wiki/Liquid_oxygen) — consultata il 14/09/2026
+- [Air separation](https://en.wikipedia.org/wiki/Air_separation) — consultata il 14/09/2026
+- [Basic oxygen steelmaking](https://en.wikipedia.org/wiki/Basic_oxygen_steelmaking) — consultata il 14/09/2026
 
 ---
 
