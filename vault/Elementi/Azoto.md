@@ -130,6 +130,9 @@ A meno centonovantasei gradi l'azoto diventa un liquido incolore che si compra a
 
 Sott'acqua l'azoto smette di essere inerte. Oltre i trenta metri di profondità la pressione lo scioglie nel sangue e nei tessuti nervosi in quantità sufficiente a produrre la narcosi da gas inerte, uno stato di euforia e di giudizio compromesso che i subacquei chiamano ebbrezza degli abissi. In risalita lo stesso azoto disciolto torna allo stato gassoso e, se la decompressione è troppo rapida, forma bolle nei tessuti: è la malattia dei cassoni.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Azoto — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Fluoro]] (1771)
@@ -143,6 +146,40 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Daniel Rutherford]]
 - [Daniel Rutherford](https://en.wikipedia.org/wiki/Daniel_Rutherford) — consultata il 07/09/2026
 - [J. W. Erisman et al., How a century of ammonia synthesis changed the world, Nature Geoscience 1 (2008), 636-639](https://doi.org/10.1038/ngeo325) — consultata il 07/09/2026
 - [How many people does synthetic fertilizer feed?](https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed) — consultata il 07/09/2026
+- [Nitrogen](https://en.wikipedia.org/wiki/Nitrogen) — consultata il 14/09/2026
+- [Daniel Rutherford](https://en.wikipedia.org/wiki/Daniel_Rutherford) — consultata il 14/09/2026
+- [Joseph Black](https://en.wikipedia.org/wiki/Joseph_Black) — consultata il 14/09/2026
+- [Phlogiston theory](https://en.wikipedia.org/wiki/Phlogiston_theory) — consultata il 14/09/2026
+- [Nitrogen fixation](https://en.wikipedia.org/wiki/Nitrogen_fixation) — consultata il 14/09/2026
+- [Haber process](https://en.wikipedia.org/wiki/Haber_process) — consultata il 14/09/2026
+- [Nitroglycerin](https://en.wikipedia.org/wiki/Nitroglycerin) — consultata il 14/09/2026
+- [Amino acid](https://en.wikipedia.org/wiki/Amino_acid) — consultata il 14/09/2026
+- [Nucleobase](https://en.wikipedia.org/wiki/Nucleobase) — consultata il 14/09/2026
+- [Nitrogenase](https://en.wikipedia.org/wiki/Nitrogenase) — consultata il 14/09/2026
+- [Nitrogen cycle](https://en.wikipedia.org/wiki/Nitrogen_cycle) — consultata il 14/09/2026
+- [Nitrogen compounds](https://en.wikipedia.org/wiki/Nitrogen_compounds) — consultata il 14/09/2026
+- [Isotopes of nitrogen](https://en.wikipedia.org/wiki/Isotopes_of_nitrogen) — consultata il 14/09/2026
+- [Solid nitrogen](https://en.wikipedia.org/wiki/Solid_nitrogen) — consultata il 14/09/2026
+- [Liquid nitrogen](https://en.wikipedia.org/wiki/Liquid_nitrogen) — consultata il 14/09/2026
+- [Nitrogen narcosis](https://en.wikipedia.org/wiki/Nitrogen_narcosis) — consultata il 14/09/2026
+- [Decompression sickness](https://en.wikipedia.org/wiki/Decompression_sickness) — consultata il 14/09/2026
+- [Nitrous oxide](https://en.wikipedia.org/wiki/Nitrous_oxide) — consultata il 14/09/2026
+- [Nitric oxide](https://en.wikipedia.org/wiki/Nitric_oxide) — consultata il 14/09/2026
+- [Louis Ignarro](https://en.wikipedia.org/wiki/Louis_Ignarro) — consultata il 14/09/2026
+- [Nitric acid](https://en.wikipedia.org/wiki/Nitric_acid) — consultata il 14/09/2026
+- [Ammonium nitrate](https://en.wikipedia.org/wiki/Ammonium_nitrate) — consultata il 14/09/2026
+- [2020 Beirut explosion](https://en.wikipedia.org/wiki/2020_Beirut_explosion) — consultata il 14/09/2026
+- [Texas City disaster](https://en.wikipedia.org/wiki/Texas_City_disaster) — consultata il 14/09/2026
+- [Eutrophication](https://en.wikipedia.org/wiki/Eutrophication) — consultata il 14/09/2026
+- [Dead zone (ecology)](https://en.wikipedia.org/wiki/Dead_zone_%28ecology%29) — consultata il 14/09/2026
+- [Planetary boundaries](https://en.wikipedia.org/wiki/Planetary_boundaries) — consultata il 14/09/2026
+- [Nitrification](https://en.wikipedia.org/wiki/Nitrification) — consultata il 14/09/2026
+- [Denitrification](https://en.wikipedia.org/wiki/Denitrification) — consultata il 14/09/2026
+- [Rhizobium](https://en.wikipedia.org/wiki/Rhizobium) — consultata il 14/09/2026
+- [Legume](https://en.wikipedia.org/wiki/Legume) — consultata il 14/09/2026
+- [Trichodesmium](https://en.wikipedia.org/wiki/Trichodesmium) — consultata il 14/09/2026
+- [Air separation](https://en.wikipedia.org/wiki/Air_separation) — consultata il 14/09/2026
+- [Ostwald process](https://en.wikipedia.org/wiki/Ostwald_process) — consultata il 14/09/2026
 
 ---
 
