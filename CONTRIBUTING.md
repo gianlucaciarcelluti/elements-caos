@@ -78,6 +78,31 @@ Le regole che contano:
 - Il beat dev'essere **leggibile da solo**: niente «come si è detto», niente
   «quest'ultimo» riferito al beat precedente.
 
+### La voce: si scrive per chi non sa di chimica
+
+Le regole qui sopra dicono come si *struttura* un beat. Questa sezione dice come
+si *scrive*, ed è la parte che decide se il progetto raggiunge il suo lettore.
+
+Chi legge non ha studiato chimica e non deve averlo fatto. Non significa
+semplificare fino a falsare: significa non dare per scontato il vocabolario.
+
+- **Un termine tecnico entra solo se serve, e si spiega nella frase stessa.**
+  Non in una parentesi né in una nota: dentro la frase, come fosse naturale.
+  «Cercando la pietra filosofale, la sostanza leggendaria capace di trasformare
+  i metalli comuni in oro» — il lettore impara e prosegue senza fermarsi.
+- **La scena prima della definizione.** Chi, dove, cosa ha visto. «Bunsen e
+  Kirchhoff annunciano un elemento nuovo senza averne isolato un granello:
+  bastano due righe azzurre in uno spettro» dice cos'è la spettroscopia meglio
+  di una definizione di spettroscopia.
+- **Le cifre hanno un termine di paragone.** «Da una tonnellata di pechblenda si
+  ricava un settimo di grammo di radio» funziona; «la resa è dello 0,000014 per
+  cento» no, benché sia lo stesso dato.
+- **Il concreto batte l'astratto.** «Raccolse un metallo rosso e capì che poteva
+  piegarlo» invece di «utilizzo dei metalli nativi nel Neolitico».
+
+Il metro di giudizio: la nota dev'essere leggibile da qualcuno che non sa di
+chimica, e restare esatta per qualcuno che la sa.
+
 ### I quattro gradi di attendibilità
 
 Il campo `attendibilita` distingue i fatti documentati dagli aneddoti
@@ -148,16 +173,31 @@ sapere prima di scrivere:
 Un controllo schedulato verifica settimanalmente che gli URL delle fonti siano
 ancora raggiungibili, e apre un rapporto senza bloccare nulla.
 
-## I campi `hook`, `visual` e `pronuncia`
+## L'hook: la prima frase che il lettore incontra
 
-Tre campi non compaiono nella nota generata, e per questo capita che chi
+L'hook **non è un campo di servizio**: è la frase che apre la nota nel callout
+in cima, apre la pagina sul sito e compare nelle descrizioni del feed RSS. Per
+moltissimi lettori è l'unica cosa che leggeranno dell'elemento.
+
+Vale la pena scriverla bene. Gli hook riusciti del vault hanno tutti la stessa
+forma: un fatto concreto e verificabile, messo in modo che chieda una
+spiegazione.
+
+```yaml
+hook: Un alchimista bollì cinquemila litri di urina cercando l'oro, e trovò una
+  luce che non si spegneva.
+```
+
+Una riga che faccia venire voglia di leggere la seconda. Nasce naturale mentre
+scrivi la storia; inventarla a freddo mesi dopo è difficilissimo.
+
+## I campi `visual` e `pronuncia`
+
+Questi due non compaiono nella nota generata, e per questo capita che chi
 contribuisce li salti. **Vanno compilati comunque**: servono a possibili riusi
 del vault in altri formati, e recuperarli a posteriori su 118 elementi sarebbe
 un lavoro enorme.
 
-- **`hook`** — l'apertura che trattiene nei primi secondi, una frase. Nasce
-  naturale mentre scrivi la storia; inventarla a freddo mesi dopo è
-  difficilissimo.
 - **`visual`** (per beat) — cosa si mostrerebbe accanto a questo passaggio. Chi
   scrive ha già in mente l'immagine: basta scriverla.
 - **`pronuncia`** (IPA) — per i nomi propri stranieri. Scheele, Berzelius,

@@ -10,6 +10,21 @@ pochi millisecondi e mai visti da occhio umano. Letta in quest'ordine, la tavola
 periodica smette di essere una griglia da memorizzare e diventa il racconto di
 come abbiamo imparato a riconoscere la materia di cui è fatto il mondo.
 
+Comincia così ogni nota:
+
+> **Radio**, 1898 — Da una tonnellata di pechblenda si ricava un settimo di
+> grammo di radio. I Curie ne lavorarono tonnellate in un capanno senza
+> pavimento, e ci misero quattro anni per averne un decigrammo.
+
+> **Tecnezio**, 1937 — Arrivò a Palermo dentro una busta: una lamina di
+> molibdeno smontata da un ciclotrone californiano e spedita perché nessuno la
+> voleva più. Dentro c'era l'elemento che riempiva la casella 43.
+
+> **Oganesson**, 2006 — L'ultima casella della tavola periodica è stata
+> annunciata nel 1999 da un laboratorio che se l'era inventata, e fabbricata
+> davvero tre anni dopo da un altro. Sta nella colonna dei gas nobili e, con
+> ogni probabilità, non è un gas.
+
 ## Perché l'ordine cronologico
 
 Il numero atomico è un ordine che nessuno ha percorso. Nella tavola periodica
@@ -43,21 +58,27 @@ sulla Terra.
 - **136 immagini** di pubblico dominio o CC0, ciascuna con la propria
   attribuzione.
 
-## Come aprirlo
+## Come si legge
 
-Clona il repository e apri la cartella `vault/` come vault in Obsidian — non la
-radice del progetto, che contiene anche il codice.
+Si legge qui, senza installare nulla:
+
+### **<https://gianlucaciarcelluti.github.io/elements-caos>**
+
+Il punto di partenza è la **Cronologia degli elementi**: l'itinerario guidato in
+12 tappe e l'elenco completo in ordine di scoperta, raggruppato per epoca.
+Un'ora di lettura porta dal rame raccolto da terra diecimila anni fa agli atomi
+costruiti in un ciclotrone.
+
+### Se usi Obsidian
+
+Clona il repository e apri la cartella `vault/` come vault — non la radice del
+progetto, che contiene anche il codice.
 
 ```bash
 git clone https://github.com/gianlucaciarcelluti/elements-caos.git
 ```
 
-Il punto di partenza è la nota **Cronologia degli elementi**: contiene
-l'itinerario guidato e l'elenco completo in ordine di scoperta, raggruppato per
-epoca storica.
-
-Se non usi Obsidian, lo stesso vault è pubblicato come sito:
-**<https://gianlucaciarcelluti.github.io/elements-caos>**.
+Il vault ha i wikilink e il grafo, che sul web non ci sono.
 
 ## Com'è fatto
 
