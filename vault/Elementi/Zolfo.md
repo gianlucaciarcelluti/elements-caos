@@ -145,6 +145,9 @@ Lo zolfo è dentro ogni essere vivente, in due dei venti amminoacidi che compong
 
 Il nome greco dello zolfo, theion, somiglia da vicino a theios, divino, e quella vicinanza fonetica ne ha fissato per secoli l'aura sacra e insieme infernale. È la sostanza che nella Genesi piove col fuoco su Sodoma e Gomorra e che nell'Apocalisse forma lo stagno ardente. Nessun altro elemento chimico ha una carriera religiosa così lunga.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Zolfo — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Antimonio]] (3000 a.C.)
@@ -157,6 +160,35 @@ Epoca: [[Antichità]]
 - [Sulfur](https://en.wikipedia.org/wiki/Sulfur) — consultata il 07/09/2026
 - [Homer, Odyssey, Book 22 (Theoi Classical Texts Library)](https://www.theoi.com/Text/HomerOdyssey22.html) — consultata il 07/09/2026
 - [Oxidation state (tabella degli stati noti per elemento)](https://en.wikipedia.org/wiki/Oxidation_state) — consultata il 07/09/2026
+- [Allotropes of sulfur](https://en.wikipedia.org/wiki/Allotropes_of_sulfur) — consultata il 14/09/2026
+- [Sulfur mining in Sicily](https://en.wikipedia.org/wiki/Sulfur_mining_in_Sicily) — consultata il 14/09/2026
+- [Carusu](https://en.wikipedia.org/wiki/Carusu) — consultata il 14/09/2026
+- [Frasch process](https://en.wikipedia.org/wiki/Frasch_process) — consultata il 14/09/2026
+- [Herman Frasch](https://en.wikipedia.org/wiki/Herman_Frasch) — consultata il 14/09/2026
+- [Union Sulphur Company](https://en.wikipedia.org/wiki/Union_Sulphur_Company) — consultata il 14/09/2026
+- [Sulfuric acid](https://en.wikipedia.org/wiki/Sulfuric_acid) — consultata il 14/09/2026
+- [Contact process](https://en.wikipedia.org/wiki/Contact_process) — consultata il 14/09/2026
+- [Lead chamber process](https://en.wikipedia.org/wiki/Lead_chamber_process) — consultata il 14/09/2026
+- [Vulcanization](https://en.wikipedia.org/wiki/Vulcanization) — consultata il 14/09/2026
+- [Sulfur vulcanization](https://en.wikipedia.org/wiki/Sulfur_vulcanization) — consultata il 14/09/2026
+- [Charles Goodyear](https://en.wikipedia.org/wiki/Charles_Goodyear) — consultata il 14/09/2026
+- [Gunpowder](https://en.wikipedia.org/wiki/Gunpowder) — consultata il 14/09/2026
+- [Acid rain](https://en.wikipedia.org/wiki/Acid_rain) — consultata il 14/09/2026
+- [Flue-gas desulfurization](https://en.wikipedia.org/wiki/Flue-gas_desulfurization) — consultata il 14/09/2026
+- [Claus process](https://en.wikipedia.org/wiki/Claus_process) — consultata il 14/09/2026
+- [Stratospheric aerosol injection](https://en.wikipedia.org/wiki/Stratospheric_aerosol_injection) — consultata il 14/09/2026
+- [Sulfonamide (medicine)](https://en.wikipedia.org/wiki/Sulfonamide_%28medicine%29) — consultata il 14/09/2026
+- [Hydrogen sulfide](https://en.wikipedia.org/wiki/Hydrogen_sulfide) — consultata il 14/09/2026
+- [Fumarole](https://en.wikipedia.org/wiki/Fumarole) — consultata il 14/09/2026
+- [Sulfur assimilation](https://en.wikipedia.org/wiki/Sulfur_assimilation) — consultata il 14/09/2026
+- [Cysteine](https://en.wikipedia.org/wiki/Cysteine) — consultata il 14/09/2026
+- [Methionine](https://en.wikipedia.org/wiki/Methionine) — consultata il 14/09/2026
+- [Disulfide](https://en.wikipedia.org/wiki/Disulfide) — consultata il 14/09/2026
+- [Chemosynthesis](https://en.wikipedia.org/wiki/Chemosynthesis) — consultata il 14/09/2026
+- [Green sulfur bacteria](https://en.wikipedia.org/wiki/Green_sulfur_bacteria) — consultata il 14/09/2026
+- [Sulfur cycle](https://en.wikipedia.org/wiki/Sulfur_cycle) — consultata il 14/09/2026
+- [Volcanism on Io](https://en.wikipedia.org/wiki/Volcanism_on_Io) — consultata il 14/09/2026
+- [Lithium–sulfur battery](https://en.wikipedia.org/wiki/Lithium–sulfur_battery) — consultata il 14/09/2026
 
 ---
 
