@@ -185,6 +185,775 @@ contenuti:
   - termine: Martin Heinrich Klaproth
     ipa: ˈmaʁtiːn ˈhaɪnʁɪç ˈklaːpʁoːt
     nota: Tedesco.
+contenuti_estesi:
+  hook: 'Ogni cellula del vostro corpo sta spendendo, in questo momento, una quota
+    dell''energia che produce per tenere il potassio dentro e il sodio fuori: tipicamente
+    il trenta per cento, fino al settanta nelle cellule nervose. È la voce di spesa
+    più grande del bilancio energetico di un essere vivente, e serve a mantenere una
+    differenza di concentrazione attraverso una membrana. Per millenni quello stesso
+    elemento è stato soltanto la cenere del focolare, lavata e fatta evaporare per
+    ricavarne la potassa del sapone e del vetro; per averla si sono disboscate le
+    foreste di due continenti, e il primo brevetto della storia degli Stati Uniti,
+    firmato da George Washington, riguardava proprio il modo di fabbricarla.'
+  beats:
+  - id: contesto-abbondanza
+    sezione: contesto
+    testo: 'Conviene cominciare dalle proporzioni, perché spiegano un paradosso che
+      attraversa tutta la storia dell''elemento. Il potassio è il settimo elemento
+      più abbondante della crosta terrestre, con circa il 2,6 per cento del suo peso,
+      ed è il diciassettesimo per massa nel pianeta intero; nel Sistema solare è il
+      ventesimo. Non è dunque raro in alcun senso utile della parola. Nell''acqua
+      di mare, però, la sua concentrazione è di 0,39 grammi per litro, circa un ventisettesimo
+      di quella del sodio: ed è questa sproporzione, non l''abbondanza nelle rocce,
+      la ragione per cui la potassa è stata per millenni un prodotto delle piante
+      e non del mare. Il sale da cucina si ricava evaporando l''acqua marina; il potassio,
+      no.'
+    attendibilita: documentato
+  - id: contesto-dove-sta
+    sezione: contesto
+    testo: 'Dove sta, allora, tutto quel potassio. Allo stato elementare in natura
+      non esiste affatto, perché reagisce troppo facilmente con l''acqua e con l''ossigeno:
+      sta legato nei minerali. L''ortoclasio, cioè il feldspato potassico, è uno dei
+      minerali più comuni fra quelli che compongono le rocce, e il granito per esempio
+      contiene un cinque per cento di potassio. Ma il feldspato è la forma sbagliata
+      per chi lo cerca: insolubile, immobile, inservibile. Le riserve che oggi si
+      coltivano hanno un''altra origine e sono un regalo della geologia: mari interni
+      antichi che sono evaporati lasciando cristallizzare i sali di potassio in banchi
+      di minerale. Le miniere di potassa del mondo sono, tutte, oceani prosciugati.'
+    attendibilita: documentato
+  - id: contesto-energia-di-ionizzazione
+    sezione: contesto
+    testo: 'Il numero che governa il comportamento dell''elemento è la sua prima energia
+      di ionizzazione: 418,8 chilojoule per mole, un valore basso. È la misura di
+      quanto costi strappare all''atomo il suo unico elettrone esterno, e poiché costa
+      poco il potassio lo cede facilmente al primo materiale con cui viene a contatto:
+      in termini chimici è un forte riducente. Da qui discende tutto il resto, compresa
+      la ragione per cui in natura non lo si trova libero. E da qui discende anche
+      la difficoltà storica: il potassio è chimicamente molto simile al sodio, l''elemento
+      che lo precede nel gruppo 1, e i due hanno energie di prima ionizzazione simili,
+      il che permette a ciascuno dei due atomi di cedere il proprio elettrone solitario.
+      Somigliarsi nel comportamento è precisamente ciò che li aveva resi indistinguibili.'
+    attendibilita: documentato
+  - id: contesto-perche-le-piante
+    sezione: contesto
+    testo: 'C''è una ragione chimica precisa per cui la cenere di legna dà potassa
+      e non soda, e per millenni nessuno l''ha saputa. Le piante contengono poco o
+      niente sodio: lo scartano. Il resto del loro contenuto minerale principale è
+      fatto di sali di calcio, che in acqua si sciolgono poco. Quando si brucia la
+      legna e si lava la cenere, dunque, l''acqua porta via quasi soltanto i sali
+      di potassio, e lascia indietro il calcio. Il procedimento che sembra rozzo —
+      bruciare, lavare, far evaporare — è in realtà una separazione chimica efficiente,
+      che sfrutta una differenza di solubilità. I saponai del Quattrocento facevano
+      cromatografia senza saperlo, e il loro reagente selettivo era la vita vegetale.'
+    attendibilita: documentato
+  - id: contesto-due-alcali-una-cosa
+    sezione: contesto
+    testo: 'Prima dell''Ottocento non si faceva alcuna distinzione fra potassio e
+      sodio. È una frase che va letta con attenzione, perché non significa che si
+      confondessero potassa e soda — quelle si distinguevano benissimo, venivano da
+      materie prime diverse e si comportavano diversamente — ma che nessuno sapeva
+      che dentro ci fossero due elementi differenti. Il primo a sospettarlo fu Georg
+      Ernst Stahl, che nel 1702 ottenne prove sperimentali che lo portarono a proporre
+      una differenza fondamentale fra i sali di sodio e quelli di potassio; ma proporre
+      non è dimostrare, e la dimostrazione arrivò trentaquattro anni dopo, nel 1736,
+      da Henri Louis Duhamel du Monceau. Anche allora restava aperta la domanda vera:
+      differenti in che cosa.'
+    attendibilita: documentato
+  - id: contesto-scommessa-lavoisier
+    sezione: contesto
+    testo: 'L''esclusione degli alcali dalla lista degli elementi di Lavoisier, nel
+      1789, non fu una svista: fu una scommessa dichiarata. Della composizione chimica
+      esatta dei composti di potassio e di sodio non si sapeva nulla, e nemmeno se
+      fossero elementi; Lavoisier li lasciò fuori scrivendo che erano evidentemente
+      sostanze composte di cui si ignoravano i componenti. Aveva ragione a metà, e
+      la metà in cui aveva torto è quella che conta: potassa e soda sono composti,
+      sì, ma contengono un elemento nuovo che nessuno aveva mai visto. La sua tavola
+      conteneva quindi una cambiale, e a incassarla ci vollero diciotto anni e uno
+      strumento che nel 1789 non esisteva ancora.'
+    attendibilita: documentato
+  - id: contesto-strumento-nuovo
+    sezione: contesto
+    testo: 'Lo strumento era la pila di Volta, e la sua disponibilità cambia la storia
+      della chimica più di qualunque idea. Per la prima volta si poteva far passare
+      una corrente continua attraverso una sostanza per un tempo lungo, e la corrente
+      non è un reagente come gli altri: non porta con sé nulla da scambiare, si limita
+      a strappare elettroni da un capo e a depositarli dall''altro. Davy e Andrew
+      Crosse furono tra i primi a costruire pile di grandi dimensioni, e nel 1808
+      la Royal Institution gliene fece fabbricare una da duemila coppie di piastre,
+      con cui dimostrò l''arco elettrico al carbonio e isolò altri cinque elementi:
+      bario, calcio, boro, stronzio e magnesio. Ma quel mostro arrivò dopo. Il potassio
+      fu strappato alla potassa con mezzi più modesti, l''anno prima.'
+    attendibilita: documentato
+  - id: contesto-programma-dichiarato
+    sezione: contesto
+    testo: 'La cosa notevole è che Davy annunciò il risultato prima di ottenerlo.
+      Nel 1806, nella conferenza intitolata _On Some Chemical Agencies of Electricity_,
+      sostenne che l''elettricità prodotta nelle celle elettrolitiche semplici nasceva
+      da reazioni chimiche fra l''elettrolito e i metalli, e ne trasse la conseguenza
+      che più importa: l''interazione delle correnti elettriche con le sostanze chimiche
+      offriva il mezzo più promettente per scomporre _qualunque_ materiale
+      nei suoi elementi di base. Non era una previsione vaga, era un programma di
+      ricerca. L''Institut de France gli assegnò per quella conferenza il premio napoleonico
+      nel 1807, mentre Inghilterra e Francia erano in guerra: un dettaglio che dice
+      qualcosa sia sul prestigio del lavoro sia su come la repubblica delle scienze
+      trattasse i confini. Berzelius definì quella conferenza «uno dei migliori saggi
+      che abbiano mai arricchito la teoria della chimica»: il giudizio viene dallo
+      stesso uomo che qualche anno dopo si sarebbe battuto perché l''elemento si chiamasse
+      kalium.'
+    attendibilita: documentato
+  - id: vicenda-figlio-dell-intagliatore
+    sezione: vicenda
+    testo: 'Humphry Davy non veniva da dove venivano i chimici del suo tempo. Nato
+      a Penzance, in Cornovaglia, il 17 dicembre 1778, era il maggiore dei cinque
+      figli di Robert Davy, un intagliatore di legno, e di Grace Millett; del proprio
+      percorso disse che da bambino era stato lasciato molto a se stesso, senza un
+      piano di studi particolare, e concluse con sei parole che valgono una biografia:
+      quel che sono, me lo sono fatto io. Quando il padre morì, nel 1794, fu messo
+      come apprendista presso John Bingham Borlase, un chirurgo con studio a Penzance,
+      e fu diventando preparatore nel dispensario dello speziale che cominciò i propri
+      esperimenti in casa, con grande fastidio di parenti e amici: la sorella maggiore
+      si lamentava che le sostanze corrosive le rovinassero i vestiti, e almeno un
+      amico riteneva probabile che quell''incorreggibile finisse per farli saltare
+      tutti in aria. Diciotto anni dopo la previsione si avverò a metà, e il danno
+      lo prese lui.'
+    attendibilita: documentato
+  - id: vicenda-il-libro
+    sezione: vicenda
+    testo: Il modo in cui la cambiale di Lavoisier arrivò nelle mani di chi l'avrebbe
+      incassata è degno della storia che ne segue. Nel 1797, dopo aver imparato il
+      francese da un prete rifugiato — il clero francese in fuga dalla Rivoluzione
+      era sparso per l'Inghilterra, e a Penzance ce n'era uno — Davy lesse il _Traité élémentaire de chimie_, cioè esattamente il libro la cui tavola delle sostanze
+      semplici lasciava fuori gli alcali dichiarandoli composti di elementi ignoti.
+      Quella lettura influenzò gran parte del suo lavoro successivo, che si può leggere
+      come una reazione all'opera di Lavoisier e al predominio dei chimici francesi.
+      Dieci anni dopo, un apprendista di speziale della Cornovaglia che aveva studiato
+      il francese da un profugo riempiva la casella che il più grande chimico di Francia
+      aveva lasciato in bianco.
+    attendibilita: documentato
+  - id: vicenda-chi-era
+    sezione: vicenda
+    testo: 'Nell''autunno del 1807 Davy aveva ventotto anni. Il conto di ciò che avrebbe
+      fatto con l''elettricità è impressionante da elencare tutto insieme: potassio
+      e sodio nel 1807, poi calcio, stronzio, bario, magnesio e boro l''anno successivo,
+      e il riconoscimento della natura elementare del cloro e dello iodio. Sette elementi
+      isolati per la prima volta, e una disciplina nuova inventata per strada, perché
+      studiando le forze in gioco in quelle separazioni fondò l''elettrochimica. La
+      Royal Society gli diede la medaglia Bakeriana per sei anni consecutivi, dal
+      1806 al 1811, e una settima volta nel 1826. Di quella serie, il primo anello
+      è la potassa.'
+    attendibilita: documentato
+  - id: vicenda-il-compromesso
+    sezione: vicenda
+    testo: 'La soluzione sperimentale che gli riuscì merita di essere guardata come
+      un ragionamento e non come una ricetta, perché è il punto in cui il mestiere
+      conta più dell''idea. Davy aveva tre strade e tutte e tre erano chiuse: in soluzione
+      acquosa la corrente scompone l''acqua e non la potassa, restituendo idrogeno
+      e ossigeno; la potassa perfettamente asciutta non conduce affatto, e la corrente
+      non passa; la potassa fusa dava fiamme e nulla di raccoglibile. Ciò che trovò
+      fu una via di mezzo strettissima — un frammento solido lasciato pochi secondi
+      all''aria, quanto bastava perché l''umidità in superficie lo rendesse conduttore
+      — e quella finestra sottile fra due impossibilità è tutta la scoperta. Non servivano
+      idee nuove: serviva capire che l''acqua era insieme necessaria e nemica, e dosarla.'
+    attendibilita: documentato
+  - id: vicenda-potassa-fusa-o-umida
+    sezione: vicenda
+    testo: 'Su come esattamente fosse fatto l''esperimento le fonti non dicono la
+      stessa cosa, e la divergenza va esposta. La voce enciclopedica sull''elemento
+      afferma che Davy ottenne il potassio per elettrolisi di potassa caustica _fusa_,
+      e la sua biografia usa la stessa parola per il sodio, ricavato facendo passare
+      la corrente attraverso idrossido di sodio fuso. Il resoconto che Davy stesso
+      lasciò nella conferenza bakeriana descrive però un''altra cosa: un frammento
+      solido di potassa appena inumidito in superficie, appoggiato su un disco di
+      platino, e dice esplicitamente che con la potassa fusa non aveva raccolto nulla.
+      Questo vault segue il resoconto di prima mano, perché fra due fonti vince quella
+      dedicata e qui la fonte dedicata è il testimone. Resta possibile che le due
+      descrizioni si riferiscano a giornate diverse di una serie di tentativi: l''elettrolisi
+      di sali fusi Davy la praticò senz''altro, ed è il metodo con cui proseguì.'
+    attendibilita: discusso
+  - id: vicenda-il-testimone
+    sezione: vicenda
+    testo: 'Dell''aneddoto più famoso della serata conviene dire chi lo racconta,
+      perché il testimone è più interessante della scena. Edmund Davy era cugino di
+      Humphry e si era trasferito a Londra nel 1804 per passare otto anni come operatore
+      e assistente nel laboratorio della Royal Institution, che teneva lui in ordine;
+      per buona parte di quel tempo fu anche sovrintendente della collezione mineralogica
+      della Royal Society. Non era dunque un visitatore: era l''uomo che preparava
+      gli apparati. È lui a riferire che nell''ottobre 1807, quando i globuli minuscoli
+      di metallo simile al mercurio ruppero la crosta e presero fuoco, suo cugino
+      fu talmente contento che si mise a ballare per la stanza in estasi. Il dettaglio
+      ha resistito due secoli perché viene da chi stava al banco accanto.'
+    attendibilita: documentato
+  - id: vicenda-la-dimostrazione
+    sezione: vicenda
+    testo: 'Il secondo metallo, poche settimane dopo, non fu una replica ma una dimostrazione.
+      Davy ottenne il sodio da un derivato minerale — la soda caustica, cioè la liscivia
+      — e non da un sale di pianta, con una tecnica simile; e il confronto fra i due
+      risultati mostrava che gli elementi, e quindi i sali, erano davvero differenti.
+      La questione che Stahl aveva aperto nel 1702 e Duhamel du Monceau chiuso a metà
+      nel 1736 si risolveva così, mettendo i due metalli uno accanto all''altro sul
+      banco. Va detto però che la produzione del potassio e del sodio metallici, che
+      avrebbe dovuto provare che entrambi sono elementi, non convinse tutti subito:
+      ci volle del tempo prima che questa posizione fosse universalmente accettata.
+      Le prove decisive non lo sono mai il giorno in cui arrivano.'
+    attendibilita: documentato
+  - id: vicenda-la-spaccatura
+    sezione: vicenda
+    testo: 'La contesa sul nome si risolse in un compromesso che nessuno aveva proposto.
+      Nel 1809 Ludwig Wilhelm Gilbert propose di chiamare _Kalium_ il potassio
+      di Davy; nel 1814 Berzelius sostenne lo stesso nome con il simbolo K. Dall''altra
+      parte il nome _potassium_ aveva il favore di Davy e di due chimici francesi
+      di primo rango, Joseph Louis Gay-Lussac e Louis Jacques Thénard. La spaccatura
+      seguì la geografia delle lingue: i paesi anglofoni e francofoni adottarono potassium,
+      gli altri paesi germanici il kalium di Gilbert e Klaproth. Il risultato è che
+      oggi il _Gold Book_ dell''Unione internazionale di chimica pura e applicata
+      fissa come simbolo ufficiale K, cioè la lettera del nome che in italiano e in
+      inglese ha perso. L''elemento porta il nome di una parte e la sigla dell''altra.'
+    attendibilita: documentato
+  - id: vicenda-occhio-e-faraday
+    sezione: vicenda
+    testo: 'Cinque anni dopo il potassio, un incidente di laboratorio cambiò la storia
+      della fisica per una via del tutto obliqua. Lavorando sul tricloruro di azoto,
+      un composto di violenza notevole, Davy scrisse il 16 novembre 1812 che andava
+      usato con grandissima cautela e che non era prudente sperimentare su un globulo
+      più grosso di una capocchia di spillo: era stato ferito gravemente da un frammento
+      appena più grande, aggiungendo — con il tono di chi riferisce una diagnosi altrui
+      — che la vista, gli dicevano, non ne sarebbe rimasta danneggiata. Fu quell''incidente
+      a indurlo ad assumere un collaboratore che lo aiutasse con la scrittura a mano
+      e con la tenuta dei registri, e il collaboratore era Michael Faraday. Poco dopo
+      un''altra esplosione dello stesso composto ferì entrambi; ad aprile 1813 Davy
+      era guarito. L''elettrochimica ha avuto il suo secondo fondatore perché al primo
+      si erano feriti gli occhi.'
+    attendibilita: documentato
+  - id: vicenda-viaggio-in-guerra
+    sezione: vicenda
+    testo: Nell'ottobre 1813 Davy partì per la Francia con la moglie e con Faraday
+      come assistente scientifico, trattato anche da cameriere personale, per ritirare
+      la seconda edizione del _prix du Galvanisme_, la medaglia che Napoleone
+      Bonaparte aveva assegnato al suo lavoro elettrochimico. Il premio era, di fatto,
+      il riconoscimento del lavoro cominciato con la potassa. Faraday annotò che era
+      davvero una strana impresa, in quel momento, affidarsi a un paese straniero
+      e ostile dove si teneva in così poco conto le dichiarazioni d'onore che il minimo
+      sospetto sarebbe bastato a separarli per sempre dall'Inghilterra, e forse dalla
+      vita. La frase di un ragazzo di ventidue anni che accompagna il proprio maestro
+      a prendere una medaglia dal nemico, portandogli anche le valigie, dice quanto
+      poco la scienza dell'epoca somigliasse a un mestiere tranquillo.
+    attendibilita: documentato
+  - id: vicenda-ginevra
+    sezione: vicenda
+    testo: Morì a cinquant'anni, e la fine ha una geografia precisa che merita di
+      essere restituita. Passò gli ultimi mesi scrivendo _Consolations in Travel_,
+      un compendio disordinato di poesia e di pensieri su scienza e filosofia che,
+      pubblicato dopo la sua morte, restò per decenni nelle biblioteche scientifiche
+      e in quelle di famiglia. Aveva svernato a Roma e il giorno del suo cinquantesimo
+      compleanno era andato a caccia nella campagna romana; il 20 febbraio 1829 fu
+      colpito da un altro ictus. Dopo molti mesi di tentativi di ristabilirsi, morì
+      il 29 maggio 1829 in una stanza dell'Hôtel de la Couronne, in rue du Rhône,
+      a Ginevra, ed è sepolto nel cimitero di Plainpalais. Ventidue anni prima, nella
+      stessa stagione dell'anno in cui aveva ballato per una stanza di Londra, aveva
+      cominciato una serie che gli avrebbe dato sette elementi.
+    attendibilita: documentato
+  - id: impatto-saponi-molli
+    sezione: impatto
+    testo: 'Prima dell''agricoltura, gli impieghi significativi della potassa erano
+      quattro: vetro, candeggio, sapone e polvere da sparo sotto forma di nitrato
+      di potassio. Il sapone merita un dettaglio chimico, perché spiega una differenza
+      che si tocca ancora con le mani. I saponi di potassio ottenuti da grassi animali
+      e oli vegetali erano particolarmente apprezzati perché tendono a essere più
+      solubili in acqua e di consistenza più morbida: per questo si chiamano saponi
+      molli. Il corrispondente sale di sodio dà una barra dura. È lo stesso ione che
+      nella cellula si occupa di stare dentro invece che fuori, e che qui decide se
+      un sapone sia solido o liquido.'
+    attendibilita: documentato
+  - id: impatto-primo-brevetto
+    sezione: impatto
+    testo: 'Il primo brevetto rilasciato negli Stati Uniti d''America, di qualunque
+      genere, riguarda la potassa. Fu concesso nel 1790 a Samuel Hopkins per un miglioramento
+      nella fabbricazione di _pot ash_ e _pearl ash_ mediante un nuovo
+      apparato e procedimento, e porta la firma di George Washington, allora presidente.
+      La perlassa era la qualità più pura, ottenuta calcinando la potassa in un forno
+      a riverbero. Il fatto che il primo titolo di proprietà intellettuale di una
+      nazione nuova sia un procedimento per lavare la cenere dice che cosa fosse quella
+      sostanza in quel momento: non un prodotto di nicchia, ma una delle poche merci
+      che un paese di foreste potesse trasformare e vendere.'
+    attendibilita: documentato
+  - id: impatto-economia-del-disboscamento
+    sezione: impatto
+    testo: 'Il meccanismo economico che ne derivò è di quelli che spiegano un paesaggio.
+      Nel 1790, nello stato di New York rurale, la vendita delle ceneri poteva rendere
+      dai 3,25 ai 6,25 dollari per acro: quasi la stessa cifra che costava assumere
+      un lavoratore per disboscare la medesima superficie. In altre parole, la potassa
+      pagava il proprio disboscamento. La produzione fu sempre un''industria di sottoprodotto,
+      conseguenza della necessità di liberare terra per l''agricoltura, e l''industria
+      americana della potassa seguì l''ascia del taglialegna attraverso il continente:
+      dopo il 1820 New York sostituì il New England come fonte principale, e nel 1840
+      il centro era in Ohio. Il mercato più importante rimase sempre la Gran Bretagna.
+      Le foreste dell''America orientale sono state convertite in campi con il finanziamento
+      della loro propria cenere.'
+    attendibilita: documentato
+  - id: impatto-cifre-canadesi
+    sezione: impatto
+    testo: 'Le cifre canadesi danno la misura del fenomeno. L''esportazione di potassa
+      da cenere di legna dal Canada comincia nel 1767; nel 1811 il settanta per cento
+      dei 19,6 milioni di libbre di potassa importate in Gran Bretagna veniva da là.
+      Le esportazioni di potassa e perlassa raggiunsero i 43.958 barili nel 1865,
+      e nel 1871 erano in funzione cinquecentodiciannove cenerifici. Sono numeri di
+      un''industria vera, con impianti, addetti e rotte commerciali, costruita su
+      una materia prima che si rigenera solo alla velocità con cui crescono gli alberi.
+      È la ragione per cui questa storia non poteva continuare: il limite non era
+      la domanda, era la foresta.'
+    attendibilita: documentato
+  - id: impatto-liebig
+    sezione: impatto
+    testo: 'Nel 1840 Justus Liebig scoprì due cose che insieme cambiarono il mercato:
+      che il potassio è un elemento necessario alle piante, e che la maggior parte
+      dei tipi di suolo ne è carente. La conseguenza fu un''impennata della domanda
+      di sali di potassio. Si noti il rovesciamento: fino a quel momento la potassa
+      serviva a fare sapone, vetro e candeggio, cioè a trasformare altre cose; da
+      quel momento serve a rimettere nel terreno ciò che il raccolto ne ha portato
+      via. Come fonte per i fertilizzanti si usò all''inizio ancora la cenere di legna,
+      in particolare quella di abete, il che rendeva il problema più acuto: la domanda
+      cresceva proprio mentre la fonte si rivelava insufficiente.'
+    attendibilita: documentato
+  - id: impatto-stassfurt-date
+    sezione: impatto
+    testo: Sulla data in cui la potassa diventa industria minerale le fonti danno
+      tre anni diversi, e la divergenza è istruttiva perché probabilmente non è una
+      contraddizione. La voce sull'elemento colloca nel 1868 la scoperta, vicino a
+      Staßfurt in Germania, dei depositi minerali contenenti cloruro di potassio,
+      e da lì fa cominciare la produzione di fertilizzanti potassici su scala industriale.
+      La voce sulla città di Staßfurt dice invece che il suo deposito è storicamente
+      notevole come sito della prima estrazione di potassa su larga scala per uso
+      fertilizzante, a partire dal 1861. E la voce sull'uso medico del cloruro di
+      potassio afferma che quel sale entrò in uso commerciale su larga scala come
+      fertilizzante proprio nel 1861. Le tre affermazioni possono convivere se descrivono
+      eventi distinti — l'avvio dell'estrazione, il riconoscimento di un deposito
+      specifico di cloruro, l'ingresso sul mercato — ma nessuna delle fonti consultate
+      lo dichiara, e questo vault non scioglie il nodo per conto loro.
+    attendibilita: discusso
+  - id: impatto-cartello-tedesco
+    sezione: impatto
+    testo: 'Con i sali minerali tedeschi l''industria della cenere di legna entrò
+      in declino nel tardo Ottocento, e all''inizio del Novecento il settore era dominato
+      da un cartello in cui la Germania aveva il ruolo principale. Che cosa significhi
+      dipendere da un cartello lo mostrò la guerra: la Prima guerra mondiale vide
+      una breve rinascita dei cenerifici americani, il cui prodotto era tipicamente
+      composto per il sessantasei per cento di idrossido, per il diciassette di carbonato
+      e per il sedici di solfato, più altre impurità. Tornare a bruciare legna era
+      un ripiego da assedio. Il cartello finì più tardi nel secolo, quando comparvero
+      nuovi produttori in Unione Sovietica e in Canada.'
+    attendibilita: documentato
+  - id: impatto-saskatchewan
+    sezione: impatto
+    testo: 'Il baricentro mondiale si spostò per caso, e il caso ha una data: nel
+      1943, in Saskatchewan, si trovò la potassa perforando per cercare petrolio.
+      L''esplorazione attiva cominciò nel 1951 e nel 1958 la Potash Company of America
+      divenne il primo produttore canadese, avviando una miniera sotterranea a Patience
+      Lake. Sotto quella provincia, alle grandi profondità della formazione evaporitica
+      delle Prairie, stanno i depositi più importanti del pianeta — di nuovo, un mare
+      antico prosciugato. Il Canada, che nel 1811 esportava cenere di legna verso
+      la Gran Bretagna, si è ritrovato un secolo e mezzo dopo con la stessa merce
+      sotto i piedi e in una forma che non richiede di abbattere nulla.'
+    attendibilita: documentato
+  - id: impatto-metodo-abbandonato
+    sezione: impatto
+    testo: 'C''è un''ironia, in tutta questa storia industriale, che merita di stare
+      in fondo. Il potassio metallico oggi non si produce per elettrolisi. Il metodo
+      dominante a partire dagli anni Cinquanta è termico e consiste nel far reagire
+      sodio con cloruro di potassio in una reazione di equilibrio chimico, cioè nell''usare
+      un metallo alcalino per spiazzarne un altro; regolando il tempo di reazione
+      e la quantità di sodio impiegata si ottengono, a piacere, le leghe sodio-potassio.
+      Fu usato anche il processo Griesheimer, che fa reagire fluoruro di potassio
+      con carburo di calcio. La via elettrolitica, che diede all''umanità il primo
+      metallo strappato alla corrente e a Davy sette elementi e una disciplina nuova,
+      per questo elemento è stata abbandonata: conviene di più il metallo che Davy
+      isolò poche settimane dopo.'
+    attendibilita: documentato
+  - id: controversie-oligopolio
+    sezione: controversie
+    testo: 'La geografia della potassa è il problema politico dell''elemento. I depositi
+      sono distribuiti nel mondo in modo molto disuguale: si estrae in una dozzina
+      di paesi, ma il grosso della produzione viene dal Canada e dalla Russia, con
+      la Bielorussia come altro produttore importante. La conseguenza la dice la fonte
+      senza giri di parole: la struttura oligopolistica della produzione contribuisce
+      a prezzi più alti e a manipolazione del mercato. Va letta insieme a un dato
+      che la nota base riporta dall''USGS: per il potassio come nutriente non esistono
+      sostituti. Non c''è un secondo modo di dare potassio a una pianta. Un bene senza
+      alternative, prodotto da pochi, è una definizione di leva.'
+    attendibilita: documentato
+  - id: controversie-bielorussia
+    sezione: controversie
+    testo: Quella leva si è vista all'opera in Bielorussia, e la sequenza è documentata.
+      Nel 2020 la Belaruskali divenne uno dei centri degli scioperi seguiti alle elezioni
+      presidenziali e alle violenze contro i manifestanti; il 19 novembre l'azienda
+      licenziò quarantanove scioperanti, ufficialmente per assenteismo. Il 24 giugno
+      2021 l'Unione europea introdusse restrizioni al commercio di potassa con la
+      Bielorussia, motivandole con l'aggravarsi di gravi violazioni dei diritti umani,
+      con la repressione violenta della società civile, dell'opposizione democratica
+      e dei giornalisti, e con l'atterraggio forzato di un volo Ryanair a Minsk il
+      23 maggio dello stesso anno. Un fertilizzante è diventato uno strumento di pressione
+      perché era la cosa che quel governo aveva da vendere.
+    attendibilita: documentato
+  - id: controversie-sanzioni
+    sezione: controversie
+    testo: 'Il seguito è una catena di provvedimenti che dura anni. Il Tesoro statunitense
+      ha descritto la Belaruskali come una fonte importante di entrate fiscali e di
+      valuta estera per il regime di Lukashenko; il 2 dicembre 2021 l''azienda è entrata
+      nella lista delle sanzioni del Regno Unito e la Belarusian Potash Company in
+      quella del Dipartimento del Tesoro americano. Nel 2022 sono arrivate le sanzioni
+      di Canada, Unione europea e Svizzera, che hanno colpito anche l''amministratore
+      delegato Ivan Golovaty; nel gennaio 2023 quelle dell''Ucraina; e nel settembre
+      2024 la Corte di giustizia dell''Unione europea ha rifiutato di revocarle. C''è
+      un particolare che mostra dove stia davvero la pressione: gli operai licenziati
+      furono reintegrati dopo che Yara International, il maggiore acquirente dei prodotti
+      dell''azienda, aveva chiesto conto delle violazioni dei diritti dei lavoratori.
+      Ha funzionato il compratore, prima delle cancellerie.'
+    attendibilita: documentato
+  - id: controversie-bode
+    sezione: controversie
+    testo: 'Anche il lato minerario ha il suo conto ambientale, e a Staßfurt lo si
+      legge nel fiume. Lo scarico delle acque reflue delle aziende locali nel Bode
+      è stato criticato ripetutamente dalle organizzazioni ambientaliste come gravemente
+      dannoso per l''ecosistema del corso d''acqua, e il peggioramento della qualità
+      dell''acqua può essere la causa dell''elevata mortalità dei pesci; per prevenire
+      i danni alla fauna il land della Sassonia-Anhalt ha annunciato di intensificare
+      la vigilanza. È il problema strutturale dell''estrazione dei sali: il minerale
+      utile è solubile, e tutto ciò che lo accompagna lo è altrettanto. Si tira su
+      un sale e bisogna decidere dove mettere gli altri.'
+    attendibilita: documentato
+  - id: controversie-farmaco-e-veleno
+    sezione: controversie
+    testo: 'Lo stesso sale sta in due elenchi che non si incontrano mai. Il cloruro
+      di potassio è nella Lista dei farmaci essenziali dell''Organizzazione mondiale
+      della sanità, e nel 2023 negli Stati Uniti era il quarantaquattresimo medicinale
+      più prescritto, con oltre quattordici milioni di prescrizioni: serve a curare
+      il potassio basso nel sangue. Ed è la terza delle tre sostanze dell''iniezione
+      letale. Nella sequenza prevista i farmaci rendono la persona incosciente, ne
+      fermano il respiro e provocano un''aritmia cardiaca, in quest''ordine: l''ultimo
+      passaggio è affidato al potassio, che fermando il cuore fa esattamente ciò che
+      una sua carenza o un suo eccesso fanno in clinica. Non è un veleno esotico.
+      È un elettrolita fisiologico somministrato in quantità sbagliata di proposito.'
+    attendibilita: documentato
+  - id: controversie-finestra-stretta
+    sezione: controversie
+    testo: 'La ragione per cui lo stesso ione cura e uccide sta in quanto è stretta
+      la finestra. Nel sangue la concentrazione normale di potassio va da 3,5 a 5,0
+      millimoli per litro; si parla di iperkaliemia sopra 5,5, con gradi definiti
+      lieve fra 5,5 e 5,9, moderato fra 6,0 e 6,5 e grave oltre. L''intervallo fra
+      la normalità e il pericolo è dunque di qualche decimo di millimole. La parte
+      insidiosa è che di solito l''iperkaliemia non dà sintomi: quando è grave può
+      dare palpitazioni, dolore muscolare, debolezza o intorpidimento, ma può anche
+      provocare direttamente un''aritmia, l''arresto cardiaco e la morte. Riguarda
+      circa il due per cento delle persone ricoverate, e le cause comuni sono l''insufficienza
+      renale, l''ipoaldosteronismo, la rabdomiolisi e un buon numero di farmaci d''uso
+      corrente. Un elettrolita che in eccesso non avverte è il motivo per cui esistono
+      gli esami del sangue di routine.'
+    attendibilita: documentato
+  - id: controversie-carenza
+    sezione: controversie
+    testo: 'Dall''altro lato della finestra il quadro è simmetrico e più diffuso.
+      Le diete povere di potassio aumentano il rischio di ipertensione, di ictus e
+      di malattia cardiovascolare: è una carenza che non si presenta come carenza,
+      ma come pressione alta. La forma acuta, l''ipokaliemia, nasce tipicamente da
+      perdite — diarrea, diuresi, vomito — e i suoi sintomi seguono la doppia funzione
+      dell''ione: debolezza e crampi muscolari, anomalie dell''elettrocardiogramma,
+      paralisi intestinale, riflessi ridotti, e nei casi gravi paralisi respiratoria,
+      alcalosi e aritmia. Muscolo e nervo, cioè le due cose che dipendono da un gradiente.
+      Il sale dietetico a base di cloruro di potassio, che si vende a chi deve ridurre
+      il sodio, sta esattamente in questo punto: sposta l''equilibrio fra i due ioni
+      nella direzione che la fisiologia preferisce.'
+    attendibilita: documentato
+  - id: controversie-lancet
+    sezione: controversie
+    testo: 'Torniamo all''iniezione letale, perché la domanda che la riguarda è tecnica
+      e irrisolta, e il potassio ne è il centro. Gli oppositori del metodo sostengono
+      che se il tiopentale è diluito o somministrato male la morte avviene per soffocamento,
+      per effetto paralizzante del bromuro di pancuronio, accompagnata dalla sensazione
+      di bruciore intenso provocata dal cloruro di potassio: il terzo farmaco fa male,
+      e i primi due servono a non farlo vedere. Nel 2005 ricercatori dell''Università
+      di Miami pubblicarono sul _Lancet_ una lettera con i dati di quattro
+      stati: gli esecutori non avevano formazione anestesiologica, i farmaci erano
+      somministrati a distanza senza alcun monitoraggio dell''anestesia, i dati non
+      venivano registrati e non c''era revisione fra pari. Nelle analisi tossicologiche,
+      in quarantatré casi su quarantanove — l''ottantotto per cento — la concentrazione
+      post mortem di tiopentale era inferiore a quella necessaria per un intervento
+      chirurgico, e in ventuno casi, il quarantatré per cento, compatibile con uno
+      stato di coscienza. L''articolo è stato contestato da consulenti di entrambe
+      le parti, e il punto in discussione è se il tiopentale, dopo la morte, passi
+      dal sangue ai tessuti abbassando la concentrazione misurata oppure dai tessuti
+      al sangue alzandola: in assenza di dati sperimentali sottoposti a revisione,
+      la questione resta aperta.'
+    attendibilita: discusso
+  - id: controversie-sale-sbagliato
+    sezione: controversie
+    testo: 'Due episodi mostrano che cosa succede quando una procedura clinica viene
+      eseguita fuori dalla medicina. Nel gennaio 2015, in Oklahoma, per l''esecuzione
+      di Charles Frederick Warner fu usato per errore acetato di potassio al posto
+      del cloruro: un sale diverso dello stesso ione, scambiato. E il 14 agosto 2018
+      il Nebraska eseguì la condanna di Carey Dean Moore con una combinazione mai
+      usata prima — diazepam, fentanil, cisatracurio e cloruro di potassio — nonostante
+      le forti obiezioni della casa farmaceutica tedesca Fresenius Kabi. Il contesto
+      è il boicottaggio dei produttori, che rifiutando la vendita dei propri farmaci
+      per le esecuzioni hanno chiuso di fatto il mercato aperto dei fabbricanti autorizzati.
+      Il risultato è che i protocolli cambiano di stato in stato e di anno in anno,
+      e l''unica costante è l''ultima siringa.'
+    attendibilita: documentato
+  - id: eredita-la-pompa
+    sezione: eredita
+    testo: 'La macchina che tiene in piedi tutto questo è un enzima presente nella
+      membrana di ogni cellula animale, e il suo funzionamento si racconta con tre
+      numeri. Per ogni molecola di ATP che consuma, la pompa sodio-potassio espelle
+      tre ioni sodio e importa due ioni potassio: il bilancio di ciascun ciclo è dunque
+      l''esportazione netta di una carica positiva, e questo la rende elettrogenica,
+      capace di generare da sé una differenza di potenziale. L''effetto complessivo
+      è una concentrazione di sodio all''esterno cinque volte quella interna, e una
+      concentrazione di potassio all''interno trenta volte quella esterna. Due ioni
+      chimicamente fratelli, tenuti separati ai due lati di uno spessore di pochi
+      nanometri, da una proteina che conta.'
+    attendibilita: documentato
+  - id: eredita-il-costo
+    sezione: eredita
+    testo: 'Il costo di quel lavoro è la cifra che cambia il modo di guardare l''elemento,
+      e conviene guardarla dal lato dei neuroni. Per una cellula nervosa la pompa
+      sodio-potassio può essere responsabile fino a tre quarti della spesa energetica
+      complessiva: tre quarti di tutto ciò che la cellula ricava dal metabolismo se
+      ne vanno nel tenere separati due sali. La maggior parte dell''energia che un
+      cervello consuma non serve dunque a pensare, a ricordare o a trasmettere, ma
+      a ricaricare la batteria che rende possibili quelle tre cose. Il pensiero è
+      ciò che accade quando a quella batteria si permette, per un millisecondo, di
+      scaricarsi.'
+    attendibilita: documentato
+  - id: eredita-skou
+    sezione: eredita
+    testo: La pompa fu scoperta nel 1957 da Jens Christian Skou, allora professore
+      assistente al dipartimento di fisiologia dell'Università di Aarhus, in Danimarca,
+      che pubblicò il lavoro nello stesso anno. Il premio Nobel per la chimica gli
+      arrivò nel 1997, quarant'anni dopo, per metà, con la motivazione di aver compiuto
+      la prima scoperta di un enzima che trasporta ioni. Quarant'anni sono il tempo
+      che è servito perché si capisse che quella non era una curiosità della fisiologia
+      cellulare ma il meccanismo su cui poggiano il battito cardiaco, la contrazione
+      muscolare e il sistema nervoso. La scoperta segnò un passo avanti importante
+      nella comprensione di come gli ioni entrino ed escano dalle cellule, e in particolare
+      del suo significato per le cellule eccitabili, che dipendono da questa pompa
+      per rispondere agli stimoli e trasmettere impulsi.
+    attendibilita: documentato
+  - id: eredita-il-filtro
+    sezione: eredita
+    testo: 'Se la pompa carica il gradiente, i canali lo scaricano, e il modo in cui
+      scelgono che cosa far passare si è potuto vedere solo quando si è riusciti a
+      guardarne uno da vicino. Il primo canale del potassio a essere caratterizzato
+      per cristallografia a raggi X — da Roderick MacKinnon e colleghi, nel 1998 —
+      si chiama KcsA e viene da un batterio del suolo, lo _Streptomyces lividans_:
+      quattro subunità disposte attorno a un poro centrale, con un filtro di selettività
+      formato da una sequenza di cinque aminoacidi — treonina, valina, glicina, tirosina,
+      glicina — larga circa tre ångström e provvista di quattro siti di legame per
+      gli ioni, di cui si ritiene che solo due siano occupati alla volta. Quella sequenza
+      di cinque lettere è conservata anche nei canali eucarioti più complessi, i nostri
+      compresi. Il dispositivo che governa il battito del vostro cuore è, nella parte
+      che conta, lo stesso di un batterio del terreno.'
+    attendibilita: documentato
+  - id: eredita-perche-il-piu-grande
+    sezione: eredita
+    testo: 'Il punto controintuitivo è che il canale del potassio respinge il sodio,
+      che è più piccolo. Ci si aspetterebbe il contrario: un foro che lascia passare
+      l''ione grande dovrebbe lasciar passare anche il piccolo. Il trucco è che nessuno
+      dei due ioni viaggia nudo, perché in acqua sono circondati da un guscio di molecole
+      d''acqua, e per infilarsi nel filtro devono lasciarlo. Gli atomi di ossigeno
+      dei gruppi carbonilici che formano il filtro sono tenuti in una posizione precisa,
+      tale da poter sostituire le molecole d''acqua del guscio di idratazione dello
+      ione potassio: il potassio scambia l''abbraccio dell''acqua con quello della
+      proteina e non ci perde niente. Per lo ione sodio, più piccolo, quegli stessi
+      ossigeni sono troppo lontani, e il baratto non conviene. Il canale non misura
+      un diametro: offre un risarcimento, e lo taglia su misura di un solo cliente.'
+    attendibilita: documentato
+  - id: eredita-mackinnon
+    sezione: eredita
+    testo: 'Di chi ha risolto quella struttura conviene dire da dove veniva. Roderick MacKinnon, biofisico e neuroscienziato, è nato
+      a Burlington, in Massachusetts, nel 1956; si è laureato in biochimica alla Brandeis
+      nel 1978 e poi in medicina alla Tufts, ed è professore di neurobiologia molecolare
+      e biofisica alla Rockefeller University. Nel 2003 ha ricevuto il premio Nobel
+      per la chimica insieme a Peter Agre per il lavoro sulla struttura e sul funzionamento
+      dei canali ionici; nel 1999 gli era andato il premio Lasker per la ricerca medica
+      di base. Si noti quale premio sia: di chimica, non di medicina. Per capire come
+      una cellula nervosa fa passare un ione bisognava cristallizzare una proteina
+      e guardare dove stanno gli atomi, che è un mestiere da chimici.'
+    attendibilita: documentato
+  - id: eredita-quanto-ne-abbiamo
+    sezione: eredita
+    testo: 'In un corpo umano il potassio è l''ottavo o nono elemento per massa, con
+      lo 0,2 per cento del totale: un adulto di sessanta chili ne contiene circa centoventi
+      grammi. Ne abbiamo quanto zolfo e cloro, e fra gli elementi che non siano i
+      quattro onnipresenti della materia organica soltanto calcio e fosforo sono più
+      abbondanti. Ma il dato che conta è un altro, ed è il novantotto per cento: è
+      la quota del potassio corporeo che si trova _dentro_ le singole cellule.
+      Il calcio sta nelle ossa, il ferro nel sangue, lo iodio nella tiroide; il potassio
+      sta nel citoplasma, distribuito in ogni cellula del corpo, e la sua collocazione
+      anatomica non è un organo ma un lato di una membrana.'
+    attendibilita: documentato
+  - id: eredita-stomi
+    sezione: eredita
+    testo: 'Nelle piante lo stesso ione fa un lavoro meccanico che si vede a occhio
+      nudo, se si sa dove guardare. Il potassio serve alla sintesi delle proteine
+      e all''apertura e chiusura degli stomi, i pori microscopici con cui la foglia
+      respira: il movimento è regolato da pompe protoniche che rendono turgide o flaccide
+      le cellule di guardia che stanno ai due lati del poro. Gonfiare una cellula
+      per aprire una porta è idraulica, e il fluido di lavoro è una soluzione di potassio.
+      L''elemento partecipa anche alla fotosintesi, all''attivazione di alcuni enzimi,
+      al trasporto dei prodotti della fotosintesi nel floema e al bilancio fra cationi
+      e anioni. Le concentrazioni tipiche dicono quanto sia universale la scelta:
+      da 30 a 300 millimolare in _Escherichia coli_, 300 nel lievito, 100 in
+      una cellula di mammifero, e solo 4 nel plasma sanguigno.'
+    attendibilita: documentato
+  - id: eredita-elettroni-come-anioni
+    sezione: eredita
+    testo: 'Sul versante chimico il potassio fa due cose che meritano di essere raccontate
+      perché mettono in crisi il modo consueto di disegnare i composti. La prima:
+      si scioglie facilmente in ammoniaca liquida, fino a 480 grammi per mille grammi
+      di ammoniaca a zero gradi, e forma un _elettride_ in cui la parte negativa
+      del composto non è un atomo né un gruppo, ma un elettrone che fa da anione per
+      conto proprio. La seconda: con la grafite forma composti di intercalazione,
+      e uno di questi ha formula KC<sub>8</sub>, un solido di colore oro che si descrive
+      come un sale di potassio in cui il partner negativo è la grafite stessa, carica.
+      Sono i casi in cui la tavola periodica mostra i bordi delle proprie categorie:
+      il metallo che cede l''elettrone più volentieri riesce a cederlo anche quando
+      non c''è nessuno disposto a prenderlo per bene.'
+    attendibilita: documentato
+  - id: eredita-quattro-ossidi
+    sezione: eredita
+    testo: 'Gli ossidi del potassio bene studiati sono quattro, e la serie si legge
+      come una scala: ossido, perossido, superossido e ozonuro, cioè K<sub>2</sub>O,
+      K<sub>2</sub>O<sub>2</sub>, KO<sub>2</sub> e KO<sub>3</sub>, con l''ossigeno
+      che a ogni gradino porta meno carica negativa per atomo. Tutti reagiscono con
+      l''acqua dando idrossido di potassio, il che spiega la patina biancastra che
+      copre in pochi minuti un frammento esposto all''aria. Uno di loro rompe la regola:
+      mentre sali semplici come questi sono tipicamente bianchi e diamagnetici, il
+      superossido KO<sub>2</sub> è giallo intenso e paramagnetico, perché contiene
+      un elettrone spaiato. È il genere di anomalia da cui la chimica impara: un colore
+      e una risposta al campo magnetico che segnalano una struttura elettronica fuori
+      dall''ordinario.'
+    attendibilita: documentato
+  - id: eredita-766-nanometri
+    sezione: eredita
+    testo: 'Quel colore lilla che i manuali associano al potassio ha un numero preciso:
+      il picco di emissione sta a 766,5 nanometri, cioè nel rosso profondo, al limite
+      di ciò che l''occhio umano percepisce. Il lilla che si vede è la somma di quella
+      riga con le altre componenti dello spettro. Il saggio alla fiamma, che è la
+      tecnica analitica più antica e più semplice che esista, resta un modo valido
+      di riconoscere l''elemento; per quantificarlo si usano metodi spettroscopici
+      come la fotometria di fiamma e la fluorescenza a raggi X. E c''è un dettaglio
+      che dice molto dell''industria: nella produzione di fertilizzanti, che è l''impiego
+      dominante dell''elemento, si adopera ancora l''analisi gravimetrica tradizionale,
+      cioè si pesa. Per la merce che si vende a milioni di tonnellate, la bilancia
+      batte ancora lo spettrometro.'
+    attendibilita: documentato
+  - id: eredita-leghe-liquide
+    sezione: eredita
+    testo: 'Dalla parentela stretta fra sodio e potassio nasce una famiglia di metalli
+      che sono liquidi a temperatura ambiente. La lega di sodio e potassio, detta
+      NaK, è un liquido che si usa come mezzo di trasferimento del calore e come essiccante
+      per preparare solventi secchi e privi d''aria, oltre che nella distillazione
+      reattiva: un metallo che fa il lavoro di un olio diatermico, con il vantaggio
+      di condurre il calore come solo i metalli sanno fare. Spingendo la logica più
+      avanti, la lega ternaria con il 12 per cento di sodio, il 47 di potassio e il
+      41 di cesio ha il punto di fusione più basso di qualunque composto metallico,
+      meno settantotto gradi. Il potassio metallico serve poi in alcuni tipi di magnetometri.
+      Sono impieghi di nicchia, e spiegano perché di questo elemento si produca come
+      metallo una frazione minuscola: il mondo lo vuole come ione.'
+    attendibilita: documentato
+  - id: eredita-fisica-quantistica
+    sezione: eredita
+    testo: Un impiego che nessuno avrebbe previsto lo ha portato nei laboratori di
+      fisica dei gas ultrafreddi, dove si studiano problemi fondamentali e tecnologici
+      di fisica quantistica. I due isotopi bosonici del potassio possiedono risonanze
+      di Feshbach comode, che permettono gli esperimenti in cui serve regolare a piacere
+      l'intensità delle interazioni fra gli atomi; e il potassio-40 — lo stesso isotopo
+      radioattivo che ci rende debolmente radioattivi e che datava Olduvai — è uno
+      dei soli due fermioni stabili fra tutti i metalli alcalini. Quella proprietà,
+      che dipende dal numero dispari di particelle nel nucleo, lo rende adatto a simulare
+      il comportamento degli elettroni nei solidi. L'isotopo più noto per la radioattività
+      delle banane è anche uno degli strumenti con cui si prova a capire la superconduttività.
+    attendibilita: documentato
+  - id: eredita-quante-disintegrazioni
+    sezione: eredita
+    testo: 'Sul conto della radioattività che portiamo addosso le fonti non concordano,
+      e la divergenza è interna alla stessa enciclopedia. La voce sull''elemento afferma
+      che in un corpo umano di settanta chili decadono circa 4.400 nuclei di potassio-40
+      al secondo, ed è la cifra che riporta la nota base di questo vault; la voce
+      dedicata all''isotopo calcola invece i 16,7 milligrammi di potassio-40 contenuti
+      in circa 140 grammi di potassio e conclude che producono da 3.850 a 4.300 disintegrazioni
+      al secondo, citando due studi diversi per i due estremi. Le stime dipendono
+      da quanto potassio si attribuisce al corpo — la stessa voce offre 140 grammi
+      o 126 — e da quale misura dell''attività specifica si adotta. Questo vault tiene
+      la cifra della nota base e registra l''intervallo: l''ordine di grandezza, quattromila
+      decadimenti al secondo, è ciò che tutte le fonti concordano nel dire.'
+    attendibilita: discusso
+  - id: eredita-dose-interna
+    sezione: eredita
+    testo: 'Qualunque sia il numero esatto, il confronto fra le sorgenti è netto.
+      La concentrazione normale di potassio-40 nel corpo umano equivale a cinquantacinque
+      becquerel per chilogrammo, e corrisponde a una dose efficace di 0,2 millisievert
+      all''anno distribuita su tutto il corpo: è la più grande sorgente di radiazione
+      interna che abbiamo, seguita dagli 0,12 millisievert annui dei nuclidi delle
+      serie di decadimento dell''uranio e del torio, e molto più avanti dai soli dodici
+      microsievert del carbonio-14. Il carbonio-14 è l''isotopo radioattivo di cui
+      tutti hanno sentito parlare, per via della datazione, e contribuisce meno di
+      tutti; il potassio-40, che guida la classifica, non è famoso. È anche l''isotopo
+      su cui si basa la _dose equivalente banana_, l''unità di misura informale
+      che si usa per spiegare gli ordini di grandezza della radioprotezione a chi
+      non fa questo mestiere.'
+    attendibilita: documentato
+  - id: eredita-argon
+    sezione: eredita
+    testo: 'C''è poi un lascito che sta sopra le nostre teste. L''argon primordiale,
+      quello del materiale che condensò formando i pianeti, è quasi tutto argon-36,
+      con meno del quindici per cento di argon-38; ne segue che la maggior parte dell''argon
+      terrestre proviene dal potassio-40 che è decaduto in argon-40 e che alla fine
+      è sfuggito nell''atmosfera. L''argon è il terzo gas dell''aria che respiriamo,
+      quasi l''uno per cento: e quasi tutto è potassio che ha cambiato identità. Questo
+      vault racconta altrove la storia dell''argon, dell''anomalia che fece pesare
+      quel gas più del potassio che lo segue nella tavola e che contribuì a farla
+      riordinare per numero atomico. I due elementi sono legati due volte: una nella
+      tavola periodica, una nell''atmosfera.'
+    attendibilita: documentato
+  - id: eredita-calore-interno
+    sezione: eredita
+    testo: 'Lo stesso decadimento scalda il pianeta da dentro. Nel mantello terrestre
+      il potassio-40 è la terza sorgente di calore radiogenico, dopo il torio-232
+      e l''uranio-238: contribuisce cioè a mantenere fluido ciò che si muove sotto
+      le placche. Del nucleo esterno e interno si sa meno, ma è stato proposto che
+      una radioattività significativa, dell''ordine di uno o due terawatt, possa essere
+      dovuta a livelli elevati di uranio, torio e potassio. Conviene accostare le
+      due scale: lo stesso isotopo che produce quattromila decadimenti al secondo
+      nel vostro corpo ne produce abbastanza, nella massa del pianeta, da figurare
+      nel bilancio termico che tiene in movimento i continenti.'
+    attendibilita: documentato
+  - id: eredita-datazione
+    sezione: eredita
+    testo: 'Quel decadimento è anche un orologio, e ha datato la nostra stessa preistoria.
+      Il metodo potassio-argon è stato determinante nello sviluppo della scala dei
+      tempi delle inversioni di polarità del campo magnetico terrestre, e pur trovando
+      il massimo impiego in geologia ha un ruolo importante in archeologia: alla gola
+      di Olduvai, in Tanzania, l''età dei depositi archeologici è stata delimitata
+      datando le colate di lava sopra e sotto di essi, e il metodo è stato indispensabile
+      in altri siti antichi dell''Africa orientale con una storia di attività vulcanica,
+      come Hadar in Etiopia. Sono i luoghi in cui si sono trovati i resti che raccontano
+      l''origine della nostra specie. Le date che leggiamo accanto a quei fossili
+      sono state lette in un orologio di potassio.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'Alla fine, la storia del potassio è la storia di una differenza mantenuta.
+      Per averlo si sono bruciate le foreste di due continenti e si è scritto il primo
+      brevetto di una nazione; per tenerlo dentro le proprie cellule ogni essere vivente
+      spende, adesso, una quota enorme di tutta l''energia che riesce a produrre,
+      fino a tre quarti nei neuroni. Nessuno dei due sforzi produce qualcosa: entrambi
+      servono a mantenere uno squilibrio contro la tendenza delle cose a mescolarsi.
+      Il potassio non costruisce tessuti come il carbonio, non trasporta ossigeno
+      come il ferro, non forma scheletri come il calcio; sta da un lato di una membrana
+      e non fa nulla, e proprio per questo il pensiero, il battito e il raccolto dipendono
+      da lui. Davy, che ballò per la stanza vedendo i primi globuli prendere fuoco,
+      aveva davanti l''elemento che ogni sua cellula stava in quel momento spendendo
+      energia per trattenere.'
+    attendibilita: documentato
 composti_principali:
 - nome: Cloruro di potassio
   formula: KCl
@@ -231,3 +1000,66 @@ fonti:
 - url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-potash.pdf
   titolo: Potash — Mineral Commodity Summaries 2026, U.S. Geological Survey
   consultata: 2026-09-07
+- url: https://en.wikipedia.org/wiki/Potassium-40
+  titolo: Potassium-40
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Isotopes_of_potassium
+  titolo: Isotopes of potassium
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Potassium_in_biology
+  titolo: Potassium in biology
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Sodium%E2%80%93potassium_pump
+  titolo: Sodium–potassium pump
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Potassium_channel
+  titolo: Potassium channel
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/KcsA_potassium_channel
+  titolo: KcsA potassium channel
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Roderick_MacKinnon
+  titolo: Roderick MacKinnon
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Potassium_chloride_(medical_use)
+  titolo: Potassium chloride (medical use)
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Hyperkalemia
+  titolo: Hyperkalemia
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Hypokalemia
+  titolo: Hypokalemia
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Humphry_Davy
+  titolo: Humphry Davy
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Edmund_Davy
+  titolo: Edmund Davy
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Voltaic_pile
+  titolo: Voltaic pile
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/History_of_electrochemistry
+  titolo: History of electrochemistry
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Georg_Ernst_Stahl
+  titolo: Georg Ernst Stahl
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Sta%C3%9Ffurt
+  titolo: Staßfurt
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/K%E2%80%93Ar_dating
+  titolo: K–Ar dating
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Lethal_injection
+  titolo: Lethal injection
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Belaruskali
+  titolo: Belaruskali
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Potassium_nitrate
+  titolo: Potassium nitrate
+  consultata: 2026-09-17
+- url: https://en.wikipedia.org/wiki/Banana_equivalent_dose
+  titolo: Banana equivalent dose
+  consultata: 2026-09-17

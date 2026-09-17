@@ -141,6 +141,9 @@ flowchart LR
 
 Poco meno di un atomo di potassio ogni ottomila è potassio-40, un isotopo radioattivo con un tempo di dimezzamento di 1,25 miliardi di anni. È la principale sorgente di radioattività naturale del corpo umano — più del carbonio-14 — con circa 4.400 disintegrazioni al secondo in una persona di settanta chili, e rende leggermente radioattive le banane.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Potassio — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Sodio]] (1807)
@@ -156,6 +159,27 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Humphry Davy]]
 - [Potash](https://en.wikipedia.org/wiki/Potash) — consultata il 08/09/2026
 - [Potassium — Royal Society of Chemistry](https://periodic-table.rsc.org/element/19/potassium) — consultata il 08/09/2026
 - [Potash — Mineral Commodity Summaries 2026, U.S. Geological Survey](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-potash.pdf) — consultata il 07/09/2026
+- [Potassium-40](https://en.wikipedia.org/wiki/Potassium-40) — consultata il 17/09/2026
+- [Isotopes of potassium](https://en.wikipedia.org/wiki/Isotopes_of_potassium) — consultata il 17/09/2026
+- [Potassium in biology](https://en.wikipedia.org/wiki/Potassium_in_biology) — consultata il 17/09/2026
+- [Sodium–potassium pump](https://en.wikipedia.org/wiki/Sodium%E2%80%93potassium_pump) — consultata il 17/09/2026
+- [Potassium channel](https://en.wikipedia.org/wiki/Potassium_channel) — consultata il 17/09/2026
+- [KcsA potassium channel](https://en.wikipedia.org/wiki/KcsA_potassium_channel) — consultata il 17/09/2026
+- [Roderick MacKinnon](https://en.wikipedia.org/wiki/Roderick_MacKinnon) — consultata il 17/09/2026
+- [Potassium chloride (medical use)](https://en.wikipedia.org/wiki/Potassium_chloride_%28medical_use%29) — consultata il 17/09/2026
+- [Hyperkalemia](https://en.wikipedia.org/wiki/Hyperkalemia) — consultata il 17/09/2026
+- [Hypokalemia](https://en.wikipedia.org/wiki/Hypokalemia) — consultata il 17/09/2026
+- [Humphry Davy](https://en.wikipedia.org/wiki/Humphry_Davy) — consultata il 17/09/2026
+- [Edmund Davy](https://en.wikipedia.org/wiki/Edmund_Davy) — consultata il 17/09/2026
+- [Voltaic pile](https://en.wikipedia.org/wiki/Voltaic_pile) — consultata il 17/09/2026
+- [History of electrochemistry](https://en.wikipedia.org/wiki/History_of_electrochemistry) — consultata il 17/09/2026
+- [Georg Ernst Stahl](https://en.wikipedia.org/wiki/Georg_Ernst_Stahl) — consultata il 17/09/2026
+- [Staßfurt](https://en.wikipedia.org/wiki/Sta%C3%9Ffurt) — consultata il 17/09/2026
+- [K–Ar dating](https://en.wikipedia.org/wiki/K%E2%80%93Ar_dating) — consultata il 17/09/2026
+- [Lethal injection](https://en.wikipedia.org/wiki/Lethal_injection) — consultata il 17/09/2026
+- [Belaruskali](https://en.wikipedia.org/wiki/Belaruskali) — consultata il 17/09/2026
+- [Potassium nitrate](https://en.wikipedia.org/wiki/Potassium_nitrate) — consultata il 17/09/2026
+- [Banana equivalent dose](https://en.wikipedia.org/wiki/Banana_equivalent_dose) — consultata il 17/09/2026
 
 ---
 
