@@ -183,6 +183,786 @@ contenuti:
   - termine: Thénard
     ipa: teˈnaʁ
     nota: Alla francese, con la d finale muta.
+contenuti_estesi:
+  hook: 'Nel 1916 un chimico polacco che lavorava a Berlino intinse la penna nel crogiolo
+    di stagno fuso invece che nel calamaio. La ritirò subito e vide pendere dal pennino
+    un filo di metallo solidificato: sostituì il pennino con un capillare e verificò
+    che quel filo era un cristallo unico. Oggi circa il novanta per cento dei dispositivi
+    a semiconduttore del mondo nasce da quel gesto ripetuto su scala industriale —
+    un seme immerso in un bagno fuso e tirato su lentamente, ruotando. L''elemento
+    che viene estratto così è il secondo più abbondante della crosta terrestre, un
+    quarto di tutto ciò che abbiamo sotto i piedi; e proprio per questo nessuno lo
+    ha visto per millenni.'
+  beats:
+  - id: contesto-troppo-ovunque
+    sezione: contesto
+    testo: 'Più del novanta per cento della crosta terrestre è composto di minerali
+      silicatici, e questo fa del silicio il secondo elemento più abbondante della
+      crosta dopo l''ossigeno, con circa il ventotto per cento della sua massa. È
+      una cifra che conviene fermarsi a guardare, perché spiega un paradosso: il silicio
+      è stato uno degli ultimi elementi comuni a essere riconosciuto proprio perché
+      è dappertutto. Un elemento raro si nota: sta in un posto solo, ha un aspetto
+      suo, arriva da una miniera con un nome. Un elemento che costituisce un quarto
+      del pianeta non ha un aspetto suo, perché ha l''aspetto di tutto: la sabbia
+      della spiaggia, la pietra del muro, l''argilla del vaso, il vetro della finestra
+      e il cristallo di rocca non sembravano avere niente in comune. Erano la stessa
+      cosa.'
+    attendibilita: documentato
+  - id: contesto-usato-senza-saperlo
+    sezione: contesto
+    testo: 'Per via di quell''abbondanza, i materiali a base di silicio sono in uso
+      da millenni senza che nessuno sapesse di usare un elemento. I cristalli di rocca
+      erano familiari a diverse civiltà antiche: gli egizi predinastici li lavoravano
+      in perline e piccoli vasi, e lo stesso facevano gli antichi cinesi. Il vetro
+      contenente silice si fabbricava in Egitto almeno dal 1500 avanti Cristo, e presso
+      i fenici. È la condizione normale della tecnica prima della chimica: si sa che
+      cosa fa una sostanza, non che cosa è. La differenza non è accademica, perché
+      è esattamente ciò che separa il saper fondere la sabbia dal saperne ricavare
+      un transistor.'
+    attendibilita: documentato
+  - id: contesto-un-solo-composto-tanti-nomi
+    sezione: contesto
+    testo: 'Conviene mettere ordine in una confusione di nomi che attraversa tutta
+      questa storia. La silice si trova in natura come il minerale quarzo e i suoi
+      polimorfi: la stessa formula, biossido di silicio, in strutture cristalline
+      diverse. Il quarzo di una geode, la selce di una punta di freccia, l''agata,
+      il diaspro, l''opale e la sabbia di una spiaggia sono varianti della stessa
+      combinazione di due elementi, distinte dal modo in cui gli atomi si sono disposti
+      e da quanta acqua o impurezza hanno incorporato. È un altro angolo dello stesso
+      paradosso: il silicio non ha un nome popolare perché ne ha troppi, e ognuno
+      di quei nomi appartiene a un''esperienza diversa — il gioielliere, l''archeologo,
+      il vetraio, il bagnante — senza che nessuna rimandi alle altre.'
+    attendibilita: documentato
+  - id: contesto-il-colore-non-e-suo
+    sezione: contesto
+    testo: 'Un dettaglio rovescia l''impressione che si ha guardando una vetrina di
+      minerali. I silicati sono invariabilmente incolori, e ridotti in polvere fine
+      sono bianchi: il colore dei minerali silicatici viene dalla componente metallica,
+      di solito il ferro. Le pietre colorate che si mettono in vetrina devono la tinta
+      a un ospite, non all''impalcatura che li tiene insieme. L''elemento che costituisce
+      un quarto della crosta non ha colore, e questo è un altro dei motivi per cui
+      è rimasto invisibile così a lungo: non solo era dappertutto, ma non aveva nemmeno
+      un aspetto con cui farsi riconoscere. Le pietre che ammiriamo le chiamiamo con
+      il nome della loro impurezza.'
+    attendibilita: documentato
+  - id: contesto-il-mattone
+    sezione: contesto
+    testo: 'Sotto tutti questi nomi e tutti questi colori c''è un unico mattone, e
+      conviene guardarlo da vicino prima di vedere che cosa ci si costruisce. Nella
+      maggior parte dei minerali silicatici il silicio è tetraedrico: sta al centro,
+      circondato da quattro ossigeni. Il numero di coordinazione degli ossigeni è
+      variabile, tranne quando un ossigeno fa da ponte fra due centri di silicio,
+      e in quel caso vale due. Quel ponte è tutto ciò che serve sapere per capire
+      il resto: un ossigeno condiviso fra due tetraedri li lega, e a seconda di quanti
+      vertici vengono condivisi il materiale che ne esce cambia natura. Non cambia
+      la ricetta, cambia solo quante volte si ripete la stessa giuntura.'
+    attendibilita: documentato
+  - id: contesto-come-si-collegano
+    sezione: contesto
+    testo: 'La ragione per cui una sola combinazione di due elementi produce insieme
+      il granito, l''amianto, la mica, l''argilla e lo smeraldo sta tutta nel modo
+      in cui i tetraedri si collegano fra loro. Se restano isolati si hanno i nesosilicati;
+      se si uniscono per gli angoli in catene singole o doppie si hanno i pirosseni
+      e gli anfiboli; se le catene si saldano lateralmente in fogli si hanno le miche
+      e le argille, che infatti si sfaldano in lamine perché i fogli scorrono; se
+      ogni vertice è condiviso in tutte le direzioni si ha un reticolo tridimensionale,
+      cioè il quarzo, i feldspati e le zeoliti. Quest''ultima famiglia da sola costituisce
+      quasi il settantacinque per cento della crosta terrestre. La geometria della
+      connessione è il vero autore della varietà: la ricetta è sempre silicio e ossigeno.'
+    attendibilita: documentato
+  - id: contesto-il-posto-scambiato
+    sezione: contesto
+    testo: 'C''è poi una regola di sostituzione che spiega perché i minerali della
+      crosta siano così tanti. Al centro di un tetraedro, al posto del silicio, può
+      sedersi un altro atomo: se non è tetravalente lascia una carica scoperta, e
+      il reticolo per restare neutro deve ospitare uno ione in più. Nell''ortoclasio
+      un atomo di silicio su quattro è sostituito da alluminio, e la carica che ne
+      risulta viene neutralizzata da ioni potassio. È il meccanismo per cui quasi
+      tutti i minerali comuni sono allumosilicati e portano con sé un corteo di metalli:
+      il silicio costruisce l''impalcatura, gli altri elementi ci si infilano dentro.
+      Il risultato è che leggere la composizione di una roccia significa quasi sempre
+      leggere che cosa è riuscito a entrare in un reticolo fatto da qualcun altro.'
+    attendibilita: documentato
+  - id: contesto-miliardi-di-anni-di-rimescolamento
+    sezione: contesto
+    testo: 'La varietà dei minerali silicatici non è un dato di partenza: è il risultato
+      di un lavoro lunghissimo. Sulla Terra una grande diversità di silicati si presenta
+      in una gamma ancora più ampia di combinazioni, e questo per effetto dei processi
+      che hanno formato e rilavorato la crosta per miliardi di anni — fusione parziale,
+      cristallizzazione, frazionamento, metamorfismo, alterazione superficiale, diagenesi.
+      Ogni roccia che si raccoglie è il prodotto di una storia di riscaldamenti, raffreddamenti
+      e riscritture. Il silicio è l''unico elemento che è stato presente a tutti quei
+      passaggi in quantità tale da fare da impalcatura: non è un ingrediente della
+      crosta, è la sua struttura portante, e le differenze fra le rocce sono differenze
+      nella storia di quella struttura.'
+    attendibilita: documentato
+  - id: contesto-la-silice-viva
+    sezione: contesto
+    testo: 'La silice non è soltanto minerale: è anche una cosa che gli organismi
+      fabbricano. Alcune spugne marine e diversi microrganismi, fra cui le diatomee
+      e i radiolari, secernono strutture scheletriche fatte di silice, e la silice
+      viene depositata nei tessuti di molte piante. Esiste addirittura una roccia
+      che è il sedimento di quella produzione biologica, la farina fossile. Vale la
+      pena registrare il capovolgimento: la stessa sostanza che nella forma di polvere
+      respirabile distrugge i polmoni umani, nelle mani di un''alga unicellulare diventa
+      un guscio finemente traforato. Non è la sostanza a essere buona o cattiva, è
+      la scala e il modo in cui la si incontra.'
+    attendibilita: documentato
+  - id: contesto-fragile-come-il-vetro
+    sezione: contesto
+    testo: 'Una proprietà apparentemente minore ha conseguenze industriali enormi,
+      e vale la pena isolarla: il silicio è fragile. È un solido cristallino duro
+      e fragile, con una lucentezza metallica grigio-azzurra, e quella fragilità significa
+      che un lingotto non si può deformare, piegare o laminare come si fa con i metalli.
+      Lo si può soltanto tagliare, e infatti l''industria lo taglia: il cilindro diventa
+      dischi con una sega, e i dischi si assottigliano e si lucidano. Tutta la lavorazione
+      del silicio è sottrattiva, non plastica. È una differenza di carattere rispetto
+      al rame o all''alluminio, che si lasciano trafilare in fili e battere in lamine,
+      e spiega perché la fabbrica di chip somigli più a una tipografia che a una fonderia.'
+    attendibilita: documentato
+  - id: contesto-perche-non-e-il-carbonio
+    sezione: contesto
+    testo: 'Il silicio sta sotto il carbonio e gli somiglia in tutto tranne che nella
+      cosa che conta, e la differenza si può scrivere con due numeri. L''energia media
+      del legame silicio-silicio è di circa duecentoventisei chilojoule per mole,
+      contro i trecentocinquantasei del legame carbonio-carbonio: gli orbitali 3p
+      del silicio si sovrappongono male, e la sua tendenza a incatenarsi con se stesso
+      è molto minore. Per questo i composti con legami multipli fra atomi di silicio
+      sono di norma assai meno stabili degli analoghi del carbonio. È una differenza
+      di un centinaio di chilojoule, e ci sta dentro tutta la ragione per cui la vita
+      è fatta di carbonio e non di silicio, nonostante il silicio abbondi nella crosta
+      e il carbonio no.'
+    attendibilita: documentato
+  - id: contesto-ottavo-nell-universo
+    sezione: contesto
+    testo: 'Nell''universo il silicio è soltanto l''ottavo elemento per abbondanza,
+      dopo idrogeno, elio, ossigeno, carbonio, neon, ferro e azoto. Il fatto che nella
+      crosta terrestre sia invece il secondo dipende dalla separazione degli elementi
+      avvenuta durante la formazione del sistema solare: il pianeta su cui viviamo
+      non è un campione rappresentativo del cosmo, ma il residuo di una selezione.
+      È una cosa che vale la pena tenere presente ogni volta che si dice «abbondante»:
+      il silicio è abbondante qui, nel guscio roccioso su cui ci muoviamo, e questa
+      è esattamente la ragione per cui la nostra tecnica ci è finita dentro. Un''altra
+      civiltà su un altro corpo celeste avrebbe avuto sottomano un''altra tavola periodica.'
+    attendibilita: documentato
+  - id: contesto-quasi-sempre-non-separato
+    sezione: contesto
+    testo: 'Prima di seguire il silicio nella sua forma pura conviene ricordare che
+      quasi tutto il silicio che usiamo non viene separato affatto. La maggior parte
+      è impiegata commercialmente senza essere estratta dai suoi composti, e spesso
+      con una lavorazione minima dei minerali naturali: l''edilizia industriale con
+      argille, sabbia silicea e pietra; i silicati nel cemento Portland per malte
+      e intonaci; e la stessa sabbia mescolata a ghiaia per fare il calcestruzzo di
+      marciapiedi, fondazioni e strade. Le città in cui viviamo sono silicio appena
+      sgrossato. La vicenda del cristallo purissimo, che occuperà tutto il resto di
+      questo racconto, riguarda una frazione minuscola di un elemento che per il resto
+      continua a fare quello che faceva nel Neolitico: stare fermo e reggere il peso.'
+    attendibilita: documentato
+  - id: impatto-come-si-cava-dalla-sabbia
+    sezione: impatto
+    testo: 'Per arrivare al cristallo bisogna prima strappare il silicio all''ossigeno,
+      e il modo è brutale. Si riduce la quarzite o la sabbia per via carbotermica,
+      con coke molto puro, dentro un forno elettrico ad arco; si lavora con un eccesso
+      di biossido di silicio proprio per impedire che si accumuli carburo di silicio,
+      che sarebbe un intralcio. Il materiale carbonioso può essere carbone, coke o
+      carbone di legna, con l''aggiunta di scaglie di legno per far circolare i gas.
+      Quello che esce è silicio fra il novantasei e il novantanove per cento di purezza.
+      È già una cifra rispettabile per quasi qualunque uso umano, e per l''elettronica
+      non vale assolutamente niente: fra questo e il _nine-9_ ci sono ancora sette
+      cifre decimali da conquistare.'
+    attendibilita: documentato
+  - id: impatto-il-mestiere-silenzioso
+    sezione: impatto
+    testo: 'Prima di essere il materiale dei chip, il silicio è un ingrediente della
+      metallurgia, ed è lì che ne finisce la maggior parte. La stessa riduzione carbotermica,
+      condotta in presenza di rottami di ferro poveri di fosforo e zolfo, produce
+      ferrosilicio, che serve nella lavorazione del ferro e dell''acciaio. Il silicio
+      migliora inoltre in modo significativo la durezza, e quindi la resistenza all''usura,
+      dell''alluminio. È il mestiere silenzioso di questo elemento: sta dentro le
+      leghe, non compare nel nome del prodotto, e nessuno lo cita quando si parla
+      di un motore o di una trave. La parte che tutti nominano, quella dei microprocessori,
+      in peso è una frazione molto piccola del totale.'
+    attendibilita: documentato
+  - id: impatto-il-doppio-imbuto
+    sezione: impatto
+    testo: 'È a questo punto che la storia dell''abbondanza si rovescia, e lo fa attraverso
+      due strozzature. La maggior parte del silicio elementare prodotto resta lega
+      di ferrosilicio, e solo il venti per cento circa viene raffinato fino al grado
+      metallurgico, per un totale fra uno virgola tre e uno virgola cinque milioni
+      di tonnellate l''anno. Di quel silicio metallurgico, si stima che solo il quindici
+      per cento venga ulteriormente raffinato fino alla purezza da semiconduttore,
+      che è tipicamente il cosiddetto _nine-9_: novantanove virgola nove nove nove
+      nove nove nove nove nove per cento. L''elemento che costituisce un quarto del
+      pianeta serve all''elettronica solo in una frazione della frazione, e solo nella
+      forma più innaturale che esista: un cristallo praticamente senza difetti, cioè
+      l''esatto contrario di una roccia.'
+    attendibilita: documentato
+  - id: impatto-la-guerra-e-i-cristalli
+    sezione: impatto
+    testo: 'Il salto di qualità nella purezza ha una data e una causa, e la causa
+      è la guerra. Nel 1940 Russell Ohl scoprì nel silicio la giunzione p-n e gli
+      effetti fotovoltaici; nel 1941 furono messe a punto le tecniche per produrre
+      cristalli di germanio e di silicio ad alta purezza, e lo scopo era fabbricare
+      i cristalli rivelatori a microonde per il radar. È una sequenza che in questo
+      vault ricorre con regolarità sgradevole: la capacità tecnica di lavorare un
+      materiale a un grado di perfezione mai raggiunto prima arriva quando serve a
+      un''arma, e resta disponibile dopo, per tutto il resto. I cristalli che oggi
+      fanno funzionare un telefono discendono per linea diretta da quelli che servivano
+      a vedere gli aerei nel buio.'
+    attendibilita: documentato
+  - id: impatto-il-gesto-industriale
+    sezione: impatto
+    testo: 'Il gesto della penna, portato su scala industriale, è rimasto lo stesso.
+      Un cristallo seme orientato con precisione, montato su un''asta, viene immerso
+      nel silicio fuso; l''asta viene tirata su lentamente e fatta ruotare nello stesso
+      momento. Controllando con esattezza i gradienti di temperatura, la velocità
+      di estrazione e quella di rotazione, dal bagno fuso esce un lingotto cilindrico
+      che è un cristallo unico. Circa il novanta per cento di tutti i dispositivi
+      a semiconduttore di oggi usa materiale che viene da questo metodo. Non è una
+      tecnica fra le altre: è _la_ tecnica, e chiunque legga questa frase lo sta facendo
+      attraverso qualcosa che ne è uscito.'
+    attendibilita: documentato
+  - id: impatto-dal-lingotto-al-disco
+    sezione: impatto
+    testo: 'Dal lingotto al disco il passaggio è meccanico e quasi banale, e proprio
+      per questo colpisce: il cilindro viene affettato con una sega per wafer. Prima
+      però, mentre il materiale è ancora fuso, si aggiungono quantità precise di atomi
+      droganti — boro o fosforo nel caso del silicio — per trasformare il semiconduttore
+      intrinseco in uno di tipo n o di tipo p. È la sequenza completa: si purifica
+      una sostanza fino a nove cifre di purezza, e poi la si sporca di proposito,
+      con una manciata di atomi contati. Tutta l''elettronica sta in questo paradosso
+      di metodo, e la ragione per cui la purezza deve essere così estrema è proprio
+      che l''impurezza aggiunta dopo deve essere l''unica presente.'
+    attendibilita: documentato
+  - id: impatto-la-scala
+    sezione: impatto
+    testo: 'La scala di quei cristalli racconta da sola sessant''anni di industria.
+      All''inizio i lingotti erano larghi pochi centimetri, e in uno dei primi impianti
+      per il silicio misuravano un pollice di diametro. Oggi i produttori di fascia
+      alta lavorano su dischi da duecento e trecento millimetri, tagliati da lingotti
+      che arrivano a due metri di lunghezza e pesano diverse centinaia di chilogrammi.
+      Ogni allargamento di quel diametro è stato una battaglia industriale, perché
+      un disco più grande significa più circuiti per ogni ciclo di lavorazione e quindi
+      un costo unitario più basso: la storia dei chip è anche, prosaicamente, la storia
+      di quanto si è riusciti a fare grosso un cristallo tirandolo fuori da una vasca.'
+    attendibilita: documentato
+  - id: impatto-perche-ha-vinto
+    sezione: impatto
+    testo: 'Perché proprio il silicio, allora, visto che non fu il primo materiale
+      dell''elettronica a stato solido. Le fonti elencano i suoi vantaggi e vale la
+      pena leggerli in fila: costa poco, forma grandi cristalli singoli e puri, non
+      è fragile, smaltisce in modo adeguato il calore prodotto dall''attività elettrica,
+      si lascia microstrutturare e modificare per strati — e, ultima voce dell''elenco,
+      il suo ossido è un eccellente isolante. Quell''ultima voce, messa in coda come
+      se fosse un dettaglio, è la ragione principale per cui stiamo parlando di silicio
+      e non di qualcos''altro.'
+    attendibilita: documentato
+  - id: impatto-la-ruggine-che-serve
+    sezione: impatto
+    testo: 'Nel 1955 Carl Frosch e Lincoln Derick, ai Bell Labs, scoprirono per caso
+      che il biossido di silicio poteva essere fatto crescere direttamente sul silicio;
+      nel 1957 pubblicarono il lavoro sul primo transistor a ossido fabbricato in
+      quel modo, il primo transistor planare, in cui pozzo e sorgente stanno adiacenti
+      sulla stessa superficie. È il punto in cui questa storia si chiude su se stessa.
+      La ragione per cui il silicio è rimasto invisibile per millenni è che si ossida
+      avidamente e senza rimedio: in natura non lo si trova mai libero, sta sempre
+      dentro il suo ossido, ed è per questo che nessuno lo vedeva. Quella stessa ruggine,
+      cresciuta di proposito in uno strato sottile, è l''isolante che ha reso possibile
+      il circuito integrato. Il difetto che lo nascondeva era la qualità che lo avrebbe
+      fatto vincere.'
+    attendibilita: documentato
+  - id: impatto-il-germanio-e-il-suo-ossido
+    sezione: impatto
+    testo: 'Che il discrimine sia l''ossido lo conferma il confronto con il vicino
+      di sotto. Il legame germanio-ossigeno è più debole del legame silicio-ossigeno,
+      e la conseguenza chimica è netta: non esistono polimeri «germanoni» analoghi
+      ai siliconi. La stessa debolezza si ritrova nel punto che conta per l''elettronica,
+      perché un ossido che non tiene non fa un isolante su cui costruire. Il germanio
+      è stato il materiale dei primi transistor e per un certo periodo il migliore
+      che ci fosse; a decidere non è stata la sua capacità di condurre, ma quella
+      del suo ossido di isolare. Due elementi quasi gemelli, e la differenza la fa
+      ciò che succede alla loro superficie quando incontra l''aria.'
+    attendibilita: documentato
+  - id: impatto-il-passaggio-di-consegne
+    sezione: impatto
+    testo: Il passaggio di consegne fra i due semimetalli si legge bene in tre date
+      ravvicinate. Nel 1954 il chimico fisico Morris Tanenbaum fabbricò ai Bell Labs
+      il primo transistor a giunzione al silicio. Nel 1955 arrivò la scoperta dell'ossido
+      cresciuto sul silicio, e nel 1957 il primo transistor planare. Nel 1959 Robert
+      Noyce sviluppò alla Fairchild Semiconductor il primo circuito integrato basato
+      sul silicio, costruendo sul lavoro precedente di Jack Kilby, che però si era
+      appoggiato al germanio. In cinque anni il materiale cambia sotto i piedi di
+      un'industria intera, e cambia non perché il nuovo arrivato conduca meglio, ma
+      perché si lascia coprire da uno strato di sé stesso ossidato che isola in modo
+      eccellente.
+    attendibilita: documentato
+  - id: impatto-perche-proprio-li
+    sezione: impatto
+    testo: 'Resta da spiegare perché l''industria del silicio sia nata in quel particolare
+      punto della California, e la risposta documentata è più domestica di quanto
+      ci si aspetti. Nel 1956 William Shockley, che aveva co-inventato il primo transistor
+      funzionante, si trasferì dal New Jersey a Mountain View per fondare lo Shockley
+      Semiconductor Laboratory, e lo fece per stare più vicino a sua madre, che viveva
+      a Palo Alto. Una targa ricorda oggi quel laboratorio come la prima azienda ad
+      alta tecnologia in quella che sarebbe diventata la Silicon Valley. Le cause
+      di un fenomeno storico non hanno l''obbligo di essere all''altezza dei loro
+      effetti: una delle concentrazioni industriali più influenti della storia comincia
+      da un uomo che voleva abitare più vicino a sua madre.'
+    attendibilita: documentato
+  - id: impatto-un-eta-col-suo-nome
+    sezione: impatto
+    testo: 'Si parla di «età del silicio» per il periodo fra la fine del Novecento
+      e l''inizio del nuovo secolo, e l''espressione è costruita per analogia con
+      l''età della pietra, quella del bronzo e quella del ferro: epoche che prendono
+      il nome dal materiale dominante della civiltà che le abita. Vale la pena notare
+      che cosa significhi, per un elemento, entrare in quella lista. La pietra era
+      silice, e l''età della pietra prende il nome dalla selce scheggiata, che è silice
+      quasi pura. È lo stesso elemento, all''inizio e alla fine dell''elenco: la prima
+      età della civiltà e l''ultima portano il nome della stessa sostanza, conosciuta
+      la prima volta per la sua durezza e la seconda per la sua purezza.'
+    attendibilita: documentato
+  - id: vicenda-il-tunnel
+    sezione: vicenda
+    testo: 'Nel 1930, a Gauley Bridge in West Virginia, comincia lo scavo di un tunnel
+      lungo tre miglia e otto decimi attraverso il Gauley Mountain. I protagonisti
+      sono una delle più grandi imprese del paese, la Union Carbide and Carbon Company,
+      una società di costruzioni regionale, la Rinehart and Dennis, e migliaia di
+      persone in cerca di lavoro nei primi anni della Grande depressione. In alcuni
+      tratti la montagna è silice quasi pura. Le cause generali del disastro che ne
+      seguì furono due: la spinta a fare in fretta e una mancanza di attenzione per
+      la sicurezza dei dipendenti. Tutto il resto discende da lì.'
+    attendibilita: documentato
+  - id: vicenda-a-che-serviva
+    sezione: vicenda
+    testo: A che cosa serviva quel tunnel chiude il cerchio con il resto di questa
+      storia. L'acqua del New River andava deviata per produrre energia idroelettrica
+      per un impianto metallurgico a Boncar, poi ribattezzata Alloy, in West Virginia;
+      la centrale sarebbe stata gestita dalla società metallurgica controllata dalla
+      Union Carbide. Il dislivello sfruttato era di centosessantadue piedi. Gli uomini
+      stavano dunque scavando dentro la silice per alimentare una fabbrica di leghe
+      — e fra le leghe che l'industria produce riducendo quarzite in un forno ad arco
+      c'è proprio il ferrosilicio. Il materiale che li stava uccidendo era, alla fine
+      della catena, anche il prodotto per cui stavano scavando.
+    attendibilita: documentato
+  - id: vicenda-chi-stava-sotto
+    sezione: vicenda
+    testo: 'La composizione della manodopera dice già quasi tutto, e la dice in numeri.
+      Al progetto lavorarono in tutto circa quattromilaottocento uomini: millesettecento
+      bianchi e tremilacento neri. Ma sottoterra, dove stava la polvere, di bianchi
+      ne scesero settecentotrentotto. Molti dei lavoratori neri erano migranti arrivati
+      dal Sud. Non è una statistica sull''occupazione: è la misura di come il pericolo
+      fosse distribuito. Lo stesso cantiere, lo stesso salario giornaliero di pochi
+      dollari, e due probabilità di morire completamente diverse a seconda del colore
+      della pelle di chi impugnava il trapano.'
+    attendibilita: documentato
+  - id: vicenda-a-secco
+    sezione: vicenda
+    testo: 'La causa tecnica del disastro è una scelta, non un incidente. Esisteva
+      già la perforazione a umido, che abbatte la polvere nociva bagnandola; l''azienda
+      scelse di non usarla, e la maggior parte della perforazione fu fatta a secco,
+      perché così si andava più veloci. Ai lavoratori non fu dato alcun tipo di maschera
+      o apparecchio respiratorio. Alcune testimonianze riferiscono che la silice rendeva
+      bianca l''acqua da bere. Si scavava dentro una nuvola di vetro finissimo, per
+      turni interi, respirandola: la polvere di silice non si dissolve nei polmoni
+      e non se ne va più, e il tessuto che le cresce intorno per isolarla è ciò che
+      a poco a poco sostituisce il polmone.'
+    attendibilita: documentato
+  - id: vicenda-le-testimonianze
+    sezione: vicenda
+    testo: 'Le testimonianze raccolte dal Congresso nel 1936 aggiungono ciò che i
+      numeri non dicono. I lavoratori neri dichiararono che venivano loro negate le
+      pause e che a volte erano costretti a lavorare sotto la minaccia delle armi
+      da parte degli _shack rousters_, uomini che facevano le veci della forza pubblica.
+      Un operaio, in un cinegiornale dello stesso anno, ricordò una cosa che vale
+      più di qualunque perizia: «ogni singolo giorno in cui ho lavorato in quel tunnel,
+      ho aiutato a portare via dai dieci ai quattordici uomini sopraffatti dalla polvere».
+      Non una volta, non nei giorni peggiori: ogni giorno.'
+    attendibilita: documentato
+  - id: vicenda-le-maschere-dei-dirigenti
+    sezione: vicenda
+    testo: 'C''è un dettaglio che chiude la questione se il pericolo fosse noto, e
+      i lavoratori lo fecero notare: i dirigenti indossavano l''equipaggiamento di
+      protezione durante le visite di ispezione. Sapevano dunque che cosa si respirava
+      là dentro, e quanto bastasse a fare male; semplicemente, l''attrezzatura era
+      per chi passava e non per chi restava. Il risultato delle pratiche incoraggiate,
+      e a volte imposte, dall''impresa fu che il progetto venne completato in meno
+      della metà del tempo previsto. È l''aritmetica morale di questa storia nella
+      sua forma più nuda: il tempo risparmiato sul cronoprogramma e i polmoni spesi
+      per risparmiarlo stanno nella stessa equazione, e qualcuno l''ha risolta.'
+    attendibilita: documentato
+  - id: vicenda-quanti-sono-morti
+    sezione: vicenda
+    testo: 'Quante persone siano morte non lo sa nessuno, e il modo in cui le cifre
+      divergono è esso stesso un documento. La Union Carbide stimò centonove morti,
+      ed è il numero che compare sul cippo storico in loco. Un''audizione del Congresso
+      nel 1936 fissò il bilancio a quattrocentosettantasei. Il medico Martin Cherniak,
+      che ne ha scritto la storia, arrivò a settecentosessantaquattro. Altre fonti
+      stimano fra settecento e oltre mille morti su tremila lavoratori. La ragione
+      dell''incertezza è atroce e va detta: molti lavoratori afroamericani, una volta
+      ammalati, tornarono a casa o lasciarono la regione, e questo rende impossibile
+      calcolare un totale attendibile. Gli uomini se ne andavano a morire altrove,
+      e uscivano dalla statistica prima che dalla vita.'
+    attendibilita: discusso
+  - id: vicenda-le-bare-da-bambino
+    sezione: vicenda
+    testo: 'Gli afroamericani che morivano nei campi non potevano essere sepolti nei
+      cimiteri locali dei bianchi. Alcuni furono rispediti in treno alle famiglie;
+      più spesso venivano portati di notte, con il favore del buio, a Summersville,
+      e sepolti senza cerimonia in una fattoria. Quarant''anni dopo, quelle tombe
+      si trovavano sul tracciato di un allargamento della US Route 19: i resti furono
+      riesumati nel 1972 e trasferiti qualche miglio più in là. Erano decomposti,
+      e furono deposti in bare di misura infantile, che è la ragione per cui il memoriale
+      mostra oggi una quarantina di piccole depressioni nel terreno. Uomini adulti,
+      morti per aver respirato la sostanza di cui è fatto un quarto del pianeta, riseppelliti
+      in bare da bambino per fare spazio a una strada.'
+    attendibilita: documentato
+  - id: vicenda-il-processo
+    sezione: vicenda
+    testo: 'In tribunale finì come finiscono queste cose. Furono depositate cinquecentotrentotto
+      cause, per un totale richiesto di quattro milioni di dollari; il processo si
+      chiuse nel 1933 dopo aver ascoltato quasi centosettanta testimoni; la giuria
+      non riuscì a decidere, e le vittime ottennero un accordo da centotrentamila
+      dollari, sul quale gli avvocati presero il cinquanta per cento. Restano le parole
+      della commissione della Camera dei rappresentanti, che nel 1936 riassunse così:
+      il tunnel «fu iniziato, proseguito e completato con grave e disumano disprezzo
+      di ogni considerazione per la salute, la vita e il futuro dei dipendenti». Né
+      la Rinehart and Dennis né la Union Carbide hanno mai ammesso alcuna responsabilità,
+      e la prima è tuttora in attività.'
+    attendibilita: documentato
+  - id: vicenda-la-penna-nel-crogiolo
+    sezione: vicenda
+    testo: 'L''altra metà di questa storia comincia con una distrazione. Nel 1916
+      Jan Czochralski, chimico polacco che lavorava in Germania, intinse la penna
+      in un crogiolo di stagno fuso invece che nel calamaio. La ritirò subito e vide
+      che dal pennino pendeva un sottile filo di metallo solidificato. Un altro avrebbe
+      pulito la penna e ripreso a scrivere; lui sostituì il pennino con un capillare
+      e verificò che quel metallo cristallizzato era un cristallo unico. I suoi esperimenti
+      producevano monocristalli di un millimetro di diametro. È la differenza fra
+      un incidente e una scoperta: l''incidente capita a chiunque, la scoperta è la
+      decisione di rifarlo apposta.'
+    attendibilita: documentato
+  - id: vicenda-czochralski-prima
+    sezione: vicenda
+    testo: 'Prima di diventare il nome di un metodo, Czochralski era un metallurgista
+      di successo. Aveva brevettato una lega, il metallo B, adatta ai cuscinetti delle
+      carrozze ferroviarie perché non conteneva stagno, che era costoso: le ferrovie
+      tedesche furono le prime a comprarne il brevetto. Nel 1925 divenne presidente
+      dell''associazione tedesca dei metallurgisti. Henry Ford lo invitò a visitare
+      le sue fabbriche e gli offrì la direzione del nuovo stabilimento dell''alluminio:
+      rifiutò. Nel 1928, su richiesta del presidente della Polonia Ignacy Mościcki,
+      lasciò la Germania e andò a insegnare al Politecnico di Varsavia. Era, a quel
+      punto, un uomo arrivato, e la cosa per cui oggi lo conosciamo era un episodio
+      di dodici anni prima che non interessava quasi a nessuno.'
+    attendibilita: documentato
+  - id: vicenda-czochralski-dopo
+    sezione: vicenda
+    testo: 'Il seguito è ambiguo, e conviene riferirlo come lo riferiscono le fonti
+      senza arrotondarlo in una direzione o nell''altra. Durante l''occupazione tedesca
+      di Varsavia alti funzionari tedeschi andarono a trovarlo sperando di usare il
+      suo istituto per i propri scopi, e lui poté vivere in gran parte indisturbato
+      mentre la popolazione subiva restrizioni crescenti. Dopo la guerra il regime
+      comunista lo privò della cattedra proprio per i suoi rapporti con la Germania
+      durante il conflitto; un tribunale polacco lo scagionò poi da ogni addebito.
+      Nel frattempo era tornato a Kcynia, il paese dove era nato, e lì mandò avanti
+      una piccola ditta di cosmetici e prodotti per la casa fino alla morte, nel 1953.
+      Vanno aggiunti due fatti che le stesse fonti registrano: aveva rinunciato alla
+      cittadinanza tedesca, e suo fratello fu ucciso dai tedeschi all''inizio della
+      guerra.'
+    attendibilita: documentato
+  - id: vicenda-la-riabilitazione
+    sezione: vicenda
+    testo: La riabilitazione è arrivata, ma con mezzo secolo di ritardo e quando lui
+      non poteva più accorgersene. Nel 2004 la European Materials Research Society
+      ha istituito una medaglia d'oro intitolata a lui per i contributi alla scienza
+      dei materiali; nel 2009 le poste polacche gli hanno dedicato un francobollo;
+      nel 2012 il parlamento polacco ha proclamato il 2013 «anno di Jan Czochralski»;
+      nel 2016 una squadra di mineralogisti ha chiamato czochralskiite un minerale
+      nuovo trovato in una riserva naturale; nel 2019 una targa IEEE è stata scoperta
+      al Politecnico di Varsavia. Nel frattempo, in ogni anno di quel mezzo secolo,
+      il metodo che porta il suo nome aveva continuato a produrre i cristalli su cui
+      gira il mondo, senza che quasi nessuno sapesse da dove venisse il nome.
+    attendibilita: documentato
+  - id: controversie-non-si-guarisce
+    sezione: controversie
+    testo: 'Va detto con chiarezza, perché cambia il senso di tutto ciò che segue:
+      la silicosi è una malattia permanente e senza cura. Le terapie disponibili puntano
+      ad alleviare i sintomi e a impedire che la condizione progredisca ulteriormente,
+      non a farla regredire. Fra le opzioni c''è il lavaggio dell''intero polmone,
+      che consiste nell''irrigare ripetutamente i polmoni con soluzione salina in
+      anestesia, insieme alla ventilazione meccanica, per portare via il fattore patogeno.
+      Quando si legge che a Hawks Nest gli uomini «si ammalarono», bisogna intenderlo
+      in questo senso: non c''era, e non c''è, un punto in cui si torna indietro.
+      L''unica medicina è non respirare quella polvere, il che sposta l''intero problema
+      dalla medicina all''organizzazione del lavoro.'
+    attendibilita: documentato
+  - id: controversie-la-latenza
+    sezione: controversie
+    testo: 'Una parte della difficoltà di questa malattia sta nel suo orologio. La
+      silicosi cronica si sviluppa lentamente, e segni e sintomi possono non comparire
+      fino ad anni dopo l''esposizione: affanno che peggiora con lo sforzo, tosse
+      persistente e a volte grave, stanchezza, respiro rapido e faticoso, perdita
+      dell''appetito e del peso, dolore al torace, febbre. Quella latenza ha una conseguenza
+      che va oltre la clinica: quando il lavoratore si ammala, il cantiere è chiuso
+      da un pezzo, l''impresa può essersi sciolta, i testimoni si sono dispersi. È
+      la ragione per cui malattie come questa producono pochissime condanne: il danno
+      arriva puntualmente dopo che il responsabile è diventato difficile da trovare.'
+    attendibilita: documentato
+  - id: controversie-scambiata-per-altro
+    sezione: controversie
+    testo: 'C''è una ragione clinica per cui i conteggi di questa malattia sono sempre
+      incerti, e spiega retrospettivamente anche le cifre discordanti di Hawks Nest.
+      Le caratteristiche cliniche e radiografiche della silicosi possono somigliare
+      a quelle della tubercolosi, della polmonite o dell''edema polmonare, e per questo
+      la silicosi viene talvolta diagnosticata male. Chi moriva in un campo di lavoro
+      negli anni Trenta, lontano da casa e senza un medico che conoscesse la sua storia
+      professionale, aveva ottime probabilità di finire registrato sotto un''altra
+      causa. Il numero dei morti di una malattia professionale non è soltanto una
+      questione di onestà statistica: dipende da chi fa la diagnosi, e da quanto sa
+      del lavoro che il paziente faceva.'
+    attendibilita: documentato
+  - id: controversie-la-soglia
+    sezione: controversie
+    testo: 'Va detto anche il contrario, perché un testo che allarma senza misurare
+      non serve a nessuno: un''esposizione breve o occasionale a bassi livelli di
+      polvere di silice cristallina non produce una malattia polmonare clinicamente
+      significativa. Camminare su una spiaggia o maneggiare un vaso non ha niente
+      a che vedere con quanto raccontato qui. Ciò che fa danno sono le particelle
+      respirabili, quelle sotto i dieci micrometri, nelle forme cristalline della
+      silice, e soprattutto la loro concentrazione ripetuta per turni interi e per
+      anni. La differenza fra la sabbia e la silicosi è una questione di dimensione
+      delle particelle, di dose e di tempo — cioè esattamente le tre cose che l''organizzazione
+      di un cantiere decide.'
+    attendibilita: documentato
+  - id: controversie-anche-i-capi
+    sezione: controversie
+    testo: 'Un dato di Hawks Nest smonta la spiegazione più comoda, quella per cui
+      il rischio sarebbe stato ignoto a chi comandava. Entro il 1934 erano gravemente
+      malati anche quaranta sorveglianti. Non si può quindi sostenere che si trattasse
+      di un rischio ignoto alla direzione o di una fatalità che colpiva soltanto chi
+      stava in fondo alla scala: la polvere non distingueva i ruoli, e chi dirigeva
+      il lavoro nel tunnel si ammalò insieme a chi lo eseguiva. A distanza di quasi
+      un secolo, né l''impresa di costruzioni né la grande società committente hanno
+      mai ammesso colpa o responsabilità. È la coda abituale di queste vicende: il
+      fatto è accertato, la responsabilità resta senza nome.'
+    attendibilita: documentato
+  - id: controversie-quanti-sono-oggi
+    sezione: controversie
+    testo: 'Non è un problema che riguardi solo il passato o solo i tunnel. Negli
+      Stati Uniti si stima che fra uno e due milioni di lavoratori abbiano avuto un''esposizione
+      professionale alla polvere di silice cristallina, e che cinquantanovemila di
+      questi svilupperanno la silicosi nel corso della vita. L''elenco delle attività
+      a rischio è lungo e quotidiano: edilizia, ferrovie, demolizioni, miniere, sabbiatura,
+      cave, scavo di gallerie, ceramiche, fonderie, e poi i molatori, chi fabbrica
+      piani di pietra per le cucine, chi lavora i mattoni refrattari e le lapidi,
+      i vasai, la produzione di fibra di vetro e di vetro. È l''elenco delle cose
+      di cui sono fatte le case, e di chi le fa.'
+    attendibilita: documentato
+  - id: controversie-la-pietra-ingegnerizzata
+    sezione: controversie
+    testo: L'epidemia più recente è cominciata nelle cucine. Negli ultimi anni i casi
+      sono tornati a crescere in Australia, in Cina e negli Stati Uniti, legati alla
+      fabbricazione e all'installazione dei piani in pietra ingegnerizzata per cucine
+      e bagni. Quel materiale si è diffuso molto e contiene una proporzione di silice
+      altissima, maggiore di quella della pietra naturale; la silicosi che ne deriva
+      ha tempi di latenza più brevi e un declino della funzione polmonare più rapido
+      rispetto a quella da pietra naturale. È una malattia da Ottocento industriale
+      che è rientrata dalla porta di servizio di una ristrutturazione, e colpisce
+      chi taglia e installa i piani, non chi ci appoggia la spesa.
+    attendibilita: documentato
+  - id: controversie-il-divieto
+    sezione: controversie
+    testo: 'La risposta regolatoria è arrivata, e in un caso è stata drastica. Nel
+      marzo del 2016 l''agenzia statunitense per la sicurezza sul lavoro ha imposto
+      alle imprese di garantire misure di protezione a chi lavora con la silice o
+      nelle sue vicinanze, per prevenire silicosi, tumore del polmone e altre malattie
+      correlate. L''Australia è andata oltre: ha vietato del tutto i piani in pietra
+      ingegnerizzata, prima nazione al mondo a farlo, e dal primo gennaio 2025 quei
+      prodotti sono merci di importazione proibita. È una decisione che vale la pena
+      registrare perché è rara: di norma si regola l''uso di un materiale, non lo
+      si mette al bando. Qui si è concluso che non esistesse un modo sicuro di lavorarlo
+      su larga scala.'
+    attendibilita: documentato
+  - id: controversie-si-poteva-evitare
+    sezione: controversie
+    testo: 'C''è infine un fatto che è il più duro di tutti, e non è un''opinione
+      ma la posizione corrente: la silicosi è in larga misura prevenibile, attraverso
+      controlli efficaci sul luogo di lavoro che limitino l''esposizione alla silice
+      aerodispersa — accorgimenti tecnici, ventilazione, protezione respiratoria adeguata.
+      Tenuto insieme al fatto che la malattia non ha cura, il quadro è questo: non
+      si può guarire, ma si può quasi sempre non ammalarsi. Ogni caso di silicosi
+      è dunque, in larga parte, il risultato di una decisione organizzativa presa
+      da qualcuno che non era chi poi si sarebbe ammalato. A Gauley Bridge quella
+      decisione fu di non usare la perforazione a umido per andare più veloci, ed
+      è documentata.'
+    attendibilita: documentato
+  - id: eredita-un-nome-sbagliato
+    sezione: eredita
+    testo: 'La parola «silicone» nasce nel 1901 da un''analogia, e l''analogia era
+      sbagliata. Frederic Stanley Kipping la coniò per descrivere la formula del polidifenilsilossano,
+      che assomiglia a quella di un chetone, il benzofenone: all''inizio li aveva
+      chiamati addirittura silicochetoni. Kipping sapeva benissimo che il suo composto
+      era polimerico mentre il benzofenone è monomerico, e annotò che le proprietà
+      erano diverse. Quando si scoprirono le differenze strutturali, la conclusione
+      fu che «silicone» non è il termine corretto — quello giusto sarebbe _silossano_
+      — ma ormai la parola era entrata nell''uso comune e c''è rimasta. È il caso
+      raro di un nome che sopravvive alla propria smentita, e che ogni giorno fa confondere
+      il silicio dei chip con la gomma delle guarnizioni.'
+    attendibilita: documentato
+  - id: eredita-i-due-materiali
+    sezione: eredita
+    testo: 'Vale la pena tenere separate le due sostanze che quel nome confonde, perché
+      più diverse non potrebbero essere. Il silicio è un solido duro e scuro, e serve
+      a fare circuiti integrati e celle solari. I siliconi tendono a essere isolanti
+      elettrici e si presentano di norma come olii incolori o resine gommose: sono
+      le guarnizioni, i sigillanti, gli stampi da cucina, le protesi. Uno conduce
+      quel tanto che basta a fare un interruttore; gli altri non conducono affatto,
+      ed è proprio per questo che si usano. Sono parenti, ma il rapporto è quello
+      fra un elemento e una famiglia di polimeri che lo contiene, non fra due versioni
+      della stessa cosa.'
+    attendibilita: documentato
+  - id: eredita-perche-i-siliconi-sono-ovunque
+    sezione: eredita
+    testo: 'Che i siliconi siano finiti dappertutto si spiega con un elenco di proprietà
+      che nessun materiale organico mette insieme tutte insieme: bassa conducibilità
+      termica, bassa reattività chimica, bassa tossicità, stabilità termica con proprietà
+      costanti da meno cento a duecentocinquanta gradi, capacità di respingere l''acqua
+      e di formare sigilli a tenuta, il fatto di non aderire a molti materiali pur
+      aderendo benissimo ad altri come il vetro, l''inospitalità alla crescita microbiologica
+      e la resistenza a ossigeno, ozono e raggi ultravioletti. Quest''ultima è la
+      ragione per cui si usano all''aperto dove la gomma normale si sbriciola. La
+      catena silicio-ossigeno che in natura fa le rocce, portata in laboratorio, dà
+      un materiale che invecchia pochissimo: la stessa inerzia, due usi lontani.'
+    attendibilita: documentato
+  - id: eredita-quella-che-si-usa-ogni-giorno
+    sezione: eredita
+    testo: C'è una forma di silice che quasi tutti toccano ogni mattina senza saperlo.
+      La silice pirogenica si ottiene dalla pirolisi in fiamma del tetracloruro di
+      silicio, oppure vaporizzando sabbia di quarzo in un arco elettrico a tremila
+      gradi; le particelle primarie misurano fra cinque e cinquanta nanometri e hanno
+      una superficie specifica fra cinquanta e seicento metri quadri per grammo. Quella
+      superficie enorme la rende un addensante potentissimo. Serve da agente antiagglomerante
+      nelle polveri, da essiccante, nei cosmetici per il modo in cui diffonde la luce,
+      come abrasivo leggero nei dentifrici, e per regolare la viscosità di vernici,
+      inchiostri da stampa e adesivi. È lo stesso elemento dei microchip, ridotto
+      a polvere finissima, dentro il tubetto sul lavandino.
+    attendibilita: documentato
+  - id: eredita-il-secondo-mestiere
+    sezione: eredita
+    testo: 'Il cristallo tirato dal bagno fuso ha un secondo mestiere, che nel frattempo
+      è diventato enorme. Il silicio monocristallino è usato in grandi quantità dall''industria
+      fotovoltaica per produrre le celle solari convenzionali, e la ragione è la stessa
+      che vale per i chip: la struttura cristallina quasi perfetta dà la più alta
+      efficienza di conversione della luce in elettricità che il silicio possa raggiungere.
+      È una simmetria che vale la pena notare. Lo stesso lingotto tirato dallo stesso
+      bagno fuso, affettato negli stessi dischi, serve a far calcolare una macchina
+      oppure a raccogliere la luce di una stella. Il gesto del 1916 ha finito per
+      riguardare tanto il modo in cui pensiamo quanto il modo in cui ci procuriamo
+      l''energia.'
+    attendibilita: documentato
+  - id: eredita-la-classifica-del-sole
+    sezione: eredita
+    testo: 'Nel fotovoltaico il primato del cristallo singolo si misura con numeri
+      stretti. Una cella a giunzione singola di silicio monocristallino ha registrato
+      in laboratorio un''efficienza di conversione del ventisei virgola sette per
+      cento, la più alta confermata fra tutte le tecnologie fotovoltaiche commerciali:
+      davanti al silicio policristallino, che sta al ventidue virgola tre, e alle
+      tecnologie a film sottile ormai affermate, dal CIGS al ventuno virgola sette
+      al tellururo di cadmio al ventuno, fino al silicio amorfo al dieci virgola due.
+      Fra il primo e l''ultimo della lista c''è lo stesso elemento in tre stati di
+      ordine diverso, e la differenza di resa è più del doppio: nel silicio conta
+      meno di che cosa è fatto e più quanto bene è ordinato.'
+    attendibilita: documentato
+  - id: eredita-oltre-il-silicio
+    sezione: eredita
+    testo: 'Il metodo non è rimasto confinato al silicio, ed è forse la misura più
+      onesta della sua importanza. Con la stessa tecnica si fanno crescere altri semiconduttori,
+      come l''arseniuro di gallio, e il suo impiego va ben oltre i materiali per l''elettronica,
+      estendendosi alla crescita di cristalli in generale. Un uomo che nel 1916 stava
+      studiando la cristallizzazione dei metalli ha lasciato una procedura che si
+      applica a sostanze che allora non esistevano, per costruire dispositivi che
+      non erano immaginabili. È il genere di eredità che non si può programmare: non
+      un''invenzione, ma un modo di fare una cosa, che continua a funzionare quando
+      tutto il contesto intorno è cambiato.'
+    attendibilita: documentato
+  - id: eredita-la-valle-di-prima
+    sezione: eredita
+    testo: 'Il nome che oggi indica un intero settore ha una data precisa e un precedente
+      dimenticato. La diffusione di «Silicon Valley» si deve a Don Hoefler, il primo
+      giornalista a usarlo in un articolo: _Silicon Valley U.S.A._, sul settimanale
+      di settore Electronic News dell''undici gennaio 1971. Lo aveva sentito pronunciare
+      a pranzo da alcuni uomini di marketing in visita, e lo prese in prestito. Prima
+      di allora, e fino agli anni Sessanta, quella era la più grande area di produzione
+      e inscatolamento della frutta del mondo, con trentanove conservifici, e il soprannome
+      che portava era _Valley of Heart''s Delight_, la valle della delizia del cuore.
+      Nel giro di un decennio una valle di frutteti ha preso il nome di un semimetallo,
+      e nessuno la chiama più come si chiamava.'
+    attendibilita: documentato
+  - id: eredita-quanto-respiriamo-per-loro
+    sezione: eredita
+    testo: 'Le alghe che si costruiscono un guscio di vetro non sono una curiosità
+      marginale: sono una parte consistente del motore biologico del pianeta, anche
+      se quanto grande è materia di revisione. Uno studio del 2003 stimava che le
+      diatomee contribuissero per circa il quarantacinque per cento alla produzione
+      primaria oceanica di materia organica; uno studio più recente, del 2016, colloca
+      il valore più vicino al venti per cento. Fra le due stime c''è più del doppio,
+      e la differenza non è un dettaglio da specialisti: riguarda quanta parte della
+      fotosintesi degli oceani sia opera di organismi che per vivere hanno bisogno
+      di silicio disciolto. Anche al valore più basso resta il fatto che una quota
+      rilevante dell''ossigeno prodotto in mare passa da creature che fabbricano vetro.'
+    attendibilita: discusso
+  - id: eredita-i-gioielli-del-mare
+    sezione: eredita
+    testo: 'Il guscio di quelle alghe ha un nome proprio, frustulo, ed è una parete
+      cellulare fatta di silice, cioè di biossido di silicio idrato. Quei gusci producono
+      colorazione strutturale: il colore non viene da un pigmento ma dal modo in cui
+      la luce si comporta incontrando una geometria della misura giusta, lo stesso
+      meccanismo delle ali di certe farfalle. Per questo le diatomee sono state descritte
+      come «gioielli del mare» e «opali viventi». Vale la pena tenere insieme le due
+      immagini che questa storia produce con la stessa sostanza: la polvere che riempie
+      i polmoni dei minatori e l''opale vivente che galleggia nell''acqua sono lo
+      stesso biossido di silicio, e la differenza la fa soltanto la forma che ha preso.'
+    attendibilita: documentato
+  - id: eredita-la-pompa-che-rallenta
+    sezione: eredita
+    testo: 'C''è però una notizia recente che riguarda quel motore, e non è buona.
+      Le popolazioni di diatomee, il tipo più grande di alghe del fitoplancton, sono
+      diminuite di più dell''uno per cento l''anno fra il 1998 e il 2012. La causa
+      indicata è che lo strato mescolato superficiale dell''oceano si è fatto meno
+      profondo, e così arrivano meno nutrienti dal basso. La conseguenza che gli studiosi
+      segnalano riguarda tutti: una popolazione ridotta può sottrarre meno anidride
+      carbonica all''atmosfera e trasferirne meno verso l''oceano profondo, dove resterebbe
+      immagazzinata a lungo. La pompa biologica che porta il carbonio in fondo al
+      mare gira più piano, e a farla girare sono organismi che per costruirsi hanno
+      bisogno del silicio disciolto nell''acqua.'
+    attendibilita: documentato
+  - id: eredita-il-primo-e-l-ultimo-mestiere
+    sezione: eredita
+    testo: 'Nell''elenco dei mestieri a rischio di silicosi, fra i muratori, i minatori
+      e i vasai, compare una voce che sembra fuori posto: gli scheggiatori di selce.
+      È il mestiere più antico che l''umanità conosca, quello con cui comincia la
+      tecnica, e figura nella stessa lista dei fabbricanti di piani da cucina in pietra
+      ingegnerizzata, che è fra i più recenti. Fra i due lavori c''è tutta la distanza
+      che separa la preistoria da una cucina di oggi, e li unisce la stessa polvere.
+      È forse il modo più compatto di dire che cosa sia questo elemento nella storia
+      umana: la silice sta all''inizio della tecnica e sta nell''ultima ristrutturazione,
+      e in entrambi i casi il conto è arrivato ai polmoni di chi la lavorava.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'Resta, alla fine, la distanza fra le due forme in cui questo elemento
+      si presenta. Da una parte la sabbia: il ventotto per cento della massa della
+      crosta, la cosa più ordinaria che esista, talmente ovunque da non essere stata
+      vista per millenni. Dall''altra il cristallo _nine-9_, novantanove virgola nove
+      nove nove nove nove nove nove nove per cento, che in natura non esiste da nessuna
+      parte e che va costruito un atomo alla volta tirandolo fuori da un bagno fuso.
+      Fra le due c''è tutto: la penna intinta nel crogiolo sbagliato, la ruggine cresciuta
+      apposta per fare da isolante, e un tunnel nel West Virginia dove degli uomini
+      hanno respirato la forma ordinaria fino a morirne, mentre un altro uomo imparava
+      a coltivare quella straordinaria. Il silicio non ha dovuto essere scoperto,
+      perché era già sotto i piedi di tutti. Ha dovuto essere reso puro, e la purezza,
+      in questa storia come in quasi tutte le altre di questo vault, qualcuno l''ha
+      pagata.'
+    attendibilita: documentato
 composti_principali:
 - nome: Biossido di silicio (silice)
   formula: SiO2
@@ -223,3 +1003,36 @@ fonti:
 - url: https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries
   titolo: Timeline of chemical element discoveries
   consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/Czochralski_method
+  titolo: Czochralski method
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Jan_Czochralski
+  titolo: Jan Czochralski
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Silicosis
+  titolo: Silicosis
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Hawks_Nest_Tunnel_disaster
+  titolo: Hawks Nest Tunnel disaster
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Monocrystalline_silicon
+  titolo: Monocrystalline silicon
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Wafer_(electronics)
+  titolo: Wafer (electronics)
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Silicone
+  titolo: Silicone
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Silicon_Valley
+  titolo: Silicon Valley
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Fumed_silica
+  titolo: Fumed silica
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Diatom
+  titolo: Diatom
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Silicate_minerals
+  titolo: Silicate minerals
+  consultata: 2026-09-18

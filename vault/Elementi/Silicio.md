@@ -142,6 +142,9 @@ La valle a sud di San Francisco si chiama Silicon Valley perché lì si concentr
 
 Alcuni organismi hanno imparato a costruirsi in vetro. Le diatomee, alghe unicellulari diffuse in tutti i mari, si fabbricano un guscio di silice amorfa finemente traforato, con geometrie regolari che i microscopisti dell'Ottocento usavano come banco di prova per le loro lenti. Accumulandosi sui fondali, quei gusci formano la farina fossile, usata come filtrante e come abrasivo delicato.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Silicio — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Cobalto]] (1735)
@@ -156,6 +159,17 @@ Epoca: [[Alchimia e primo moderno]] · Scopritore: [[Johann Heinrich Pott]]
 - [Pott, Johann Heinrich (Dictionary of Scientific Biography)](https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/pott-johann-heinrich) — consultata il 07/09/2026
 - [Silicon dioxide](https://en.wikipedia.org/wiki/Silicon_dioxide) — consultata il 07/09/2026
 - [Timeline of chemical element discoveries](https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries) — consultata il 07/09/2026
+- [Czochralski method](https://en.wikipedia.org/wiki/Czochralski_method) — consultata il 18/09/2026
+- [Jan Czochralski](https://en.wikipedia.org/wiki/Jan_Czochralski) — consultata il 18/09/2026
+- [Silicosis](https://en.wikipedia.org/wiki/Silicosis) — consultata il 18/09/2026
+- [Hawks Nest Tunnel disaster](https://en.wikipedia.org/wiki/Hawks_Nest_Tunnel_disaster) — consultata il 18/09/2026
+- [Monocrystalline silicon](https://en.wikipedia.org/wiki/Monocrystalline_silicon) — consultata il 18/09/2026
+- [Wafer (electronics)](https://en.wikipedia.org/wiki/Wafer_%28electronics%29) — consultata il 18/09/2026
+- [Silicone](https://en.wikipedia.org/wiki/Silicone) — consultata il 18/09/2026
+- [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley) — consultata il 18/09/2026
+- [Fumed silica](https://en.wikipedia.org/wiki/Fumed_silica) — consultata il 18/09/2026
+- [Diatom](https://en.wikipedia.org/wiki/Diatom) — consultata il 18/09/2026
+- [Silicate minerals](https://en.wikipedia.org/wiki/Silicate_minerals) — consultata il 18/09/2026
 
 ---
 
