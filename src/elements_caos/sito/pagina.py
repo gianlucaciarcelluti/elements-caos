@@ -51,7 +51,21 @@ SEZIONI_IN_PAGINA: tuple[tuple[Sezione, str], ...] = (
     (Sezione.CURIOSITA, "Curiosità"),
 )
 
-_CORSIVO = re.compile(r"\*([^*]+)\*")
+# Il corsivo Markdown si scrive in due modi e i dati li usano entrambi: gli
+# asterischi nelle formule di cautela prodotte da ``prosa.py``, gli underscore
+# nei beat degli approfondimenti, che seguono la convenzione del vault.
+# Gli underscore richiedono un confine di parola, altrimenti le formule chimiche
+# (``H_2O``, ``SO_4``) verrebbero lette come corsivi.
+_CORSIVO = re.compile(
+    r"\*([^*\n]+)\*"
+    r"|(?<![0-9A-Za-z_])_([^_\n]+)_(?![0-9A-Za-z_])"
+)
+
+
+def _in_corsivo(riscontro: re.Match[str]) -> str:
+    """Rende in ``<em>`` il gruppo che ha fatto riscontro, quale che sia."""
+    contenuto = riscontro.group(1) if riscontro.group(1) is not None else riscontro.group(2)
+    return f"<em>{contenuto}</em>"
 
 
 def slug(testo: str) -> str:
@@ -91,11 +105,12 @@ def url_epoca(nome_epoca: str) -> str:
 def paragrafi_html(testo: str) -> Markup:
     """Converte in paragrafi HTML la prosa composta da ``prosa.componi_sezione``.
 
-    Il testo dei beat è prosa pura: l'unico markup che ``prosa.py`` introduce
-    sono le formule di cautela in corsivo (``*Per tradizione:*``). Tutto il
-    resto viene dai dati e va neutralizzato prima di finire in pagina — le
-    parentesi quadre invece si conservano, perché in questo dominio sono
-    configurazioni elettroniche (``[Rn]``) e non collegamenti.
+    Il testo dei beat è prosa pura, con una sola eccezione: il corsivo Markdown,
+    che arriva sia come ``*Per tradizione:*`` dalle formule di cautela di
+    ``prosa.py`` sia come ``_Guanzi_`` dai beat, che seguono la convenzione del
+    vault. Tutto il resto viene dai dati e va neutralizzato prima di finire in
+    pagina — le parentesi quadre invece si conservano, perché in questo dominio
+    sono configurazioni elettroniche (``[Rn]``) e non collegamenti.
     """
     paragrafi = []
     for blocco in testo.split("\n\n"):
@@ -104,7 +119,7 @@ def paragrafi_html(testo: str) -> Markup:
             continue
         # Si sfugge prima e si applica il corsivo dopo: l'escape non produce
         # asterischi, quindi non può creare corsivi che nei dati non c'erano.
-        sicuro = _CORSIVO.sub(r"<em>\1</em>", str(escape(blocco)))
+        sicuro = _CORSIVO.sub(_in_corsivo, str(escape(blocco)))
         paragrafi.append(f"<p>{sicuro}</p>")
     return Markup("\n".join(paragrafi))
 

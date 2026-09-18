@@ -192,6 +192,56 @@ def test_paragrafi_html_rende_le_formule_di_cautela() -> None:
     assert risultato == "<p><em>Per tradizione:</em> il fatto è tramandato.</p>"
 
 
+def test_paragrafi_html_rende_il_corsivo_con_underscore() -> None:
+    """`_…_` è la convenzione del vault per il corsivo: deve diventare <em>.
+
+    I beat degli approfondimenti usano gli underscore, non gli asterischi. Fino
+    al 2026-09-18 l'emettitore conosceva solo `*…*`, quindi sulle pagine del
+    sito gli underscore restavano letterali in tutte e sedici le storie estese.
+    """
+    risultato = paragrafi_html("Il _Guanzi_ lo dice chiaramente.")
+
+    assert risultato == "<p>Il <em>Guanzi</em> lo dice chiaramente.</p>"
+
+
+def test_paragrafi_html_rende_entrambe_le_convenzioni_di_corsivo() -> None:
+    """Asterischi e underscore convivono nei dati e vanno resi entrambi."""
+    risultato = paragrafi_html("*Per tradizione:* il _Domesday Book_ lo elenca.")
+
+    assert risultato == ("<p><em>Per tradizione:</em> il <em>Domesday Book</em> lo elenca.</p>")
+
+
+def test_paragrafi_html_non_unisce_due_corsivi_nello_stesso_paragrafo() -> None:
+    """Due corsivi vicini restano due, non diventano un unico corsivo lungo.
+
+    È il modo classico in cui una regex di corsivo si rompe: catturando anche il
+    testo che sta *fra* i due corsivi.
+    """
+    risultato = paragrafi_html("Doppio _corsivo_ e _altro_ nello stesso paragrafo.")
+
+    assert risultato == ("<p>Doppio <em>corsivo</em> e <em>altro</em> nello stesso paragrafo.</p>")
+
+
+def test_paragrafi_html_non_tocca_gli_underscore_nelle_formule() -> None:
+    """`H_2O` è una formula chimica, non un corsivo: gli underscore restano.
+
+    È la ragione per cui il corsivo con underscore richiede un confine di parola:
+    senza, due formule nello stesso paragrafo diventerebbero un corsivo unico.
+    """
+    risultato = paragrafi_html("La molecola H_2O e il gruppo SO_4 nel testo.")
+
+    assert "<em>" not in risultato
+    assert "H_2O" in risultato
+    assert "SO_4" in risultato
+
+
+def test_paragrafi_html_non_crea_corsivi_a_cavallo_di_parole() -> None:
+    """Un underscore isolato non apre un corsivo che nei dati non c'era."""
+    risultato = paragrafi_html("Il file si chiama 011_sodio e non è un corsivo.")
+
+    assert "<em>" not in risultato
+
+
 def test_paragrafi_html_neutralizza_l_html_nei_dati() -> None:
     """Il testo dei dati non può iniettare markup nella pagina."""
     risultato = paragrafi_html("Un <script>alert(1)</script> nel testo.")
