@@ -186,6 +186,875 @@ contenuti:
   - termine: André-Marie Ampère
     ipa: ɑ̃dʁe maʁi ɑ̃pɛʁ
     nota: Alla francese.
+contenuti_estesi:
+  hook: 'Per tutto l''Ottocento il fluoro è stato l''elemento che uccideva chi provava
+    a prenderlo: corrodeva il vetro, le ossa e gli apparati, e la fila dei chimici
+    avvelenati fu abbastanza lunga da meritarsi un nome collettivo. Oggi nessuno muore
+    più in laboratorio per il fluoro. In compenso, le molecole che si costruiscono
+    attorno al suo legame con il carbonio sono così stabili che non si rompono da
+    sole: non le scioglie il calore, non gli acidi, non i batteri, e nessun enzima
+    sa demolirle. La stessa proprietà che rendeva questo elemento impossibile da catturare
+    lo rende oggi impossibile da smaltire — e mentre un secolo fa stava nel sangue
+    di pochi sperimentatori, oggi si ritrova diffusamente in quello della popolazione
+    generale.'
+  beats:
+  - id: contesto-uno-contro-diciassettemila
+    sezione: contesto
+    testo: 'Sulla Terra il fluoro è il tredicesimo elemento della crosta, dunque tutt''altro
+      che raro. Nell''universo è il ventiquattresimo, e la posizione in classifica
+      non rende l''idea dello scarto: nella tabella delle abbondanze del sistema solare,
+      dove all''ossigeno spettano diciassettemila parti e al carbonio ottomilacinquecento,
+      al fluoro ne spetta una. Non una decina, non una frazione: uno. I suoi vicini
+      di tavola, dal carbonio al magnesio, sono venti o più volte più comuni di lui,
+      e il neon che gli sta immediatamente a destra lo supera di duemilaseicento volte.
+      È una voragine che chiede una spiegazione, perché un elemento leggero e con
+      numero atomico dispari dovrebbe comunque trovarsi più di così.'
+    attendibilita: documentato
+  - id: contesto-le-stelle-lo-disfano
+    sezione: contesto
+    testo: 'La spiegazione è che il fluoro, nelle stelle, viene saltato e poi smontato.
+      Le catene principali della nucleosintesi stellare passano oltre il suo numero
+      atomico senza fermarvisi; e i nuclei che pure si formano hanno sezioni d''urto
+      nucleari elevate, cioè si lasciano colpire con grande facilità. Un nucleo di
+      fluoro che incontri un nucleo di idrogeno diventa ossigeno; se incontra dell''elio
+      diventa neon. In un interno stellare, dove idrogeno ed elio sono la materia
+      di fondo, questo significa che il fluoro non fa in tempo a esistere. La stessa
+      disponibilità a reagire che sulla Terra lo rende impossibile da tenere in mano,
+      nelle stelle lo rende impossibile da accumulare: è lo stesso difetto misurato
+      su due scale diverse.'
+    attendibilita: documentato
+  - id: contesto-tre-ipotesi
+    sezione: contesto
+    testo: 'Se le stelle lo disfano, il fluoro che esiste dev''essere stato prodotto
+      e messo in salvo, e su come ciò avvenga sono state proposte tre spiegazioni
+      che non si escludono a vicenda. Nelle supernovae di tipo secondo, il bombardamento
+      di atomi di neon da parte dei neutrini potrebbe trasmutarli in fluoro. Il vento
+      stellare delle stelle di Wolf-Rayet potrebbe soffiare via il fluoro allontanandolo
+      dall''idrogeno e dall''elio che lo distruggerebbero. Oppure il fluoro viene
+      portato in superficie dalle correnti convettive che nascono dalla fusione nelle
+      stelle del ramo asintotico delle giganti. Quello che le tre ipotesi hanno in
+      comune è più istruttivo di quanto le distingue: in tutte, il problema non è
+      fabbricare il fluoro ma sottrarlo in fretta al luogo dove è stato fabbricato.'
+    attendibilita: discusso
+  - id: contesto-catena-dei-nomi
+    sezione: contesto
+    testo: 'Sulla Terra quel fluoro sopravvissuto si trova quasi tutto in un minerale
+      solo, e attorno a quel minerale si è annodata una catena di nomi che conviene
+      sbrogliare subito. Dalla fluorite prende il nome l''elemento che contiene, il
+      fluoro; e dalla fluorite prende il nome anche un fenomeno fisico che con quell''elemento
+      non ha nulla a che vedere: nel 1852 George Gabriel Stokes chiamò fluorescenza
+      la proprietà di emettere luce sotto radiazione ultravioletta, perché era vistosa
+      in certi campioni di quel minerale. La fluorescenza della fluorite, per inciso,
+      non dipende dal fluoro ma dalle impurezze che il cristallo ha incorporato. Un
+      minerale ha dunque battezzato un elemento e un fenomeno, e con il fenomeno non
+      c''entra per la ragione che gli si attribuisce.'
+    attendibilita: documentato
+  - id: contesto-cosa-vuol-dire-fondente
+    sezione: contesto
+    testo: 'Vale la pena fermarsi su che cosa significhi davvero la parola che ha
+      dato il nome a tutto, perché non vuol dire quello che sembra. Il minerale non
+      scorre e non fa scorrere l''acqua: serve da fondente nella fusione del ferro,
+      cioè abbassa la viscosità della scoria; e nella produzione dell''acciaio abbassa
+      il punto di fusione delle materie prime per favorire la rimozione delle impurezze.
+      Il nome tedesco lo dice meglio del latino: _Flussspat_, dove _Fluss_ sta per
+      _Flussmittel_, mezzo per far fluire, e _Spat_ indica un minerale non metallico
+      che si sfalda in schegge allungate. Il fluoro porta dunque, incorporato nel
+      proprio nome, non una sua qualità ma un servizio che il suo minerale rendeva
+      a un altro metallo.'
+    attendibilita: documentato
+  - id: contesto-blue-john
+    sezione: contesto
+    testo: 'Prima di essere una materia prima, però, questa pietra è stata un oggetto
+      di lusso, e in un caso lo è rimasta. Fra le località storiche più celebri c''è
+      Castleton, nel Derbyshire inglese, dove da alcune miniere e caverne si estraeva
+      una fluorite di un violetto azzurrato chiamata _Derbyshire Blue John_, cavata
+      nell''Ottocento per il suo valore ornamentale. Oggi quel materiale è scarso:
+      se ne estraggono poche centinaia di chilogrammi l''anno, destinati all''ornamento
+      e alla lavorazione da gemma. È una frazione infinitesima dei cinque miliardi
+      di chilogrammi che l''industria consuma; lo stesso minerale, in due mercati
+      che non si somigliano in nulla, separati soltanto dalla purezza e dal colore.'
+    attendibilita: documentato
+  - id: contesto-la-pietra-di-ghiaccio
+    sezione: contesto
+    testo: 'Di minerali del fluoro sfruttabili non ce n''è comunque uno solo, e il
+      secondo ha una storia che comincia con un equivoco domestico. Nel 1798 il veterinario
+      e medico danese Peter Christian Abildgaard descrisse una pietra ottenuta da
+      campioni di Inuit della Groenlandia, che la usavano per lavare le pelli; il
+      giacimento vero fu individuato solo nel 1806 dall''esploratore Karl Ludwig Giesecke,
+      a Ivigtut, nella Groenlandia sudoccidentale. La chiamarono criolite, pietra
+      di brina, dal greco _kryos_ e _lithos_. Fra Ottocento e Novecento un''industria
+      chimica della Pennsylvania ne consumò grandi quantità per produrre soda caustica
+      e composti del fluoro, acido fluoridrico compreso. La miniera principale di
+      Ivittuut ha chiuso nel 1987: un detersivo per pellami esaurito come giacimento
+      in meno di due secoli.'
+    attendibilita: documentato
+  - id: contesto-tre-gradi
+    sezione: contesto
+    testo: 'L''industria non compra fluorite: ne compra tre, distinte dalla purezza,
+      e la scala dice in una riga dove sia finito il peso del mondo. Il grado metallurgico,
+      dal 60 all''85 per cento di fluoruro di calcio, è il più povero e fa il mestiere
+      di Agricola, il fondente dell''acciaio. Il grado ceramico, fra l''85 e il 95,
+      va nei vetri opalescenti, negli smalti e nelle stoviglie. Il grado acido, dal
+      97 in su, si fa reagire con acido solforico per ottenere acido fluoridrico,
+      ed è da lì che passa tutto il resto della chimica del fluoro. Quest''ultimo,
+      negli Stati Uniti, vale da solo circa il 95 per cento del consumo. Sulla fine
+      degli anni Novanta se ne estraevano cinque miliardi di chilogrammi l''anno:
+      la quasi totalità per trasformare una pietra in un acido.'
+    attendibilita: documentato
+  - id: contesto-dove-sta
+    sezione: contesto
+    testo: 'La geografia di questa pietra non coincide con quella di chi la consuma,
+      e lo squilibrio si legge già nel confronto fra le riserve e la produzione. Le
+      riserve mondiali sono stimate in 230 milioni di tonnellate, concentrate in Sudafrica
+      con una quarantina di milioni, Messico con una trentina e Cina con una ventina.
+      Sulla produzione, però, il primato è netto e sta altrove: la Cina ne estraeva
+      attorno ai tre milioni di tonnellate l''anno, contro il milione del Messico
+      e quantità di un ordine di grandezza inferiore per Mongolia, Russia, Sudafrica,
+      Spagna e Namibia. Un paese solo, insomma, ne cava circa il triplo del secondo,
+      e a valle di quel collo di bottiglia stanno i refrigeranti, i polimeri e l''arricchimento
+      dell''uranio.'
+    attendibilita: documentato
+  - id: contesto-la-lente
+    sezione: contesto
+    testo: 'C''è poi un uso che dipende da un difetto, o meglio da una anomalia. La
+      fluorite otticamente trasparente ha una dispersione parziale anomala: l''indice
+      di rifrazione cambia con la lunghezza d''onda in un modo diverso da quello dei
+      vetri comuni. Per un progettista di obiettivi questa è una manna, perché permette
+      di costruire lenti apocromatiche, che riportano a fuoco nello stesso punto colori
+      che il vetro normale separa; e la fluorite lavora anche nell''ultravioletto
+      lontano e nell''infrarosso medio, dove i vetri ordinari sono opachi. I costruttori
+      di fotocamere hanno impiegato a lungo cristalli di fluoruro di calcio cresciuti
+      in laboratorio. Oggi vetri nuovi e progettazione al calcolatore hanno in gran
+      parte preso il posto di quei cristalli: la pietra che rendeva fluide le scorie
+      aveva anche insegnato a vedere, e si è fatta sostituire.'
+    attendibilita: documentato
+  - id: contesto-acido-debole
+    sezione: contesto
+    testo: 'Fra gli acidi alogenidrici l''acido fluoridrico è l''anomalia, e l''anomalia
+      va nella direzione che nessuno si aspetta. Cloridrico, bromidrico e iodidrico
+      in acqua sono acidi forti, con costanti che li danno integralmente dissociati;
+      il fluoridrico no. In soluzione diluita si comporta da acido debole, con una
+      costante di ionizzazione attorno a 6,6 decimillesimi. La ragione è doppia, e
+      la prima è la solita: il legame fra idrogeno e fluoro è troppo forte per rompersi
+      volentieri. La seconda è che le molecole di acido, l''acqua e gli ioni fluoruro
+      tendono ad aggregarsi in grappoli, sottraendo ioni alla soluzione. L''elemento
+      più avido della tavola periodica genera così l''unico acido alogenidrico che
+      in acqua si trattiene.'
+    attendibilita: documentato
+  - id: contesto-la-debolezza-si-rovescia
+    sezione: contesto
+    testo: 'La debolezza però è una proprietà della diluizione, non della sostanza,
+      e concentrando si rovescia. Man mano che l''acqua diminuisce, le molecole di
+      acido fluoridrico si associano fra loro liberando protoni e formando ioni bifluoruro,
+      e l''acidità cresce ben oltre quanto la costante lasci prevedere. Misurata con
+      la funzione di acidità di Hammett, che serve proprio dove la scala del pH non
+      arriva più, l''acido fluoridrico puro dà un valore attorno a meno undici, paragonabile
+      al meno dodici dell''acido solforico puro. In quelle condizioni fa una cosa
+      che suona come un paradosso: protona gli acidi forti, cioè strappa un protone
+      al cloridrico, al solforico e al nitrico, che davanti a lui si comportano da
+      basi.'
+    attendibilita: documentato
+  - id: contesto-mangia-il-vetro
+    sezione: contesto
+    testo: 'Resta da spiegare come faccia un acido debole a mangiare il vetro, che
+      agli acidi forti resiste. La risposta è che, per quanto debole, è comunque molto
+      corrosivo, e attacca il vetro quando è idratato. Il biossido di silicio più
+      acido fluoridrico dà tetrafluoruro di silicio, che se ne va come gas, e acqua;
+      in eccesso di acido si forma invece un fluorosilicato solubile. In entrambi
+      i casi il vetro non viene corroso nel senso comune del termine, viene convertito
+      in qualcosa che vola via o si scioglie. È la ragione per cui l''industria dei
+      semiconduttori lo adopera per pulire i wafer di silicio, e la ragione per cui
+      si incidono e si smerigliano i vetri: la stessa reazione, a seconda di quanto
+      la si lascia andare avanti.'
+    attendibilita: documentato
+  - id: contesto-il-contenitore
+    sezione: contesto
+    testo: 'Da qui discende un problema pratico che contiene già tutta la storia successiva:
+      in che cosa si tiene un acido che divora il vetro. La risposta è che lo si tiene
+      in un polimero fluorurato, di solito politetrafluoroetilene, cioè in una plastica
+      costruita attorno allo stesso elemento che rende l''acido aggressivo. Quel materiale
+      è inattaccabile per la ragione opposta a quella per cui l''acido attacca: il
+      fluoro è già legato al carbonio nel modo più saldo che la chimica organica conosca,
+      e non ha più niente da pretendere da nessuno. La sua superficie oppone così
+      poco alle forze di van der Waals da essere l''unica nota a cui un geco non riesca
+      ad aderire. L''elemento, insomma, produce il veleno e insieme l''unica bottiglia
+      che lo regga.'
+    attendibilita: documentato
+  - id: vicenda-un-indirizzo-solo
+    sezione: vicenda
+    testo: 'La storia che segue ha un indirizzo preciso, e conviene tenerlo a mente
+      perché tutto vi ritorna: Washington Works, uno stabilimento della DuPont presso
+      Parkersburg, nella Virginia Occidentale, sulla riva del fiume Ohio. È lo stesso
+      luogo dove il politetrafluoroetilene era passato dalla scala del laboratorio
+      a quella dell''industria. Per fabbricarlo si usava un ausiliario di lavorazione,
+      l''acido perfluoroottanoico, noto anche come C8 dagli otto atomi di carbonio
+      della sua catena. Nel 2004 un valutatore di rischio industriale incaricato dalla
+      stessa DuPont calcolò che fra il 1951 e il 2003 dallo stabilimento erano stati
+      «scaricati, versati e rilasciati» nell''ambiente oltre un milione e settecentomila
+      libbre di quella sostanza. Cinquantadue anni di rilasci, contati da chi li aveva
+      fatti.'
+    attendibilita: documentato
+  - id: vicenda-millenovecentosessantuno
+    sezione: vicenda
+    testo: 'Il primo dato è del 1961, e stabilisce quanto indietro cominci la conoscenza.
+      Già allora la DuPont sapeva che nei topi alimentati con quella sostanza il fegato
+      si ingrossava: un''epatomegalia. Dai fascicoli risultò che la DuPont e la 3M
+      conducevano studi medici riservati su quella molecola da più di quarant''anni.
+      Vale la pena misurare la distanza: il 1961 è l''anno in cui in America arriva
+      sul mercato la prima padella antiaderente di produzione nazionale, e mancavano
+      trentanove anni all''ordinanza che avrebbe reso pubblici quei fogli. Per tutto
+      quel tempo l''informazione esisteva, era precisa, ed era archiviata.'
+    attendibilita: documentato
+  - id: vicenda-le-sette-donne
+    sezione: vicenda
+    testo: C'è un episodio che condensa tutto il resto in poche persone e pochi mesi.
+      La 3M trasmise alla DuPont i risultati di uno studio che mostrava malformazioni
+      nei ratti trattati con quella sostanza, e la DuPont reagì spostando le donne
+      fuori dal reparto di produzione del politetrafluoroetilene. Prove successive
+      su animali portarono però l'azienda a concludere che non vi fosse rischio riproduttivo,
+      e le donne furono riportate in reparto. Fra il 1979 e il 1981, due su sette
+      dipendenti donne di quello stabilimento ebbero figli con malformazioni facciali,
+      lo stesso effetto osservato nella prole dei ratti. Bucky Bailey è uno di quei
+      figli. La DuPont non ha riconosciuto alcuna responsabilità derivante dalla tossicità
+      del composto.
+    attendibilita: documentato
+  - id: vicenda-il-conto-del-1993
+    sezione: vicenda
+    testo: 'Nel 1993 il quadro era completo e la decisione fu presa con cognizione
+      di causa. L''azienda aveva ormai capito che quella sostanza provocava negli
+      animali da laboratorio tumori maligni del testicolo, del pancreas e del fegato,
+      e aveva cominciato a cercare alternative. Cercare non è adottare. I prodotti
+      fabbricati con quell''ausiliario erano una voce essenziale dei ricavi, un miliardo
+      di dollari di profitto all''anno, e si scelse di continuare a usarlo. Messa
+      in fila con il resto, la sequenza non descrive un''ignoranza né un errore tecnico:
+      descrive un calcolo. La conoscenza c''era dal 1961, la certezza dal 1993, e
+      l''esposizione delle comunità sul fiume proseguì per un altro decennio.'
+    attendibilita: documentato
+  - id: vicenda-centodiecimila-fascicoli
+    sezione: vicenda
+    testo: 'Che tutto questo si sia saputo si deve a un''ordinanza ottenuta da un
+      solo avvocato. Nell''autunno del 2000 Robert Bilott, socio dello studio Taft
+      Stettinius & Hollister, ottenne da un giudice l''ordine che obbligava la DuPont
+      a consegnare tutta la documentazione relativa all''acido perfluoroottanoico.
+      Ne arrivarono centodiecimila fascicoli: studi riservati e relazioni prodotti
+      dagli scienziati dell''azienda nell''arco di decenni. Non erano documenti rubati
+      né anonimi, erano ricerca interna fatta bene e tenuta dentro. Per quel lavoro
+      Bilott ha ricevuto diversi riconoscimenti, fra cui il Right Livelihood Award
+      nel 2017, e la vicenda è diventata un documentario e un film. Il punto però
+      non è il coraggio individuale: è che senza un''ordinanza quei fascicoli non
+      sarebbero mai usciti.'
+    attendibilita: documentato
+  - id: vicenda-la-soglia-di-casa
+    sezione: vicenda
+    testo: 'La causa dei residenti, depositata nell''agosto del 2001, si appoggiò
+      a un argomento che vale la pena isolare perché è più forte di quanto sembri.
+      Non si contestava il superamento di un limite di legge, che per quella sostanza
+      non esisteva: si contestava il superamento della soglia che l''azienda stessa
+      si era data come linea guida per la comunità, una parte per miliardo. Il danno
+      lamentato non era solo sanitario ma patrimoniale, il deprezzamento delle case,
+      accanto al maggior rischio di ammalarsi. Quando la regola pubblica manca, l''unico
+      metro disponibile diventa quello che l''inquinatore ha scritto per sé, e nel
+      caso del fluoro è capitato che quel metro bastasse a reggere un processo.'
+    attendibilita: documentato
+  - id: vicenda-il-patto
+    sezione: vicenda
+    testo: 'Dalla causa collettiva intentata dalle comunità dell''Ohio River Valley
+      nacque un accordo di un tipo insolito. La classe fu certificata dal giudice
+      George W. Hill della Wood Circuit Court, e come parte della transazione la DuPont
+      accettò di pagare esami del sangue e indagini sanitarie per i residenti che
+      si ritenevano colpiti. Ne uscì una coorte di sessantanovemilatrenta persone,
+      affidata a tre epidemiologi che presero il nome di C8 Science Panel e che dovevano
+      stabilire quali effetti sulla salute fossero verosimilmente dovuti all''esposizione.
+      È il rovescio del solito copione: invece di litigare per anni sul se, le parti
+      finanziarono lo studio incaricato di stabilirlo.'
+    attendibilita: documentato
+  - id: vicenda-il-verdetto
+    sezione: vicenda
+    testo: 'Il responso arrivò per gradi, e la sua prudenza è parte della sua forza.
+      Nel 2010 i tre membri del gruppo pubblicarono una rassegna in cui concludevano
+      che le prove non bastavano ad affermare che quella sostanza causasse danni alla
+      salute negli esseri umani, pur registrando associazioni coerenti con colesterolo
+      e acido urico più alti. L''anno successivo uno studio epidemiologico stabilì
+      invece un «nesso probabile» — è la formula tecnica adottata — fra l''acido perfluoroottanoico
+      e sei condizioni: cancro del rene, cancro del testicolo, malattie della tiroide,
+      colesterolo alto, preeclampsia e colite ulcerosa. Non è una dimostrazione di
+      causa nel senso stretto, ed è esattamente ciò che le parti avevano concordato
+      di considerare sufficiente.'
+    attendibilita: documentato
+  - id: vicenda-le-cifre-nel-sangue
+    sezione: vicenda
+    testo: 'Le concentrazioni misurate nel sangue disegnano la scala del problema
+      meglio di qualunque aggettivo. Un americano medio ne ha tre o quattro parti
+      per miliardo nel siero; in persone esposte per lavoro sono stati registrati
+      valori superiori a centomila parti per miliardo, cioè quattro ordini di grandezza
+      più in alto. Nel mezzo sta il caso degli operai cinesi di uno stabilimento del
+      gruppo, passati da una cinquantina di parti per miliardo a circa duemiladuecentocinquanta
+      in meno di un anno: un dato di fronte al quale l''azienda si dichiarò «non soddisfatta».
+      L''emivita di eliminazione nell''uomo è in media di circa tre anni, il che significa
+      che ogni misura fotografa non l''esposizione di oggi ma quella accumulata.'
+    attendibilita: documentato
+  - id: vicenda-la-curva-delle-emissioni
+    sezione: vicenda
+    testo: 'Le cifre annuali dicono quanto in fretta si possa chiudere un rubinetto
+      quando si decide di farlo. Per quel solo stabilimento le emissioni di acido
+      perfluoroottanoico sono stimate in ottantamila libbre nel 2000 e in millesettecento
+      nel 2004: una riduzione di oltre il novantasette per cento in quattro anni.
+      Va aggiunto che uno studio del 2006, due dei cui quattro autori erano dipendenti
+      DuPont, attribuiva alla fabbricazione e all''uso di fluoropolimeri circa l''ottanta
+      per cento delle emissioni storiche di questa famiglia di composti. Il dato tecnico
+      e il conflitto di interessi di chi lo firma vanno letti insieme, ed è una regola
+      che in questa vicenda tornerà più volte.'
+    attendibilita: documentato
+  - id: vicenda-senza-ammissione
+    sezione: vicenda
+    testo: 'Il percorso giudiziario non fu una marcia trionfale, ed è giusto registrarne
+      anche le sconfitte. Il 13 dicembre 2005 la DuPont annunciò una transazione con
+      l''agenzia federale per l''ambiente: dieci milioni e un quarto di dollari di
+      sanzioni più sei milioni e un quarto per due progetti ambientali supplementari,
+      il tutto «senza alcuna ammissione di responsabilità». Nel settembre del 2008
+      un giudice federale negò poi la certificazione di una classe di residenti di
+      Parkersburg, perché non avevano dimostrato quelle lesioni individuali comuni
+      che una causa collettiva richiede; l''anno dopo respinse le loro domande, salvo
+      quelle relative al monitoraggio sanitario. La formula ricorrente di questi accordi
+      è sempre la stessa: si paga e non si ammette.'
+    attendibilita: documentato
+  - id: vicenda-seicentosettanta-milioni
+    sezione: vicenda
+    testo: 'La resa dei conti arrivò nel 2017. Dopo che entro il 2015 più di tremila
+      persone avevano intentato cause per danni alla persona, la DuPont chiuse con
+      una transazione in contanti da seicentosettanta milioni e settecento mila dollari,
+      relativa a tremilacinquecentocinquanta cause legate alla contaminazione dell''acqua
+      potabile nell''area di Parkersburg. Metà della somma fu pagata da Chemours,
+      la società in cui la DuPont aveva scorporato nel 2015 il proprio ramo chimico.
+      Entrambe negarono ogni illecito. Fatto il conto, sono circa centottantottomila
+      dollari a causa per una vicenda cominciata con un''epatomegalia nei topi nel
+      1961: il prezzo di cinquantasei anni di ritardo, pagato da una società nata
+      due anni prima dell''accordo.'
+    attendibilita: documentato
+  - id: impatto-il-primo-cliente
+    sezione: impatto
+    testo: 'Il primo cliente importante della plastica scoperta per caso non fu una
+      cucina: fu la bomba. Kinetic Chemicals brevettò il nuovo materiale fluorurato
+      nel 1941 e registrò il marchio Teflon nel 1945; e uno dei primi impieghi fu
+      nel Progetto Manhattan, per rivestire valvole e guarnizioni delle tubazioni
+      che contenevano l''esafluoruro di uranio, estremamente reattivo, nell''immenso
+      impianto di arricchimento K-25 di Oak Ridge, in Tennessee. La logica è quella
+      già vista con le bottiglie dell''acido: l''unico materiale capace di reggere
+      un composto del fluoro è un altro composto del fluoro. L''elemento fornisce
+      insieme il problema e la sua soluzione, e in questo caso il problema era tenere
+      in tubo la materia prima dell''arma atomica.'
+    attendibilita: documentato
+  - id: impatto-perche-proprio-il-fluoro
+    sezione: impatto
+    testo: 'Che l''arricchimento dell''uranio passi per un composto del fluoro non
+      è una scelta fra tante, ed è utile capire perché non ci fossero alternative.
+      Il fluoro ha un solo isotopo stabile in natura: questo significa che due molecole
+      di esafluoruro di uranio possono differire in massa soltanto per l''isotopo
+      di uranio che contengono, e su quella differenza minuscola si regge tutta la
+      separazione fisica. Con qualunque altro elemento, la varietà isotopica del partner
+      sporcherebbe il segnale. In più il punto triplo di quel composto, 64 gradi e
+      una pressione di circa un''atmosfera e mezza, è vicino alle condizioni ambientali,
+      e i passaggi di stato costano pochissimo lavoro termodinamico. Tutti gli altri
+      fluoruri di uranio sono invece solidi non volatili.'
+    attendibilita: documentato
+  - id: impatto-il-costo-della-separazione
+    sezione: impatto
+    testo: I due metodi di separazione hanno costi energetici che non stanno sullo
+      stesso piano, per quanto siano entrambi fra i due metodi principali in uso.
+      La diffusione gassosa, quella dei capannoni di Oak Ridge, richiede circa sessanta
+      volte l'energia della centrifugazione. Guardato dal lato della resa, il combustibile
+      ottenuto per diffusione restituisce venticinque volte l'energia spesa per produrlo;
+      quello ottenuto per centrifugazione ne restituisce millecinquecento. Il bilancio
+      resta positivo in entrambi i casi, ma di due ordini di grandezza diversi. È
+      una delle poche cifre che permettono di mettere due tecnologie di separazione
+      sullo stesso metro, e il metro è il fluoro che rende volatile l'uranio.
+    attendibilita: documentato
+  - id: impatto-cinquantasettemila-cilindri
+    sezione: impatto
+    testo: 'L''arricchimento lascia però dietro di sé un residuo enorme, e il modo
+      in cui lo si conserva è una delle eredità meno raccontate di questa chimica.
+      Separare l''isotopo utile produce grandi quantità di esafluoruro di uranio impoverito,
+      che è un rifiuto chimicamente instabile: esposto all''aria umida reagisce con
+      il vapore acqueo e libera fluoruro di uranile e acido fluoridrico, entrambi
+      molto corrosivi e tossici. Nel 2005 negli Stati Uniti se ne contavano circa
+      seicentottantaseimila tonnellate, stipate in cinquantasettemilacentoventidue
+      cilindri d''acciaio nei depositi di Portsmouth in Ohio, Oak Ridge in Tennessee
+      e Paducah nel Kentucky. Il fluoro che aveva reso volatile l''uranio non se ne
+      va quando il lavoro è finito.'
+    attendibilita: documentato
+  - id: impatto-la-vita-dei-cilindri
+    sezione: impatto
+    testo: 'Quei contenitori vanno ispezionati con regolarità per cercare corrosione
+      e perdite, e la loro durata stimata si misura in decenni, mentre il deposito
+      dura finché non si decide che farne. Che il rischio non sia teorico lo dimostra
+      l''incidente del 1986 alla Sequoyah Fuels Corporation, durante il riempimento
+      di un cilindro, con la fuoriuscita di circa ventinovemilacinquecento libbre
+      di esafluoruro gassoso, una vittima e decine di feriti. La soluzione adottata
+      dal governo statunitense è convertire il residuo in ossidi solidi di uranio,
+      e il costo stimato per smaltire l''intera riserva oscilla fra i quindici e i
+      quattrocentocinquanta milioni di dollari: una forbice di trenta volte, che dice
+      quanto sia incerto perfino il prezzo di mettere in sicurezza ciò che si è prodotto.'
+    attendibilita: documentato
+  - id: impatto-novecentodiecimila-chili
+    sezione: impatto
+    testo: 'Qui le due metà di questa storia si toccano, e si toccano in un punto
+      preciso della carta geografica. Entro il 1948 la DuPont — che aveva fondato
+      Kinetic Chemicals insieme alla General Motors — produceva oltre novecentodiecimila
+      chilogrammi l''anno di politetrafluoroetilene a Parkersburg, nella Virginia
+      Occidentale. È lo stesso indirizzo dello stabilimento da cui, negli stessi decenni,
+      sarebbero stati rilasciati nel fiume e nell''aria oltre un milione e settecentomila
+      libbre dell''ausiliario di lavorazione. La catena che va dalla bombola dimenticata
+      in laboratorio al sangue degli abitanti della vallata non attraversa il mondo:
+      sta quasi tutta dentro un solo impianto, e ci mette una quarantina d''anni a
+      percorrerla.'
+    attendibilita: documentato
+  - id: impatto-la-padella-e-il-tetto
+    sezione: impatto
+    testo: 'L''ingresso nelle case passò invece per un suggerimento domestico. Nel
+      1954 Colette Grégoire convinse il marito, l''ingegnere francese Marc Grégoire,
+      a provare sulle sue pentole il materiale che lui usava sull''attrezzatura da
+      pesca; ne nacquero le prime padelle antiaderenti, col marchio Tefal, composto
+      da _Tef_ di Teflon e _al_ di alluminio. Negli Stati Uniti la prima padella rivestita
+      di produzione nazionale, battezzata _The Happy Pan_, fu messa in commercio nel
+      1961. Da lì lo stesso polimero si è diramato ovunque: nella versione espansa
+      è il tessuto impermeabile e traspirante Gore-Tex, e in forma di rivestimento
+      su fibra di vetro ha coperto il Metrodome di Minneapolis con venti acri di materiale.
+      Una cera bianca trovata in una bombola è diventata una padella, un impermeabile
+      e un tetto.'
+    attendibilita: documentato
+  - id: impatto-la-macchia-del-colorado
+    sezione: impatto
+    testo: 'L''altra grande storia di massa del fluoro comincia da un difetto estetico
+      che nessuno sapeva spiegare. All''inizio del Novecento in alcune zone del Colorado
+      i denti della popolazione presentavano una chiazzatura bruna vistosa, che fu
+      chiamata macchia bruna del Colorado; e chi la portava aveva, insieme, denti
+      che non si cariavano. Il dentista Frederick McKay passò trent''anni a cercarne
+      la causa, con l''aiuto di G.V. Black e di altri ricercatori, e alla fine la
+      identificò nel fluoruro presente nell''acqua. La sequenza merita attenzione,
+      perché è l''inverso di quella che ci si aspetta: il beneficio fu notato come
+      effetto collaterale di un danno, e per trent''anni il problema da risolvere
+      fu la macchia, non la carie.'
+    attendibilita: documentato
+  - id: impatto-il-chimico-dell-alluminio
+    sezione: impatto
+    testo: Chi chiuse il caso lo fece per difendere un altro elemento, ed è una coincidenza
+      che vale la pena registrare. Nel 1925 il dentista britannico Norman Ainsworth
+      pubblicò la prima segnalazione di un'associazione statistica fra la chiazzatura
+      e l'assenza di carie. Sei anni dopo, nel 1931, un chimico dell'Alcoa, H.V. Churchill,
+      preoccupato che la macchia potesse essere collegata all'alluminio prodotto dalla
+      sua azienda, analizzò le acque di diverse zone dove il fenomeno era comune e
+      trovò che il fattore comune era il fluoruro. Un'indagine nata per scagionare
+      un metallo finì per incriminare un alogeno, e quella incriminazione divenne
+      in pochi anni la base di una politica sanitaria mondiale.
+    attendibilita: documentato
+  - id: impatto-grand-rapids
+    sezione: impatto
+    testo: 'L''esperimento vero e proprio cominciò il 25 gennaio 1945 a Grand Rapids,
+      nel Michigan, dove H. Trendley Dean e i suoi colleghi fluorurarono l''acqua
+      della città per verificare l''ipotesi in condizioni controllate. I risultati,
+      pubblicati nel 1950, mostrarono una riduzione significativa della carie. Negli
+      stessi anni studi analoghi fuori dagli Stati Uniti riportarono riduzioni altrettanto
+      marcate: lo studio Brantford-Sarnia-Stratford in Canada fra il 1945 e il 1962,
+      quello di Tiel-Culemborg nei Paesi Bassi fra il 1953 e il 1969, quello di Hastings
+      in Nuova Zelanda fra il 1954 e il 1970 e quello del ministero della sanità britannico
+      fra il 1955 e il 1960. Sono durate lunghe, fino a diciassette anni: una misura
+      di quanto lentamente si muova un dato epidemiologico.'
+    attendibilita: documentato
+  - id: impatto-studi-rozzi
+    sezione: impatto
+    testo: 'Su quegli studi fondativi il giudizio odierno è più severo di quanto sarebbe
+      comodo, e va riportato. Per gli standard odierni quelle ricerche pionieristiche
+      erano rozze: mancavano i controlli, le randomizzazioni e le cautele statistiche
+      che oggi si pretendono da qualunque sperimentazione sanitaria. Furono però le
+      riduzioni della carie, molto ampie, a convincere i professionisti della sanità
+      pubblica dei benefici della fluorurazione. Il paradosso è tutto qui, e non si
+      scioglie riscrivendo la storia: una politica sanitaria che riguarda centinaia
+      di milioni di persone è stata fondata su prove che oggi nessun comitato etico
+      approverebbe, e la qualità di quelle prove è rimasta un problema aperto anche
+      molto dopo.'
+    attendibilita: documentato
+  - id: impatto-le-cifre-della-cochrane
+    sezione: impatto
+    testo: 'Le revisioni sistematiche moderne danno numeri precisi e insieme un giudizio
+      severo su se stesse. Una revisione Cochrane del 2015 ha stimato che, nei bambini
+      privi di altre fonti di fluoruro, la fluorurazione dell''acqua riduce la carie
+      del trentacinque per cento nei denti da latte e del ventisei per cento nei denti
+      permanenti; e ha classificato come di bassa qualità le prove su cui quelle stime
+      si reggono. La stessa revisione non ha trovato ricerche conclusive sull''efficacia
+      negli adulti. Sono due affermazioni che convivono e che vanno tenute insieme:
+      la riduzione è reale e misurata, e la base di evidenza è più fragile di quanto
+      la diffusione della pratica lasci supporre.'
+    attendibilita: documentato
+  - id: impatto-leuropa-senza
+    sezione: impatto
+    testo: Il confronto internazionale complica ulteriormente il quadro, e lo complica
+      in una direzione precisa. Gli Stati Uniti sono stati il primo paese a fluorurare
+      le acque e nel 2022 il settantadue per cento della popolazione beveva acqua
+      fluorurata; nel mondo la quota è del cinque virgola quattro per cento, e in
+      Europa la pratica resta rara fuori dall'Irlanda e da parti della Spagna. Eppure
+      quasi tutti i paesi europei hanno registrato cali sostanziali della carie senza
+      fluorurare l'acqua, grazie ai dentifrici al fluoro e agli altri prodotti che
+      lo contengono. In Finlandia e in Germania, dove la fluorurazione è stata interrotta
+      in comunità già ampiamente esposte per altre vie, i tassi di carie sono rimasti
+      stabili o hanno continuato a scendere.
+    attendibilita: documentato
+  - id: impatto-la-dose-che-cala
+    sezione: impatto
+    testo: 'Il caso non è però chiuso a favore di chi vorrebbe smettere, e una revisione
+      del 2016 lo mostra: con prove di qualità variabile, l''interruzione dei programmi
+      di fluorurazione è stata tipicamente seguita da un aumento della carie. Sullo
+      sfondo resta la dimensione del problema che si vuole risolvere, dato che la
+      carie colpisce fra il sessanta e il novanta per cento dei bambini in età scolare
+      nel mondo. Quanto alla dose, si è mossa verso il basso: l''Organizzazione mondiale
+      della sanità raccomanda fra mezzo milligrammo e uno e mezzo per litro a seconda
+      del clima, e gli Stati Uniti dal 2015 raccomandano zero virgola sette milligrammi
+      per litro, abbassando il precedente uno virgola due. Si continua, insomma, ma
+      con meno.'
+    attendibilita: documentato
+  - id: impatto-da-dove-viene-il-fluoruro
+    sezione: impatto
+    testo: 'Resta da dire da dove venga materialmente il fluoruro che finisce nell''acqua
+      del rubinetto, e la risposta riporta il discorso all''industria. I composti
+      impiegati sono tre: fluoruro di sodio, acido fluosilicico e fluosilicato di
+      sodio, scelti per solubilità, sicurezza, disponibilità e basso costo. Il primo
+      fu anche il primo a essere usato e resta lo standard di riferimento, ma è il
+      più caro; il più diffuso negli Stati Uniti è l''acido fluosilicico, che è un
+      sottoprodotto liquido a basso prezzo della fabbricazione dei fertilizzanti fosfatici.
+      Un censimento del 1992 fotografava la ripartizione: il sessantatré per cento
+      della popolazione riceveva acqua trattata con acido fluosilicico, il ventotto
+      con fluosilicato di sodio e il nove con fluoruro di sodio. La salute pubblica,
+      insomma, viaggia su uno scarto di lavorazione.'
+    attendibilita: documentato
+  - id: controversie-cinque-piani
+    sezione: controversie
+    testo: 'La disputa sulla fluorurazione delle acque si gioca su cinque piani distinti
+      — politico, morale, etico, economico e sanitario — e trattarli come se fossero
+      uno solo è il modo più rapido per non capirci niente. Chi si oppone sostiene
+      che il beneficio contro la carie sia nullo o piccolo, che possano derivarne
+      seri problemi di salute, che l''efficacia non giustifichi i costi, che il metodo
+      sia farmacologicamente superato e che vi sia un conflitto morale nel somministrare
+      una sostanza a chi non l''ha chiesta. Nemmeno fra le autorità sanitarie c''è
+      unanimità sul metodo migliore: alcune considerano la fluorurazione dell''acqua
+      la via più efficace, altre non le riconoscono vantaggi particolari e preferiscono
+      le applicazioni locali.'
+    attendibilita: discusso
+  - id: controversie-il-beneficio-che-si-consuma
+    sezione: controversie
+    testo: 'Il dato che più mette in difficoltà la posizione ufficiale è che il beneficio
+      misurato si è ristretto col tempo. Gli studi statunitensi degli anni Cinquanta
+      e Sessanta attribuivano alla fluorurazione riduzioni della carie infantile fra
+      il cinquanta e il sessanta per cento; quelli del 1989 e del 1990 registravano
+      rispettivamente il quaranta e il diciotto per cento. La spiegazione più accreditata
+      non è che il fluoro abbia smesso di funzionare, ma che sia arrivato da altre
+      strade: i dentifrici soprattutto, e poi l''«effetto alone» dei cibi e delle
+      bevande prodotti in aree fluorurate e consumati altrove. Un intervento di sanità
+      pubblica può dunque diventare meno utile proprio perché ha vinto, e il suo successo
+      culturale erode la differenza che esso stesso produceva.'
+    attendibilita: documentato
+  - id: controversie-non-e-la-stessa-domanda
+    sezione: controversie
+    testo: Prima di dare ragione all'Europa conviene però notare che le due sponde
+      dell'Atlantico non stanno rispondendo alla stessa domanda. Negli Stati Uniti
+      non esiste l'assistenza odontoiatrica scolastica diffusa in gran parte d'Europa,
+      molti bambini non vedono un dentista con regolarità, e per una quota consistente
+      di loro l'acqua fluorurata è la fonte principale di esposizione al fluoruro.
+      L'efficacia della fluorurazione varia proprio in funzione di circostanze come
+      la gratuità delle cure preventive per tutti i bambini. Dove esiste un sistema
+      che intercetta i denti dei poveri, l'acqua conta meno; dove non esiste, l'acqua
+      è ciò che resta.
+    attendibilita: documentato
+  - id: controversie-il-prezzo-estetico
+    sezione: controversie
+    testo: 'Il danno accertato esiste, ha un nome e si misura. Alla dose comunemente
+      raccomandata l''unico effetto avverso chiaro è la fluorosi dentale, cioè l''alterazione
+      dell''aspetto dei denti durante lo sviluppo: la stessa chiazzatura che aveva
+      messo McKay sulle tracce dell''elemento. La revisione Cochrane del 2015 ha stimato
+      che a zero virgola sette parti per milione circa il dodici per cento dei partecipanti
+      presenta una fluorosi di rilievo estetico, percentuale che sale al quaranta
+      considerando la fluorosi di qualunque grado, compresa quella che esteticamente
+      non si nota. Negli Stati Uniti si riporta una fluorosi lieve o lievissima nel
+      venti per cento della popolazione, moderata nel due e grave in meno dell''uno.'
+    attendibilita: documentato
+  - id: controversie-chi-causa-la-fluorosi
+    sezione: controversie
+    testo: A chi vada imputato quel danno è però una domanda con una risposta controintuitiva,
+      e le cifre la danno con precisione. Il periodo critico di esposizione va da
+      uno a quattro anni di età e il rischio si esaurisce attorno agli otto; la fluorosi
+      si previene sorvegliando tutte le fonti di fluoruro, e di quel rischio l'acqua
+      fluorurata è responsabile, direttamente o indirettamente, per un quaranta per
+      cento stimato. Il restante sessanta viene dalle altre fonti, in primo luogo
+      il dentifricio. Chi si batte contro la fluorurazione dell'acqua per timore della
+      fluorosi sta dunque contestando la minore delle due cause, e quella maggiore
+      è nell'armadietto del bagno di casa sua, dove è entrata per libera scelta.
+    attendibilita: documentato
+  - id: controversie-i-dentisti-se-ne-vanno
+    sezione: controversie
+    testo: C'è infine un effetto collaterale che nessuna delle due parti cita volentieri,
+      perché non conviene a nessuna delle due. I dati statunitensi fra il 1974 e il
+      1992 mostrano che quando la fluorurazione arriva in una comunità calano in modo
+      significativo sia il numero di addetti per studio dentistico sia il numero degli
+      studi; e che alcuni dentisti reagiscono a quel crollo della domanda trasferendosi
+      in aree non fluorurate o riqualificandosi come specialisti. È un riscontro economico
+      di un effetto sanitario, e insieme la ragione per cui la categoria professionale
+      che se ne fa promotrice sta sostenendo una misura che riduce il proprio mercato.
+    attendibilita: documentato
+  - id: controversie-il-nodo-del-consenso
+    sezione: controversie
+    testo: 'Resta il nodo che nessun dato risolve, perché non è un nodo empirico.
+      Fornire acqua fluorurata, si è osservato, obbliga anche chi non lo desidera
+      a consumare acqua con fluoruro aggiunto, e per questa ragione l''approccio non
+      è accettato nella maggior parte dei paesi del mondo: Finlandia, Germania, Giappone,
+      Paesi Bassi e Svizzera hanno interrotto la pratica in alcune comunità, talvolta
+      sostituendola con altre strategie. Il conflitto è fra due beni entrambi difendibili,
+      la salute collettiva e la scelta individuale, e si somma al fatto che una rete
+      idrica non distingue i suoi utenti. Chi rifiuta il dentifricio lo lascia sullo
+      scaffale; chi rifiuta l''acqua deve procurarsene un''altra.'
+    attendibilita: discusso
+  - id: controversie-dodici-aziende
+    sezione: controversie
+    testo: 'Spostando lo sguardo dai denti alla famiglia chimica che porta il nome
+      del fluoro, la controversia cambia scala e diventa industriale. Il mercato delle
+      sostanze per- e polifluoroalchiliche era stimato in ventotto miliardi di dollari
+      nel 2023, e la maggior parte è prodotta da dodici aziende: 3M, AGC, Archroma,
+      Arkema, BASF, Bayer, Chemours, Daikin, Honeywell, Merck, Shandong Dongyue e
+      Solvay. Vendute a circa venti dollari al chilogrammo, generavano quattro miliardi
+      di dollari di profitto annuo con margini del sedici per cento. A quei quattro
+      miliardi di profitto vanno accostati i costi esterni — bonifica di suoli e acque,
+      cura delle malattie correlate, monitoraggio — che secondo l''organizzazione
+      ChemSec potrebbero arrivare a diciassettemilacinquecento miliardi di dollari
+      l''anno: fra il guadagno di chi produce e il conto lasciato agli altri corrono
+      più di tre ordini di grandezza.'
+    attendibilita: documentato
+  - id: controversie-la-stessa-ragione
+    sezione: controversie
+    testo: 'La formula con cui si spiega la persistenza ambientale di questi composti
+      è la stessa che spiega la loro utilità, e vale la pena leggerla alla lettera:
+      i tensioattivi perfluorurati persistono nell''ambiente «per la stessa ragione»
+      per cui funzionano, cioè per la stabilità del legame carbonio-fluoro. Non c''è
+      un difetto di progettazione da correggere: la proprietà che si comprava e quella
+      che si paga sono un''unica proprietà. È per questo che tre di quei tensioattivi
+      hanno attirato l''attenzione delle agenzie di controllo, per persistenza, tossicità
+      e diffusione nel sangue della popolazione generale — non di chi lavora in fabbrica
+      o abita a valle di uno scarico, ma di chiunque.'
+    attendibilita: documentato
+  - id: controversie-diciotto-miliardi
+    sezione: controversie
+    testo: 'Il conto legale complessivo fa impallidire la transazione di Parkersburg.
+      Negli Stati Uniti le somme versate per chiudere cause legate all''inquinamento
+      da queste sostanze hanno raggiunto i diciotto miliardi di dollari entro il 2024:
+      ventisette volte i seicentosettanta milioni della vicenda dell''Ohio. Nel 2023
+      la Corte suprema svedese ha fissato un precedente riconoscendo il risarcimento
+      a cittadini cui era stata fornita acqua potabile contaminata. Sul piano internazionale,
+      fra il 2009 e il 2025 le Nazioni Unite hanno iscritto diversi di questi composti
+      nell''elenco degli inquinanti organici persistenti della Convenzione di Stoccolma,
+      che è lo strumento con cui il mondo mette al bando una molecola.'
+    attendibilita: documentato
+  - id: controversie-uso-non-essenziale
+    sezione: controversie
+    testo: 'La strategia regolatoria che si sta affermando non vieta una sostanza
+      alla volta, ma introduce una categoria nuova: l''uso non essenziale. L''Unione
+      europea sta sviluppando un piano d''azione per eliminare gli impieghi non essenziali
+      di questa famiglia, e il Regno Unito, che nel 2026 ha intensificato i controlli,
+      punta ad allinearsi a quelle regole entro il 2029. Nel 2021 il Maine è stato
+      il primo stato americano a vietarne l''uso in tutti i prodotti entro il 2030.
+      La domanda che quel criterio impone non è se una molecola sia pericolosa, ma
+      se serva davvero: una padella antiaderente e una guarnizione per l''esafluoruro
+      di uranio smettono così di essere lo stesso problema.'
+    attendibilita: documentato
+  - id: controversie-il-veleno-che-rassicura
+    sezione: controversie
+    testo: 'Dentro le fabbriche, infine, la pericolosità dell''acido fluoridrico ha
+      una caratteristica che la rende un problema di sicurezza diverso dagli altri:
+      inganna chi ne è vittima. I sintomi dell''esposizione possono non essere immediatamente
+      evidenti, e questa apparente innocuità dà alle persone una falsa rassicurazione
+      che le porta a ritardare le cure. La molecola interferisce con la funzione nervosa,
+      il che significa che l''ustione all''inizio può non fare male. Anche il vapore,
+      per quanto irritante, può raggiungere concentrazioni pericolose senza un odore
+      riconoscibile. Ne risulta una sostanza in cui i due segnali su cui il corpo
+      fa affidamento, il dolore e l''olfatto, tacciono proprio quando servirebbero.'
+    attendibilita: documentato
+  - id: controversie-antidoti-e-promesse
+    sezione: controversie
+    testo: 'Contro quelle ustioni si usa il gel di gluconato di calcio, e la logica
+      dell''antidoto discende direttamente dal meccanismo del danno: lo ione fluoruro
+      lega il calcio e il magnesio dei tessuti fino a distruggere l''osso, e il gel
+      offre calcio da legare al posto di quello del corpo. Attorno a questo bisogno
+      è cresciuto anche un mercato di soluzioni specializzate. Di una di esse si è
+      affermato che attenuasse gli effetti avversi; studi successivi hanno però trovato
+      che, nel ridurre le conseguenze a lungo termine dello squilibrio elettrolitico,
+      la sua efficacia è quasi identica a quella del risciacquo con acqua. Un prodotto
+      brevettato che pareggia il rubinetto è un promemoria utile su quanto valga,
+      in medicina d''urgenza, la verifica indipendente.'
+    attendibilita: discusso
+  - id: controversie-il-fossile-liberato
+    sezione: controversie
+    testo: 'Va aggiunto, per equità verso una sostanza che in queste pagine fa una
+      figura pessima, che lo stesso acido rende possibili cose che nient''altro saprebbe
+      fare. Prodotto trattando la fluorite con acido solforico concentrato attorno
+      ai duecentosessantacinque gradi, e ricavato anche come sottoprodotto della lavorazione
+      dell''apatite per l''acido fosforico, serve a sciogliere campioni di roccia
+      prima dell''analisi. Nella macerazione acida i paleontologi lo usano per estrarre
+      fossili organici dalle rocce silicatiche: si immerge la roccia fossilifera nell''acido,
+      oppure si applica una pellicola di nitrato di cellulosa che aderisce alla parte
+      organica e lascia dissolvere la pietra tutt''intorno. L''acido che divora il
+      minerale è ciò che restituisce alla vista quello che il minerale aveva inghiottito.'
+    attendibilita: documentato
+  - id: eredita-il-sostituto
+    sezione: eredita
+    testo: 'La conclusione della vicenda di Parkersburg non fu l''abbandono della
+      chimica che l''aveva provocata, ma la sua sostituzione. Chiusa la partita sull''ausiliario
+      storico, Chemours ha continuato a fabbricare politetrafluoroetilene con una
+      molecola alternativa, chiamata GenX, che appartiene alla stessa famiglia delle
+      sostanze per- e polifluoroalchiliche. Era stata progettata per essere meno persistente
+      nell''ambiente della precedente, ma l''agenzia federale per l''ambiente l''ha
+      classificata come _più_ tossica di quella, e la letteratura la definisce senza
+      giri di parole un «sostituto deplorevole»: i suoi effetti potrebbero essere
+      altrettanto dannosi o perfino più gravi. Si è cambiata la molecola senza cambiare
+      la proprietà che crea il problema.'
+    attendibilita: documentato
+  - id: eredita-cape-fear
+    sezione: eredita
+    testo: 'La storia si è quindi ripetuta, e si è ripetuta per intero. Quando la
+      causa di Parkersburg fermò la produzione in Virginia Occidentale, questa si
+      spostò a Fayetteville, nella Carolina del Nord; e nel giugno del 2017 un giornale
+      di Wilmington rivelò che la nuova molecola era stata trovata nel fiume Cape
+      Fear, che fornisce acqua potabile a cinquecentomila persone. L''azienda idrica
+      dichiarò di non essere in grado di filtrare quelle sostanze dall''acqua. Non
+      è un secondo incidente: è lo stesso, con un altro fiume, un''altra comunità
+      e una molecola diversa di una sillaba. Fra la prima rivelazione giornalistica
+      e la seconda erano passati diciassette anni.'
+    attendibilita: documentato
+  - id: eredita-trecento-composti
+    sezione: eredita
+    testo: 'Gli atti dell''agenzia ambientale statale hanno poi mostrato che l''esposizione
+      era cominciata molto prima della scoperta: rilasci nella zona dal 1976 con la
+      produzione di un polimero per membrane, e dal 1980 come sottoprodotto della
+      fabbricazione di eteri vinilici. Fu una piccola associazione locale, la Cape
+      Fear River Watch, a citare in giudizio sia l''agenzia, per non aver agito con
+      sufficiente rapidità, sia l''azienda. L''ordinanza consensuale firmata il 25
+      febbraio 2019 impose di fermare gli scarichi e le emissioni, di offrire campionamenti
+      e filtrazione a chi attingeva da pozzi, e i campionamenti così ottenuti dimostrarono
+      che dallo stabilimento uscivano oltre trecento composti distinti di quella famiglia.
+      Non una sostanza da regolare: trecento.'
+    attendibilita: documentato
+  - id: eredita-lelenco
+    sezione: eredita
+    testo: Per capire perché sia così difficile disfarsene conviene leggere l'elenco
+      dei prodotti in cui sono finite, che è il vero monumento a questa chimica. Tessuti
+      impermeabili, pantaloni da ginnastica, tappeti, shampoo, prodotti per l'igiene
+      femminile, schermi di telefono, vernici murali, mobili, adesivi, imballaggi
+      alimentari, schiume antincendio, isolamento dei cavi elettrici, filo interdentale
+      e creme solari; e nella cosmesi rossetti, matite per occhi, mascara, fondotinta,
+      correttori, burrocacao, fard e smalti. Dall'invenzione del polimero originale
+      ne sono state create migliaia di varianti. Non si tratta di un prodotto da vietare
+      ma di una proprietà — respingere acqua, grasso e sporco — che l'industria ha
+      imparato a comprare, e che si compra sempre allo stesso prezzo.
+    attendibilita: documentato
+  - id: eredita-dove-si-accumulano
+    sezione: eredita
+    testo: 'La mappa della contaminazione segue le infrastrutture con cui una società
+      gestisce i propri scarti e i propri incidenti. Le concentrazioni più alte si
+      trovano negli impianti di trattamento delle acque reflue e nelle discariche,
+      cioè esattamente nei luoghi che dovrebbero contenere il problema; da lì passano
+      nelle acque sotterranee e nel suolo. Le colture assorbono quelle sostanze, che
+      si accumulano nei pesci, nel bestiame e nella fauna selvatica, diventando altrettante
+      vie di esposizione per le persone. E le aree attorno agli aeroporti e alle basi
+      aeree risultano contaminate dall''uso delle schiume antincendio: il fluoro arriva
+      anche dove si è passata la vita a prevenire un incendio che quasi mai è scoppiato.'
+    attendibilita: documentato
+  - id: eredita-i-preparatori-di-sci
+    sezione: eredita
+    testo: 'Chi sia oggi il più esposto di tutti è un dato che sorprende, e che dice
+      quanto la contaminazione si sia allontanata dalle ciminiere. Confrontando tutte
+      le esposizioni professionali e abitative documentate, le concentrazioni aeree
+      più alte in assoluto non si registrano in una fabbrica chimica ma fra i preparatori
+      professionali di sci, che scaldano e spalmano scioline fluorurate in ambienti
+      chiusi. La sorveglianza medica sui lavoratori del settore chimico era cominciata
+      negli anni Quaranta, e il primo studio che riportò livelli elevati di fluoro
+      organico nel loro sangue è del 1980: stabilì che l''inalazione era una via di
+      esposizione. Quarant''anni dopo, il primato è passato a chi prepara un paio
+      di sci.'
+    attendibilita: documentato
+  - id: eredita-la-pioggia
+    sezione: eredita
+    testo: 'Il meccanismo con cui queste molecole hanno raggiunto ogni angolo del
+      pianeta è stato chiarito da uno studio sul campo pubblicato nel 2021 da ricercatori
+      dell''Università di Stoccolma, e ha una sua eleganza sinistra: quando le onde
+      arrivano a riva, i composti passano dall''acqua all''aria, diventano una sorgente
+      significativa di inquinamento atmosferico e finiscono nella pioggia. Il mare
+      che li ha ricevuti li restituisce al cielo. Nel 2022 è stato riferito che nell''acqua
+      piovana le concentrazioni superano i livelli considerati sicuri, e le stesse
+      sostanze sono state trovate in aree remote come l''Antartide. L''elemento che
+      non si riusciva a tenere dentro un recipiente di vetro oggi non si riesce a
+      tenere dentro un continente.'
+    attendibilita: documentato
+  - id: eredita-trentuno-per-cento
+    sezione: eredita
+    testo: 'La misura più recente dice che la contaminazione non è più un fatto locale
+      nemmeno in linea di principio. Nel 2024 uno studio mondiale su quarantacinquemila
+      campioni di acque sotterranee ha trovato che il trentuno per cento conteneva
+      livelli di queste sostanze dannosi per la salute umana; e quei campioni erano
+      stati prelevati in zone non prossime ad alcuna sorgente evidente di contaminazione.
+      È il punto in cui la geografia smette di spiegare qualcosa: non esiste più un
+      a valle e un a monte, un dentro e un fuori dallo stabilimento. Quasi un terzo
+      delle falde campionate lontano da qualunque fabbrica porta il segno di una chimica
+      nata in una bombola dimenticata.'
+    attendibilita: documentato
+  - id: eredita-quello-che-non-si-sa
+    sezione: eredita
+    testo: 'Va detto con chiarezza che cosa non si sa, perché è la parte più grande.
+      Valutare il rischio di queste sostanze nel loro insieme è difficile per via
+      delle ampie lacune di dati sulla tossicità e sulle proprietà chimico-fisiche:
+      delle migliaia di composti in uso, soltanto pochi hanno attraversato una sperimentazione
+      biologica completa. Il quadro che si conosce, insomma, è ricavato da un campione
+      minuscolo della famiglia. Nel frattempo alcuni fra i maggiori produttori e utilizzatori
+      non hanno ratificato la convenzione internazionale, e l''industria chimica ha
+      fatto pressione sui governi per ridurre le regole. Si sta decidendo che cosa
+      fare di una classe di sostanze che nessuno ha finito di studiare, e la fretta
+      è tutta da una parte sola.'
+    attendibilita: documentato
+  - id: eredita-come-si-distrugge
+    sezione: eredita
+    testo: 'Distruggere queste molecole si può, e l''elenco dei modi in cui si fa
+      dice da solo quanto sia difficile. Le tecnologie disponibili si dividono in
+      tre tipi — separare, concentrare, distruggere — e quelle del terzo tipo richiedono
+      condizioni estreme: ossidazione in acqua supercritica, trattamento al plasma,
+      ossidazione sonochimica ed elettrochimica, fotodegradazione, trattamento idrotermale
+      alcalino, incenerimento. Non esiste, in quella lista, un metodo dolce. Per separare
+      il fluoro dal carbonio bisogna ricreare in un reattore qualcosa di paragonabile
+      alle condizioni in cui quel legame non regge, e la ragione è la stessa per cui
+      Moissan dovette lavorare a meno cinquanta gradi dentro un apparato di platino:
+      quel legame non si scioglie per cortesia.'
+    attendibilita: documentato
+  - id: eredita-chi-puo-spezzarlo
+    sezione: eredita
+    testo: 'Esiste comunque un elenco preciso di ciò che quel legame riesce ad aggredirlo,
+      ed è un elenco che chiude il cerchio con il resto della tavola periodica. Le
+      uniche sostanze note capaci di intaccare i legami carbonio-fluoro sono i metalli
+      fortemente reattivi come gli alcalini, e alle temperature più alte metalli come
+      l''alluminio e il magnesio; più gli agenti fluoruranti, fra cui il difluoruro
+      di xeno e il fluoruro di cobalto. Detta altrimenti: per smontare un composto
+      del fluoro servono i pochi elementi altrettanto avidi di elettroni, oppure altro
+      fluoro. La chimica non offre una terza via, e questo è il motivo tecnico per
+      cui «eterne» non è una metafora giornalistica.'
+    attendibilita: documentato
+  - id: eredita-chiusura
+    sezione: eredita
+    testo: 'Alla fine il fluoro resta l''elemento che era, e sono gli uomini ad aver
+      cambiato domanda. Per un secolo gli si è chiesto di farsi catturare, e la risposta
+      fu una fila di chimici avvelenati, perché niente al mondo tiene un elemento
+      che pretende un elettrone da chiunque. Poi gli si è chiesto il contrario, cioè
+      di stare fermo: di legarsi al carbonio e non muoversi più, in una padella, in
+      un impermeabile, in una guarnizione che trattiene l''esafluoruro di uranio.
+      A questa seconda domanda il fluoro ha risposto di sì, e ha risposto di sì per
+      sempre, che era l''unico modo in cui sapeva dire di sì. Le molecole che ne sono
+      nate non si rompono da sole, non si smaltiscono e non tornano indietro: stanno
+      nella pioggia, in un terzo delle falde campionate lontano da ogni fabbrica e,
+      diffusamente, nel sangue della popolazione generale. La violenza dell''Ottocento
+      e la persistenza di oggi non sono due capitoli diversi della sua storia: sono
+      la stessa proprietà, misurata prima da chi provava a tenerlo in mano e poi da
+      chi prova a liberarsene.'
+    attendibilita: documentato
 composti_principali:
 - nome: Acido fluoridrico
   formula: HF
@@ -222,3 +1091,27 @@ fonti:
 - url: https://www.nobelprize.org/prizes/chemistry/1906/moissan/facts/
   titolo: The Nobel Prize in Chemistry 1906 — Henri Moissan
   consultata: '2026-09-07'
+- url: https://en.wikipedia.org/wiki/PFAS
+  titolo: PFAS
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Perfluorooctanoic_acid
+  titolo: Perfluorooctanoic acid
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Water_fluoridation
+  titolo: Water fluoridation
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Hydrofluoric_acid
+  titolo: Hydrofluoric acid
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Fluorite
+  titolo: Fluorite
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Polytetrafluoroethylene
+  titolo: Polytetrafluoroethylene
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Uranium_hexafluoride
+  titolo: Uranium hexafluoride
+  consultata: 2026-09-18
+- url: https://en.wikipedia.org/wiki/Cryolite
+  titolo: Cryolite
+  consultata: 2026-09-18

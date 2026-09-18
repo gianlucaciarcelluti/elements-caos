@@ -131,6 +131,9 @@ Il polimero più famoso del fluoro nacque per sbaglio. Nel 1938 Roy Plunkett, ch
 
 La presenza del fluoro nei dentifrici si deve a un'osservazione epidemiologica: nelle zone dove l'acqua ne conteneva naturalmente di più la carie era molto meno diffusa, anche se un eccesso macchiava lo smalto. Lo ione fluoruro sostituisce parte degli ossidrili nel minerale del dente formando fluorapatite, più resistente all'attacco degli acidi. È l'elemento che nell'Ottocento uccideva i chimici e che oggi sta in ogni bagno, dosato in parti per milione.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Fluoro — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Ossigeno]] (1771)
@@ -145,6 +148,14 @@ Epoca: [[Chimica pneumatica]] · Scopritore: [[Carl Wilhelm Scheele]]
 - [Henri Moissan](https://en.wikipedia.org/wiki/Henri_Moissan) — consultata il 07/09/2026
 - [Not-So-Great Moments in Chemical Safety (Science History Institute)](https://www.sciencehistory.org/stories/magazine/not-so-great-moments-in-chemical-safety/) — consultata il 07/09/2026
 - [The Nobel Prize in Chemistry 1906 — Henri Moissan](https://www.nobelprize.org/prizes/chemistry/1906/moissan/facts/) — consultata il 07/09/2026
+- [PFAS](https://en.wikipedia.org/wiki/PFAS) — consultata il 18/09/2026
+- [Perfluorooctanoic acid](https://en.wikipedia.org/wiki/Perfluorooctanoic_acid) — consultata il 18/09/2026
+- [Water fluoridation](https://en.wikipedia.org/wiki/Water_fluoridation) — consultata il 18/09/2026
+- [Hydrofluoric acid](https://en.wikipedia.org/wiki/Hydrofluoric_acid) — consultata il 18/09/2026
+- [Fluorite](https://en.wikipedia.org/wiki/Fluorite) — consultata il 18/09/2026
+- [Polytetrafluoroethylene](https://en.wikipedia.org/wiki/Polytetrafluoroethylene) — consultata il 18/09/2026
+- [Uranium hexafluoride](https://en.wikipedia.org/wiki/Uranium_hexafluoride) — consultata il 18/09/2026
+- [Cryolite](https://en.wikipedia.org/wiki/Cryolite) — consultata il 18/09/2026
 
 ---
 
