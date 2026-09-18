@@ -148,7 +148,7 @@ Epoca: [[Chimica pneumatica]] · Scopritori: [[Louis-Bernard Guyton de Morveau]]
 - [The Méthode de nomenclature chimique (1787): A Document of Transition](https://www.tandfonline.com/doi/full/10.1080/00026980.2017.1418233) — consultata il 07/09/2026
 - [Louis-Bernard Guyton de Morveau](https://en.wikipedia.org/wiki/Guyton_de_Morveau) — consultata il 07/09/2026
 - [Twenty-mule team](https://en.wikipedia.org/wiki/Twenty-mule_team) — consultata il 07/09/2026
-- [Borates in insulation](https://www.borax.com/products/applications/insulation) — consultata il 07/09/2026
+- [Borates in insulation](https://www.borax.com/applications/insulation) — consultata il 07/09/2026
 
 ---
 
