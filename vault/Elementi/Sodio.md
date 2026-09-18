@@ -138,6 +138,9 @@ flowchart LR
 
 Fra gli assistenti che Davy assunse nel suo laboratorio ci fu un giovane rilegatore di libri appassionato di scienza, Michael Faraday, che sarebbe diventato uno dei più grandi fisici della storia, superando per fama lo stesso Davy.
 
+> [!tip] Approfondimento
+> La vicenda completa in [[Sodio — storia estesa]].
+
 ## Nella cronologia
 
 ← Precedente: [[Rodio]] (1804)
@@ -151,6 +154,26 @@ Epoca: [[L'età dell'elettrolisi]] · Scopritore: [[Humphry Davy]]
 - [Humphry Davy](https://en.wikipedia.org/wiki/Humphry_Davy) — consultata il 05/09/2026
 - [Davy's Elements (1805-1824)](https://uwaterloo.ca/chemistry/community-outreach/timeline-of-elements/davys-elements-1805-1824) — consultata il 05/09/2026
 - [Humphry Davy, On Some New Phenomena of Chemical Changes Produced by Electricity (Bakerian Lecture, Philosophical Transactions, 1808)](https://www.chemteam.info/Chem-History/Davy-Na&K-1808.html) — consultata il 08/09/2026
+- [History of salt](https://en.wikipedia.org/wiki/History_of_salt) — consultata il 17/09/2026
+- [Salt](https://en.wikipedia.org/wiki/Salt) — consultata il 17/09/2026
+- [Salt tax](https://en.wikipedia.org/wiki/Salt_tax) — consultata il 17/09/2026
+- [Gabelle](https://en.wikipedia.org/wiki/Gabelle) — consultata il 17/09/2026
+- [History of the salt tax in British India](https://en.wikipedia.org/wiki/History_of_the_salt_tax_in_British_India) — consultata il 17/09/2026
+- [Salt March](https://en.wikipedia.org/wiki/Salt_March) — consultata il 17/09/2026
+- [Inland Customs Line](https://en.wikipedia.org/wiki/Inland_Customs_Line) — consultata il 17/09/2026
+- [Salt in Chinese history](https://en.wikipedia.org/wiki/Salt_in_Chinese_history) — consultata il 17/09/2026
+- [Sodium chloride](https://en.wikipedia.org/wiki/Sodium_chloride) — consultata il 17/09/2026
+- [Sodium carbonate](https://en.wikipedia.org/wiki/Sodium_carbonate) — consultata il 17/09/2026
+- [Leblanc process](https://en.wikipedia.org/wiki/Leblanc_process) — consultata il 17/09/2026
+- [Nicolas Leblanc](https://en.wikipedia.org/wiki/Nicolas_Leblanc) — consultata il 17/09/2026
+- [Solvay process](https://en.wikipedia.org/wiki/Solvay_process) — consultata il 17/09/2026
+- [Alkali Act 1863](https://en.wikipedia.org/wiki/Alkali_Act_1863) — consultata il 17/09/2026
+- [Sodium in biology](https://en.wikipedia.org/wiki/Sodium_in_biology) — consultata il 17/09/2026
+- [Sodium-vapor lamp](https://en.wikipedia.org/wiki/Sodium-vapor_lamp) — consultata il 17/09/2026
+- [Sodium-ion battery](https://en.wikipedia.org/wiki/Sodium-ion_battery) — consultata il 17/09/2026
+- [Natron](https://en.wikipedia.org/wiki/Natron) — consultata il 17/09/2026
+- [Iodised salt](https://en.wikipedia.org/wiki/Iodised_salt) — consultata il 17/09/2026
+- [Halite](https://en.wikipedia.org/wiki/Halite) — consultata il 17/09/2026
 
 ---
 
